@@ -1,0 +1,6 @@
+{
+  "name": "SocialWealth",
+  "description": "Domine o jogo das redes sociais e transforme sua influência em lucro real com estratégias avançadas de TikTok, Meta e YouTube.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": []
+}
