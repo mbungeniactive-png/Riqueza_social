@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Mail, Lock, Phone, ArrowRight, Chrome, Loader2 } from 'lucide-react';
-import { signInWithGoogle, resetPassword } from '../lib/firebase';
+import { signInWithGoogle, resetPassword, signInWithEmail, signUpWithEmail } from '../lib/firebase';
 import { useLanguage } from '../hooks/useLanguage';
 
 interface AuthProps {
-  onLoginSuccess: (user: any) => void;
+  onLoginSuccess: (user: any) => Promise<void> | void;
 }
 
 export const Auth: React.FC<AuthProps> = ({ onLoginSuccess }) => {
   const { t } = useLanguage();
+  const [isSignUp, setIsSignUp] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -21,9 +22,62 @@ export const Auth: React.FC<AuthProps> = ({ onLoginSuccess }) => {
     setError(null);
     try {
       const user = await signInWithGoogle();
-      onLoginSuccess(user);
+      await onLoginSuccess(user);
     } catch (err: any) {
       setError(t('auth.google_error'));
+      console.error(err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleEmailAuth = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email || !password) {
+      setError('Por favor, preencha todos os campos.');
+      return;
+    }
+    
+    setLoading(true);
+    setError(null);
+    try {
+      if (isSignUp) {
+        const user = await signUpWithEmail(email, password);
+        await onLoginSuccess(user);
+      } else {
+        const user = await signInWithEmail(email, password);
+        await onLoginSuccess(user);
+      }
+    } catch (err: any) {
+      if (err.code === 'auth/email-already-in-use') {
+        try {
+          const user = await signInWithEmail(email, password);
+          await onLoginSuccess(user);
+        } catch (loginErr: any) {
+          if (loginErr.code === 'auth/wrong-password' || loginErr.code === 'auth/invalid-credential') {
+             setError('Este e-mail já está em uso, mas a senha está incorreta. Tente fazer login.');
+             setIsSignUp(false);
+          } else {
+             setError('Este e-mail já está em uso.');
+          }
+        }
+      } else if (err.code === 'auth/wrong-password' || err.code === 'auth/invalid-credential') {
+        setError('E-mail ou senha inválidos.');
+      } else if (err.code === 'auth/user-not-found') {
+        try {
+          const user = await signUpWithEmail(email, password);
+          await onLoginSuccess(user);
+        } catch (signupErr: any) {
+          setError('Conta não encontrada.');
+          setIsSignUp(true);
+        }
+      } else if (err.code === 'auth/weak-password') {
+        setError('A senha deve ter pelo menos 6 caracteres.');
+      } else if (err.code === 'auth/operation-not-allowed') {
+        setError('O login por e-mail e senha não está ativado. Ative "E-mail/senha" na aba de Autenticação do console do Firebase.');
+      } else {
+        setError(err.message || 'Ocorreu um erro. Tente novamente.');
+      }
       console.error(err);
     } finally {
       setLoading(false);
@@ -87,7 +141,7 @@ export const Auth: React.FC<AuthProps> = ({ onLoginSuccess }) => {
           </motion.div>
         )}
 
-        <div className="space-y-4 mb-8">
+        <form onSubmit={handleEmailAuth} className="space-y-4 mb-8">
           <div className="relative group">
             <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 dark:text-slate-600 w-5 h-5 transition-colors group-focus-within:text-blue-500" />
             <input
@@ -111,28 +165,31 @@ export const Auth: React.FC<AuthProps> = ({ onLoginSuccess }) => {
           </div>
 
           <div className="flex justify-end px-2">
-            <button 
-              type="button"
-              onClick={handleResetPassword}
-              disabled={loading}
-              className="text-xs font-bold text-blue-600 dark:text-blue-400 hover:underline disabled:opacity-50"
-            >
-              {t('auth.forgot_password')}
-            </button>
+            {!isSignUp && (
+              <button 
+                type="button"
+                onClick={handleResetPassword}
+                disabled={loading}
+                className="text-xs font-bold text-blue-600 dark:text-blue-400 hover:underline disabled:opacity-50"
+              >
+                {t('auth.forgot_password')}
+              </button>
+            )}
           </div>
 
           <button
+            type="submit"
             disabled={loading}
             className="w-full bg-slate-900 dark:bg-blue-600 text-white py-4 sm:py-5 rounded-3xl font-bold shadow-xl shadow-slate-200 dark:shadow-none active:scale-95 transition-all flex items-center justify-center gap-2 disabled:opacity-50"
           >
             {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : (
               <>
-                {t('auth.login_button')}
+                {isSignUp ? t('auth.signup_button') : t('auth.login_button')}
                 <ArrowRight className="w-5 h-5" />
               </>
             )}
           </button>
-        </div>
+        </form>
 
         <div className="flex items-center gap-4 mb-8">
           <div className="flex-1 h-px bg-slate-100 dark:bg-white/5" />
@@ -142,6 +199,7 @@ export const Auth: React.FC<AuthProps> = ({ onLoginSuccess }) => {
 
         <div className="grid grid-cols-1 gap-4">
           <button
+            type="button"
             disabled={loading}
             onClick={handleGoogleLogin}
             className="w-full flex items-center justify-center gap-3 py-4 sm:py-5 bg-white dark:bg-white/5 border-2 border-slate-100 dark:border-white/10 rounded-3xl font-bold text-slate-700 dark:text-white hover:bg-slate-50 dark:hover:bg-white/10 active:scale-95 transition-all disabled:opacity-50 group"
@@ -179,9 +237,13 @@ export const Auth: React.FC<AuthProps> = ({ onLoginSuccess }) => {
 
       <div className="py-8 text-center mt-auto">
         <p className="text-slate-400 dark:text-slate-500 text-sm font-medium">
-          {t('auth.no_account')}{' '}
-          <button className="text-blue-600 dark:text-blue-400 font-black hover:underline">
-            {t('auth.signup_button')}
+          {isSignUp ? t('auth.has_account') : t('auth.no_account')}{' '}
+          <button 
+            type="button"
+            onClick={() => setIsSignUp(!isSignUp)}
+            className="text-blue-600 dark:text-blue-400 font-black hover:underline"
+          >
+            {isSignUp ? t('auth.login_button') : t('auth.signup_button')}
           </button>
         </p>
       </div>

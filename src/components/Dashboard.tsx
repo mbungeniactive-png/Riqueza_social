@@ -34,6 +34,8 @@ import { useTheme } from '../hooks/useTheme';
 import { useLanguage } from '../hooks/useLanguage';
 import { useSettings, ResponseStyle, ThemeColor } from '../hooks/useSettings';
 
+import { auth } from '../lib/firebase';
+
 interface DashboardProps {
   onSelectSection: (sectionId: string) => void;
   onLogout: () => void;
@@ -276,7 +278,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout,
                           onClick={() => {
                             if (navigator.share) {
                               navigator.share({
-                                title: 'SocialWealth',
+                                title: 'MoneyNet Ai',
                                 text: 'Aprenda a dominar as redes sociais e ganhe dinheiro online!',
                                 url: window.location.href
                               });
@@ -392,8 +394,11 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout,
                         <div className="h-px bg-slate-100 dark:bg-white/5 my-2" />
 
                         <button 
-                          onClick={() => {
+                          onClick={async () => {
                             if (window.confirm('Deseja realmente limpar todo seu progresso?')) {
+                              try {
+                                await auth.signOut();
+                              } catch (e) {}
                               localStorage.clear();
                               window.location.reload();
                             }

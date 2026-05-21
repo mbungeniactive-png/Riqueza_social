@@ -12,7 +12,6 @@ import { Dashboard } from './components/Dashboard';
 import { SectionView } from './components/SectionView';
 import { ChatMentor } from './components/ChatMentor';
 import { TikTokInsights } from './components/TikTokInsights';
-import { BottomNav } from './components/BottomNav';
 import { useLanguage } from './hooks/useLanguage';
 import { CONTENT_BY_LANGUAGE } from './constants/content';
 import { auth, createUserProfile } from './lib/firebase';
@@ -43,33 +42,29 @@ export default function App() {
   const [initializing, setInitializing] = useState(true);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, async (user) => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
       setCurrentUser(user);
       if (user) {
-        if (user.email) {
-          await createUserProfile(
-            user.uid, 
-            user.email, 
-            user.displayName || 'Investidor', 
-            selectedCountry, 
-            selectedLanguage,
-            5
-          );
-        }
-        // If user is authenticated, always jump to dashboard unless they are in a specific view
-        if (step === 'auth' || step === 'onboarding' || step === 'country' || step === 'language') {
-          setStep('dashboard');
-        }
+        // If user is authenticated, jump to dashboard unless in a specific view
+        setStep(currentStep => {
+          if (currentStep === 'auth' || currentStep === 'onboarding' || currentStep === 'country' || currentStep === 'language') {
+            return 'dashboard';
+          }
+          return currentStep;
+        });
       } else {
-        // If user logs out, they should go back to auth if they finished onboarding
-        if (step === 'dashboard' || step === 'section' || step === 'mentor_ia' || step === 'tiktok_insights') {
-          setStep('auth');
-        }
+        // If user logs out, go back to auth
+        setStep(currentStep => {
+          if (currentStep === 'dashboard' || currentStep === 'section' || currentStep === 'mentor_ia' || currentStep === 'tiktok_insights') {
+            return 'auth';
+          }
+          return currentStep;
+        });
       }
       setInitializing(false);
     });
     return () => unsubscribe();
-  }, [selectedCountry, selectedLanguage]);
+  }, []);
 
   const handleOnboardingComplete = () => {
     localStorage.setItem('onboarding_done', 'true');
@@ -92,14 +87,18 @@ export default function App() {
   const handleLoginSuccess = async (user: User) => {
     setCurrentUser(user);
     if (user.email) {
-      await createUserProfile(
-        user.uid, 
-        user.email, 
-        user.displayName || 'Investidor', 
-        selectedCountry, 
-        selectedLanguage,
-        5 // Initial credits
-      );
+      try {
+        await createUserProfile(
+          user.uid, 
+          user.email, 
+          user.displayName || 'Investidor', 
+          selectedCountry, 
+          selectedLanguage,
+          5 // Initial credits
+        );
+      } catch (err) {
+        console.error('Error creating user profile:', err);
+      }
     }
     setStep('dashboard');
   };
@@ -206,12 +205,6 @@ export default function App() {
         </div>
       )}
 
-      {(step === 'dashboard' || step === 'mentor_ia' || step === 'tiktok_insights') && (
-        <BottomNav 
-          currentStep={step} 
-          onNavigate={setStep} 
-        />
-      )}
     </div>
   );
 }

@@ -88,6 +88,7 @@ export const TRANSLATIONS: Record<Language, any> = {
       google_button: 'Entrar com Google',
       phone_button: 'Telefone',
       no_account: 'Ainda não tem uma conta?',
+      has_account: 'Já tem uma conta?',
       signup_button: 'Cadastre-se',
       reset_success: 'E-mail de redefinição enviado com sucesso!',
       google_error: 'Falha no login com Google. Tente novamente.'
@@ -180,6 +181,7 @@ export const TRANSLATIONS: Record<Language, any> = {
       google_button: 'Sign in with Google',
       phone_button: 'Phone',
       no_account: "Don't have an account?",
+      has_account: 'Already have an account?',
       signup_button: 'Sign Up',
       reset_success: 'Password reset email sent successfully!',
       google_error: 'Google login failed. Please try again.'
@@ -272,6 +274,7 @@ export const TRANSLATIONS: Record<Language, any> = {
       google_button: 'Entrar con Google',
       phone_button: 'Teléfono',
       no_account: '¿Aún no tienes una cuenta?',
+      has_account: '¿Ya tienes una cuenta?',
       signup_button: 'Regístrate',
       reset_success: '¡Correo de restablecimiento enviado con éxito!',
       google_error: 'Fallo en el inicio de sesión con Google. Inténtalo de nuevo.'
@@ -364,6 +367,7 @@ export const TRANSLATIONS: Record<Language, any> = {
       google_button: 'Se connecter avec Google',
       phone_button: 'Téléphone',
       no_account: "Vous n'avez pas encore de compte ?",
+      has_account: 'Vous avez déjà un compte ?',
       signup_button: "S'inscrire",
       reset_success: 'E-mail de réinitialisation envoyé avec succès !',
       google_error: 'Échec de la connexion avec Google. Veuillez réessayer.'
