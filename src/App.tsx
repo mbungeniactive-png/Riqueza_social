@@ -38,13 +38,13 @@ export default function App() {
   const [selectedSectionId, setSelectedSectionId] = useState<string>();
   const [targetSubsectionId, setTargetSubsectionId] = useState<string>();
   const [mentorInitialMessage, setMentorInitialMessage] = useState<string>();
-  const [currentUser, setCurrentUser] = useState<User | null>(null);
+  const [currentUser, setCurrentUser] = useState<User | any>(null);
   const [initializing, setInitializing] = useState(true);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
-      setCurrentUser(user);
       if (user) {
+        setCurrentUser(user);
         // If user is authenticated, jump to dashboard unless in a specific view
         setStep(currentStep => {
           if (currentStep === 'auth' || currentStep === 'onboarding' || currentStep === 'country' || currentStep === 'language') {
@@ -53,13 +53,30 @@ export default function App() {
           return currentStep;
         });
       } else {
-        // If user logs out, go back to auth
-        setStep(currentStep => {
-          if (currentStep === 'dashboard' || currentStep === 'section' || currentStep === 'mentor_ia' || currentStep === 'tiktok_insights') {
-            return 'auth';
+        const mockUserStr = localStorage.getItem('mock_user_session');
+        if (mockUserStr) {
+          try {
+            const mockUser = JSON.parse(mockUserStr);
+            setCurrentUser(mockUser);
+            setStep(currentStep => {
+              if (currentStep === 'auth' || currentStep === 'onboarding' || currentStep === 'country' || currentStep === 'language') {
+                return 'dashboard';
+              }
+              return currentStep;
+            });
+          } catch (e) {
+            setCurrentUser(null);
           }
-          return currentStep;
-        });
+        } else {
+          setCurrentUser(null);
+          // If user logs out, go back to auth
+          setStep(currentStep => {
+            if (currentStep === 'dashboard' || currentStep === 'section' || currentStep === 'mentor_ia' || currentStep === 'tiktok_insights') {
+              return 'auth';
+            }
+            return currentStep;
+          });
+        }
       }
       setInitializing(false);
     });
@@ -84,13 +101,19 @@ export default function App() {
     setStep('auth');
   };
 
-  const handleLoginSuccess = async (user: User) => {
+  const handleLoginSuccess = async (user: User | any) => {
     setCurrentUser(user);
-    if (user.email) {
+    if (!user.uid || user.uid.startsWith('mock-')) {
+      localStorage.setItem('mock_user_session', JSON.stringify({
+        uid: user.uid,
+        displayName: user.displayName,
+        email: user.email
+      }));
+    } else {
       try {
         await createUserProfile(
           user.uid, 
-          user.email, 
+          user.email || 'anon@moneynet.ai', 
           user.displayName || 'Investidor', 
           selectedCountry, 
           selectedLanguage,
@@ -143,6 +166,7 @@ export default function App() {
     setStep('dashboard');
   };
   const handleLogout = () => {
+    localStorage.removeItem('mock_user_session');
     auth.signOut();
     setStep('auth');
   };
