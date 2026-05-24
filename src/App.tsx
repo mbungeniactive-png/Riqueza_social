@@ -12,12 +12,13 @@ import { Dashboard } from './components/Dashboard';
 import { SectionView } from './components/SectionView';
 import { ChatMentor } from './components/ChatMentor';
 import { TikTokInsights } from './components/TikTokInsights';
+import { UserProfile } from './components/UserProfile';
 import { useLanguage } from './hooks/useLanguage';
 import { CONTENT_BY_LANGUAGE } from './constants/content';
 import { auth, createUserProfile } from './lib/firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
 
-type AppStep = 'onboarding' | 'country' | 'language' | 'auth' | 'dashboard' | 'section' | 'mentor_ia' | 'tiktok_insights';
+type AppStep = 'onboarding' | 'country' | 'language' | 'auth' | 'dashboard' | 'section' | 'mentor_ia' | 'tiktok_insights' | 'profile';
 
 export default function App() {
   const { language } = useLanguage();
@@ -40,11 +41,31 @@ export default function App() {
   const [mentorInitialMessage, setMentorInitialMessage] = useState<string>();
   const [currentUser, setCurrentUser] = useState<User | any>(null);
   const [initializing, setInitializing] = useState(true);
+  const [userName, setUserName] = useState<string>(() => {
+    const saved = localStorage.getItem('user_profile_data');
+    if (saved) {
+      try {
+        const p = JSON.parse(saved);
+        if (p.displayName) return p.displayName;
+      } catch (e) {}
+    }
+    const mockUserStr = localStorage.getItem('mock_user_session');
+    if (mockUserStr) {
+      try {
+        const u = JSON.parse(mockUserStr);
+        if (u.displayName) return u.displayName;
+      } catch (e) {}
+    }
+    return '';
+  });
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         setCurrentUser(user);
+        if (user.displayName) {
+          setUserName(prev => prev || user.displayName || '');
+        }
         // If user is authenticated, jump to dashboard unless in a specific view
         setStep(currentStep => {
           if (currentStep === 'auth' || currentStep === 'onboarding' || currentStep === 'country' || currentStep === 'language') {
@@ -103,6 +124,7 @@ export default function App() {
 
   const handleLoginSuccess = async (user: User | any) => {
     setCurrentUser(user);
+    setUserName(user.displayName || 'Investidor');
     if (!user.uid || user.uid.startsWith('mock-')) {
       localStorage.setItem('mock_user_session', JSON.stringify({
         uid: user.uid,
@@ -136,6 +158,10 @@ export default function App() {
     
     if (id === 'mentor_ia') {
       setStep('mentor_ia');
+    } else if (id === 'tiktok_insights') {
+      setStep('tiktok_insights');
+    } else if (id === 'profile') {
+      setStep('profile');
     } else if (id === 'change_country') {
       setStep('country');
     } else if (id === 'change_language') {
@@ -195,7 +221,7 @@ export default function App() {
       {step === 'dashboard' && (
         <div className="flex-1 overflow-hidden">
           <Dashboard 
-            userName={currentUser?.displayName || undefined}
+            userName={userName || currentUser?.displayName || 'Investidor'}
             onSelectSection={handleSelectSection} 
             onLogout={handleLogout}
           />
@@ -226,6 +252,17 @@ export default function App() {
       {step === 'tiktok_insights' && (
         <div className="flex-1 overflow-hidden">
           <TikTokInsights onBack={handleBackToDashboard} />
+        </div>
+      )}
+
+      {step === 'profile' && (
+        <div className="flex-1 overflow-hidden">
+          <UserProfile 
+            onBack={handleBackToDashboard} 
+            onProfileUpdated={(newName) => {
+              setUserName(newName);
+            }}
+          />
         </div>
       )}
 

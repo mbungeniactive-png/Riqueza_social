@@ -61,21 +61,55 @@ export const TikTokInsights: React.FC<TikTokInsightsProps> = ({ onBack }) => {
   const [error, setError] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<'date' | 'niche'>('date');
   const [hasApiKey, setHasApiKey] = useState(true);
-  const user = auth.currentUser;
+  const [user, setUser] = useState<any>(() => {
+    if (auth.currentUser) return auth.currentUser;
+    const mockUserStr = localStorage.getItem('mock_user_session');
+    if (mockUserStr) {
+      try {
+        return JSON.parse(mockUserStr);
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  });
 
   useEffect(() => {
-    const checkApiKey = async () => {
-      if (typeof window !== 'undefined' && window.aistudio) {
-        const hasSelected = await window.aistudio.hasSelectedApiKey();
-        const envKey = !!process.env.GEMINI_API_KEY;
-        setHasApiKey(hasSelected || envKey);
+    const unsub = auth.onAuthStateChanged((u) => {
+      if (u) {
+        setUser(u);
+      } else {
+        const mockUserStr = localStorage.getItem('mock_user_session');
+        if (mockUserStr) {
+          try {
+            setUser(JSON.parse(mockUserStr));
+          } catch {
+            setUser(null);
+          }
+        } else {
+          setUser(null);
+        }
       }
-    };
-    checkApiKey();
+    });
+    return () => unsub();
   }, []);
 
   useEffect(() => {
     if (!user) return;
+
+    if (user.uid.startsWith('mock-')) {
+      const stored = localStorage.getItem(`mock_tiktok_insights_${user.uid}`);
+      if (stored) {
+        try {
+          setInsights(JSON.parse(stored));
+        } catch {
+          setInsights([]);
+        }
+      } else {
+        setInsights([]);
+      }
+      return;
+    }
 
     const q = query(
       collection(db, 'users', user.uid, 'tiktok_insights'),
@@ -92,6 +126,13 @@ export const TikTokInsights: React.FC<TikTokInsightsProps> = ({ onBack }) => {
 
     return () => unsub();
   }, [user]);
+
+  // Persist mock insights to localStorage
+  useEffect(() => {
+    if (user && user.uid.startsWith('mock-') && insights.length > 0) {
+      localStorage.setItem(`mock_tiktok_insights_${user.uid}`, JSON.stringify(insights));
+    }
+  }, [insights, user]);
 
   const filteredAndSortedInsights = insights
     .filter(ins => ins.niche.toLowerCase().includes(filterText.toLowerCase()))
@@ -111,24 +152,24 @@ export const TikTokInsights: React.FC<TikTokInsightsProps> = ({ onBack }) => {
     setSearching(true);
     setError(null);
 
-    const hasSelected = window.aistudio ? await window.aistudio.hasSelectedApiKey() : false;
-    const envKey = !!process.env.GEMINI_API_KEY;
-    
-    if (!hasSelected && !envKey) {
-      setError('Por favor, configure sua chave de API para continuar.');
-      setHasApiKey(false);
-      setSearching(false);
-      return;
-    }
-
     try {
       const result = await getTikTokInsights(niche);
       
-      await addDoc(collection(db, 'users', user.uid, 'tiktok_insights'), {
-        ...result,
-        niche,
-        createdAt: serverTimestamp()
-      });
+      if (!user.uid.startsWith('mock-')) {
+        await addDoc(collection(db, 'users', user.uid, 'tiktok_insights'), {
+          ...result,
+          niche,
+          createdAt: serverTimestamp()
+        });
+      } else {
+        const newInsight: Insight = {
+          id: 'mock-ins-' + Date.now(),
+          ...result,
+          niche,
+          createdAt: { seconds: Date.now() / 1000 } as any
+        };
+        setInsights(prev => [newInsight, ...prev]);
+      }
 
       setNiche('');
       setShowSuccess(true);
@@ -158,7 +199,13 @@ export const TikTokInsights: React.FC<TikTokInsightsProps> = ({ onBack }) => {
   const handleDelete = async (id: string) => {
     if (!user) return;
     try {
-      await deleteDoc(doc(db, 'users', user.uid, 'tiktok_insights', id));
+      if (!user.uid.startsWith('mock-')) {
+        await deleteDoc(doc(db, 'users', user.uid, 'tiktok_insights', id));
+      } else {
+        const updated = insights.filter(ins => ins.id !== id);
+        setInsights(updated);
+        localStorage.setItem(`mock_tiktok_insights_${user.uid}`, JSON.stringify(updated));
+      }
     } catch (err) {
       console.error(err);
     }

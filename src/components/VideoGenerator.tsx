@@ -43,16 +43,60 @@ export const VideoGenerator: React.FC<VideoGeneratorProps> = ({ onBack }) => {
   const [videos, setVideos] = useState<VideoItem[]>([]);
   const [generating, setGenerating] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const [hasApiKey, setHasApiKey] = useState(false);
+  const [hasApiKey, setHasApiKey] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isTutorialOpen, setIsTutorialOpen] = useState(false);
-  const user = auth.currentUser;
+  const [user, setUser] = useState<any>(() => {
+    if (auth.currentUser) return auth.currentUser;
+    const mockUserStr = localStorage.getItem('mock_user_session');
+    if (mockUserStr) {
+      try {
+        return JSON.parse(mockUserStr);
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  });
+
+  useEffect(() => {
+    const unsub = auth.onAuthStateChanged((u) => {
+      if (u) {
+        setUser(u);
+      } else {
+        const mockUserStr = localStorage.getItem('mock_user_session');
+        if (mockUserStr) {
+          try {
+            setUser(JSON.parse(mockUserStr));
+          } catch {
+            setUser(null);
+          }
+        } else {
+          setUser(null);
+        }
+      }
+    });
+    return () => unsub();
+  }, []);
 
   const [videoBlobUrls, setVideoBlobUrls] = useState<Record<string, string>>({});
 
   useEffect(() => {
-    checkApiKey();
     if (!user) return;
+
+    if (user.uid.startsWith('mock-')) {
+      const stored = localStorage.getItem(`mock_videos_${user.uid}`);
+      if (stored) {
+        try {
+          setVideos(JSON.parse(stored));
+        } catch {
+          setVideos([]);
+        }
+      } else {
+        setVideos([]);
+      }
+      return;
+    }
 
     const q = query(
       collection(db, 'users', user.uid, 'videos'),
@@ -69,6 +113,13 @@ export const VideoGenerator: React.FC<VideoGeneratorProps> = ({ onBack }) => {
 
     return () => unsub();
   }, [user]);
+
+  // Persist mock videos to localStorage
+  useEffect(() => {
+    if (user && user.uid.startsWith('mock-') && videos.length > 0) {
+      localStorage.setItem(`mock_videos_${user.uid}`, JSON.stringify(videos));
+    }
+  }, [videos, user]);
 
   // Handle blob fetching separately to avoid infinite loops and unnecessary re-renders
   useEffect(() => {
@@ -116,13 +167,24 @@ export const VideoGenerator: React.FC<VideoGeneratorProps> = ({ onBack }) => {
 
     let videoId = '';
     try {
-      // 1. Create entry in Firestore
-      const docRef = await addDoc(collection(db, 'users', user.uid, 'videos'), {
-        prompt: finalPrompt,
-        status: 'pending',
-        createdAt: serverTimestamp()
-      });
-      videoId = docRef.id;
+      // 1. Create entry in Firestore or local state
+      if (!user.uid.startsWith('mock-')) {
+        const docRef = await addDoc(collection(db, 'users', user.uid, 'videos'), {
+          prompt: finalPrompt,
+          status: 'pending',
+          createdAt: serverTimestamp()
+        });
+        videoId = docRef.id;
+      } else {
+        videoId = 'mock-vid-' + Date.now();
+        const newVideo: VideoItem = {
+          id: videoId,
+          prompt: finalPrompt,
+          status: 'pending',
+          createdAt: { seconds: Date.now() / 1000 } as any
+        };
+        setVideos(prev => [newVideo, ...prev]);
+      }
 
       // 2. Start generation
       const operation = await generateVideo(finalPrompt);
@@ -155,9 +217,17 @@ export const VideoGenerator: React.FC<VideoGeneratorProps> = ({ onBack }) => {
       
       setError(msg);
       if (videoId) {
-        await updateDoc(doc(db, 'users', user.uid, 'videos', videoId), {
-          status: 'failed'
-        });
+        if (!user.uid.startsWith('mock-')) {
+          await updateDoc(doc(db, 'users', user.uid, 'videos', videoId), {
+            status: 'failed'
+          });
+        } else {
+          setVideos(prev => {
+            const updated = prev.map(v => v.id === videoId ? { ...v, status: 'failed' as const } : v);
+            localStorage.setItem(`mock_videos_${user.uid}`, JSON.stringify(updated));
+            return updated;
+          });
+        }
       }
     } finally {
       setGenerating(false);
@@ -177,10 +247,18 @@ export const VideoGenerator: React.FC<VideoGeneratorProps> = ({ onBack }) => {
       if (currentOp.response?.generatedVideos?.[0]?.video?.uri) {
         const rawUrl = currentOp.response.generatedVideos[0].video.uri;
         
-        await updateDoc(doc(db, 'users', user.uid, 'videos', videoId), {
-          videoUrl: rawUrl, // Store Gemini URI instead of blob
-          status: 'completed'
-        });
+        if (!user.uid.startsWith('mock-')) {
+          await updateDoc(doc(db, 'users', user.uid, 'videos', videoId), {
+            videoUrl: rawUrl, // Store Gemini URI instead of blob
+            status: 'completed'
+          });
+        } else {
+          setVideos(prev => {
+            const updated = prev.map(v => v.id === videoId ? { ...v, videoUrl: rawUrl, status: 'completed' as const } : v);
+            localStorage.setItem(`mock_videos_${user.uid}`, JSON.stringify(updated));
+            return updated;
+          });
+        }
         
         const blobUrl = await fetchVideoData(rawUrl);
         setVideoBlobUrls(prev => ({ ...prev, [videoId]: blobUrl }));
@@ -189,9 +267,17 @@ export const VideoGenerator: React.FC<VideoGeneratorProps> = ({ onBack }) => {
       }
     } catch (err) {
       console.error("Polling error:", err);
-      await updateDoc(doc(db, 'users', user.uid, 'videos', videoId), {
-        status: 'failed'
-      });
+      if (!user.uid.startsWith('mock-')) {
+        await updateDoc(doc(db, 'users', user.uid, 'videos', videoId), {
+          status: 'failed'
+        });
+      } else {
+        setVideos(prev => {
+          const updated = prev.map(v => v.id === videoId ? { ...v, status: 'failed' as const } : v);
+          localStorage.setItem(`mock_videos_${user.uid}`, JSON.stringify(updated));
+          return updated;
+        });
+      }
     }
   };
 

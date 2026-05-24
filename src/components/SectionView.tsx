@@ -228,8 +228,12 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
           url,
         });
         showToast(t('sections.share_success'), 'success');
-      } catch (err) {
-        console.log('Error sharing:', err);
+      } catch (err: any) {
+        console.log('Share error or canceled:', err);
+        // Only run fallback copy if the user DID NOT explicitly cancel the share dialog
+        if (err && err.name !== 'AbortError' && !err.message?.includes('cancel') && !err.message?.includes('Cancel')) {
+          copyToClipboard(url, id || 'main');
+        }
       }
     } else {
       copyToClipboard(url, id || 'main');
@@ -271,13 +275,15 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
   };
 
   const scrollToId = (id: string) => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
     const element = document.getElementById(id);
     if (element) {
-      const headerOffset = 180;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const containerTop = container.getBoundingClientRect().top;
+      const elementTop = element.getBoundingClientRect().top;
+      const offsetPosition = container.scrollTop + (elementTop - containerTop) - 20;
 
-      window.scrollTo({
+      container.scrollTo({
         top: offsetPosition,
         behavior: 'smooth'
       });
@@ -321,7 +327,7 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
             <button
               key={`nav-${sub.id}`}
               onClick={() => scrollToId(sub.id)}
-              className="whitespace-nowrap px-4 py-2 bg-slate-100 dark:bg-white/5 rounded-full text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400 hover:bg-blue-50 dark:hover:bg-blue-500/20 hover:text-blue-600 dark:hover:text-blue-400 transition-all shadow-sm"
+              className="whitespace-nowrap px-4 py-2 bg-slate-100 dark:bg-white/5 rounded-full text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400 hover:bg-blue-50 dark:hover:bg-blue-500/20 hover:text-blue-600 dark:hover:text-blue-400 transition-all shadow-sm cursor-pointer"
             >
               {sub.title}
             </button>
@@ -329,7 +335,7 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
         </div>
       )}
 
-      <div ref={scrollContainerRef} className="flex-1 overflow-y-auto no-scrollbar select-none">
+      <div ref={scrollContainerRef} className="flex-1 overflow-y-auto no-scrollbar">
         {/* Banner Area */}
         <div className="p-6 sm:p-8 bg-slate-50 dark:bg-white/5 border-b border-slate-100 dark:border-white/5 flex flex-col items-center text-center">
           <p className="text-slate-500 dark:text-slate-400 font-medium leading-relaxed max-w-xs">{section.description}</p>

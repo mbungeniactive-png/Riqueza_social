@@ -52,29 +52,155 @@ interface ChatMentorProps {
   onClearInitialMessage?: () => void;
 }
 
+// Sub-helper to parse inline formatting like **bold** dynamically
+const parseInlineFormatting = (text: string) => {
+  if (!text) return '';
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      const clean = part.slice(2, -2);
+      return (
+        <strong key={index} className="font-extrabold text-blue-700 dark:text-blue-300 bg-blue-500/10 dark:bg-blue-500/20 px-1.5 py-0.5 rounded-md mx-0.5 inline">
+          {clean}
+        </strong>
+      );
+    }
+    // Clean up any rogue formatting characters or double spaces left behind
+    return part.replace(/[\*_#\r]/g, '');
+  });
+};
+
+// Elegant, well-structured renderer for Chat Messages
+const FormattedMessageContent: React.FC<{ content: string; isUser: boolean }> = ({ content, isUser }) => {
+  if (isUser) {
+    return (
+      <div className="space-y-1 text-slate-100 font-medium">
+        {content.split('\n').map((line, i) => (
+          <p key={i} className={line.trim() ? '' : 'h-2'}>{line}</p>
+        ))}
+      </div>
+    );
+  }
+
+  const lines = content.split('\n');
+  return (
+    <div className="space-y-4 text-[14.5px] leading-relaxed select-text font-normal text-slate-800 dark:text-slate-100">
+      {lines.map((line, lineIdx) => {
+        let trimmed = line.trim();
+        if (!trimmed) {
+          return <div key={lineIdx} className="h-1.5" />;
+        }
+
+        // 1. Remove raw markdown headers and style them with standard <h4> header tag
+        if (trimmed.startsWith('#')) {
+          const headerText = trimmed.replace(/^#+\s*/, '').toUpperCase();
+          return (
+            <h4
+              key={lineIdx}
+              className="text-base sm:text-lg font-black text-slate-900 dark:text-white tracking-wide uppercase mt-6 mb-2.5 flex items-center gap-2 border-b border-slate-100 dark:border-white/5 pb-1 w-full"
+            >
+              <span className="w-2 h-4 bg-blue-600 dark:bg-blue-500 rounded-full shrink-0" />
+              <span>{parseInlineFormatting(headerText)}</span>
+            </h4>
+          );
+        }
+
+        // 2. Identify full lines enclosed with ** as <h4> headings, ex: **ESTRATÉGIA DE VENDA:** ou **Roteiro:**
+        const isFullLineBold = trimmed.startsWith('**') && (trimmed.endsWith('**') || trimmed.endsWith('**:') || trimmed.endsWith(':**'));
+        if (isFullLineBold) {
+          const cleanHeader = trimmed.replace(/\*\*+/g, '').trim();
+          return (
+            <h4
+              key={lineIdx}
+              className="text-sm sm:text-base font-black text-slate-900 dark:text-white tracking-normal mt-5 mb-2.5 flex items-center gap-2"
+            >
+              <span className="w-1.5 h-3.5 bg-blue-600 dark:bg-blue-500 rounded-full shrink-0" />
+              <span>{cleanHeader.toUpperCase()}</span>
+            </h4>
+          );
+        }
+
+        // 3. Identify explicit UPPERCASE section labels (e.g., CENA 1:, SACADA DE OURO:)
+        const isUppercaseLabel = trimmed.length < 60 && trimmed.length > 2 && /^[^a-z]*$/.test(trimmed) && (trimmed.endsWith(':') || trimmed.endsWith('!') || !trimmed.endsWith('.'));
+        if (isUppercaseLabel) {
+          const cleanLabel = trimmed.replace(/[\*_]/g, '').trim();
+          return (
+            <h4
+              key={lineIdx}
+              className="text-xs sm:text-sm font-black text-blue-600 dark:text-blue-400 tracking-wider uppercase mt-5 mb-1.5 flex items-center gap-2"
+            >
+              <span>{cleanLabel}</span>
+            </h4>
+          );
+        }
+
+        // 4. Bullet list item rendering (capturing items starting with *, -, •)
+        const isBullet = trimmed.startsWith('* ') || trimmed.startsWith('- ') || trimmed.startsWith('• ');
+        if (isBullet) {
+          const bulletText = trimmed.replace(/^[\*\-\•]\s*/, '');
+          return (
+            <div key={lineIdx} className="flex items-start gap-2.5 pl-2.5 my-2">
+              <span className="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400 mt-2 shrink-0 shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
+              <div className="flex-1 text-slate-700 dark:text-slate-200 font-medium leading-relaxed">
+                {parseInlineFormatting(bulletText)}
+              </div>
+            </div>
+          );
+        }
+
+        // 5. Regular Parsed Paragraphs
+        return (
+          <p key={lineIdx} className="text-slate-700 dark:text-slate-200 leading-relaxed font-normal whitespace-pre-line my-1.5">
+            {parseInlineFormatting(trimmed)}
+          </p>
+        );
+      })}
+    </div>
+  );
+};
+
 export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, onClearInitialMessage }) => {
-  const { settings } = useSettings();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [streamingText, setStreamingText] = useState('');
   const [credits, setCredits] = useState<number | null>(null);
   const [showingAdModal, setShowingAdModal] = useState(false);
-  const [hasApiKey, setHasApiKey] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const user = auth.currentUser;
+  const [user, setUser] = useState<any>(() => {
+    if (auth.currentUser) return auth.currentUser;
+    const mockUserStr = localStorage.getItem('mock_user_session');
+    if (mockUserStr) {
+      try {
+        return JSON.parse(mockUserStr);
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  });
+
+  useEffect(() => {
+    const unsub = auth.onAuthStateChanged((u) => {
+      if (u) {
+        setUser(u);
+      } else {
+        const mockUserStr = localStorage.getItem('mock_user_session');
+        if (mockUserStr) {
+          try {
+            setUser(JSON.parse(mockUserStr));
+          } catch {
+            setUser(null);
+          }
+        } else {
+          setUser(null);
+        }
+      }
+    });
+    return () => unsub();
+  }, []);
 
   // Handle initial message from props
-  useEffect(() => {
-    const checkKey = async () => {
-      if (window.aistudio) {
-        const has = await window.aistudio.hasSelectedApiKey();
-        const env = !!process.env.GEMINI_API_KEY;
-        setHasApiKey(has || env);
-      }
-    };
-    checkKey();
-  }, []);
   useEffect(() => {
     if (initialMessage && user && credits !== null && !loading) {
       handleSendMessage(initialMessage);
@@ -84,6 +210,22 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
 
   useEffect(() => {
     if (!user) return;
+
+    if (user.uid.startsWith('mock-')) {
+      // Use local state only for mock users
+      setCredits(100); // Give plenty of fake credits
+      const stored = localStorage.getItem(`mock_chat_messages_${user.uid}`);
+      if (stored) {
+        try {
+          setMessages(JSON.parse(stored));
+        } catch {
+          setMessages([]);
+        }
+      } else {
+        setMessages([]);
+      }
+      return;
+    }
 
     // Listen to credits
     const userDocRef = doc(db, 'users', user.uid);
@@ -114,9 +256,16 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
     };
   }, [user]);
 
+  // Persist mock messages to localStorage
+  useEffect(() => {
+    if (user && user.uid.startsWith('mock-') && messages.length > 0) {
+      localStorage.setItem(`mock_chat_messages_${user.uid}`, JSON.stringify(messages));
+    }
+  }, [messages, user]);
+
   // Clean up messages older than 30 days
   useEffect(() => {
-    if (!user) return;
+    if (!user || user.uid.startsWith('mock-')) return;
     
     const cleanupOldMessages = async () => {
       try {
@@ -157,33 +306,33 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
       return;
     }
 
-    if (!hasApiKey) {
-      if (window.aistudio) {
-        await window.aistudio.openSelectKey();
-        const nowHas = await window.aistudio.hasSelectedApiKey();
-        if (!nowHas && !process.env.GEMINI_API_KEY) return;
-        setHasApiKey(true);
-      } else {
-        return;
-      }
-    }
-
     const userMessage = messageToSend;
     if (!customMessage) setInput('');
     setLoading(true);
     setStreamingText('');
 
     try {
-      // 1. Save user message
-      await addDoc(collection(db, 'users', user.uid, 'messages'), {
-        role: 'user',
-        content: userMessage,
-        timestamp: serverTimestamp()
-      });
+      // 1. Immediately update UI with user message
+      const tempMsgId = 'temp-' + Date.now();
+      setMessages(prev => [...prev, { 
+        id: tempMsgId, 
+        role: 'user', 
+        content: userMessage, 
+        timestamp: { seconds: Date.now() / 1000 } as any 
+      }]);
 
-      // 2. Prepare context for Gemini
+      // 2. Save user message to database if real user
+      if (!user.uid.startsWith('mock-')) {
+        await addDoc(collection(db, 'users', user.uid, 'messages'), {
+          role: 'user',
+          content: userMessage,
+          timestamp: serverTimestamp()
+        });
+      }
+
+      // 3. Prepare context for Gemini
       const history = messages
-        .filter(m => m.id !== 'temp')
+        .filter(m => m.id !== 'temp' && !m.id.startsWith('temp-'))
         .map(m => ({
           role: m.role,
           parts: [{ text: m.content }]
@@ -195,25 +344,36 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
         history[history.length - 1].parts = [{ text: userMessage }];
       }
 
-      // 3. Get AI Response via Stream
+      // 4. Get AI Response via Stream
       const responseText = await chatWithMentorStream(history, (chunk) => {
+        if (!chunk) return;
         setStreamingText(chunk);
-      }, settings.responseStyle);
+      });
 
-      // 4. Save AI Response
+      // 5. Save AI Response
       if (responseText) {
-        await addDoc(collection(db, 'users', user.uid, 'messages'), {
-          role: 'model',
-          content: responseText,
-          timestamp: serverTimestamp()
-        });
+        if (!user.uid.startsWith('mock-')) {
+          await addDoc(collection(db, 'users', user.uid, 'messages'), {
+            role: 'model',
+            content: responseText,
+            timestamp: serverTimestamp()
+          });
 
-        // 5. Deduct credit
-        const userDocRef = doc(db, 'users', user.uid);
-        await updateDoc(userDocRef, {
-          aiCredits: (credits || 5) - 1,
-          updatedAt: serverTimestamp()
-        });
+          // 6. Deduct credit
+          const userDocRef = doc(db, 'users', user.uid);
+          await updateDoc(userDocRef, {
+            aiCredits: (credits || 5) - 1,
+            updatedAt: serverTimestamp()
+          });
+        } else {
+          // If mock, just update local state with final AI message
+          setMessages(prev => [...prev, {
+            id: 'temp-m-' + Date.now(),
+            role: 'model',
+            content: responseText,
+            timestamp: { seconds: Date.now() / 1000 } as any
+          }]);
+        }
       }
     } catch (err) {
       console.error(err);
@@ -231,14 +391,18 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
     setShowingDeleteModal(false);
 
     try {
-      const qClear = collection(db, 'users', user.uid, 'messages');
-      const snapshot = await getDocs(qClear);
-      const batch = writeBatch(db);
-      snapshot.docs.forEach((docSnap) => {
-        batch.delete(docSnap.ref);
-      });
-      await batch.commit();
-      setMessages([]); // Optimistic update
+      if (!user.uid.startsWith('mock-')) {
+        const qClear = collection(db, 'users', user.uid, 'messages');
+        const snapshot = await getDocs(qClear);
+        const batch = writeBatch(db);
+        snapshot.docs.forEach((docSnap) => {
+          batch.delete(docSnap.ref);
+        });
+        await batch.commit();
+      } else {
+        localStorage.removeItem(`mock_chat_messages_${user.uid}`);
+      }
+      setMessages([]); // Optimistic or direct update for mock user
     } catch (err) {
       console.error("Clear chat error:", err);
     } finally {
@@ -344,14 +508,12 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
               }`}>
                 {msg.role === 'user' ? <UserIcon className="w-4 h-4 text-slate-600 dark:text-slate-400" /> : <Bot className="w-4 h-4 text-white" />}
               </div>
-              <div className={`p-4 rounded-[24px] text-sm leading-relaxed shadow-sm select-none ${
+              <div className={`p-4 rounded-[24px] text-sm leading-relaxed shadow-sm select-text ${
                 msg.role === 'user' 
                   ? 'bg-blue-600 dark:bg-blue-500 text-white rounded-tr-none' 
                   : 'bg-white dark:bg-slate-900 text-slate-800 dark:text-white rounded-tl-none border border-slate-100 dark:border-white/5'
               }`}>
-                {msg.content.split('\n').map((line, i) => (
-                  <p key={i} className={line ? 'mb-1' : 'mb-3'}>{line}</p>
-                ))}
+                <FormattedMessageContent content={msg.content} isUser={msg.role === 'user'} />
               </div>
             </div>
           </motion.div>
@@ -367,10 +529,8 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
               <div className="w-8 h-8 rounded-xl bg-blue-600 dark:bg-blue-500 flex items-center justify-center shrink-0 mt-1">
                 <Bot className="w-4 h-4 text-white" />
               </div>
-              <div className="p-4 rounded-[24px] rounded-tl-none text-sm leading-relaxed shadow-sm select-none bg-white dark:bg-slate-900 text-slate-800 dark:text-white border border-slate-100 dark:border-white/5">
-                {streamingText.split('\n').map((line, i) => (
-                  <p key={i} className={line ? 'mb-1' : 'mb-3'}>{line}</p>
-                ))}
+              <div className="p-4 rounded-[24px] rounded-tl-none text-sm leading-relaxed shadow-sm select-text bg-white dark:bg-slate-900 text-slate-800 dark:text-white border border-slate-100 dark:border-white/5">
+                <FormattedMessageContent content={streamingText} isUser={false} />
               </div>
             </div>
           </motion.div>
@@ -395,20 +555,6 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
 
       {/* Input Area */}
       <div className="p-4 bg-white dark:bg-slate-900 border-t border-slate-100 dark:border-white/5">
-        {!hasApiKey && (
-          <div className="mb-4 p-3 bg-amber-400/10 border border-amber-400/20 rounded-2xl flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-amber-500" />
-              <p className="text-[10px] font-bold text-amber-600 dark:text-amber-400">Conecte sua chave Google para usar a IA</p>
-            </div>
-            <button 
-              onClick={() => window.aistudio?.openSelectKey()}
-              className="text-[10px] font-black text-amber-900 bg-amber-400 px-3 py-1 rounded-lg"
-            >
-              Configurar
-            </button>
-          </div>
-        )}
         <div className="flex items-center gap-3 bg-slate-50 dark:bg-white/5 p-2 rounded-[28px] border border-slate-100 dark:border-white/10 focus-within:ring-2 focus-within:ring-blue-500 transition-all">
           <input
             type="text"

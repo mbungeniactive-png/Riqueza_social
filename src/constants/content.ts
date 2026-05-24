@@ -3305,6 +3305,374 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'motivacao',
+    title: 'Motivação',
+    description: 'Fortaleça sua mentalidade, supere o desânimo e crie hábitos inabaláveis para vencer no mercado digital.',
+    subsections: [
+      {
+        id: 'mindset_indomavel',
+        title: '🧠 Mentalidade Próspera',
+        content: [
+          'O seu sucesso online começa na sua mente. Habilidade sem mentalidade forte desiste no primeiro obstáculo.',
+          { type: 'info', title: '🚀 Os Pilares de Ação', items: [
+            '1. ACEITE O PROCESSO: Ninguém fica rico deitado de um dia para o outro. O aprendizado consistente constrói riqueza sólida.',
+            '2. FOCO EXCLUSIVO: Pare de pular de galho em galho. Selecione uma estratégia (ex: TikTok, Ads) e execute até dar certo.',
+            '3. AUTO-RESPONSABILIDADE: O algoritmo não conspira contra você. Assuma a responsabilidade de testar e melhorar.',
+            '4. AÇÃO IMPERFEITA: É melhor um vídeo simples postado do que um vídeo "perfeito" que nunca saiu do editor.'
+          ] },
+          { type: 'steps', title: '🔥 Como Eliminar a Procrastinação Diária', items: [
+            'Regra dos 5 Minutos: Comprometa-se a trabalhar 5 minutos. O mais difícil é começar, depois o embalo toma conta.',
+            'Limpeza de Distrações: Coloque o celular em outro cômodo enquanto edita ou planeja seu conteúdo.',
+            'Defina uma Meta Realista: Não tente fazer tudo em um dia. Escolha 1 única tarefa crucial e execute até o final.'
+          ] },
+          { type: 'tips', items: ['O sucesso é a soma de pequenos esforços diários, repetidos dia após dia com consistência inabalável.'] }
+        ]
+      },
+      {
+        id: 'cinco_regras_vida',
+        title: '⏳ As 5 Regras da Realidade',
+        content: [
+          'Se você tem mais de 16 anos de idade e ainda não aprendeu isso, a vida vai continuar te cobrando caro.',
+          { type: 'info', title: '💡 As Leis da Sobrevivência e Sucesso', items: [
+            '1. O Silêncio Constrói: A vida é muito melhor quando ninguém sabe o que é que você tá fazendo. Silêncio constrói. Se você tá começando uma obra, fica calado. Se tá começando no Marketing, fica calado. Se tá começando no Tiktok Shop, fica calado. Exposição demais atrapalha.',
+            '2. Opinião sem Resultado é Barulho: Nunca aceite conselhos de quem não chegou aonde você quer chegar. "Ah, compra esse curso" – isso é mentira! Se você quer começar a trabalhar na internet, você não precisa comprar nada. Opinião sem resultado é só barulho.',
+            '3. O Tempo Revela: Todo mundo, sem exceção, vai te mostrar quem realmente é. O tempo sempre entrega. Sempre.',
+            '4. Crie sua Oportunidade: Se você está esperando a oportunidade bater na sua porta, então pode sentar. Porque gente grande cria oportunidade, não espera.',
+            '5. Liberdade exige Coragem: Você quer ser feliz? Você precisa de liberdade. Você quer liberdade? Você precisa de coragem. E coragem não é discurso, é atitude.'
+          ] },
+          { type: 'steps', title: '🛡️ Princípios de Caráter e Círculo de Influência', items: [
+            'Homens, não andem com outros homens que traem a mulher. Não andem com um monte de palhaço que mente olhando no olho e que não assumem o que fazem, que vivem de promessa e não cumprem nada. Ou que não respeitam a própria palavra, que falam mal da própria família, que só pensam em prazer, putaria, cachaça, luxúria e nunca em responsabilidade.',
+            'Não vivam na bagunça, sem disciplina, sem direção, sem propósito, como se fossem eternos adolescentes, com 30, 40, 50 anos na cara. Não têm princípio, não têm caráter. Falta de caráter contamina.',
+            'Se você anda com homem fraco, você se tornará fraco, vai começar a normalizar a fraqueza. Se você anda com homem desleal, você começa a achar que traição é algo normal. Se você anda com gente que come lixo, você será o próximo porco.'
+          ] },
+          { type: 'tips', items: ['A vida não muda. Quem muda é a sua percepção. Você pode chorar na tempestade ou decidir dançar na chuva.'] }
+        ]
+      },
+      {
+        id: 'habitos_sucesso',
+        title: '⚡ Hábitos dos Milionários',
+        content: [
+          'O que diferencia as pessoas comuns de quem realmente constrói impérios digitais são as suas rotinas invisíveis.',
+          { type: 'info', title: '💎 Rotina Inteligente para Criadores', items: [
+            '• Manhã Produtiva: Comece o dia resolvendo a parte mais difícil da sua estratégia antes de responder redes sociais.',
+            '• Planejamento em Bloco: Em vez de escrever 1 roteiro por dia, reserve a segunda-feira para escrever todos os 10 roteiros da semana.',
+            '• Estudo Ativo: Dedique pelo menos 30 minutos diários para analisar os concorrentes e as tendências de mercado.',
+            '• Consistência Cega: Poste seus conteúdos mesmo nos dias em que o ânimo estiver sob de zero.'
+          ] },
+          { type: 'steps', title: '📈 Passos para Criar uma Rotina Próspera', items: [
+            '1. Acorde com um objetivo definido na noite anterior.',
+            '2. Execute seu trabalho focado nas primeiras horas produtivas do seu dia.',
+            '3. Monitore seu tempo e filtre atividades que não trazem progresso real.',
+            '4. Avalie diariamente o que foi executado e replaneje o próximo dia.'
+          ] }
+        ]
+      },
+      {
+        id: 'superar_fracasso',
+        title: '🛡️ Vencendo o Medo e Desânimo',
+        content: [
+          'O fracasso temporário é apenas feedback. No mercado digital, testar e errar é o único caminho para acertar o seu primeiro post viral.',
+          { type: 'info', title: '🌪️ Como Superar as Fases sem Views ou Vendas', items: [
+            '• Não Leve para o Lado Pessoal: Um vídeo com poucas views não significa que você é ruim. Significa apenas que o gancho precisa de ajustes.',
+            '• Volte aos Pilares Básicos: Quando os resultados caírem, analise se o seu gancho ou edição estão perdendo estímulo nos primeiros 3 segundos.',
+            '• O Medo de Aparecer: Se você tem vergonha, comece com um canal sem rosto (Faceless). Siga nossos tutoriais e ganhe dinheiro de forma anônima.'
+          ] },
+          { type: 'steps', title: '🍀 Exercício Mental de Auto-confiança', items: [
+            'Lembre-se do motivo pelo qual você começou: seja ajudar sua família, ter liberdade geográfica ou conquistar sua independência financeira.',
+            'Comemore pequenos avanços: ganhar seu primeiro seguidor, criar sua primeira conta profissional ou dominar um novo app de edição.'
+          ] },
+          { type: 'tips', items: ['A persistência é o único talento que supera a falta de experiência. Continue marchando!'] }
+        ]
+      },
+      {
+        id: 'viral_motivation_scripts',
+        title: '🎯 Criar Perfil de Motivação (Muito Lucrativo!)',
+        content: [
+          'Contas de motivação estão entre as que mais viralizam e crescem rápido no TikTok e Reels. Aproveite esse nicho para crescer e começar a faturar!',
+          { type: 'info', title: '🎥 Formato de Vídeo Altamente Viral', items: [
+            '• VISUAL: Cenas satisfatórias de conquistas (ex: carros luxuosos, escritórios profissionais modernos, cenários de natureza exuberante).',
+            '• ÁUDIO: Voz grave (sua ou gerada por IA) com uma trilha suspense ou emocional ao fundo.',
+            '• TEXTO NA TELA: Textos curtos e fáceis de ler, com palavras-chave coloridas e em destaque.'
+          ] },
+          { type: 'steps', title: '✍️ 3 Modelos de Roteiro Prontos para Gravar', items: [
+            'Modelo 1 (Estilo Impactante): "Você não precisa de mais tempo. Você precisa de mais foco. Enquanto você dorme ou se distrai, alguém está construindo o futuro que você sempre sonhou. Acorde hoje!"',
+            'Modelo 2 (Superação): "Alguns duvidaram de você, e isso foi o melhor presente que poderiam te dar. Use a dúvida deles como combustível para construir a sua jornada em silêncio."',
+            'Modelo 3 (O Segredo do Jogo): "A dor do progresso é passageira, mas a dor do arrependimento dura para sempre. Escolha qual dor você quer carregar hoje e comece a agir."'
+          ] },
+          { type: 'tips', items: ['Nicho de Motivação → Use para vender ebooks de produtividade, guias de autoajuda ou como afiliado de cursos de desenvolvimento pessoal. Vende muito no orgânico!'] }
+        ]
+      },
+      {
+        id: 'monetizar_mentalidade',
+        title: '💰 Como Monetizar a Mentalidade',
+        content: [
+          'Desenvolver uma mentalidade forte não serve apenas para superar obstáculos pessoais; ela é um ativo digital extremamente valioso que você pode transformar em lucro real.',
+          { type: 'info', title: '🛠️ Formas Reais de Transformar Mentalidade em Lucro', items: [
+            '1. INFOPRODUTOS DE PRODUTIVIDADE: Crie e venda e-books, planners ou guias práticos sobre consistência, foco ou gerenciamento de tempo usando plataformas como Kiwify e Hotmart.',
+            '2. CONSULTORIAS & MENTORIAS: Ajude outras pessoas a organizarem sua rotina, superarem a procrastinação e definirem objetivos claros de execução diária.',
+            '3. CRIAÇÃO DE CANAIS DE CONTEÚDO: Desenvolva canais focados em mentalidade forte ou estoicismo nas redes sociais e monetize de forma orgânica ou por visualizações.',
+            '4. COMUNIDADES E DESAFIOS: Faça grupos de desafios pagos de 21 dias focados em novos hábitos, disciplina e desenvolvimento pessoal direto no WhatsApp.'
+          ] },
+          { type: 'steps', title: '🚀 Passo a Passo Prático para Começar do Zero', items: [
+            'Identifique seu forte estrutural (ex: produtividade extrema, superação, foco, organização).',
+            'Crie pílulas de conhecimento práticas e dinâmicas e distribua no Reels/TikTok para atrair uma audiência.',
+            'Crie um produto de acesso fácil, como um planner digital ou e-book de regras por um valor convidativo.',
+            'Desenvolva mentorias individuais com quem precisa de acompanhamento para executar com mais disciplina.'
+          ] },
+          { type: 'tips', items: ['A clareza mental e a resiliência são recursos raros e caros. Quando você ensina as pessoas a focarem e a se manterem motivadas, você tem em mãos um dos ativos mais lucrativos do mundo digital.'] }
+        ]
+      },
+      {
+        id: 'nao_desista',
+        title: '🌱 Força para Continuar (Não Desista)',
+        content: [
+          'Desistir parece uma solução rápida quando tudo pesa ao mesmo tempo. Mas muita coisa importante na vida só aparece depois de uma fase em que parecia impossível continuar.',
+          { type: 'info', title: '💡 Ideias que ajudam nesses momentos', items: [
+            '• Nem todo progresso é visível: Às vezes você está evoluindo só por continuar tentando.',
+            '• Você não precisa resolver tudo hoje: Você não precisa resolver a vida inteira hoje. Só precisa vencer o próximo passo.',
+            '• Comparação destrói motivação: O ritmo dos outros não define o seu.',
+            '• Cansaço não é fracasso: Cansaço pode parecer fracasso, mas não é a mesma coisa.',
+            '• Muitas pessoas queriam largar tudo: Muitas pessoas que hoje parecem "bem resolvidas" passaram por fases em que também quiseram largar tudo.'
+          ] },
+          { type: 'steps', title: '✨ Frases simples para guardar na mente', items: [
+            '“Continue pequeno, mas continue.”',
+            '“O que hoje parece atraso pode virar parte da sua força amanhã.”'
+          ] }
+        ]
+      },
+      {
+        id: 'trabalho_internet',
+        title: '💻 Realidade do Trabalho com Internet',
+        content: [
+          'Trabalhar com internet demora mais do que as pessoas mostram. A maioria vê só o resultado: dinheiro, seguidores, vendas. Quase ninguém mostra os meses em que postou sem retorno, tentou sem ganhar nada e pensou em desistir.',
+          'Quem consegue viver da internet normalmente teve três coisas fundamentais: consistência, aprendizado constante e paciência suficiente pra continuar quando ninguém acreditava.',
+          'Você não precisa ser perfeito. Precisa virar alguém que aparece todos os dias.',
+          { type: 'info', title: '💡 Algumas verdades importantes', items: [
+            '• Se hoje está difícil, isso não significa que você não serve para a internet.',
+            '• O resultado online costuma vir atrasado. Você planta por muito tempo antes de colher.',
+            '• Quem desiste cedo nunca descobre se estava perto de dar certo.',
+            '• Mude sua mentalidade: pare de pensar “Como fico rico rápido?” e comece a pensar “Como me torno útil todos os dias?”'
+          ] },
+          { type: 'steps', title: '🎯 Dicas práticas para melhorar trabalhando na internet', items: [
+            '1. Escolha UMA área por um tempo: Não tente fazer tudo ao mesmo tempo (Edição de vídeo, Design, Marketing digital, Criação de conteúdo, Afiliados, Programação, Vendas online, Gestão de redes sociais). Dominar uma coisa vale mais do que começar dez.',
+            '2. Poste mesmo sem resultado: No começo quase ninguém vê, e isso é normal. Quem cresce melhora um pouco por dia, aprende com os erros e continua postando. A internet recompensa a repetição.',
+            '3. Aprenda habilidades que dão dinheiro: As mais fortes hoje são Edição de vídeo, Copywriting, Tráfego pago, IA, Criação de conteúdo curto, Automação e Design para redes sociais. Empresas sempre precisam disso.',
+            '4. Pare de consumir excesso de motivação: Motivação ajuda por alguns minutos. Rotina muda a vida. Crie horários consistentes de aprender, praticar, publicar e descansar.',
+            '5. Compare seu “eu de hoje” com o de ontem: Não se compare com influencers. Se hoje você sabe mais do que há 1 mês, já está avançando.',
+            '6. Cuide da sua mente: A internet pode cansar porque parece que todo mundo está ganhando dinheiro menos você. Lembre-se: muita coisa online é aparência. Continue construindo silenciosamente.'
+          ] },
+          { type: 'tips', items: [
+            '“Mesmo devagar, eu ainda estou na corrida.”',
+            '“Se eu continuar aprendendo por 1 ano sem parar, minha vida pode mudar completamente.”'
+          ] }
+        ]
+      },
+      {
+        id: 'plano_30_dias',
+        title: '📈 Direção & Plano de 30 Dias',
+        content: [
+          'Você está no ponto mais importante: decidiu continuar. Agora precisa de direção e constância.',
+          { type: 'info', title: '1. Áreas boas para começar na internet', items: [
+            '📱 Com Celular (Mais simples): Edição de vídeos curtos, Gestão de páginas, Criação de conteúdo TikTok/Reels, Design simples no Canva (canva.com), Afiliados, Narração com IA.',
+            '💸 Maior Retorno Futuro (Médio/Longo prazo): Programação, Automação com IA, Copywriting, Tráfego pago, Criação de marcas pessoais, Social media.',
+            '🚀 Recomendação rápida: Aprenda Edição de vídeo curto + Design no Canva + Criação de conteúdo. Essas 3 habilidades juntas geram renda!'
+          ] },
+          { type: 'steps', title: '📅 Plano de 30 Dias de Execução', items: [
+            'Semana 1 (Aprender): Dedique 1h a ver aulas e 1h a praticar cortes de vídeo, legendas, thumbnails, posts simples e hooks. Apps: capcut.com e canva.com.',
+            'Semana 2 (Criar): Produza 1 vídeo curto e 1 design por dia. Copie formatos que funcionam. Quantidade cria experiência.',
+            'Semana 3 (Publicar): Poste no TikTok, Instagram Reels e Facebook. Aprenda sobre títulos, horários, tendências e retenção.',
+            'Semana 4 (Monetizar): Ofereça serviços de edição de vídeo, criação de posts ou gestão de páginas. Procure clientes em grupos de Facebook, WhatsApp, empresas locais ou criadores pequenos.'
+          ] },
+          { type: 'info', title: '💰 Como ganhar dinheiro online (Ativos de Verdade)', items: [
+            '• Serviços Online: Edição, design, posts, legendas, logos (cobre por trabalho).',
+            '• Criar Conteúdo: Ganhe com publicidade, parcerias, vendas e afiliados no TikTok, Facebook e Instagram.',
+            '• Freelancer: Ofereça seu trabalho no fiverr.com, upwork.com e freelancer.com.',
+            '• Afiliados: Divulgue produtos e ganhe comissão no digistore24.com e hotmart.com.'
+          ] },
+          { type: 'steps', title: '⏰ Rotina Diária de Disciplina', items: [
+            '🌅 Manhã: Acorde, evite redes sociais nos primeiros 30 min, estude por 1h.',
+            '☀️ Tarde: Pratique suas habilidades, crie conteúdo e melhore seu portfólio.',
+            '🌙 Noite: Publique seus conteúdos, analise os resultados e aprenda algo novo.'
+          ] },
+          { type: 'info', title: '🛡️ Regras Importantes para Não Falhar', items: [
+            '• Pare de esperar motivação: A motivação vai e vem. A disciplina continua.',
+            '• Não tente enriquecer rápido: Construa sua habilidade primeiro. O dinheiro é consequência.',
+            '• Poste mesmo com vergonha: Todo criador começou ruim. Seja frequente.',
+            '• Foque 1 ano sério: Um ano focado de verdade pode mudar completamente a sua realidade!'
+          ] },
+          { type: 'tips', items: [
+            '“A internet recompensa quem continua quando os outros param.”',
+            '“Seu futuro pode depender do quanto você aguenta continuar aprendendo sem resultado imediato.”'
+          ] }
+        ]
+      },
+      {
+        id: 'mentalidade_vencer',
+        title: '🧠 Mentalidade para Vencer',
+        content: [
+          'A internet favorece quem aprende rápido, melhora sempre e continua mesmo sem aplausos.',
+          { type: 'info', title: '⚠️ No começo você vai sentir:', items: [
+            '• Dúvida sobre o seu potencial ou se vale a pena.',
+            '• Comparação constante com quem já está crescendo.',
+            '• Ansiedade por resultados rápidos.',
+            '• Vontade de desistir.'
+          ] },
+          'Isso acontece com quase todo mundo que tenta crescer online. A diferença é: alguns param... e outros continuam até ficar bons.',
+          { type: 'steps', title: '🎯 O maior erro de quem começa', items: [
+            'Querer resultado antes de desenvolver habilidades.',
+            'Pense assim: Primeiro você vira bom, depois você vira conhecido, e depois o dinheiro cresce. A ordem importa.'
+          ] },
+          { type: 'steps', title: '📅 O que fazer todos os dias', items: [
+            '1. APRENDER: Mesmo 30 minutos já contam. Aprenda sobre: edição, marketing, IA, vendas e comunicação.',
+            '2. CRIAR: Quem só assiste vídeo motivacional não cresce. Você precisa: editar, postar, errar, testar.',
+            '3. MELHORAR UM DETALHE: Hoje busque um áudio melhor, legenda melhor, corte melhor, thumbnail melhor ou uma fala melhor. Pequenas melhorias diárias se acumulam muito.'
+          ] },
+          { type: 'info', title: '📈 Como crescer mais rápido', items: [
+            '• Copie estrutura, não identidade: Veja criadores grandes e observe: como começam vídeos, como prendem atenção, como editam, como falam. Depois adapte ao seu estilo.',
+            '• O segredo dos vídeos que crescem (Primeiros 3 segundos):',
+            '  - “Ninguém fala isso sobre ganhar dinheiro online…”',
+            '  - “Se eu tivesse começado assim, teria crescido mais rápido.”',
+            '  - “O erro que me fazia perder tempo na internet…”'
+          ] },
+          { type: 'steps', title: '📱 Dicas por plataforma de conteúdo', items: [
+            '• TikTok / Reels: Faça vídeos curtos, rápidos, com legenda, sem enrolação.',
+            '• Facebook: Funciona bem com histórias, curiosidades, motivação, humor e dicas práticas.'
+          ] },
+          { type: 'info', title: '🛠️ Ferramentas úteis', items: [
+            '• Edição: capcut.com',
+            '• Design: canva.com',
+            '• IA para textos: chatgpt.com',
+            '• Música sem copyright: pixabay.com'
+          ] },
+          { type: 'steps', title: '💼 Como conseguir primeiros clientes', items: [
+            'Escreva simples: “Olá. Vi sua página e posso ajudar com vídeos/posts mais profissionais. Posso mostrar exemplos grátis.”',
+            'Muita gente consegue cliente só por mandar mensagens todos os dias.'
+          ] },
+          { type: 'info', title: '🔥 Meta forte para você', items: [
+            'Durante 90 dias: aprenda, poste, pratique e melhore. Sem desistir.',
+            'Você vai perceber uma evolução enorme em seu conteúdo e habilidades.'
+          ] },
+          { type: 'tips', items: [
+            '“Talvez ninguém apoie você no começo. Talvez riam. Talvez ignorem seu conteúdo. Mas quase toda pessoa que venceu online passou por isso. Continue.”',
+            '“Disciplina é continuar mesmo sem vontade.”',
+            '“A dor de tentar é menor que a dor de nunca descobrir até onde você conseguiria chegar.”',
+            '“Quem insiste por tempo suficiente fica difícil de parar.”',
+            '“Seu eu do futuro pode agradecer o fato de você não ter desistido hoje.”'
+          ] }
+        ]
+      },
+      {
+        id: 'resistencia_online',
+        title: '🛡️ Resistência e Consistência',
+        content: [
+          'Escuta isso com atenção: Você não está atrasado.',
+          'Muita gente começa tarde, perdido, sem dinheiro, sem apoio e sem equipamento. Mesmo assim conseguem crescer porque decidiram continuar aprendendo enquanto os outros desistiam.',
+          'Internet não é só talento. É resistência. Tem gente muito talentosa que parou cedo. E tem gente “normal” que venceu porque ficou anos melhorando sem parar.',
+          { type: 'info', title: '⚡ O que realmente muda uma vida online', items: [
+            '• NÃO É: Sorte, motivação do dia, ou um vídeo viral isolado.',
+            '• É: Consistência, habilidade, repetição, paciência.',
+            '• VOCÊ PRECISA VIRAR ALGUÉM QUE: Aprende mesmo cansado, publica mesmo inseguro, e continua mesmo sem resultado imediato.'
+          ] },
+          { type: 'steps', title: '⏳ A fase que quase ninguém mostra', items: [
+            'Antes do resultado vem: silêncio, poucos likes, pouca visualização, dúvidas e erros.',
+            'Essa fase não significa fracasso. Ela faz parte da construção e do seu amadurecimento.'
+          ] },
+          { type: 'info', title: '💭 Imagine isso', items: [
+            'E se daqui a 1 ano: você tiver clientes, ganhar dinheiro pelo celular, ajudar sua família, viver da internet, e olhar para trás e perceber que tudo começou porque decidiu não desistir hoje?',
+            'Isso é perfeitamente possível. Mas precisa de continuidade.'
+          ] },
+          { type: 'steps', title: '🌱 Mentalidade de Crescimento', items: [
+            '• Troque “Está demorando” por “Estou ficando mais forte”.',
+            '• Troque “Ninguém vê meu conteúdo” por “Estou treinando minha habilidade”.'
+          ] },
+          { type: 'steps', title: '🔥 O que fazer quando perder a motivação', items: [
+            'Não pare completamente. Mesmo cansado: aprenda por 20 minutos, edite algo bem pequeno ou poste algo simples.',
+            'Lembre-se: Movimento pequeno ainda é movimento.'
+          ] },
+          { type: 'info', title: '🗓️ Faça isso por 6 meses', items: [
+            'Todos os dias: estudar, praticar, criar e melhorar. Você vai virar outra pessoa!'
+          ] },
+          { type: 'steps', title: '💼 Algo importante sobre dinheiro online', items: [
+            'Quem ganha dinheiro de verdade na internet aprendeu a: vender, comunicar, resolver problemas e prender atenção. Tudo isso é treinável.'
+          ] },
+          { type: 'info', title: '🏆 Como ficar melhor que a maioria', items: [
+            '• A maioria: Começa muito animada, para rápido e troca de área de trabalho toda semana.',
+            '• Você precisa fazer exatamente o contrário: Foco, rotina profissional e paciência ativa.'
+          ] },
+          { type: 'steps', title: '📅 Plano Diário Simples', items: [
+            '1. Uma hora aprendendo (vídeos, marketing, IA, edição).',
+            '2. Uma hora praticando (editar, criar posts, escrever).',
+            '3. Uma publicação por dia (mesmo que simples).',
+            '4. Uma melhoria por dia (melhore áudio, legenda, ideia ou edição).'
+          ] },
+          { type: 'tips', items: [
+            '“O começo lento não define o final.”',
+            '“Constância vence talento preguiçoso.”',
+            '“Enquanto muitos desistem, alguns estão construindo o futuro silenciosamente.”',
+            '“Você só perde totalmente quando para.”',
+            '“A internet pode mudar sua vida, mas primeiro ela testa sua paciência.”'
+          ] }
+        ]
+      },
+      {
+        id: 'persistencia_silenciosa',
+        title: '🔥 Persistência Silenciosa',
+        content: [
+          'Você precisa entender uma coisa: O fato de você ainda estar tentando já te coloca na frente de muita gente. Muitos sonham. Poucos continuam.',
+          'E a internet recompensa quem continua aparecendo, aprendendo e melhorando mesmo quando parece que nada está acontecendo.',
+          { type: 'info', title: '⚖️ O começo é injusto mesmo', items: [
+            '• No início: ninguém comenta, ninguém compartilha, ninguém acredita, e às vezes até a família duvida.',
+            '• Mas isso não significa que você não vai conseguir. Significa apenas que você ainda está na fase de construção.'
+          ] },
+          { type: 'steps', title: '📈 Toda habilidade passa por:', items: [
+            '1. Fase ruim',
+            '2. Fase confusa',
+            '3. Fase de melhoria',
+            '4. Fase de resultado (Muita gente desiste na fase 1).'
+          ] },
+          { type: 'info', title: '🧩 Você não precisa ser gênio', items: [
+            'Você só precisa: aprender mais que ontem, praticar mais que ontem, e desistir menos que ontem. Pequenos passos repetidos criam resultados grandes.'
+          ] },
+          { type: 'steps', title: '👥 Como pessoas comuns crescem online', items: [
+            'Começaram sem equipamento, gravavam mal, editavam mal, tinham vergonha, erravam muito. Mas continuaram. A prática transforma.'
+          ] },
+          { type: 'info', title: '🔑 O segredo escondido da internet', items: [
+            'Quanto mais você cria: mais aprende, mais melhora, mais entende o público, e mais chances tem de crescer. Ação cria clareza.'
+          ] },
+          { type: 'steps', title: '💭 Quando pensar em desistir', items: [
+            'Pergunte: “E se eu estiver só no começo da minha virada?”',
+            'Muita gente estava quase conseguindo… e parou cedo demais.'
+          ] },
+          { type: 'info', title: '📅 O que fazer nos próximos 100 dias', items: [
+            'Todos os dias: Estudar algo útil, praticar, publicar, analisar e melhorar 1 detalhe (sem perfeccionismo).'
+          ] },
+          { type: 'steps', title: '🛡️ Aprenda isso cedo', items: [
+            '• CONSISTÊNCIA VALE MAIS QUE MOTIVAÇÃO: Motivação muda. Disciplina sustenta.',
+            '• VERGONHA ATRASA SONHOS: No começo talvez riam. Depois perguntam como você conseguiu.',
+            '• NINGUÉM COMEÇA PRONTO: Os grandes criadores também tiveram vídeos ruins, medo e poucas visualizações.'
+          ] },
+          { type: 'info', title: '🚀 Dicas fortes para crescer', items: [
+            '1. Fale simples (conteúdo fácil cresce mais).',
+            '2. Prenda atenção rápido (primeiros segundos são tudo).',
+            '3. Poste muito (quantidade gera experiência).',
+            '4. Aprenda vendas (quem sabe vender cresce mais rápido).',
+            '5. Aprenda IA agora (IA ajudará quem aprender cedo - use chatgpt.com, canva.com, capcut.com, MoneyNet Ai).'
+          ] },
+          { type: 'steps', title: '🎯 Sua mentalidade daqui para frente', items: [
+            'Não pense: “Será que vai dar certo?” — Pense: “Como posso ficar melhor hoje?”'
+          ] },
+          { type: 'tips', items: [
+            '“O homem que continua aprendendo se torna perigoso.”',
+            '“Resultados demoram, mas evolução diária acumula.”',
+            '“Seu futuro financeiro pode nascer de habilidades que você começa a aprender hoje.”',
+            '“Persistência silenciosa cria vitórias barulhentas.”',
+            '“Continue. Você ainda não viu do que é capaz.”'
+          ] }
+        ]
+      }
+    ]
   }
 ];
 
@@ -3375,6 +3743,150 @@ export const APP_CONTENT_EN: SectionContent[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'motivacao',
+    title: 'Motivation',
+    description: 'Strengthen your mindset, overcome discouragement, and build unshakeable habits to succeed in the digital market.',
+    subsections: [
+      {
+        id: 'mindset_indomavel',
+        title: '🧠 Prosperous Mindset',
+        content: [
+          'Your online success begins in your mind. Skills are useless without a strong mindset.',
+          { type: 'info', title: '🚀 Pillars of Real Growth', items: [
+            '1. PROCESS: No one gets rich overnight. Consistent learning builds real wealth.',
+            '2. UNIQUE FOCUS: Stop jumping from strategy to strategy. Stick to one until you succeed.',
+            '3. OWNERSHIP: The algorithm is not conspiring against you. Take responsibility to test and improve.'
+          ] },
+          { type: 'tips', items: ['Success belongs to those who refuse to give up on their dreams.'] }
+        ]
+      },
+      {
+        id: 'cinco_regras_vida',
+        title: '⏳ The 5 Rules of Reality',
+        content: [
+          'If you are over 16 and haven\'t learned this yet, life will continue to charge you dearly.',
+          { type: 'info', title: '💡 The Laws of Survival and Success', items: [
+            '1. Silence Builds: Life is much better when no one knows what you are doing. Silence builds. If you are starting a project, stay quiet. Starting on Marketing, stay quiet. Starting on TikTok Shop, stay quiet. Too much exposure gets in the way.',
+            '2. Opinion without Results is Noise: Never accept advice from someone who hasn\'t reached where you want to go. "Ah, buy this course" – that is a lie! If you want to start working on the internet, you don\'t need to buy anything. Opinion without results is just noise.',
+            '3. Time Reveals: Everyone, without exception, will show you who they really are. Time always delivers. Always.',
+            '4. Create your Opportunity: If you are waiting for opportunity to knock on your door, you can sit down. Big players create opportunities, they don\'t wait.',
+            '5. Freedom requires Courage: You want to be happy? You need freedom. You want freedom? You need courage. And courage is not a speech, it is attitude.'
+          ] },
+          { type: 'steps', title: '🛡️ Principles of Character & Circle of Influence', items: [
+            'Men, do not walk with other men who betray their women. Do not walk with a bunch of clowns who lie looking you in the eye and do not take responsibility for what they do, who live on promises and fulfill nothing. Or who do not respect their own word, who speak ill of their own family, who only think of pleasure, debauchery, drinking, lust, and never of responsibility.',
+            'Do not live in a mess, without discipline, without direction, without purpose, as if they were eternal teenagers with 30, 40, 50 years on their shoulders. They have no principles, no character. Lack of character is contagious.',
+            'If you walk with weak men, you will become weak and begin to normalize weakness. If you walk with disloyal men, you start to think that betrayal is dynamic. If you walk with people who eat garbage, you will be the next pig.'
+          ] },
+          { type: 'tips', items: ['Life doesn\'t change; your perception does. You can cry in the storm or choose to dance in the rain.'] }
+        ]
+      },
+      {
+        id: 'monetizar_mentalidade',
+        title: '💰 How to Monetize Mindset',
+        content: [
+          'Developing a strong mindset isn\'t just about overcoming personal obstacles; it is an extremely valuable digital asset you can turn into real profit.',
+          { type: 'info', title: '🛠️ Real Ways to Turn Mindset into Profit', items: [
+            '1. PRODUCTIVITY INFOPRODUCTS: Create and sell ebooks, planners, or practical guides on consistency, focus, or time management using platforms.',
+            '2. CONSULTING & MENTORSHIP: Help others organize their routines, overcome procrastination, and set clear goals.',
+            '3. MOTIVATION DUPLICATING CHANNELS: Develop highly engaging channels focused on strong mindset or stoicism on social media.',
+            '4. PAID CHALLENGES & CLUBS: Create 21-day challenge groups on WhatsApp focused on building discipline and better habits.'
+          ] },
+          { type: 'steps', title: '🚀 Simple Step-by-Step to Start from Scratch', items: [
+            'Define your main strength (e.g., extreme focus, habit building, structured routine).',
+            'Share valuable lessons and dynamic tips on TikTok or Reels to build your initial audience.',
+            'Create a simple, low-cost starter product like a habit tracker or a guide.',
+            'Offer premium mentorships for people who want direct coaching to stay accountable.'
+          ] },
+          { type: 'tips', items: ['Mental clarity and consistency are high-value skills. When you help people build them, you develop highly qualified audiences ready to invest to go further.'] }
+        ]
+      },
+      {
+        id: 'nao_desista',
+        title: '🌱 Force to Continue (Don\'t Give Up)',
+        content: [
+          'Giving up seems like a quick fix when everything weighs down at the same time. But many important things in life only appear after a phase where it seemed impossible to keep going.',
+          { type: 'info', title: '💡 Ideas that help in these moments', items: [
+            '• Not all progress is visible: Sometimes you are evolving just by continuing to try.',
+            '• You don\'t need to solve everything today: You don\'t need to solve your whole life today. Just win the next step.',
+            '• Comparison destroys motivation: Other people\'s pace doesn\'t define yours.',
+            '• Fatigue is not failure: Fatigue might feel like failure, but they are not the same thing.',
+            '• Everyone has their dark phases: Many people who seem highly successful today went through phases where they also wanted to quit everything.'
+          ] },
+          { type: 'steps', title: '✨ Simple quotes to keep in mind', items: [
+            '“Keep it small, but keep going.”',
+            '“What feels like a delay today can become part of your strength tomorrow.”'
+          ] }
+        ]
+      },
+      {
+        id: 'trabalho_internet',
+        title: '💻 Reality of Online Work',
+        content: [
+          'Working with the internet takes longer than people show. Most only see the result: money, followers, sales. Almost nobody shows the months of posting without return, trying without earning anything, and thinking about giving up.',
+          'Those who manage to make a living online usually had three fundamental things: consistency, constant learning, and enough patience to keep going when nobody believed.',
+          'You don\'t need to be perfect. You need to become someone who shows up every single day.',
+          { type: 'info', title: '💡 Some important truths', items: [
+            '• If it is difficult today, it doesn\'t mean you are not cut out for the internet.',
+            '• Online results are usually delayed. You plant for a long time before you harvest.',
+            '• Those who give up early never find out if they were close to succeeding.',
+            '• Shift your mindset: stop thinking "How do I get rich quick?" and start thinking "How do I become useful every day?"'
+          ] },
+          { type: 'steps', title: '🎯 Practical tips to improve working on the internet', items: [
+            '1. Choose ONE area for a while: Don\'t try to do everything at once (Video editing, Design, Digital marketing, Content creation, Affiliates, Programming, Online sales, Social media management). Mastering one thing is worth more than starting ten.',
+            '2. Post even without results: In the beginning, almost no one sees it, and that is normal. Those who grow improve a little each day, learn from mistakes, and keep posting. The internet rewards repetition.',
+            '3. Learn high-paying skills: The strongest today are Video editing, Copywriting, Paid traffic, AI, Short-form content creation, Automation, and Social media design. Businesses always need this.',
+            '4. Stop consuming excess motivation: Motivation helps for a few minutes. Routine changes lives. Create consistent hours to learn, practice, publish, and rest.',
+            '5. Compare your "current self" with yesterday: Don\'t compare yourself with influencers. If you know more today than a month ago, you are making progress.',
+            '6. Take care of your mind: The internet can be exhausting because it feels like everyone is winning except you. Remember: a lot of things online are just appearances. Keep building silently.'
+          ] },
+          { type: 'tips', items: [
+            '“Even slow, I am still in the race.”',
+            '“If I keep learning for 1 year without stopping, my life can change completely.”'
+          ] }
+        ]
+      },
+      {
+        id: 'plano_30_dias',
+        title: '📈 Direction & 30-Day Plan',
+        content: [
+          'You are at the most important point: you decided to continue. Now you need direction and consistency.',
+          { type: 'info', title: '1. Great Areas to Start Online', items: [
+            '📱 With Mobile (Easiest): Short-form video editing, Page management, Content creation (TikTok/Reels), Simple design in Canva (canva.com), Affiliates, AI Voiceover.',
+            '💸 Higher Future Returns (Medium/Long term): Programming, AI automation, Copywriting, Paid traffic, Personal branding, Social media.',
+            '🚀 Quick recommendation: Learn Short Video Editing + Canva Design + Content Creation. These 3 skills combined generate income!'
+          ] },
+          { type: 'steps', title: '📅 30-Day Execution Plan', items: [
+            'Week 1 (Learn): Spend 1 hour watching classes and 1 hour practicing video cuts, subtitles, thumbnails, simple posts, and hooks. Apps: capcut.com and canva.com.',
+            'Week 2 (Create): Produce 1 short video and 1 design daily. Copy working styles. Quantity builds experience.',
+            'Week 3 (Publish): Share on TikTok, Instagram Reels, and Facebook. Track titles, schedules, trends, and retention.',
+            'Week 4 (Monetize): Offer editing services, post creation, or page management. Pitch through Facebook groups, WhatsApp, local businesses, or small creators.'
+          ] },
+          { type: 'info', title: '💰 How to Make Money Online (Real Assets)', items: [
+            '• Online Services: Editing, design, copywriting, subtitles, logos (charge per gig).',
+            '• Content Creation: Monetize via ads, sponsorships, sales, and affiliates on TikTok, Facebook, and Instagram.',
+            '• Freelancing: Pitch on fiverr.com, upwork.com, and freelancer.com.',
+            '• Affiliates: Promote products and earn commission on digistore24.com and hotmart.com.'
+          ] },
+          { type: 'steps', title: '⏰ Daily Discipline Routine', items: [
+            '🌅 Morning: Wake up, avoid social media for 30 min, study for 1 hour.',
+            '☀️ Afternoon: Practice skills, create content, and build your portfolio.',
+            '🌙 Night: Publish your content, analyze metrics, and learn something new.'
+          ] },
+          { type: 'info', title: '🛡️ Golden Rules', items: [
+            '• Stop waiting for motivation: Motivation fluctuates. Discipline sustains.',
+            '• Avoid the get-rich-quick trap: Hone your skills first. The money will follow.',
+            '• Post even if embarrassed: Every creator started out bad.',
+            '• Commit for 1 whole year: One year of absolute focus can completely change your life.'
+          ] },
+          { type: 'tips', items: [
+            '“The internet rewards those who keep going when others stop.”',
+            '“Your future depends on how much you can endure learning without immediate results.”'
+          ] }
+        ]
+      }
+    ]
   }
 ];
 
@@ -3396,6 +3908,177 @@ export const APP_CONTENT_ES: SectionContent[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'motivacao',
+    title: 'Motivación',
+    description: 'Fortalece tu mentalidad, supera el desánimo y crea hábitos inquebrantables para ganar en el mercado digital.',
+    subsections: [
+      {
+        id: 'mindset_indomavel',
+        title: '🧠 Mentalidad Próspera',
+        content: [
+          'Tu éxito financiero empieza en tu mente. La habilidad sin mentalidad fuerte se rinde al primer obstáculo.',
+          { type: 'info', title: '🚀 Pilares Clave de Éxito', items: [
+            '1. ACEPTA EL PROCESO: Nadie se hace rico de un día para otro. La constancia construye riqueza sólida.',
+            '2. ENFOQUE TOTAL: Deja de saltar de estrategia en estrategia. Enfócate hasta tener éxito.',
+            '3. AUTO-RESPONSABILIDAD: El algoritmo no conspira contra ti. Aprende, prueba y mejora.'
+          ] },
+          { type: 'tips', items: ['El éxito pertenece a quienes se niegan a rendirse.'] }
+        ]
+      },
+      {
+        id: 'cinco_regras_vida',
+        title: '⏳ Las 5 Reglas de la Realidad',
+        content: [
+          'Si tienes más de 16 años y aún no has aprendido esto, la vida te seguirá cobrando caro.',
+          { type: 'info', title: '💡 Las Leyes de la Supervivencia y el Éxito', items: [
+            '1. El Silencio Construye: La vida es mucho mejor cuando nadie sabe lo que estás haciendo. El silencio construye. Si estás empezando un proyecto, quédate callado. ¿Empezando en Marketing? Quédate callado. ¿Empezando en TikTok Shop? Quédate callado. Demasiada exposición estorba.',
+            '2. Opinión sin Resultados es Ruido: Nunca aceptes consejos de quien no ha llegado a donde tú quieres llegar. "Ah, compra este curso" – ¡eso es mentira! Si quieres empezar a trabajar en internet, no necesitas comprar nada. La opinión sin resultados es solo ruido.',
+            '3. El Tiempo Revela: Todos, sin excepción, te mostrarán quiénes son en realidad. El tiempo siempre lo revela. Siempre.',
+            '4. Crea tu Oportunidad: Si estás esperando que la oportunidad llame a tu puerta, puedes sentarte. Los grandes crean oportunidades, no esperan.',
+            '5. La Libertad exige Coraje: ¿Quieres ser feliz? Necesitas libertad. ¿Quieres libertad? Necesitas coraje. Y el coraje no es un discurso, es actitud.'
+          ] },
+          { type: 'steps', title: '🛡️ Principios de Carácter y Círculo de Influencia', items: [
+            'Hombres, no andéis con otros hombres que traicionan a sus mujeres. No andéis con un montón de payasos que mienten mirándoos a los ojos y que no asumen la responsabilidad de lo que hacen, que viven de promesas y no cumplen nada. O que no respetan su propia palabra, que hablan mal de su propia familia, que solo piensan en placer, libertinaje, bebida, lujuria y nunca en responsabilidad.',
+            'No viváis en el desorden, sin disciplina, sin direction, sin propósito, como si fuerais eternos adolescentes con 30, 40 o 50 años a vuestras espaldas. No tienen principios, no tienen carácter. La falta de carácter es contagiosa.',
+            'Si andáis con hombres débiles, os volveréis débiles y empezaréis a normalizar la debilidad. Si andáis con hombres desleales, empezaréis a creer que la traición es algo normal. Si andáis con gente que come basura, serás el próximo cerdo.'
+          ] },
+          { type: 'tips', items: ['La vida no cambia; cambia tu percepción. Puedes llorar en la tormenta o elegir bailar bajo la lluvia.'] }
+        ]
+      },
+      {
+        id: 'trabalho_internet',
+        title: '💻 Realidad del Trabajo en Internet',
+        content: [
+          'Trabajar con internet toma más tiempo del que la gente muestra. La mayoría solo ve el resultado: dinero, seguidores, ventas. Casi nadie muestra los meses en que se publicó sin retorno, se intentó sin ganar nada y se pensó en desistir.',
+          'Quienes logran vivir de internet normalmente tuvieron tres cosas fundamentales: consistencia, aprendizaje constante y paciência suficiente para seguir cuando nadie creía.',
+          'No necesitas ser perfecto. Necesitas convertirse en alguien que aparece todos los días.',
+          { type: 'info', title: '💡 Algunas verdades importantes', items: [
+            '• Si hoy está difícil, eso no significa que no sirvas para el internet.',
+            '• Los resultados online suelen venir con retraso. Siembras durante mucho tiempo antes de cosechar.',
+            '• Quienes abandonan temprano nunca descubren si estuvieron cerca de lograrlo.',
+            '• Cambia de mentalidad: deja de pensar “¿Cómo me hago rico rápido?” y empieza a pensar “¿Cómo me hago útil todos los días?”'
+          ] },
+          { type: 'steps', title: '🎯 Consejos prácticos para progresar trabajando en internet', items: [
+            '1. Elige UNA sola área por un tiempo: No intentes hacer todo a la vez (Edición de video, Diseño, Marketing digital, Creación de contenido, Afiliados, Programación, Ventas online, Gestión de redes sociais). Dominar una cosa vale más que empezar diez.',
+            '2. Publica incluso sin resultados: Al principio casi nadie te ve, y eso es normal. Quienes crecen mejoran un poco cada día, aprenden de los errores y siguen publicando. El internet premia la repetición.',
+            '3. Aprende habilidades que generen ingresos: Las más fortes hoy son Edición de video, Copywriting, Tráfico pago, IA, Creación de contenido corto, Automatización y Diseño para redes sociales. Las marcas siempre las necesitan.',
+            '4. Deja de consumir exceso de motivación: La motivación ayuda por unos minutos. La rutina cambia vidas. Crea horarios consistentes para aprender, practicar, publicar y descansar.',
+            '5. Compara tu “yo de hoy” con el de ayer: No te compares con influencers. Si hoy sabes más que hace un mes, ya estás avanzando.',
+            '6. Cuida tu mente: El internet puede cansar porque parece que todos ganan menos tú. Recuerda: mucho de lo que ves online es solo apariencia. Sigue construyendo en silencio.'
+          ] },
+          { type: 'tips', items: [
+            '“Incluso lento, sigo en la carrera.”',
+            '“Si sigo aprendiendo por 1 año sin parar, mi vida puede cambiar por completo.”'
+          ] }
+        ]
+      },
+      {
+        id: 'plano_30_dias',
+        title: '📈 Dirección & Plan de 30 Días',
+        content: [
+          'Estás en el punto más importante: decidiste continuar. Ahora necesitas dirección y constancia.',
+          { type: 'info', title: '1. Áreas buenas para empezar en internet', items: [
+            '📱 Con Celular (Sencillo): Edición de videos cortos, Gestión de páginas, Creación de contenido TikTok/Reels, Diseño simple en Canva (canva.com), Afiliados, Narración con IA.',
+            '💸 Retorno Futuro (Medio/Largo plazo): Programación, Automatización con IA, Copywriting, Tráfico pago, Marca personal, Social media.',
+            '🚀 Recomendación rápida: Aprende Edición de videos cortos + Diseño en Canva + Creación del contenido. Estas 3 habilidades juntas generan ingresos.'
+          ] },
+          { type: 'steps', title: '📅 Plan de 30 Días de Ejecución', items: [
+            'Semana 1 (Aprender): Dedica 1h a ver clases y 1h a practicar cortes de video, subtítulos, miniaturas, posts simples y hooks. Apps: capcut.com y canva.com.',
+            'Semana 2 (Criar): Produce 1 video corto y 1 diseño al día. Copia formatos en tendencia. Cantidad genera experiencia.',
+            'Semana 3 (Publicar): Sube tus contenidos a TikTok, Instagram Reels y Facebook. Aprende sobre títulos, horarios, tendencias y retención.',
+            'Semana 4 (Monetizar): Ofrece servicios de edición, creación de posts o gestión de páginas. Consigue clientes en Facebook, WhatsApp, negocios locales o pequeños creadores.'
+          ] },
+          { type: 'info', title: '💰 Cómo ganar dinero online (Activos Reales)', items: [
+            '• Servicios Online: Edición, diseño, posts, subtítulos, logos (cobra por trabajo).',
+            '• Crear Contenido: Gana con publicidad, patrocinios, ventas y afiliados en TikTok, Facebook e Instagram.',
+            '• Freelance: Ofrece tu trabajo en fiverr.com, upwork.com y freelancer.com.',
+            '• Afiliados: Promueve productos y gana comisiones en digistore24.com y hotmart.com.'
+          ] },
+          { type: 'steps', title: '⏰ Rutina Diaria de Disciplina', items: [
+            '🌅 Mañana: Despiértate, evita redes sociales por 30 minutos, estudia por 1 hora.',
+            '☀️ Tarde: Practica tus habilidades, crea contenidos y mejora tu portafolio.',
+            '🌙 Noche: Publica tus contenidos, analiza los resultados y aprende algo nuevo.'
+          ] },
+          { type: 'info', title: '🛡️ Reglas Fundamentales para el Éxito', items: [
+            '• Deja de esperar motivación: La motivación va y viene. La disciplina continúa.',
+            '• No intentes enriquecerte rápido: Construye tus habilidades primero. El dinero vendrá después.',
+            '• Sube contenido aunque sientas vergüenza: Todos los creadores empezaron siendo malos.',
+            '• Enfócate durante 1 año de verdad: Un año enfocado seriamente puede cambiar toda tu realidad.'
+          ] },
+          { type: 'tips', items: [
+            '“La internet recompensa a quien sigue cuando los demás se detienen.”',
+            '“Tu futuro depende de cuánto aguantes seguir aprendiendo sin ver un resultado inmediato.”'
+          ] }
+        ]
+      },
+      {
+        id: 'monetizar_mentalidade',
+        title: '💰 Cómo Monetizar la Mentalidad',
+        content: [
+          'Desarrollar una mentalidad fuerte no solo sirve para superar obstáculos personales; es un activo digital muy valioso que puedes transformar en ingresos reales.',
+          { type: 'info', title: '🛠️ Formas Reales de Transformar Mentalidad en Ganancias', items: [
+            '1. INFOPRODUCTOS DE PRODUCTIVIDAD: Crea y vende e-books, planners o guías de constancia y organización en plataformas digitales.',
+            '2. ASESORÍAS Y MENTORÍAS: Ayuda a otros a organizar su rutina diaria, vencer la procrastinación y definir metas claras.',
+            '3. CANALES DE CONTENIDO DE MOTIVACIÓN: Desarrolla perfiles sobre crecimiento personal o estoicismo y monetiza con visitas o afiliados.',
+            '4. GRUPOS DE RETOS PAGOS: Crea retos de 21 días enfocados en hábitos saludables y autodisciplina directo por WhatsApp.'
+          ] },
+          { type: 'steps', title: '🚀 Ruta Sencilla para Empezar desde Cero', items: [
+            'Identifica tu fuerte principal (ej: consistencia extrema, enfoque, organización diaria).',
+            'Comparte clips dinámicos con reflexiones poderosas en TikTok o Reels para crecer en audiencia.',
+            'Crea una herramienta de bajo costo como un planeador de hábitos en PDF o un e-book de retos.',
+            'Ofrece mentorías personalizadas para personas que necesitan seguimiento activo para alcanzar sus metas.'
+          ] },
+          { type: 'tips', items: ['La resiliencia y el enfoque son escasos en el mundo de hoy. Al enseñar a las personas cómo disciplinarse, creas seguidores altamente comprometidos con tus proyectos pagados.'] }
+        ]
+      },
+      {
+        id: 'nao_desista',
+        title: '🌱 Fuerza para Continuar (No te Rindas)',
+        content: [
+          'Rendirse parece una solución rápida cuando todo pesa al mismo tiempo. Pero muchas cosas importantes en la vida solo aparecen después de una fase en la que parecía imposible continuar.',
+          { type: 'info', title: '💡 Ideas que ayudan en estos momentos', items: [
+            '• No todo progreso es visible: A veces estás evolucionando solo por seguir intentándolo.',
+            '• No necesitas resolver todo hoy: No necesitas resolver la vida entera hoy. Solo necesitas vencer el próximo paso.',
+            '• Comparar destruye la motivación: El ritmo de los demás no define el tuyo.',
+            '• Cansancio no es fracaso: El cansancio puede parecer un fracaso, pero no es lo mismo.',
+            '• Todos pasan por tormentas: Muchas personas que hoy parecen "exitosas" pasaron por etapas en las que también querían tirar la toalla por completo.'
+          ] },
+          { type: 'steps', title: '✨ Frases sencillas para recordar', items: [
+            '“Sigue pequeño, pero sigue.”',
+            '“Lo que hoy parece un retraso puede convertirse en parte de tu fuerza mañana.”'
+          ] }
+        ]
+      },
+      {
+        id: 'trabalho_internet',
+        title: '💻 Realidad del Trabajo en Internet',
+        content: [
+          'Trabajar con internet toma más tiempo del que la gente muestra. La mayoría solo ve el resultado: dinero, seguidores, ventas. Casi nadie muestra los meses en que se publicó sin retorno, se intentó sin ganar nada y se pensó en desistir.',
+          'Quienes logran vivir de internet normalmente tuvieron tres cosas fundamentales: consistencia, aprendizaje constante y paciência suficiente para seguir cuando nadie creía.',
+          'No necesitas ser perfecto. Necesitas convertirte en alguien que aparece todos los días.',
+          { type: 'info', title: '💡 Algunas verdades importantes', items: [
+            '• Si hoy está difícil, eso no significa que no sirvas para el internet.',
+            '• Los resultados online suelen venir con retraso. Siembras durante mucho tiempo antes de cosechar.',
+            '• Quienes abandonan temprano nunca descubren si estuvieron cerca de lograrlo.',
+            '• Cambia de mentalidad: deja de pensar “¿Cómo me hago rico rápido?” y empieza a pensar “¿Cómo me hago útil todos los días?”'
+          ] },
+          { type: 'steps', title: '🎯 Consejos prácticos para progresar trabajando en internet', items: [
+            '1. Elige UNA sola área por un tiempo: No intentes hacer todo a la vez (Edición de video, Diseño, Marketing digital, Creación de contenido, Afiliados, Programación, Ventas online, Gestión de redes sociais). Dominar una cosa vale más que empezar diez.',
+            '2. Publica incluso sin resultados: Al principio casi nadie te ve, y eso es normal. Quienes crecen mejoran un poco cada día, aprenden de los errores y siguen publicando. El internet premia la repetición.',
+            '3. Aprende habilidades que generen ingresos: Las más fuertes hoy son Edición de video, Copywriting, Tráfico pago, IA, Creación de contenido corto, Automatización y Diseño para redes sociales. Las marcas siempre las necesitan.',
+            '4. Deja de consumir exceso de motivación: La motivación ayuda por unos minutos. La rutina cambia vidas. Crea horarios consistentes para aprender, practicar, publicar y descansar.',
+            '5. Compara tu “yo de hoy” con el de ayer: No te compares con influencers. Si hoy sabes más que hace un mes, ya estás avanzando.',
+            '6. Cuida tu mente: El internet puede cansar porque parece que todos ganan menos tú. Recuerda: mucho de lo que ves online es solo apariencia. Sigue construyendo en silencio.'
+          ] },
+          { type: 'tips', items: [
+            '“Incluso lento, sigo en la carrera.”',
+            '“Si sigo aprendiendo por 1 año sin parar, mi vida puede cambiar por completo.”'
+          ] }
+        ]
+      }
+    ]
   }
 ];
 
@@ -3413,6 +4096,150 @@ export const APP_CONTENT_FR: SectionContent[] = [
             'PHOTO: Visage clair ou logo simple et marquant.',
             'NOM: Exemples: Conseils de Jean, Revenu Intelligent, Vie de Succès.',
             'BIO: Doit promettre une valeur réelle (Ex: "Je t\'enseigne à gagner de l\'argent en ligne").'
+          ] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'motivacao',
+    title: 'Motivation',
+    description: 'Renforcez votre état d\'esprit, surmontez le découragement et créez des habitudes de réussite.',
+    subsections: [
+      {
+        id: 'mindset_indomavel',
+        title: '🧠 État d\'esprit Gagnant',
+        content: [
+          'Votre succès financier commence dans votre tête. Sans un mental fort, vous abandonnerez vite.',
+          { type: 'info', title: '🚀 Principes de base', items: [
+            '1. ACCEPTEZ LE PROCESSUS: Personne ne devient riche en un jour. La régularité construit le succès.',
+            '2. FOCUS TOTAL: Arrêtez d\'éparpiller vos forces. Choisissez une méthode et persévérez.',
+            '3. RESPONSABILITÉ: L\'algorithme n\'est pas contre vous. Travaillez dur et apprenez.'
+          ] },
+          { type: 'tips', items: ['Le succès appartient à ceux qui refusent d\'abandonner leurs rêves.'] }
+        ]
+      },
+      {
+        id: 'cinco_regras_vida',
+        title: '⏳ Les 5 Règles de la Réalité',
+        content: [
+          'Si vous avez plus de 16 ans et n\'avez pas encore appris cela, la vie continuera à vous faire payer cher.',
+          { type: 'info', title: '💡 Les Lois de la Survie et du Succès', items: [
+            '1. Le Silence Construit: La vie est bien meilleure quand personne ne sait ce que vous faites. Le silence construit. Si vous commencez un projet, restez silencieux. En Marketing ? Restez silencieux. Sur TikTok Shop ? Restez silencieux. Trop d\'exposition nuit au succès.',
+            '2. Une Opinion sans Résultat est du Bruit: N\'acceptez jamais les conseils de quelqu\'un qui n\'est pas arrivé là où vous voulez aller. "Ah, achète cette formation" – c\'est un mensonge ! Si vous voulez commencer à travailler sur internet, vous n\'avez rien à acheter. L\'opinion sans résultats n\'est que du bruit.',
+            '3. Le Temps Révèle Tout: Tout le monde, sans exception, finira par vous montrer qui il est vraiment. Le temps finit toujours par révéler les intentions. Toujours.',
+            '4. Créez vos Opportunités: Si vous attendez que l\'opportunité frappe à votre porte, vous pouvez rester assis. Les grands esprits créent des opportunités, ils ne les attendent pas.',
+            '5. La Liberté exige du Courage: Vous voulez être heureux ? Vous avez besoin de liberté. Vous voulez de la liberté ? Vous avez besoin de courage. Et le courage n\'est pas un discours, c\'est une attitude.'
+          ] },
+          { type: 'steps', title: '🛡️ Principes de Caractère et Cercle d\'Influence', items: [
+            'Hommes, ne fréquentez pas d\'autres hommes qui trahissent leur femme. Ne marchez pas avec une bande de clowns qui mentent en vous regardant dans les yeux et qui n\'assument pas ce qu\'ils font, qui vivent de promesses et ne respectent rien. Ou qui ne respectent pas leur propre parole, parlent de façon négative de leur propre famille, ne pensent qu\'au plaisir, à la débauche, à l\'alcool, à la luxure et jamais à leurs responsabilités.',
+            'Ne vivez pas dans le désordre, sans discipline, sans direction, sans but, comme si vous étiez d\'éternels adolescents à 30, 40 ou 50 ans. Ils n\'ont pas de principes, pas de caractère. Le manque de caractère est contagieux.',
+            'Si vous marchez avec des hommes faibles, vous deviendrez faible et commencerez à normaliser la faiblesse. Si vous marchez avec des hommes déloyaux, vous finirez par trouver la trahison normale. Si vous traînez avec des gens qui mangent des déchets, vous serez le prochain cochon.'
+          ] },
+          { type: 'tips', items: ['La vie ne change pas; c\'est votre perception qui change. Vous pouvez pleurer sous la tempête ou choisir de danser sous la pluie.'] }
+        ]
+      },
+      {
+        id: 'monetizar_mentalidade',
+        title: '💰 Comment Monétiser l\'État d\'Esprit',
+        content: [
+          'Développer un état d\'esprit fort ne sert pas seulement à surmonter les obstacles personnels; c\'est un actif numérique précieux que vous pouvez transformer en profits réels.',
+          { type: 'info', title: '🛠️ Moyens concrets de monétiser votre mental', items: [
+            '1. INFOPRODUITS DE PRODUCTIVITÉ: Créez et vendez des ebooks, des planners ou des guides de discipline sur les plateformes.',
+            '2. CONSULTING & MENTORAT: Aidez les autres à organiser leur quotidien, à vaincre la procrastination et à se fixer des buts clairs.',
+            '3. CRIAÇÃO DE CANAIS DE MOTIVATION: Lancez des comptes sur la force mentale ou le stoïcisme et monétisez par vues ou affiliation.',
+            '4. DEFIS ET COMMUNAUTÉS: Créez des défis de 21 jours basés sur de nouvelles habitudes et la discipline sur WhatsApp.'
+          ] },
+          { type: 'steps', title: '🚀 Le plan d\'action pour démarrer de zéro', items: [
+            'Définissez votre point fort (ex: productivité ultime, gestion du temps, persévérance).',
+            'Partagez des clips engageants avec des leçons de vie sur Reels ou TikTok pour attirer une audience.',
+            'Concevez un produit d\'entrée simple comme un planner de productivité en PDF ou un mini guide pratique.',
+            'Lancez du coaching individuel pour guider personnellement ceux qui manquent de rigueur au quotidien.'
+          ] },
+          { type: 'tips', items: ['Le focus et la clarté d\'esprit sont rares aujourd\'hui. En guidant les gens vers plus de discipline, vous générez une communauté réceptive aux offres payantes.'] }
+        ]
+      },
+      {
+        id: 'nao_desista',
+        title: '🌱 Force pour Continuer (N\'abandonnez Pas)',
+        content: [
+          'Abandonner semble être une solution rapide quand tout est lourd en même temps. Mais de nombreuses choses importantes dans la vie ne se révèlent qu\'après une phase où il semblait impossible de continuer.',
+          { type: 'info', title: '💡 Idées qui aident dans ces moments', items: [
+            '• Tout progrès n\'est pas visible: Parfois, vous progressez simplement en continuant à essayer.',
+            '• Pas besoin de tout résoudre aujourd\'hui: Vous n\'avez pas besoin de régler toute votre vie aujourd\'hui. Concentrez-vous sur la prochaine étape.',
+            '• La comparaison détruit la motivation: Le rythme des autres ne définit pas le vôtre.',
+            '• La fatigue n\'est pas un échec: La fatigue peut ressembler à un échec, mais ce n\'est pas la même chose.',
+            '• Tout le monde a des doutes: Beaucoup de personnes qui semblent aujourd\'hui "accomplies" ont aussi traversé des phases où elles voulaient tout plaquer.'
+          ] },
+          { type: 'steps', title: '✨ Des phrases simples à garder en tête', items: [
+            '“Restez petit, mais continuez.”',
+            '“Ce qui semble être un retard aujourd\'hui peut devenir votre force de demain.”'
+          ] }
+        ]
+      },
+      {
+        id: 'trabalho_internet',
+        title: '💻 La Réalité du Travail en Ligne',
+        content: [
+          'Travailler sur internet prend plus de temps que les gens ne le montrent. La majorité ne voit que le résultat : argent, abonnés, ventes. Presque personne ne montre les mois de publication sans retour, d’essais sans rien gagner et de doutes.',
+          'Ceux qui réeussissent à vivre d’internet ont généralement réuni trois éléments clés : la cohérence, l’apprentissage constant et assez de patience pour continuer quand personne n’y croyait.',
+          'Vous n’avez pas besoin d’être parfait. Vous devez devenir quelqu’un qui est présent chaque jour.',
+          { type: 'info', title: '💡 Quelques vérités importantes', items: [
+            '• Si c’est difficile aujourd’hui, cela ne veut pas dire que vous n’êtes pas fait pour internet.',
+            '• Les résultats en ligne sont souvent décalés. Vous semez pendant longtemps avant de récolter.',
+            '• Ceux qui abandonnent trop tôt ne sauront jamais s’ils étaient sur le point de réussir.',
+            '• Changez d’état d’esprit : arrêtez de penser "Comment devenir riche rapidement ?" et commencez à penser "Comment devenir utile tous les jours ?" .'
+          ] },
+          { type: 'steps', title: '🎯 Conseils pratiques pour progresser sur internet', items: [
+            '1. Choisissez UN domaine pour un temps : N’essayez pas de tout faire en même temps (Montage vidéo, Design, Marketing digital, Création de contenu, Affiliation, Programmation, Vente en ligne, Community management). Maîtriser un sujet vaut mieux qu’en commencer dix.',
+            '2. Publiez même sans résultat : Au début, presque personne ne regarde, c’est normal. Ceux qui grandissent s’améliorent un peu chaque jour, apprennent de leurs erreurs et continuent de publier. Internet récompense la répétition.',
+            '3. Apprenez des compétences lucratives : Les plus recherchées aujourd’hui sont le Montage vidéo, le Copywriting, le Trafic payant, l’IA, la Création de shorts/Reels, l’Automation et le Design graphique. Les entreprises en ont toujours besoin.',
+            '4. Arrêtez de consommer trop de motivation : La motivation aide quelques minutes. La routine change une vie. Planifiez des plages horaires pour apprendre, pratiquer, publier et vous reposer.',
+            '5. Comparez votre "moi d’aujourd’hui" à celui d’hier : Ne vous comparez pas aux influenceurs. Si vous en savez plus aujourd’hui qu’il y a un mois, vous avancez.',
+            '6. Prenez soin de votre esprit : Internet fatigue car on a l’impression que tout le monde réussit sauf soi. Rappelez-vous : beaucoup de choses en ligne ne sont que de l’apparence. Continuez à bâtir silencieusement.'
+          ] },
+          { type: 'tips', items: [
+            '“Même lentement, je suis toujours dans la course.”',
+            '“Si je continue d’apprendre pendant 1 an sans m’arrêter, ma vie peut changer complètement.”'
+          ] }
+        ]
+      },
+      {
+        id: 'plano_30_dias',
+        title: '📈 Direction & Plan de 30 Jours',
+        content: [
+          'Vous êtes à l\'étape la plus importante : vous avez décidé de continuer. Maintenant, vous avez besoin de direction et de régularité.',
+          { type: 'info', title: '1. Excellents domaines pour commencer en ligne', items: [
+            '📱 Avec un Smartphone (Le plus simple) : Montage de vidéos courtes, Gestion de pages, Création de contenu (TikTok/Reels), Design simple sur Canva (canva.com), Affiliation, Voix off avec IA.',
+            '💸 Meilleurs retours futurs (Moyen/Long terme) : Programmation, Automatisation avec IA, Copywriting, Trafic payant (Ads), Personal branding, Social media.',
+            '🚀 Recommandation rapide : Apprenez le Montage vidéo court + Design sur Canva + Création de contenu. Ces 3 compétences réunies génèrent des revenus !'
+          ] },
+          { type: 'steps', title: '📅 Plan d\'action sur 30 Jours', items: [
+            'Semaine 1 (Apprendre) : Passez 1h par jour à regarder des cours et 1h à pratiquer (coupes de vidéos, sous-titres, miniatures, posts simples, accroches). Apps : capcut.com et canva.com.',
+            'Semaine 2 (Créer) : Produisez 1 courte vidéo et 1 design par jour. Copiez des formats qui fonctionnent. La quantité crée l\'expérience.',
+            'Semaine 3 (Publier) : Partagez sur TikTok, Instagram Reels et Facebook. Apprenez à optimiser les titres, les horaires, les tendances et la rétention.',
+            'Semaine 4 (Monétiser) : Offrez des services de montage ou de gestion de contenu. Trouvez des clients sur les groupes Facebook, WhatsApp, commerces locaux ou petits créateurs.'
+          ] },
+          { type: 'info', title: '💰 Comment gagner de l\'argent en ligne (De vrais actifs)', items: [
+            '• Services en ligne : Montage, design, copywriting, sous-titres, logos (facturez à la prestation).',
+            '• Création de contenu : Monétisez via la publicité, les partenariats, les ventes et l\'affiliation sur TikTok, Facebook et Instagram.',
+            '• Freelance : Proposez vos services sur fiverr.com, upwork.com et freelancer.com.',
+            '• Affiliation : Promouvez des produits et touchez des commissions sur digistore24.com et hotmart.com.'
+          ] },
+          { type: 'steps', title: '⏰ Routine quotidienne de discipline', items: [
+            '🌅 Matin : Réveillez-vous, évitez les réseaux sociaux pendant les 30 premières minutes, étudiez pendant 1h.',
+            '☀️ Après-midi : Pratiquez vos compétences, créez du contenu et améliorez votre portfolio.',
+            '🌙 Soir : Publiez vos contenus, analysez les résultats de rétention et apprenez quelque chose de nouveau.'
+          ] },
+          { type: 'info', title: '🛡️ Règles dorées pour réussir', items: [
+            '• Arrêtez d\'attendre la motivation : La motivation fluctue. La discipline reste.',
+            '• Pas de raccourcis pour devenir riche rapidement : Développez d\'abord vos compétences. L\'argent viendra ensuite.',
+            '• Publiez même si vous avez honte : Tout le monde a commencé en étant débutant.',
+            '• Engagez-vous sérieusement sur 1 an : Une année de focus absolu peut transformer complètement votre vie.'
+          ] },
+          { type: 'tips', items: [
+            '“Internet récompense ceux qui continuent quand les autres s\'arrêtent.”',
+            '“Votre avenir dépend de votre capacité à continuer d\'apprendre sans voir de résultats immédiats.”'
           ] }
         ]
       }

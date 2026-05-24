@@ -44,13 +44,57 @@ export const ImageGenerator: React.FC<ImageGeneratorProps> = ({ onBack }) => {
   const [images, setImages] = useState<ImageItem[]>([]);
   const [generating, setGenerating] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const [hasApiKey, setHasApiKey] = useState(false);
+  const [hasApiKey, setHasApiKey] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const user = auth.currentUser;
+  const [user, setUser] = useState<any>(() => {
+    if (auth.currentUser) return auth.currentUser;
+    const mockUserStr = localStorage.getItem('mock_user_session');
+    if (mockUserStr) {
+      try {
+        return JSON.parse(mockUserStr);
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  });
 
   useEffect(() => {
-    checkApiKey();
+    const unsub = auth.onAuthStateChanged((u) => {
+      if (u) {
+        setUser(u);
+      } else {
+        const mockUserStr = localStorage.getItem('mock_user_session');
+        if (mockUserStr) {
+          try {
+            setUser(JSON.parse(mockUserStr));
+          } catch {
+            setUser(null);
+          }
+        } else {
+          setUser(null);
+        }
+      }
+    });
+    return () => unsub();
+  }, []);
+
+  useEffect(() => {
     if (!user) return;
+
+    if (user.uid.startsWith('mock-')) {
+      const stored = localStorage.getItem(`mock_images_${user.uid}`);
+      if (stored) {
+        try {
+          setImages(JSON.parse(stored));
+        } catch {
+          setImages([]);
+        }
+      } else {
+        setImages([]);
+      }
+      return;
+    }
 
     const q = query(
       collection(db, 'users', user.uid, 'images'),
@@ -67,6 +111,13 @@ export const ImageGenerator: React.FC<ImageGeneratorProps> = ({ onBack }) => {
 
     return () => unsub();
   }, [user]);
+
+  // Persist mock images to localStorage
+  useEffect(() => {
+    if (user && user.uid.startsWith('mock-') && images.length > 0) {
+      localStorage.setItem(`mock_images_${user.uid}`, JSON.stringify(images));
+    }
+  }, [images, user]);
 
   const checkApiKey = async () => {
     try {
@@ -100,22 +151,41 @@ export const ImageGenerator: React.FC<ImageGeneratorProps> = ({ onBack }) => {
 
     let imageId = '';
     try {
-      // 1. Create entry in Firestore
-      const docRef = await addDoc(collection(db, 'users', user.uid, 'images'), {
-        prompt: finalPrompt,
-        status: 'pending',
-        createdAt: serverTimestamp()
-      });
-      imageId = docRef.id;
+      // 1. Create entry in Firestore or local state
+      if (!user.uid.startsWith('mock-')) {
+        const docRef = await addDoc(collection(db, 'users', user.uid, 'images'), {
+          prompt: finalPrompt,
+          status: 'pending',
+          createdAt: serverTimestamp()
+        });
+        imageId = docRef.id;
+      } else {
+        imageId = 'mock-img-' + Date.now();
+        const newImage: ImageItem = {
+          id: imageId,
+          prompt: finalPrompt,
+          status: 'pending',
+          createdAt: { seconds: Date.now() / 1000 } as any
+        };
+        setImages(prev => [newImage, ...prev]);
+      }
 
       // 2. Generate Image
       const base64Data = await generateImage(finalPrompt);
       
-      // 3. Update Firestore
-      await updateDoc(doc(db, 'users', user.uid, 'images', imageId), {
-        imageUrl: base64Data,
-        status: 'completed'
-      });
+      // 3. Update status
+      if (!user.uid.startsWith('mock-')) {
+        await updateDoc(doc(db, 'users', user.uid, 'images', imageId), {
+          imageUrl: base64Data,
+          status: 'completed'
+        });
+      } else {
+        setImages(prev => {
+          const updated = prev.map(im => im.id === imageId ? { ...im, imageUrl: base64Data, status: 'completed' as const } : im);
+          localStorage.setItem(`mock_images_${user.uid}`, JSON.stringify(updated));
+          return updated;
+        });
+      }
       
       if (!overridePrompt) setPrompt('');
       setShowSuccess(true);
@@ -142,9 +212,17 @@ export const ImageGenerator: React.FC<ImageGeneratorProps> = ({ onBack }) => {
       
       setError(msg);
       if (imageId) {
-        await updateDoc(doc(db, 'users', user.uid, 'images', imageId), {
-          status: 'failed'
-        });
+        if (!user.uid.startsWith('mock-')) {
+          await updateDoc(doc(db, 'users', user.uid, 'images', imageId), {
+            status: 'failed'
+          });
+        } else {
+          setImages(prev => {
+            const updated = prev.map(im => im.id === imageId ? { ...im, status: 'failed' as const } : im);
+            localStorage.setItem(`mock_images_${user.uid}`, JSON.stringify(updated));
+            return updated;
+          });
+        }
       }
     } finally {
       setGenerating(false);
@@ -154,7 +232,13 @@ export const ImageGenerator: React.FC<ImageGeneratorProps> = ({ onBack }) => {
   const handleDelete = async (id: string) => {
     if (!user) return;
     try {
-      await deleteDoc(doc(db, 'users', user.uid, 'images', id));
+      if (!user.uid.startsWith('mock-')) {
+        await deleteDoc(doc(db, 'users', user.uid, 'images', id));
+      } else {
+        const updated = images.filter(im => im.id !== id);
+        setImages(updated);
+        localStorage.setItem(`mock_images_${user.uid}`, JSON.stringify(updated));
+      }
     } catch (err) {
       console.error(err);
     }

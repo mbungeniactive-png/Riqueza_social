@@ -2,5 +2,5 @@
   "name": "MoneyNet Ai",
   "description": "Domine o jogo das redes sociais e transforme sua influência em lucro real com estratégias avançadas de TikTok, Meta e YouTube.",
   "requestFramePermissions": ["notifications"],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
