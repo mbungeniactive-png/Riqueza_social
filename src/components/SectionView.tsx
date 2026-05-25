@@ -1,9 +1,10 @@
 import React from 'react';
 import { motion, useScroll, useSpring } from 'motion/react';
-import { ArrowLeft, CheckCircle2, TrendingUp, Lightbulb, Info, Play, Share2, Copy, Send, Plus, Trash2, ExternalLink, Link as LinkIcon, Save, AlertCircle } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, TrendingUp, Lightbulb, Info, Play, Share2, Copy, Send, Plus, Trash2, ExternalLink, Link as LinkIcon, Save, AlertCircle, Bookmark } from 'lucide-react';
 import { SectionContent, CONTENT_BY_LANGUAGE } from '../constants/content';
 import { useToast } from './Toast';
 import { useLanguage } from '../hooks/useLanguage';
+import { SponsorBanner } from './SponsorBanner';
 
 const AffiliateLinkManager = () => {
   const { showToast } = useToast();
@@ -181,6 +182,15 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
     const saved = localStorage.getItem(`completed_${section.id}`);
     return saved ? JSON.parse(saved) : {};
   });
+
+  const [favorites, setFavorites] = React.useState<string[]>(() => {
+    try {
+      const saved = localStorage.getItem('favorite_subsections');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
   
   const { showToast } = useToast();
   const { t } = useLanguage();
@@ -189,6 +199,52 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
   React.useEffect(() => {
     localStorage.setItem(`completed_${section.id}`, JSON.stringify(completedSubsections));
   }, [completedSubsections, section.id]);
+
+  // Log to reading history when section changes
+  React.useEffect(() => {
+    try {
+      const historyStr = localStorage.getItem('reading_history');
+      const history = historyStr ? JSON.parse(historyStr) : [];
+      const now = new Date().toISOString();
+      const existingIdx = history.findIndex((h: any) => h.sectionId === section.id);
+      
+      if (existingIdx > -1) {
+        history[existingIdx].lastViewed = now;
+        history[existingIdx].title = section.title;
+      } else {
+        history.push({
+          sectionId: section.id,
+          title: section.title,
+          desc: section.description,
+          lastViewed: now
+        });
+      }
+      
+      const slicedHistory = history
+        .sort((a: any, b: any) => new Date(b.lastViewed).getTime() - new Date(a.lastViewed).getTime())
+        .slice(0, 15);
+      localStorage.setItem('reading_history', JSON.stringify(slicedHistory));
+    } catch (err) {
+      console.error('History tracking error:', err);
+    }
+  }, [section.id, section.title, section.description]);
+
+  const toggleFavorite = (subId: string, subTitle: string) => {
+    try {
+      let updated: string[];
+      if (favorites.includes(subId)) {
+        updated = favorites.filter(id => id !== subId);
+        showToast(`Removido dos favoritos!`, 'info');
+      } else {
+        updated = [...favorites, subId];
+        showToast(`Adicionado aos favoritos!`, 'success');
+      }
+      setFavorites(updated);
+      localStorage.setItem('favorite_subsections', JSON.stringify(updated));
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
   const toggleCompletion = (id: string, title: string) => {
     const newState = !completedSubsections[id];
@@ -336,6 +392,9 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
       )}
 
       <div ref={scrollContainerRef} className="flex-1 overflow-y-auto no-scrollbar">
+        {/* Banner no Topo (Google AdSense Out-of-page Unit) */}
+        <SponsorBanner type="top-leaderboard" niche={section.id as any} />
+
         {/* Banner Area */}
         <div className="p-6 sm:p-8 bg-slate-50 dark:bg-white/5 border-b border-slate-100 dark:border-white/5 flex flex-col items-center text-center">
           <p className="text-slate-500 dark:text-slate-400 font-medium leading-relaxed max-w-xs">{section.description}</p>
@@ -344,170 +403,188 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
         {/* Content */}
         <div className="p-4 sm:p-6 space-y-10 pb-20">
           {section.subsections.map((sub, idx) => (
-            <motion.section 
-              key={sub.id}
-              id={sub.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: idx * 0.1 }}
-              className="space-y-6"
-            >
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <button 
-                    onClick={() => toggleCompletion(sub.id, sub.title)}
-                    className={`p-1.5 rounded-lg border-2 transition-all ${
-                      completedSubsections[sub.id] 
-                        ? 'bg-blue-600 border-blue-600 text-white' 
-                        : 'border-slate-200 dark:border-white/10 text-transparent'
-                    }`}
-                  >
-                    <CheckCircle2 className="w-4 h-4" />
-                  </button>
-                  <h2 className={`text-xl sm:text-2xl font-black leading-tight transition-all ${
-                    completedSubsections[sub.id] ? 'text-slate-400 dark:text-slate-600 line-through' : 'text-slate-900 dark:text-white'
-                  }`}>
-                    {sub.title}
-                  </h2>
+            <React.Fragment key={sub.id}>
+              <motion.section 
+                id={sub.id}
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.25, delay: idx * 0.05 }}
+                className="space-y-6"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <button 
+                      onClick={() => toggleCompletion(sub.id, sub.title)}
+                      className={`p-1.5 rounded-lg border-2 transition-all ${
+                        completedSubsections[sub.id] 
+                          ? 'bg-blue-600 border-blue-600 text-white' 
+                          : 'border-slate-200 dark:border-white/10 text-transparent'
+                      }`}
+                    >
+                      <CheckCircle2 className="w-4 h-4" />
+                    </button>
+                    <h2 className={`text-xl sm:text-2xl font-black leading-tight transition-all ${
+                      completedSubsections[sub.id] ? 'text-slate-400 dark:text-slate-600 line-through' : 'text-slate-900 dark:text-white'
+                    }`}>
+                      {sub.title}
+                    </h2>
+                  </div>
+                  <div className="flex gap-1">
+                    <button 
+                      onClick={() => toggleFavorite(sub.id, sub.title)}
+                      className="p-2 transition-colors duration-200"
+                      title="Salvar nos Favoritos"
+                    >
+                      <Bookmark 
+                        className={`w-4 h-4 ${
+                          favorites.includes(sub.id) 
+                            ? 'text-amber-500 fill-amber-500' 
+                            : 'text-slate-400 hover:text-amber-500'
+                        }`} 
+                      />
+                    </button>
+                    <button 
+                      onClick={() => handleShare(sub.title, sub.title, sub.id)}
+                      className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
+                    >
+                      <Share2 className="w-4 h-4" />
+                    </button>
+                    <button 
+                      onClick={() => copyToClipboard(window.location.href + `#${sub.id}`, sub.id)}
+                      className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
+                    >
+                      <LinkIcon className="w-4 h-4" />
+                    </button>
+                  </div>
                 </div>
-                <div className="flex gap-1">
-                   <button 
-                    onClick={() => handleShare(sub.title, sub.title, sub.id)}
-                    className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
-                  >
-                    <Share2 className="w-4 h-4" />
-                  </button>
-                  <button 
-                    onClick={() => copyToClipboard(window.location.href + `#${sub.id}`, sub.id)}
-                    className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
-                  >
-                    <LinkIcon className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
-              
-              <div className="space-y-6">
-                {sub.content.map((item, i) => {
-                  if (typeof item === 'string') {
-                    return <p key={i} className="text-slate-600 dark:text-slate-400 leading-relaxed font-medium">{formatText(item)}</p>;
-                  }
+                
+                <div className="space-y-6">
+                  {sub.content.map((item, i) => {
+                    if (typeof item === 'string') {
+                      return <p key={i} className="text-slate-600 dark:text-slate-400 leading-relaxed font-medium">{formatText(item)}</p>;
+                    }
 
-                  switch (item.type) {
-                    case 'video':
-                      return (
-                        <div key={i} className="space-y-3">
-                          {item.title && (
-                            <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2 px-1 text-xs uppercase tracking-wider">
-                              <Play className="w-3.5 h-3.5 text-blue-600 fill-blue-600" />
-                              {item.title}
-                            </h4>
-                          )}
-                          <div className="aspect-video w-full bg-slate-100 dark:bg-slate-800 rounded-[32px] overflow-hidden shadow-xl relative border border-slate-200 dark:border-white/10">
-                            <video 
-                              key={item.url}
-                              controls 
-                              className="w-full h-full object-cover"
-                              playsInline
-                            >
-                              <source src={item.url} type="video/mp4" />
-                              {t('sections.no_video')}
-                            </video>
+                    switch (item.type) {
+                      case 'video':
+                        return (
+                          <div key={i} className="space-y-3">
+                            {item.title && (
+                              <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2 px-1 text-xs uppercase tracking-wider">
+                                <Play className="w-3.5 h-3.5 text-blue-600 fill-blue-600" />
+                                {item.title}
+                              </h4>
+                            )}
+                            <div className="aspect-video w-full bg-slate-100 dark:bg-slate-800 rounded-[32px] overflow-hidden shadow-xl relative border border-slate-200 dark:border-white/10">
+                              <video 
+                                key={item.url}
+                                controls 
+                                className="w-full h-full object-cover"
+                                playsInline
+                              >
+                                <source src={item.url} type="video/mp4" />
+                                {t('sections.no_video')}
+                              </video>
+                            </div>
                           </div>
-                        </div>
-                      );
-                    case 'image':
-                      return (
-                        <div key={i} className="space-y-3">
-                          {item.title && (
-                            <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2 px-1 text-xs uppercase tracking-wider">
-                              <Info className="w-3.5 h-3.5 text-blue-600" />
-                              {item.title}
-                            </h4>
-                          )}
-                          <div className="w-full bg-white dark:bg-white/5 rounded-[32px] overflow-hidden shadow-xl border border-slate-100 dark:border-white/10 p-2">
-                            <img 
-                              src={item.url} 
-                              alt={item.title || 'Imagem de Renda Extra'}
-                              className="w-full h-auto rounded-2xl"
-                              referrerPolicy="no-referrer"
-                            />
+                        );
+                      case 'image':
+                        return (
+                          <div key={i} className="space-y-3">
+                            {item.title && (
+                              <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2 px-1 text-xs uppercase tracking-wider">
+                                <Info className="w-3.5 h-3.5 text-blue-600" />
+                                {item.title}
+                              </h4>
+                            )}
+                            <div className="w-full bg-white dark:bg-white/5 rounded-[32px] overflow-hidden shadow-xl border border-slate-100 dark:border-white/10 p-2">
+                              <img 
+                                src={item.url} 
+                                alt={item.title || 'Imagem de Renda Extra'}
+                                className="w-full h-auto rounded-2xl"
+                                referrerPolicy="no-referrer"
+                              />
+                            </div>
                           </div>
-                        </div>
-                      );
-                    case 'steps':
-                      return (
-                        <div key={i} className="bg-slate-50 dark:bg-white/5 p-6 rounded-3xl space-y-4 transition-colors">
-                          {item.title && <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2">
-                            <CheckCircle2 className="w-5 h-5 text-blue-500" />
-                            {item.title}
-                          </h4>}
-                          <ul className="space-y-3">
+                        );
+                      case 'steps':
+                        return (
+                          <div key={i} className="bg-slate-50 dark:bg-white/5 p-6 rounded-3xl space-y-4 transition-colors">
+                            {item.title && <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                              <CheckCircle2 className="w-5 h-5 text-blue-500" />
+                              {item.title}
+                            </h4>}
+                            <ul className="space-y-3">
+                              {item.items.map((li, j) => (
+                                <li key={j} className="text-slate-600 dark:text-slate-400 text-sm flex gap-3 leading-relaxed">
+                                  <span className="text-blue-500 font-bold">•</span>
+                                  {formatText(li)}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        );
+                      case 'tips':
+                        return (
+                          <div key={i} className="bg-amber-50 dark:bg-amber-900/10 p-6 rounded-3xl border border-amber-100 dark:border-amber-900/20 flex gap-4 transition-colors">
+                            <Lightbulb className="w-6 h-6 text-amber-500 shrink-0" />
+                            <div className="space-y-2">
+                               {item.items.map((li, j) => (
+                                  <p key={j} className="text-amber-800 dark:text-amber-500 text-sm font-bold leading-relaxed">{formatText(li)}</p>
+                               ))}
+                            </div>
+                          </div>
+                        );
+                      case 'info':
+                        return (
+                          <div key={i} className="bg-blue-50 dark:bg-blue-900/10 p-6 rounded-3xl border border-blue-100 dark:border-blue-900/20 space-y-3 transition-colors">
+                             {item.title && <h4 className="font-bold text-blue-900 dark:text-blue-400 flex items-center gap-2">
+                              <Info className="w-5 h-5 text-blue-600" />
+                              {item.title}
+                            </h4>}
+                            <div className="space-y-2">
+                              {item.items.map((li, j) => (
+                                <p key={j} className="text-blue-800 dark:text-blue-300 text-sm font-medium">{formatText(li)}</p>
+                              ))}
+                            </div>
+                          </div>
+                        );
+                      case 'list':
+                        return (
+                          <ul key={i} className="space-y-3 px-2">
                             {item.items.map((li, j) => (
-                              <li key={j} className="text-slate-600 dark:text-slate-400 text-sm flex gap-3 leading-relaxed">
-                                <span className="text-blue-500 font-bold">•</span>
-                                {formatText(li)}
+                              <li key={j} className="flex flex-col gap-2">
+                                <div className="text-slate-600 dark:text-slate-400 text-sm flex gap-3 leading-relaxed font-medium">
+                                  <ArrowLeft className="w-4 h-4 text-emerald-500 rotate-180 shrink-0 mt-1" />
+                                  {formatText(li)}
+                                </div>
+                                {sub.id === 'income_ideas' && onAskMentor && (
+                                  <button
+                                    onClick={() => onAskMentor(`Crie um plano de ação detalhado para começar com a ideia: "${li}". Foque em passos práticos para iniciantes, como monetizar e o que é necessário para começar hoje.`)}
+                                    className="ml-7 self-start text-[10px] font-black uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-500/10 px-3 py-1.5 rounded-full hover:scale-105 active:scale-95 transition-all flex items-center gap-2"
+                                  >
+                                    <Lightbulb className="w-3 h-3" />
+                                    {t('sections.action_plan')}
+                                  </button>
+                                )}
                               </li>
                             ))}
                           </ul>
-                        </div>
-                      );
-                    case 'tips':
-                      return (
-                        <div key={i} className="bg-amber-50 dark:bg-amber-900/10 p-6 rounded-3xl border border-amber-100 dark:border-amber-900/20 flex gap-4 transition-colors">
-                          <Lightbulb className="w-6 h-6 text-amber-500 shrink-0" />
-                          <div className="space-y-2">
-                             {item.items.map((li, j) => (
-                                <p key={j} className="text-amber-800 dark:text-amber-500 text-sm font-bold leading-relaxed">{formatText(li)}</p>
-                             ))}
-                          </div>
-                        </div>
-                      );
-                    case 'info':
-                       return (
-                        <div key={i} className="bg-blue-50 dark:bg-blue-900/10 p-6 rounded-3xl border border-blue-100 dark:border-blue-900/20 space-y-3 transition-colors">
-                           {item.title && <h4 className="font-bold text-blue-900 dark:text-blue-400 flex items-center gap-2">
-                            <Info className="w-5 h-5 text-blue-600" />
-                            {item.title}
-                          </h4>}
-                          <div className="space-y-2">
-                            {item.items.map((li, j) => (
-                              <p key={j} className="text-blue-800 dark:text-blue-300 text-sm font-medium">{formatText(li)}</p>
-                            ))}
-                          </div>
-                        </div>
-                       );
-                    case 'list':
-                      return (
-                        <ul key={i} className="space-y-3 px-2">
-                          {item.items.map((li, j) => (
-                            <li key={j} className="flex flex-col gap-2">
-                              <div className="text-slate-600 dark:text-slate-400 text-sm flex gap-3 leading-relaxed font-medium">
-                                <ArrowLeft className="w-4 h-4 text-emerald-500 rotate-180 shrink-0 mt-1" />
-                                {formatText(li)}
-                              </div>
-                              {sub.id === 'income_ideas' && onAskMentor && (
-                                <button
-                                  onClick={() => onAskMentor(`Crie um plano de ação detalhado para começar com a ideia: "${li}". Foque em passos práticos para iniciantes, como monetizar e o que é necessário para começar hoje.`)}
-                                  className="ml-7 self-start text-[10px] font-black uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-500/10 px-3 py-1.5 rounded-full hover:scale-105 active:scale-95 transition-all flex items-center gap-2"
-                                >
-                                  <Lightbulb className="w-3 h-3" />
-                                  {t('sections.action_plan')}
-                                </button>
-                              )}
-                            </li>
-                          ))}
-                        </ul>
-                      );
-                    case 'affiliate_manager':
-                      return <AffiliateLinkManager key={i} />;
-                    default:
-                      return null;
-                  }
-                })}
-              </div>
-            </motion.section>
+                        );
+                      case 'affiliate_manager':
+                        return <AffiliateLinkManager key={i} />;
+                      default:
+                        return null;
+                    }
+                  })}
+                </div>
+              </motion.section>
+              {idx === 0 && (
+                <SponsorBanner type="inline-native" niche={section.id as any} />
+              )}
+            </React.Fragment>
           ))}
+          {/* Banner no final dos artigos patrocinados */}
+          <SponsorBanner type="bottom-article" niche={section.id as any} />
         </div>
       </div>
       

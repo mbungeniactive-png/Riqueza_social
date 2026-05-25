@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
 @import "tailwindcss";
 
 @variant dark (&:where(.dark, .dark *));
@@ -15,11 +15,100 @@
 
 @layer base {
   body {
-    @apply font-sans antialiased text-slate-900 bg-slate-50 transition-colors duration-300;
+    @apply font-sans antialiased text-slate-900 bg-[#fafafa] transition-colors duration-500 overflow-x-hidden;
   }
 
   .dark body {
-    @apply text-slate-100 bg-slate-950;
+    @apply text-slate-100 bg-[#06060e] transition-colors duration-500;
   }
 }
 
+/* Premium Startup Custom Utilities */
+@utility glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dark .glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@utility cyber-glow {
+  box-shadow: 0 0 35px -5px rgba(59, 130, 246, 0.15), 0 0 15px -5px rgba(139, 92, 246, 0.1);
+}
+
+.dark .cyber-glow {
+  box-shadow: 0 0 45px -5px rgba(37, 99, 235, 0.25), 0 0 25px -5px rgba(168, 85, 247, 0.15);
+}
+
+@utility tech-grid {
+  background-image: 
+    radial-gradient(ellipse 70% 70% at 50% -20%, rgba(99, 102, 241, 0.15), rgba(255, 255, 255, 0)),
+    linear-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.4) 1px, transparent 1px);
+  background-size: 100% 100%, 20px 20px, 20px 20px;
+}
+
+.dark .tech-grid {
+  background-image: 
+    radial-gradient(ellipse 60% 60% at 50% -20%, rgba(59, 130, 246, 0.22), rgba(6, 6, 14, 0)),
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 100% 100%, 24px 24px, 24px 24px;
+}
+
+@utility gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+}
+
+.dark .gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+}
+
+@utility hover-card-glow {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-card-glow:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.35);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Scrollbar Modern Styling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
+}

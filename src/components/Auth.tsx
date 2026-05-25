@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, User as UserIcon, Loader2, ShieldCheck, Sparkles, Check, ArrowLeft, Lock } from 'lucide-react';
 import { signInWithName } from '../lib/firebase';
 import { useLanguage } from '../hooks/useLanguage';
+import { AppLogo } from './AppLogo';
 
 interface AuthProps {
   onLoginSuccess: (user: any) => Promise<void> | void;
@@ -149,6 +150,11 @@ export const Auth: React.FC<AuthProps> = ({ onLoginSuccess }) => {
   return (
     <div className="flex flex-col h-full bg-white dark:bg-slate-950 p-6 sm:p-8 transition-colors duration-300 overflow-y-auto">
       <div className="flex-1 flex flex-col justify-center max-w-sm mx-auto w-full py-4">
+        {/* Premium Application Branding Header */}
+        <div className="flex justify-center mb-8 select-none shrink-0 border-b border-slate-100 dark:border-white/5 pb-6">
+          <AppLogo withText size={52} textSize="text-2xl" />
+        </div>
+
         {error && (
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}

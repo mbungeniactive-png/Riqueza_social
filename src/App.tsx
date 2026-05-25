@@ -14,6 +14,7 @@ import { ChatMentor } from './components/ChatMentor';
 import { TikTokInsights } from './components/TikTokInsights';
 import { UserProfile } from './components/UserProfile';
 import { useLanguage } from './hooks/useLanguage';
+import { useTheme } from './hooks/useTheme';
 import { CONTENT_BY_LANGUAGE } from './constants/content';
 import { auth, createUserProfile } from './lib/firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
@@ -21,6 +22,7 @@ import { onAuthStateChanged, User } from 'firebase/auth';
 type AppStep = 'onboarding' | 'country' | 'language' | 'auth' | 'dashboard' | 'section' | 'mentor_ia' | 'tiktok_insights' | 'profile';
 
 export default function App() {
+  const { theme, toggleTheme } = useTheme();
   const { language } = useLanguage();
   const [step, setStep] = useState<AppStep>(() => {
     const onboardingDone = localStorage.getItem('onboarding_done') === 'true';
@@ -224,6 +226,8 @@ export default function App() {
             userName={userName || currentUser?.displayName || 'Investidor'}
             onSelectSection={handleSelectSection} 
             onLogout={handleLogout}
+            theme={theme}
+            toggleTheme={toggleTheme}
           />
         </div>
       )}

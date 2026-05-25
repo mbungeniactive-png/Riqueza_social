@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronRight, ChevronLeft, TrendingUp, Users, DollarSign, Rocket } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
+import { AppLogo } from './AppLogo';
 
 const icons = [
   <DollarSign className="w-16 h-16 text-green-500" />,
@@ -41,6 +42,10 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
 
   return (
     <div className="flex flex-col h-full bg-white dark:bg-slate-950 relative overflow-hidden transition-colors duration-300">
+      <div className="pt-8 px-8 flex justify-center shrink-0">
+        <AppLogo withText size={48} textSize="text-2xl" />
+      </div>
+
       <div className="flex-1 flex flex-col items-center justify-center p-8 text-center">
         <AnimatePresence mode="wait">
           <motion.div

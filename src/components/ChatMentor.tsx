@@ -55,12 +55,14 @@ interface ChatMentorProps {
 // Sub-helper to parse inline formatting like **bold** dynamically
 const parseInlineFormatting = (text: string) => {
   if (!text) return '';
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  // Strip any legacy hashtag/asterisk noise first
+  const sanitized = text.replace(/[#\*]{2,}/g, '**').replace(/#\*/g, '').replace(/\*#/g, '');
+  const parts = sanitized.split(/(\*\*[^*]+\*\*)/g);
   return parts.map((part, index) => {
     if (part.startsWith('**') && part.endsWith('**')) {
       const clean = part.slice(2, -2);
       return (
-        <strong key={index} className="font-extrabold text-blue-700 dark:text-blue-300 bg-blue-500/10 dark:bg-blue-500/20 px-1.5 py-0.5 rounded-md mx-0.5 inline">
+        <strong key={index} className="font-extrabold text-blue-600 dark:text-blue-400 bg-blue-500/10 dark:bg-blue-500/15 p-1 rounded-lg mx-1 inline">
           {clean}
         </strong>
       );
@@ -84,73 +86,78 @@ const FormattedMessageContent: React.FC<{ content: string; isUser: boolean }> = 
 
   const lines = content.split('\n');
   return (
-    <div className="space-y-4 text-[14.5px] leading-relaxed select-text font-normal text-slate-800 dark:text-slate-100">
+    <div className="space-y-6 text-[15px] leading-relaxed select-text font-normal text-slate-800 dark:text-slate-100 py-2">
       {lines.map((line, lineIdx) => {
         let trimmed = line.trim();
         if (!trimmed) {
-          return <div key={lineIdx} className="h-1.5" />;
+          return <div key={lineIdx} className="h-3" />;
         }
 
-        // 1. Remove raw markdown headers and style them with standard <h4> header tag
-        if (trimmed.startsWith('#')) {
-          const headerText = trimmed.replace(/^#+\s*/, '').toUpperCase();
+        // Clean headers with asterisk hashtags (e.g., #* TÍTULO *# or *# TÍTULO #*)
+        const isLegacyCompositeHeader = trimmed.startsWith('#*') || trimmed.startsWith('*#') || trimmed.startsWith('###') || trimmed.startsWith('##') || trimmed.startsWith('#');
+        if (isLegacyCompositeHeader) {
+          const headerText = trimmed.replace(/^([#\*]+|\*#+|#\*+)\s*/, '').replace(/\s*([#\*]+|\*#+|#\*+)$/, '').trim();
           return (
             <h4
               key={lineIdx}
-              className="text-base sm:text-lg font-black text-slate-900 dark:text-white tracking-wide uppercase mt-6 mb-2.5 flex items-center gap-2 border-b border-slate-100 dark:border-white/5 pb-1 w-full"
+              className="text-base sm:text-lg font-black text-slate-900 dark:text-white tracking-wide uppercase mt-6 mb-3 flex items-center gap-2 border-b-2 border-slate-100 dark:border-white/5 pb-2.5 w-full font-sans"
             >
-              <span className="w-2 h-4 bg-blue-600 dark:bg-blue-500 rounded-full shrink-0" />
+              <span className="w-2.5 h-5 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full shrink-0 animate-pulse" />
               <span>{parseInlineFormatting(headerText)}</span>
             </h4>
           );
         }
 
-        // 2. Identify full lines enclosed with ** as <h4> headings, ex: **ESTRATÉGIA DE VENDA:** ou **Roteiro:**
-        const isFullLineBold = trimmed.startsWith('**') && (trimmed.endsWith('**') || trimmed.endsWith('**:') || trimmed.endsWith(':**'));
+        // Identify full lines enclosed with ** as <h4> headings, ex: **ESTRATÉGIA DE VENDA:** ou **Roteiro:**
+        const isFullLineBold = trimmed.startsWith('**') && (trimmed.endsWith('**') || trimmed.endsWith('**:') || trimmed.endsWith(':**') || trimmed.endsWith(':'));
         if (isFullLineBold) {
-          const cleanHeader = trimmed.replace(/\*\*+/g, '').trim();
+          const cleanHeader = trimmed.replace(/\*\*+/g, '').replace(/:$/, '').trim();
           return (
             <h4
               key={lineIdx}
-              className="text-sm sm:text-base font-black text-slate-900 dark:text-white tracking-normal mt-5 mb-2.5 flex items-center gap-2"
+              className="text-sm sm:text-base font-black text-slate-900 dark:text-white tracking-normal mt-5 mb-3 flex items-center gap-2 font-sans"
             >
-              <span className="w-1.5 h-3.5 bg-blue-600 dark:bg-blue-500 rounded-full shrink-0" />
+              <span className="w-2 h-4 bg-emerald-500 rounded-full shrink-0" />
               <span>{cleanHeader.toUpperCase()}</span>
             </h4>
           );
         }
 
-        // 3. Identify explicit UPPERCASE section labels (e.g., CENA 1:, SACADA DE OURO:)
-        const isUppercaseLabel = trimmed.length < 60 && trimmed.length > 2 && /^[^a-z]*$/.test(trimmed) && (trimmed.endsWith(':') || trimmed.endsWith('!') || !trimmed.endsWith('.'));
-        if (isUppercaseLabel) {
-          const cleanLabel = trimmed.replace(/[\*_]/g, '').trim();
+        // Convert numbered lists into beautiful badge steps (e.g. 1. Passo, 2. Passo)
+        const isNumbered = /^\d+\.\s+/.test(trimmed);
+        if (isNumbered) {
+          const numMatch = trimmed.match(/^(\d+)\.\s+/);
+          const numberValue = numMatch ? numMatch[1] : '1';
+          const restText = trimmed.replace(/^\d+\.\s+/, '');
           return (
-            <h4
-              key={lineIdx}
-              className="text-xs sm:text-sm font-black text-blue-600 dark:text-blue-400 tracking-wider uppercase mt-5 mb-1.5 flex items-center gap-2"
-            >
-              <span>{cleanLabel}</span>
-            </h4>
+            <div key={lineIdx} className="flex items-start gap-3 my-3 bg-slate-50/50 dark:bg-white/5 p-3 rounded-2xl border border-slate-100 dark:border-white/5 text-left">
+              <span className="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-black text-xs shrink-0 shadow-sm font-sans">
+                {numberValue}
+              </span>
+              <div className="flex-1 text-slate-800 dark:text-slate-200 font-semibold leading-relaxed">
+                {parseInlineFormatting(restText)}
+              </div>
+            </div>
           );
         }
 
-        // 4. Bullet list item rendering (capturing items starting with *, -, •)
+        // Bullet list item rendering (capturing items starting with *, -, •)
         const isBullet = trimmed.startsWith('* ') || trimmed.startsWith('- ') || trimmed.startsWith('• ');
         if (isBullet) {
           const bulletText = trimmed.replace(/^[\*\-\•]\s*/, '');
           return (
-            <div key={lineIdx} className="flex items-start gap-2.5 pl-2.5 my-2">
-              <span className="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400 mt-2 shrink-0 shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
-              <div className="flex-1 text-slate-700 dark:text-slate-200 font-medium leading-relaxed">
+            <div key={lineIdx} className="flex items-start gap-2.5 pl-2.5 my-2.5 text-left">
+              <span className="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400 mt-2 shrink-0 shadow-[0_0_8px_rgba(59,130,246,0.5)] animate-pulse" />
+              <div className="flex-1 text-slate-700 dark:text-slate-200 font-semibold leading-relaxed">
                 {parseInlineFormatting(bulletText)}
               </div>
             </div>
           );
         }
 
-        // 5. Regular Parsed Paragraphs
+        // Regular Parsed Paragraphs
         return (
-          <p key={lineIdx} className="text-slate-700 dark:text-slate-200 leading-relaxed font-normal whitespace-pre-line my-1.5">
+          <p key={lineIdx} className="text-slate-700 dark:text-slate-200 leading-relaxed font-semibold whitespace-pre-line my-2 text-left">
             {parseInlineFormatting(trimmed)}
           </p>
         );

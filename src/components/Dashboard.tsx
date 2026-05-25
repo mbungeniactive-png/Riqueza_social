@@ -30,22 +30,35 @@ import {
   Phone,
   X,
   Info,
-  Shield
+  Shield,
+  Home,
+  Bookmark,
+  Sliders,
+  Calendar,
+  ClipboardList
 } from 'lucide-react';
 import { CONTENT_BY_LANGUAGE } from '../constants/content';
 import { NotificationCenter } from './NotificationCenter';
 import { notificationService } from '../services/notificationService';
 import { useToast } from './Toast';
-import { useTheme } from '../hooks/useTheme';
 import { useLanguage } from '../hooks/useLanguage';
 import { useSettings, ResponseStyle, ThemeColor } from '../hooks/useSettings';
+import { SponsorBanner } from './SponsorBanner';
 
 import { auth } from '../lib/firebase';
+
+import { ZeroToHeroModal } from './ZeroToHeroModal';
+import { TermsOfUseModal } from './TermsOfUseModal';
+import { TipFeed } from './TipFeed';
+import { ToolsPanel } from './ToolsPanel';
+import { SavedCentral } from './SavedCentral';
 
 interface DashboardProps {
   onSelectSection: (sectionId: string) => void;
   onLogout: () => void;
   userName?: string;
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
 }
 
 const icons: Record<string, React.ReactNode> = {
@@ -66,7 +79,13 @@ const colors: Record<string, string> = {
   motivacao: 'bg-gradient-to-br from-orange-500 to-amber-600',
 };
 
-export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout, userName }) => {
+export const Dashboard: React.FC<DashboardProps> = ({ 
+  onSelectSection, 
+  onLogout, 
+  userName,
+  theme,
+  toggleTheme
+}) => {
   const [searchQuery, setSearchQuery] = React.useState('');
   const [searchResults, setSearchResults] = React.useState<any[]>([]);
   const [isRefreshing, setIsRefreshing] = React.useState(false);
@@ -74,7 +93,60 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout,
   const [showContactModal, setShowContactModal] = React.useState(false);
   const [showAboutModal, setShowAboutModal] = React.useState(false);
   const [showPrivacyModal, setShowPrivacyModal] = React.useState(false);
-  const { theme, toggleTheme } = useTheme();
+  const [showTermsModal, setShowTermsModal] = React.useState(false);
+  const [showZeroModal, setShowZeroModal] = React.useState(false);
+  const [activeTab, setActiveTab] = React.useState<'home' | 'feed' | 'tools' | 'saved'>('home');
+
+  // Profit Calculator Sliders
+  const [calcViews, setCalcViews] = React.useState(25000);
+  const [calcCtr, setCalcCtr] = React.useState(3); // Out of 100
+  const [calcConv, setCalcConv] = React.useState(1.5); // Out of 100
+  const [calcComm, setCalcComm] = React.useState(60);
+
+  // Video Idea Generator
+  const [ideaNiche, setIdeaNiche] = React.useState('financas');
+  const [ideaPlatform, setIdeaPlatform] = React.useState('tiktok');
+  const [generatedIdea, setGeneratedIdea] = React.useState<any | null>(null);
+
+  // Calendar Checklist State
+  const [postingChecklist, setPostingChecklist] = React.useState<Record<string, boolean>>(() => {
+    try {
+      const saved = localStorage.getItem('weekly_posting_checklist');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  // Daily Quote state
+  const [dailyQuote, setDailyQuote] = React.useState('A consistência supera a perfeição. Faça seu melhor hoje e o algoritmo responderá.');
+
+  React.useEffect(() => {
+    const quotes = [
+      "O sucesso digital não acontece da noite para o dia, mas sim acumulando vídeos diários consistentes.",
+      "Atenção é a nova moeda global. Quem domina os primeiros 3 segundos de vídeo domina o mercado.",
+      "Não espere o momento perfeito começar, faça o começo se tornar perfeito.",
+      "O algoritmo recompensa quem mantém o usuário engajado. Foque em entregar valor real.",
+      "Seu celular é uma máquina de fazer dinheiro, desde que você pare de apenas consumir e passe a produzir.",
+      "A consistência silenciosa gera resultados barulhentos. Continue postando!"
+    ];
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    setDailyQuote(quotes[randomIndex]);
+  }, []);
+
+  const handleToggleChecklist = (day: string, hour: string) => {
+    const key = `${day}_${hour}`;
+    setPostingChecklist(prev => {
+      const copy = { ...prev, [key]: !prev[key] };
+      localStorage.setItem('weekly_posting_checklist', JSON.stringify(copy));
+      return copy;
+    });
+  };
+
+  const getCompletedCount = () => {
+    return Object.values(postingChecklist).filter(Boolean).length;
+  };
+
   const { showToast } = useToast();
   const { settings, updateSettings } = useSettings();
   const { t, language } = useLanguage();
@@ -121,6 +193,24 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout,
     if (end < text.length) snippet = snippet + '...';
     
     return snippet;
+  };
+
+  const getSubsectionById = (subId: string) => {
+    for (const section of appContent) {
+      if (section.subsections) {
+        const sub = section.subsections.find(s => s.id === subId);
+        if (sub) {
+          return {
+            sectionId: section.id,
+            sectionTitle: section.title,
+            subId: sub.id,
+            subTitle: sub.title,
+            subDesc: sub.description
+          };
+        }
+      }
+    }
+    return null;
   };
 
   React.useEffect(() => {
@@ -538,6 +628,20 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout,
 
                         <button 
                           onClick={() => {
+                            setShowTermsModal(true);
+                            setShowMoreMenu(false);
+                          }}
+                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
+                          id="btn_menu_terms"
+                        >
+                          <div className="p-2 bg-emerald-500/10 text-emerald-600 rounded-xl group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                            <Shield className="w-4 h-4" />
+                          </div>
+                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">Termos de Uso</span>
+                        </button>
+
+                        <button 
+                          onClick={() => {
                             onSelectSection('profile');
                             setShowMoreMenu(false);
                           }}
@@ -642,188 +746,427 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout,
       </div>
 
       {/* Scrollable Content Container */}
-      <div className="flex-1 overflow-y-auto no-scrollbar">
-        {/* Featured Banner Section */}
-        <div className="px-6 mt-6">
-          <motion.button 
-            whileHover={{ scale: 1.02 }}
-            onClick={() => onSelectSection('challenge')}
-            className="w-full text-left bg-gradient-to-br from-blue-600 to-indigo-700 p-8 rounded-[40px] text-white shadow-2xl shadow-blue-500/20 relative overflow-hidden group cursor-pointer active:scale-[0.98] transition-all border border-white/10"
-          >
-            <div className="relative z-10">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="bg-white/20 p-2 rounded-xl backdrop-blur-md">
-                  <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" />
-                </div>
-                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-blue-100">Roteiro Acelerado</span>
-              </div>
-              
-              <h3 className="text-3xl font-black mb-3 leading-tight tracking-tight">
-                Desafio <br/> 
-                <span className="text-yellow-300">7 Dias</span>
-              </h3>
-              
-              <p className="text-blue-100/80 text-sm mb-6 max-w-[200px] font-medium leading-relaxed">
-                Siga nosso roteiro prático e comece a monetizar ainda esta semana.
-              </p>
-              
-              <div className="flex items-center gap-3">
-                <span className="bg-white text-blue-600 px-5 py-2.5 rounded-2xl font-black text-sm shadow-lg group-hover:bg-yellow-300 group-hover:text-black transition-all flex items-center gap-2">
-                  Começar Roteiro
-                  <ArrowRight className="w-4 h-4" />
-                </span>
-                <div className="flex -space-x-2">
-                  {[1, 2, 3].map(i => (
-                    <div key={i} className="w-8 h-8 rounded-full border-2 border-blue-600 bg-slate-200 overflow-hidden shadow-sm">
-                      <img src={`https://i.pravatar.cc/100?u=${i + 10}`} alt="user" className="w-full h-full object-cover" />
-                    </div>
-                  ))}
-                  <div className="w-8 h-8 rounded-full border-2 border-blue-600 bg-blue-500 flex items-center justify-center text-[10px] font-bold">
-                    +1k
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div className="flex-1 overflow-y-auto no-scrollbar pb-32">
+        {activeTab === 'home' && (
+          <div className="space-y-6" id="home_tab_wrapper">
             
-            {/* Background elements */}
-            <div className="absolute -right-12 -top-12 w-64 h-64 bg-white/10 rounded-full blur-3xl group-hover:scale-125 transition-transform duration-700" />
-            <div className="absolute -left-12 -bottom-12 w-48 h-48 bg-blue-400/20 rounded-full blur-2xl" />
-            <div className="absolute right-8 top-12 opacity-20 group-hover:opacity-40 transition-opacity">
-              <CheckCircle2 className="w-32 h-32 text-white" />
-            </div>
-          </motion.button>
-        </div>
-
-        <div className="px-6 mt-6 space-y-4">
-          {/* TikTok Trend Hunter Card */}
-          <motion.button 
-            whileHover={{ scale: 1.02 }}
-            onClick={() => onSelectSection('tiktok_insights')}
-            className="w-full bg-slate-900 dark:bg-white/5 p-6 rounded-[32px] text-white shadow-xl shadow-slate-200 dark:shadow-none relative overflow-hidden group cursor-pointer active:scale-[0.98] transition-all border border-slate-800 dark:border-white/10"
-          >
-            <div className="relative z-10 flex flex-col gap-4">
-              <div className="flex items-center justify-between w-full">
-                <div className="flex items-center gap-3">
-                  <div className="bg-pink-600 p-3 rounded-2xl shadow-lg shadow-pink-500/20 group-hover:rotate-12 transition-transform">
-                    <TrendingUp className="w-6 h-6 text-white" />
+            {/* 1. HERO BANNER PRINCIPAL IMPACTANTE */}
+            <div className="px-6 mt-6">
+              <div className="bg-gradient-to-br from-indigo-900 via-indigo-950 to-purple-950 p-6 sm:p-7 rounded-[32px] text-white shadow-2xl dark:cyber-glow relative overflow-hidden border border-indigo-500/20">
+                {/* Decorative glowing sphere background */}
+                <div className="absolute -right-20 -top-20 w-52 h-52 bg-pink-500/15 rounded-full filter blur-3xl animate-pulse-slow" />
+                <div className="absolute -left-10 -bottom-10 w-44 h-44 bg-blue-500/10 rounded-full filter blur-2xl" />
+                
+                <div className="relative z-10 space-y-4">
+                  <div className="flex items-center gap-2">
+                    <span className="bg-amber-400 font-sans tracking-widest text-[#06060e] px-2.5 py-1 rounded-lg text-[9px] font-black uppercase">
+                      PREMIUM PLATFORM
+                    </span>
+                    <span className="flex h-2 w-2 relative">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <span className="text-[10px] text-emerald-400 font-extrabold tracking-wider uppercase font-sans">
+                      Acesso Vitalício
+                    </span>
                   </div>
-                  <div className="text-left">
-                    <h3 className="text-lg font-black tracking-tight leading-none mb-1">TikTok Trend Hunter</h3>
-                    <div className="flex items-center gap-2">
-                       <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                       <p className="text-pink-400 text-[10px] font-black uppercase tracking-widest italic">Live Insights 2026</p>
-                    </div>
+
+                  <div className="space-y-1">
+                    <h3 className="text-2xl sm:text-3xl font-display font-extrabold leading-tight tracking-tight">
+                      Acelere seus Resultados
+                    </h3>
+                    <p className="text-indigo-200 text-xs sm:text-sm font-medium leading-relaxed max-w-xs">
+                      Descubra segredos, copie roteiros validados e monetize seus canais orgânicos em tempo recorde com ajuda de Inteligência Artificial.
+                    </p>
+                  </div>
+
+                  <div className="flex gap-2.5 pt-1">
+                    <motion.button
+                      whileTap={{ scale: 0.95 }}
+                      onClick={() => setShowZeroModal(true)}
+                      className="px-4 py-2.5 bg-white text-indigo-950 hover:bg-yellow-300 hover:text-black font-black text-xs rounded-xl shadow-lg transition-colors flex items-center gap-1.5 cursor-pointer"
+                    >
+                      <Play className="w-3.5 h-3.5 fill-current" />
+                      Começar do Zero
+                    </motion.button>
+                    <motion.button
+                      whileTap={{ scale: 0.95 }}
+                      onClick={() => onSelectSection('challenge')}
+                      className="px-4 py-2.5 bg-indigo-500/25 text-indigo-100 hover:bg-indigo-500/40 font-black text-xs rounded-xl border border-indigo-500/40 transition-colors flex items-center gap-1.5 cursor-pointer"
+                    >
+                      <Zap className="w-3.5 h-3.5 text-yellow-300" />
+                      Desafio 7 Dias
+                    </motion.button>
                   </div>
                 </div>
-                <div className="bg-white/10 px-3 py-1.5 rounded-full backdrop-blur-md">
-                   <p className="text-[10px] font-black uppercase tracking-widest text-slate-300">Explorar</p>
+              </div>
+            </div>
+
+            {/* 2. SISTEMA DE NÍVEL E PROGRESSO (GAMIFICAÇÃO ESTILO DUOLINGO) */}
+            <div className="px-6">
+              <div className="p-5 bg-white dark:bg-white/5 rounded-[28px] border border-slate-100 dark:border-white/10 shadow-sm relative overflow-hidden dark:cyber-glow">
+                <div className="flex justify-between items-center mb-3">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-orange-500/10 dark:bg-orange-500/20 flex items-center justify-center text-xl shrink-0">
+                      🏆
+                    </div>
+                    <div>
+                      <h4 className="font-extrabold text-sm text-slate-800 dark:text-white leading-tight">
+                        Nível 14 • Influenciador Pro
+                      </h4>
+                      <p className="text-[10px] text-slate-400 dark:text-slate-500 font-bold uppercase tracking-wider">
+                        Próximo Rank: Conselheiro Viral
+                      </p>
+                    </div>
+                  </div>
+                  <span className="text-[11px] font-black text-blue-600 dark:text-blue-400 bg-blue-500/10 dark:bg-blue-500/15 px-3 py-1 rounded-full font-mono">
+                    420 / 500 XP
+                  </span>
+                </div>
+
+                <div className="space-y-1.5">
+                  <div className="w-full h-3 bg-slate-150 dark:bg-white/5 rounded-full overflow-hidden p-0.5">
+                    <motion.div 
+                      initial={{ width: 0 }}
+                      animate={{ width: '84%' }}
+                      transition={{ duration: 1.2, ease: "easeOut" }}
+                      className="h-full bg-gradient-to-r from-blue-500 via-indigo-500 to-pink-500 rounded-full"
+                    />
+                  </div>
+                  <div className="flex justify-between text-[10px] text-slate-400 font-bold">
+                    <span>84% Concluído</span>
+                    <span>80 XP restantes</span>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4 mt-3 pt-3.5 border-t border-slate-100 dark:border-white/5">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" />
+                    <span className="text-[11px] font-extrabold text-slate-600 dark:text-slate-350">
+                      Streak: <strong className="text-orange-500">14 Dias</strong>
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 justify-end">
+                    <div className="w-2 h-2 rounded-full bg-indigo-500" />
+                    <span className="text-[11px] font-extrabold text-slate-600 dark:text-slate-350">
+                      Conquistas: <strong className="text-indigo-500">6 / 9</strong>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 3. ESTATÍSTICAS EM TEMPO REAL & GANHOS DA COMUNIDADE */}
+            <div className="px-6 space-y-4">
+              <div className="flex items-center justify-between px-1">
+                <h4 className="text-slate-905 dark:text-white font-display font-extrabold text-base tracking-tight uppercase">
+                  💰 Ganhos da Comunidade
+                </h4>
+                <span className="text-[10px] bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 px-2 py-0.5 rounded-full font-black uppercase tracking-wider">
+                  Live Feed
+                </span>
+              </div>
+
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 p-5 rounded-[24px] shadow-sm relative overflow-hidden dark:cyber-glow">
+                  <div className="flex items-center justify-between">
+                    <p className="text-[10px] font-black tracking-widest text-slate-400 dark:text-slate-500 uppercase">Total Sacado</p>
+                    <span className="text-lg">📈</span>
+                  </div>
+                  <div className="flex items-baseline gap-0.5 mt-1">
+                    <span className="text-[11px] font-black text-slate-400">R$</span>
+                    <span className="text-xl font-bold tracking-tight text-slate-950 dark:text-white">1.842.920</span>
+                  </div>
+                  <p className="text-[10px] text-green-500 font-extrabold mt-1 flex items-center gap-1">
+                     ▲ +14% este mês
+                  </p>
+                </div>
+
+                <div className="bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 p-5 rounded-[24px] shadow-sm relative overflow-hidden dark:cyber-glow">
+                  <div className="flex items-center justify-between">
+                    <p className="text-[10px] font-black tracking-widest text-slate-400 dark:text-slate-500 uppercase">CPC / CPM Médio</p>
+                    <span className="text-lg">⚡</span>
+                  </div>
+                  <div className="flex items-baseline gap-0.5 mt-1">
+                    <span className="text-[11px] font-black text-slate-400">R$</span>
+                    <span className="text-xl font-bold tracking-tight text-slate-950 dark:text-white">42,80</span>
+                  </div>
+                  <p className="text-[10px] text-blue-500 font-extrabold mt-1 flex items-center gap-1">
+                     🔥 Super estável
+                  </p>
                 </div>
               </div>
 
-              {/* Trending Tags Preview */}
-              <div className="flex gap-2 flex-wrap">
-                {['#dropshipping', '#curioso', '#finanças', '#ia'].map(tag => (
-                  <span key={tag} className="text-[9px] font-black uppercase tracking-widest bg-white/10 px-2 py-1 rounded-md text-slate-400 group-hover:text-white group-hover:bg-pink-600/30 transition-all">
-                    {tag}
+              {/* Rolling earnings list simulating a live rich feed banner */}
+              <div className="p-3 bg-gradient-to-r from-emerald-500/5 to-teal-500/5 dark:from-emerald-950/20 dark:to-teal-950/20 border border-emerald-500/10 dark:border-emerald-500/20 rounded-2xl flex items-center justify-between text-xs text-slate-700 dark:text-slate-350">
+                <span className="flex items-center gap-2">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                   </span>
+                  <strong>Membro #340</strong> acabou de faturar
+                </span>
+                <strong className="text-green-500 font-mono font-black">R$ 2.450,00</strong>
+              </div>
+            </div>
+
+            {/* 4. ÁREA "CONTINUE APRENDENDO" & PROGRESSION PATH */}
+            <div className="px-6 space-y-3">
+              <div className="flex items-center justify-between px-1">
+                <h4 className="text-slate-950 dark:text-white font-display font-extrabold text-base tracking-tight uppercase">
+                  🎬 Continue Aprendendo
+                </h4>
+                <p className="text-xs text-blue-600 dark:text-blue-400 font-bold hover:underline cursor-pointer">
+                  Ver todo progresso
+                </p>
+              </div>
+
+              <div className="bg-white dark:bg-white/5 border border-slate-100 dark:border-white/10 p-5 rounded-[28px] shadow-sm flex items-center justify-between gap-4 dark:cyber-glow">
+                <div className="flex items-center gap-4.5 min-w-0 flex-1">
+                  <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 dark:bg-indigo-500/15 flex items-center justify-center text-2xl shrink-0">
+                    🍿
+                  </div>
+                  <div className="min-w-0 pr-1">
+                    <p className="text-[10px] font-black uppercase text-indigo-500 dark:text-indigo-400">Tópico Ativo</p>
+                    <h5 className="font-extrabold text-sm text-slate-900 dark:text-white truncate">
+                      Ganchos Virais & Retenção
+                    </h5>
+                    <div className="flex items-center gap-2 mt-1.5">
+                      <div className="w-16 h-1.5 bg-slate-100 dark:bg-white/5 rounded-full overflow-hidden">
+                        <div className="h-full w-[60%] bg-indigo-500 rounded-full" />
+                      </div>
+                      <span className="text-[10px] text-slate-400 font-bold">60%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <button 
+                  onClick={() => onSelectSection('growth')}
+                  className="px-4 py-2.5 bg-slate-900 hover:bg-indigo-600 dark:bg-white/10 dark:hover:bg-indigo-600 hover:text-white font-black text-xs text-white rounded-xl shadow-md transition-colors shrink-0"
+                >
+                  Continuar
+                </button>
+              </div>
+            </div>
+
+            {/* 5. TIKTOK TREND HUNTER COMPONENT */}
+            <div className="px-6">
+              <motion.button 
+                whileHover={{ scale: 1.01 }}
+                onClick={() => onSelectSection('tiktok_insights')}
+                className="w-full bg-slate-950 dark:bg-white/5 p-6 rounded-[32px] text-white shadow-xl dark:cyber-glow relative overflow-hidden group cursor-pointer border border-slate-800 dark:border-white/10 text-left"
+                id="btn_tiktok_insights_banner"
+              >
+                <div className="relative z-10 flex flex-col gap-4">
+                  <div className="flex items-center justify-between w-full">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-pink-600 p-3 rounded-2xl shadow-lg shadow-pink-500/20 group-hover:rotate-12 transition-transform">
+                        <TrendingUp className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-black tracking-tight leading-none mb-1">TikTok Trend Hunter</h3>
+                        <div className="flex items-center gap-2">
+                          <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                          <p className="text-pink-400 text-[10px] font-black uppercase tracking-widest italic font-sans">Live Insights 2026</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-white/10 px-3 py-1.5 rounded-full backdrop-blur-md">
+                      <p className="text-[10px] font-black uppercase tracking-widest text-[#f5f5f7]">Explorar</p>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-slate-300 leading-relaxed font-medium">
+                    Analise instantaneamente quais áudios, músicas, ganchos e hashtags estão disparando na entrega hoje para surfar na crista da onda orgânica.
+                  </p>
+
+                  {/* Trending Tags Preview */}
+                  <div className="flex gap-2 flex-wrap pt-1">
+                    {['#dropshipping', '#curioso', '#finanças', '#ia'].map(tag => (
+                      <span key={tag} className="text-[9px] font-black uppercase tracking-widest bg-white/10 px-2.5 py-1 rounded-lg text-slate-300 group-hover:text-white group-hover:bg-pink-600 transition-colors">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                
+                <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-pink-600/10 to-blue-600/10 opacity-30 group-hover:opacity-60 transition-opacity" />
+                <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-pink-500/10 rounded-full blur-2xl group-hover:bg-pink-500/25 transition-all" />
+              </motion.button>
+            </div>
+
+            {/* 6. ÁREA "MAIS ACESSADOS" CAROUSEL */}
+            <div className="space-y-4">
+              <div className="flex items-center justify-between px-8">
+                <h4 className="text-slate-900 dark:text-white font-display font-extrabold text-base tracking-tight uppercase">
+                  🏆 Mais Acessados
+                </h4>
+                <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Este mês</span>
+              </div>
+
+              <div className="flex gap-4 overflow-x-auto pb-4 px-8 no-scrollbar">
+                {[
+                  { id: 'growth', title: 'Viralizar no TikTok', category: 'TikTok Organico', color: 'from-pink-500 to-rose-500', stats: '420k views' },
+                  { id: 'youtube_seo', title: 'SEO de Alta Retenção', category: 'Canais do YouTube', color: 'from-red-600 to-orange-600', stats: '198k views' },
+                  { id: 'ads', title: 'Dominando Face Ads', category: 'Tráfego Pago', color: 'from-blue-600 to-indigo-600', stats: '310k views' }
+                ].map((item) => (
+                  <motion.button
+                    key={item.id}
+                    whileHover={{ y: -5 }}
+                    onClick={() => onSelectSection(item.id)}
+                    className={`flex-shrink-0 w-52 bg-gradient-to-br ${item.color} p-5 rounded-[28px] text-white shadow-lg relative overflow-hidden group text-left border border-white/5 active:scale-[0.98] transition-all`}
+                    id={`btn_trend_card_${item.id}`}
+                  >
+                    <div className="relative z-10 flex flex-col h-full justify-between">
+                      <div>
+                        <div className="flex justify-between items-center mb-1">
+                          <p className="text-[9px] font-black uppercase tracking-widest opacity-80">{item.category}</p>
+                          <span className="text-[10px] font-bold bg-white/20 px-2 py-0.5 rounded-md text-white font-mono">{item.stats}</span>
+                        </div>
+                        <h5 className="font-display font-extrabold text-sm leading-snug mb-4">{item.title}</h5>
+                      </div>
+                      <div className="flex justify-between items-center group-hover:translate-x-1.5 transition-transform mt-3">
+                        <span className="text-xs font-black">Estudar Agora</span>
+                        <div className="bg-white/20 p-2 rounded-full inline-flex">
+                          <ArrowRight className="w-3.5 h-3.5" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute -right-4 -bottom-4 w-20 h-20 bg-white/10 rounded-full blur-xl group-hover:scale-150 transition-all duration-500" />
+                  </motion.button>
                 ))}
               </div>
             </div>
-            
-            <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-pink-600/10 to-blue-600/10 opacity-30 group-hover:opacity-60 transition-opacity" />
-            <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-pink-500/10 rounded-full blur-2xl group-hover:bg-pink-500/20 transition-all" />
-          </motion.button>
 
-          {/* Em Alta Section */}
-          <div className="pt-4 space-y-4">
-            <div className="flex items-center justify-between px-2">
-              <h4 className="text-slate-900 dark:text-white font-black text-lg">Em Alta</h4>
-              <Sparkles className="w-4 h-4 text-amber-500 animate-pulse" />
+            {/* 7. EXPERTS / AI MENTOR CARD */}
+            <div className="px-6 space-y-4">
+              <h4 className="text-slate-910 dark:text-white font-display font-extrabold text-base tracking-tight uppercase px-1">
+                🤖 Especialistas & Mentorias
+              </h4>
+
+              <motion.button
+                whileHover={{ scale: 1.01 }}
+                onClick={() => onSelectSection('mentor_ia')}
+                className="w-full bg-slate-950 dark:bg-white/5 p-6 rounded-[32px] text-white flex items-center gap-5 shadow-xl dark:cyber-glow group active:scale-[0.98] transition-all border border-slate-800 dark:border-white/10 text-left"
+                id="btn_ai_mentor_dashboard"
+              >
+                <div className="p-4 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-2xl shadow-lg group-hover:rotate-12 transition-transform shrink-0">
+                  <Sparkles className="w-7 h-7 text-white" />
+                </div>
+                <div className="flex-1 min-w-0 pr-1">
+                  <span className="text-[10px] font-black uppercase tracking-widest text-[#dedede] flex items-center gap-1.5">
+                    SUPORTE EXCLUSIVO 
+                    <span className="bg-blue-600 font-bold text-[8px] px-1.5 py-0.5 rounded-full mr-2">LIVE</span>
+                  </span>
+                  <h5 className="font-display font-extrabold text-lg mb-0.5 text-white">
+                    Mentor IA Integrado
+                  </h5>
+                  <p className="text-slate-400 text-xs font-medium leading-normal line-clamp-2">
+                    Gere copys, ideias, ganchos e tire qualquer dúvida com nosso coprotagonista estratégico.
+                  </p>
+                </div>
+                <div className="bg-white/10 p-2 rounded-full shrink-0">
+                  <ArrowRight className="w-4 h-4 text-white" />
+                </div>
+              </motion.button>
             </div>
-            <div className="flex gap-4 overflow-x-auto pb-4 px-2 no-scrollbar -mx-2">
-              {[
-                { id: 'growth', title: 'Viralizar no TikTok', category: 'TikTok', color: 'from-pink-500 to-rose-500' },
-                { id: 'youtube_seo', title: 'YouTube SEO Profissional', category: 'YouTube', color: 'from-red-600 to-orange-600' },
-                { id: 'ads', title: 'Dominando Face Ads', category: 'Meta', color: 'from-blue-600 to-indigo-600' }
-              ].map((item) => (
-                <motion.button
-                  key={item.id}
-                  whileHover={{ y: -5 }}
-                  onClick={() => onSelectSection(item.id)}
-                  className={`flex-shrink-0 w-48 bg-gradient-to-br ${item.color} p-5 rounded-[28px] text-white shadow-lg shadow-black/10 relative overflow-hidden group`}
-                >
-                  <div className="relative z-10">
-                    <p className="text-[10px] font-black uppercase tracking-widest opacity-80 mb-1">{item.category}</p>
-                    <h5 className="font-black text-sm leading-tight mb-4">{item.title}</h5>
-                    <div className="bg-white/20 p-1.5 rounded-full inline-flex group-hover:translate-x-1 transition-transform">
-                      <ArrowRight className="w-3 h-3" />
+
+            {/* 8. TODAS AS CATEGORIAS */}
+            <div className="px-6 space-y-4">
+              <h4 className="text-slate-920 dark:text-white font-display font-extrabold text-base tracking-tight uppercase px-1 pt-4">
+                📁 Trilhas de Conteúdo
+              </h4>
+
+              <div className="grid grid-cols-1 gap-4">
+                {appContent.map((section, index) => (
+                  <motion.button
+                    key={section.id}
+                    initial={{ opacity: 0, x: -15 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.08 }}
+                    onClick={() => onSelectSection(section.id)}
+                    className="w-full bg-white dark:bg-white/5 p-5 rounded-[28px] border border-slate-100 dark:border-white/10 shadow-sm flex items-center gap-5 active:scale-[0.98] transition-all hover:border-blue-300 dark:hover:border-blue-500/35 hover:shadow-md group text-left dark:cyber-glow"
+                    id={`btn_category_select_${section.id}`}
+                  >
+                    <div className={`p-4 rounded-2xl ${colors[section.id]} shadow-lg group-hover:scale-105 transition-transform shrink-0`}>
+                      {icons[section.id]}
                     </div>
-                  </div>
-                  <div className="absolute -right-4 -bottom-4 w-20 h-20 bg-white/10 rounded-full blur-xl group-hover:scale-150 transition-transform" />
-                </motion.button>
-              ))}
+                    <div className="flex-1 min-w-0 pr-2">
+                      <h5 className="font-display font-extrabold text-slate-800 dark:text-white text-base leading-tight mb-1 truncate">
+                        {section.title}
+                      </h5>
+                      <p className="text-slate-400 dark:text-slate-500 text-xs font-medium line-clamp-2 leading-relaxed">
+                        {section.description}
+                      </p>
+                    </div>
+                    <div className="bg-slate-50 dark:bg-white/5 p-2 rounded-full text-slate-300 dark:text-white/20 group-hover:text-blue-500 group-hover:bg-blue-50 dark:group-hover:bg-blue-500/20 transition-all shrink-0">
+                      <ArrowRight className="w-4 h-4" />
+                    </div>
+                  </motion.button>
+                ))}
+              </div>
             </div>
-          </div>
-        </div>
 
-        {/* Main Sections */}
-        <div className="p-6 space-y-6 pb-40">
-        <h4 className="text-slate-900 dark:text-white font-black text-lg px-2">Especialistas</h4>
-        
-        {/* AI Mentor Card */}
-        <motion.button
-          whileHover={{ scale: 1.02 }}
-          onClick={() => onSelectSection('mentor_ia')}
-          className="w-full bg-slate-900 dark:bg-white/10 p-6 rounded-[32px] text-white flex items-center gap-5 shadow-xl shadow-slate-200 dark:shadow-none group active:scale-[0.98] transition-all border border-slate-800 dark:border-white/10"
-        >
-          <div className="p-4 bg-blue-600 rounded-2xl shadow-lg shadow-blue-500/20 group-hover:rotate-12 transition-transform">
-            <Sparkles className="w-8 h-8 text-white" />
-          </div>
-          <div className="flex-1 text-left">
-            <h5 className="font-black text-xl mb-1 flex items-center gap-2">
-              Mentor IA
-              <span className="bg-blue-600 font-bold text-[10px] px-2 py-0.5 rounded-full uppercase">Beta</span>
-            </h5>
-            <p className="text-slate-400 dark:text-slate-500 text-sm font-medium">Tire dúvidas, crie roteiros e estratégias com nossa IA.</p>
-          </div>
-          <div className="bg-white/10 p-2 rounded-full">
-            <ArrowRight className="w-5 h-5 text-white" />
-          </div>
-        </motion.button>
+            {/* 9. ADSENSE ESPAÇO INTELIGENTE DE ANÚNCIOS */}
+            <div className="px-6 pt-2 pb-10">
+              <p className="text-[9px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest text-center mb-2">
+                Anúncio Integrado de Alto Rendimento (CTR Alto)
+              </p>
+              <SponsorBanner type="inline-native" niche="tiktok" />
+              <p className="text-[8px] text-slate-400 dark:text-slate-500 text-center font-semibold max-w-xs mx-auto">
+                Este espaço simula um bloco nativo de AdSense correspondente ao seu nicho com algoritmos de recomendação em tempo real.
+              </p>
+            </div>
 
-        <h4 className="text-slate-900 dark:text-white font-black text-lg px-2 pt-4">Categorias</h4>
-        <div className="grid grid-cols-1 gap-4">
-          {appContent.map((section, index) => (
-            <motion.button
-              key={section.id}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: index * 0.1 }}
-              onClick={() => onSelectSection(section.id)}
-              className="w-full bg-white dark:bg-white/5 p-5 rounded-[28px] border border-slate-100 dark:border-white/10 shadow-sm flex items-center gap-5 active:scale-[0.98] transition-all hover:border-blue-200 dark:hover:border-blue-500/50 hover:shadow-md group text-left"
-            >
-              <div className={`p-4 rounded-2xl ${colors[section.id]} shadow-lg shadow-black/10 group-hover:scale-110 transition-transform`}>
-                {icons[section.id]}
-              </div>
-              <div className="flex-1">
-                <h5 className="font-bold text-slate-900 dark:text-white text-lg leading-tight mb-1">{section.title}</h5>
-                <p className="text-slate-400 dark:text-slate-500 text-sm font-medium">{section.description}</p>
-              </div>
-              <div className="bg-slate-50 dark:bg-white/5 p-2 rounded-full text-slate-300 dark:text-white/20 group-hover:text-blue-500 group-hover:bg-blue-50 dark:group-hover:bg-blue-500/20 transition-colors">
-                <ArrowRight className="w-5 h-5" />
-              </div>
-            </motion.button>
-          ))}
-        </div>
-
-        {/* Ad Placeholder */}
-        <div className="bg-white dark:bg-white/5 p-6 rounded-[28px] border-2 border-dashed border-slate-200 dark:border-white/10 text-center">
-          <p className="text-xs font-bold text-slate-300 dark:text-slate-700 uppercase tracking-widest mb-2">Anúncio</p>
-          <div className="h-24 bg-slate-50/50 dark:bg-white/5 rounded-2xl flex items-center justify-center">
-             <p className="text-slate-400 dark:text-slate-600 text-sm">Monetize seu tempo</p>
           </div>
-        </div>
+        )}
+
+        {activeTab === 'feed' && <TipFeed showToast={showToast} />}
+        {activeTab === 'tools' && <ToolsPanel showToast={showToast} />}
+        {activeTab === 'saved' && <SavedCentral onSelectSection={onSelectSection} showToast={showToast} language={language} />}
       </div>
+
+      {/* Floating Sticky Bottom Tab Bar */}
+      <div className="fixed bottom-0 left-0 right-0 max-w-md mx-auto z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-slate-100 dark:border-white/5 px-6 py-2 rounded-t-[32px] shadow-[0_-8px_30px_rgb(0,0,0,0.04)] flex justify-between items-center transition-colors">
+        {[
+          { id: 'home', icon: Home, label: 'Início' },
+          { id: 'feed', icon: TrendingUp, label: 'Feed' },
+          { id: 'tools', icon: Sliders, label: 'Ferramentas' },
+          { id: 'saved', icon: Bookmark, label: 'Salvos' },
+        ].map((tab) => {
+          const Icon = tab.icon;
+          const isActive = activeTab === tab.id;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id as any)}
+              className="flex flex-col items-center gap-1 focus:outline-none transition-all relative py-1 flex-1"
+              id={`nav_tab_${tab.id}`}
+            >
+              <div className={`p-1.5 rounded-xl transition-all ${
+                isActive 
+                  ? 'bg-blue-600 text-white shadow-md shadow-blue-500/20 scale-105' 
+                  : 'text-slate-400 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-350'
+              }`}>
+                <Icon className="w-5 h-5 animate-none" />
+              </div>
+              <span className={`text-[10px] font-black tracking-normal transition-all ${
+                isActive 
+                  ? 'text-blue-600 dark:text-blue-400 font-extrabold' 
+                  : 'text-slate-400 dark:text-slate-500'
+              }`}>
+                {tab.label}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Zero to Hero Manual Modal Overlay */}
+      <ZeroToHeroModal isOpen={showZeroModal} onClose={() => setShowZeroModal(false)} />
+
+      {/* Terms Of Use Modal Overlay */}
+      <TermsOfUseModal isOpen={showTermsModal} onClose={() => setShowTermsModal(false)} />
 
       {/* Contact & Support Modal */}
       <AnimatePresence>
@@ -1178,6 +1521,5 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectSection, onLogout,
         )}
       </AnimatePresence>
     </div>
-  </div>
-);
+  );
 };
