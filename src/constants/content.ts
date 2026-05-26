@@ -111,6 +111,158 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'global_freelancer_roadmap_tiktok',
+        title: '🌍 Plano Global: Do Zero ao Mundo',
+        content: [
+          'Perfeito. Então vamos montar sua base para começar de verdade e poder trabalhar para clientes do mundo inteiro.',
+          { type: 'tips', title: '🎯 Seu Objetivo Principal', items: [
+            'Aprender uma habilidade online chave.',
+            'Criar seu primeiro portfólio profissional.',
+            'Conseguir seus primeiros clientes internacionais pagando em Dólar/Euro.'
+          ] },
+          { type: 'info', title: '🧠 PRIMEIRAS HABILIDADES (As mais fáceis para começar)', items: [
+            '1. Design no Canva: Criar posts, flyers, logos, capas e criativos de anúncios.',
+            '2. Edição de Vídeo: Criar vídeos curtos no capcut.com ou canva.com para TikTok, Reels e YouTube Shorts.',
+            '3. Uso de IA: Usar chatgpt.com, canva.com e capcut.com para acelerar a produção.'
+          ] },
+          { type: 'steps', title: '📅 PLANO DETALHADO DE 30 DIAS', items: [
+            'Semana 1 (Aprender Canva) - Meta: Saber criar designs profissionais. Todos os dias: dedique 1h assistindo vídeos ("Canva para iniciantes", "Como criar posts no Canva") e 1h praticando (criar flyer, post Instagram, cartão, banner). Resultado: Você terá 7 designs prontos.',
+            'Semana 2 (Aprender Vídeos Curtos) - Apps: capcut.com, canva.com. Aprenda: cortar vídeos, colocar música, legendas, efeitos simples, transições. Prática: Editar 1 vídeo por dia.',
+            'Semana 3 (Criar Portfólio Profissional): Você vai criar 5 posts, 5 flyers e 5 vídeos curtos. Publique no Facebook, TikTok ou Instagram usando um nome profissional (Ex: "SeuNome Studio", "SeuNome Design", "SeuNome Media").',
+            'Semana 4 (Conseguir Clientes): Crie contas em fiverr.com, upwork.com e workana.com. Publique ofertas de serviços (Ex: "Eu faço posts para Instagram", "Eu edito vídeos TikTok", "Eu crio flyers profissionais").'
+          ] },
+          { type: 'info', title: '📈 Como Conseguir Clientes Rápido', items: [
+            'Método 1 (Facebook): Procure pequenas empresas, salões, restaurantes, lojas e mande: “Olá, faço posts e flyers profissionais para redes sociais. Posso criar um modelo grátis.”',
+            'Método 2 (TikTok): Publique o antes/depois, vídeos do seu trabalho em andamento e dicas simples.',
+            'Método 3 (Fiverr): Crie serviços baratos no início de 5 USD ou 10 USD para ganhar as primeiras avaliações de 5 estrelas. Depois aumente.'
+          ] },
+          { type: 'tips', title: '🇺🇸 Inglês Básico Instrumental (Para Trabalho Freelance)', items: [
+            'Você não precisa de inglês fluente. Use translate.google.com e de início aprenda estas frases simples:',
+            'Hello (Olá)',
+            'Thank you (Obrigado)',
+            'I can do this work (Eu posso fazer este trabalho)',
+            'Delivery in 24 hours (Entrega em 24 horas)',
+            'Please send details (Por favor, envie os detalhes)'
+          ] },
+          { type: 'info', title: '🔥 O que Está Mais Rentável Atualmente (Ano de 2026)', items: [
+            'Muito forte este ano: vídeos curtos, IA, TikTok, design Canva, thumbnails de YouTube, edição de Reels e automação de IA.'
+          ] },
+          { type: 'list', title: '🛠️ Ferramentas Gratuitas que Você Precisa', items: [
+            'MoneyNet Ai (Sua central inteligente)',
+            'canva.com (Design descomplicado)',
+            'capcut.com (Vídeos dinâmicos)',
+            'chatgpt.com (Textos e ideias)',
+            'drive.google.com (Armazenar portfólio)'
+          ] },
+          { type: 'tips', title: '⏱️ Expectativa de Tempo até Ganhar Dinheiro', items: [
+            'Se praticar todos os dias o tempo estimado para faturamento é comercialmente:',
+            '1 Mês: Seus primeiros clientes locais ou pequenos freelas.',
+            '3 Meses: Já consegue trabalhar de forma independente online.',
+            '6 Meses: Pode crescer e viver totalmente disso.'
+          ] },
+          { type: 'tips', title: '👑 O Segredo de Sucesso', items: [
+            'Muita gente desiste cedo. Quem pratica todo dia cresce rápido. Você não precisa ser perfeito. Precisa continuar aprendendo e mostrando trabalho.'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Criar seu primeiro perfil profissional e definir bios irresistíveis',
+            'Fazer um plano diário de estudos hora por hora',
+            'Ensinar Canva passo a passo para iniciantes',
+            'Como cobrar de seus clientes com confiança',
+            'Criar mensagens prontas de prospecção altamente persuasivas',
+            'Mostrar exatamente como receber pagamentos internacionais'
+          ] }
+        ]
+      },
+      {
+        id: 'starter_kit_tiktok',
+        title: '🧰 Kit de Início Completo (Seu Começo Prático)',
+        content: [
+          'Você agora vai focar em: Canva, vídeos curtos, clientes internacionais e Inteligência Artificial para trabalhar mais rápido.',
+          { type: 'info', title: '🎨 PASSO 1 — Criar sua identidade profissional', items: [
+            'Nome profissional - Escolha algo simples: João Design, Moz Media, Criativo Studio, Vision Digital.',
+            'Foto de perfil - Use sua foto limpa e profissional, ou uma logo simples criada no Canva.'
+          ] },
+          { type: 'steps', title: '🌐 PASSO 2 — Criar contas importantes hoje', items: [
+            'mail.google.com (Gmail profissional)',
+            'canva.com (Design rápido)',
+            'capcut.com (Edição de vídeo)',
+            'fiverr.com / upwork.com (Trabalho global)',
+            'tiktok.com (Postar e divulgar)'
+          ] },
+          { type: 'steps', title: '📅 PASSO 3 — Plano diário simples', items: [
+            'Todos os dias:',
+            '1 hora → aprender no YouTube ("Canva para iniciantes", "CapCut para iniciantes", "Como ganhar dinheiro online")',
+            '2 horas → praticar: faça 1 post, 1 flyer e 1 vídeo curto por dia',
+            '30 minutos → procurar clientes locais ou online no Facebook (lojas, restaurantes, salões, igrejas, pequenos negócios)'
+          ] },
+          { type: 'info', title: '📲 PASSO 4 — O que postar no TikTok e Facebook', items: [
+            'Poste seus designs, vídeos de edição rápida, o antes e depois do seu trabalho, e dicas simples.',
+            'Exemplo de legenda ativa: “Criei este flyer profissional direto no celular usando Canva. O que achou?”'
+          ] },
+          { type: 'tips', title: '✉️ PASSO 5 — Mensagem pronta para clientes', items: [
+            '🇧🇷 Português: "Olá. Eu crio posts, flyers e vídeos para redes sociais. Posso fazer um modelo grátis para mostrar meu trabalho."',
+            '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
+          ] },
+          { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
+            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
+          ] },
+          { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
+            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Internacional: payoneer.com ou paypal.com.'
+          ] },
+          { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
+            'Vídeos curtos (Reels, TikTok, Shorts)',
+            'IA + Conteúdo (ChatGPT para roteiros, legendas, criativos e posts automáticos)',
+            'Design rápido para redes sociais voltado para pequenos comércios e influenciadores'
+          ] },
+          { type: 'list', title: '🏁 Seu objetivo nos próximos 90 dias', items: [
+            'Mês 1: Aprender e praticar diariamente.',
+            'Mês 2: Criar portfólio rico.',
+            'Mês 3: Prospectar clientes ativamente e começar a ganhar dinheiro.'
+          ] },
+          { type: 'tips', title: '👑 Regra Principal', items: [
+            'Não espere motivação. Faça um pouco todos os dias. Mesmo apenas 2 horas por dia dedicadas podem mudar a sua vida completamente em poucos meses. Você já deu o primeiro passo!'
+          ] }
+        ]
+      },
+      {
+        id: 'you_are_not_late_tiktok',
+        title: '🌱 Você Não Está Atrasado (Leia Isto)',
+        content: [
+          'Escuta uma coisa importante:',
+          'Você não está atrasado. Você está começando.',
+          'Muita gente passa anos dizendo: “um dia vou aprender”, “um dia vou trabalhar online”, “um dia minha vida muda”. Mas poucos realmente começam.',
+          'Você já saiu da parte mais difícil: decidir tentar.',
+          { type: 'info', title: '✨ Agora imagine isso:', items: [
+            'Você aprendendo a criar designs profissionais;',
+            'Clientes te mandando mensagem procurando o seu trabalho;',
+            'Recebendo pagamentos direto no seu celular;',
+            'Trabalhando no conforto de sua casa;',
+            'Ajudando sua família e conquistando sua independência;',
+            'Comprando suas coisas com o dinheiro ganho por você.'
+          ] },
+          'Tudo isso começa com pequenas ações repetidas todos os dias.',
+          'No início ninguém vai bater palmas. Ninguém vai entender seu esforço. Às vezes vão até duvidar de você. Mas resultados silenciosos viram vitórias barulhentas depois.',
+          { type: 'steps', title: '🔥 Cada hora que você dedica e pratica:', items: [
+            'Está construindo uma habilidade que ninguém pode te tirar;',
+            'Está criando uma nova oportunidade de renda;',
+            'Está desenhando uma nova versão da sua vida.'
+          ] },
+          'E sabe o melhor? A internet não pergunta de onde você veio, quanto dinheiro você tinha ou onde estudou. Ela recompensa quem aprende e continua.',
+          'Talvez hoje você saiba pouco. Mas daqui a alguns meses você pode saber mais do que imaginava. Não se compare com quem já está avançado. Compare-se com quem você era ontem.',
+          { type: 'tips', title: '📈 Faça progresso pequeno todos os dias:', items: [
+            '1 design melhor;',
+            '1 vídeo editado com mais capricho;',
+            '1 cliente respondendo seu contato;',
+            '1 nova habilidade aprendida.'
+          ] },
+          'Isso se acumula de forma gigante.',
+          'E quando bater o desânimo, lembre: você não está apenas aprendendo Canva ou edição. Você está criando liberdade para o seu futuro.',
+          'Continue mesmo nos dias difíceis. Especialmente nos dias difíceis.'
+        ]
+      },
+      {
         id: 'growth',
         title: 'Crescimento de conta',
         content: [
@@ -832,6 +984,158 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'global_freelancer_roadmap_meta',
+        title: '🌍 Plano Global: Do Zero ao Mundo',
+        content: [
+          'Perfeito. Então vamos montar sua base para começar de verdade e poder trabalhar para clientes do mundo inteiro.',
+          { type: 'tips', title: '🎯 Seu Objetivo Principal', items: [
+            'Aprender uma habilidade online chave.',
+            'Criar seu primeiro portfólio profissional.',
+            'Conseguir seus primeiros clientes internacionais pagando em Dólar/Euro.'
+          ] },
+          { type: 'info', title: '🧠 PRIMEIRAS HABILIDADES (As mais fáceis para começar)', items: [
+            '1. Design no Canva: Criar posts, flyers, logos, capas e criativos de anúncios.',
+            '2. Edição de Vídeo: Criar vídeos curtos no capcut.com ou canva.com para TikTok, Reels e YouTube Shorts.',
+            '3. Uso de IA: Usar chatgpt.com, canva.com e capcut.com para acelerar a produção.'
+          ] },
+          { type: 'steps', title: '📅 PLANO DETALHADO DE 30 DIAS', items: [
+            'Semana 1 (Aprender Canva) - Meta: Saber criar designs profissionais. Todos os dias: dedique 1h assistindo vídeos ("Canva para iniciantes", "Como criar posts no Canva") e 1h praticando (criar flyer, post Instagram, cartão, banner). Resultado: Você terá 7 designs prontos.',
+            'Semana 2 (Aprender Vídeos Curtos) - Apps: capcut.com, canva.com. Aprenda: cortar vídeos, colocar música, legendas, efeitos simples, transições. Prática: Editar 1 vídeo por dia.',
+            'Semana 3 (Criar Portfólio Profissional): Você vai criar 5 posts, 5 flyers e 5 vídeos curtos. Publique no Facebook, TikTok ou Instagram usando um nome profissional (Ex: "SeuNome Studio", "SeuNome Design", "SeuNome Media").',
+            'Semana 4 (Conseguir Clientes): Crie contas em fiverr.com, upwork.com e workana.com. Publique ofertas de serviços (Ex: "Eu faço posts para Instagram", "Eu edito vídeos TikTok", "Eu crio flyers profissionais").'
+          ] },
+          { type: 'info', title: '📈 Como Conseguir Clientes Rápido', items: [
+            'Método 1 (Facebook): Procure pequenas empresas, salões, restaurantes, lojas e mande: “Olá, faço posts e flyers profissionais para redes sociais. Posso criar um modelo grátis.”',
+            'Método 2 (TikTok): Publique o antes/depois, vídeos do seu trabalho em andamento e dicas simples.',
+            'Método 3 (Fiverr): Crie serviços baratos no início de 5 USD ou 10 USD para ganhar as primeiras avaliações de 5 estrelas. Depois aumente.'
+          ] },
+          { type: 'tips', title: '🇺🇸 Inglês Básico Instrumental (Para Trabalho Freelance)', items: [
+            'Você não precisa de inglês fluente. Use translate.google.com e de início aprenda estas frases simples:',
+            'Hello (Olá)',
+            'Thank you (Obrigado)',
+            'I can do this work (Eu posso fazer este trabalho)',
+            'Delivery in 24 hours (Entrega em 24 horas)',
+            'Please send details (Por favor, envie os detalhes)'
+          ] },
+          { type: 'info', title: '🔥 O que Está Mais Rentável Atualmente (Ano de 2026)', items: [
+            'Muito forte este ano: vídeos curtos, IA, TikTok, design Canva, thumbnails de YouTube, edição de Reels e automação de IA.'
+          ] },
+          { type: 'list', title: '🛠️ Ferramentas Gratuitas que Você Precisa', items: [
+            'MoneyNet Ai (Sua central inteligente)',
+            'canva.com (Design descomplicado)',
+            'capcut.com (Vídeos dinâmicos)',
+            'chatgpt.com (Textos e ideias)',
+            'drive.google.com (Armazenar portfólio)'
+          ] },
+          { type: 'tips', title: '⏱️ Expectativa de Tempo até Ganhar Dinheiro', items: [
+            'Se praticar todos os dias o tempo estimado para faturamento é comercialmente:',
+            '1 Mês: Seus primeiros clientes locais ou pequenos freelas.',
+            '3 Meses: Já consegue trabalhar de forma independente online.',
+            '6 Meses: Pode crescer e viver totalmente disso.'
+          ] },
+          { type: 'tips', title: '👑 O Segredo de Sucesso', items: [
+            'Muita gente desiste cedo. Quem pratica todo dia cresce rápido. Você não precisa ser perfeito. Precisa continuar aprendendo e mostrando trabalho.'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Criar seu primeiro perfil profissional e definir bios irresistíveis',
+            'Fazer um plano diário de estudos hora por hora',
+            'Ensinar Canva passo a passo para iniciantes',
+            'Como cobrar de seus clientes com confiança',
+            'Criar mensagens prontas de prospecção altamente persuasivas',
+            'Mostrar exatamente como receber pagamentos internacionais'
+          ] }
+        ]
+      },
+      {
+        id: 'starter_kit_meta',
+        title: '🧰 Kit de Início Completo (Seu Começo Prático)',
+        content: [
+          'Você agora vai focar em: Canva, vídeos curtos, clientes internacionais e Inteligência Artificial para trabalhar mais rápido.',
+          { type: 'info', title: '🎨 PASSO 1 — Criar sua identidade profissional', items: [
+            'Nome profissional - Escolha algo simples: João Design, Moz Media, Criativo Studio, Vision Digital.',
+            'Foto de perfil - Use sua foto limpa e profissional, ou uma logo simples criada no Canva.'
+          ] },
+          { type: 'steps', title: '🌐 PASSO 2 — Criar contas importantes hoje', items: [
+            'mail.google.com (Gmail profissional)',
+            'canva.com (Design rápido)',
+            'capcut.com (Edição de vídeo)',
+            'fiverr.com / upwork.com (Trabalho global)',
+            'tiktok.com (Postar e divulgar)'
+          ] },
+          { type: 'steps', title: '📅 PASSO 3 — Plano diário simples', items: [
+            'Todos os dias:',
+            '1 hora → aprender no YouTube ("Canva para iniciantes", "CapCut para iniciantes", "Como ganhar dinheiro online")',
+            '2 horas → praticar: faça 1 post, 1 flyer e 1 vídeo curto por dia',
+            '30 minutos → procurar clientes locais ou online no Facebook (lojas, restaurantes, salões, igrejas, pequenos negócios)'
+          ] },
+          { type: 'info', title: '📲 PASSO 4 — O que postar no TikTok e Facebook', items: [
+            'Poste seus designs, vídeos de edição rápida, o antes e depois do seu trabalho, e dicas simples.',
+            'Exemplo de legenda ativa: “Criei este flyer profissional direto no celular usando Canva. O que achou?”'
+          ] },
+          { type: 'tips', title: '✉️ PASSO 5 — Mensagem pronta para clientes', items: [
+            '🇧🇷 Português: "Olá. Eu crio posts, flyers e vídeos para redes sociais. Posso fazer um modelo grátis para mostrar meu trabalho."',
+            '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
+          ] },
+          { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
+            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
+          ] },
+          { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
+            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Internacional: payoneer.com ou paypal.com.'
+          ] },
+          { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
+            'Vídeos curtos (Reels, TikTok, Shorts)',
+            'IA + Conteúdo (ChatGPT para roteiros, legendas, criativos e posts automáticos)',
+            'Design rápido para redes sociais voltado para pequenos comércios e influenciadores'
+          ] },
+          { type: 'list', title: '🏁 Seu objetivo nos próximos 90 dias', items: [
+            'Mês 1: Aprender e praticar diariamente.',
+            'Mês 2: Criar portfólio rico.',
+            'Mês 3: Prospectar clientes ativamente e começar a ganhar dinheiro.'
+          ] },
+          { type: 'tips', title: '👑 Regra Principal', items: [
+            'Não espere motivação. Faça um pouco todos os dias. Mesmo apenas 2 horas por dia dedicadas podem mudar a sua vida completamente em poucos meses. Você já deu o primeiro passo!'
+          ] }
+        ]
+      },
+      {
+        id: 'you_are_not_late_meta',
+        title: '🌱 Você Não Está Atrasado (Leia Isto)',
+        content: [
+          'Escuta uma coisa importante:',
+          'Você não está atrasado. Você está começando.',
+          'Muita gente passa anos dizendo: “um dia vou aprender”, “um dia vou trabalhar online”, “um dia minha vida muda”. Mas poucos realmente começam.',
+          'Você já saiu da parte mais difícil: decidir tentar.',
+          { type: 'info', title: '✨ Agora imagine isso:', items: [
+            'Você aprendendo a criar designs profissionais;',
+            'Clientes te mandando mensagem procurando o seu trabalho;',
+            'Recebendo pagamentos direto no seu celular;',
+            'Trabalhando no conforto de sua casa;',
+            'Ajudando sua família e conquistando sua independência;',
+            'Comprando suas coisas com o dinheiro ganho por você.'
+          ] },
+          'Tudo isso começa com pequenas ações repetidas todos os dias.',
+          'No início ninguém vai bater palmas. Ninguém vai entender seu esforço. Às vezes vão até duvidar de você. Mas resultados silenciosos viram vitórias barulhentas depois.',
+          { type: 'steps', title: '🔥 Cada hora que você dedica e pratica:', items: [
+            'Está construindo uma habilidade que ninguém pode te tirar;',
+            'Está criando uma nova oportunidade de renda;',
+            'Está desenhando uma nova versão da sua vida.'
+          ] },
+          'E sabe o melhor? A internet não pergunta de onde você veio, quanto dinheiro você tinha ou onde estudou. Ela recompensa quem aprende e continua.',
+          'Talvez hoje você saiba pouco. Mas daqui a alguns meses você pode saber mais do que imaginava. Não se compare com quem já está avançado. Compare-se com quem você era ontem.',
+          { type: 'tips', title: '📈 Faça progresso pequeno todos os dias:', items: [
+            '1 design melhor;',
+            '1 vídeo editado com mais capricho;',
+            '1 cliente respondendo seu contato;',
+            '1 nova habilidade aprendida.'
+          ] },
+          'Isso se acumula de forma gigante.',
+          'E quando bater o desânimo, lembre: você não está apenas aprendendo Canva ou edição. Você está criando liberdade para o seu futuro.',
+          'Continue mesmo nos dias difíceis. Especialmente nos dias difíceis.'
+        ]
+      },
+      {
         id: 'meta_monetization',
         title: 'Formas de Ganhar Dinheiro',
         content: [
@@ -1508,6 +1812,158 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Montar um currículo online elegante',
             'Mostrar quais sites e serviços pagam de verdade para iniciantes'
           ] }
+        ]
+      },
+      {
+        id: 'global_freelancer_roadmap_youtube',
+        title: '🌍 Plano Global: Do Zero ao Mundo',
+        content: [
+          'Perfeito. Então vamos montar sua base para começar de verdade e poder trabalhar para clientes do mundo inteiro.',
+          { type: 'tips', title: '🎯 Seu Objetivo Principal', items: [
+            'Aprender uma habilidade online chave.',
+            'Criar seu primeiro portfólio profissional.',
+            'Conseguir seus primeiros clientes internacionais pagando em Dólar/Euro.'
+          ] },
+          { type: 'info', title: '🧠 PRIMEIRAS HABILIDADES (As mais fáceis para começar)', items: [
+            '1. Design no Canva: Criar posts, flyers, logos, capas e criativos de anúncios.',
+            '2. Edição de Vídeo: Criar vídeos curtos no capcut.com ou canva.com para TikTok, Reels e YouTube Shorts.',
+            '3. Uso de IA: Usar chatgpt.com, canva.com e capcut.com para acelerar a produção.'
+          ] },
+          { type: 'steps', title: '📅 PLANO DETALHADO DE 30 DIAS', items: [
+            'Semana 1 (Aprender Canva) - Meta: Saber criar designs profissionais. Todos os dias: dedique 1h assistindo vídeos ("Canva para iniciantes", "Como criar posts no Canva") e 1h praticando (criar flyer, post Instagram, cartão, banner). Resultado: Você terá 7 designs prontos.',
+            'Semana 2 (Aprender Vídeos Curtos) - Apps: capcut.com, canva.com. Aprenda: cortar vídeos, colocar música, legendas, efeitos simples, transições. Prática: Editar 1 vídeo por dia.',
+            'Semana 3 (Criar Portfólio Profissional): Você vai criar 5 posts, 5 flyers e 5 vídeos curtos. Publique no Facebook, TikTok ou Instagram usando um nome profissional (Ex: "SeuNome Studio", "SeuNome Design", "SeuNome Media").',
+            'Semana 4 (Conseguir Clientes): Crie contas em fiverr.com, upwork.com e workana.com. Publique ofertas de serviços (Ex: "Eu faço posts para Instagram", "Eu edito vídeos TikTok", "Eu crio flyers profissionais").'
+          ] },
+          { type: 'info', title: '📈 Como Conseguir Clientes Rápido', items: [
+            'Método 1 (Facebook): Procure pequenas empresas, salões, restaurantes, lojas e mande: “Olá, faço posts e flyers profissionais para redes sociais. Posso criar um modelo grátis.”',
+            'Método 2 (TikTok): Publique o antes/depois, vídeos do seu trabalho em andamento e dicas simples.',
+            'Método 3 (Fiverr): Crie serviços baratos no início de 5 USD ou 10 USD para ganhar as primeiras avaliações de 5 estrelas. Depois aumente.'
+          ] },
+          { type: 'tips', title: '🇺🇸 Inglês Básico Instrumental (Para Trabalho Freelance)', items: [
+            'Você não precisa de inglês fluente. Use translate.google.com e de início aprenda estas frases simples:',
+            'Hello (Olá)',
+            'Thank you (Obrigado)',
+            'I can do this work (Eu posso fazer este trabalho)',
+            'Delivery in 24 hours (Entrega em 24 horas)',
+            'Please send details (Por favor, envie os detalhes)'
+          ] },
+          { type: 'info', title: '🔥 O que Está Mais Rentável Atualmente (Ano de 2026)', items: [
+            'Muito forte este ano: vídeos curtos, IA, TikTok, design Canva, thumbnails de YouTube, edição de Reels e automação de IA.'
+          ] },
+          { type: 'list', title: '🛠️ Ferramentas Gratuitas que Você Precisa', items: [
+            'MoneyNet Ai (Sua central inteligente)',
+            'canva.com (Design descomplicado)',
+            'capcut.com (Vídeos dinâmicos)',
+            'chatgpt.com (Textos e ideias)',
+            'drive.google.com (Armazenar portfólio)'
+          ] },
+          { type: 'tips', title: '⏱️ Expectativa de Tempo até Ganhar Dinheiro', items: [
+            'Se praticar todos os dias o tempo estimado para faturamento é comercialmente:',
+            '1 Mês: Seus primeiros clientes locais ou pequenos freelas.',
+            '3 Meses: Já consegue trabalhar de forma independente online.',
+            '6 Meses: Pode crescer e viver totalmente disso.'
+          ] },
+          { type: 'tips', title: '👑 O Segredo de Sucesso', items: [
+            'Muita gente desiste cedo. Quem pratica todo dia cresce rápido. Você não precisa ser perfeito. Precisa continuar aprendendo e mostrando trabalho.'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Criar seu primeiro perfil profissional e definir bios irresistíveis',
+            'Fazer um plano diário de estudos hora por hora',
+            'Ensinar Canva passo a passo para iniciantes',
+            'Como cobrar de seus clientes com confiança',
+            'Criar mensagens prontas de prospecção altamente persuasivas',
+            'Mostrar exatamente como receber pagamentos internacionais'
+          ] }
+        ]
+      },
+      {
+        id: 'starter_kit_youtube',
+        title: '🧰 Kit de Início Completo (Seu Começo Prático)',
+        content: [
+          'Você agora vai focar em: Canva, vídeos curtos, clientes internacionais e Inteligência Artificial para trabalhar mais rápido.',
+          { type: 'info', title: '🎨 PASSO 1 — Criar sua identidade profissional', items: [
+            'Nome profissional - Escolha algo simples: João Design, Moz Media, Criativo Studio, Vision Digital.',
+            'Foto de perfil - Use sua foto limpa e profissional, ou uma logo simples criada no Canva.'
+          ] },
+          { type: 'steps', title: '🌐 PASSO 2 — Criar contas importantes hoje', items: [
+            'mail.google.com (Gmail profissional)',
+            'canva.com (Design rápido)',
+            'capcut.com (Edição de vídeo)',
+            'fiverr.com / upwork.com (Trabalho global)',
+            'tiktok.com (Postar e divulgar)'
+          ] },
+          { type: 'steps', title: '📅 PASSO 3 — Plano diário simples', items: [
+            'Todos os dias:',
+            '1 hora → aprender no YouTube ("Canva para iniciantes", "CapCut para iniciantes", "Como ganhar dinheiro online")',
+            '2 horas → praticar: faça 1 post, 1 flyer e 1 vídeo curto por dia',
+            '30 minutos → procurar clientes locais ou online no Facebook (lojas, restaurantes, salões, igrejas, pequenos negócios)'
+          ] },
+          { type: 'info', title: '📲 PASSO 4 — O que postar no TikTok e Facebook', items: [
+            'Poste seus designs, vídeos de edição rápida, o antes e depois do seu trabalho, e dicas simples.',
+            'Exemplo de legenda ativa: “Criei este flyer profissional direto no celular usando Canva. O que achou?”'
+          ] },
+          { type: 'tips', title: '✉️ PASSO 5 — Mensagem pronta para clientes', items: [
+            '🇧🇷 Português: "Olá. Eu crio posts, flyers e vídeos para redes sociais. Posso fazer um modelo grátis para mostrar meu trabalho."',
+            '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
+          ] },
+          { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
+            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
+          ] },
+          { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
+            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Internacional: payoneer.com ou paypal.com.'
+          ] },
+          { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
+            'Vídeos curtos (Reels, TikTok, Shorts)',
+            'IA + Conteúdo (ChatGPT para roteiros, legendas, criativos e posts automáticos)',
+            'Design rápido para redes sociais voltado para pequenos comércios e influenciadores'
+          ] },
+          { type: 'list', title: '🏁 Seu objetivo nos próximos 90 dias', items: [
+            'Mês 1: Aprender e praticar diariamente.',
+            'Mês 2: Criar portfólio rico.',
+            'Mês 3: Prospectar clientes ativamente e começar a ganhar dinheiro.'
+          ] },
+          { type: 'tips', title: '👑 Regra Principal', items: [
+            'Não espere motivação. Faça um pouco todos os dias. Mesmo apenas 2 horas por dia dedicadas podem mudar a sua vida completamente em poucos meses. Você já deu o primeiro passo!'
+          ] }
+        ]
+      },
+      {
+        id: 'you_are_not_late_youtube',
+        title: '🌱 Você Não Está Atrasado (Leia Isto)',
+        content: [
+          'Escuta uma coisa importante:',
+          'Você não está atrasado. Você está começando.',
+          'Muita gente passa anos dizendo: “um dia vou aprender”, “um dia vou trabalhar online”, “um dia minha vida muda”. Mas poucos realmente começam.',
+          'Você já saiu da parte mais difícil: decidir tentar.',
+          { type: 'info', title: '✨ Agora imagine isso:', items: [
+            'Você aprendendo a criar designs profissionais;',
+            'Clientes te mandando mensagem procurando o seu trabalho;',
+            'Recebendo pagamentos direto no seu celular;',
+            'Trabalhando no conforto de sua casa;',
+            'Ajudando sua família e conquistando sua independência;',
+            'Comprando suas coisas com o dinheiro ganho por você.'
+          ] },
+          'Tudo isso começa com pequenas ações repetidas todos os dias.',
+          'No início ninguém vai bater palmas. Ninguém vai entender seu esforço. Às vezes vão até duvidar de você. Mas resultados silenciosos viram vitórias barulhentas depois.',
+          { type: 'steps', title: '🔥 Cada hora que você dedica e pratica:', items: [
+            'Está construindo uma habilidade que ninguém pode te tirar;',
+            'Está criando uma nova oportunidade de renda;',
+            'Está desenhando uma nova versão da sua vida.'
+          ] },
+          'E sabe o melhor? A internet não pergunta de onde você veio, quanto dinheiro você tinha ou onde estudou. Ela recompensa quem aprende e continua.',
+          'Talvez hoje você saiba pouco. Mas daqui a alguns meses você pode saber mais do que imaginava. Não se compare com quem já está avançado. Compare-se com quem você era ontem.',
+          { type: 'tips', title: '📈 Faça progresso pequeno todos os dias:', items: [
+            '1 design melhor;',
+            '1 vídeo editado com mais capricho;',
+            '1 cliente respondendo seu contato;',
+            '1 nova habilidade aprendida.'
+          ] },
+          'Isso se acumula de forma gigante.',
+          'E quando bater o desânimo, lembre: você não está apenas aprendendo Canva ou edição. Você está criando liberdade para o seu futuro.',
+          'Continue mesmo nos dias difíceis. Especialmente nos dias difíceis.'
         ]
       },
       {
@@ -2427,6 +2883,158 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Montar um currículo online elegante',
             'Mostrar quais sites e serviços pagam de verdade para iniciantes'
           ] }
+        ]
+      },
+      {
+        id: 'global_freelancer_roadmap_marketing',
+        title: '🌍 Plano Global: Do Zero ao Mundo',
+        content: [
+          'Perfeito. Então vamos montar sua base para começar de verdade e poder trabalhar para clientes do mundo inteiro.',
+          { type: 'tips', title: '🎯 Seu Objetivo Principal', items: [
+            'Aprender uma habilidade online chave.',
+            'Criar seu primeiro portfólio profissional.',
+            'Conseguir seus primeiros clientes internacionais pagando em Dólar/Euro.'
+          ] },
+          { type: 'info', title: '🧠 PRIMEIRAS HABILIDADES (As mais fáceis para começar)', items: [
+            '1. Design no Canva: Criar posts, flyers, logos, capas e criativos de anúncios.',
+            '2. Edição de Vídeo: Criar vídeos curtos no capcut.com ou canva.com para TikTok, Reels e YouTube Shorts.',
+            '3. Uso de IA: Usar chatgpt.com, canva.com e capcut.com para acelerar a produção.'
+          ] },
+          { type: 'steps', title: '📅 PLANO DETALHADO DE 30 DIAS', items: [
+            'Semana 1 (Aprender Canva) - Meta: Saber criar designs profissionais. Todos os dias: dedique 1h assistindo vídeos ("Canva para iniciantes", "Como criar posts no Canva") e 1h praticando (criar flyer, post Instagram, cartão, banner). Resultado: Você terá 7 designs prontos.',
+            'Semana 2 (Aprender Vídeos Curtos) - Apps: capcut.com, canva.com. Aprenda: cortar vídeos, colocar música, legendas, efeitos simples, transições. Prática: Editar 1 vídeo por dia.',
+            'Semana 3 (Criar Portfólio Profissional): Você vai criar 5 posts, 5 flyers e 5 vídeos curtos. Publique no Facebook, TikTok ou Instagram usando um nome profissional (Ex: "SeuNome Studio", "SeuNome Design", "SeuNome Media").',
+            'Semana 4 (Conseguir Clientes): Crie contas em fiverr.com, upwork.com e workana.com. Publique ofertas de serviços (Ex: "Eu faço posts para Instagram", "Eu edito vídeos TikTok", "Eu crio flyers profissionais").'
+          ] },
+          { type: 'info', title: '📈 Como Conseguir Clientes Rápido', items: [
+            'Método 1 (Facebook): Procure pequenas empresas, salões, restaurantes, lojas e mande: “Olá, faço posts e flyers profissionais para redes sociais. Posso criar um modelo grátis.”',
+            'Método 2 (TikTok): Publique o antes/depois, vídeos do seu trabalho em andamento e dicas simples.',
+            'Método 3 (Fiverr): Crie serviços baratos no início de 5 USD ou 10 USD para ganhar as primeiras avaliações de 5 estrelas. Depois aumente.'
+          ] },
+          { type: 'tips', title: '🇺🇸 Inglês Básico Instrumental (Para Trabalho Freelance)', items: [
+            'Você não precisa de inglês fluente. Use translate.google.com e de início aprenda estas frases simples:',
+            'Hello (Olá)',
+            'Thank you (Obrigado)',
+            'I can do this work (Eu posso fazer este trabalho)',
+            'Delivery in 24 hours (Entrega em 24 horas)',
+            'Please send details (Por favor, envie os detalhes)'
+          ] },
+          { type: 'info', title: '🔥 O que Está Mais Rentável Atualmente (Ano de 2026)', items: [
+            'Muito forte este ano: vídeos curtos, IA, TikTok, design Canva, thumbnails de YouTube, edição de Reels e automação de IA.'
+          ] },
+          { type: 'list', title: '🛠️ Ferramentas Gratuitas que Você Precisa', items: [
+            'MoneyNet Ai (Sua central inteligente)',
+            'canva.com (Design descomplicado)',
+            'capcut.com (Vídeos dinâmicos)',
+            'chatgpt.com (Textos e ideias)',
+            'drive.google.com (Armazenar portfólio)'
+          ] },
+          { type: 'tips', title: '⏱️ Expectativa de Tempo até Ganhar Dinheiro', items: [
+            'Se praticar todos os dias o tempo estimado para faturamento é comercialmente:',
+            '1 Mês: Seus primeiros clientes locais ou pequenos freelas.',
+            '3 Meses: Já consegue trabalhar de forma independente online.',
+            '6 Meses: Pode crescer e viver totalmente disso.'
+          ] },
+          { type: 'tips', title: '👑 O Segredo de Sucesso', items: [
+            'Muita gente desiste cedo. Quem pratica todo dia cresce rápido. Você não precisa ser perfeito. Precisa continuar aprendendo e mostrando trabalho.'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Criar seu primeiro perfil profissional e definir bios irresistíveis',
+            'Fazer um plano diário de estudos hora por hora',
+            'Ensinar Canva passo a passo para iniciantes',
+            'Como cobrar de seus clientes com confiança',
+            'Criar mensagens prontas de prospecção altamente persuasivas',
+            'Mostrar exatamente como receber pagamentos internacionais'
+          ] }
+        ]
+      },
+      {
+        id: 'starter_kit_marketing',
+        title: '🧰 Kit de Início Completo (Seu Começo Prático)',
+        content: [
+          'Você agora vai focar em: Canva, vídeos curtos, clientes internacionais e Inteligência Artificial para trabalhar mais rápido.',
+          { type: 'info', title: '🎨 PASSO 1 — Criar sua identidade profissional', items: [
+            'Nome profissional - Escolha algo simples: João Design, Moz Media, Criativo Studio, Vision Digital.',
+            'Foto de perfil - Use sua foto limpa e profissional, ou uma logo simples criada no Canva.'
+          ] },
+          { type: 'steps', title: '🌐 PASSO 2 — Criar contas importantes hoje', items: [
+            'mail.google.com (Gmail profissional)',
+            'canva.com (Design rápido)',
+            'capcut.com (Edição de vídeo)',
+            'fiverr.com / upwork.com (Trabalho global)',
+            'tiktok.com (Postar e divulgar)'
+          ] },
+          { type: 'steps', title: '📅 PASSO 3 — Plano diário simples', items: [
+            'Todos os dias:',
+            '1 hora → aprender no YouTube ("Canva para iniciantes", "CapCut para iniciantes", "Como ganhar dinheiro online")',
+            '2 horas → praticar: faça 1 post, 1 flyer e 1 vídeo curto por dia',
+            '30 minutos → procurar clientes locais ou online no Facebook (lojas, restaurantes, salões, igrejas, pequenos negócios)'
+          ] },
+          { type: 'info', title: '📲 PASSO 4 — O que postar no TikTok e Facebook', items: [
+            'Poste seus designs, vídeos de edição rápida, o antes e depois do seu trabalho, e dicas simples.',
+            'Exemplo de legenda ativa: “Criei este flyer profissional direto no celular usando Canva. O que achou?”'
+          ] },
+          { type: 'tips', title: '✉️ PASSO 5 — Mensagem pronta para clientes', items: [
+            '🇧🇷 Português: "Olá. Eu crio posts, flyers e vídeos para redes sociais. Posso fazer um modelo grátis para mostrar meu trabalho."',
+            '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
+          ] },
+          { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
+            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
+          ] },
+          { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
+            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Internacional: payoneer.com ou paypal.com.'
+          ] },
+          { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
+            'Vídeos curtos (Reels, TikTok, Shorts)',
+            'IA + Conteúdo (ChatGPT para roteiros, legendas, criativos e posts automáticos)',
+            'Design rápido para redes sociais voltado para pequenos comércios e influenciadores'
+          ] },
+          { type: 'list', title: '🏁 Seu objetivo nos próximos 90 dias', items: [
+            'Mês 1: Aprender e praticar diariamente.',
+            'Mês 2: Criar portfólio rico.',
+            'Mês 3: Prospectar clientes ativamente e começar a ganhar dinheiro.'
+          ] },
+          { type: 'tips', title: '👑 Regra Principal', items: [
+            'Não espere motivação. Faça um pouco todos os dias. Mesmo apenas 2 horas por dia dedicadas podem mudar a sua vida completamente em poucos meses. Você já deu o primeiro passo!'
+          ] }
+        ]
+      },
+      {
+        id: 'you_are_not_late_marketing',
+        title: '🌱 Você Não Está Atrasado (Leia Isto)',
+        content: [
+          'Escuta uma coisa importante:',
+          'Você não está atrasado. Você está começando.',
+          'Muita gente passa anos dizendo: “um dia vou aprender”, “um dia vou trabalhar online”, “um dia minha vida muda”. Mas poucos realmente começam.',
+          'Você já saiu da parte mais difícil: decidir tentar.',
+          { type: 'info', title: '✨ Agora imagine isso:', items: [
+            'Você aprendendo a criar designs profissionais;',
+            'Clientes te mandando mensagem procurando o seu trabalho;',
+            'Recebendo pagamentos direto no seu celular;',
+            'Trabalhando no conforto de sua casa;',
+            'Ajudando sua família e conquistando sua independência;',
+            'Comprando suas coisas com o dinheiro ganho por você.'
+          ] },
+          'Tudo isso começa com pequenas ações repetidas todos os dias.',
+          'No início ninguém vai bater palmas. Ninguém vai entender seu esforço. Às vezes vão até duvidar de você. Mas resultados silenciosos viram vitórias barulhentas depois.',
+          { type: 'steps', title: '🔥 Cada hora que você dedica e pratica:', items: [
+            'Está construindo uma habilidade que ninguém pode te tirar;',
+            'Está criando uma nova oportunidade de renda;',
+            'Está desenhando uma nova versão da sua vida.'
+          ] },
+          'E sabe o melhor? A internet não pergunta de onde você veio, quanto dinheiro você tinha ou onde estudou. Ela recompensa quem aprende e continua.',
+          'Talvez hoje você saiba pouco. Mas daqui a alguns meses você pode saber mais do que imaginava. Não se compare com quem já está avançado. Compare-se com quem você era ontem.',
+          { type: 'tips', title: '📈 Faça progresso pequeno todos os dias:', items: [
+            '1 design melhor;',
+            '1 vídeo editado com mais capricho;',
+            '1 cliente respondendo seu contato;',
+            '1 nova habilidade aprendida.'
+          ] },
+          'Isso se acumula de forma gigante.',
+          'E quando bater o desânimo, lembre: você não está apenas aprendendo Canva ou edição. Você está criando liberdade para o seu futuro.',
+          'Continue mesmo nos dias difíceis. Especialmente nos dias difíceis.'
         ]
       },
       {
@@ -3659,6 +4267,272 @@ export const APP_CONTENT_PT: SectionContent[] = [
     title: 'Motivação',
     description: 'Fortaleça sua mentalidade, supere o desânimo e crie hábitos inabaláveis para vencer no mercado digital.',
     subsections: [
+      {
+        id: 'starter_kit_motivacao',
+        title: '🧰 Kit de Início Completo (Seu Começo Prático)',
+        content: [
+          'Você agora vai focar em: Canva, vídeos curtos, clientes internacionais e Inteligência Artificial para trabalhar mais rápido.',
+          { type: 'info', title: '🎨 PASSO 1 — Criar sua identidade profissional', items: [
+            'Nome profissional - Escolha algo simples: João Design, Moz Media, Criativo Studio, Vision Digital.',
+            'Foto de perfil - Use sua foto limpa e profissional, ou uma logo simples criada no Canva.'
+          ] },
+          { type: 'steps', title: '🌐 PASSO 2 — Criar contas importantes hoje', items: [
+            'mail.google.com (Gmail profissional)',
+            'canva.com (Design rápido)',
+            'capcut.com (Edição de vídeo)',
+            'fiverr.com / upwork.com (Trabalho global)',
+            'tiktok.com (Postar e divulgar)'
+          ] },
+          { type: 'steps', title: '📅 PASSO 3 — Plano diário simples', items: [
+            'Todos os dias:',
+            '1 hora → aprender no YouTube ("Canva para iniciantes", "CapCut para iniciantes", "Como ganhar dinheiro online")',
+            '2 horas → praticar: faça 1 post, 1 flyer e 1 vídeo curto por dia',
+            '30 minutos → procurar clientes locais ou online no Facebook (lojas, restaurantes, salões, igrejas, pequenos negócios)'
+          ] },
+          { type: 'info', title: '📲 PASSO 4 — O que postar no TikTok e Facebook', items: [
+            'Poste seus designs, vídeos de edição rápida, o antes e depois do seu trabalho, e dicas simples.',
+            'Exemplo de legenda activa: “Criei este flyer profissional direto no celular usando Canva. O que achou?”'
+          ] },
+          { type: 'tips', title: '✉️ PASSO 5 — Mensagem pronta para clientes', items: [
+            '🇧🇷 Português: "Olá. Eu crio posts, flyers e vídeos para redes sociais. Posso fazer um modelo grátis para mostrar meu trabalho."',
+            '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
+          ] },
+          { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
+            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
+          ] },
+          { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
+            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Internacional: payoneer.com ou paypal.com.'
+          ] },
+          { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
+            'Vídeos curtos (Reels, TikTok, Shorts)',
+            'IA + Conteúdo (ChatGPT para roteiros, legendas, criativos e posts automáticos)',
+            'Design rápido para redes sociais voltado para pequenos comércios e influenciadores'
+          ] },
+          { type: 'list', title: '🏁 Seu objetivo nos próximos 90 dias', items: [
+            'Mês 1: Aprender e praticar diariamente.',
+            'Mês 2: Criar portfólio rico.',
+            'Mês 3: Prospectar clientes ativamente e começar a ganhar dinheiro.'
+          ] },
+          { type: 'tips', title: '👑 Regra Principal', items: [
+            'Não espere motivação. Faça um pouco todos os dias. Mesmo apenas 2 horas por dia dedicadas podem mudar a sua vida completamente em poucos meses. Você já deu o primeiro passo!'
+          ] }
+        ]
+      },
+      {
+        id: 'you_are_not_late_motivacao',
+        title: '🌱 Você Não Está Atrasado (Leia Isto)',
+        content: [
+          'Escuta uma coisa importante:',
+          'Você não está atrasado. Você está começando.',
+          'Muita gente passa anos dizendo: “um dia vou aprender”, “um dia vou trabalhar online”, “um dia minha vida muda”. Mas poucos realmente começam.',
+          'Você já saiu da parte mais difícil: decidir tentar.',
+          { type: 'info', title: '✨ Agora imagine isso:', items: [
+            'Você aprendendo a criar designs profissionais;',
+            'Clientes te mandando mensagem procurando o seu trabalho;',
+            'Recebendo pagamentos direto no seu celular;',
+            'Trabalhando no conforto de sua casa;',
+            'Ajudando sua família e conquistando sua independência;',
+            'Comprando suas coisas com o dinheiro ganho por você.'
+          ] },
+          'Tudo isso começa com pequenas ações repetidas todos os dias.',
+          'No início ninguém vai bater palmas. Ninguém vai entender seu esforço. Às vezes vão até duvidar de você. Mas resultados silenciosos viram vitórias barulhentas depois.',
+          { type: 'steps', title: '🔥 Cada hora que você dedica e pratica:', items: [
+            'Está construindo uma habilidade que ninguém pode te tirar;',
+            'Está criando uma nova oportunidade de renda;',
+            'Está desenhando uma nova versão da sua vida.'
+          ] },
+          'E sabe o melhor? A internet não pergunta de onde você veio, quanto dinheiro você tinha ou onde estudou. Ela recompensa quem aprende e continua.',
+          'Talvez hoje você saiba pouco. Mas daqui a alguns meses você pode saber mais do que imaginava. Não se compare com quem já está avançado. Compare-se com quem você era ontem.',
+          { type: 'tips', title: '📈 Faça progresso pequeno todos os dias:', items: [
+            '1 design melhor;',
+            '1 vídeo editado com mais capricho;',
+            '1 cliente respondendo seu contato;',
+            '1 nova habilidade aprendida.'
+          ] },
+          'Isso se acumula de forma gigante.',
+          'E quando bater o desânimo, lembre: você não está apenas aprendendo Canva ou edição. Você está criando liberdade para o seu futuro.',
+          'Continue mesmo nos dias difíceis. Especialmente nos dias difíceis.'
+        ]
+      },
+      {
+        id: 'seed_of_success_motivacao',
+        title: '🌱 A Semente do Sucesso (Como Começar)',
+        content: [
+          'Há pessoas neste momento ganhando dinheiro online com apenas um celular, internet e vontade de aprender. Não porque tiveram sorte, mas porque decidiram continuar quando era difícil.',
+          'Talvez hoje você ainda não veja resultado. Mas toda habilidade funciona como uma semente: primeiro cresce por baixo da terra, invisível. Só depois aparece.',
+          { type: 'info', title: '📈 Não desvalorize os dias pequenos:', items: [
+            'O flyer simples que você fizer hoje pode parecer pouco, mas está treinando seu olhar profissional;',
+            'O vídeo simples que você editar hoje está de fato treinando sua criatividade;',
+            'A mensagem sincera que você mandar hoje pode trazer seu primeiro cliente amanhã.'
+          ] },
+          'Você não precisa mudar de toda a sua vida em uma única noite. Você só precisa construir uma nova direção consistente.',
+          'E lembre-se: ninguém consegue tudo perfeito no começo. Os primeiros trabalhos de quase todo freelancer foram simples, lentos e cheios de erros. Mas eles melhoraram puramente porque continuaram praticando e persistindo.',
+          'Enquanto muitos estão só consumindo vídeos passivos nas redes sociais, você pode usar a própria internet para construir algo seu.',
+          { type: 'steps', title: '✨ Imagine daqui a alguns meses:', items: [
+            'Você acordando de manhã com mensagens de clientes interessados;',
+            'Recebendo pagamentos diretos no seu celular;',
+            'Ajudando sua família em casa com a sua nova renda;',
+            'Dominando uma habilidade de alto valor que ninguém pode tirar de você.'
+          ] },
+          'Conhecimento é riqueza legítima que cresce dentro de você.',
+          { type: 'tips', title: '🤝 Quando surgirem pensamentos de dúvida, responda assim:', items: [
+            'Se pensar: "Acho que não consigo..." → Responda: "Ainda estou aprendendo e melhorando."',
+            'Se pensar: "Está demorando demais..." → Responda: "Todo profissional renomado já foi um iniciante um dia."',
+            'Se sentir vontade de desistir: Lembre que o sucesso normalmente aparece logo após o momento em que quase desistimos.'
+          ] },
+          'Continue estudando. Continue praticando. Continue publicando. Continue tentando. Porque um dia você vai olhar para trás com orgulho e perceber: foi justamente no momento em que decidiu não desistir que começou a mudar a sua vida!'
+        ]
+      },
+      {
+        id: 'vontade_de_mudar_motivacao',
+        title: '🔥 Vontade de Mudar (Sua Maior Força)',
+        content: [
+          'Você tem algo muito poderoso agora: vontade de mudar. Muita gente perdeu isso. Passam os dias só reclamando da vida, esperando ajuda, esperando oportunidade cair do céu. Mas você está procurando aprender. E isso já coloca você à frente de muita gente.',
+          { type: 'info', title: '💡 Mude seu diálogo interno:', items: [
+            'Não pense: "eu não sei nada."',
+            'Pense: "eu ainda estou no começo."'
+          ] },
+          'Todo profissional que você vê hoje — seja editor, designer, programador ou criador de conteúdo — já ficou confuso olhando para a tela sem saber por onde começar. A diferença é que eles não pararam.',
+          { type: 'steps', title: '🛡️ Enfrente seus medos diários:', items: [
+            'Medo de falhar;',
+            'Medo de ninguém gostar do seu trabalho;',
+            'Medo de não conseguir clientes.'
+          ] },
+          'Mas coragem não é ausência de medo. É continuar mesmo com medo. E lembre-se disso: ninguém pode impedir uma pessoa que continua aprendendo.',
+          'Você pode perder dinheiro. Pode perder oportunidades. Mas se continuar aprendendo, você sempre consegue recomeçar muito mais forte.',
+          'A internet abriu portas que antes nem existiam. Hoje alguém em Maputo pode trabalhar para clientes dos United States, Brazil, Portugal ou qualquer outro lugar do mundo de forma 100% remota. Isso é extremamente poderoso.',
+          { type: 'tips', title: '💎 Trate seu aprendizado como investimento no seu futuro:', items: [
+            'Cada vídeo assistido;',
+            'Cada design criado;',
+            'Cada erro corrigido;',
+            'Cada tentativa...',
+            '...está construindo de fato a sua nova vida.'
+          ] },
+          'Talvez hoje ninguém veja ou valorize seu esforço. Mas continue, porque pessoas consistentes inevitavelmente acabam chegando muito longe.',
+          { type: 'list', title: '📈 O que vai acontecer daqui a algum tempo:', items: [
+            'Seu trabalho vai melhorar continuamente;',
+            'Sua confiança vai crescer e ser transmitida no seu atendimento;',
+            'Os clientes vão aparecer de forma orgânica e por indicações;',
+            'O dinheiro vai começar a entrar de forma frequente.'
+          ] },
+          'E você vai lembrar deste momento exato — o momento em que decidiu continuar em vez de desistir.',
+          'Continue caminhando. Devagar também é progresso.'
+        ]
+      },
+      {
+        id: 'futuro_agradece_motivacao',
+        title: '🌟 Seu Eu do Futuro Agradece',
+        content: [
+          'Existe uma versão sua no futuro olhando para este momento exato e agradecendo imensamente por você não ter desistido agora.',
+          { type: 'steps', title: '⚠️ É exatamente aqui que a maioria das pessoas desiste:', items: [
+            'Quando ainda não sabe ou domina muita coisa;',
+            'Quando os primeiros resultados não aparecem no tempo rápido que esperavam;',
+            'Quando as pessoas próximas não acreditam ou apoiam;',
+            'Quando enfrentar as dificuldades parece algo impossível.'
+          ] },
+          'Mas quem continua com disciplina inabalável é quem atravessa essa fase e chega ao sucesso.',
+          'Você não precisa ser o melhor do mercado hoje. Você só precisa se comprometer a ser 1% melhor do que foi ontem.',
+          { type: 'info', title: '🧩 A Matemática da Transformação:', items: [
+            'Uma única habilidade nova aprendida muda radicalmente sua mente.',
+            'Duas ou mais habilidades conectadas multiplicam sua renda.',
+            'A consistência ao longo do tempo muda completamente o rumo da sua vida.'
+          ] },
+          'E repare na verdade escancarada: o mundo está mudando muito rápido. Quem aprende sobre internet, Inteligência Artificial, edição de vídeo, design profissional e comunicação hoje está ativamente construindo as melhores oportunidades para o futuro.',
+          'Enquanto outros apenas assistem passivamente o tempo passar nas redes, você pode decidir usar esse exato tempo livre para construir sua liberdade financeira.',
+          'Não tenha o menor receio ou vergonha de começar pequeno. Todo grande império começou pequeno. Todo profissional de destaque já foi um iniciante confuso. Todo grande especialista já errou e falhou muito no começo.',
+          { type: 'tips', title: '🔥 O único segredo real é continuar em movimento:', items: [
+            'Mesmo se sentindo cansado: continue um pouco;',
+            'Mesmo se sentindo inseguro: continue praticando;',
+            'Mesmo ainda sem resultados imediatos: continue semeando.'
+          ] },
+          'Porque o esforço acumulado se transforma em habilidade sólida. Habilidade sólida vira oportunidade de mercado. Oportunidade gera dinheiro no bolso. E dinheiro gera real mudança de vida. Um dia você vai perceber que não foi talento ou sorte que fez a grande diferença, mas sim a sua persistência em continuar.',
+          { type: 'steps', title: '✍️ Faça hoje mesmo um acordo inegociável consigo mesmo:', items: [
+            'Nunca desistir ou parar por causa de alguns dias ruins;',
+            'Aprender e praticar pelo menos um pouco todos os dias;',
+            'Acreditar de verdade no processo mesmo antes de ver os primeiros frutos.'
+          ] },
+          'Você já deu o primeiro passo e começou. Agora, o seu dever é proteger e blindar esse começo.',
+          { type: 'list', title: '🌱 O seu futuro brilhante nasce das pequenas ações constantes de hoje:', items: [
+            'Um único vídeo editado com carinho e submetido;',
+            'Um único flyer bem desenhado para o seu portfólio no Canva;',
+            'Uma única conta de trabalho freelancer estruturada;',
+            'Uma única mensagem de prospecção enviada a um cliente em potencial.'
+          ] },
+          'Nunca, jamais subestime o poder gigantesco de pequenos passos repetidos todos os dias.',
+          'Apenas continue. O seu momento de colheita vai chegar!'
+        ]
+      },
+      {
+        id: 'mudanca_silenciosa_motivacao',
+        title: '🌱 A Vida Muda Silenciosamente',
+        content: [
+          'Às vezes a vida muda silenciosamente. Não acontece num grande momento de filme. Começa em dias simples: quando você decide estudar em vez de desistir, quando pratica mesmo cansado, e quando tenta de novo depois de falhar. É assim que pessoas comuns constroem vidas diferentes.',
+          'Você não precisa ter tudo resolvido agora. Só precisa continuar andando.',
+          'Pense nisso: se você aprender uma habilidade digital, ninguém tira isso de você. Pode mudar de cidade, de trabalho, de situação... a habilidade continua com você. Isso é poder real.',
+          'E outra coisa: não deixe o começo difícil enganar você. Toda nova fase parece confusa no início. Quando uma criança aprende a andar, ela cai várias vezes. Mesmo assim ela continua tentando. Por quê? Porque cair faz parte natural do aprendizado. Com você é exatamente igual.',
+          'Talvez hoje seus designs pareçam simples. Talvez seus vídeos ainda não estejam plenamente profissionais. Talvez ninguém esteja vendo seu esforço ainda. Mas continue, porque a prática diária cria uma evolução invisível.',
+          'Um dia você vai abrir um trabalho antigo do início e pensar: “uau... eu realmente melhorei de lá para cá.” E esse dia de orgulho chega muito mais rápido para quem simplesmente não para de tentar.',
+          'Também não deixe que a comparação alheia destrua a sua energia. Na internet você costuma ver pessoas que estão no nível 100 e esquece que elas também começaram exatamente do nível 1.',
+          { type: 'steps', title: '🎯 O seu foco absoluto agora deve ser:', items: [
+            'Aprender diariamente;',
+            'Melhorar suas técnicas de forma contínua;',
+            'Construir uma consistência inabalável.'
+          ] },
+          'Não tente correr sem antes aprender a caminhar de forma firme. E lembre: o mundo recompensa generosamente pessoas que resolvem problemas reais.',
+          { type: 'info', title: '💼 Se você se profissionalizar em:', items: [
+            'Criar posts atraentes para redes sociais;',
+            'Editar vídeos que retêm a atenção;',
+            'Ajudar pequenos negócios a crescerem com o digital;',
+            'Usar Inteligência Artificial para acelerar sua entrega...'
+          ] },
+          '...sempre haverá alguém disposto a pagar pelo seu valioso trabalho.',
+          { type: 'tips', title: '🧠 Cuide da sua mente e alimente pensamentos que te fortalecem:', items: [
+            'Troque o "não consigo" por "ainda estou aprendendo e evoluindo".',
+            'Troque o "sou fraco" por "estou em construção diária".',
+            'Troque o "é impossível" por "vai levar tempo e dedicação".'
+          ] },
+          'Porque o tempo vai passar de qualquer forma. A verdadeira pergunta é: quando esse tempo passar, quem você quer ter se tornado?',
+          'Apenas continue. O esforço que hoje parece pequeno e invisível pode criar perfeitamente a vida próspera que você sonha para o seu amanhã.'
+        ]
+      },
+      {
+        id: 'esperanca_de_crescer_motivacao',
+        title: '🌱 Esperança de Crescer (Proteja Seu Início)',
+        content: [
+          'Você carrega dentro de si algo que muita gente perdeu: a esperança de crescer. Proteja isso ao máximo. Porque quando uma pessoa acredita genuinamente que pode aprender, evoluir e mudar de vida, ela já começou a de fato vencer por dentro.',
+          { type: 'steps', title: '⚠️ Nem todos os dias serão fáceis. Haverá momentos em que:', items: [
+            'Você vai duvidar severamente de si mesmo;',
+            'Vai sentir um cansaço físico ou mental acumulado;',
+            'Vai passar pela sua cabeça o pensamento de parar.'
+          ] },
+          'Mas exatamente nesses dias difíceis, lembre-se: o verdadeiro progresso não acontece só quando você está motivado. Ele acontece principalmente quando você escolhe continuar mesmo sem a menor vontade.',
+          'É exatamente aí que nasce a sua disciplina. E a disciplina construída vale muito mais do que qualquer motivação passageira. Motivação faz você começar um projeto. Disciplina faz você continuar até vencer.',
+          'E quem continua firme por tempo suficiente melhora de forma contínua. É simplesmente inevitável.',
+          'Pense em quantas pessoas no mundo gostariam de ter tido a coragem de começar algo novo, mas que nunca chegam a começar de verdade. Você já superou essa barreira e está lutando contra a inércia.',
+          'Agora, o seu trabalho é transformar essa vontade em ação diária consistente, mesmo que pareça pequena no início.',
+          { type: 'info', title: '📈 Pequenas ações diárias mudam destinos inteiros:', items: [
+            'Abrir o Canva e treinar um design hoje;',
+            'Editar alguns segundos de um vídeo no CapCut hoje;',
+            'Aprender a dominar uma nova ferramenta ou função hoje;',
+            'Enviar uma única mensagem de apresentação profissional hoje.'
+          ] },
+          'Tudo isso pode parecer muito pequeno isoladamente. Mas o acúmulo dessas ações ao longo das semanas constrói um futuro completamente novo.',
+          'Também não espere aprovação ou aplauso de todo mundo no início. Às vezes, as pessoas mais próximas só vão passar a acreditar após os seus primeiros resultados financeiros aparecerem. Continue firme mesmo assim.',
+          'O importante não é de forma alguma aparentar ser forte para os outros, mas sim continuar consistente o suficiente para jamais abandonar o rumo dos seus maiores sonhos.',
+          'E lembre-se: a internet democratizou o acesso a oportunidades incríveis que simplesmente não existiam há poucos anos.',
+          'Hoje, qualquer pessoa disposta pode sair do absoluto zero, aprender por conta própria, erguer sua reputação profissional, conquistar seus próprios clientes e construir uma excelente renda online usando apenas conhecimento e consistência de longo prazo. Você pode perfeitamente ser essa pessoa.',
+          { type: 'tips', title: '🛡️ Como reagir diante dos obstáculos:', items: [
+            'Quando sentir medo: Use-o como um combustível para agir com prudência;',
+            'Quando sentir dúvida: Dedique-se a estudar e ler mais um pouco;',
+            'Quando sentir extrema fraqueza: Descanse temporariamente — mas jamais abandone o caminho principal.'
+          ] },
+          'Porque o sucesso profissional raramente pertence apenas ao mais talentoso da sala. Na maioria das vezes, ele pertence unicamente à pessoa que aguentou e resistiu em continuar enquanto os outros desistiram.',
+          'E talvez sua maior e mais gratificante vitória não seja unicamente o dinheiro que vai entrar. Talvez seja o orgulho de provar para si mesmo que você era capaz de erguer algo muito maior do que sequer ousava imaginar.',
+          'Apenas continue. O seu futuro ainda está sendo ativamente escrito!'
+        ]
+      },
       {
         id: 'mindset_indomavel',
         title: '🧠 Mentalidade Próspera',

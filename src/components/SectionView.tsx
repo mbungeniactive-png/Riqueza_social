@@ -5,6 +5,7 @@ import { SectionContent, CONTENT_BY_LANGUAGE } from '../constants/content';
 import { useToast } from './Toast';
 import { useLanguage } from '../hooks/useLanguage';
 import { SponsorBanner } from './SponsorBanner';
+import { SuccessCarousel } from './SuccessCarousel';
 
 const AffiliateLinkManager = () => {
   const { showToast } = useToast();
@@ -402,6 +403,9 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
 
         {/* Content */}
         <div className="p-4 sm:p-6 space-y-10 pb-20">
+          {section.id === 'motivacao' && (
+            <SuccessCarousel />
+          )}
           {section.subsections.map((sub, idx) => (
             <React.Fragment key={sub.id}>
               <motion.section 
