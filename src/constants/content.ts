@@ -24,6 +24,47 @@ export const APP_CONTENT_PT: SectionContent[] = [
     description: 'Aprenda a crescer e monetizar sua conta no TikTok.',
     subsections: [
       {
+        id: 'start_from_zero_tiktok',
+        title: '🏁 Começar do Zero (Guia de Início)',
+        content: [
+          'Você pode começar mesmo sem experiência. Trabalhar pela internet hoje inclui várias áreas, e algumas exigem mais estudo do que outras. O melhor é escolher algo simples para iniciar e ir aprendendo aos poucos.',
+          { type: 'info', title: '💼 Trabalhos que dão para aprender rápido', items: [
+            'Digitação e organização de dados',
+            'Atendimento ao cliente online',
+            'Gestão de redes sociais',
+            'Criação de conteúdo no TikTok, Facebook ou YouTube',
+            'Tradução simples (se souber outro idioma)',
+            'Vendas online',
+            'Assistente virtual'
+          ] },
+          { type: 'info', title: '🚀 Áreas com mais crescimento', items: [
+            'Design gráfico',
+            'Programação',
+            'Marketing digital',
+            'Edição de vídeo',
+            'Criação de sites',
+            'Inteligência artificial'
+          ] },
+          { type: 'steps', title: '🌐 Plataformas para encontrar trabalho online', items: [
+            'upwork.com',
+            'fiverr.com',
+            'freelancer.com',
+            'workana.com'
+          ] },
+          { type: 'steps', title: '🎓 Onde aprender gratuitamente', items: [
+            'learndigital.withgoogle.com',
+            'coursera.org',
+            'youtube.com'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
+            'Montar um plano simples para você começar do zero (use nosso chat!)',
+            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Ajudar você a aprender usando apenas o celular',
+            'Mostrar formas reais de ganhar os primeiros clientes'
+          ] }
+        ]
+      },
+      {
         id: 'growth',
         title: 'Crescimento de conta',
         content: [
@@ -658,6 +699,47 @@ export const APP_CONTENT_PT: SectionContent[] = [
     description: 'Estratégias para Reels, Facebook Ads e Monetização Profissional.',
     subsections: [
       {
+        id: 'start_from_zero_meta',
+        title: '🏁 Começar do Zero (Guia de Início)',
+        content: [
+          'Você pode começar mesmo sem experiência. Trabalhar pela internet hoje inclui várias áreas, e algumas exigem mais estudo do que outras. O melhor é escolher algo simples para iniciar e ir aprendendo aos poucos.',
+          { type: 'info', title: '💼 Trabalhos que dão para aprender rápido', items: [
+            'Digitação e organização de dados',
+            'Atendimento ao cliente online',
+            'Gestão de redes sociais',
+            'Criação de conteúdo no TikTok, Facebook ou YouTube',
+            'Tradução simples (se souber outro idioma)',
+            'Vendas online',
+            'Assistente virtual'
+          ] },
+          { type: 'info', title: '🚀 Áreas com mais crescimento', items: [
+            'Design gráfico',
+            'Programação',
+            'Marketing digital',
+            'Edição de vídeo',
+            'Criação de sites',
+            'Inteligência artificial'
+          ] },
+          { type: 'steps', title: '🌐 Plataformas para encontrar trabalho online', items: [
+            'upwork.com',
+            'fiverr.com',
+            'freelancer.com',
+            'workana.com'
+          ] },
+          { type: 'steps', title: '🎓 Onde aprender gratuitamente', items: [
+            'learndigital.withgoogle.com',
+            'coursera.org',
+            'youtube.com'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
+            'Montar um plano simples para você começar do zero (use nosso chat!)',
+            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Ajudar você a aprender usando apenas o celular',
+            'Mostrar formas reais de ganhar os primeiros clientes'
+          ] }
+        ]
+      },
+      {
         id: 'meta_monetization',
         title: 'Formas de Ganhar Dinheiro',
         content: [
@@ -1249,6 +1331,47 @@ export const APP_CONTENT_PT: SectionContent[] = [
     title: 'YouTube',
     description: 'Domine o AdSense, Shorts e nichos lucrativos.',
     subsections: [
+      {
+        id: 'start_from_zero_youtube',
+        title: '🏁 Começar do Zero (Guia de Início)',
+        content: [
+          'Você pode começar mesmo sem experiência. Trabalhar pela internet hoje inclui várias áreas, e algumas exigem mais estudo do que outras. O melhor é escolher algo simples para iniciar e ir aprendendo aos poucos.',
+          { type: 'info', title: '💼 Trabalhos que dão para aprender rápido', items: [
+            'Digitação e organização de dados',
+            'Atendimento ao cliente online',
+            'Gestão de redes sociais',
+            'Criação de conteúdo no TikTok, Facebook ou YouTube',
+            'Tradução simples (se souber outro idioma)',
+            'Vendas online',
+            'Assistente virtual'
+          ] },
+          { type: 'info', title: '🚀 Áreas com mais crescimento', items: [
+            'Design gráfico',
+            'Programação',
+            'Marketing digital',
+            'Edição de vídeo',
+            'Criação de sites',
+            'Inteligência artificial'
+          ] },
+          { type: 'steps', title: '🌐 Plataformas para encontrar trabalho online', items: [
+            'upwork.com',
+            'fiverr.com',
+            'freelancer.com',
+            'workana.com'
+          ] },
+          { type: 'steps', title: '🎓 Onde aprender gratuitamente', items: [
+            'learndigital.withgoogle.com',
+            'coursera.org',
+            'youtube.com'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
+            'Montar um plano simples para você começar do zero (use nosso chat!)',
+            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Ajudar você a aprender usando apenas o celular',
+            'Mostrar formas reais de ganhar os primeiros clientes'
+          ] }
+        ]
+      },
       {
         id: 'youtube_internal_workings',
         title: 'O Algoritmo por Dentro',
@@ -2081,6 +2204,47 @@ export const APP_CONTENT_PT: SectionContent[] = [
     title: 'Marketing Digital',
     description: 'Afiliados, Dropshipping e muito mais.',
     subsections: [
+      {
+        id: 'start_from_zero_marketing',
+        title: '🏁 Começar do Zero (Guia de Início)',
+        content: [
+          'Você pode começar mesmo sem experiência. Trabalhar pela internet hoje inclui várias áreas, e algumas exigem mais estudo do que outras. O melhor é escolher algo simples para iniciar e ir aprendendo aos poucos.',
+          { type: 'info', title: '💼 Trabalhos que dão para aprender rápido', items: [
+            'Digitação e organização de dados',
+            'Atendimento ao cliente online',
+            'Gestão de redes sociais',
+            'Criação de conteúdo no TikTok, Facebook ou YouTube',
+            'Tradução simples (se souber outro idioma)',
+            'Vendas online',
+            'Assistente virtual'
+          ] },
+          { type: 'info', title: '🚀 Áreas com mais crescimento', items: [
+            'Design gráfico',
+            'Programação',
+            'Marketing digital',
+            'Edição de vídeo',
+            'Criação de sites',
+            'Inteligência artificial'
+          ] },
+          { type: 'steps', title: '🌐 Plataformas para encontrar trabalho online', items: [
+            'upwork.com',
+            'fiverr.com',
+            'freelancer.com',
+            'workana.com'
+          ] },
+          { type: 'steps', title: '🎓 Onde aprender gratuitamente', items: [
+            'learndigital.withgoogle.com',
+            'coursera.org',
+            'youtube.com'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
+            'Montar um plano simples para você começar do zero (use nosso chat!)',
+            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Ajudar você a aprender usando apenas o celular',
+            'Mostrar formas reais de ganhar os primeiros clientes'
+          ] }
+        ]
+      },
       {
         id: 'what_is_marketing_full',
         title: 'Curso Completo: Fundamentos',

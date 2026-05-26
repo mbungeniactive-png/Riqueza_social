@@ -90,6 +90,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [searchQuery, setSearchQuery] = React.useState('');
   const [searchResults, setSearchResults] = React.useState<any[]>([]);
   const [isRefreshing, setIsRefreshing] = React.useState(false);
+  const [isScrolled, setIsScrolled] = React.useState(false);
   const [showMoreMenu, setShowMoreMenu] = React.useState(false);
   const [showContactModal, setShowContactModal] = React.useState(false);
   const [showAboutModal, setShowAboutModal] = React.useState(false);
@@ -337,12 +338,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
   }, []);
 
   return (
-    <div className="flex flex-col h-full bg-slate-50 dark:bg-transparent">
+    <div className="flex flex-col h-full bg-slate-50 dark:bg-transparent animate-none">
       {/* Header */}
-      <div className="p-8 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-white/5 rounded-b-[40px] shadow-sm transition-colors duration-300">
+      <div className={`bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-white/5 shadow-md dark:shadow-slate-950/20 transition-all duration-300 ease-in-out shrink-0 z-30 ${
+        isScrolled ? 'pt-4 pb-4 px-6 rounded-b-3xl' : 'p-8 rounded-b-[40px]'
+      }`}>
         {/* Premium Top Bar: Brand Logo & User Actions */}
-        <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100 dark:border-white/5">
-          <AppLogo withText size={38} textSize="text-xl font-bold" animated={true} />
+        <div className={`flex items-center justify-between transition-all duration-300 ${
+          isScrolled ? 'mb-2 pb-0 border-b-0' : 'mb-6 pb-4 border-b border-slate-100 dark:border-white/5'
+        }`}>
+          <AppLogo withText size={isScrolled ? 30 : 38} textSize={isScrolled ? "text-lg font-bold" : "text-xl font-bold"} animated={!isScrolled} />
           <div className="flex gap-2 items-center">
             {/* User Profile Quick Access Button */}
             <button
@@ -669,7 +674,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
 
         {/* Welcome Section */}
-        <div className="mb-6">
+        <div className={`transition-all duration-300 ease-in-out origin-top overflow-hidden ${
+          isScrolled ? 'max-h-0 opacity-0 mb-0 scale-95 pointer-events-none' : 'max-h-28 opacity-100 mb-6 scale-100'
+        }`}>
           <h2 className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest mb-1">{t('dashboard.welcome')}</h2>
           <h1 className="text-3xl font-black text-slate-900 dark:text-white tracking-tight">
             {userName || 'Investidor'}!
@@ -677,13 +684,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
 
         <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-300 dark:text-slate-600 w-5 h-5" />
+          <Search className={`absolute left-4 top-1/2 -translate-y-1/2 text-slate-300 dark:text-slate-600 transition-all duration-300 ${
+            isScrolled ? 'w-4 h-4' : 'w-5 h-5'
+          }`} />
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder={t('dashboard.search_placeholder')}
-            className="w-full pl-12 pr-4 py-4 bg-slate-50 dark:bg-white/5 border-none rounded-2xl focus:ring-2 focus:ring-blue-500 transition-all font-medium outline-none text-slate-900 dark:text-white placeholder:text-slate-300 dark:placeholder:text-slate-600"
+            className={`w-full pl-12 pr-4 bg-slate-50 dark:bg-white/5 border-none rounded-2xl focus:ring-2 focus:ring-blue-500 transition-all duration-300 font-medium outline-none text-slate-900 dark:text-white placeholder:text-slate-300 dark:placeholder:text-slate-600 ${
+              isScrolled ? 'py-2.5 text-sm' : 'py-4'
+            }`}
           />
 
           <AnimatePresence>
@@ -751,7 +762,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
 
       {/* Scrollable Content Container */}
-      <div className="flex-1 overflow-y-auto no-scrollbar pb-32">
+      <div 
+        className="flex-1 overflow-y-auto no-scrollbar pb-32"
+        onScroll={(e) => {
+          const scrollTop = e.currentTarget.scrollTop;
+          if (scrollTop > 20) {
+            setIsScrolled(true);
+          } else {
+            setIsScrolled(false);
+          }
+        }}
+      >
         {activeTab === 'home' && (
           <div className="space-y-6" id="home_tab_wrapper">
             
