@@ -52,6 +52,7 @@ import { TermsOfUseModal } from './TermsOfUseModal';
 import { TipFeed } from './TipFeed';
 import { ToolsPanel } from './ToolsPanel';
 import { SavedCentral } from './SavedCentral';
+import { AppLogo } from './AppLogo';
 
 interface DashboardProps {
   onSelectSection: (sectionId: string) => void;
@@ -339,13 +340,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
     <div className="flex flex-col h-full bg-slate-50 dark:bg-transparent">
       {/* Header */}
       <div className="p-8 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-white/5 rounded-b-[40px] shadow-sm transition-colors duration-300">
-        <div className="flex justify-between items-start mb-6">
-          <div>
-            <h2 className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest mb-1">{t('dashboard.welcome')}</h2>
-            <h1 className="text-3xl font-black text-slate-900 dark:text-white tracking-tight">
-              {userName || 'Investidor'}!
-            </h1>
-          </div>
+        {/* Premium Top Bar: Brand Logo & User Actions */}
+        <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100 dark:border-white/5">
+          <AppLogo withText size={38} textSize="text-xl font-bold" animated={true} />
           <div className="flex gap-2 items-center">
             {/* User Profile Quick Access Button */}
             <button
@@ -669,6 +666,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </AnimatePresence>
             </div>
           </div>
+        </div>
+
+        {/* Welcome Section */}
+        <div className="mb-6">
+          <h2 className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest mb-1">{t('dashboard.welcome')}</h2>
+          <h1 className="text-3xl font-black text-slate-900 dark:text-white tracking-tight">
+            {userName || 'Investidor'}!
+          </h1>
         </div>
 
         <div className="relative">

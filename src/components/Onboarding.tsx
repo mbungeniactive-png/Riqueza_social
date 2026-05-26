@@ -55,8 +55,12 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
             exit={{ opacity: 0, x: -50 }}
             className="flex flex-col items-center"
           >
-            <div className={`p-8 rounded-full mb-8 ${slideColors[currentSlide] || 'bg-blue-50'} dark:bg-white/5`}>
-              {icons[currentSlide] || <Rocket className="w-16 h-16 text-blue-500" />}
+            <div className={`p-6 rounded-[32px] mb-8 ${slideColors[currentSlide] || 'bg-blue-50'} dark:bg-white/5 flex items-center justify-center shadow-lg shadow-slate-100 dark:shadow-none`}>
+              {currentSlide === 0 ? (
+                <AppLogo size={110} animated={true} />
+              ) : (
+                icons[currentSlide] || <Rocket className="w-16 h-16 text-blue-500" />
+              )}
             </div>
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
               {slides[currentSlide]?.title}
