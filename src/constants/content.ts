@@ -65,6 +65,52 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'action_plan_from_zero_tiktok',
+        title: '📋 Plano de Ação (Começar do Zero)',
+        content: [
+          'Você não precisa saber tudo agora. O objetivo é aprender uma habilidade simples, praticar e começar a ganhar os primeiros clientes.',
+          { type: 'steps', title: 'Fase 1 — Primeira semana (Aprender o básico)', items: [
+            'Crie um email profissional (Exemplo: seunome@gmail.com).',
+            'Abra contas gratuitas nas plataformas: fiverr.com, workana.com, canva.com.',
+            'Pesquise no YouTube: "Como usar Canva", "Como trabalhar de freelancer", "Criar currículo simples", "Como usar ChatGPT para trabalhar".'
+          ] },
+          { type: 'info', title: 'Fase 2 — Escolher UMA habilidade (Melhores para Celular)', items: [
+            '1. Design no Canva: Crie flyers, cartazes, convites e posts para redes sociais.',
+            '2. Gestão de Redes Sociais: Aprenda a postar, responder mensagens e engajar contas.',
+            '3. Digitação e Organização: Domine ferramentas de Word, PDF, currículos e conversão.'
+          ] },
+          { type: 'steps', title: 'Fase 3 — Treinar por 30 dias (Foco diário)', items: [
+            'Dedique 1 hora por dia para aprender e 1 hora para praticar.',
+            'Exemplo prático: Crie 1 flyer ou 1 post por dia no Canva baseado em modelos reais.',
+            'Tente recriar designs profissionais para treinar seu olhar e técnica.'
+          ] },
+          { type: 'tips', title: 'Fase 4 — Conseguir primeiros clientes (Comece local)', items: [
+            'Ofereça serviços para comércios locais: salões, lojas, lanchonetes, igrejas ou escolas.',
+            'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
+          ] },
+          { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
+            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
+          ] },
+          { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
+            'Comece com Canva & posts para negócios locais: funciona direto no celular, não requer inglês, e tem muita demanda!',
+            'Foco na rotina diária: 1h aprender no YouTube, 1h praticar, 30min prospectar clientes locais. Sábado monte seu portfólio. Domingo reveja.'
+          ] },
+          { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
+            'Pesquise por: "Canva para iniciantes"',
+            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Freelancer para iniciantes"'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Te ajudar a montar um plano de 30 dias totalmente detalhado',
+            'Ensinar Canva passo a passo para seus primeiros designs',
+            'Ajudar a criar sua primeira mensagem de prospecção e anúncio',
+            'Montar um currículo online elegante',
+            'Mostrar quais sites e serviços pagam de verdade para iniciantes'
+          ] }
+        ]
+      },
+      {
         id: 'growth',
         title: 'Crescimento de conta',
         content: [
@@ -740,6 +786,52 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'action_plan_from_zero_meta',
+        title: '📋 Plano de Ação (Começar do Zero)',
+        content: [
+          'Você não precisa saber tudo agora. O objetivo é aprender uma habilidade simples, praticar e começar a ganhar os primeiros clientes.',
+          { type: 'steps', title: 'Fase 1 — Primeira semana (Aprender o básico)', items: [
+            'Crie um email profissional (Exemplo: seunome@gmail.com).',
+            'Abra contas gratuitas nas plataformas: fiverr.com, workana.com, canva.com.',
+            'Pesquise no YouTube: "Como usar Canva", "Como trabalhar de freelancer", "Criar currículo simples", "Como usar ChatGPT para trabalhar".'
+          ] },
+          { type: 'info', title: 'Fase 2 — Escolher UMA habilidade (Melhores para Celular)', items: [
+            '1. Design no Canva: Crie flyers, cartazes, convites e posts para redes sociais.',
+            '2. Gestão de Redes Sociais: Aprenda a postar, responder mensagens e engajar contas.',
+            '3. Digitação e Organização: Domine ferramentas de Word, PDF, currículos e conversão.'
+          ] },
+          { type: 'steps', title: 'Fase 3 — Treinar por 30 dias (Foco diário)', items: [
+            'Dedique 1 hora por dia para aprender e 1 hora para praticar.',
+            'Exemplo prático: Crie 1 flyer ou 1 post por dia no Canva baseado em modelos reais.',
+            'Tente recriar designs profissionais para treinar seu olhar e técnica.'
+          ] },
+          { type: 'tips', title: 'Fase 4 — Conseguir primeiros clientes (Comece local)', items: [
+            'Ofereça serviços para comércios locais: salões, lojas, lanchonetes, igrejas ou escolas.',
+            'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
+          ] },
+          { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
+            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
+          ] },
+          { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
+            'Comece com Canva & posts para negócios locais: funciona direto no celular, não requer inglês, e tem muita demanda!',
+            'Foco na rotina diária: 1h aprender no YouTube, 1h praticar, 30min prospectar clientes locais. Sábado monte seu portfólio. Domingo reveja.'
+          ] },
+          { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
+            'Pesquise por: "Canva para iniciantes"',
+            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Freelancer para iniciantes"'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Te ajudar a montar um plano de 30 dias totalmente detalhado',
+            'Ensinar Canva passo a passo para seus primeiros designs',
+            'Ajudar a criar sua primeira mensagem de prospecção e anúncio',
+            'Montar um currículo online elegante',
+            'Mostrar quais sites e serviços pagam de verdade para iniciantes'
+          ] }
+        ]
+      },
+      {
         id: 'meta_monetization',
         title: 'Formas de Ganhar Dinheiro',
         content: [
@@ -1369,6 +1461,52 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Indicar trabalhos online que funcionam bem em Moçambique',
             'Ajudar você a aprender usando apenas o celular',
             'Mostrar formas reais de ganhar os primeiros clientes'
+          ] }
+        ]
+      },
+      {
+        id: 'action_plan_from_zero_youtube',
+        title: '📋 Plano de Ação (Começar do Zero)',
+        content: [
+          'Você não precisa saber tudo agora. O objetivo é aprender uma habilidade simples, praticar e começar a ganhar os primeiros clientes.',
+          { type: 'steps', title: 'Fase 1 — Primeira semana (Aprender o básico)', items: [
+            'Crie um email profissional (Exemplo: seunome@gmail.com).',
+            'Abra contas gratuitas nas plataformas: fiverr.com, workana.com, canva.com.',
+            'Pesquise no YouTube: "Como usar Canva", "Como trabalhar de freelancer", "Criar currículo simples", "Como usar ChatGPT para trabalhar".'
+          ] },
+          { type: 'info', title: 'Fase 2 — Escolher UMA habilidade (Melhores para Celular)', items: [
+            '1. Design no Canva: Crie flyers, cartazes, convites e posts para redes sociais.',
+            '2. Gestão de Redes Sociais: Aprenda a postar, responder mensagens e engajar contas.',
+            '3. Digitação e Organização: Domine ferramentas de Word, PDF, currículos e conversão.'
+          ] },
+          { type: 'steps', title: 'Fase 3 — Treinar por 30 dias (Foco diário)', items: [
+            'Dedique 1 hora por dia para aprender e 1 hora para praticar.',
+            'Exemplo prático: Crie 1 flyer ou 1 post por dia no Canva baseado em modelos reais.',
+            'Tente recriar designs profissionais para treinar seu olhar e técnica.'
+          ] },
+          { type: 'tips', title: 'Fase 4 — Conseguir primeiros clientes (Comece local)', items: [
+            'Ofereça serviços para comércios locais: salões, lojas, lanchonetes, igrejas ou escolas.',
+            'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
+          ] },
+          { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
+            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
+          ] },
+          { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
+            'Comece com Canva & posts para negócios locais: funciona direto no celular, não requer inglês, e tem muita demanda!',
+            'Foco na rotina diária: 1h aprender no YouTube, 1h praticar, 30min prospectar clientes locais. Sábado monte seu portfölio. Domingo reveja.'
+          ] },
+          { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
+            'Pesquise por: "Canva para iniciantes"',
+            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Freelancer para iniciantes"'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Te ajudar a montar um plano de 30 dias totalmente detalhado',
+            'Ensinar Canva passo a passo para seus primeiros designs',
+            'Ajudar a criar sua primeira mensagem de prospecção e anúncio',
+            'Montar um currículo online elegante',
+            'Mostrar quais sites e serviços pagam de verdade para iniciantes'
           ] }
         ]
       },
@@ -2242,6 +2380,52 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Indicar trabalhos online que funcionam bem em Moçambique',
             'Ajudar você a aprender usando apenas o celular',
             'Mostrar formas reais de ganhar os primeiros clientes'
+          ] }
+        ]
+      },
+      {
+        id: 'action_plan_from_zero_marketing',
+        title: '📋 Plano de Ação (Começar do Zero)',
+        content: [
+          'Você não precisa saber tudo agora. O objetivo é aprender uma habilidade simples, praticar e começar a ganhar os primeiros clientes.',
+          { type: 'steps', title: 'Fase 1 — Primeira semana (Aprender o básico)', items: [
+            'Crie um email profissional (Exemplo: seunome@gmail.com).',
+            'Abra contas gratuitas nas plataformas: fiverr.com, workana.com, canva.com.',
+            'Pesquise no YouTube: "Como usar Canva", "Como trabalhar de freelancer", "Criar currículo simples", "Como usar ChatGPT para trabalhar".'
+          ] },
+          { type: 'info', title: 'Fase 2 — Escolher UMA habilidade (Melhores para Celular)', items: [
+            '1. Design no Canva: Crie flyers, cartazes, convites e posts para redes sociais.',
+            '2. Gestão de Redes Sociais: Aprenda a postar, responder mensagens e engajar contas.',
+            '3. Digitação e Organização: Domine ferramentas de Word, PDF, currículos e conversão.'
+          ] },
+          { type: 'steps', title: 'Fase 3 — Treinar por 30 dias (Foco diário)', items: [
+            'Dedique 1 hora por dia para aprender e 1 hora para praticar.',
+            'Exemplo prático: Crie 1 flyer ou 1 post por dia no Canva baseado em modelos reais.',
+            'Tente recriar designs profissionais para treinar seu olhar e técnica.'
+          ] },
+          { type: 'tips', title: 'Fase 4 — Conseguir primeiros clientes (Comece local)', items: [
+            'Ofereça serviços para comércios locais: salões, lojas, lanchonetes, igrejas ou escolas.',
+            'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
+          ] },
+          { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
+            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
+          ] },
+          { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
+            'Comece com Canva & posts para negócios locais: funciona direto no celular, não requer inglês, e tem muita demanda!',
+            'Foco na rotina diária: 1h aprender no YouTube, 1h praticar, 30min prospectar clientes locais. Sábado monte seu portfólio. Domingo reveja.'
+          ] },
+          { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
+            'Pesquise por: "Canva para iniciantes"',
+            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Freelancer para iniciantes"'
+          ] },
+          { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
+            'Te ajudar a montar um plano de 30 dias totalmente detalhado',
+            'Ensinar Canva passo a passo para seus primeiros designs',
+            'Ajudar a criar sua primeira mensagem de prospecção e anúncio',
+            'Montar um currículo online elegante',
+            'Mostrar quais sites e serviços pagam de verdade para iniciantes'
           ] }
         ]
       },

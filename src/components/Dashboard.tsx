@@ -340,8 +340,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   return (
     <div className="flex flex-col h-full bg-slate-50 dark:bg-transparent animate-none">
       {/* Header */}
-      <div className={`bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-white/5 shadow-md dark:shadow-slate-950/20 transition-all duration-300 ease-in-out shrink-0 z-30 ${
-        isScrolled ? 'pt-4 pb-4 px-6 rounded-b-3xl' : 'p-8 rounded-b-[40px]'
+      <div className={`search-container bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-white/5 shadow-md dark:shadow-slate-950/20 transition-all duration-300 ease-in-out shrink-0 z-40 sticky top-0 ${
+        isScrolled ? 'pt-3 pb-3 px-6 rounded-b-2xl' : 'p-8 rounded-b-[40px]'
       }`}>
         {/* Premium Top Bar: Brand Logo & User Actions */}
         <div className={`flex items-center justify-between transition-all duration-300 ${
