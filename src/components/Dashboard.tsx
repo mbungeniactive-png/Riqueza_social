@@ -6,6 +6,7 @@ import {
   Instagram, 
   Youtube, 
   Facebook,
+  Video,
   TrendingUp, 
   ArrowRight,
   LogOut,
@@ -1293,6 +1294,29 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </div>
                   </div>
 
+                  {/* TikTok Info Box */}
+                  <div className="bg-pink-50 dark:bg-pink-500/5 border border-pink-100 dark:border-pink-500/10 rounded-[20px] p-4 text-center space-y-3">
+                    <p className="text-slate-400 dark:text-pink-400/80 text-[10px] font-black uppercase tracking-widest leading-none">
+                      CANAL DO TIKTOK
+                    </p>
+                    
+                    <h4 className="font-black text-slate-800 dark:text-pink-100 text-sm leading-snug">
+                      Siga o perfil oficial do MoneyNet AI
+                    </h4>
+
+                    <div className="inline-flex flex-col items-center gap-1 px-3 py-1.5 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-white/5 shadow-sm w-full">
+                      <span className="text-[10px] text-slate-400">TikTok Oficial:</span>
+                      <a 
+                        href="https://tiktok.com/@moneynet.ai" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="font-mono text-[11px] text-pink-600 dark:text-pink-400 font-black hover:underline truncate max-w-full block"
+                      >
+                        tiktok.com/@moneynet.ai
+                      </a>
+                    </div>
+                  </div>
+
                   {/* Facebook Info Box */}
                   <div className="bg-blue-50 dark:bg-blue-500/5 border border-blue-100 dark:border-blue-500/10 rounded-[20px] p-4 text-center space-y-3">
                     <p className="text-slate-400 dark:text-blue-400/80 text-[10px] font-black uppercase tracking-widest leading-none">
@@ -1328,6 +1352,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </a>
 
                     <a
+                      href="https://tiktok.com/@moneynet.ai"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full py-3 text-center flex items-center justify-center gap-2 bg-pink-600 hover:bg-pink-700 active:scale-[0.98] text-white font-extrabold rounded-2xl transition-all shadow-md shadow-pink-500/15 text-xs"
+                    >
+                      <Video className="w-4 h-4" /> Visitar TikTok
+                    </a>
+
+                    <a
                       href="https://www.facebook.com/share/1CZh4awA8s/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -1336,15 +1369,27 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       <Facebook className="w-4 h-4" /> Visitar Facebook
                     </a>
 
-                    <button
-                      onClick={() => {
-                        navigator.clipboard.writeText('https://www.facebook.com/share/1CZh4awA8s/');
-                        showToast('Link do Facebook copiado!');
-                      }}
-                      className="w-full py-3 bg-slate-50 dark:bg-white/5 hover:bg-slate-100 dark:hover:bg-white/10 text-slate-700 dark:text-slate-200 text-xs font-bold rounded-2xl transition-all border border-slate-100 dark:border-white/5 active:scale-[0.98]"
-                    >
-                      Copiar Link do Facebook
-                    </button>
+                    <div className="grid grid-cols-2 gap-2">
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText('https://tiktok.com/@moneynet.ai');
+                          showToast('Link do TikTok copiado!');
+                        }}
+                        className="py-2.5 bg-slate-50 dark:bg-white/5 hover:bg-slate-100 dark:hover:bg-white/10 text-slate-700 dark:text-slate-200 text-[10px] font-bold rounded-xl transition-all border border-slate-100 dark:border-white/5 active:scale-[0.98]"
+                      >
+                        Copiar TikTok
+                      </button>
+                      
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText('https://www.facebook.com/share/1CZh4awA8s/');
+                          showToast('Link do Facebook copiado!');
+                        }}
+                        className="py-2.5 bg-slate-50 dark:bg-white/5 hover:bg-slate-100 dark:hover:bg-white/10 text-slate-700 dark:text-slate-200 text-[10px] font-bold rounded-xl transition-all border border-slate-100 dark:border-white/5 active:scale-[0.98]"
+                      >
+                        Copiar Facebook
+                      </button>
+                    </div>
                     
                     <button
                       onClick={() => setShowContactModal(false)}
