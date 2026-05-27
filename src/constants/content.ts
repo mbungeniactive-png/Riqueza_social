@@ -888,6 +888,674 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'O TikTok recompensa a atenção humana. Se o seu vídeo for chato, o produto não vende. Se for viciante e útil, você escala infinitamente.'
           ] }
         ]
+      },
+      {
+        id: 'tiktok_viral_motivation_guide',
+        title: '🎬 Criar Vídeos Motivacionais Virais',
+        content: [
+          'Criar vídeos motivacionais para o TikTok funciona melhor quando você combina mensagem emocional + ritmo rápido + visual forte. Aqui está um método simples que costuma funcionar muito bem:',
+          { type: 'steps', title: '💥 Estrutura que Prende a Atenção', items: [
+            '1. Gancho nos primeiros 2 segundos: A primeira frase decide se a pessoa continua assistindo. Exemplos: "Ninguém vai salvar você.", "Daqui a 1 ano você vai agradecer por começar hoje.", "Pare de esperar motivação.", "Você está cansado porque desistiu de você mesmo."',
+            '2. Use vídeos visuais fortes: Você pode usar imagens ou vídeos de pessoas treinando, cidade à noite, chuva, trabalho duro, natureza, close no rosto pensando, corrida, academia ou estudo. Você pode gravar com seu celular ou usar bancos de vídeos gratuitos (Ex: pexels.com, pixabay.com).',
+            '3. Narração emocional: A voz é muito importante. Você pode gravar sua própria voz ou usar inteligência artificial de voz sintética de apps populares como capcut.com, elevenlabs.io ou canva.com.'
+          ] },
+          { type: 'list', title: '🎵 Trilha Sonora e Legendas', items: [
+            '• Escolha da Música Certa: Use músicas cinemáticas, piano emocional, trap motivacional ou música épica lenta. O ideal é manter o volume da música baixo, com a voz clara acima da música.',
+            '• Texto Grande na Tela: Legendas e textos em destaque aumentam muito a retenção de público no TikTok. Exemplo: "O sucesso começa quando as desculpas acabam."'
+          ] },
+          { type: 'info', title: '⏱ Estilo Visual e Roteiro de Retenção', items: [
+            '• Duração Ideal: De 15 a 45 segundos costuma performar melhor para o público de vídeos motivacionais.',
+            '• Cortes Ágeis: Faça cortes rápidos a cada 1 a 3 segundos para reter atenção ocular.',
+            '• Fórmula Simples de Roteiro: Estruture como Gancho ➔ Dor ➔ Virada ➔ Chamada.',
+            '• Exemplo de Roteiro: "Você acha que está sem motivação... mas a verdade é que você ficou confortável. Enquanto você reclama, alguém está trabalhando silenciosamente. Comece hoje."'
+          ] },
+          { type: 'tips', title: '🚀 Dicas Práticas de Crescimento Rápido', items: [
+            'Apps Mais Usados: capcut.com (edição rápida para TikTok), tiktok.com (tendências e músicas), canva.com (templates prontos) e vlognow.me (edição avançada grátis).',
+            'Temas em Alta: Academia / disciplina, Dinheiro / sucesso e Estudos / foco.',
+            'Estratégia de Consistência: Poste de 2 a 4 vídeos por dia, use frases curtas e altamente emocionais, crie séries seriadas ("Parte 1", "Mentalidade Forte", etc.), reposte e teste variações diferentes de um mesmo conteúdo e monitore o tempo médio assistido nas suas métricas.'
+          ] },
+          { type: 'steps', title: '💡 Ideia Prática para Iniciar Hoje', items: [
+            'Tema: "Pare de esperar o momento perfeito..."',
+            'Visual: Uma pessoa caminhando sozinha em uma cidade escura ou luzes de chuva no vidro.',
+            'Música: Piano de ritmo lento e cinemático.',
+            'Narração proposta: "O momento perfeito não existe. Existe apenas você... decidindo começar."'
+          ] },
+          'Se quiser, nosso Mentor IA também pode te ajudar de imediato a criar novos roteiros completos para o TikTok, gerar frases motivacionais virais, montar um plano para crescer uma página, ou criar ideias de vídeos em estilo cinematográfico.'
+        ]
+      },
+      {
+        id: 'tiktok_motivation_viral_scripts',
+        title: '🔥 8 Roteiros Prontos de Alta Conversão',
+        content: [
+          'Use estes roteiros validados e de alta retenção diretamente em suas postagens para acelerar os cliques e otimizar sua entrega orgânica:',
+          { type: 'steps', title: '⚡ Roteiros Completos (1 a 4)', items: [
+            'Roteiro 1 — Disciplina\n• Cena: Pessoa treinando cedo / acordando / estudando.\n• Narração: "A maioria desiste cedo demais. Não porque é fraca... mas porque espera motivação todos os dias. Pessoas fortes não dependem de motivação. Dependem de disciplina. Faça mesmo sem vontade."\n• Texto na tela: "Disciplina > Motivação" | "Continue."',
+            'Roteiro 2 — Começar Agora\n• Cena: Cidade à noite + pessoa andando sozinha.\n• Narração: "Daqui a um ano... você vai desejar ter começado hoje. O tempo vai passar de qualquer forma. Então escolha crescer."\n• Texto na tela: "Comece hoje." | "Sem desculpas."',
+            'Roteiro 3 — Mentalidade Forte\n• Cena: Pessoa cansada trabalhando.\n• Narração: "Ninguém vê as noites difíceis. Ninguém vê o esforço silencioso. Mas um dia... os resultados vão falar por você."\n• Texto na tela: "Trabalhe em silêncio."',
+            'Roteiro 4 — Foco\n• Cena: Pessoa estudando no escuro.\n• Narração: "Enquanto você perde tempo se comparando... alguém está evoluindo em silêncio. Desligue o barulho. Foque em você."\n• Texto na tela: "Foco total."'
+          ] },
+          { type: 'steps', title: '⚡ Roteiros Completos (5 a 8)', items: [
+            'Roteiro 5 — Academia\n• Cena: Treino pesado / corrida.\n• Narração: "Seu corpo aguenta mais do que sua mente acredita. Toda vez que você quer desistir... é exatamente o momento em que precisa continuar."\n• Texto na tela: "Mais uma repetição."',
+            'Roteiro 6 — Dinheiro & Sucesso\n• Cena: Notebook / trabalho noturno / chuva.\n• Narração: "Todo mundo quer sucesso. Poucos aceitam o preço dele. Sacrifício. Solidão. Consistência. Você aceita?"\n• Texto na tela: "O preço do sucesso."',
+            'Roteiro 7 — Autoestima\n• Cena: Pessoa olhando no espelho.\n• Narração: "Pare de procurar validação. O mundo muda quando você começa a acreditar em si mesmo."\n• Texto na tela: "Confie em você."',
+            'Roteiro 8 — Nunca Desistir\n• Cena: Pessoa correndo na chuva.\n• Narração: "Talvez esteja demorando. Talvez esteja difícil. Mas desistir garante que nunca aconteça."\n• Texto na tela: "Continue."'
+          ] },
+          { type: 'info', title: '🎬 Estilo Visual Recomendado', items: [
+            '• Visual Cinemático Escuro',
+            '• Estética de Academia / Disciplina',
+            '• Imagens de Foco / Estudos / Produtividade Noturna'
+          ] },
+          { type: 'tips', title: '🛠 Ferramentas Essenciais para Montagem', items: [
+            'Edição ágil no capcut.com',
+            'Templates e artes prontas no canva.com',
+            'Busque as áudios em alta no próprio tiktok.com'
+          ] },
+          'Se você desejar, nosso Mentor IA pode criar roteiros adicionais no estilo de influenciadores (como Andrew Tate), roteiros puramente emocionais, roteiros curtos de 15 segundos ou adaptações com expressões regionais.'
+        ]
+      },
+      {
+        id: 'tiktok_motivation_viral_phrases',
+        title: '💎 Biblioteca de Frases Motivacionais Virais',
+        content: [
+          'Esta biblioteca reúne as melhores frases de alta retenção visual e emocional organizadas por categoria para uso em legendas, áudios e textos na tela (TikTok):',
+          { type: 'list', title: '🚀 Frases Motivacionais de Impacto', items: [
+            '“Ninguém vai fazer por você.”',
+            '“O desconforto de hoje cria a vitória de amanhã.”',
+            '“Disciplina pesa gramas. Arrependimento pesa toneladas.”',
+            '“Ou você controla sua mente… ou ela controla você.”',
+            '“Resultados silenciosos assustam mais.”',
+            '“Você não está cansado. Está distraído.”',
+            '“Comece antes de estar pronto.”',
+            '“A dor passa. O orgulho fica.”',
+            '“Pare de esperar motivação.”',
+            '“Seu futuro depende do que você faz hoje.”',
+            '“Enquanto você dorme, alguém está ficando melhor.”',
+            '“Não conte seus planos. Mostre os resultados.”',
+            '“Quem quer dá um jeito. Quem não quer dá desculpas.”',
+            '“O sucesso gosta de consistência.”',
+            '“Você nasceu para mais.”',
+            '“Treine sua mente para vencer dias difíceis.”',
+            '“O medo desaparece quando a ação começa.”',
+            '“Se fosse fácil, todos conseguiriam.”',
+            '“Pequenos passos também mudam vidas.”',
+            '“A vida muda quando você muda.”',
+            '“A disciplina vai te levar onde a motivação não consegue.”',
+            '“Você pode descansar. Mas não desista.”',
+            '“Sem sacrifício, sem mudança.”',
+            '“Seu único concorrente é quem você era ontem.”',
+            '“Grandes resultados começam em silêncio.”'
+          ] },
+          { type: 'tips', title: '⏱ Frases Curtas (Excelente para Texto na Tela)', items: [
+            '“Continue.” | “Sem desculpas.” | “Mais foco.”',
+            '“Levante.” | “Acredite.” | “Faça acontecer.”',
+            '“Mentalidade forte.” | “Modo disciplina.” | “Não pare agora.”',
+            '“Silêncio e trabalho.”'
+          ] },
+          { type: 'steps', title: '🎬 Estilo Cinemático (Foco, Academia e Sucesso)', items: [
+            '• Academia / Disciplina: "A mente desiste antes do corpo." | "Dor temporária. Evolução permanente." | "A vitória começa quando ninguém está olhando."',
+            '• Dinheiro / Sucesso: "Rico é quem continua quando todos param." | "O sucesso exige silêncio antes do aplauso." | "Construa em silêncio."',
+            '• Estudos / Foco: "Seu esforço de hoje é sua liberdade amanhã." | "Estude enquanto outros desperdiçam tempo." | "Foque até dar certo."'
+          ] },
+          { type: 'info', title: '⚡ Ganchos Poderosos e Emocionais', items: [
+            '• Frases Fortes de Abertura: “Escuta isso antes de desistir.” | “Você precisava ouvir isso hoje.” | “Talvez esse seja seu sinal.” | “Pare de destruir seu próprio potencial.” | “Ninguém vai te salvar.” | “Acorda.”',
+            '• Conexão Emocional Profunda: “Você sobreviveu a todos os seus piores dias.” | “Não desista da pessoa que você quer se tornar.” | “Tudo muda quando você decide não voltar atrás.” | “Seu momento vai chegar.” | “Continue mesmo em silêncio.”'
+          ] },
+          { type: 'list', title: '🇧🇷 100 Frases Virais em Português', items: [
+            'Ninguém vai salvar você.',
+            'Comece cansado mesmo.',
+            'Disciplina vence talento.',
+            'Seu futuro começa hoje.',
+            'Sem esforço, sem mudança.',
+            'Continue em silêncio.',
+            'O foco muda tudo.',
+            'Pare de se sabotar.',
+            'Faça mesmo sem vontade.',
+            'Você aguenta mais.',
+            'Não desista agora.',
+            'A dor passa.',
+            'Evolua em silêncio.',
+            'Sem desculpas.',
+            'Seu tempo vai chegar.',
+            'Trabalhe enquanto dormem.',
+            'Seu potencial assusta.',
+            'Pare de esperar motivação.',
+            'O medo desaparece na ação.',
+            'Faça acontecer.',
+            'O impossível demora mais.',
+            'Seja imparável.',
+            'Resultados exigem sacrifício.',
+            'Você nasceu para vencer.',
+            'Ninguém vê o esforço invisível.',
+            'Continue mesmo sozinho.',
+            'Tudo muda quando você muda.',
+            'A mente desiste primeiro.',
+            'Mais disciplina.',
+            'Menos distração.',
+            'O sucesso ama consistência.',
+            'Continue tentando.',
+            'A batalha é mental.',
+            'Um dia ou dia um.',
+            'O processo dói.',
+            'Mas vale a pena.',
+            'Construa sua melhor versão.',
+            'Sua vida depende das suas decisões.',
+            'Ação vence ansiedade.',
+            'Levante novamente.',
+            'Você não chegou até aqui para parar.',
+            'Foco total.',
+            'Sacrifício hoje. Vitória amanhã.',
+            'Treine sua mente.',
+            'Cresça em silêncio.',
+            'Sem risco, sem vitória.',
+            'O mundo respeita resultados.',
+            'Seja diferente.',
+            'Dias difíceis criam pessoas fortes.',
+            'Você ainda tem tempo.',
+            'Faça por você.',
+            'Transforme dor em força.',
+            'Sua hora vai chegar.',
+            'O topo exige esforço.',
+            'Você consegue.',
+            'Faça mais. Reclame menos.',
+            'Continue avançando.',
+            'O sucesso é repetição.',
+            'Pare de fugir do desconforto.',
+            'O crescimento começa na dor.',
+            'Não volte atrás.',
+            'Trabalhe duro em silêncio.',
+            'O impossível é treinável.',
+            'Acredite mais em você.',
+            'A mudança começa agora.',
+            'Você não está atrasado.',
+            'Construa hábitos fortes.',
+            'Seja obcecado pelo progresso.',
+            'Nada muda sem atitude.',
+            'O medo mente.',
+            'Continue respirando.',
+            'O esforço compensa.',
+            'Você é sua prioridade.',
+            'Fique focado.',
+            'Tudo depende de você.',
+            'Seu sonho merece esforço.',
+            'Seja constante.',
+            'Continue lutando.',
+            'O fracasso ensina.',
+            'Sua mente cria limites.',
+            'Vá além.',
+            'Um passo de cada vez.',
+            'O trabalho duro aparece.',
+            'Sua história ainda não terminou.',
+            'Continue mesmo sem aplausos.',
+            'O sucesso é silencioso.',
+            'Seja forte nos dias difíceis.',
+            'Você pode recomeçar.',
+            'Não desperdice seu potencial.',
+            'Sua evolução incomoda.',
+            'O impossível assusta preguiçosos.',
+            'Nunca foi sorte.',
+            'Foi disciplina.',
+            'Você é mais forte do que pensa.',
+            'O esforço constrói gigantes.',
+            'Continue firme.',
+            'Seu futuro está observando.',
+            'Faça valer a pena.',
+            'A vitória exige coragem.',
+            'Comece agora.'
+          ] },
+          { type: 'list', title: '🇺🇸 100 Viral Quotes in English', items: [
+            'Nobody is coming to save you.',
+            'Start anyway.',
+            'Discipline beats motivation.',
+            'Stay focused.',
+            'Keep going.',
+            'Silence builds power.',
+            'Hard work changes lives.',
+            'Make yourself proud.',
+            'Pain creates strength.',
+            'Never quit early.',
+            'Work in silence.',
+            'Your future needs you.',
+            'Stay hungry.',
+            'You can do more.',
+            'Focus on growth.',
+            'One day or day one.',
+            'Success loves consistency.',
+            'Keep fighting.',
+            'The grind never lies.',
+            'Stay disciplined.',
+            'Stop doubting yourself.',
+            'Be unstoppable.',
+            'Comfort destroys dreams.',
+            'Your mindset matters.',
+            'Results take sacrifice.',
+            'Build your future now.',
+            'Fear disappears with action.',
+            'Become dangerous.',
+            'Stay patient.',
+            'You are capable.',
+            'Progress over excuses.',
+            'Winners stay consistent.',
+            'Discipline changes everything.',
+            'Greatness takes time.',
+            'Push through pain.',
+            'Stay locked in.',
+            'Become your best version.',
+            'Hard times create strong people.',
+            'Make it happen.',
+            'Stay mentally strong.',
+            'Keep your promises to yourself.',
+            'Train your mind.',
+            'Dreams require effort.',
+            'Keep showing up.',
+            'Focus beats talent.',
+            'Stay relentless.',
+            'Success is earned daily.',
+            'Keep moving forward.',
+            'The struggle is temporary.',
+            'Your limits are mental.',
+            'Sacrifice now. Celebrate later.',
+            'Stay obsessed.',
+            'Nobody believed. Keep going.',
+            'Build silently.',
+            'Success takes patience.',
+            'Keep proving yourself right.',
+            'Pressure creates diamonds.',
+            'Keep climbing.',
+            'Consistency wins.',
+            'Rise again.',
+            'Trust the process.',
+            'Stay dangerous.',
+            'Work harder quietly.',
+            'Every day matters.',
+            'You were built for this.',
+            'Pain is temporary.',
+            'Growth feels uncomfortable.',
+            'Stay focused on your mission.',
+            'Your future is watching.',
+            'Keep your head high.',
+            'Stay strong.',
+            'Keep improving daily.',
+            'Become unstoppable.',
+            'Discipline creates freedom.',
+            'Stop waiting.',
+            'Start building.',
+            'Success takes courage.',
+            'Stay committed.',
+            'Chase your vision.',
+            'Never settle.',
+            'Strong minds win battles.',
+            'Keep your standards high.',
+            'Turn pain into power.',
+            'Great things take time.',
+            'You are stronger than fear.',
+            'Keep evolving.',
+            'Dreams demand discipline.',
+            'Work until they notice.',
+            'Focus on yourself.',
+            'Stay hungry for success.',
+            'Stay calm and grind.',
+            'Your effort will show.',
+            'Stay away from excuses.',
+            'Build your empire.',
+            'Keep your fire alive.',
+            'The comeback is personal.',
+            'Stay true to your goals.',
+            'Rise above excuses.',
+            'You still have time.',
+            'Become legendary.'
+          ] },
+          'Com a ajuda do nosso Mentor IA, você também pode exportar listas maiores com 100+ frases personalizadas, gerar frases impactantes puramente em inglês, criar linhas no estilo agressivo sigma, ou formatar a estrutura de voz neural sintética para o TikTok.'
+        ]
+      },
+      {
+        id: 'tiktok_motivation_growth_plan',
+        title: '📈 Plano de Crescimento de Página Motivacional',
+        content: [
+          'Este é o plano prático passo a passo para você criar, estruturar e decolar uma página de vídeos motivacionais no TikTok, focado em visualizações, seguidores, alta retenção e monetização imediata.',
+          { type: 'steps', title: '🎯 Escolha de Estilo Coeso', items: [
+            '1. Identidade e Nicho Coerente: Páginas de sucesso têm foco claro. Escolha um dos sub-nichos virais: Disciplina, Academia, Dinheiro / sucesso, Mentalidade forte, Estudos / foco, Estilo Sigma ou Motivação emocional.',
+            '2. Foco Intenso no Início: Poste muito nos primeiros 30 dias. A meta recomendada é de 3 a 5 vídeos por dia, pois o algoritmo realiza múltiplos testes com novos públicos antes de impulsionar um mega-viral.',
+            '3. Duração Ideal Segura: Mantenha os seus vídeos na faixa de 15 a 35 segundos. Isso maximiza os replays automáticos, compartilhamentos rápidos e a retenção do público.'
+          ] },
+          { type: 'info', title: '⚡ Fórmula Simples de Estrutura dos Vídeos', items: [
+            '• Gancho Inicial (0-2 seg): "Ninguém vai salvar você.", "Escuta isso...", "Pare de esperar motivação..." (Define se continuam no vídeo).',
+            '• Desenvolvimento (3-15 seg): Entrega da mensagem emocional com cortes e batida coerente.',
+            '• Fechamento de Impacto (Final): "Comece hoje.", "Continue.", "Sem desculpas." (Excelente para gerar compartilhamentos).'
+          ] },
+          { type: 'list', title: '🎥 Estética Visual e Edição Avançada', items: [
+            '• Estilo Cinemático Escuro: Use vídeos cinemáticos em câmera lenta, cenas urbanas noturnas, chuva, closes pensativos, corrida e treinos intensos.',
+            '• Ferramentas Recomendadas: Use o CapCut (capcut.com) para edição, Canva (canva.com) para capas e templates, ElevenLabs (elevenlabs.io) para clonagem ou vozes sintéticas ultra-realistas de alta retenção, e o próprio TikTok (tiktok.com) para áudios virais.'
+          ] },
+          { type: 'tips', title: '🚀 Estratégias do Crescimento Acelerado', items: [
+            '• Crie Séries Seriadas: Crie séries como "Mentalidade Forte #1", "Disciplina #7", "Vídeos para dias difíceis". Séries despertam extrema curiosidade e convertem visualizações casuais em seguidores reais.',
+            '• Reaproveitamento Inteligente: Não delete vídeos com baixo desempenho! Altere a música, mude o gancho inicial ou ajuste pequenos cortes e reposte. Muitas vezes a segunda versão explode.',
+            '• Engajamento Multiplicador: Quando um espectador comentar algo como "precisava disso", responda criando um novo vídeo de resposta. Isso gera forte engajamento recíproco e expande o alcance do robô.'
+          ] },
+          { type: 'steps', title: '⏱ Horários e Metas Pragmáticas', items: [
+            '• Horários de Postagem: Teste as janelas das 06h-08h, 12h-14h e 19h-23h e depois tome decisões com base no seu painel Analytics.',
+            '• Expectativa Realista: 30 dias (Primeiros vídeos ganhando força orgânica) ➔ 60-90 dias (Crescimento de autoridade) ➔ 6 meses (Página consolidada e grande).',
+            '• Calendários Diários: Vídeo 1 (Motivação forte) | Vídeo 2 (Academia/Disciplina) | Vídeo 3 (Impacto Emocional) | Vídeo 4 (Sucesso/Dinheiro).'
+          ] },
+          'Qual o próximo passo? Com o nosso Mentor IA, você pode gerar calendários editoriais de 30 dias completos, ideias de nomes exclusivos e bios de alta conversão, listas de 100 ideias de vídeos ou roteiros sob demanda para copiar e postar!'
+        ]
+      },
+      {
+        id: 'tiktok_cinematic_ideas',
+        title: '🎬 Ideias de Vídeos Cinematográficos para Vídeos Motivacionais',
+        content: [
+          'Vídeos cinematográficos e atmosféricos geram uma retenção extraordinária ao evocar emoções e sentimentos de superação profunda. Use este catálogo de 10 ideias com roteiro e direção de arte:',
+          { type: 'steps', title: '🌌 Ideias de Produção Cinemática (1 a 5)', items: [
+            '1. "Acorde antes do mundo"\n• Cena: Alarme tocando às 4h/5h, pessoa levantando cansada, e a rua completamente vazia ao amanhecer.\n• Narração: "Enquanto todos dormem... alguém está construindo o próprio futuro."\n• Música: Piano lento combinado com uma batida épica crescente.',
+            '2. "Silêncio"\n• Cena: Pessoa treinando sozinha, sem mostrar o rosto, sob chuva leve ou em um ambiente escuro.\n• Narração: "Fale menos. Trabalhe mais. Deixe os resultados fazerem barulho."\n• Texto na tela: "Silêncio e excelência."',
+            '3. "Daqui a um ano"\n• Cena: Pessoa contemplando o horizonte ou a cidade à noite, notebook ligado, e foco no trabalho solitário.\n• Narração: "Daqui a um ano... você pode estar orgulhoso. Ou arrependido."\n• Texto na tela: "Escolha crescer hoje."',
+            '4. "Dor"\n• Cena: Corrida sob chuva, close com foco fechado e curto no rosto cansado, respiração pesada.\n• Narração: "A dor que você evita hoje... vira arrependimento amanhã."\n• Texto na tela: "Dor temporária. Evolução permanente."',
+            '5. "Ninguém vai salvar você"\n• Cena: Pessoa caminhando solitária por uma cidade escura com as luzes do fundo desfocadas (efeito bokeh).\n• Narração: "Ninguém vai aparecer para mudar sua vida. Tudo começa quando você decide."'
+          ] },
+          { type: 'steps', title: '🌌 Ideias de Produção Cinemática (6 a 10)', items: [
+            '6. "Mentalidade forte"\n• Cena: Uma academia ou sala de estudos vazia, com os pesos caindo no chão ou mãos machucadas do esforço.\n• Narração: "Corpos fortes são construídos por mentes fortes."\n• Texto na tela: "A mente manda, o corpo obedece."',
+            '7. "Última tentativa"\n• Cena: Pessoa visivelmente frustrada diante de uma falha, mas levantando-se e recomeçando devagar enquanto a música ganha volume.\n• Narração: "Talvez a próxima tentativa... mude tudo."\n• Texto na tela: "Levante-se de novo."',
+            '8. "Modo foco"\n• Cena: Estudo ou trabalho noturno, xícara de café quente soltando fumaça, luz baixa de luminária e chuva batendo na janela.\n• Narração: "Desapareça por um tempo. Evolua em silêncio."\n• Texto na tela: "Foco inabalável."',
+            '9. "Sem desculpas"\n• Cena: Pessoa correndo ou treinando exausta, com relógio marcando hora tardia na noite ou madrugada.\n• Narração: "Cansado? Faça mesmo assim."\n• Texto na tela: "Custo zero para desculpas."',
+            '10. "Seu futuro está olhando"\n• Cena: Edição emocional fazendo transição de cenas de infância para o adulto trabalhando duro no presente.\n• Narração: "Seu eu do futuro está observando as suas decisões de hoje."'
+          ] },
+          { type: 'info', title: '✨ Fórmula Visual de Alta Retenção', items: [
+            '• Use câmera lenta (slow motion 60/120 fps)',
+            '• Adicione filtros e efeitos de chuva ou fumaça sutil',
+            '• Explore luzes neon, tons dourados ou azuis escuros em cenas noturnas',
+            '• Aplique zooms lentos ou dolly shots e cortes rápidos sincronizados com as batidas graves da música'
+          ] },
+          { type: 'tips', title: '🛠 Ferramentas de Produção e Edição', items: [
+            'Edição refinada e efeitos: capcut.com',
+            'Artes, tipografia e capas em destaque: canva.com',
+            'Vídeos gratuitos e em alta qualidade (banco de dados cinemático): pexels.com',
+            'Músicas e tendências para ritmos ágeis: tiktok.com'
+          ] },
+          'Se você quiser, nosso Mentor IA também pode te ajudar fornecendo prompts detalhados para ferramentas de geração de vídeo por IA, montar roteiros e ideias no estilo clássico Sigma, ou estruturar um calendário editorial cinematográfico de 30 dias.'
+        ]
+      },
+      {
+        id: 'tiktok_emotional_scripts',
+        title: '❤️ 8 Roteiros Emocionais de Alto Impacto',
+        content: [
+          'Vídeos com forte apelo emocional geram sentimentos de empatia imediata e estimulam o público a interagir nos comentários sutilmente. Use estes 8 roteiros validados:',
+          { type: 'steps', title: '💔 Roteiros Emocionais de Resiliência (1 a 4)', items: [
+            'Roteiro 1 — "Você cansou"\n• Cena: Pessoa sentada sozinha olhando para baixo.\n• Narração: "Eu sei… você está cansado. Cansado de tentar. Cansado de esperar. Mas escuta isso… desistir agora destruiria tudo que você já suportou até aqui."\n• Texto na tela: "Continue." | "Só mais um dia."',
+            'Roteiro 2 — "Seu momento vai chegar"\n• Cena: Cidade à noite + pessoa caminhando sozinha.\n• Narração: "Talvez ninguém esteja vendo seu esforço agora. Talvez ninguém entenda sua luta. Mas continue. Seu momento vai chegar."\n• Texto na tela: "Confie no processo."',
+            'Roteiro 3 — "A criança que você foi"\n• Cena: Fotos antigas / olhar no espelho.\n• Narração: "A criança que você foi um dia… acreditava que você faria coisas incríveis. Não decepcione essa versão de você."\n• Texto na tela: "Lembre quem você queria ser."',
+            'Roteiro 4 — "Dias difíceis"\n• Cena: Chuva na janela + pessoa pensativa.\n• Narração: "Dias difíceis não vieram para destruir você. Vieram para revelar sua força."\n• Texto na tela: "Você vai sobreviver."'
+          ] },
+          { type: 'steps', title: '💔 Roteiros Emocionais de Resiliência (5 a 8)', items: [
+            'Roteiro 5 — "Ninguém sabe"\n• Cena: Pessoa sorrindo em público e triste sozinha.\n• Narração: "Ninguém sabe quantas batalhas você cobra em silêncio. E mesmo assim… você continua aqui."\n• Texto na tela: "Orgulhe-se disso."',
+            'Roteiro 6 — "Não desista"\n• Cena: Pessoa cansada levantando novamente.\n• Narração: "Talvez você esteja mais perto do que imagina. Não desista agora."\n• Texto na tela: "Última tentativa."',
+            'Roteiro 7 — "Você sobreviveu"\n• Cena: Cenas lentas + olhar distante.\n• Narração: "Você sobreviveu a todos os seus piores dias até hoje. Então respire… porque você consegue sobreviver a esse também."\n• Texto na tela: "Continue respirando."',
+            'Roteiro 8 — "Seu valor"\n• Cena: Pessoa olhando cidade do alto.\n• Narração: "Pare de medir seu valor pelas opiniões dos outros. Você é mais forte do que pensa."\n• Texto na tela: "Acredite em você."'
+          ] },
+          { type: 'info', title: '🎵 Trilha Sonora e Áudio Ideal', items: [
+            '• Piano emocional e melancólico',
+            '• Solo de violino lento',
+            '• Batida cinematográfica leve com sons de chuva ou ambiente no fundo'
+          ] },
+          { type: 'tips', title: '🛠 Aplicativos Recomendados para Edição', items: [
+            'Edição refinada para cortes lentos: capcut.com',
+            'Criação de legendas emotivas e artes: canva.com',
+            'Sons de fundo e tendências motivacionais: tiktok.com'
+          ] },
+          'Se você quiser, nosso Mentor IA também pode te ajudar de imediato a criar roteiros adicionais no estilo de influenciadores (como Andrew Tate), roteiros puramente emocionais, roteiros curtos de 15 segundos ou adaptações com expressões regionais.'
+        ]
+      },
+      {
+        id: 'tiktok_viral_retention_scripts',
+        title: '🔥 8 Roteiros Virais de Alta Retenção',
+        content: [
+          'Para impulsionar o engajamento rápido, a retenção nos primeiros segundos e os compartilhamentos em massa, use estes 8 roteiros ultra-virais de alto impacto:',
+          { type: 'steps', title: '⚡ Roteiros Virais de Impacto Direto (1 a 4)', items: [
+            'Roteiro viral 1 — "Acorda"\n• Cena: Pessoa parada se olhando fixamente no espelho.\n• Narração: "Acorda. Ninguém vai mudar sua vida por você. Ou você começa agora… ou vai continuar assistindo outros vencerem."\n• Texto na tela: "A decisão é sua."',
+            'Roteiro viral 2 — "Daqui a 5 anos"\n• Cena: Imagens de cidades à noite combinadas com cenas de trabalho/estudo solitário.\n• Narração: "Daqui a 5 anos… você vai se encontrar em um de dois lugares: arrependido… ou orgulhoso."\n• Texto na tela: "Escolha hoje."',
+            'Roteiro viral 3 — "Enquanto você reclama"\n• Cena: Pessoa treinando pesado ou focando nos estudos com determinação.\n• Narração: "Enquanto você reclama da vida… alguém está trabalhando silenciosamente para vencer."\n• Texto na tela: "Sem desculpas."',
+            'Roteiro viral 4 — "Seu maior inimigo"\n• Cena: Close expressivo no rosto sob chuva leve ou com filtros dramáticos.\n• Narração: "Seu maior inimigo não é falta de dinheiro. Não é falta de oportunidade. É a versão de você que continua desistindo."\n• Texto na tela: "Vença sua mente."'
+          ] },
+          { type: 'steps', title: '⚡ Roteiros Virais de Impacto Direto (5 a 8)', items: [
+            'Roteiro viral 5 — "Silêncio"\n• Cena: Treino solitário ou estudos madrugada adentro com iluminação reduzida.\n• Narração: "Desapareça por alguns meses. Trabalhe em silêncio. E surpreenda todos."\n• Texto na tela: "Modo foco."',
+            'Roteiro viral 6 — "Dor"\n• Cena: Imagens de corrida intensa sob chuva ou caminhada sob iluminação urbana noturna.\n• Narração: "A dor de treinar dura horas. A dor do arrependimento dura anos."\n• Texto na tela: "Continue."',
+            'Roteiro viral 7 — "Ninguém acreditava"\n• Cena: Imagens de altíssima qualidade de alguém trabalhando arduamente sozinho.\n• Narração: "Ninguém acreditava nele. E talvez seja exatamente isso que vai torná-lo imparável."\n• Texto na tela: "Use isso como combustível."',
+            'Roteiro viral 8 — "Último aviso"\n• Cena: Edição frenética, música intensa e cortes rápidos sincronizados.\n• Narração: "Esse pode ser o vídeo que muda sua mentalidade. Mas os só se você decidir agir."\n• Texto na tela: "Comece hoje."'
+          ] },
+          { type: 'info', title: '⏱ Fórmula e Estrutura Perfeita de Retenção', items: [
+            '• Gancho imediato (0 a 2s [Choque]): Use palavras provocativas ou chocantes como "Acorda." ou "Escuta isso." para evitar que pulem.',
+            '• Destaque da Dor (3 a 10s [Foco]): Comente o erro ou frustração que o espectador vive, ex: "Você está desperdiçando seu potencial."',
+            '• A Virada (11 a 20s [Motivo]): Apresente a saída motivadora: "Mas ainda dá tempo."',
+            '• Chamada para Ação (Final [CTA]): Direcione com firmeza, ex: "Comece hoje." ou "Siga para não desistir."'
+          ] },
+          { type: 'list', title: '🎨 Edição Visual que Mais Viraliza', items: [
+            '• Elementos gráficos: Use zoom lento contínuo, câmera tremendo suavemente (shake effect) em batidas e brilho levemente rebaixado.',
+            '• Detalhes imersivos: Adicione sons de chuva, tipografias grandes centralizadas, letras em destaque (amarelo/branco) e câmera lenta em momentos-chave.'
+          ] },
+          { type: 'tips', title: '🛠 Plataformas e Aplicativos Cruciais', items: [
+            'Análise de tendências e música: tiktok.com',
+            'Criação de legendas dinâmicas e efeitos rápidos: capcut.com',
+            'Mockups, capas estéticas e design tipográfico: canva.com'
+          ] },
+          'Com a ajuda do nosso Mentor IA, você pode gerar mais 100 variações dessa fórmula com foco 100% no seu nicho, ou programar seu calendário de postagens direto para maximizar replays!'
+        ]
+      },
+      {
+        id: 'tiktok_sigma_guidelines',
+        title: '🐺 Guia Sigma & Roteiros de Voz IA',
+        content: [
+          'O estilo de conteúdo Sigma é focado em alta disciplina, foco agressivo e silêncio produtivo. Use esta compilação validada de frases e roteiros prontos para bombar suas visualizações:',
+          { type: 'steps', title: '🤐 Frases Agressivas Estilo Sigma', items: [
+            '“Fique em silêncio. O sucesso faz barulho suficiente.”',
+            '“Enquanto eles falam… eu evoluo.”',
+            '“Sem emoção. Sem desculpas. Só resultados.”',
+            '“A disciplina destrói qualquer limite.”',
+            '“Você quer conforto ou respeito?”',
+            '“Pessoas fracas procuram atalhos.”',
+            '“Ninguém respeita preguiça.”',
+            '“Construa em silêncio.”',
+            '“A dor é obrigatória. A fraqueza é opcional.”',
+            '“O mundo pertence aos obcecados.”',
+            '“Mentalidade forte assusta pessoas fracas.”',
+            '“Você não precisa de aprovação.”',
+            '“Pare de agir como vítima.”',
+            '“O topo é solitário.”',
+            '“Sem sacrifício, sem vitória.”',
+            '“A maioria desiste cedo demais.”',
+            '“Se fosse fácil, todos venceriam.”',
+            '“Transforme raiva em combustível.”',
+            '“A pressão cria monstros.”',
+            '“Seja perigoso em silêncio.”',
+            '“Disciplina acima de sentimentos.”',
+            '“Sua mente precisa ser mais forte que suas emoções.”',
+            '“O fracasso não assusta homens disciplinados.”',
+            '“Trabalhe até não precisar provar nada.”',
+            '“O sofrimento constrói homens fortes.”',
+            '“Foco absoluto.”',
+            '“A preguiça destrói sonhos.”',
+            '“Sem consistência, sem respeito.”',
+            '“Faça o impossível parecer rotina.”',
+            '“Resultados silenciosos assustam mais.”'
+          ] },
+          { type: 'info', title: '📲 Frases Sigma Curtas para Usar na Tela', items: [
+            '• “Modo guerra.”',
+            '• “Sem piedade.”',
+            '• “Mentalidade rara.”',
+            '• “Sem desculpas.”',
+            '• “Foco absoluto.”',
+            '• “Frio e disciplinado.”',
+            '• “Silêncio.”',
+            '• “Continue.”',
+            '• “Imparável.”',
+            '• “Sem fraqueza.”'
+          ] },
+          { type: 'steps', title: '🎙️ Roteiros para Voz IA - Lentas e Emocionais (1 a 5)', items: [
+            'Script 1 — "Escuta isso"\n• Narração: "Escuta isso… ninguém vai mudar sua vida por você. O dia em que você entender isso… tudo muda."',
+            'Script 2 — "Sem tempo para perder"\n• Narração: "Enquanto você perde tempo procurando motivação… alguém está trabalhando silenciosamente."',
+            'Script 3 — "Não precisa ser perfeito"\n• Narração: "Você não precisa ser perfeito. Só precisa continuar."',
+            'Script 4 — "Lugar da disciplina"\n• Narração: "A disciplina vai te levar para lugares que a motivação nunca conseguiu."',
+            'Script 5 — "Agradecimento futuro"\n• Narração: "Daqui a alguns anos… você vai agradecer por não ter desistido hoje."'
+          ] },
+          { type: 'steps', title: '🎙️ Roteiros para Voz IA - Agressivos (6 a 10)', items: [
+            'Script 6 — "Pare de ser vítima"\n• Narração: "Pare de agir como vítima. Seu futuro depende das decisões que você evita tomar."',
+            'Script 7 — "Preso ao conforto"\n• Narração: "Você diz que quer vencer… mas continua preso ao conforto."',
+            'Script 8 — "Potencial desperdiçado"\n• Narração: "Ninguém respeita potencial desperdiçado."',
+            'Script 9 — "Controle sua mente"\n• Narração: "Ou você controla sua mente… ou ela destrói sua vida."',
+            'Script 10 — "Continue quando pararem"\n• Narração: "Resultados vêm para quem continua quando todos os outros param."'
+          ] },
+          { type: 'list', title: '🏆 Estrutura Perfeita para Viralizar', items: [
+            '• 0–2s (Choque): Gancho forte com frase curta como "Escuta isso."',
+            '• 3–10s (Dor): Expõe a frustração de frente: "Você está destruindo seu potencial."',
+            '• 11–20s (Virada): Oferece a saída dinâmica: "Mas ainda dá tempo."',
+            '• Final (Impacto/CTA): Frase curta de alta retenção: "Comece hoje."'
+          ] },
+          { type: 'tips', title: '🎥 Dicas de Otimização Vocal e Visual', items: [
+            '• Estilo Visual: Use imagens com estética luxuosa + silêncio, treinos intensos em academia + disciplina, zoom lento, câmera tremendo levemente (shake effect), efeito chuva, brilho rebaixado, câmera lenta e letras grandes e centralizadas.',
+            '• Vozes IA: Utilize ferramentas de ponta como elevenlabs.io para locuções perfeitas, capcut.com para efeitos de ritmo e áudios virais do tiktok.com.',
+            '• Como viralizar a voz: Fale super devagar, faça pausas dramáticas intencionais, mantenha a música levemente mais baixa e adicione um breve silêncio após frases fortes.'
+          ] }
+        ]
+      },
+      {
+        id: 'tiktok_sigma_page_roadmap',
+        title: '📈 Perfil Motivacional & Calendário de 30 Dias',
+        content: [
+          'Domine as redes sociais com uma imagem cinematográfica unificada, títulos memoráveis e um cronograma estruturado de postagens para obter engajamento máximo:',
+          { type: 'info', title: '🐺 Nomes Estilo Sigma / Cinemático', items: [
+            '• Shadow Discipline',
+            '• Mentalidade Fria',
+            '• Modo Guerra',
+            '• Sigma Vision',
+            '• Disciplina Absoluta',
+            '• Silent Grind',
+            '• Mente Imparável',
+            '• Código Sigma',
+            '• Evolução Silenciosa',
+            '• Rise Alone',
+            '• Dark Mindset',
+            '• Mentalidade Milionária',
+            '• Foco Supremo',
+            '• Alpha Discipline',
+            '• Sem Desculpas'
+          ] },
+          { type: 'list', title: '🤐 Bios Curtas que Funcionam', items: [
+            '• Bio 1: Disciplina. Foco. Evolução.',
+            '• Bio 2: Vídeos para quem quer vencer.',
+            '• Bio 3: Mentalidade forte todos os dias.',
+            '• Bio 4: Construa em silêncio.',
+            '• Bio 5: Sem desculpas.',
+            '• Bio 6: Motivação cinematográfica.',
+            '• Bio 7: Evolua ou permaneça igual.'
+          ] },
+          { type: 'steps', title: '📅 Calendário de 30 Dias (Estratégia: 3 vídeos/dia — Manhã, Tarde, Noite)', items: [
+            'Semana 1 — Choque + Motivação\n• Dia 1: "Ninguém vai salvar você" | "Comece hoje" | "Sem desculpas"\n• Dia 2: Disciplina vs motivação | Vídeo academia | Frase sigma\n• Dia 3: "Acorda" | Trabalho silencioso | Mentalidade forte\n• Dia 4: Dor temporária | Estudo/foco | Frase emocional\n• Dia 5: "Seu futuro depende disso" | Chuva cinematográfica | Motivação agressiva\n• Dia 6: Evolução silenciosa | Academia dark | "Continue"\n• Dia 7: Compilado da semana | Melhor frase | Vídeo emocional',
+            'Semana 2 — Sigma + Disciplina\n• Dia 8: "O topo é solitário" | Luxo cinematográfico | Foco absoluto\n• Dia 9: "Pare de agir como vítima" | Academia intensa | Trabalho duro\n• Dia 10: "Construa em silêncio" | Cidade à noite | Motivação fria\n• Dia 11: "Disciplina cria liberdade" | Rotina 5AM | Frase dark\n• Dia 12: "Sua mente mente para você" | Corrida na chuva | Vídeo intenso\n• Dia 13: "A pressão cria monstros" | Sigma aesthetic | Dor e evolução\n• Dia 14: Recap viral | Melhor vídeo repostado | Comentários em vídeo',
+            'Semana 3 — Emocional + Profundo\n• Dia 15: "Você cansou" | Chuva + tristeza | Esperança\n• Dia 16: "Seu momento vai chegar" | Cidade escura | Motivação emocional\n• Dia 17: "Não desista agora" | Música lenta | Vídeo cinematográfico\n• Dia 18: "A criança que você foi" | Memórias | Reflexão\n• Dia 19: "Dias difíceis" | Janela com chuva | Superação\n• Dia 20: "Você sobreviveu" | Texto emocional | Narração lenta\n• Dia 21: Compilado emocional | Melhores comentários | Frase forte',
+            'Semana 4 — Viralização Máxima\n• Dia 22: "Escuta isso" | Vídeo rápido | Texto grande\n• Dia 23: "Daqui a 5 anos" | Luxo/sucesso | Trabalho silencioso\n• Dia 24: "Enquanto você reclama" | Academia | Música épiсa\n• Dia 25: "Seu maior inimigo" | Close dramático | Frase pesada\n• Dia 26: "Desapareça por 6 meses" | Evolução silenciosa | Sigma edit\n• Dia 27: "Faça acontecer" | Motivação agressiva | Cortes rápidos\n• Dia 28: Repost dos melhores vídeos | Novo áudio | Novo gancho\n• Dia 29: Compilado cinematográfico | Frases virais | Edição intensa\n• Dia 30: "Você mudou" | Antes/depois emocional | CTA para seguir página'
+          ] },
+          { type: 'tips', title: '💡 Dicas Finais & Diretrizes para Crescer Rápido', items: [
+            '• Estilo Visual de Sucesso: Adote uma paleta Sigma / Dark, ou academia cinematográfica. Mantenha as imagens refinadas e a tipografia centralizada.',
+            '• Poste TODOS os dias de forma consistente (3x ao dia).',
+            '• Use legendas grandes, de leitura rápida e visual atraente.',
+            '• Faça cortes rápidos (ritmo de 1 a 2 segundos).',
+            '• Use voz fictícia ou IA lenta com pausas dramáticas expressivas.',
+            '• Reposte edições que floparam mudando a primeira cena ou gancho.',
+            '• Responda a comentários dos seus espectadores em formato de vídeo para expandir o engajamento.',
+            '• Mantenha o mesmo estilo visual de corte e coloração em todos os posts.',
+            '• Aplicativos e sites essenciais: capcut.com, tiktok.com, canva.com e elevenlabs.io.'
+          ] },
+          'Quer impulsionar ainda mais e obter lucros reais? Nosso Mentor IA pode desenvolver um cronograma estratégico exclusivo, detalhando exatamente como você pode converter essa audiência de forma unificada em vendas de afiliados ou infoprodutos próprios!'
+        ]
+      },
+      {
+        id: 'tiktok_sigma_ideas_scripts',
+        title: '🎬 120 Ideias & 20 Roteiros Prontos',
+        content: [
+          'Aprimore seu canal com uma biblioteca massiva de conteúdo validado para viralizar no TikTok. Aqui você encontrará ideias organizadas por categoria e roteiros prontos para copiar de imediato.',
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 1-4)', items: [
+            '• Disciplina: Acordando às 5AM | Treinando na chuva | Estudando enquanto todos dormem | "Sem desculpas" | Rotina silenciosa | "Ninguém vai salvar você" | Trabalho duro invisível | Evolução em silêncio | "Continue cansado mesmo" | Fracasso → sucesso',
+            '• Sigma / Dark: Caminhando sozinho à noite | Luxo cinematográfico | "O topo é solitário" | Carro à noite + narração | "Mentalidade fria" | Close dramático no rosto | "Seja perigoso em silêncio" | Cidade escura + música lenta | "O mundo pertence aos obcecados" | "Sem emoção. Só resultados."',
+            '• Academia: Última repetição | Treino pesado | Corpo cansado | Corrida intensa | "Dor temporária" | Antes e depois | Academia vazia | Mãos machucadas | "Seu corpo aguenta mais" | Treino 4AM',
+            '• Emocional: Pessoa sozinha pensando | Chuva na janela | "Você sobreviveu" | "Seu momento vai chegar" | Memórias antigas | "Não desista agora" | Superação silenciosa | "Dias difíceis" | Música triste + esperança | Olhando a cidade do alto'
+          ] },
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 5-8)', items: [
+            '• Dinheiro & Sucesso: Trabalhando sozinho | Notebook + café | "Construa seu império" | Rotina produtiva | "Enquanto eles dormem…" | Trabalho noturno | "Seu futuro depende disso" | "Sem risco, sem vitória" | Escritório escuro | "Foco total"',
+            '• Estudos: Estudando tarde | Biblioteca silenciosa | Chuva + foco | "Seu esforço vale a pena" | Time lapse estudando | "Foque até conseguir" | Café + notebook | Mesa organizada | "Disciplina cria liberdade" | Rotina produtiva',
+            '• Frases Rápidas: "Continue." | "Acorda." | "Levante." | "Sem desculpas." | "Faça acontecer." | "Mais foco." | "O medo mente." | "Tudo depende de você." | "Seja imparável." | "Continue lutando."',
+            '• Viral Agressivo: "Pare de agir como vítima" | "Você está desperdiçando seu potencial" | "A preguiça destrói sonhos" | "Seu maior inimigo é você" | "Sem disciplina, sem respeito" | "Você quer conforto ou sucesso?" | "Pare de reclamar" | "Resultados exigem sacrifício" | "Seu futuro está observando" | "Faça o impossível virar rotina"'
+          ] },
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 9-12)', items: [
+            '• Cinematográfico: Cidade neon | Corrida em câmera lenta | Chuva + música épica | Fumaça + luz baixa | Noite vazia | Reflexão no espelho | Trem/metrô sozinho | Close emocional | Luzes desfocadas | Estrada à noite',
+            '• Motivação Profunda: "A criança que você foi…" | "Ainda dá tempo" | "Você consegue sobreviver a isso" | "Sua dor tem propósito" | "Tudo muda quando você decide" | "Você não está atrasado" | "Seu esforço será recompensado" | "Respire e continue" | "Seu sonho merece espaço" | "Você ainda pode vencer"',
+            '• Ideias Extras POV: POV disciplina | POV sucesso | POV academia | POV solidão | POV rotina milionária | POV foco extremo | POV homem disciplinado | POV mentalidade forte | POV evolução silenciosa | POV comeback',
+            '• Estilo TikTok Viral: Texto grande + zoom lento | Música épica + frase curta | Narração IA lenta | Cortes rápidos | Tela escura + frase branca | Edit sigma | Glow cinematográfico | Efeito VHS | Slow motion emocional | Final impactante'
+          ] },
+          { type: 'steps', title: '🎙️ 20 Scripts Virais Prontos para Copiar (1 a 10)', items: [
+            'Script 1: “Ninguém vai aparecer para mudar sua vida. O dia que você entender isso… tudo muda.”',
+            'Script 2: “Enquanto você reclama da vida… alguém está trabalhando silenciosamente.”',
+            'Script 3: “Daqui a um ano… você vai agradecer por não ter desistido hoje.”',
+            'Script 4: “A disciplina vai te levar para lugares que a motivação nunca conseguiu.”',
+            'Script 5: “Você quer mudar de vida? Então pare de fugir do desconforto.”',
+            'Script 6: “Seu maior inimigo é a versão de você que continua desistindo.”',
+            'Script 7: “A dor passa. O orgulho de vencer fica.”',
+            'Script 8: “Construa em silêncio. E surpreenda todos.”',
+            'Script 9: “Você não está cansado. Está distraído.”',
+            'Script 10: “Tudo muda quando você decide não voltar atrás.”'
+          ] },
+          { type: 'steps', title: '🎙️ 20 Scripts Virais Prontos para Copiar (11 a 20)', items: [
+            'Script 11: “Se fosse fácil… todos venceriam.”',
+            'Script 12: “A mente desiste antes do corpo.”',
+            'Script 13: “Seu futuro depende das decisões que você toma hoje.”',
+            'Script 14: “O sucesso exige algo raro: consistência.”',
+            'Script 15: “Faça mesmo sem vontade.”',
+            'Script 16: “Seu sonho merece esforço.”',
+            'Script 17: “A pressão cria pessoas imparáveis.”',
+            'Script 18: “Continue em silêncio.”',
+            'Script 19: “Você sobreviveu a todos os seus piores dias.”',
+            'Script 20: “Pare de esperar o momento perfeito.”'
+          ] },
+          { type: 'tips', title: '💸 Plano de Monetização Estratégico', items: [
+            '• Programa Criativo TikTok Beta: Ganhe por visualizações de vídeos de +1 minuto qualificados.',
+            '• Venda de Infoprodutos / E-books: Crie e-books sobre "Segredos da Disciplina" ou "Mentalidade Inabalável" e venda via link na bio.',
+            '• Afiliado de Produtos Físicos: Indique produtos para foco, livros de desenvolvimento pessoal (ex: Amazon) ou suplementos de treino.',
+            '• Parcerias e Publis: Conforme cresce, marcas de roupas esportivas, aplicativos de produtividade e suplementos se interessarão.'
+          ] },
+          'Aplicativos ideais para edição: capcut.com, canva.com, tiktok.com e elevenlabs.io para locuções perfeitas do estilo Sigma/Dark/Cinematográfico.'
+        ]
+      },
+      {
+        id: 'tiktok_ai_prompts_structure',
+        title: '🔮 Prompts de IA & Estrutura Viral',
+        content: [
+          'Gere clipes cinematográficos de tirar o fôlego usando Inteligência Artificial de última geração. Otimize sua retenção e engajamento seguindo as diretrizes exatas de retenção:',
+          { type: 'info', title: '🛠️ Ferramentas Recomendadas', items: [
+            '• runwayml.com (Geração de vídeo realista a partir de texto/imagem)',
+            '• pika.art (Animações fluidas e efeitos direcionais completos)',
+            '• lumalabs.io (Cenas em 3D e renderizações hiper-realistas para Reels/Shorts)',
+            '• kaiber.ai (Estilização artística e transformações estilísticas pesadas)'
+          ] },
+          { type: 'list', title: '🎬 Primorosos Prompts de Vídeo & Roteiros de Áudio', items: [
+            '• Prompt 1 — Sigma na Cidade:\n"Cinematic lonely man walking through a dark neon city at night, rain falling, dramatic lighting, slow motion, emotional atmosphere, realistic, moody shadows, cinematic camera movement, TikTok motivation style, ultra detailed"\n→ Narração: "O topo é solitário."',
+            '• Prompt 2 — Academia Pesada:\n"Intense gym training cinematic scene, muscular athlete training alone, sweat, dark gym lighting, dramatic shadows, slow motion workout, gritty atmosphere, motivational cinematic style"\n→ Narração: "A dor constrói pessoas fortes."',
+            '• Prompt 3 — Trabalho Silencioso:\n"Young entrepreneur working alone at night, laptop glow, rainy window, dark cinematic room, emotional atmosphere, realistic lighting, productivity aesthetic, cinematic focus"\n→ Narração: "Construa em silêncio."',
+            '• Prompt 4 — Corrida na Chuva:\n"Athlete running in heavy rain at night, dramatic cinematic lighting, slow motion water splashes, emotional determination, dark atmosphere, ultra realistic, inspirational sports film look"\n→ Narração: "Continue mesmo cansado."',
+            '• Prompt 5 — Emocional Profundo:\n"Sad emotional young man sitting alone in dark room, rain outside window, cinematic shadows, deep emotional atmosphere, realistic film look, slow camera movement, motivational aesthetic"\n→ Narração: "Você sobreviveu até aqui."',
+            '• Prompt 6 — Luxo Sigma:\n"Luxury cinematic lifestyle, black suit, night drive in sports car, neon reflections, dark luxury atmosphere, confident sigma male energy, ultra realistic cinematic look"\n→ Narração: "Sem emoção. Só resultados."'
+          ] },
+          { type: 'steps', title: '⏳ Estrutura Perfeita para Vídeos Curtos (Reels & Shorts)', items: [
+            '0–2 segundos | 🪝 Gancho:\n“Escuta isso.” (Capte a atenção imediatamente com texto grande e impacto visual)',
+            '3–10 segundos | ⚡ Dor:\n“Você está preso ao conforto.” (Conecte-se com o sentimento de estagnação do espectador)',
+            '11–20 segundos | 🔄 Virada:\n“Mas ainda dá tempo.” (Injete esperança com uma mudança de tom ou música)',
+            'Final | 💥 Impacto & Chamada:\n“Comece hoje.” (Encerre com uma frase forte que incentive a ação imediata)'
+          ] },
+          { type: 'tips', title: '📈 Dicas Áureas para Viralizar em Reels e Shorts', items: [
+            '• Mantenha os vídeos estritamente entre 15 e 30 segundos de duração.',
+            '• Utilize legenda com texto grande, destacado e centralizado na tela.',
+            '• Aplique música altamente emocional ou épica com volume de fundo bem ajustado.',
+            '• Use locuções com voz de IA lenta e expressiva em ferramentas como elevenlabs.io, capcut.com ou tiktok.com.',
+            '• Realize cortes rápidos (a cada 1 ou 2 segundos) para prender a atenção.',
+            '• Mantenha o estilo visual Dark Cinematic ou Emocional em 100% das postagens.',
+            '• Poste fielmente todos os dias seguindo a frequência recomendada.'
+          ] }
+        ]
       }
     ]
   },
@@ -1717,6 +2385,680 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Mês 1: Aprender o que viraliza e testar todos os ganchos possíveis.',
             'Mês 2: Encontrar seu formato vencedor e manter consistência diária.',
             'Mês 3: Crescimento real de seguidores e ativação de monetização estruturada.'
+          ] }
+        ]
+      },
+      {
+        id: 'meta_viral_motivation_guide',
+        title: '🎬 Criar Vídeos Motivacionais Virais',
+        content: [
+          'Criar vídeos motivacionais para o Instagram e Facebook (Reels) funciona melhor quando você combina mensagem emocional + ritmo rápido + visual forte. Aqui está um método simples que costuma funcionar muito bem:',
+          { type: 'steps', title: '💥 Estrutura que Prende a Atenção', items: [
+            '1. Gancho nos primeiros 2 segundos: A primeira frase decide se a pessoa continua assistindo no Reels ou passa. Exemplos: "Ninguém vai salvar você.", "Daqui a 1 ano você vai agradecer por começar hoje.", "Pare de esperar motivação.", "Você está cansado porque desistiu de você mesmo."',
+            '2. Use vídeos visuais fortes: Você pode usar imagens ou vídeos de pessoas treinando, cidade à noite, chuva, trabalho duro, natureza, close no rosto pensando, corrida, academia ou estudo. Você pode gravar com seu celular ou usar bancos de vídeos gratuitos (Ex: pexels.com, pixabay.com).',
+            '3. Narração emocional: A voz é muito importante. Você pode gravar sua própria voz ou usar inteligência artificial de voz sintética de apps populares como capcut.com, elevenlabs.io ou canva.com.'
+          ] },
+          { type: 'list', title: '🎵 Trilha Sonora e Legendas', items: [
+            '• Escolha da Música Certa: Use músicas cinemáticas, piano emocional, trap motivacional ou música épica lenta. O ideal é manter o volume da música baixo, com a voz clara acima da música.',
+            '• Texto Grande na Tela: Legendas e textos em destaque aumentam muito a retenção de público no Reels. Exemplo: "O sucesso começa quando as desculpas acabam."'
+          ] },
+          { type: 'info', title: '⏱ Estilo Visual e Roteiro de Retenção', items: [
+            '• Duração Ideal: De 15 a 45 segundos costuma performar melhor para o público de vídeos motivacionais.',
+            '• Cortes Ágeis: Faça cortes rápidos a cada 1 a 3 segundos para reter atenção ocular.',
+            '• Fórmula Simples de Roteiro: Estruture como Gancho ➔ Dor ➔ Virada ➔ Chamada.',
+            '• Exemplo de Roteiro: "Você acha que está sem motivação... mas a verdade é que você ficou confortável. Enquanto você reclama, alguém está trabalhando silenciosamente. Comece hoje."'
+          ] },
+          { type: 'tips', title: '🚀 Dicas Práticas de Crescimento Rápido', items: [
+            'Apps Mais Usados: capcut.com (edição rápida), canva.com (templates prontos) e vlognow.me (edição avançada grátis).',
+            'Temas em Alta na Meta: Academia / disciplina, Dinheiro / sucesso e Estudos / foco.',
+            'Estratégia de Consistência: Poste de 2 a 4 Reels por dia, use frases curtas e altamente emocionais, crie séries seriadas ("Parte 1", "Mentalidade Forte", etc.), reposte e teste variações diferentes de um mesmo conteúdo e monitore as estatísticas de retenção no Meta Business Suite.'
+          ] },
+          { type: 'steps', title: '💡 Ideia Prática para Iniciar Hoje', items: [
+            'Tema: "Pare de esperar o momento perfeito..."',
+            'Visual: Uma pessoa caminhando sozinha em uma cidade escura ou luzes de chuva no vidro.',
+            'Música: Piano de ritmo lento e cinemático.',
+            'Narração proposta: "O momento perfeito não existe. Existe apenas você... decidindo começar."'
+          ] },
+          'Se quiser, nosso Mentor IA também pode te ajudar de imediato a criar novos roteiros completos para o Reels, gerar frases motivacionais virais, montar um plano para crescer uma página, ou criar ideias de vídeos em estilo cinematográfico.'
+        ]
+      },
+      {
+        id: 'meta_motivation_viral_scripts',
+        title: '🔥 8 Roteiros Prontos de Alta Conversão',
+        content: [
+          'Use estes roteiros validados e de alta retenção diretamente em suas postagens para acelerar os cliques e otimizar sua entrega orgânica:',
+          { type: 'steps', title: '⚡ Roteiros Completos (1 a 4)', items: [
+            'Roteiro 1 — Disciplina\n• Cena: Pessoa treinando cedo / acordando / estudando.\n• Narração: "A maioria desiste cedo demais. Não porque é fraca... mas porque espera motivação todos os dias. Pessoas fortes não dependem de motivação. Dependem de disciplina. Faça mesmo sem vontade."\n• Texto na tela: "Disciplina > Motivação" | "Continue."',
+            'Roteiro 2 — Começar Agora\n• Cena: Cidade à noite + pessoa andando sozinha.\n• Narração: "Daqui a um ano... você vai desejar ter começado hoje. O tempo vai passar de qualquer forma. Então escolha crescer."\n• Texto na tela: "Comece hoje." | "Sem desculpas."',
+            'Roteiro 3 — Mentalidade Forte\n• Cena: Pessoa cansada trabalhando.\n• Narração: "Ninguém vê as noites difíceis. Ninguém vê o esforço silencioso. Mas um dia... os resultados vão falar por você."\n• Texto na tela: "Trabalhe em silêncio."',
+            'Roteiro 4 — Foco\n• Cena: Pessoa estudando no escuro.\n• Narração: "Enquanto você perde tempo se comparando... alguém está evoluindo em silêncio. Desligue o barulho. Foque em você."\n• Texto na tela: "Foco total."'
+          ] },
+          { type: 'steps', title: '⚡ Roteiros Completos (5 a 8)', items: [
+            'Roteiro 5 — Academia\n• Cena: Treino pesado / corrida.\n• Narração: "Seu corpo aguenta mais do que sua mente acredita. Toda vez que você quer desistir... é exatamente o momento em que precisa continuar."\n• Texto na tela: "Mais uma repetição."',
+            'Roteiro 6 — Dinheiro & Sucesso\n• Cena: Notebook / trabalho noturno / chuva.\n• Narração: "Todo mundo quer sucesso. Poucos aceitam o preço dele. Sacrifício. Solidão. Consistência. Você aceita?"\n• Texto na tela: "O preço do sucesso."',
+            'Roteiro 7 — Autoestima\n• Cena: Pessoa olhando no espelho.\n• Narração: "Pare de procurar validação. O mundo muda quando você começa a acreditar em si mesmo."\n• Texto na tela: "Confie em você."',
+            'Roteiro 8 — Nunca Desistir\n• Cena: Pessoa correndo na chuva.\n• Narração: "Talvez esteja demorando. Talvez esteja difícil. Mas desistir garante que nunca aconteça."\n• Texto na tela: "Continue."'
+          ] },
+          { type: 'info', title: '🎬 Estilo Visual Recomendado', items: [
+            '• Visual Cinemático Escuro',
+            '• Estética de Academia / Disciplina',
+            '• Imagens de Foco / Estudos / Produtividade Noturna'
+          ] },
+          { type: 'tips', title: '🛠 Ferramentas Essenciais para Montagem', items: [
+            'Edição ágil no capcut.com',
+            'Templates e artes prontas no canva.com',
+            'Busque as áudios em alta no Reels / Instagram'
+          ] },
+          'Se você desejar, nosso Mentor IA pode criar roteiros adicionais no estilo de influenciadores (como Andrew Tate), roteiros puramente emocionais, roteiros curtos de 15 segundos ou adaptações com expressões regionais.'
+        ]
+      },
+      {
+        id: 'meta_motivation_viral_phrases',
+        title: '💎 Biblioteca de Frases Motivacionais Virais',
+        content: [
+          'Esta biblioteca reúne as melhores frases de alta retenção visual e tradicional organizadas por categoria para uso em legendas, áudios e textos na tela (Meta/Reels):',
+          { type: 'list', title: '🚀 Frases Motivacionais de Impacto', items: [
+            '“Ninguém vai fazer por você.”',
+            '“O desconforto de hoje cria a vitória de amanhã.”',
+            '“Disciplina pesa gramas. Arrependimento pesa toneladas.”',
+            '“Ou você controla sua mente… ou ela controla você.”',
+            '“Resultados silenciosos assustam mais.”',
+            '“Você não está cansado. Está distraído.”',
+            '“Comece antes de estar pronto.”',
+            '“A dor passa. O orgulho fica.”',
+            '“Pare de esperar motivação.”',
+            '“Seu futuro depende do que você faz hoje.”',
+            '“Enquanto você dorme, alguém está ficando melhor.”',
+            '“Não conte seus planos. Mostre os resultados.”',
+            '“Quem quer dá um jeito. Quem não quer dá desculpas.”',
+            '“O sucesso gosta de consistência.”',
+            '“Você nasceu para mais.”',
+            '“Treine sua mente para vencer dias difíceis.”',
+            '“O medo desaparece quando a ação começa.”',
+            '“Se fosse fácil, todos conseguiriam.”',
+            '“Pequenos passos também mudam vidas.”',
+            '“A vida muda quando você muda.”',
+            '“A disciplina vai te levar onde a motivação não consegue.”',
+            '“Você pode descansar. Mas não desista.”',
+            '“Sem sacrifício, sem mudança.”',
+            '“Seu único concorrente é quem você era ontem.”',
+            '“Grandes resultados começam em silêncio.”'
+          ] },
+          { type: 'tips', title: '⏱ Frases Curtas (Excelente para Texto na Tela)', items: [
+            '“Continue.” | “Sem desculpas.” | “Mais foco.”',
+            '“Levante.” | “Acredite.” | “Faça acontecer.”',
+            '“Mentalidade forte.” | “Modo disciplina.” | “Não pare agora.”',
+            '“Silêncio e trabalho.”'
+          ] },
+          { type: 'steps', title: '🎬 Estilo Cinemático (Foco, Academia e Sucesso)', items: [
+            '• Academia / Disciplina: "A mente desiste antes do corpo." | "Dor temporária. Evolução permanente." | "A vitória começa quando ninguém está olhando."',
+            '• Dinheiro / Sucesso: "Rico é quem continua quando todos param." | "O sucesso exige silêncio antes do aplauso." | "Construa em silêncio."',
+            '• Estudos / Foco: "Seu esforço de hoje é sua liberdade amanhã." | "Estude enquanto outros desperdiçam tempo." | "Foque até dar certo."'
+          ] },
+          { type: 'info', title: '⚡ Ganchos Poderosos e Emocionais', items: [
+            '• Frases Fortes de Abertura: “Escuta isso antes de desistir.” | “Você precisava ouvir isso hoje.” | “Talvez esse seja seu sinal.” | “Pare de destruir seu próprio potencial.” | “Ninguém vai te salvar.” | “Acorda.”',
+            '• Conexão Emocional Profunda: “Você sobreviveu a todos os seus piores dias.” | “Não desista da pessoa que você quer se tornar.” | “Tudo muda quando você decide não voltar atrás.” | “Seu momento vai chegar.” | “Continue mesmo em silêncio.”'
+          ] },
+          { type: 'list', title: '🇧🇷 100 Frases Virais em Português', items: [
+            'Ninguém vai salvar você.',
+            'Comece cansado mesmo.',
+            'Disciplina vence talento.',
+            'Seu futuro começa hoje.',
+            'Sem esforço, sem mudança.',
+            'Continue em silêncio.',
+            'O foco muda tudo.',
+            'Pare de se sabotar.',
+            'Faça mesmo sem vontade.',
+            'Você aguenta mais.',
+            'Não desista agora.',
+            'A dor passa.',
+            'Evolua em silêncio.',
+            'Sem desculpas.',
+            'Seu tempo vai chegar.',
+            'Trabalhe enquanto dormem.',
+            'Seu potencial assusta.',
+            'Pare de esperar motivação.',
+            'O medo desaparece na ação.',
+            'Faça acontecer.',
+            'O impossível demora mais.',
+            'Seja imparável.',
+            'Resultados exigem sacrifício.',
+            'Você nasceu para vencer.',
+            'Ninguém vê o esforço invisível.',
+            'Continue mesmo sozinho.',
+            'Tudo muda quando você muda.',
+            'A mente desiste primeiro.',
+            'Mais disciplina.',
+            'Menos distração.',
+            'O sucesso ama consistência.',
+            'Continue tentando.',
+            'A batalha é mental.',
+            'Um dia ou dia um.',
+            'O processo dói.',
+            'Mas vale a pena.',
+            'Construa sua melhor versão.',
+            'Sua vida depende das suas decisões.',
+            'Ação vence ansiedade.',
+            'Levante novamente.',
+            'Você não chegou até aqui para parar.',
+            'Foco total.',
+            'Sacrifício hoje. Vitória amanhã.',
+            'Treine sua mente.',
+            'Cresça em silêncio.',
+            'Sem risco, sem vitória.',
+            'O mundo respeita resultados.',
+            'Seja diferente.',
+            'Dias difíceis criam pessoas fortes.',
+            'Você ainda tem tempo.',
+            'Faça por você.',
+            'Transforme dor em força.',
+            'Sua hora vai chegar.',
+            'O topo exige esforço.',
+            'Você consegue.',
+            'Faça mais. Reclame menos.',
+            'Continue avançando.',
+            'O sucesso é repetição.',
+            'Pare de fugir do desconforto.',
+            'O crescimento começa na dor.',
+            'Não volte atrás.',
+            'Trabalhe duro em silêncio.',
+            'O impossível é treinável.',
+            'Acredite mais em você.',
+            'A mudança começa agora.',
+            'Você não está atrasado.',
+            'Construa hábitos fortes.',
+            'Seja obcecado pelo progresso.',
+            'Nada muda sem atitude.',
+            'O medo mente.',
+            'Continue respirando.',
+            'O esforço compensa.',
+            'Você é sua prioridade.',
+            'Fique focado.',
+            'Tudo depende de você.',
+            'Seu sonho merece esforço.',
+            'Seja constante.',
+            'Continue lutando.',
+            'O fracasso ensina.',
+            'Sua mente cria limites.',
+            'Vá além.',
+            'Um passo de cada vez.',
+            'O trabalho duro aparece.',
+            'Sua história ainda não terminou.',
+            'Continue mesmo sem aplausos.',
+            'O sucesso é silencioso.',
+            'Seja forte nos dias difíceis.',
+            'Você pode recomeçar.',
+            'Não desperdice seu potencial.',
+            'Sua evolução incomoda.',
+            'O impossível assusta preguiosos.',
+            'Nunca foi sorte.',
+            'Foi disciplina.',
+            'Você é mais forte do que pensa.',
+            'O esforço constrói gigantes.',
+            'Continue firme.',
+            'Seu futuro está observando.',
+            'Faça valer a pena.',
+            'A vitória exige coragem.',
+            'Comece agora.'
+          ] },
+          { type: 'list', title: '🇺🇸 100 Viral Quotes in English', items: [
+            'Nobody is coming to save you.',
+            'Start anyway.',
+            'Discipline beats motivation.',
+            'Stay focused.',
+            'Keep going.',
+            'Silence builds power.',
+            'Hard work changes lives.',
+            'Make yourself proud.',
+            'Pain creates strength.',
+            'Never quit early.',
+            'Work in silence.',
+            'Your future needs you.',
+            'Stay hungry.',
+            'You can do more.',
+            'Focus on growth.',
+            'One day or day one.',
+            'Success loves consistency.',
+            'Keep fighting.',
+            'The grind never lies.',
+            'Stay disciplined.',
+            'Stop doubting yourself.',
+            'Be unstoppable.',
+            'Comfort destroys dreams.',
+            'Your mindset matters.',
+            'Results take sacrifice.',
+            'Build your future now.',
+            'Fear disappears with action.',
+            'Become dangerous.',
+            'Stay patient.',
+            'You are capable.',
+            'Progress over excuses.',
+            'Winners stay consistent.',
+            'Discipline changes everything.',
+            'Greatness takes time.',
+            'Push through pain.',
+            'Stay locked in.',
+            'Become your best version.',
+            'Hard times create strong people.',
+            'Make it happen.',
+            'Stay mentally strong.',
+            'Keep your promises to yourself.',
+            'Train your mind.',
+            'Dreams require effort.',
+            'Keep showing up.',
+            'Focus beats talent.',
+            'Stay relentless.',
+            'Success is earned daily.',
+            'Keep moving forward.',
+            'The struggle is temporary.',
+            'Your limits are mental.',
+            'Sacrifice now. Celebrate later.',
+            'Stay obsessed.',
+            'Nobody believed. Keep going.',
+            'Build silently.',
+            'Success takes patience.',
+            'Keep proving yourself right.',
+            'Pressure creates diamonds.',
+            'Keep climbing.',
+            'Consistency wins.',
+            'Rise again.',
+            'Trust the process.',
+            'Stay dangerous.',
+            'Work harder quietly.',
+            'Every day matters.',
+            'You were built for this.',
+            'Pain is temporary.',
+            'Growth feels uncomfortable.',
+            'Stay focused on your mission.',
+            'Your future is watching.',
+            'Keep your head high.',
+            'Stay strong.',
+            'Keep improving daily.',
+            'Become unstoppable.',
+            'Discipline creates freedom.',
+            'Stop waiting.',
+            'Start building.',
+            'Success takes courage.',
+            'Stay committed.',
+            'Chase your vision.',
+            'Never settle.',
+            'Strong minds win battles.',
+            'Keep your standards high.',
+            'Turn pain into power.',
+            'Great things take time.',
+            'You are stronger than fear.',
+            'Keep evolving.',
+            'Dreams demand discipline.',
+            'Work until they notice.',
+            'Focus on yourself.',
+            'Stay hungry for success.',
+            'Stay calm and grind.',
+            'Your effort will show.',
+            'Stay away from excuses.',
+            'Build your empire.',
+            'Keep your fire alive.',
+            'The comeback is personal.',
+            'Stay true to your goals.',
+            'Rise above excuses.',
+            'You still have time.',
+            'Become legendary.'
+          ] },
+          'Com a ajuda do nosso Mentor IA, você também pode exportar listas maiores com 100+ frases personalizadas, gerar frases impactantes puramente em inglês, criar linhas no estilo agressivo sigma, ou formatar a estrutura de voz neural sintética para o seu Reels.'
+        ]
+      },
+      {
+        id: 'meta_motivation_growth_plan',
+        title: '📈 Plano de Crescimento de Página Motivacional',
+        content: [
+          'Este é o plano prático passo a passo para você criar, estruturar e decolar uma página de vídeos motivacionais no Instagram Reels e Facebook Reels, focado em visualizações, seguidores, alta retenção e monetização imediata.',
+          { type: 'steps', title: '🎯 Escolha de Estilo Coeso', items: [
+            '1. Identidade e Nicho Coerente: Reels de sucesso têm foco claro. Escolha um dos sub-nichos virais: Disciplina, Academia, Dinheiro / sucesso, Mentalidade forte, Estudos / foco, Estilo Sigma ou Motivação emocional.',
+            '2. Foco Intenso no Início: Poste muito nos primeiros 30 dias. A meta recomendada é de 3 a 5 vídeos por dia, pois os Reels realizam múltiplos testes de distribuição orgânica antes de explodir para milhares de visualizações.',
+            '3. Duração Ideal Segura: Mantenha os seus vídeos na faixa de 15 a 35 segundos. Isso maximiza os replays automáticos, salvamentos rápidos e compartilhamentos via Direct.'
+          ] },
+          { type: 'info', title: '⚡ Fórmula Simples de Estrutura dos Vídeos', items: [
+            '• Gancho Inicial (0-2 seg): "Ninguém vai salvar você.", "Escuta isso...", "Pare de esperar motivação..." (Define se continuam assistindo).',
+            '• Desenvolvimento (3-15 seg): Entrega da mensagem emocional com cortes e batida coerente.',
+            '• Fechamento de Impacto (Final): "Comece hoje.", "Continue.", "Sem desculpas." (Excelente para gerar envio para amigos e compartilhamento nos stories).'
+          ] },
+          { type: 'list', title: '🎥 Estética Visual e Edição Avançada', items: [
+            '• Estilo Cinemático Escuro: Use vídeos cinemáticos em câmera lenta, cenas urbanas noturnas, chuva, closes pensativos, corrida e treinos intensos.',
+            '• Ferramentas Recomendadas: Use o CapCut (capcut.com) para edição, Canva (canva.com) para capas e templates, ElevenLabs (elevenlabs.io) para vozes sintéticas ultra-realistas que prendem a atenção no feed, e as músicas em alta do Instagram.'
+          ] },
+          { type: 'tips', title: '🚀 Estratégias do Crescimento Acelerado', items: [
+            '• Crie Séries Seriadas: Crie séries como "Mentalidade Forte #1", "Disciplina #7", "Vídeos para dias difíceis". Séries de Reels convertem visualizações casuais em novos seguidores dedicados.',
+            '• Reaproveitamento Inteligente: Não delete Reels com baixo desempenho! Altere a música, mude o gancho inicial ou ajuste a legenda e reposte. Muitas vezes a segunda versão explode no algoritmo da Meta.',
+            '• Engajamento Multiplicador: Quando um espectador comentar algo como "precisava disso", responda criando um novo vídeo de resposta no Reels. A interação ativa gera mais visibilidade.'
+          ] },
+          { type: 'steps', title: '⏱ Horários e Metas Pragmáticas', items: [
+            '• Horários de Postagem: Teste as janelas das 06h-08h, 12h-14h e 19h-23h e depois tome decisões com base no Meta Business Suite.',
+            '• Expectativa Realista: 30 dias (Primeiras distribuições firmes) ➔ 60-90 dias (Engajamento e crescimento contínuo) ➔ 6 meses (Página consolidada e monetizável).',
+            '• Calendários Diários recomendados: Vídeo 1 (Motivação forte) | Vídeo 2 (Academia/Disciplina) | Vídeo 3 (Impacto Emocional) | Vídeo 4 (Sucesso/Dinheiro).'
+          ] },
+          'Qual o próximo passo? Com o nosso Mentor IA, você pode gerar calendários editoriais de 30 dias completos, ideias de nomes exclusivos e bios de alta conversão, listas de 100 ideias de vídeos ou roteiros sob demanda para copiar e postar no Reels!'
+        ]
+      },
+      {
+        id: 'meta_cinematic_ideas',
+        title: '🎬 Ideias de Vídeos Cinematográficos para Vídeos Motivacionais',
+        content: [
+          'Vídeos cinematográficos e atmosféricos geram uma retenção extraordinária ao evocar emoções e sentimentos de superação profunda. Use este catálogo de 10 ideias com roteiro e direção de arte:',
+          { type: 'steps', title: '🌌 Ideias de Produção Cinemática (1 a 5)', items: [
+            '1. "Acorde antes do mundo"\n• Cena: Alarme tocando às 4h/5h, pessoa levantando cansada, e a rua completamente vazia ao amanhecer.\n• Narração: "Enquanto todos dormem... alguém está construindo o próprio futuro."\n• Música: Piano lento combinado com uma batida épica crescente.',
+            '2. "Silêncio"\n• Cena: Pessoa treinando sozinha, sem mostrar o rosto, sob chuva leve ou em um ambiente escuro.\n• Narração: "Fale menos. Trabalhe mais. Deixe os resultados fazerem barulho."\n• Texto na tela: "Silêncio e excelência."',
+            '3. "Daqui a um ano"\n• Cena: Pessoa contemplando o horizonte ou a cidade à noite, notebook ligado, e foco no trabalho solitário.\n• Narração: "Daqui a um ano... você pode estar orgulhoso. Ou arrependido."\n• Texto na tela: "Escolha crescer hoje."',
+            '4. "Dor"\n• Cena: Corrida sob chuva, close com foco fechado e curto no rosto cansado, respiração pesada.\n• Narração: "A dor que você evita hoje... vira arrependimento amanhã."\n• Texto na tela: "Dor temporária. Evolução permanente."',
+            '5. "Ninguém vai salvar você"\n• Cena: Pessoa caminhando solitária por uma cidade escura com as luzes do fundo desfocadas (efeito bokeh).\n• Narração: "Ninguém vai aparecer para mudar sua vida. Tudo começa quando você decide."'
+          ] },
+          { type: 'steps', title: '🌌 Ideias de Produção Cinemática (6 a 10)', items: [
+            '6. "Mentalidade forte"\n• Cena: Uma academia ou sala de estudos vazia, com os pesos caindo no chão ou mãos machucadas do esforço.\n• Narração: "Corpos fortes são construídos por mentes fortes."\n• Texto na tela: "A mente manda, o corpo obecece."',
+            '7. "Última tentativa"\n• Cena: Pessoa visivelmente frustrada diante de uma falha, mas levantando-se e recomeçando devagar enquanto a música ganha volume.\n• Narração: "Talvez a próxima tentativa... mude tudo."\n• Texto na tela: "Levante-se de novo."',
+            '8. "Modo foco"\n• Cena: Estudo ou trabalho noturno, xícara de café quente soltando fumaça, luz baixa de luminária e chuva batendo na janela.\n• Narração: "Desapareça por um tempo. Evolua em silêncio."\n• Texto na tela: "Foco inabalável."',
+            '9. "Sem desculpas"\n• Cena: Pessoa correndo ou treinando exausta, com relógio marcando hora tardia na noite ou madrugada.\n• Narração: "Cansado? Faça mesmo assim."\n• Texto na tela: "Custo zero para desculpas."',
+            '10. "Seu futuro está olhando"\n• Cena: Edição emocional fazendo transição de cenas de infância para o adulto trabalhando duro nelas no presente.\n• Narração: "Seu eu do futuro está observando as suas decisões de hoje."'
+          ] },
+          { type: 'info', title: '✨ Fórmula Visual de Alta Retenção', items: [
+            '• Use câmera lenta (slow motion 60/120 fps)',
+            '• Adicione filtros e efeitos de chuva ou fumaça sutil',
+            '• Explore luzes neon, tons dourados ou azuis escuros em cenas noturnas',
+            '• Aplique zooms lentos ou dolly shots e cortes rápidos sincronizados com as batidas graves da música'
+          ] },
+          { type: 'tips', title: '🛠 Ferramentas de Produção e Edição', items: [
+            'Edição refinada e efeitos: capcut.com',
+            'Artes, tipografia e capas em destaque: canva.com',
+            'Vídeos gratuitos e em alta qualidade (banco de dados cinemático): pexels.com',
+            'Estatísticas e áudios virais: No próprio app do Instagram ou Meta Business Suite'
+          ] },
+          'Se você quiser, nosso Mentor IA também pode te ajudar fornecendo prompts detalhados para ferramentas de geração de vídeo por IA, montar roteiros e ideias no estilo clássico Sigma, ou estruturar um calendário editorial cinematográfico de 30 dias para o Reels.'
+        ]
+      },
+      {
+        id: 'meta_emotional_scripts',
+        title: '❤️ 8 Roteiros Emocionais de Alto Impacto',
+        content: [
+          'Vídeos com forte apelo emocional geram sentimentos de empatia imediata e estimulam o público a interagir nos comentários sutilmente. Use estes 8 roteiros validados:',
+          { type: 'steps', title: '💔 Roteiros Emocionais de Resiliência (1 a 4)', items: [
+            'Roteiro 1 — "Você cansou"\n• Cena: Pessoa sentada sozinha olhando para baixo.\n• Narração: "Eu sei… você está cansado. Cansado de tentar. Cansado de esperar. Mas escuta isso… desistir agora destruiria tudo que você já suportou até aqui."\n• Texto na tela: "Continue." | "Só mais um dia."',
+            'Roteiro 2 — "Seu momento vai chegar"\n• Cena: Cidade à noite + pessoa caminhando sozinha.\n• Narração: "Talvez ninguém esteja vendo seu esforço agora. Talvez ninguém entenda sua luta. Mas continue. Seu momento vai chegar."\n• Texto na tela: "Confie no processo."',
+            'Roteiro 3 — "A criança que você foi"\n• Cena: Fotos antigas / olhar no espelho.\n• Narração: "A criança que você foi um dia… acreditava que você faria coisas incríveis. Não decepcione essa versão de você."\n• Texto na tela: "Lembre quem você queria ser."',
+            'Roteiro 4 — "Dias difíceis"\n• Cena: Chuva na janela + pessoa pensativa.\n• Narração: "Dias difíceis não vieram para destruir você. Vieram para revelar sua força."\n• Texto na tela: "Você vai sobreviver."'
+          ] },
+          { type: 'steps', title: '💔 Roteiros Emocionais de Resiliência (5 a 8)', items: [
+            'Roteiro 5 — "Ninguém sabe"\n• Cena: Pessoa sorrindo em público e triste sozinha.\n• Narração: "Ninguém sabe quantas batalhas você cobra em silêncio. E mesmo assim… você continua aqui."\n• Texto na tela: "Orgulhe-se disso."',
+            'Roteiro 6 — "Não desista"\n• Cena: Pessoa cansada levantando novamente.\n• Narração: "Talvez você esteja mais perto do que imagina. Não desista agora."\n• Texto na tela: "Última tentativa."',
+            'Roteiro 7 — "Você sobreviveu"\n• Cena: Cenas lentas + olhar distante.\n• Narração: "Você sobreviveu a todos os seus piores dias até hoje. Então respire… porque você consegue sobreviver a esse também."\n• Texto na tela: "Continue respirando."',
+            'Roteiro 8 — "Seu valor"\n• Cena: Pessoa olhando cidade do alto.\n• Narração: "Pare de medir seu valor pelas opiniões dos outros. Você é mais forte do que pensa."\n• Texto na tela: "Acredite em você."'
+          ] },
+          { type: 'info', title: '🎵 Trilha Sonora e Áudio Ideal', items: [
+            '• Piano emocional e melancólico',
+            '• Solo de violino lento',
+            '• Batida cinematográfica leve com sons de chuva ou ambiente no fundo'
+          ] },
+          { type: 'tips', title: '🛠 Aplicativos Recomendados para Edição', items: [
+            'Edição refinada para cortes lentos e transições: capcut.com',
+            'Legendas e formatações de layout estético: canva.com',
+            'Músicas e tendências para ritmos ágeis: No próprio aplicativo do Instagram / Reels'
+          ] },
+          'Se você quiser, nosso Mentor IA também pode te ajudar de imediato a criar roteiros adicionais no estilo de influenciadores (como Andrew Tate), roteiros puramente emocionais, roteiros curtos de 15 segundos ou adaptações com expressões regionais.'
+        ]
+      },
+      {
+        id: 'meta_viral_retention_scripts',
+        title: '🔥 8 Roteiros Virais de Alta Retenção',
+        content: [
+          'Para impulsionar o engajamento rápido, a retenção nos primeiros segundos e os compartilhamentos em massa, use estes 8 roteiros ultra-virais de alto impacto:',
+          { type: 'steps', title: '⚡ Roteiros Virais de Impacto Direto (1 a 4)', items: [
+            'Roteiro viral 1 — "Acorda"\n• Cena: Pessoa parada se olhando fixamente no espelho.\n• Narração: "Acorda. Ninguém vai mudar sua vida por você. Ou você começa agora… ou vai continuar assistindo outros vencerem."\n• Texto na tela: "A decisão é sua."',
+            'Roteiro viral 2 — "Daqui a 5 anos"\n• Cena: Imagens de cidades à noite combinadas com cenas de trabalho/estudo solitário.\n• Narração: "Daqui a 5 anos… você vai se encontrar em um de dois lugares: arrependido… ou orgulhoso."\n• Texto na tela: "Escolha hoje."',
+            'Roteiro viral 3 — "Enquanto você reclama"\n• Cena: Pessoa treinando pesado ou focando nos estudos com determinação.\n• Narração: "Enquanto você reclama da vida… alguém está trabalhando silenciosamente para vencer."\n• Texto na tela: "Sem desculpas."',
+            'Roteiro viral 4 — "Seu maior inimigo"\n• Cena: Close expressivo no rosto sob chuva leve ou com filtros dramáticos.\n• Narração: "Seu maior inimigo não é falta de dinheiro. Não é falta de oportunidade. É a versão de você que continua desistindo."\n• Texto na tela: "Vença sua mente."'
+          ] },
+          { type: 'steps', title: '⚡ Roteiros Virais de Impacto Direto (5 a 8)', items: [
+            'Roteiro viral 5 — "Silêncio"\n• Cena: Treino solitário ou estudos madrugada adentro com iluminação reduzida.\n• Narração: "Desapareça por alguns meses. Trabalhe em silêncio. E surpreenda todos."\n• Texto na tela: "Modo foco."',
+            'Roteiro viral 6 — "Dor"\n• Cena: Imagens de corrida intensa sob chuva ou caminhada sob iluminação urbana noturna.\n• Narração: "A dor de treinar dura horas. A dor do arrependimento dura anos."\n• Texto na tela: "Continue."',
+            'Roteiro viral 7 — "Ninguém acreditava"\n• Cena: Imagens de altíssima qualidade de alguém trabalhando arduamente sozinho.\n• Narração: "Ninguém acreditava nele. E talvez seja exatamente isso que vai torná-lo imparável."\n• Texto na tela: "Use isso como combustível."',
+            'Roteiro viral 8 — "Último aviso"\n• Cena: Edição frenética, música intensa e cortes rápidos sincronizados.\n• Narração: "Esse pode ser o vídeo que muda sua mentalidade. Mas só se você decidir agir."\n• Texto na tela: "Comece hoje."'
+          ] },
+          { type: 'info', title: '⏱ Fórmula e Estrutura Perfeita de Retenção', items: [
+            '• Gancho imediato (0 a 2s [Choque]): Use palavras provocativas ou chocantes como "Acorda." ou "Escuta isso." para evitar que pulem.',
+            '• Destaque da Dor (3 a 10s [Foco]): Comente o erro ou frustração que o espectador vive, ex: "Você está desperdiçando seu potencial."',
+            '• A Virada (11 a 20s [Motivo]): Apresente a saída motivadora: "Mas ainda dá tempo."',
+            '• Chamada para Ação (Final [CTA]): Direcione com firmeza, ex: "Comece hoje." ou "Siga para não desistir."'
+          ] },
+          { type: 'list', title: '🎨 Edição Visual que Mais Viraliza', items: [
+            '• Elementos gráficos: Use zoom lento contínuo, câmera tremendo suavemente (shake effect) em batidas e brilho levemente rebaixado.',
+            '• Detalhes imersivos: Adicione sons de chuva, tipografias grandes centralizadas, letras em destaque (amarelo/branco) e câmera lenta em momentos-chave.'
+          ] },
+          { type: 'tips', title: '🛠 Plataformas e Aplicativos Cruciais', items: [
+            'Análise de tendências e música: No Reels ou Meta Business Suite',
+            'Criação de legendas dinâmicas e efeitos rápidos: capcut.com',
+            'Templates, capas estéticas e design tipográfico: canva.com'
+          ] },
+          'Com a ajuda do nosso Mentor IA, você pode gerar mais 100 variações dessa fórmula com foco 100% no seu nicho, ou programar seu calendário de postagens direto para maximizar replays!'
+        ]
+      },
+      {
+        id: 'meta_sigma_guidelines',
+        title: '🐺 Guia Sigma & Roteiros de Voz IA',
+        content: [
+          'O estilo de conteúdo Sigma é focado em alta disciplina, foco agressivo e silêncio produtivo. Use esta compilação validada de frases e roteiros prontos para bombar suas visualizações:',
+          { type: 'steps', title: '🤐 Frases Agressivas Estilo Sigma', items: [
+            '“Fique em silêncio. O sucesso faz barulho suficiente.”',
+            '“Enquanto eles falam… eu evoluo.”',
+            '“Sem emoção. Sem desculpas. Só resultados.”',
+            '“A disciplina destrói qualquer limite.”',
+            '“Você quer conforto ou respeito?”',
+            '“Pessoas fracas procuram atalhos.”',
+            '“Ninguém respeita preguiça.”',
+            '“Construa em silêncio.”',
+            '“A dor é obrigatória. A fraqueza é opcional.”',
+            '“O mundo pertence aos obcecados.”',
+            '“Mentalidade forte assusta pessoas fracas.”',
+            '“Você não precisa de aprovação.”',
+            '“Pare de agir como vítima.”',
+            '“O topo é solitário.”',
+            '“Sem sacrifício, sem vitória.”',
+            '“A maioria desiste cedo demais.”',
+            '“Se fosse fácil, todos venceriam.”',
+            '“Transforme raiva em combustível.”',
+            '“A pressão cria monstros.”',
+            '“Seja perigoso em silêncio.”',
+            '“Disciplina acima de sentimentos.”',
+            '“Sua mente precisa ser mais forte que suas emoções.”',
+            '“O fracasso não assusta homens disciplinados.”',
+            '“Trabalhe até não precisar provar nada.”',
+            '“O sofrimento constrói homens fortes.”',
+            '“Foco absoluto.”',
+            '“A preguiça destrói sonhos.”',
+            '“Sem consistência, sem respeito.”',
+            '“Faça o impossível parecer rotina.”',
+            '“Resultados silenciosos assustam mais.”'
+          ] },
+          { type: 'info', title: '📲 Frases Sigma Curtas para Usar na Tela', items: [
+            '• “Modo guerra.”',
+            '• “Sem piedade.”',
+            '• “Mentalidade rara.”',
+            '• “Sem desculpas.”',
+            '• “Foco absoluto.”',
+            '• “Frio e disciplinado.”',
+            '• “Silêncio.”',
+            '• “Continue.”',
+            '• “Imparável.”',
+            '• “Sem fraqueza.”'
+          ] },
+          { type: 'steps', title: '🎙️ Roteiros para Voz IA - Lentas e Emocionais (1 a 5)', items: [
+            'Script 1 — "Escuta isso"\n• Narração: "Escuta isso… ninguém vai mudar sua vida por você. O dia em que você entender isso… tudo muda."',
+            'Script 2 — "Sem tempo para perder"\n• Narração: "Enquanto você perde tempo procurando motivação… alguém está trabalhando silenciosamente."',
+            'Script 3 — "Não precisa ser perfeito"\n• Narração: "Você não precisa ser perfeito. Só precisa continuar."',
+            'Script 4 — "Lugar da disciplina"\n• Narração: "A disciplina vai te levar para lugares que a motivação nunca conseguiu."',
+            'Script 5 — "Agradecimento futuro"\n• Narração: "Daqui a alguns anos… você vai agradecer por não ter desistido hoje."'
+          ] },
+          { type: 'steps', title: '🎙️ Roteiros para Voz IA - Agressivos (6 a 10)', items: [
+            'Script 6 — "Pare de ser vítima"\n• Narração: "Pare de agir como vítima. Seu futuro depende das decisões que você evita tomar."',
+            'Script 7 — "Preso ao conforto"\n• Narração: "Você diz que quer vencer… mas continua preso ao conforto."',
+            'Script 8 — "Potencial desperdiçado"\n• Narração: "Ninguém respeita potencial desperdiçado."',
+            'Script 9 — "Controle sua mente"\n• Narração: "Ou você controla sua mente… ou ela destrói sua vida."',
+            'Script 10 — "Continue quando pararem"\n• Narração: "Resultados vêm para quem continua quando todos os outros param."'
+          ] },
+          { type: 'list', title: '🏆 Estrutura Perfeita para Viralizar', items: [
+            '• 0–2s (Choque): Gancho forte com frase curta como "Escuta isso."',
+            '• 3–10s (Dor): Expõe a frustração de frente: "Você está destruindo seu potencial."',
+            '• 11–20s (Virada): Oferece a saída dinâmica: "Mas ainda dá tempo."',
+            '• Final (Impacto/CTA): Frase curta de alta retenção: "Comece hoje."'
+          ] },
+          { type: 'tips', title: '🎥 Dicas de Otimização Vocal e Visual', items: [
+            '• Estilo Visual: Use imagens com estética luxuosa + silêncio, treinos intensos em academia + disciplina, zoom lento, câmera tremendo levemente (shake effect), efeito chuva, brilho rebaixado, câmera lenta e letras grandes e centralizadas.',
+            '• Vozes IA: Utilize ferramentas de ponta como elevenlabs.io para locuções perfeitas, capcut.com para efeitos de ritmo e áudios virais do No Reels ou Meta Business Suite.',
+            '• Como viralizar a voz: Fale super devagar, faça pausas dramáticas intencionais, mantenha a música levemente mais baixa e adicione um breve silêncio após frases fortes.'
+          ] }
+        ]
+      },
+      {
+        id: 'meta_sigma_page_roadmap',
+        title: '📈 Perfil Motivacional & Calendário de 30 Dias',
+        content: [
+          'Domine as redes sociais com uma imagem cinematográfica unificada, títulos memoráveis e um cronograma estruturado de postagens para obter engajamento máximo:',
+          { type: 'info', title: '🐺 Nomes Estilo Sigma / Cinemático', items: [
+            '• Shadow Discipline',
+            '• Mentalidade Fria',
+            '• Modo Guerra',
+            '• Sigma Vision',
+            '• Disciplina Absoluta',
+            '• Silent Grind',
+            '• Mente Imparável',
+            '• Código Sigma',
+            '• Evolução Silenciosa',
+            '• Rise Alone',
+            '• Dark Mindset',
+            '• Mentalidade Milionária',
+            '• Foco Supremo',
+            '• Alpha Discipline',
+            '• Sem Desculpas'
+          ] },
+          { type: 'list', title: '🤐 Bios Curtas que Funcionam', items: [
+            '• Bio 1: Disciplina. Foco. Evolução.',
+            '• Bio 2: Vídeos para quem quer vencer.',
+            '• Bio 3: Mentalidade forte todos os dias.',
+            '• Bio 4: Construa em silêncio.',
+            '• Bio 5: Sem desculpas.',
+            '• Bio 6: Motivação cinematográfica.',
+            '• Bio 7: Evolua ou permaneça igual.'
+          ] },
+          { type: 'steps', title: '📅 Calendário de 30 Dias (Estratégia: 3 vídeos/dia — Manhã, Tarde, Noite)', items: [
+            'Semana 1 — Choque + Motivação\n• Dia 1: "Ninguém vai salvar você" | "Comece hoje" | "Sem desculpas"\n• Dia 2: Disciplina vs motivação | Vídeo academia | Frase sigma\n• Dia 3: "Acorda" | Trabalho silencioso | Mentalidade forte\n• Dia 4: Dor temporária | Estudo/foco | Frase emocional\n• Dia 5: "Seu futuro depende disso" | Chuva cinematográfica | Motivação agressiva\n• Dia 6: Evolução silenciosa | Academia dark | "Continue"\n• Dia 7: Compilado da semana | Melhor frase | Vídeo emocional',
+            'Semana 2 — Sigma + Disciplina\n• Dia 8: "O topo é solitário" | Luxo cinematográfico | Foco absoluto\n• Dia 9: "Pare de agir como vítima" | Academia intensa | Trabalho duro\n• Dia 10: "Construa em silêncio" | Cidade à noite | Motivação fria\n• Dia 11: "Disciplina cria liberdade" | Rotina 5AM | Frase dark\n• Dia 12: "Sua mente mente para você" | Corrida na chuva | Vídeo intenso\n• Dia 13: "A pressão cria monstros" | Sigma aesthetic | Dor e evolução\n• Dia 14: Recap viral | Melhor vídeo repostado | Comentários em vídeo',
+            'Semana 3 — Emocional + Profundo\n• Dia 15: "Você cansou" | Chuva + tristeza | Esperança\n• Dia 16: "Seu momento vai chegar" | Cidade escura | Motivação emocional\n• Dia 17: "Não desista agora" | Música lenta | Vídeo cinematográfico\n• Dia 18: "A criança que você foi" | Memórias | Reflexão\n• Dia 19: "Dias difíceis" | Janela com chuva | Superação\n• Dia 20: "Você sobreviveu" | Texto emocional | Narração lenta\n• Dia 21: Compilado emocional | Melhores comentários | Frase forte',
+            'Semana 4 — Viralização Máxima\n• Dia 22: "Escuta isso" | Vídeo rápido | Texto grande\n• Dia 23: "Daqui a 5 anos" | Luxo/sucesso | Trabalho silencioso\n• Dia 24: "Enquanto você reclama" | Academia | Música épiсa\n• Dia 25: "Seu maior inimigo" | Close dramático | Frase pesada\n• Dia 26: "Desapareça por 6 meses" | Evolução silenciosa | Sigma edit\n• Dia 27: "Faça acontecer" | Motivação agressiva | Cortes rápidos\n• Dia 28: Repost dos melhores vídeos | Novo áudio | Novo gancho\n• Dia 29: Compilado cinematográfico | Frases virais | Edição intensa\n• Dia 30: "Você mudou" | Antes/depois emocional | CTA para seguir página'
+          ] },
+          { type: 'tips', title: '💡 Dicas Finais & Diretrizes para Crescer Rápido', items: [
+            '• Estilo Visual de Sucesso: Adote uma paleta Sigma / Dark, ou academia cinematográfica. Mantenha as imagens refinadas e a tipografia centralizada.',
+            '• Poste TODOS os dias de forma consistente (3x ao dia).',
+            '• Use legendas grandes, de leitura rápida e visual atraente.',
+            '• Faça cortes rápidos (ritmo de 1 a 2 segundos).',
+            '• Use voz fictícia ou IA lenta com pausas dramáticas expressivas.',
+            '• Reposte edições que floparam mudando a primeira cena ou gancho.',
+            '• Responda a comentários dos seus espectadores em formato de vídeo para expandir o engajamento.',
+            '• Mantenha o mesmo estilo visual de corte e coloração em todos os posts.',
+            '• Aplicativos e sites essenciais: capcut.com, tiktok.com, canva.com e elevenlabs.io.'
+          ] },
+          'Quer impulsionar ainda mais e obter lucros reais? Nosso Mentor IA pode desenvolver um cronograma estratégico exclusivo, detalhando exatamente como você pode converter essa audiência de forma unificada em vendas de afiliados ou infoprodutos próprios!'
+        ]
+      },
+      {
+        id: 'meta_sigma_ideas_scripts',
+        title: '🎬 120 Ideias & 20 Roteiros Prontos',
+        content: [
+          'Aprimore seu canal com uma biblioteca massiva de conteúdo validado para viralizar no Instagram Reels e Facebook Reels. Aqui você encontrará ideias organizadas por categoria e roteiros prontos para copiar de imediato.',
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 1-4)', items: [
+            '• Disciplina: Acordando às 5AM | Treinando na chuva | Estudando enquanto todos dormem | "Sem desculpas" | Rotina silenciosa | "Ninguém vai salvar você" | Trabalho duro invisível | Evolução em silêncio | "Continue cansado mesmo" | Fracasso → sucesso',
+            '• Sigma / Dark: Caminhando sozinho à noite | Luxo cinematográfico | "O topo é solitário" | Carro à noite + narração | "Mentalidade fria" | Close dramático no rosto | "Seja perigoso em silêncio" | Cidade escura + música lenta | "O mundo pertence aos obcecados" | "Sem emoção. Só resultados."',
+            '• Academia: Última repetição | Treino pesado | Corpo cansado | Corrida intensa | "Dor temporária" | Antes e depois | Academia vazia | Mãos machucadas | "Seu corpo aguenta mais" | Treino 4AM',
+            '• Emocional: Pessoa sozinha pensando | Chuva na janela | "Você sobreviveu" | "Seu momento vai chegar" | Memórias antigas | "Não desista agora" | Superação silenciosa | "Dias difíceis" | Música triste + esperança | Olhando a cidade do alto'
+          ] },
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 5-8)', items: [
+            '• Dinheiro & Sucesso: Trabalhando sozinho | Notebook + café | "Construa seu império" | Rotina produtiva | "Enquanto eles dormem…" | Trabalho noturno | "Seu futuro depende disso" | "Sem risco, sem vitória" | Escritório escuro | "Foco total"',
+            '• Estudos: Estudando tarde | Biblioteca silenciosa | Chuva + foco | "Seu esforço vale a pena" | Time lapse estudando | "Foque até conseguir" | Café + notebook | Mesa organizada | "Disciplina cria liberdade" | Rotina produtiva',
+            '• Frases Rápidas: "Continue." | "Acorda." | "Levante." | "Sem desculpas." | "Faça acontecer." | "Mais foco." | "O medo mente." | "Tudo depende de você." | "Seja imparável." | "Continue lutando."',
+            '• Viral Agressivo: "Pare de agir como vítima" | "Você está desperdiçando seu potencial" | "A preguiça destrói sonhos" | "Seu maior inimigo é você" | "Sem disciplina, sem respeito" | "Você quer conforto ou sucesso?" | "Pare de reclamar" | "Resultados exigem sacrifício" | "Seu futuro está observando" | "Faça o impossível virar rotina"'
+          ] },
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 9-12)', items: [
+            '• Cinematográfico: Cidade neon | Corrida em câmera lenta | Chuva + música épica | Fumaça + luz baixa | Noite vazia | Reflexão no espelho | Trem/metrô sozinho | Close emocional | Luzes desfocadas | Estrada à noite',
+            '• Motivação Profunda: "A criança que você foi…" | "Ainda dá tempo" | "Você consegue sobreviver a isso" | "Sua dor tem propósito" | "Tudo muda quando você decide" | "Você não está atrasado" | "Seu esforço será recompensado" | "Respire e continue" | "Seu sonho merece espaço" | "Você ainda pode vencer"',
+            '• Ideias Extras POV: POV disciplina | POV sucesso | POV academia | POV solidão | POV rotina milionária | POV foco extremo | POV homem disciplinado | POV mentalidade forte | POV evolução silenciosa | POV comeback',
+            '• Estilo Reels Viral: Texto grande + zoom lento | Música épica + frase curta | Narração IA lenta | Cortes rápidos | Tela escura + frase branca | Edit sigma | Glow cinematográfico | Efeito VHS | Slow motion emocional | Final impactante'
+          ] },
+          { type: 'steps', title: '🎙️ 20 Scripts Virais Prontos para Copiar (1 a 10)', items: [
+            'Script 1: “Ninguém vai aparecer para mudar sua vida. O dia que você entender isso… tudo muda.”',
+            'Script 2: “Enquanto você reclama da vida… alguém está trabalhando silenciosamente.”',
+            'Script 3: “Daqui a um ano… você vai agradecer por não ter desistido hoje.”',
+            'Script 4: “A disciplina vai te levar para lugares que a motivação nunca conseguiu.”',
+            'Script 5: “Você quer mudar de vida? Então pare de fugir do desconforto.”',
+            'Script 6: “Seu maior inimigo é a versão de você que continua desistindo.”',
+            'Script 7: “A dor passa. O orgulho de vencer fica.”',
+            'Script 8: “Construa em silêncio. E surpreenda todos.”',
+            'Script 9: “Você não está cansado. Está distraído.”',
+            'Script 10: “Tudo muda quando você decide não voltar atrás.”'
+          ] },
+          { type: 'steps', title: '🎙️ 20 Scripts Virais Prontos para Copiar (11 a 20)', items: [
+            'Script 11: “Se fosse fácil… todos venceriam.”',
+            'Script 12: “A mente desiste antes do corpo.”',
+            'Script 13: “Seu futuro depende das decisões que você toma hoje.”',
+            'Script 14: “O sucesso exige algo raro: consistência.”',
+            'Script 15: “Faça mesmo sem vontade.”',
+            'Script 16: “Seu sonho merece esforço.”',
+            'Script 17: “A pressão cria pessoas imparáveis.”',
+            'Script 18: “Continue em silêncio.”',
+            'Script 19: “Você sobreviveu a todos os seus piores dias.”',
+            'Script 20: “Pare de esperar o momento perfeito.”'
+          ] },
+          { type: 'tips', title: '💸 Plano de Monetização Estratégico para Reels', items: [
+            '• Programa Bonus da Meta: Monetização via bônus de performance para criadores elegíveis.',
+            '• Venda de Infoprodutos via Direct Automatizado (ManyChat): Configure gatilhos automáticos para enviar o link do seu e-book de disciplina quando comentarem a palavra "QUERO".',
+            '• Link na Bio com Linktree / Beacons: Centralize ofertas de afiliados, suplementos esportivos, livros recomendados e mentorias.',
+            '• Parcerias de Marca (Branded Content): Reels possuem excelente engajamento orgânico de marcas de vestuário fitness e lifestyle masculino.'
+          ] },
+          'Aplicativos ideais para edição: capcut.com, canva.com, instagram.com e elevenlabs.io para locuções perfeitas do estilo Sigma/Dark/Cinematográfico.'
+        ]
+      },
+      {
+        id: 'meta_ai_prompts_structure',
+        title: '🔮 Prompts de IA & Estrutura Viral para Reels',
+        content: [
+          'Gere clipes cinematográficos de tirar o fôlego usando Inteligência Artificial de última geração. Otimize sua retenção e engajamento seguindo as diretrizes exatas de retenção no Instagram Reels:',
+          { type: 'info', title: '🛠️ Ferramentas Recomendadas', items: [
+            '• runwayml.com (Geração de vídeo realista a partir de texto/imagem)',
+            '• pika.art (Animações fluidas e efeitos direcionais completos)',
+            '• lumalabs.io (Cenas em 3D e renderizações hiper-realistas para Reels/Shorts)',
+            '• kaiber.ai (Estilização artística e transformações estilísticas pesadas)'
+          ] },
+          { type: 'list', title: '🎬 Primorosos Prompts de Vídeo & Roteiros de Áudio', items: [
+            '• Prompt 1 — Sigma na Cidade:\n"Cinematic lonely man walking through a dark neon city at night, rain falling, dramatic lighting, slow motion, emotional atmosphere, realistic, moody shadows, cinematic camera movement, TikTok motivation style, ultra detailed"\n→ Narração: "O topo é solitário."',
+            '• Prompt 2 — Academia Pesada:\n"Intense gym training cinematic scene, muscular athlete training alone, sweat, dark gym lighting, dramatic shadows, slow motion workout, gritty atmosphere, motivational cinematic style"\n→ Narração: "A dor constrói pessoas fortes."',
+            '• Prompt 3 — Trabalho Silencioso:\n"Young entrepreneur working alone at night, laptop glow, rainy window, dark cinematic room, emotional atmosphere, realistic lighting, productivity aesthetic, cinematic focus"\n→ Narração: "Construa em silêncio."',
+            '• Prompt 4 — Corrida na Chuva:\n"Athlete running in heavy rain at night, dramatic cinematic lighting, slow motion water splashes, emotional determination, dark atmosphere, ultra realistic, inspirational sports film look"\n→ Narração: "Continue mesmo cansado."',
+            '• Prompt 5 — Emocional Profundo:\n"Sad emotional young man sitting alone in dark room, rain outside window, cinematic shadows, deep emotional atmosphere, realistic film look, slow camera movement, motivational aesthetic"\n→ Narração: "Você sobreviveu até aqui."',
+            '• Prompt 6 — Luxo Sigma:\n"Luxury cinematic lifestyle, black suit, night drive in sports car, neon reflections, dark luxury atmosphere, confident sigma male energy, ultra realistic cinematic look"\n→ Narração: "Sem emoção. Só resultados."'
+          ] },
+          { type: 'info', title: '💡 Ideias Temáticas Focadas para Reels', items: [
+            '• Reels Emocionais: "Você cansou" | "Não desista agora" | "Seu momento vai chegar" | "A criança que você foi..." | "Você sobreviveu"',
+            '• Reels Sigma: "O topo é solitário" | "Construa em silêncio" | "Mentalidade fria" | "Sem desculpas" | "Modo guerra"',
+            '• Reels Academia: Última repetição | Corrida 5AM | Dor temporária | Disciplina diária | Antes/depois',
+            '• Reels Sucesso: Rotina milionária | Trabalho silencioso | Estudo noturno | Foco extremo | Evolução diária'
+          ] },
+          { type: 'steps', title: '⏳ Estrutura Perfeita para Reels (0-20 segundos)', items: [
+            '0–2 segundos | 🪝 Gancho:\n“Escuta isso.” (Capte a atenção imediatamente com texto grande e impacto visual)',
+            '3–10 segundos | ⚡ Dor:\n“Você está preso ao conforto.” (Conecte-se com o sentimento de estagnação do espectador)',
+            '11–20 segundos | 🔄 Virada:\n“Mas ainda dá tempo.” (Injete esperança com uma mudança de tom ou música)',
+            'Final | 💥 Impacto & Chamada:\n“Comece hoje.” (Encerre com uma frase forte que incentive a ação imediata)'
+          ] },
+          { type: 'tips', title: '📈 Dicas Áureas para Viralizar em Reels', items: [
+            '• Mantenha os vídeos estritamente entre 15 e 30 segundos de duração.',
+            '• Visualize texto grande, legível, com cores chamativas e centralizado na tela.',
+            '• Aplique música altamente emocional ou épica com volume de fundo bem ajustado de acordo com o tom.',
+            '• Use locuções com voz de IA lenta e expressiva em ferramentas como elevenlabs.io, capcut.com ou instagram.com.',
+            '• Realize cortes rápidos (a cada 1 ou 2 segundos) para prender a atenção do visualizador.',
+            '• Mantenha o estilo visual Dark Cinematic ou Emocional em todas as postagens.',
+            '• Poste fielmente todos os dias seguindo a frequência recomendada para criar relevância orgânica.'
           ] }
         ]
       }
@@ -2788,6 +4130,679 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'tips', title: '🧠 O Segredo Final', items: [
             'O algoritmo não busca perfeição técnica, ele busca Retenção + Curiosidade + Replay. Se as pessoas assistem de novo, você venceu.'
+          ] }
+        ]
+      },
+      {
+        id: 'youtube_viral_motivation_guide',
+        title: '🎬 Criar Vídeos Motivacionais Virais',
+        content: [
+          'Criar vídeos motivacionais para o YouTube (especialmente Shorts) funciona melhor quando você combina mensagem emocional + ritmo rápido + visual forte. Aqui está um método simples que costuma funcionar muito bem:',
+          { type: 'steps', title: '💥 Estrutura que Prende a Atenção', items: [
+            '1. Gancho nos primeiros 2 segundos: A primeira frase decide se a pessoa continua assistindo no Shorts ou passa. Exemplos: "Ninguém vai salvar você.", "Daqui a 1 ano você vai agradecer por começar hoje.", "Pare de esperar motivação.", "Você está cansado porque desistiu de você mesmo."',
+            '2. Use vídeos visuais fortes: Você pode usar imagens ou vídeos de pessoas treinando, cidade à noite, chuva, trabalho duro, natureza, close no rosto pensando, corrida, academia ou estudo. Você pode gravar com seu celular ou usar bancos de vídeos gratuitos (Ex: pexels.com, pixabay.com).',
+            '3. Narração emocional: A voz é muito importante. Você pode gravar sua própria voz ou usar inteligência artificial de voz sintética de apps populares como capcut.com, elevenlabs.io ou canva.com.'
+          ] },
+          { type: 'list', title: '🎵 Trilha Sonora e Legendas', items: [
+            '• Escolha da Música Certa: Use músicas cinemáticas, piano emocional, trap motivacional ou música épica lenta. O ideal é manter o volume da música baixo, com a voz clara acima da música.',
+            '• Texto Grande na Tela: Legendas e textos em destaque aumentam muito a retenção de público no YouTube Shorts. Exemplo: "O sucesso começa quando as desculpas acabam."'
+          ] },
+          { type: 'info', title: '⏱ Estilo Visual e Roteiro de Retenção', items: [
+            '• Duração Ideal: De 15 a 45 segundos costuma performar melhor para o público de Shorts motivacionais.',
+            '• Cortes Ágeis: Faça cortes rápidos a cada 1 a 3 segundos para reter atenção ocular.',
+            '• Fórmula Simples de Roteiro: Estruture como Gancho ➔ Dor ➔ Virada ➔ Chamada.',
+            '• Exemplo de Roteiro: "Você acha que está sem motivação... mas a verdade é que você ficou confortável. Enquanto você reclama, alguém está trabalhando silenciosamente. Comece hoje."'
+          ] },
+          { type: 'tips', title: '🚀 Dicas Práticas de Crescimento Rápido', items: [
+            'Apps Mais Usados: capcut.com (edição rápida para Shorts), youtube.com (tendências e músicas), canva.com (templates prontos) e vlognow.me (edição avançada grátis).',
+            'Temas em Alta no YouTube: Academia / disciplina, Dinheiro / sucesso e Estudos / foco.',
+            'Estratégia de Consistência: Poste de 2 a 4 Shorts ou vídeos por dia, use frases curtas e altamente emocionais, crie séries seriadas ("Parte 1", "Mentalidade Forte", etc.), reposte e teste variações diferentes de um mesmo conteúdo e monitore a taxa de cliques (CTR) e retenção média no painel Creator Studio.'
+          ] },
+          { type: 'steps', title: '💡 Ideia Prática para Iniciar Hoje', items: [
+            'Tema: "Pare de esperar o momento perfeito..."',
+            'Visual: Uma pessoa caminhando sozinha em uma cidade escura ou luzes de chuva no vidro.',
+            'Música: Piano de ritmo lento e cinemático.',
+            'Narração proposta: "O momento perfeito não existe. Existe apenas você... decidindo começar."'
+          ] },
+          'Se quiser, nosso Mentor IA também pode te ajudar de imediato a criar novos roteiros completos para o YouTube, gerar frases motivacionais virais, montar um plano para crescer uma página, ou criar ideias de vídeos em estilo cinematográfico.'
+        ]
+      },
+      {
+        id: 'youtube_motivation_viral_scripts',
+        title: '🔥 8 Roteiros Prontos de Alta Conversão',
+        content: [
+          'Use estes roteiros validados e de alta retenção diretamente em suas postagens para acelerar os cliques e otimizar sua entrega orgânica:',
+          { type: 'steps', title: '⚡ Roteiros Completos (1 a 4)', items: [
+            'Roteiro 1 — Disciplina\n• Cena: Pessoa treinando cedo / acordando / estudando.\n• Narração: "A maioria desiste cedo demais. Não porque é fraca... mas porque espera motivação todos os dias. Pessoas fortes não dependem de motivação. Dependem de disciplina. Faça mesmo sem vontade."\n• Texto na tela: "Disciplina > Motivação" | "Continue."',
+            'Roteiro 2 — Começar Agora\n• Cena: Cidade à noite + pessoa andando sozinha.\n• Narração: "Daqui a um ano... você vai desejar ter começado hoje. O tempo vai passar de qualquer forma. Então escolha crescer."\n• Texto na tela: "Comece hoje." | "Sem desculpas."',
+            'Roteiro 3 — Mentalidade Forte\n• Cena: Pessoa cansada trabalhando.\n• Narração: "Ninguém vê as noites difíceis. Ninguém vê o esforço silencioso. Mas um dia... os resultados vão falar por você."\n• Texto na tela: "Trabalhe em silêncio."',
+            'Roteiro 4 — Foco\n• Cena: Pessoa estudando no escuro.\n• Narração: "Enquanto você perde tempo se comparando... alguém está evoluindo em silêncio. Desligue o barulho. Foque em você."\n• Texto na tela: "Foco total."'
+          ] },
+          { type: 'steps', title: '⚡ Roteiros Completos (5 a 8)', items: [
+            'Roteiro 5 — Academia\n• Cena: Treino pesado / corrida.\n• Narração: "Seu corpo aguenta mais do que sua mente acredita. Toda vez que você quer desistir... é exatamente o momento em que precisa continuar."\n• Texto na tela: "Mais uma repetição."',
+            'Roteiro 6 — Dinheiro & Sucesso\n• Cena: Notebook / trabalho noturno / chuva.\n• Narração: "Todo mundo quer sucesso. Poucos aceitam o preço dele. Sacrifício. Solidão. Consistência. Você aceita?"\n• Texto na tela: "O preço do sucesso."',
+            'Roteiro 7 — Autoestima\n• Cena: Pessoa olhando no espelho.\n• Narração: "Pare de procurar validação. O mundo muda quando você começa a acreditar em si mesmo."\n• Texto na tela: "Confie em você."',
+            'Roteiro 8 — Nunca Desistir\n• Cena: Pessoa correndo na chuva.\n• Narração: "Talvez esteja demorando. Talvez esteja difícil. Mas desistir garante que nunca aconteça."\n• Texto na tela: "Continue."'
+          ] },
+          { type: 'info', title: '🎬 Estilo Visual Recomendado', items: [
+            '• Visual Cinemático Escuro',
+            '• Estética de Academia / Disciplina',
+            '• Imagens de Foco / Estudos / Produtividade Noturna'
+          ] },
+          { type: 'tips', title: '🛠 Ferramentas Essenciais para Montagem', items: [
+            'Edição ágil no capcut.com',
+            'Templates e artes prontas no canva.com',
+            'Busque as áudios em alta no YouTube Studio / Shorts'
+          ] },
+          'Se você desejar, nosso Mentor IA pode criar roteiros adicionais no estilo de influenciadores (como Andrew Tate), roteiros puramente emocionais, roteiros curtos de 15 segundos ou adaptações com expressões regionais.'
+        ]
+      },
+      {
+        id: 'youtube_motivation_viral_phrases',
+        title: '💎 Biblioteca de Frases Motivacionais Virais',
+        content: [
+          'Esta biblioteca reúne as melhores frases de alta retenção visual e emocional organizadas por categoria para uso em legendas, áudios e textos na tela (YouTube Shorts):',
+          { type: 'list', title: '🚀 Frases Motivacionais de Impacto', items: [
+            '“Ninguém vai fazer por você.”',
+            '“O desconforto de hoje cria a vitória de amanhã.”',
+            '“Disciplina pesa gramas. Arrependimento pesa toneladas.”',
+            '“Ou você controla sua mente… ou ela controla você.”',
+            '“Resultados silenciosos assustam mais.”',
+            '“Você não está cansado. Está distraído.”',
+            '“Comece antes de estar pronto.”',
+            '“A dor passa. O orgulho fica.”',
+            '“Pare de esperar motivação.”',
+            '“Seu futuro depende do que você faz hoje.”',
+            '“Enquanto você dorme, alguém está ficando melhor.”',
+            '“Não conte seus planos. Mostre os resultados.”',
+            '“Quem quer dá um jeito. Quem não quer dá desculpas.”',
+            '“O sucesso gosta de consistência.”',
+            '“Você nasceu para mais.”',
+            '“Treine sua mente para vencer dias difíceis.”',
+            '“O medo desaparece quando a ação começa.”',
+            '“Se fosse fácil, todos conseguiriam.”',
+            '“Pequenos passos também mudam vidas.”',
+            '“A vida muda quando você muda.”',
+            '“A disciplina vai te levar onde a motivação não consegue.”',
+            '“Você pode descansar. Mas não desista.”',
+            '“Sem sacrifício, sem mudança.”',
+            '“Seu único concorrente é quem você era ontem.”',
+            '“Grandes resultados começam em silêncio.”'
+          ] },
+          { type: 'tips', title: '⏱ Frases Curtas (Excelente para Texto na Tela)', items: [
+            '“Continue.” | “Sem desculpas.” | “Mais foco.”',
+            '“Levante.” | “Acredite.” | “Faça acontecer.”',
+            '“Mentalidade forte.” | “Modo disciplina.” | “Não pare agora.”',
+            '“Silêncio e trabalho.”'
+          ] },
+          { type: 'steps', title: '🎬 Estilo Cinemático (Foco, Academia e Sucesso)', items: [
+            '• Academia / Disciplina: "A mente desiste antes do corpo." | "Dor temporária. Evolução permanente." | "A vitória começa quando ninguém está olhando."',
+            '• Dinheiro / Sucesso: "Rico é quem continua quando todos param." | "O sucesso exige silêncio antes do aplauso." | "Construa em silêncio."',
+            '• Estudos / Foco: "Seu esforço de hoje é sua liberdade amanhã." | "Estude enquanto outros desperdiçam tempo." | "Foque até dar certo."'
+          ] },
+          { type: 'info', title: '⚡ Ganchos Poderosos e Emocionais', items: [
+            '• Frases Fortes de Abertura: “Escuta isso antes de desistir.” | “Você precisava ouvir isso hoje.” | “Talvez esse seja seu sinal.” | “Pare de destruir seu próprio potencial.” | “Ninguém vai te salvar.” | “Acorda.”',
+            '• Conexão Emocional Profunda: “Você sobreviveu a todos os seus piores dias.” | “Não desista da pessoa que você quer se tornar.” | “Tudo muda quando você decide não voltar atrás.” | “Seu momento vai chegar.” | “Continue mesmo em silêncio.”'
+          ] },
+          { type: 'list', title: '🇧🇷 100 Frases Virais em Português', items: [
+            'Ninguém vai salvar você.',
+            'Comece cansado mesmo.',
+            'Disciplina vence talento.',
+            'Seu futuro começa hoje.',
+            'Sem esforço, sem mudança.',
+            'Continue em silêncio.',
+            'O foco muda tudo.',
+            'Pare de se sabotar.',
+            'Faça mesmo sem vontade.',
+            'Você aguenta mais.',
+            'Não desista agora.',
+            'A dor passa.',
+            'Evolua em silêncio.',
+            'Sem desculpas.',
+            'Seu tempo vai chegar.',
+            'Trabalhe enquanto dormem.',
+            'Seu potencial assusta.',
+            'Pare de esperar motivação.',
+            'O medo desaparece na ação.',
+            'Faça acontecer.',
+            'O impossível demora mais.',
+            'Seja imparável.',
+            'Resultados exigem sacrifício.',
+            'Você nasceu para vencer.',
+            'Ninguém vê o esforço invisível.',
+            'Continue mesmo sozinho.',
+            'Tudo muda quando você muda.',
+            'A mente desiste primeiro.',
+            'Mais disciplina.',
+            'Menos distração.',
+            'O sucesso ama consistência.',
+            'Continue tentando.',
+            'A batalha é mental.',
+            'Um dia ou dia um.',
+            'O processo dói.',
+            'Mas vale a pena.',
+            'Construa sua melhor versão.',
+            'Sua vida depende das suas decisões.',
+            'Ação vence ansiedade.',
+            'Levante novamente.',
+            'Você não chegou até aqui para parar.',
+            'Foco total.',
+            'Sacrifício hoje. Vitória amanhã.',
+            'Treine sua mente.',
+            'Cresça em silêncio.',
+            'Sem risco, sem vitória.',
+            'O mundo respeita resultados.',
+            'Seja diferente.',
+            'Dias difíceis criam pessoas fortes.',
+            'Você ainda tem tempo.',
+            'Faça por você.',
+            'Transforme dor em força.',
+            'Sua hora vai chegar.',
+            'O topo exige esforço.',
+            'Você consegue.',
+            'Faça mais. Reclame menos.',
+            'Continue avançando.',
+            'O sucesso é repetição.',
+            'Pare de fugir do desconforto.',
+            'O crescimento começa na dor.',
+            'Não volte atrás.',
+            'Trabalhe duro em silêncio.',
+            'O impossível é treinável.',
+            'Acredite mais em você.',
+            'A mudança começa agora.',
+            'Você não está atrasado.',
+            'Construa hábitos fortes.',
+            'Seja obcecado pelo progresso.',
+            'Nada muda sem atitude.',
+            'O medo mente.',
+            'Continue respirando.',
+            'O esforço compensa.',
+            'Você é sua prioridade.',
+            'Fique focado.',
+            'Tudo depende de você.',
+            'Seu sonho merece esforço.',
+            'Seja constante.',
+            'Continue lutando.',
+            'O fracasso ensina.',
+            'Sua mente cria limites.',
+            'Vá além.',
+            'Um passo de cada vez.',
+            'O trabalho duro aparece.',
+            'Sua história ainda não terminou.',
+            'Continue mesmo sem aplausos.',
+            'O sucesso é silencioso.',
+            'Seja forte nos dias difíceis.',
+            'Você pode recomeçar.',
+            'Não desperdice seu potencial.',
+            'Sua evolução incomoda.',
+            'O impossível assusta preguiçosos.',
+            'Nunca foi sorte.',
+            'Foi disciplina.',
+            'Você é mais forte do que pensa.',
+            'O esforço constrói gigantes.',
+            'Continue firme.',
+            'Seu futuro está observando.',
+            'Faça valer a pena.',
+            'A vitória exige coragem.',
+            'Comece agora.'
+          ] },
+          { type: 'list', title: '🇺🇸 100 Viral Quotes in English', items: [
+            'Nobody is coming to save you.',
+            'Start anyway.',
+            'Discipline beats motivation.',
+            'Stay focused.',
+            'Keep going.',
+            'Silence builds power.',
+            'Hard work changes lives.',
+            'Make yourself proud.',
+            'Pain creates strength.',
+            'Never quit early.',
+            'Work in silence.',
+            'Your future needs you.',
+            'Stay hungry.',
+            'You can do more.',
+            'Focus on growth.',
+            'One day or day one.',
+            'Success loves consistency.',
+            'Keep fighting.',
+            'The grind never lies.',
+            'Stay disciplined.',
+            'Stop doubting yourself.',
+            'Be unstoppable.',
+            'Comfort destroys dreams.',
+            'Your mindset matters.',
+            'Results take sacrifice.',
+            'Build your future now.',
+            'Fear disappears with action.',
+            'Become dangerous.',
+            'Stay patient.',
+            'You are capable.',
+            'Progress over excuses.',
+            'Winners stay consistent.',
+            'Discipline changes everything.',
+            'Greatness takes time.',
+            'Push through pain.',
+            'Stay locked in.',
+            'Become your best version.',
+            'Hard times create strong people.',
+            'Make it happen.',
+            'Stay mentally strong.',
+            'Keep your promises to yourself.',
+            'Train your mind.',
+            'Dreams require effort.',
+            'Keep showing up.',
+            'Focus beats talent.',
+            'Stay relentless.',
+            'Success is earned daily.',
+            'Keep moving forward.',
+            'The struggle is temporary.',
+            'Your limits are mental.',
+            'Sacrifice now. Celebrate later.',
+            'Stay obsessed.',
+            'Nobody believed. Keep going.',
+            'Build silently.',
+            'Success takes patience.',
+            'Keep proving yourself right.',
+            'Pressure creates diamonds.',
+            'Keep climbing.',
+            'Consistency wins.',
+            'Rise again.',
+            'Trust the process.',
+            'Stay dangerous.',
+            'Work harder quietly.',
+            'Every day matters.',
+            'You were built for this.',
+            'Pain is temporary.',
+            'Growth feels uncomfortable.',
+            'Stay focused on your mission.',
+            'Your future is watching.',
+            'Keep your head high.',
+            'Stay strong.',
+            'Keep improving daily.',
+            'Become unstoppable.',
+            'Discipline creates freedom.',
+            'Stop waiting.',
+            'Start building.',
+            'Success takes courage.',
+            'Stay committed.',
+            'Chase your vision.',
+            'Never settle.',
+            'Strong minds win battles.',
+            'Keep your standards high.',
+            'Turn pain into power.',
+            'Great things take time.',
+            'You are stronger than fear.',
+            'Keep evolving.',
+            'Dreams demand discipline.',
+            'Work until they notice.',
+            'Focus on yourself.',
+            'Stay hungry for success.',
+            'Stay calm and grind.',
+            'Your effort will show.',
+            'Stay away from excuses.',
+            'Build your empire.',
+            'Keep your fire alive.',
+            'The comeback is personal.',
+            'Stay true to your goals.',
+            'Rise above excuses.',
+            'You still have time.',
+            'Become legendary.'
+          ] },
+          'Com a ajuda do nosso Mentor IA, você também pode exportar listas maiores com 100+ frases personalizadas, gerar frases impactantes puramente em inglês, criar linhas no estilo agressivo sigma, ou formatar a estrutura de voz neural sintética para o seu canal no YouTube.'
+        ]
+      },
+      {
+        id: 'youtube_motivation_growth_plan',
+        title: '📈 Plano de Crescimento de Página Motivacional',
+        content: [
+          'Este é o plano prático passo a passo para você criar, estruturar e decolar um canal ou página de vídeos motivacionais no YouTube Shorts, focado em visualizações, inscritos, alta retenção e monetização imediata.',
+          { type: 'steps', title: '🎯 Escolha de Estilo Coeso', items: [
+            '1. Identidade e Nicho Coerente: Shorts de sucesso têm foco claro. Escolha um dos sub-nichos virais: Disciplina, Academia, Dinheiro / sucesso, Mentalidade forte, Estudos / foco, Estilo Sigma ou Motivação emocional.',
+            '2. Foco Intenso no Início: Poste com consistência no início. A meta recomendada é de 3 a 4 Shorts por dia, permitindo ao algoritmo do YouTube testar a entrega e o CTR em diferentes parcelas de público.',
+            '3. Duração Ideal Segura: Mantenha os seus vídeos na faixa de 15 a 35 segundos. Isso maximiza a taxa de retenção final e incentiva replays e compartilhamentos.'
+          ] },
+          { type: 'info', title: '⚡ Fórmula Simples de Estrutura dos Vídeos', items: [
+            '• Gancho Inicial (0-2 seg): "Ninguém vai salvar você.", "Escuta isso...", "Pare de esperar motivação..." (Fórmula essencial para evitar que pulem o Shorts).',
+            '• Desenvolvimento (3-15 seg): Entrega da mensagem emocional com ritmo rápido e dinâmico.',
+            '• Fechamento de Impacto (Final): "Comece hoje.", "Continue.", "Sem desculpas." (Fórmula focada em impulsionar o replay).'
+          ] },
+          { type: 'list', title: '🎥 Estética Visual e Edição Avançada', items: [
+            '• Estilo Cinemático Escuro: Use vídeos cinemáticos em câmera lenta, cenas urbanas noturnas, chuva, closes pensativos, corrida e treinos intensos.',
+            '• Ferramentas Recomendadas: Use o CapCut (capcut.com) para edição, Canva (canva.com) para capas/Shorts-thumbnails e templates, ElevenLabs (elevenlabs.io) para vozes IA ultra-realistas com alto poder magnético, e o YouTube Studio para analisar estatísticas.'
+          ] },
+          { type: 'tips', title: '🚀 Estratégias do Crescimento Acelerado', items: [
+            '• Crie Séries Seriadas: Crie séries como "Mentalidade Forte #1", "Disciplina #7", "Vídeos para dias difíceis". As séries induzem maratonas rápidas e atraem inscritos instantâneos.',
+            '• Reaproveitamento Inteligente: Não delete Shorts com baixo desempenho! Substitua a música, mude o gancho inicial com um novo texto grande na tela e publique-o modificamente.',
+            '• Respostas via Vídeo: Dobre sua visibilidade respondendo aos comentários de espectadores no Shorts com novos Shorts dedicados. Isso estreita o vínculo e aumenta o fator viral.'
+          ] },
+          { type: 'steps', title: '⏱ Horários e Metas Pragmáticas', items: [
+            '• Horários de Postagem: Teste as janelas das 06h-08h, 12h-14h e 19h-23h e acompanhe os seus relatórios no Analytics do YouTube Studio.',
+            '• Expectativa Realista: 30 dias (Primeiras otimizações de retenção) ➔ 60-90 dias (Ganho de inscritos constante) ➔ 6 meses (Canal pronto para monetizar e colher frutos).',
+            '• Modelo de Cronograma Diário: Vídeo 1 (Motivação forte) | Vídeo 2 (Academia/Disciplina) | Vídeo 3 (Impacto Emocional) | Vídeo 4 (Sucesso/Dinheiro).'
+          ] },
+          'Qual o próximo passo? Com o nosso Mentor IA, você pode gerar calendários editoriais de 30 dias completos, ideias de nomes exclusivos e bios de alta conversão, listas de 100 ideias de vídeos ou roteiros sob demanda para copiar e postar no Reels!'
+        ]
+      },
+      {
+        id: 'youtube_cinematic_ideas',
+        title: '🎬 Ideias de Vídeos Cinematográficos para Vídeos Motivacionais',
+        content: [
+          'Vídeos cinematográficos e atmosféricos geram uma retenção extraordinária ao evocar emoções e sentimentos de superação profunda. Use este catálogo de 10 ideias com roteiro e direção de arte para YouTube Shorts:',
+          { type: 'steps', title: '🌌 Ideias de Produção Cinemática (1 a 5)', items: [
+            '1. "Acorde antes do mundo"\n• Cena: Alarme tocando às 4h/5h, pessoa levantando cansada, e a rua completamente vazia ao amanhecer.\n• Narração: "Enquanto todos dormem... alguém está construindo o próprio futuro."\n• Música: Piano lento combinado com uma batida épica crescente.',
+            '2. "Silêncio"\n• Cena: Pessoa treinando sozinha, sem mostrar o rosto, sob chuva leve ou em um ambiente escuro.\n• Narração: "Fale menos. Trabalhe mais. Deixe os resultados fazerem barulho."\n• Texto na tela: "Silêncio e excelência."',
+            '3. "Daqui a um ano"\n• Cena: Pessoa contemplando o horizonte ou a cidade à noite, notebook ligado, e foco no trabalho solitário.\n• Narração: "Daqui a um ano... você pode estar orgulhoso. Os arrependido."\n• Texto na tela: "Escolha crescer hoje."',
+            '4. "Dor"\n• Cena: Corrida sob chuva, close com foco fechado e curto no rosto cansado, respiração pesada.\n• Narração: "A dor que você evita hoje... vira arrependimento amanhã."\n• Texto na tela: "Dor temporária. Evolução permanente."',
+            '5. "Ninguém vai salvar você"\n• Cena: Pessoa caminhando solitária por uma cidade escura com as luzes do fundo desfocadas (efeito bokeh).\n• Narração: "Ninguém vai aparecer para mudar sua vida. Tudo começa quando você decide."'
+          ] },
+          { type: 'steps', title: '🌌 Ideias de Produção Cinemática (6 a 10)', items: [
+            '6. "Mentalidade forte"\n• Cena: Uma academia ou sala de estudos vazia, com os pesos caindo no chão ou mãos machucadas do esforço.\n• Narração: "Corpos fortes são construídos por mentes fortes."\n• Texto na tela: "A mente manda, o corpo obecece."',
+            '7. "Última tentativa"\n• Cena: Pessoa visivelmente frustrada diante de uma falha, mas levantando-se e recomeçando devagar enquanto a música ganha volume.\n• Narração: "Talvez a próxima tentativa... mude tudo."\n• Texto na tela: "Levante-se de novo."',
+            '8. "Modo foco"\n• Cena: Estudo ou trabalho noturno, xícara de café quente soltando fumaça, luz baixa de luminária e chuva batendo na janela.\n• Narração: "Desapareça por um tempo. Evolua em silêncio."\n• Texto na tela: "Foco inabalável."',
+            '9. "Sem desculpas"\n• Cena: Pessoa correndo ou treinando exausta, com relógio marcando hora tardia na noite ou madrugada.\n• Narração: "Cansado? Faça mesmo assim."\n• Texto na tela: "Custo zero para desculpas."',
+            '10. "Seu futuro está olhando"\n• Cena: Edição emocional fazendo transição de cenas de infância para o adulto trabalhando duro nelas no presente.\n• Narração: "Seu eu do futuro está observando as suas decisões de hoje."'
+          ] },
+          { type: 'info', title: '✨ Fórmula Visual de Alta Retenção', items: [
+            '• Use câmera lenta (slow motion 60/120 fps)',
+            '• Adicione filtros e efeitos de chuva ou fumaça sutil',
+            '• Explore luzes neon, tons dourados ou azuis escuros em cenas noturnas',
+            '• Aplique zooms lentos ou dolly shots e cortes rápidos sincronizados com as batidas graves da música'
+          ] },
+          { type: 'tips', title: '🛠 Ferramentas de Produção e Edição', items: [
+            'Edição refinada e efeitos: capcut.com',
+            'Artes, tipografia e capas em destaque: canva.com',
+            'Vídeos gratuitos e em alta qualidade (banco de dados cinemático): pexels.com',
+            'Estatísticas e áudios em alta: YouTube Studio / Shorts'
+          ] },
+          'Se você quiser, nosso Mentor IA também pode te ajudar fornecendo prompts detalhados para ferramentas de geração de vídeo por IA, montar roteiros e ideias no estilo clássico Sigma, ou estruturar um calendário editorial cinematográfico de 30 dias para o YouTube Shorts.'
+        ]
+      },
+      {
+        id: 'youtube_emotional_scripts',
+        title: '❤️ 8 Roteiros Emocionais de Alto Impacto',
+        content: [
+          'Vídeos com forte apelo emocional geram sentimentos de empatia imediata e estimulam o público a interagir nos comentários sutilmente. Use estes 8 roteiros validados:',
+          { type: 'steps', title: '💔 Roteiros Emocionais de Resiliência (1 a 4)', items: [
+            'Roteiro 1 — "Você cansou"\n• Cena: Pessoa sentada sozinha olhando para baixo.\n• Narração: "Eu sei… você está cansado. Cansado de tentar. Cansado de esperar. Mas escuta isso… desistir agora destruiria tudo que você já suportou até aqui."\n• Texto na tela: "Continue." | "Só mais um dia."',
+            'Roteiro 2 — "Seu momento vai chegar"\n• Cena: Cidade à noite + pessoa caminhando sozinha.\n• Narração: "Talvez ninguém esteja vendo seu esforço agora. Talvez ninguém entenda sua luta. Mas continue. Seu momento vai chegar."\n• Texto na tela: "Confie no processo."',
+            'Roteiro 3 — "A criança que você foi"\n• Cena: Fotos antigas / olhar no espelho.\n• Narração: "A criança que você foi um dia… acreditava que você faria coisas incríveis. Não decepcione essa version de você."\n• Texto na tela: "Lembre quem você queria ser."',
+            'Roteiro 4 — "Dias difíceis"\n• Cena: Chuva na janela + pessoa pensativa.\n• Narração: "Dias difíceis não vieram para destruir você. Vieram para revelar sua força."\n• Texto na tela: "Você vai sobreviver."'
+          ] },
+          { type: 'steps', title: '💔 Roteiros Emocionais de Resiliência (5 a 8)', items: [
+            'Roteiro 5 — "Ninguém sabe"\n• Cena: Pessoa sorrindo em público e triste sozinha.\n• Narração: "Ninguém sabe quantas batalhas você cobra em silêncio. E mesmo assim… você continua aqui."\n• Texto na tela: "Orgulhe-se disso."',
+            'Roteiro 6 — "Não desista"\n• Cena: Pessoa cansada levantando novamente.\n• Narração: "Talvez você esteja mais perto do que imagina. Não desista agora."\n• Texto na tela: "Última tentativa."',
+            'Roteiro 7 — "Você sobreviveu"\n• Cena: Cenas lentas + olhar distante.\n• Narração: "Você sobreviveu a todos os seus piores dias até hoje. Então respire… porque você consegue sobreviver a esse também."\n• Texto na tela: "Continue respirando."',
+            'Roteiro 8 — "Seu valor"\n• Cena: Pessoa olhando cidade do alto.\n• Narração: "Pare de medir seu valor pelas opiniões dos outros. Você é mais forte do que pensa."\n• Texto na tela: "Acredite em você."'
+          ] },
+          { type: 'info', title: '🎵 Trilha Sonora e Áudio Ideal', items: [
+            '• Piano emocional e melancólico',
+            '• Solo de violino lento',
+            '• Batida cinematográfica leve com sons de chuva ou ambiente no fundo'
+          ] },
+          { type: 'tips', title: '🛠 Aplicativos Recomendados para Edição', items: [
+            'Edição refinada para cortes lentos e efeitos: capcut.com',
+            'Legendas e miniaturas impactantes: canva.com',
+            'Sons de fundo e áudios instrumentais virais: No YouTube Shorts ou Biblioteca de Áudio'
+          ] },
+          'Se você quiser, nosso Mentor IA também pode te ajudar de imediato a criar roteiros adicionais no estilo de influenciadores (como Andrew Tate), roteiros puramente emocionais, roteiros curtos de 15 segundos ou adaptações com expressões regionais.'
+        ]
+      },
+      {
+        id: 'youtube_viral_retention_scripts',
+        title: '🔥 8 Roteiros Virais de Alta Retenção',
+        content: [
+          'Para impulsionar o engajamento rápido, a retenção nos primeiros segundos e os compartilhamentos em massa, use estes 8 roteiros ultra-virais de alto impacto:',
+          { type: 'steps', title: '⚡ Roteiros Virais de Impacto Direto (1 a 4)', items: [
+            'Roteiro viral 1 — "Acorda"\n• Cena: Pessoa parada se olhando fixamente no espelho.\n• Narração: "Acorda. Ninguém vai mudar sua vida por você. Ou você começa agora… ou vai continuar assistindo outros vencerem."\n• Texto na tela: "A decisão é sua."',
+            'Roteiro viral 2 — "Daqui a 5 anos"\n• Cena: Imagens de cidades à noite combinadas com cenas de trabalho/estudo solitário.\n• Narração: "Daqui a 5 anos… você vai se encontrar em um de dois lugares: arrependido… ou orgulhoso."\n• Texto na tela: "Escolha hoje."',
+            'Roteiro viral 3 — "Enquanto você reclama"\n• Cena: Pessoa treinando pesado ou focando nos estudos com determinação.\n• Narração: "Enquanto você reclama da vida… alguém está trabalhando silenciosamente para vencer."\n• Texto na tela: "Sem desculpas."',
+            'Roteiro viral 4 — "Seu maior inimigo"\n• Cena: Close expressivo no rosto sob chuva leve ou com filtros dramáticos.\n• Narração: "Seu maior inimigo não é falta de dinheiro. Não é falta de oportunidade. É a versão de você que continua desistindo."\n• Texto na tela: "Vença sua mente."'
+          ] },
+          { type: 'steps', title: '⚡ Roteiros Virais de Impacto Direto (5 a 8)', items: [
+            'Roteiro viral 5 — "Silêncio"\n• Cena: Treino solitário ou estudos madrugada adentro com iluminação reduzida.\n• Narração: "Desapareça por alguns meses. Trabalhe em silêncio. E surpreenda todos."\n• Texto na tela: "Modo foco."',
+            'Roteiro viral 6 — "Dor"\n• Cena: Imagens de corrida intensa sob chuva ou caminhada sob iluminação urbana noturna.\n• Narração: "A dor de treinar dura horas. A dor do arrependimento dura anos."\n• Texto na tela: "Continue."',
+            'Roteiro viral 7 — "Ninguém acreditava"\n• Cena: Imagens de altíssima qualidade de alguém trabalhando arduamente sozinho.\n• Narração: "Ninguém acreditava nele. E talvez seja exatamente isso que vai torná-lo imparável."\n• Texto na tela: "Use isso como combustível."',
+            'Roteiro viral 8 — "Último aviso"\n• Cena: Edição frenética, música intensa e cortes rápidos sincronizados.\n• Narração: "Esse pode ser o vídeo que muda sua mentalidade. Mas só se você decidir agir."\n• Texto na tela: "Comece hoje."'
+          ] },
+          { type: 'info', title: '⏱ Fórmula e Estrutura Perfeita de Retenção', items: [
+            '• Gancho imediato (0 a 2s [Choque]): Use palavras provocativas ou chocantes como "Acorda." ou "Escuta isso." para evitar que pulem.',
+            '• Destaque da Dor (3 a 10s [Foco]): Comente o erro ou frustração que o espectador vive, ex: "Você está desperdiçando seu potencial."',
+            '• A Virada (11 a 20s [Motivo]): Apresente a saída motivadora: "Mas ainda dá tempo."',
+            '• Chamada para Ação (Final [CTA]): Direcione com firmeza, ex: "Comece hoje." ou "Siga para não desistir."'
+          ] },
+          { type: 'list', title: '🎨 Edição Visual que Mais Viraliza', items: [
+            '• Elementos gráficos: Use zoom lento contínuo, câmera tremendo suavemente (shake effect) em batidas e brilho levemente rebaixado.',
+            '• Detalhes imersivos: Adicione sons de chuva, tipografias grandes centralizadas, letras em destaque (amarelo/branco) e câmera lenta em momentos-chave.'
+          ] },
+          { type: 'tips', title: '🛠 Plataformas e Aplicativos Cruciais', items: [
+            'Análise de estatísticas e áudios virais: YouTube Shorts ou Biblioteca de Áudio',
+            'Criação de legendas dinâmicas e efeitos rápidos: capcut.com',
+            'Miniaturas, capas estéticas e design tipográfico: canva.com'
+          ] },
+          'Com a ajuda do nosso Mentor IA, você pode gerar mais 100 variações dessa fórmula com foco 100% no seu nicho, ou programar seu calendário de postagens direto para maximizar replays!'
+        ]
+      },
+      {
+        id: 'youtube_sigma_guidelines',
+        title: '🐺 Guia Sigma & Roteiros de Voz IA',
+        content: [
+          'O estilo de conteúdo Sigma é focado em alta disciplina, foco agressivo e silêncio produtivo. Use esta compilação validada de frases e roteiros prontos para bombar suas visualizações:',
+          { type: 'steps', title: '🤐 Frases Agressivas Estilo Sigma', items: [
+            '“Fique em silêncio. O sucesso faz barulho suficiente.”',
+            '“Enquanto eles falam… eu evoluo.”',
+            '“Sem emoção. Sem desculpas. Só resultados.”',
+            '“A disciplina destrói qualquer limite.”',
+            '“Você quer conforto ou respeito?”',
+            '“Pessoas fracas procuram atalhos.”',
+            '“Ninguém respeita preguiça.”',
+            '“Construa em silêncio.”',
+            '“A dor é obrigatória. A fraqueza é opcional.”',
+            '“O mundo pertence aos obcecados.”',
+            '“Mentalidade forte assusta pessoas fracas.”',
+            '“Você não precisa de aprovação.”',
+            '“Pare de agir como vítima.”',
+            '“O topo é solitário.”',
+            '“Sem sacrifício, sem vitória.”',
+            '“A maioria desiste cedo demais.”',
+            '“Se fosse fácil, todos venceriam.”',
+            '“Transforme raiva em combustível.”',
+            '“A pressão cria monstros.”',
+            '“Seja perigoso em silêncio.”',
+            '“Disciplina acima de sentimentos.”',
+            '“Sua mente precisa ser mais forte que suas emoções.”',
+            '“O fracasso não assusta homens disciplinados.”',
+            '“Trabalhe até não precisar provar nada.”',
+            '“O sofrimento constrói homens fortes.”',
+            '“Foco absoluto.”',
+            '“A preguiça destrói sonhos.”',
+            '“Sem consistência, sem respeito.”',
+            '“Faça o impossível parecer rotina.”',
+            '“Resultados silenciosos assustam mais.”'
+          ] },
+          { type: 'info', title: '📲 Frases Sigma Curtas para Usar na Tela', items: [
+            '• “Modo guerra.”',
+            '• “Sem piedade.”',
+            '• “Mentalidade rara.”',
+            '• “Sem desculpas.”',
+            '• “Foco absoluto.”',
+            '• “Frio e disciplinado.”',
+            '• “Silêncio.”',
+            '• “Continue.”',
+            '• “Imparável.”',
+            '• “Sem fraqueza.”'
+          ] },
+          { type: 'steps', title: '🎙️ Roteiros para Voz IA - Lentas e Emocionais (1 a 5)', items: [
+            'Script 1 — "Escuta isso"\n• Narração: "Escuta isso… ninguém vai mudar sua vida por você. O dia em que você entender isso… tudo muda."',
+            'Script 2 — "Sem tempo para perder"\n• Narração: "Enquanto você perde tempo procurando motivação… alguém está trabalhando silenciosamente."',
+            'Script 3 — "Não precisa ser perfeito"\n• Narração: "Você não precisa ser perfeito. Só precisa continuar."',
+            'Script 4 — "Lugar da disciplina"\n• Narração: "A disciplina vai te levar para lugares que a motivação nunca conseguiu."',
+            'Script 5 — "Agradecimento futuro"\n• Narração: "Daqui a alguns anos… você vai agradecer por não ter desistido hoje."'
+          ] },
+          { type: 'steps', title: '🎙️ Roteiros para Voz IA - Agressivos (6 a 10)', items: [
+            'Script 6 — "Pare de ser vítima"\n• Narração: "Pare de agir como vítima. Seu futuro depende das decisões que você evita tomar."',
+            'Script 7 — "Preso ao conforto"\n• Narração: "Você diz que quer vencer… mas continua preso ao conforto."',
+            'Script 8 — "Potencial desperdiçado"\n• Narração: "Ninguém respeita potencial desperdiçado."',
+            'Script 9 — "Controle sua mente"\n• Narração: "Ou você controla sua mente… ou ela destrói sua vida."',
+            'Script 10 — "Continue quando pararem"\n• Narração: "Resultados vêm para quem continua quando todos os outros param."'
+          ] },
+          { type: 'list', title: '🏆 Estrutura Perfeita para Viralizar', items: [
+            '• 0–2s (Choque): Gancho forte com frase curta como "Escuta isso."',
+            '• 3–10s (Dor): Expõe a frustração de frente: "Você está destruindo seu potencial."',
+            '• 11–20s (Virada): Oferece a saída dinâmica: "Mas ainda dá tempo."',
+            '• Final (Impacto/CTA): Frase curta de alta retenção: "Comece hoje."'
+          ] },
+          { type: 'tips', title: '🎥 Dicas de Otimização Vocal e Visual', items: [
+            '• Estilo Visual: Use imagens com estética luxuosa + silêncio, treinos intensos em academia + disciplina, zoom lento, câmera tremendo levemente (shake effect), efeito chuva, brilho rebaixado, câmera lenta e letras grandes e centralizadas.',
+            '• Vozes IA: Utilize ferramentas de ponta como elevenlabs.io para locuções perfeitas, capcut.com para efeitos de ritmo e áudios virais do YouTube Shorts ou Biblioteca de Áudio.',
+            '• Como viralizar a voz: Fale super devagar, faça pausas dramáticas intencionais, mantenha a música levemente mais baixa e adicione um breve silêncio após frases fortes.'
+          ] }
+        ]
+      },
+      {
+        id: 'youtube_sigma_page_roadmap',
+        title: '📈 Perfil Motivacional & Calendário de 30 Dias',
+        content: [
+          'Domine as redes sociais com uma imagem cinematográfica unificada, títulos memoráveis e um cronograma estruturado de postagens para obter engajamento máximo:',
+          { type: 'info', title: '🐺 Nomes Estilo Sigma / Cinemático', items: [
+            '• Shadow Discipline',
+            '• Mentalidade Fria',
+            '• Modo Guerra',
+            '• Sigma Vision',
+            '• Disciplina Absoluta',
+            '• Silent Grind',
+            '• Mente Imparável',
+            '• Código Sigma',
+            '• Evolução Silenciosa',
+            '• Rise Alone',
+            '• Dark Mindset',
+            '• Mentalidade Milionária',
+            '• Foco Supremo',
+            '• Alpha Discipline',
+            '• Sem Desculpas'
+          ] },
+          { type: 'list', title: '🤐 Bios Curtas que Funcionam', items: [
+            '• Bio 1: Disciplina. Foco. Evolução.',
+            '• Bio 2: Vídeos para quem quer vencer.',
+            '• Bio 3: Mentalidade forte todos os dias.',
+            '• Bio 4: Construa em silêncio.',
+            '• Bio 5: Sem desculpas.',
+            '• Bio 6: Motivação cinematográfica.',
+            '• Bio 7: Evolua ou permaneça igual.'
+          ] },
+          { type: 'steps', title: '📅 Calendário de 30 Dias (Estratégia: 3 vídeos/dia — Manhã, Tarde, Noite)', items: [
+            'Semana 1 — Choque + Motivação\n• Dia 1: "Ninguém vai salvar você" | "Comece hoje" | "Sem desculpas"\n• Dia 2: Disciplina vs motivação | Vídeo academia | Frase sigma\n• Dia 3: "Acorda" | Trabalho silencioso | Mentalidade forte\n• Dia 4: Dor temporária | Estudo/foco | Frase emocional\n• Dia 5: "Seu futuro depende disso" | Chuva cinematográfica | Motivação agressiva\n• Dia 6: Evolução silenciosa | Academia dark | "Continue"\n• Dia 7: Compilado da semana | Melhor frase | Vídeo emocional',
+            'Semana 2 — Sigma + Disciplina\n• Dia 8: "O topo é solitário" | Luxo cinematográfico | Foco absoluto\n• Dia 9: "Pare de agir como vítima" | Academia intensa | Trabalho duro\n• Dia 10: "Construa em silêncio" | Cidade à noite | Motivação fria\n• Dia 11: "Disciplina cria liberdade" | Rotina 5AM | Frase dark\n• Dia 12: "Sua mente mente para você" | Corrida na chuva | Vídeo intenso\n• Dia 13: "A pressão cria monstros" | Sigma aesthetic | Dor e evolução\n• Dia 14: Recap viral | Melhor vídeo repostado | Comentários em vídeo',
+            'Semana 3 — Emocional + Profundo\n• Dia 15: "Você cansou" | Chuva + tristeza | Esperança\n• Dia 16: "Seu momento vai chegar" | Cidade escura | Motivação emocional\n• Dia 17: "Não desista agora" | Música lenta | Vídeo cinematográfico\n• Dia 18: "A criança que você foi" | Memórias | Reflexão\n• Dia 19: "Dias difíceis" | Janela com chuva | Superação\n• Dia 20: "Você sobreviveu" | Texto emocional | Narração lenta\n• Dia 21: Compilado emocional | Melhores comentários | Frase forte',
+            'Semana 4 — Viralização Máxima\n• Dia 22: "Escuta isso" | Vídeo rápido | Texto grande\n• Dia 23: "Daqui a 5 anos" | Luxo/sucesso | Trabalho silencioso\n• Dia 24: "Enquanto você reclama" | Academia | Música épiсa\n• Dia 25: "Seu maior inimigo" | Close dramático | Frase pesada\n• Dia 26: "Desapareça por 6 meses" | Evolução silenciosa | Sigma edit\n• Dia 27: "Faça acontecer" | Motivação agressiva | Cortes rápidos\n• Dia 28: Repost dos melhores vídeos | Novo áudio | Novo gancho\n• Dia 29: Compilado cinematográfico | Frases virais | Edição intensa\n• Dia 30: "Você mudou" | Antes/depois emocional | CTA para seguir página'
+          ] },
+          { type: 'tips', title: '💡 Dicas Finais & Diretrizes para Crescer Rápido', items: [
+            '• Estilo Visual de Sucesso: Adote uma paleta Sigma / Dark, ou academia cinematográfica. Mantenha as imagens refinadas e a tipografia centralizada.',
+            '• Poste TODOS os dias de forma consistente (3x ao dia).',
+            '• Use legendas grandes, de leitura rápida e visual atraente.',
+            '• Faça cortes rápidos (ritmo de 1 a 2 segundos).',
+            '• Use voz fictícia ou IA lenta com pausas dramáticas expressivas.',
+            '• Reposte edições que floparam mudando a primeira cena ou gancho.',
+            '• Responda a comentários dos seus espectadores em formato de vídeo para expandir o engajamento.',
+            '• Mantenha o mesmo estilo visual de corte e coloração em todos os posts.',
+            '• Aplicativos e sites essenciais: capcut.com, tiktok.com, canva.com e elevenlabs.io.'
+          ] },
+          'Quer impulsionar ainda mais e obter lucros reais? Nosso Mentor IA pode desenvolver um cronograma estratégico exclusivo, detalhando exatamente como você pode converter essa audiência de forma unificada em vendas de afiliados ou infoprodutos próprios!'
+        ]
+      },
+      {
+        id: 'youtube_sigma_ideas_scripts',
+        title: '🎬 120 Ideias & 20 Roteiros Prontos',
+        content: [
+          'Aprimore seu canal com uma biblioteca massiva de conteúdo validado para viralizar no YouTube Shorts. Aqui você encontrará ideias organizadas por categoria e roteiros prontos para copiar de imediato.',
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 1-4)', items: [
+            '• Disciplina: Acordando às 5AM | Treinando na chuva | Estudando enquanto todos dormem | "Sem desculpas" | Rotina silenciosa | "Ninguém vai salvar você" | Trabalho duro invisível | Evolução em silêncio | "Continue cansado mesmo" | Fracasso → sucesso',
+            '• Sigma / Dark: Caminhando sozinho à noite | Luxo cinematográfico | "O topo é solitário" | Carro à noite + narração | "Mentalidade fria" | Close dramático no rosto | "Seja perigoso em silêncio" | Cidade escura + música lenta | "O mundo pertence aos obcecados" | "Sem emoção. Só resultados."',
+            '• Academia: Última repetição | Treino pesado | Corpo cansado | Corrida intensa | "Dor temporária" | Antes e depois | Academia vazia | Mãos machucadas | "Seu corpo aguenta mais" | Treino 4AM',
+            '• Emocional: Pessoa sozinha pensando | Chuva na janela | "Você sobreviveu" | "Seu momento vai chegar" | Memórias antigas | "Não desista agora" | Superação silenciosa | "Dias difíceis" | Música triste + esperança | Olhando a cidade do alto'
+          ] },
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 5-8)', items: [
+            '• Dinheiro & Sucesso: Trabalhando sozinho | Notebook + café | "Construa seu império" | Rotina produtiva | "Enquanto eles dormem…" | Trabalho noturno | "Seu futuro depende disso" | "Sem risco, sem vitória" | Escritório escuro | "Foco total"',
+            '• Estudos: Estudando tarde | Biblioteca silenciosa | Chuva + foco | "Seu esforço vale a pena" | Time lapse estudando | "Foque até conseguir" | Café + notebook | Mesa organizada | "Disciplina cria liberdade" | Rotina produtiva',
+            '• Frases Rápidas: "Continue." | "Acorda." | "Levante." | "Sem desculpas." | "Faça acontecer." | "Mais foco." | "O medo mente." | "Tudo depende de você." | "Seja imparável." | "Continue lutando."',
+            '• Viral Agressivo: "Pare de agir como vítima" | "Você está desperdiçando seu potencial" | "A preguiça destrói sonhos" | "Seu maior inimigo é você" | "Sem disciplina, sem respeito" | "Você quer conforto ou sucesso?" | "Pare de reclamar" | "Resultados exigem sacrifício" | "Seu futuro está observando" | "Faça o impossível virar rotina"'
+          ] },
+          { type: 'info', title: '💡 120 Ideias de Vídeos Motivacionais (Categorias 9-12)', items: [
+            '• Cinematográfico: Cidade neon | Corrida em câmera lenta | Chuva + música épica | Fumaça + luz baixa | Noite vazia | Reflexão no espelho | Trem/metrô sozinho | Close emocional | Luzes desfocadas | Estrada à noite',
+            '• Motivação Profunda: "A criança que você foi…" | "Ainda dá tempo" | "Você consegue sobreviver a isso" | "Sua dor tem propósito" | "Tudo muda quando você decide" | "Você não está atrasado" | "Seu espaço será recompensado" | "Respire e continue" | "Seu sonho merece esforço" | "Você ainda pode vencer"',
+            '• Ideias Extras POV: POV disciplina | POV sucesso | POV academia | POV solidão | POV rotina milionária | POV foco extremo | POV homem disciplinado | POV mentalidade forte | POV evolução silenciosa | POV comeback',
+            '• Estilo Shorts Viral: Texto grande + zoom lento | Música épica + frase curta | Narração IA lenta | Cortes rápidos | Tela escura + frase branca | Edit sigma | Glow cinematográfico | Efeito VHS | Slow motion emocional | Final impactante'
+          ] },
+          { type: 'steps', title: '🎙️ 20 Scripts Virais Prontos para Copiar (1 a 10)', items: [
+            'Script 1: “Ninguém vai aparecer para mudar sua vida. O dia que você entender isso… tudo muda.”',
+            'Script 2: “Enquanto você reclama da vida… alguém está trabalhando silenciosamente.”',
+            'Script 3: “Daqui a um ano… você vai agradecer por não ter desistido hoje.”',
+            'Script 4: “A disciplina vai te levar para lugares que a motivação nunca conseguiu.”',
+            'Script 5: “Você quer mudar de vida? Então pare de fugir do desconforto.”',
+            'Script 6: “Seu maior inimigo é a versão de você que continua desistindo.”',
+            'Script 7: “A dor passa. O orgulho de vencer fica.”',
+            'Script 8: “Construa em silêncio. E surpreenda todos.”',
+            'Script 9: “Você não está cansado. Está distraído.”',
+            'Script 10: “Tudo muda quando você decide não voltar atrás.”'
+          ] },
+          { type: 'steps', title: '🎙️ 20 Scripts Virais Prontos para Copiar (11 a 20)', items: [
+            'Script 11: “Se fosse fácil… todos venceriam.”',
+            'Script 12: “A mente desiste antes do corpo.”',
+            'Script 13: “Seu futuro depende das decisões que você toma hoje.”',
+            'Script 14: “O sucesso exige algo raro: consistência.”',
+            'Script 15: “Faça mesmo sem vontade.”',
+            'Script 16: “Seu sonho merece esforço.”',
+            'Script 17: “A pressão cria pessoas imparáveis.”',
+            'Script 18: “Continue em silêncio.”',
+            'Script 19: “Você sobreviveu a todos os seus piores dias.”',
+            'Script 20: “Pare de esperar o momento perfeito.”'
+          ] },
+          { type: 'tips', title: '💸 Plano de Monetização Estratégico para YouTube Shorts', items: [
+            '• AdSense de Shorts: Monetização nativa baseada em visualizações de Shorts qualificados via Fundo do Shorts e anúncios inter-Shorts.',
+            '• Venda de Infoprodutos via Primeiro Comentário Fixado: Fixe comentários magnéticos apontando para seu infoproduto de alto valor sobre disciplina extrema ou desenvolvimento pessoal.',
+            '• Vídeos Longos de Compilado / Música Low-fi Sigma: Ganhe muito mais AdSense convencional atraindo seu público do Shorts para vídeos longos de 1 hora de música para treinar ou estudar focado.',
+            '• Clubes de Membros: Ofereça acesso a rotinas diárias e comunidades exclusivas de "Alpha Disciplined".'
+          ] },
+          'Aplicativos ideais para edição: capcut.com, canva.com, youtube.com e elevenlabs.io para locuções perfeitas do estilo Sigma/Dark/Cinematográfico.'
+        ]
+      },
+      {
+        id: 'youtube_ai_prompts_structure',
+        title: '🔮 Prompts de IA & Estrutura Viral para Shorts',
+        content: [
+          'Gere clipes cinematográficos de tirar o fôlego usando Inteligência Artificial de última geração. Otimize sua retenção e engajamento seguindo as diretrizes exatas de retenção no YouTube Shorts:',
+          { type: 'info', title: '🛠️ Ferramentas Recomendadas', items: [
+            '• runwayml.com (Geração de vídeo realista a partir de texto/imagem)',
+            '• pika.art (Animações fluidas e efeitos direcionais completos)',
+            '• lumalabs.io (Cenas em 3D e renderizações hiper-realistas para Reels/Shorts)',
+            '• kaiber.ai (Estilização artística e transformações estilísticas pesadas)'
+          ] },
+          { type: 'list', title: '🎬 Primorosos Prompts de Vídeo & Roteiros de Áudio', items: [
+            '• Prompt 1 — Sigma na Cidade:\n"Cinematic lonely man walking through a dark neon city at night, rain falling, dramatic lighting, slow motion, emotional atmosphere, realistic, moody shadows, cinematic camera movement, TikTok motivation style, ultra detailed"\n→ Narração: "O topo é solitário."',
+            '• Prompt 2 — Academia Pesada:\n"Intense gym training cinematic scene, muscular athlete training alone, sweat, dark gym lighting, dramatic shadows, slow motion workout, gritty atmosphere, motivational cinematic style"\n→ Narração: "A dor constrói pessoas fortes."',
+            '• Prompt 3 — Trabalho Silencioso:\n"Young entrepreneur working alone at night, laptop glow, rainy window, dark cinematic room, emotional atmosphere, realistic lighting, productivity aesthetic, cinematic focus"\n→ Narração: "Construa em silêncio."',
+            '• Prompt 4 — Corrida na Chuva:\n"Athlete running in heavy rain at night, dramatic cinematic lighting, slow motion water splashes, emotional determination, dark atmosphere, ultra realistic, inspirational sports film look"\n→ Narração: "Continue mesmo cansado."',
+            '• Prompt 5 — Emocional Profundo:\n"Sad emotional young man sitting alone in dark room, rain outside window, cinematic shadows, deep emotional atmosphere, realistic film look, slow camera movement, motivational aesthetic"\n→ Narração: "Você sobreviveu até aqui."',
+            '• Prompt 6 — Luxo Sigma:\n"Luxury cinematic lifestyle, black suit, night drive in sports car, neon reflections, dark luxury atmosphere, confident sigma male energy, ultra realistic cinematic look"\n→ Narração: "Sem emoção. Só resultados."'
+          ] },
+          { type: 'info', title: '💡 Ideias Temáticas Focadas para Shorts', items: [
+            '• Shorts Motivativos: "Ninguém vai salvar você" | "Acorda" | "Seu futuro depende disso" | "Faça mesmo sem vontade" | "Disciplina cria liberdade"',
+            '• Shorts Cinematográficos: Cidade escura + narração | Chuva + câmera lenta | Música épica + frases | Sigma aesthetic | Luxo cinematográfico',
+            '• Shorts Virais: "Você está desperdiçando potencial" | "Enquanto você dorme…" | "Seu maior inimigo é você" | "A pressão cria monstros" | "Tudo muda quando você decide"'
+          ] },
+          { type: 'steps', title: '⏳ Estrutura Perfeita para Shorts (0-20 segundos)', items: [
+            '0–2 segundos | 🪝 Gancho:\n“Escuta isso.” (Capte a atenção imediatamente com texto grande e impacto visual)',
+            '3–10 segundos | ⚡ Dor:\n“Você está preso ao conforto.” (Conecte-se com o sentimento de estagnação do espectador)',
+            '11–20 segundos | 🔄 Virada:\n“Mas ainda dá tempo.” (Injete esperança com uma mudança de tom ou música)',
+            'Final | 💥 Impacto & Chamada:\n“Comece hoje.” (Encerre com uma frase forte que incentive a ação imediata)'
+          ] },
+          { type: 'tips', title: '📈 Dicas Áureas para Viralizar em Shorts', items: [
+            '• Mantenha os vídeos estritamente entre 15 e 30 segundos de duração.',
+            '• Adote legendas grandes, de leitura limpa e visual refinado direto na tela.',
+            '• Aplique música emotiva ou épica de fundo para conectar-se com o usuário.',
+            '• Use locuções com voz de IA lenta e imponente via elevenlabs.io, capcut.com ou youtube.com.',
+            '• Efetue cortes rápidos (a cada 1 ou 2 segundos) para garantir fluxo constante.',
+            '• Adote fielmente o estilo visual Dark Cinematic ou Emocional em 100% das postagens.',
+            '• Mantenha a frequência ideal de postagens diárias constantes.'
           ] }
         ]
       }

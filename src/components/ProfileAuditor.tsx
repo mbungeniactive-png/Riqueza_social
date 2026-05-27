@@ -59,7 +59,37 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
   const [loadingStep, setLoadingStep] = useState('');
   const [report, setReport] = useState<AuditReport | null>(null);
   const [activeSection, setActiveSection] = useState<'all' | 'bio' | 'branding' | 'content' | 'cta'>('all');
-  
+  const [showHistoryMenu, setShowHistoryMenu] = useState(false);
+
+  // Load audit history from local storage
+  const [history, setHistory] = useState<Array<{ id: string; url: string; timestamp: string; report: AuditReport }>>(() => {
+    try {
+      const saved = localStorage.getItem('profile_audit_history');
+      return saved ? JSON.parse(saved) : [];
+    } catch (e) {
+      return [];
+    }
+  });
+
+  const saveToHistory = (url: string, newReport: AuditReport) => {
+    setHistory(prev => {
+      const filtered = prev.filter(item => item.url.toLowerCase() !== url.toLowerCase());
+      const newAudit = {
+        id: Date.now().toString(),
+        url,
+        timestamp: new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }),
+        report: newReport
+      };
+      const updated = [newAudit, ...filtered].slice(0, 3);
+      try {
+        localStorage.setItem('profile_audit_history', JSON.stringify(updated));
+      } catch (e) {
+        console.error(e);
+      }
+      return updated;
+    });
+  };
+
   // Accordion state
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
     bio: true,
@@ -114,6 +144,7 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
 
       const data = await response.json();
       setReport(data);
+      saveToHistory(profileUrl, data);
       showToast('Auditoria de Perfil IA gerada com sucesso!', 'success');
     } catch (err: any) {
       clearInterval(stepInterval);
@@ -122,7 +153,7 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
       
       // Smart offline fallback to never leave user hanging
       setTimeout(() => {
-        setReport({
+        const fallbackData = {
           score: 74,
           platform: profileUrl.toLowerCase().includes('tiktok') ? 'TikTok' : profileUrl.toLowerCase().includes('instagram') ? 'Instagram' : profileUrl.toLowerCase().includes('youtube') ? 'YouTube' : 'Rede Social',
           bioAnalysis: {
@@ -160,7 +191,9 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
             "Modifique a legenda de chamada das próximas 3 postagens aplicando o novo CTA.",
             "Grave o vídeo do tutorial de 40s sugerido na seção de estratégia."
           ]
-        });
+        };
+        setReport(fallbackData);
+        saveToHistory(profileUrl, fallbackData);
       }, 800);
     } finally {
       setIsLoading(false);
@@ -189,19 +222,123 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
   return (
     <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-white/5 rounded-[32px] p-6 shadow-sm space-y-6" id="profile_auditor_container">
       {/* Header Info */}
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="p-2.5 bg-indigo-500/10 text-indigo-600 rounded-xl">
+          <div className="p-2.5 bg-indigo-500/10 text-indigo-600 rounded-xl shrink-0">
             <Sparkles className="w-5 h-5 text-indigo-600" />
           </div>
           <div>
-            <h3 className="font-extrabold text-sm text-slate-900 dark:text-white leading-none">Auditoria de Perfil IA</h3>
+            <div className="flex items-center gap-2 flex-wrap">
+              <h3 className="font-extrabold text-sm text-slate-900 dark:text-white leading-none">Auditoria de Perfil IA</h3>
+              
+              {/* History Pills & Dropdown */}
+              {history.length > 0 && (
+                <div className="relative inline-block text-left" id="audit_history_dropdown">
+                  <button
+                    type="button"
+                    onClick={() => setShowHistoryMenu(!showHistoryMenu)}
+                    className="flex items-center gap-1.5 px-2.5 py-1 bg-slate-50 dark:bg-white/5 text-slate-650 dark:text-slate-300 text-[10px] font-bold rounded-lg border border-slate-200/40 hover:bg-slate-100 dark:hover:bg-white/10 transition-all cursor-pointer"
+                  >
+                    <Clock className="w-3 h-3 text-indigo-500" />
+                    <span>Histórico ({history.length})</span>
+                    <ChevronDown className={`w-3 h-3 transition-transform ${showHistoryMenu ? 'rotate-180' : ''}`} />
+                  </button>
+
+                  {showHistoryMenu && (
+                    <>
+                      <div className="fixed inset-0 z-10" onClick={() => setShowHistoryMenu(false)} />
+                      <div className="absolute left-0 mt-1.5 w-64 bg-white dark:bg-slate-950 border border-slate-250/30 dark:border-white/10 rounded-xl shadow-lg z-20 py-1.5 animate-in fade-in slide-in-from-top-1 duration-150">
+                        <p className="px-3 py-1.5 text-[9px] font-black tracking-wider text-slate-400 uppercase border-b border-slate-100 dark:border-white/5 mb-1">Últimas 3 Auditorias</p>
+                        {history.map((item) => {
+                          let label = item.url;
+                          try {
+                            const urlObj = new URL(item.url);
+                            label = urlObj.pathname.replace(/^\//, '') || urlObj.hostname;
+                            if (label.length > 25) {
+                              label = label.substring(0, 25) + '...';
+                            }
+                          } catch (e) {
+                            if (label.length > 25) {
+                              label = label.substring(0, 25) + '...';
+                            }
+                          }
+                          const isCurrent = report?.bioAnalysis.suggestedBio === item.report.bioAnalysis.suggestedBio && report?.score === item.report.score;
+                          
+                          return (
+                            <button
+                              key={item.id}
+                              type="button"
+                              onClick={() => {
+                                setReport(item.report);
+                                setProfileUrl(item.url);
+                                setShowHistoryMenu(false);
+                                showToast(`Alternou para auditoria de ${item.url}`, 'info');
+                              }}
+                              className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-50 dark:hover:bg-white/5 transition-all text-slate-755 dark:text-slate-300 font-bold ${isCurrent ? 'bg-indigo-500/5 text-indigo-650 dark:text-indigo-400 font-black' : ''}`}
+                            >
+                              <span className="truncate max-w-[150px]">{label || item.url}</span>
+                              <div className="flex items-center gap-1.5 shrink-0">
+                                <span className={`text-[9px] px-1.5 py-0.5 rounded font-black ${getScoreColorClass(item.report.score)}`}>
+                                  {item.report.score}
+                                </span>
+                                <span className="text-[9px] text-slate-400 font-normal font-mono">{item.timestamp}</span>
+                              </div>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </>
+                  )}
+                </div>
+              )}
+            </div>
             <p className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase mt-1">Análise de Bio, Estilo e Oportunidades</p>
           </div>
         </div>
-        <span className="text-[9px] font-black uppercase text-indigo-500 bg-indigo-500/10 dark:bg-indigo-500/20 px-2.5 py-1 rounded-full animate-pulse">
-          PRO ATIVO
-        </span>
+        <div className="flex items-center gap-2 self-start sm:self-auto">
+          {/* Quick inline badges for desktop */}
+          {history.length > 0 && (
+            <div className="hidden lg:flex items-center gap-1.5 font-sans" id="audit_history_quick_badges">
+              {history.map((item) => {
+                let label = item.url;
+                try {
+                  const cleanUrl = item.url.replace(/^https?:\/\/(www\.)?/, '');
+                  label = cleanUrl.split('/')[1] || cleanUrl.split('/')[0] || cleanUrl;
+                  if (label.length > 15) {
+                    label = label.substring(0, 15) + '...';
+                  }
+                } catch (e) {}
+                const isCurrent = report?.bioAnalysis.suggestedBio === item.report.bioAnalysis.suggestedBio && report?.score === item.report.score;
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    onClick={() => {
+                      setReport(item.report);
+                      setProfileUrl(item.url);
+                      showToast(`Restaurou perfil: ${label}`, 'success');
+                    }}
+                    className={`px-2 py-1 rounded-lg text-[10px] font-extrabold border transition-all flex items-center gap-1.5 shrink-0 ${
+                      isCurrent 
+                        ? 'bg-indigo-500/10 text-indigo-650 dark:text-indigo-400 border-indigo-500/30' 
+                        : 'bg-slate-50 dark:bg-white/5 text-slate-500 border-slate-200/50 dark:border-white/10 hover:border-slate-350 dark:hover:border-white/30'
+                    }`}
+                  >
+                    <span className="truncate max-w-[100px]">{label}</span>
+                    <span className={`text-[8.5px] px-1 rounded font-black ${
+                      item.report.score >= 75 ? 'bg-emerald-500/15 text-emerald-500' : 'bg-amber-500/15 text-amber-500'
+                    }`}>
+                      {item.report.score}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
+          <span className="text-[9px] font-black uppercase text-indigo-500 bg-indigo-500/10 dark:bg-indigo-500/20 px-2.5 py-1 rounded-full animate-pulse">
+            PRO ATIVO
+          </span>
+        </div>
       </div>
 
       <p className="text-xs text-slate-500 leading-relaxed font-semibold">
@@ -264,14 +401,20 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
       <AnimatePresence>
         {report && (
           <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className="space-y-6 pt-2 text-left"
             id="audit_report_display"
           >
             {/* Main Score Hero Card */}
-            <div className="bg-slate-900 dark:bg-black/40 border border-slate-800 dark:border-white/5 rounded-[24px] p-5 relative overflow-hidden text-white flex flex-col md:flex-row items-center gap-5">
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut", delay: 0.05 }}
+              className="bg-slate-900 dark:bg-black/40 border border-slate-800 dark:border-white/5 rounded-[24px] p-5 relative overflow-hidden text-white flex flex-col md:flex-row items-center gap-5"
+            >
               <div className="absolute -right-5 -bottom-5 w-40 h-40 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
               
               {/* Radial or gauge score display */}
@@ -290,10 +433,15 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
                   Identificamos oportunidades de otimização crítica que podem aumentar suas conversões em até 40% nas próximas postagens.
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Accordions detailed segments */}
-            <div className="space-y-3">
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut", delay: 0.15 }}
+              className="space-y-3"
+            >
               <h5 className="text-[10px] font-black uppercase text-slate-400 tracking-wider">DETALHES DA ANÁLISE COMPLETA:</h5>
               
               {/* Section 1: Bio */}
@@ -403,7 +551,7 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
                       <span className="text-[10px] font-black text-indigo-500 block uppercase">💡 Ideias de Posts de Alta Conversão Criados para Você:</span>
                       <div className="space-y-2">
                         {report.contentStrategy.postIdeas.map((idea, i) => (
-                          <div key={i} className="p-2.5 bg-slate-50 dark:bg-black/20 border border-slate-200/50 dark:border-white/5 rounded-xl font-bold text-slate-700 dark:text-slate-350">
+                           <div key={i} className="p-2.5 bg-slate-50 dark:bg-black/20 border border-slate-200/50 dark:border-white/5 rounded-xl font-bold text-slate-700 dark:text-slate-350">
                             {idea}
                           </div>
                         ))}
@@ -452,10 +600,15 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
                   </div>
                 )}
               </div>
-            </div>
+            </motion.div>
 
             {/* General Highlights (PROS) */}
-            <div className="bg-emerald-500/5 border border-emerald-500/15 rounded-2xl p-4 space-y-2">
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut", delay: 0.25 }}
+              className="bg-emerald-500/5 border border-emerald-500/15 rounded-2xl p-4 space-y-2"
+            >
               <span className="text-[10px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-widest flex items-center gap-1">
                 <ShieldCheck className="w-3.5 h-3.5" /> Destaques Fortes do Perfil
               </span>
@@ -466,10 +619,15 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
                   </li>
                 ))}
               </ul>
-            </div>
+            </motion.div>
 
             {/* Clear urgent next steps */}
-            <div className="bg-indigo-500/5 border border-indigo-500/15 rounded-2xl p-4 space-y-3">
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut", delay: 0.35 }}
+              className="bg-indigo-500/5 border border-indigo-500/15 rounded-2xl p-4 space-y-3"
+            >
               <span className="text-[10px] font-black text-indigo-600 dark:text-indigo-400 uppercase tracking-widest flex items-center gap-1.5">
                 <Flame className="w-4 h-4 text-orange-500" /> O que fazer ainda hoje (Passos Práticos)
               </span>
@@ -483,7 +641,7 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
                   </div>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
