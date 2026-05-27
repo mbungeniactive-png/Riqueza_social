@@ -5,6 +5,7 @@ import {
   Flame,
   Instagram, 
   Youtube, 
+  Facebook,
   TrendingUp, 
   ArrowRight,
   LogOut,
@@ -49,6 +50,7 @@ import { auth } from '../lib/firebase';
 
 import { ZeroToHeroModal } from './ZeroToHeroModal';
 import { TermsOfUseModal } from './TermsOfUseModal';
+import { DailyMotivationModal } from './DailyMotivationModal';
 import { TipFeed } from './TipFeed';
 import { ToolsPanel } from './ToolsPanel';
 import { SavedCentral } from './SavedCentral';
@@ -97,6 +99,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [showPrivacyModal, setShowPrivacyModal] = React.useState(false);
   const [showTermsModal, setShowTermsModal] = React.useState(false);
   const [showZeroModal, setShowZeroModal] = React.useState(false);
+  const [showDailyMotivation, setShowDailyMotivation] = React.useState(false);
   const [activeTab, setActiveTab] = React.useState<'home' | 'feed' | 'tools' | 'saved'>('home');
 
   // Profit Calculator Sliders
@@ -134,6 +137,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
     ];
     const randomIndex = Math.floor(Math.random() * quotes.length);
     setDailyQuote(quotes[randomIndex]);
+
+    // Daily motivation check-in popup once per day
+    const lastPromptDate = localStorage.getItem('last_motivation_prompt_date');
+    const todayStr = new Date().toDateString();
+    if (lastPromptDate !== todayStr) {
+      setTimeout(() => {
+        setShowDailyMotivation(true);
+      }, 1200); // Gentle delay for amazing UX
+      localStorage.setItem('last_motivation_prompt_date', todayStr);
+    }
   }, []);
 
   const handleToggleChecklist = (day: string, hour: string) => {
@@ -677,10 +690,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
         <div className={`transition-all duration-300 ease-in-out origin-top overflow-hidden ${
           isScrolled ? 'max-h-0 opacity-0 mb-0 scale-95 pointer-events-none' : 'max-h-28 opacity-100 mb-6 scale-100'
         }`}>
-          <h2 className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest mb-1">{t('dashboard.welcome')}</h2>
-          <h1 className="text-3xl font-black text-slate-900 dark:text-white tracking-tight">
-            {userName || 'Investidor'}!
-          </h1>
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest mb-1">{t('dashboard.welcome')}</h2>
+              <h1 className="text-3xl font-black text-slate-900 dark:text-white tracking-tight">
+                {userName || 'Investidor'}!
+              </h1>
+            </div>
+            
+            {/* Quick Check-in Access Badge */}
+            <button
+              onClick={() => setShowDailyMotivation(true)}
+              className="px-3.5 py-2 bg-gradient-to-r from-amber-500/10 to-orange-500/10 hover:from-amber-500/20 hover:to-orange-500/20 text-amber-600 dark:text-amber-400 text-[10px] font-black uppercase tracking-wider rounded-2xl border border-amber-500/20 dark:border-amber-500/10 transition-all active:scale-95 flex items-center gap-1.5 shadow-sm shrink-0"
+              id="dashboard_checkin_quick_btn"
+            >
+              <Flame className="w-3.5 h-3.5 animate-pulse text-orange-500" />
+              <span>Check-in</span>
+            </button>
+          </div>
         </div>
 
         <div className="relative">
@@ -1191,6 +1218,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
       {/* Zero to Hero Manual Modal Overlay */}
       <ZeroToHeroModal isOpen={showZeroModal} onClose={() => setShowZeroModal(false)} />
 
+      {/* Daily Motivation & Routine Check-in Modal */}
+      <DailyMotivationModal isOpen={showDailyMotivation} onClose={() => setShowDailyMotivation(false)} userName={userName} />
+
       {/* Terms Of Use Modal Overlay */}
       <TermsOfUseModal isOpen={showTermsModal} onClose={() => setShowTermsModal(false)} />
 
@@ -1250,7 +1280,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </h4>
 
                     {/* Highly organized presentation of link and number */}
-                    <div className="inline-flex flex-col items-center gap-1 px-3 py-1.5 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-white/5 shadow-sm">
+                    <div className="inline-flex flex-col items-center gap-1 px-3 py-1.5 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-white/5 shadow-sm w-full">
                       <span className="text-[10px] text-slate-400">WhatsApp Oficial:</span>
                       <a 
                         href="https://wa.me/258878848277" 
@@ -1263,25 +1293,57 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </div>
                   </div>
 
+                  {/* Facebook Info Box */}
+                  <div className="bg-blue-50 dark:bg-blue-500/5 border border-blue-100 dark:border-blue-500/10 rounded-[20px] p-4 text-center space-y-3">
+                    <p className="text-slate-400 dark:text-blue-400/80 text-[10px] font-black uppercase tracking-widest leading-none">
+                      PÁGINA DO FACEBOOK
+                    </p>
+                    
+                    <h4 className="font-black text-slate-800 dark:text-blue-100 text-sm leading-snug">
+                      Fale conosco ou siga nossa página oficial
+                    </h4>
+
+                    <div className="inline-flex flex-col items-center gap-1 px-3 py-1.5 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-white/5 shadow-sm w-full">
+                      <span className="text-[10px] text-slate-400">Facebook Oficial:</span>
+                      <a 
+                        href="https://www.facebook.com/share/1CZh4awA8s/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="font-mono text-[11px] text-blue-600 dark:text-blue-400 font-black hover:underline truncate max-w-full block"
+                      >
+                        facebook.com/share/1CZh4awA8s/
+                      </a>
+                    </div>
+                  </div>
+
                   {/* Actions */}
                   <div className="space-y-2">
                     <a
                       href="https://wa.me/258878848277"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full py-3 text-center block bg-emerald-500 hover:bg-emerald-600 active:scale-[0.98] text-white font-extrabold rounded-2xl transition-all shadow-md shadow-emerald-500/15 text-xs"
+                      className="w-full py-3 text-center flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 active:scale-[0.98] text-white font-extrabold rounded-2xl transition-all shadow-md shadow-emerald-500/15 text-xs"
                     >
-                      Conversar no WhatsApp
+                      <Phone className="w-4 h-4" /> Conversar no WhatsApp
+                    </a>
+
+                    <a
+                      href="https://www.facebook.com/share/1CZh4awA8s/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full py-3 text-center flex items-center justify-center gap-2 bg-[#1877F2] hover:bg-[#166FE5] active:scale-[0.98] text-white font-extrabold rounded-2xl transition-all shadow-md shadow-blue-500/15 text-xs"
+                    >
+                      <Facebook className="w-4 h-4" /> Visitar Facebook
                     </a>
 
                     <button
                       onClick={() => {
-                        navigator.clipboard.writeText('https://wa.me/258878848277');
-                        showToast('Link do WhatsApp copiado!');
+                        navigator.clipboard.writeText('https://www.facebook.com/share/1CZh4awA8s/');
+                        showToast('Link do Facebook copiado!');
                       }}
                       className="w-full py-3 bg-slate-50 dark:bg-white/5 hover:bg-slate-100 dark:hover:bg-white/10 text-slate-700 dark:text-slate-200 text-xs font-bold rounded-2xl transition-all border border-slate-100 dark:border-white/5 active:scale-[0.98]"
                     >
-                      Copiar Link de Contato
+                      Copiar Link do Facebook
                     </button>
                     
                     <button

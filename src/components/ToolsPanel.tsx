@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Calendar, DollarSign, Sliders, CheckSquare, Copy, ClipboardList, Target, Flame, Lightbulb } from 'lucide-react';
+import { ProfileAuditor } from './ProfileAuditor';
 
 interface ToolsPanelProps {
   showToast: (msg: string, type?: 'success' | 'info' | 'error') => void;
@@ -222,6 +223,9 @@ export const ToolsPanel: React.FC<ToolsPanelProps> = ({ showToast }) => {
           <span className="text-2xl animate-spin">🚀</span>
         </div>
       </div>
+
+      {/* 1.5. Auditoria de Perfil IA */}
+      <ProfileAuditor showToast={showToast} />
 
       {/* 2. Gerador de Roteiros e Ideias */}
       <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-white/5 rounded-[32px] p-6 shadow-sm space-y-6">

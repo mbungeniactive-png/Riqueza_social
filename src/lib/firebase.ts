@@ -57,6 +57,10 @@ export function handleFirestoreError(error: any, operationType: OperationType, p
   }
   
   console.error('Firestore Error Detailed: ', JSON.stringify(errInfo, null, 2));
+  if (operationType === OperationType.LIST) {
+    // Return early without throwing to prevent uncaught subscription exceptions from crashing React/component hierarchy
+    return;
+  }
   throw new Error(JSON.stringify(errInfo));
 }
 

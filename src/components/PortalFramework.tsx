@@ -4,7 +4,8 @@ import {
   X, Info, Shield, Mail, HelpCircle, FileText, Globe, 
   Terminal, Award, Star, Activity, Sparkles, TrendingUp, 
   Eye, Zap, Star as StarIcon, Heart, Send, Bell, Code, Clock, 
-  CheckCircle2, AlertTriangle, ExternalLink, RefreshCw, ThumbsUp, DollarSign, Bookmark
+  CheckCircle2, AlertTriangle, ExternalLink, RefreshCw, ThumbsUp, DollarSign, Bookmark,
+  Facebook
 } from 'lucide-react';
 import { useToast } from './Toast';
 import { AppLogo } from './AppLogo';
@@ -473,6 +474,12 @@ export const PortalFramework: React.FC<PortalFrameworkProps> = ({
                           +258 87 884 8277 <ExternalLink className="w-3 h-3" />
                         </a>
                       </div>
+                      <div className="p-2.5 bg-white dark:bg-black/30 rounded-xl border border-slate-200 dark:border-white/5 flex flex-col gap-0.5">
+                        <span className="text-slate-400">Perfil do Facebook Oficial:</span>
+                        <a href="https://www.facebook.com/share/1CZh4awA8s/" target="_blank" rel="noopener noreferrer" className="font-bold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-1 font-mono break-all">
+                          facebook.com/share/1CZh4awA8s/ <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 )}
@@ -881,7 +888,7 @@ export const PortalFramework: React.FC<PortalFrameworkProps> = ({
                   <h5 className="font-bold text-xs">Informações Legais Atuais:</h5>
                   <p className="text-xs text-slate-500 leading-relaxed font-semibold">
                     {selectedLegalPage === 'sobre' && "MoneyNet AI é uma plataforma de educação empreendedora inovadora que consolida conteúdos gratuitos de redes sociais (TikTok, Reels, Shorts)."}
-                    {selectedLegalPage === 'contato' && "E-mail: suporte@moneynet.ai ou WhatsApp: +258 87 884 8277."}
+                    {selectedLegalPage === 'contato' && "E-mail: suporte@moneynet.ai, WhatsApp: +258 87 884 8277 ou Facebook: facebook.com/share/1CZh4awA8s/."}
                     {selectedLegalPage === 'privacidade' && "Este app respeita as diretrizes de privacidade e LGPD, não compartilhando dados de links ou favoritos com terceiros."}
                     {selectedLegalPage === 'termos' && "Não garantimos dinheiro mágico rápida. A consistência dos ganchos e da edição determinam o ritmo orgânico de views."}
                     {selectedLegalPage === 'transparencia' && "Anúncios são veiculados de forma ética para cobrir os custos e o motor de Inteligência Artificial da MoneyNet."}

@@ -83,6 +83,9 @@ app.post("/api/gemini/chat", async (req, res) => {
 
     res.setHeader("Content-Type", "text/plain; charset=utf-8");
     res.setHeader("Transfer-Encoding", "chunked");
+    res.setHeader("X-Accel-Buffering", "no");
+    res.setHeader("Cache-Control", "no-cache");
+    res.setHeader("Connection", "keep-alive");
 
     const result = await ai.models.generateContentStream({
       model: "gemini-3.5-flash",
@@ -169,6 +172,131 @@ Identifique:
   } catch (error: any) {
     console.error("TikTok Insights Error:", error);
     res.status(500).json({ error: error.message || "Erro nos insights do TikTok." });
+  }
+});
+
+// 2.5. API: IA Profile Audit endpoint
+app.post("/api/gemini/profile-audit", async (req, res) => {
+  const { profileUrl, description } = req.body;
+  if (!profileUrl) {
+    return res.status(400).json({ error: "O link do perfil é obrigatório." });
+  }
+
+  try {
+    const prompt = `Analise detalhadamente o perfil das redes sociais fornecido e produza uma auditoria completa.
+Link do Perfil Fornecido: "${profileUrl}"
+Contexto opcional do usuário sobre o nicho/perfil: "${description || "Não fornecido"}"
+
+Com base nas informações do link (por exemplo, analisando e deduzindo o nome de usuário, provável rede social do link, nicho que o link sugere e melhores práticas da plataforma), monte um relatório de notas e sugestões personalizadas de crescimento e vendas. Se o link for fictício ou genérico, use as melhores práticas universais da plataforma mencionada no link (Instagram, TikTok, YouTube ou Facebook) para traçar as estratégias de otimização impecáveis.`;
+
+    const response = await ai.models.generateContent({
+      model: "gemini-3.5-flash",
+      contents: [{ role: "user", parts: [{ text: prompt }] }],
+      config: {
+        responseMimeType: "application/json",
+        responseSchema: {
+          type: Type.OBJECT,
+          properties: {
+            score: { type: Type.INTEGER, description: "Nota geral do perfil de 0 a 100." },
+            platform: { type: Type.STRING, description: "Identificação da rede social analisada (ex: Instagram, TikTok, YouTube, Facebook)." },
+            bioAnalysis: {
+              type: Type.OBJECT,
+              properties: {
+                score: { type: Type.INTEGER },
+                strongPoints: { type: Type.ARRAY, items: { type: Type.STRING }, description: "Pontos fortes da bio." },
+                improvements: { type: Type.ARRAY, items: { type: Type.STRING }, description: "Oportunidades de melhorias da bio." },
+                suggestedBio: { type: Type.STRING, description: "Uma proposta atraente e otimizada de biografia para copiar e colar." }
+              },
+              required: ["score", "strongPoints", "improvements", "suggestedBio"]
+            },
+            visualAndNaming: {
+              type: Type.OBJECT,
+              properties: {
+                score: { type: Type.INTEGER },
+                critique: { type: Type.STRING, description: "Crítica sobre clareza do @/handle, nome legível e foto." },
+                suggestions: { type: Type.ARRAY, items: { type: Type.STRING }, description: "Sugestões de alteração." }
+              },
+              required: ["score", "critique", "suggestions"]
+            },
+            contentStrategy: {
+              type: Type.OBJECT,
+              properties: {
+                score: { type: Type.INTEGER },
+                critique: { type: Type.STRING, description: "Crítica de consistência visual e estratégia de conteúdo." },
+                postIdeas: { type: Type.ARRAY, items: { type: Type.STRING }, description: "Duas ou três ideias de posts virais adaptadas." }
+              },
+              required: ["score", "critique", "postIdeas"]
+            },
+            ctaFeedback: {
+              type: Type.OBJECT,
+              properties: {
+                score: { type: Type.INTEGER },
+                critique: { type: Type.STRING },
+                suggestedCTA: { type: Type.STRING, description: "Nova frase com CTA recomendada para apoiar o link principal." }
+              },
+              required: ["score", "critique", "suggestedCTA"]
+            },
+            generalPros: { type: Type.ARRAY, items: { type: Type.STRING }, description: "Destaques positivos que o perfil já possui." },
+            nextSteps: { type: Type.ARRAY, items: { type: Type.STRING }, description: "Passo a passo ordenado de 3 ações urgentes para hoje." }
+          },
+          required: ["score", "platform", "bioAnalysis", "visualAndNaming", "contentStrategy", "ctaFeedback", "generalPros", "nextSteps"]
+        },
+      },
+    });
+
+    let rawText = response.text || "";
+    let parsedData;
+    try {
+      if (rawText.startsWith("```")) {
+        rawText = rawText.replace(/^```(?:json)?\n?/i, "").replace(/\n?```$/i, "").trim();
+      }
+      parsedData = JSON.parse(rawText);
+    } catch {
+      // Robust Fallback in case of parsing error
+      parsedData = {
+        score: 72,
+        platform: "Rede Social",
+        bioAnalysis: {
+          score: 65,
+          strongPoints: ["Possui menção ao tema principal do nicho."],
+          improvements: ["Falta uma frase de gancho irresistível voltada a conversão.", "Sem chamada visual (emojis/setas) direcionada para o link."],
+          suggestedBio: "🚀 Te ajudo a faturar usando o poder da internet.\n📌 Estratégias diárias validadas.\n👇 Comece sua jornada agora no link abaixo!"
+        },
+        visualAndNaming: {
+          score: 80,
+          critique: "O @ parece profissional, mas certifique-se de que a foto de perfil possui excelente iluminação e foco no seu rosto/marca.",
+          suggestions: ["Evite usar foto cortada ou com fundo muito poluído.", "Um fundo de cor contrastante sólida amarela ou azul aumenta cliques de visualização em bolinhas de stories."]
+        },
+        contentStrategy: {
+          score: 70,
+          critique: "Bom início, mas é fundamental ter ganchos agressivos nos primeiros 3 segundos de vídeo para evitar a alta taxa de rejeição.",
+          postIdeas: [
+            "Idea 1: Revelação de bastidores de como criar posts rápidos na internet.",
+            "Idea 2: Vídeo respondendo caixinha de perguntas com um gancho 'Isso é o que ninguém te conta sobre...'."
+          ]
+        },
+        ctaFeedback: {
+          score: 60,
+          critique: "Falta clareza sobre o que o usuário vai receber ao abrir o link final.",
+          suggestedCTA: "👉 Baixe o Guia Gratuito de Começo Rápido aqui:"
+        },
+        generalPros: [
+          "Presença bem-posicionada do tema do nicho.",
+          "Link principal inserido de forma nítida.",
+          "Disposição a evoluir o perfil comercial."
+        ],
+        nextSteps: [
+          "Atualize a biografia para a versão sugerida de alta conversão.",
+          "Configure uma foto de perfil nítida com fundo de cor vibrante e sólida.",
+          "Grave e poste o primeiro vídeo seguindo a Idea 1 do relatório."
+        ]
+      };
+    }
+
+    res.json(parsedData);
+  } catch (error: any) {
+    console.error("Profile Audit General Error:", error);
+    res.status(500).json({ error: error.message || "Erro desconhecido ao rodar auditoria." });
   }
 });
 

@@ -382,8 +382,25 @@ export const ChatMentor: React.FC<ChatMentorProps> = ({ onBack, initialMessage, 
           }]);
         }
       }
-    } catch (err) {
-      console.error(err);
+    } catch (err: any) {
+      console.error("Chat communication errored:", err);
+      let errorText = "Desculpe, ocorreu um erro ao falar com o Mentor. Verifique sua conexão de internet e tente novamente.";
+      
+      const errMsg = err?.message || String(err);
+      if (errMsg.includes("500") || errMsg.includes("Key") || errMsg.includes("Chave") || errMsg.includes("API_KEY") || errMsg.includes("API key")) {
+        errorText = "⚠️ Atenção: Não foi possível obter resposta. A sua Chave de API do Gemini no servidor pode não estar configurada nas Configurações da plataforma ou sua quota esgotou.";
+      } else if (errMsg.includes("404") || errMsg.includes("not found")) {
+        errorText = "⚠️ Erro de endpoint: O servidor do Mentor não pôde ser encontrado. Verifique se o servidor está rodando.";
+      } else {
+        errorText = `⚠️ Erro na comunicação: ${errMsg}`;
+      }
+
+      setMessages(prev => [...prev, {
+        id: 'err-' + Date.now(),
+        role: 'model',
+        content: errorText,
+        timestamp: { seconds: Date.now() / 1000 } as any
+      }]);
     } finally {
       setLoading(false);
       setStreamingText('');
