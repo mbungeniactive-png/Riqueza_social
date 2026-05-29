@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Sparkles, Calendar, DollarSign, Sliders, CheckSquare, Copy, ClipboardList, Target, Flame, Lightbulb } from 'lucide-react';
+import { Sparkles, Calendar, DollarSign, Sliders, CheckSquare, Copy, ClipboardList, Target, Flame, Lightbulb, Check } from 'lucide-react';
 import { ProfileAuditor } from './ProfileAuditor';
 
 interface ToolsPanelProps {
@@ -18,6 +18,7 @@ export const ToolsPanel: React.FC<ToolsPanelProps> = ({ showToast }) => {
   const [ideaNiche, setIdeaNiche] = React.useState('financas');
   const [ideaPlatform, setIdeaPlatform] = React.useState('tiktok');
   const [generatedIdea, setGeneratedIdea] = React.useState<any | null>(null);
+  const [copiedIdea, setCopiedIdea] = React.useState(false);
 
   // Checklist state
   const [postingChecklist, setPostingChecklist] = React.useState<Record<string, boolean>>(() => {
@@ -117,6 +118,10 @@ export const ToolsPanel: React.FC<ToolsPanelProps> = ({ showToast }) => {
     const text = `🔥 IDEIA VIRAL MONEYNET AI 🔥\n\n🎯 GANCHO: "${generatedIdea.hook}"\n\n🎬 CENA/ROTEIRO: ${generatedIdea.description}\n\n💬 CTA: "${generatedIdea.cta}"\n\n🏷️ HASHTAGS: ${generatedIdea.tag}`;
     navigator.clipboard.writeText(text);
     showToast('Copiado para a área de transferência!', 'success');
+    setCopiedIdea(true);
+    setTimeout(() => {
+      setCopiedIdea(false);
+    }, 1500);
   };
 
   // Funil Calculations
@@ -317,8 +322,12 @@ export const ToolsPanel: React.FC<ToolsPanelProps> = ({ showToast }) => {
                   className="w-full py-2.5 bg-slate-200 dark:bg-white/10 hover:bg-slate-300 dark:hover:bg-white/15 text-slate-800 dark:text-white font-black rounded-lg transition-all text-[11px] flex items-center justify-center gap-1.5"
                   id="btn_copy_generated_idea"
                 >
-                  <Copy className="w-3.5 h-3.5" />
-                  Copiar Roteiro Prontinho
+                  {copiedIdea ? (
+                    <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                  ) : (
+                    <Copy className="w-3.5 h-3.5" />
+                  )}
+                  {copiedIdea ? 'Copiado para Área de Transferência!' : 'Copiar Roteiro Prontinho'}
                 </button>
               </div>
             </motion.div>

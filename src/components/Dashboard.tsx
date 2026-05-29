@@ -407,276 +407,342 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <AnimatePresence>
                 {showMoreMenu && (
                   <>
-                    <div 
-                      className="fixed inset-0 z-40 bg-transparent" 
+                    {/* Blurred screen-filling backdrop */}
+                    <motion.div 
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md" 
                       onClick={() => setShowMoreMenu(false)}
+                      id="menu_side_panel_backdrop"
                     />
+                    
+                    {/* Modern, high-end Sliding Side Panel */}
                     <motion.div
-                      initial={{ opacity: 0, scale: 0.9, y: 10 }}
-                      animate={{ opacity: 1, scale: 1, y: 0 }}
-                      exit={{ opacity: 0, scale: 0.9, y: 10 }}
-                      className="absolute right-0 mt-2 w-64 bg-white dark:bg-slate-800 rounded-3xl shadow-2xl border border-slate-100 dark:border-white/10 z-50 overflow-y-auto max-h-[75vh] custom-scrollbar"
+                      initial={{ x: '100%' }}
+                      animate={{ x: 0 }}
+                      exit={{ x: '100%' }}
+                      transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+                      className="fixed right-0 top-0 bottom-0 w-80 bg-slate-950/95 backdrop-blur-2xl border-l border-white/10 z-50 overflow-y-auto flex flex-col justify-between shadow-[0_0_100px_rgba(99,102,241,0.25)] custom-scrollbar"
+                      id="menu_side_panel"
                     >
-                      <div className="p-3 space-y-1">
-                        <button 
-                          onClick={() => {
-                            handleRefresh();
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className={`p-2 rounded-xl transition-colors ${isRefreshing ? 'bg-blue-600 text-white animate-spin' : 'bg-blue-500/10 text-blue-600 group-hover:bg-blue-600 group-hover:text-white'}`}>
-                            <Zap className="w-4 h-4" />
+                      {/* Premium Header Profile Block */}
+                      <div className="p-6 border-b border-white/10 flex items-center justify-between bg-gradient-to-br from-indigo-950/40 via-purple-950/20 to-slate-950 shrink-0">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-lg shadow-[0_0_20px_rgba(59,130,246,0.3)] border border-blue-400/30 font-bold text-white shrink-0">
+                            {userName ? userName.charAt(0).toUpperCase() : 'M'}
                           </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.refresh')}</span>
-                        </button>
-
-                        <button 
-                          onClick={() => {
-                            toggleTheme();
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-slate-500/10 text-slate-600 rounded-xl group-hover:bg-slate-900 dark:group-hover:bg-white group-hover:text-white dark:group-hover:text-slate-900 transition-colors">
-                            {theme === 'light' ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
+                          <div>
+                            <h4 className="font-extrabold text-[#f5f5f7] text-xs leading-none mb-1 select-all">{userName || t('dashboard.title')}</h4>
+                            <p className="text-[9px] text-[#25f4ee] font-black uppercase tracking-widest italic font-sans">STATUS: MEMBERSHIP PRO</p>
                           </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">
-                            {theme === 'light' ? t('dashboard.more_menu.theme_dark') : t('dashboard.more_menu.theme_light')}
-                          </span>
-                        </button>
-
+                        </div>
                         <button 
-                          onClick={async () => {
-                            const url = window.location.href;
-                            if (navigator.share) {
-                              try {
-                                await navigator.share({
-                                  title: 'MoneyNet Ai',
-                                  text: 'Aprenda a dominar as redes sociais e ganhe dinheiro online!',
-                                  url: url
-                                });
-                                showToast(t('sections.share_success'));
-                              } catch (err: any) {
-                                console.log('Share error or canceled:', err);
-                                if (err && err.name !== 'AbortError' && !err.message?.includes('cancel') && !err.message?.includes('Cancel')) {
-                                  // Fallback copy if blocked by system/iframe permissions
-                                  try {
-                                    await navigator.clipboard.writeText(url);
-                                    showToast('Link do app copiado!');
-                                  } catch (clipboardErr) {
-                                    console.error('Clipboard fallback failed:', clipboardErr);
+                          onClick={() => setShowMoreMenu(false)} 
+                          className="p-2 bg-white/5 hover:bg-white/15 text-slate-400 hover:text-white rounded-xl transition-all cursor-pointer active:scale-95 border border-white/5"
+                        >
+                          <X className="w-4 h-4" />
+                        </button>
+                      </div>
+
+                      {/* Scrollable Side Panel Contents */}
+                      <div className="p-5 flex-1 overflow-y-auto space-y-5 no-scrollbar text-left select-none">
+                        
+                        {/* CATEGORY 1: QUICK ACTIONS */}
+                        <div className="space-y-2">
+                          <p className="text-[9px] font-black uppercase tracking-widest text-[#6366f1] mb-2 pl-1 font-mono">Disparadores Rápidos</p>
+                          
+                          <button 
+                            onClick={() => {
+                              handleRefresh();
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className={`p-2 rounded-xl transition-colors ${isRefreshing ? 'bg-blue-600 text-white animate-spin' : 'bg-blue-500/10 text-blue-400 group-hover:bg-blue-500'}`}>
+                                <Zap className="w-4 h-4" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.refresh')}</span>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
+
+                          <button 
+                            onClick={() => {
+                              toggleTheme();
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-indigo-500/10 text-indigo-400 rounded-xl group-hover:bg-indigo-605 transition-colors">
+                                {theme === 'light' ? <Moon className="w-4 h-4 animate-none" /> : <Sun className="w-4 h-4 animate-none" />}
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">
+                                {theme === 'light' ? t('dashboard.more_menu.theme_dark') : t('dashboard.more_menu.theme_light')}
+                              </span>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
+
+                          <button 
+                            onClick={async () => {
+                              const url = window.location.href;
+                              if (navigator.share) {
+                                try {
+                                  await navigator.share({
+                                    title: 'MoneyNet Ai',
+                                    text: 'Aprenda a dominar as redes sociais e ganhe dinheiro online!',
+                                    url: url
+                                  });
+                                  showToast(t('sections.share_success'));
+                                } catch (err: any) {
+                                  if (err && err.name !== 'AbortError' && !err.message?.includes('cancel') && !err.message?.includes('Cancel')) {
+                                    try {
+                                      await navigator.clipboard.writeText(url);
+                                      showToast('Link do app copiado!');
+                                    } catch (clipboardErr) {}
                                   }
                                 }
+                              } else {
+                                try {
+                                  await navigator.clipboard.writeText(url);
+                                  showToast('Link do app copiado!');
+                                } catch (clipboardErr) {}
                               }
-                            } else {
-                              try {
-                                await navigator.clipboard.writeText(url);
-                                showToast('Link do app copiado!');
-                              } catch (clipboardErr) {
-                                console.error('Clipboard failed:', clipboardErr);
-                              }
-                            }
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-green-500/10 text-green-600 rounded-xl group-hover:bg-green-600 group-hover:text-white transition-colors">
-                            <Share2 className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.share')}</span>
-                        </button>
-
-                        <div className="h-px bg-slate-100 dark:bg-white/5 my-2" />
-
-                        <button 
-                          onClick={() => {
-                            onSelectSection('change_country');
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-orange-500/10 text-orange-600 rounded-xl group-hover:bg-orange-600 group-hover:text-white transition-colors">
-                            <Globe className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.change_country')}</span>
-                        </button>
-
-                        <button 
-                          onClick={() => {
-                            onSelectSection('change_language');
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center justify-between p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="flex items-center gap-3">
-                            <div className="p-2 bg-indigo-500/10 text-indigo-600 rounded-xl group-hover:bg-indigo-600 group-hover:text-white transition-colors">
-                              <LangIcon className="w-4 h-4" />
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-emerald-500/10 text-emerald-400 rounded-xl group-hover:bg-emerald-600 transition-colors">
+                                <Share2 className="w-4 h-4" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.share')}</span>
                             </div>
-                            <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.change_language')}</span>
-                          </div>
-                          <span className="text-[10px] font-black uppercase text-slate-400 bg-slate-100 dark:bg-white/5 px-2 py-0.5 rounded-full">{language}</span>
-                        </button>
-
-                        <div className="h-px bg-slate-100 dark:bg-white/5 my-2" />
-                        
-                        {/* Response Style */}
-                        <div className="px-3 py-2">
-                          <p className="text-[10px] font-black uppercase text-slate-400 mb-2 ml-1">{t('dashboard.more_menu.response_style')}</p>
-                          <div className="flex bg-slate-50 dark:bg-white/5 p-1 rounded-xl">
-                            {(['detailed', 'concise'] as ResponseStyle[]).map((style) => (
-                              <button
-                                key={style}
-                                onClick={() => updateSettings({ responseStyle: style })}
-                                className={`flex-1 py-1.5 text-[10px] font-bold rounded-lg transition-all ${
-                                  settings.responseStyle === style 
-                                    ? 'bg-white dark:bg-slate-700 text-blue-600 border border-slate-100 dark:border-white/10 shadow-sm' 
-                                    : 'text-slate-500'
-                                }`}
-                              >
-                                {style === 'detailed' ? t('dashboard.more_menu.response_detailed') : t('dashboard.more_menu.response_concise')}
-                              </button>
-                            ))}
-                          </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
                         </div>
 
-                        {/* Theme Color */}
-                        <div className="px-3 py-2">
-                          <p className="text-[10px] font-black uppercase text-slate-400 mb-2 ml-1">{t('dashboard.more_menu.theme_color')}</p>
-                          <div className="flex justify-between px-1">
-                            {(['blue', 'green', 'purple', 'orange', 'rose'] as ThemeColor[]).map((color) => (
-                              <button
-                                key={color}
-                                onClick={() => updateSettings({ themeColor: color })}
-                                className={`w-6 h-6 rounded-full transition-all border-2 ${
-                                  settings.themeColor === color ? 'border-slate-400 dark:border-white scale-125 shadow-lg' : 'border-transparent'
-                                }`}
-                                style={{ 
-                                  backgroundColor: 
-                                    color === 'blue' ? '#2563eb' : 
-                                    color === 'green' ? '#16a34a' : 
-                                    color === 'purple' ? '#9333ea' : 
-                                    color === 'orange' ? '#ea580c' : '#e11d48' 
-                                }}
+                        {/* CATEGORY 2: LOCALE & SYSTEM DESIGN */}
+                        <div className="space-y-3.5">
+                          <p className="text-[9px] font-black uppercase tracking-widest text-[#6366f1] mb-2 pl-1 font-mono">Preferências & Idioma</p>
+
+                          <button 
+                            onClick={() => {
+                              onSelectSection('change_country');
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-orange-500/10 text-orange-450 rounded-xl group-hover:bg-orange-500 transition-colors">
+                                <Globe className="w-4 h-4" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.change_country')}</span>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
+
+                          <button 
+                            onClick={() => {
+                              onSelectSection('change_language');
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-indigo-500/10 text-indigo-400 rounded-xl group-hover:bg-indigo-600 transition-colors">
+                                <LangIcon className="w-4 h-4" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.change_language')}</span>
+                            </div>
+                            <span className="text-[10px] font-black uppercase text-indigo-400 bg-white/5 px-2.5 py-1 rounded-lg border border-white/5 group-hover:border-blue-500/35 transition-colors">{language}</span>
+                          </button>
+
+                          {/* Response Style option */}
+                          <div className="p-3.5 bg-gradient-to-b from-white/2 to-white/0 rounded-[22px] border border-white/5 space-y-2.5">
+                            <p className="text-[9.5px] font-black uppercase text-[#8a8d9d] tracking-wider pl-0.5">{t('dashboard.more_menu.response_style')}</p>
+                            <div className="flex bg-slate-900 border border-white/5 p-1 rounded-xl">
+                              {(['detailed', 'concise'] as ResponseStyle[]).map((style) => (
+                                <button
+                                  key={style}
+                                  onClick={() => updateSettings({ responseStyle: style })}
+                                  className={`flex-1 py-1.5 text-[10px] font-black rounded-lg transition-all ${
+                                    settings.responseStyle === style 
+                                      ? 'bg-gradient-to-r from-blue-600 to-indigo-650 text-white font-black shadow-lg border border-white/5' 
+                                      : 'text-slate-500 hover:text-slate-300'
+                                  }`}
+                                >
+                                  {style === 'detailed' ? t('dashboard.more_menu.response_detailed') : t('dashboard.more_menu.response_concise')}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+
+                          {/* Theme Color selector */}
+                          <div className="p-3.5 bg-gradient-to-b from-white/2 to-white/0 rounded-[22px] border border-white/5 space-y-2.5">
+                            <p className="text-[9.5px] font-black uppercase text-[#8a8d9d] tracking-wider pl-0.5">{t('dashboard.more_menu.theme_color')}</p>
+                            <div className="flex justify-between px-1">
+                              {(['blue', 'green', 'purple', 'orange', 'rose'] as ThemeColor[]).map((color) => (
+                                <button
+                                  key={color}
+                                  onClick={() => updateSettings({ themeColor: color })}
+                                  className={`w-6 h-6 rounded-full transition-all border-2 ${
+                                    settings.themeColor === color ? 'border-indigo-400 scale-125 shadow-lg shadow-indigo-500/30' : 'border-transparent hover:scale-110'
+                                  }`}
+                                  style={{ 
+                                    backgroundColor: 
+                                      color === 'blue' ? '#2563eb' : 
+                                      color === 'green' ? '#16a34a' : 
+                                      color === 'purple' ? '#9333ea' : 
+                                      color === 'orange' ? '#ea580c' : '#e11d48' 
+                                  }}
+                                />
+                              ))}
+                            </div>
+                          </div>
+
+                          {/* Notifications Switcher button */}
+                          <button 
+                            onClick={() => updateSettings({ notificationsEnabled: !settings.notificationsEnabled })}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className={`p-2 rounded-xl transition-colors ${settings.notificationsEnabled ? 'bg-purple-600 text-white' : 'bg-slate-900 text-slate-500 border border-white/5'}`}>
+                                <Bell className="w-4 h-4 animate-none" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.notifs_enabled')}</span>
+                            </div>
+                            <div className={`w-8 h-4 rounded-full relative transition-colors bg-white/10 pr-1`}>
+                              <motion.div 
+                                animate={{ x: settings.notificationsEnabled ? 16 : 2 }}
+                                className={`absolute top-0.5 w-3 h-3 rounded-full ${settings.notificationsEnabled ? 'bg-indigo-500' : 'bg-slate-650'}`}
                               />
-                            ))}
-                          </div>
+                            </div>
+                          </button>
                         </div>
 
-                        {/* Notifications Toggle */}
-                        <button 
-                          onClick={() => updateSettings({ notificationsEnabled: !settings.notificationsEnabled })}
-                          className="w-full flex items-center justify-between p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="flex items-center gap-3">
-                            <div className={`p-2 rounded-xl transition-colors ${settings.notificationsEnabled ? 'bg-purple-600 text-white' : 'bg-slate-100 text-slate-400'}`}>
-                              <Bell className="w-4 h-4" />
+                        {/* CATEGORY 3: COMPLIANCE, SYSTEM AND LEGAL */}
+                        <div className="space-y-2 pt-1">
+                          <p className="text-[9px] font-black uppercase tracking-widest text-[#6366f1] mb-2 pl-1 font-mono">Suporte & Regulamentos</p>
+
+                          <button 
+                            onClick={() => {
+                              setShowContactModal(true);
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-emerald-500/10 text-emerald-400 rounded-xl group-hover:bg-emerald-600 transition-colors">
+                                <MessageSquare className="w-4 h-4 animate-none" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.contact')}</span>
                             </div>
-                            <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.notifs_enabled')}</span>
-                          </div>
-                          <div className={`w-8 h-4 rounded-full relative transition-colors ${settings.notificationsEnabled ? 'bg-blue-600' : 'bg-slate-200'}`}>
-                            <motion.div 
-                              animate={{ x: settings.notificationsEnabled ? 16 : 2 }}
-                              className="absolute top-1 w-2 h-2 bg-white rounded-full"
-                            />
-                          </div>
-                        </button>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
 
-                        <div className="h-px bg-slate-100 dark:bg-white/5 my-2" />
+                          <button 
+                            onClick={() => {
+                              setShowAboutModal(true);
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-indigo-500/10 text-indigo-400 rounded-xl group-hover:bg-indigo-600 transition-colors">
+                                <Info className="w-4 h-4 animate-none" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.about')}</span>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
 
-                        <button 
-                          onClick={async () => {
-                            if (window.confirm('Deseja realmente limpar todo seu progresso?')) {
-                              try {
-                                await auth.signOut();
-                              } catch (e) {}
-                              localStorage.clear();
-                              window.location.reload();
-                            }
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-slate-500/10 text-slate-600 rounded-xl group-hover:bg-slate-600 group-hover:text-white transition-colors">
-                            <Trash2 className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.clear_cache')}</span>
-                        </button>
+                          <button 
+                            onClick={() => {
+                              setShowPrivacyModal(true);
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-blue-500/10 text-blue-400 rounded-xl group-hover:bg-blue-600 transition-colors">
+                                <Shield className="w-4 h-4 animate-none" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.privacy_policy')}</span>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
 
-                        <div className="h-px bg-slate-100 dark:bg-white/5 my-2" />
+                          <button 
+                            onClick={() => {
+                              setShowTermsModal(true);
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                            id="btn_menu_terms"
+                          >
+                            <div className="p-2 bg-emerald-500/10 text-emerald-400 rounded-xl group-hover:bg-emerald-600 transition-colors">
+                              <Shield className="w-4 h-4 animate-none" />
+                            </div>
+                            <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">Termos de Uso</span>
+                          </button>
 
-                        <button 
-                          onClick={() => {
-                            setShowContactModal(true);
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-emerald-500/10 text-emerald-600 rounded-xl group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                            <MessageSquare className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.contact')}</span>
-                        </button>
+                          <button 
+                            onClick={() => {
+                              onSelectSection('profile');
+                              setShowMoreMenu(false);
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 transition-all text-left group active:scale-[0.98]"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-purple-500/10 text-purple-450 rounded-xl group-hover:bg-purple-650 transition-colors">
+                                <User className="w-4 h-4" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors">{t('dashboard.more_menu.profile')}</span>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
 
-                        <button 
-                          onClick={() => {
-                            setShowAboutModal(true);
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-indigo-500/10 text-indigo-600 rounded-xl group-hover:bg-indigo-600 group-hover:text-white transition-colors">
-                            <Info className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.about')}</span>
-                        </button>
+                          {/* Debug Reset button */}
+                          <button 
+                            onClick={async () => {
+                              if (window.confirm('Deseja realmente limpar todo seu progresso?')) {
+                                try {
+                                  await auth.signOut();
+                                } catch (e) {}
+                                localStorage.clear();
+                                window.location.reload();
+                              }
+                            }}
+                            className="w-full flex items-center justify-between p-3 bg-white/2 hover:bg-red-500/10 rounded-2xl transition-all text-left group active:scale-[0.98] border border-dashed border-white/5"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="p-2 bg-white/5 text-slate-450 rounded-xl group-hover:bg-red-500/20 group-hover:text-red-400 transition-colors">
+                                <Trash2 className="w-4 h-4" />
+                              </div>
+                              <span className="text-xs font-bold text-slate-400 group-hover:text-red-400 transition-colors">{t('dashboard.more_menu.clear_cache')}</span>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-550 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                          </button>
+                        </div>
+                      </div>
 
-                        <button 
-                          onClick={() => {
-                            setShowPrivacyModal(true);
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-blue-500/10 text-blue-600 rounded-xl group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                            <Shield className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.privacy_policy')}</span>
-                        </button>
-
-                        <button 
-                          onClick={() => {
-                            setShowTermsModal(true);
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                          id="btn_menu_terms"
-                        >
-                          <div className="p-2 bg-emerald-500/10 text-emerald-600 rounded-xl group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                            <Shield className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">Termos de Uso</span>
-                        </button>
-
-                        <button 
-                          onClick={() => {
-                            onSelectSection('profile');
-                            setShowMoreMenu(false);
-                          }}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-slate-50 dark:hover:bg-white/5 rounded-2xl transition-colors text-left group"
-                        >
-                          <div className="p-2 bg-blue-500/10 text-blue-600 rounded-xl group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                            <User className="w-4 h-4" />
-                          </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">{t('dashboard.more_menu.profile')}</span>
-                        </button>
-                        
+                      {/* Highlighted Exit / Sair Footer Option */}
+                      <div className="p-5 border-t border-white/10 shrink-0 bg-slate-950">
                         <button 
                           onClick={onLogout}
-                          className="w-full flex items-center gap-3 p-3 hover:bg-red-50 dark:hover:bg-red-500/10 rounded-2xl transition-colors text-left group"
+                          className="w-full py-4 bg-gradient-to-r from-red-600/15 via-red-600/10 to-rose-600/15 hover:from-red-650 hover:via-rose-650 hover:to-red-600 border border-red-500/20 hover:border-red-500/60 text-white rounded-2xl flex items-center justify-between px-4 transition-all shadow-lg active:scale-95 cursor-pointer shadow-red-500/5 group"
+                          id="btn_side_logout"
                         >
-                          <div className="p-2 bg-red-500/10 text-red-600 rounded-xl group-hover:bg-red-600 group-hover:text-white transition-colors">
-                            <LogOut className="w-4 h-4" />
+                          <div className="flex items-center gap-3.5">
+                            <div className="p-2 bg-red-500/20 text-red-550 group-hover:bg-white group-hover:text-red-600 rounded-xl transition-colors">
+                              <LogOut className="w-4 h-4 animate-none" />
+                            </div>
+                            <span className="text-xs font-black text-red-400 group-hover:text-white transition-colors uppercase tracking-wider">Encerrar Sessão (Sair)</span>
                           </div>
-                          <span className="text-sm font-bold text-red-600">{t('dashboard.more_menu.logout')}</span>
+                          <ArrowRight className="w-4 h-4 text-red-500/50 group-hover:text-[#fff] group-hover:translate-x-1 transition-all" />
                         </button>
                       </div>
                     </motion.div>

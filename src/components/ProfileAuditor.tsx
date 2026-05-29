@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import { BarChart as RechartsBarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from 'recharts';
 import { 
   Sparkles, 
   Globe, 
@@ -17,7 +18,9 @@ import {
   Clock,
   ExternalLink,
   ChevronDown,
-  LayoutGrid
+  LayoutGrid,
+  Download,
+  FileText
 } from 'lucide-react';
 
 interface ProfileAuditorProps {
@@ -206,6 +209,88 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
     showToast(`${label} copiado com sucesso!`, 'success');
   };
 
+  const generateAuditText = (rep: AuditReport) => {
+    return `========================================
+🔥 AUDITORIA DE PERFIL IA - MONEYNET AI 🔥
+========================================
+Plataforma: ${rep.platform || 'Geral'}
+Nota Geral: ${rep.score}/100
+Perfil: ${profileUrl}
+Data/Hora: ${new Date().toLocaleString('pt-BR')}
+
+----------------------------------------
+📑 1. ANÁLISE DA BIOGRAFIA (Score: ${rep.bioAnalysis.score}/100)
+----------------------------------------
+✓ PONTOS FORTES:
+${rep.bioAnalysis.strongPoints.map(pt => `- ${pt}`).join('\n')}
+
+⚠ PONTOS A MELHORAR:
+${rep.bioAnalysis.improvements.map(im => `- ${im}`).join('\n')}
+
+👉 NOVA BIO SUGERIDA:
+${rep.bioAnalysis.suggestedBio}
+
+----------------------------------------
+🖼 2. IDENTIDADE VISUAL & NOME @ (Score: ${rep.visualAndNaming.score}/100)
+----------------------------------------
+${rep.visualAndNaming.critique}
+
+AÇÕES RECOMENDADAS:
+${rep.visualAndNaming.suggestions.map(su => `- ${su}`).join('\n')}
+
+----------------------------------------
+📈 3. ESTRATÉGIA DE CONTEÚDO (Score: ${rep.contentStrategy.score}/100)
+----------------------------------------
+${rep.contentStrategy.critique}
+
+IDEIAS DE POSTS SUGERIDAS:
+${rep.contentStrategy.postIdeas.map(id => `- ${id}`).join('\n')}
+
+----------------------------------------
+🎯 4. CTA & DIRECIONAMENTO (Score: ${rep.ctaFeedback.score}/100)
+----------------------------------------
+${rep.ctaFeedback.critique}
+
+👉 DETALHE DO CTA SUGERIDO:
+"${rep.ctaFeedback.suggestedCTA}"
+
+----------------------------------------
+✨ 5. DESTAQUES FORTES DO PERFIL
+----------------------------------------
+${rep.generalPros.map(pro => `- ${pro}`).join('\n')}
+
+----------------------------------------
+🔥 6. PRÓXIMOS PASSOS (O que fazer ainda hoje)
+----------------------------------------
+${rep.nextSteps.map((step, idx) => `${idx + 1}. ${step}`).join('\n')}
+
+========================================
+Gerado por MoneyNet Ai - Otimizando suas Redes para o Sucesso
+========================================`;
+  };
+
+  const handleExportText = () => {
+    if (!report) return;
+    const textContent = generateAuditText(report);
+    const blob = new Blob([textContent], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    
+    let userName = 'perfil';
+    try {
+      const urlObj = new URL(profileUrl);
+      userName = urlObj.pathname.replace(/^\//, '').replace(/\/$/, '') || 'perfil';
+    } catch(e) {}
+    
+    link.href = url;
+    link.download = `auditoria_${userName}_moneynet.txt`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    showToast('Relatório de auditoria exportado em formato TXT!', 'success');
+  };
+
   // Score Helper colors
   const getScoreColorClass = (val: number) => {
     if (val < 50) return 'text-red-500 border-red-500/20 bg-red-500/10';
@@ -218,6 +303,33 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
     if (val < 75) return 'bg-amber-500';
     return 'bg-emerald-500';
   };
+
+  const chartData = [...history]
+    .reverse()
+    .map((item) => {
+      let urlLabel = 'Perfil';
+      try {
+        const urlObj = new URL(item.url);
+        urlLabel = urlObj.pathname.replace(/^\//, '').replace(/\/$/, '') || urlObj.hostname;
+        if (urlLabel.length > 12) {
+          urlLabel = '@' + urlLabel.substring(0, 10) + '...';
+        } else {
+          urlLabel = '@' + urlLabel;
+        }
+      } catch (e) {
+        if (item.url.length > 12) {
+          urlLabel = item.url.substring(0, 10) + '...';
+        } else {
+          urlLabel = item.url;
+        }
+      }
+      return {
+        id: item.id,
+        name: `${urlLabel} (${item.timestamp})`,
+        score: item.report.score,
+        url: item.url
+      };
+    });
 
   return (
     <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-white/5 rounded-[32px] p-6 shadow-sm space-y-6" id="profile_auditor_container">
@@ -435,6 +547,145 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
               </div>
             </motion.div>
 
+            {/* Export Section */}
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
+              className="bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/5 rounded-2xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3"
+            >
+              <div className="space-y-0.5">
+                <span className="text-[10px] uppercase font-black tracking-wider text-slate-400 dark:text-slate-500 block">Salvar Auditoria</span>
+                <span className="text-xs font-bold text-slate-700 dark:text-slate-300">Gostaria de ler offline ou guardar o feedback do perfil?</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  id="btn_save_audit_txt"
+                  onClick={handleExportText}
+                  className="flex items-center gap-2 px-3.5 py-2.5 bg-slate-200 hover:bg-slate-300 dark:bg-white/10 dark:hover:bg-white/15 text-slate-800 dark:text-white text-xs font-extrabold rounded-xl transition-all cursor-pointer shadow-sm active:scale-95 shrink-0"
+                >
+                  <FileText className="w-3.5 h-3.5 text-indigo-500" />
+                  <span>Baixar TXT</span>
+                </button>
+                <button
+                  type="button"
+                  id="btn_save_audit_pdf"
+                  onClick={() => {
+                    showToast('Preparando seu layout para PDF/Impressão...', 'info');
+                    setTimeout(() => {
+                      window.print();
+                    }, 550);
+                  }}
+                  className="flex items-center gap-2 px-3.5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-extrabold rounded-xl transition-all cursor-pointer shadow-sm active:scale-95 shrink-0"
+                >
+                  <Download className="w-3.5 h-3.5 text-white" />
+                  <span>Salvar PDF</span>
+                </button>
+              </div>
+            </motion.div>
+
+            {/* Historico de Pontuação - Recharts Bar Chart */}
+            {history.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 0.12 }}
+                className="bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/5 rounded-2xl p-5 space-y-4"
+              >
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h5 className="text-xs font-black text-slate-900 dark:text-white uppercase leading-none">Evolução do Perfil</h5>
+                    <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-1 uppercase font-bold tracking-wider">
+                      Comparação de nota entre auditorias realizadas
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-1.5 text-[10px] text-slate-400 dark:text-slate-500 font-bold">
+                    <TrendingUp className="w-3.5 h-3.5 text-indigo-500 animate-pulse" />
+                    <span>Progresso de Auditoria</span>
+                  </div>
+                </div>
+
+                <div className="h-56 w-full" id="audit_score_recharts_container">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <RechartsBarChart
+                      data={chartData}
+                      margin={{ top: 10, right: 10, left: -25, bottom: 5 }}
+                    >
+                      <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" className="opacity-40 dark:opacity-20" />
+                      <XAxis 
+                        dataKey="name" 
+                        tick={{ fill: '#94a3b8', fontSize: 10, fontWeight: 'bold' }}
+                        axisLine={false}
+                        tickLine={false}
+                      />
+                      <YAxis 
+                        domain={[0, 115]} 
+                        ticks={[0, 20, 40, 60, 80, 100]}
+                        tick={{ fill: '#94a3b8', fontSize: 10, fontWeight: 'bold' }}
+                        axisLine={false}
+                        tickLine={false}
+                      />
+                      <ReferenceLine 
+                        y={100} 
+                        stroke="#10b981" 
+                        strokeDasharray="4 4" 
+                        strokeWidth={1.5}
+                        label={{ 
+                          value: 'Meta Ideal (100 pts) 🎯', 
+                          position: 'top', 
+                          fill: '#10b981', 
+                          fontSize: 9, 
+                          fontWeight: 'bold',
+                          offset: 6
+                        }} 
+                      />
+                      <Tooltip
+                        cursor={{ fill: 'rgba(99, 102, 241, 0.04)' }}
+                        content={({ active, payload }) => {
+                          if (active && payload && payload.length) {
+                            const data = payload[0].payload;
+                            return (
+                              <div className="bg-slate-950 text-white p-3 rounded-xl border border-white/10 shadow-xl space-y-1 text-left">
+                                <p className="text-[10px] font-black uppercase text-indigo-400 break-all max-w-[200px]" style={{ wordBreak: 'break-all' }}>{data.url}</p>
+                                <div className="flex items-center justify-between gap-4">
+                                  <span className="text-[10px] text-slate-400 font-bold uppercase">Nota da Auditoria</span>
+                                  <span className="text-xs font-black text-emerald-400">{data.score} / 100</span>
+                                </div>
+                              </div>
+                            );
+                          }
+                          return null;
+                        }}
+                      />
+                      <Bar 
+                        dataKey="score" 
+                        radius={[6, 6, 0, 0]} 
+                        barSize={32}
+                      >
+                        {chartData.map((entry, index) => {
+                          const isCurrent = report && 
+                            report.score === entry.score && 
+                            report.bioAnalysis.suggestedBio === history.find(h => h.id === entry.id)?.report.bioAnalysis.suggestedBio;
+                          return (
+                            <Cell 
+                              key={`cell-${index}`} 
+                              fill={isCurrent ? '#6366f1' : '#a78bfa'} 
+                              fillOpacity={isCurrent ? 1 : 0.4}
+                            />
+                          );
+                        })}
+                      </Bar>
+                    </RechartsBarChart>
+                  </ResponsiveContainer>
+                </div>
+
+                <p className="text-[10px] text-slate-400 dark:text-slate-500 font-semibold text-center leading-relaxed">
+                  💡 A barra em <span className="text-indigo-500 font-bold">azul brilhante</span> indica a auditoria ativa no viewport. Use o botão <strong>Histórico</strong> ou as abas no topo para alternar entre as auditorias e acompanhar seu progresso!
+                </p>
+              </motion.div>
+            )}
+
             {/* Accordions detailed segments */}
             <motion.div
               initial={{ opacity: 0, y: 15 }}
@@ -642,6 +893,172 @@ export const ProfileAuditor: React.FC<ProfileAuditorProps> = ({ showToast }) => 
                 ))}
               </div>
             </motion.div>
+
+            {/* Dynamic CSS styles to handle highly polished print formats */}
+            <style dangerouslySetInnerHTML={{__html: `
+              @media print {
+                /* Reset colors, fonts, and backgrounds for clean ink saver margins */
+                html, body {
+                  background-color: #ffffff !important;
+                  color: #000000 !important;
+                  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+                }
+                /* Hide everything */
+                body * {
+                  visibility: hidden !important;
+                }
+                /* Show ONLY the high contrast printable container */
+                .pdf-print-container, .pdf-print-container * {
+                  visibility: visible !important;
+                }
+                .pdf-print-container {
+                  display: block !important;
+                  position: absolute !important;
+                  left: 0 !important;
+                  top: 0 !important;
+                  width: 100% !important;
+                  background-color: #ffffff !important;
+                  color: #0f172a !important;
+                  padding: 1.5rem !important;
+                }
+                .page-break-before {
+                  page-break-before: always !important;
+                }
+              }
+            `}} />
+
+            {/* Print Friendly High-Contrast Layout for PDF/Paper print */}
+            <div className="hidden print:block pdf-print-container bg-white text-slate-900 space-y-8 max-w-4xl mx-auto font-sans leading-relaxed text-left">
+              <div className="border-b-4 border-indigo-600 pb-5 flex justify-between items-end">
+                <div>
+                  <h1 className="text-2xl font-black tracking-tight text-slate-950 uppercase">Relatório de Auditoria de Perfil</h1>
+                  <p className="text-[10px] text-indigo-600 font-black uppercase mt-1 tracking-wider">Moneynet AI • Inteligência Artificial de Posicionamento</p>
+                </div>
+                <div className="text-right">
+                  <span className="text-[9px] uppercase font-bold text-slate-500 block">Gerado em:</span>
+                  <span className="text-xs font-bold text-slate-950 font-mono">{new Date().toLocaleDateString('pt-BR')} às {new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}</span>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-3 gap-6 bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                <div className="col-span-2 space-y-2">
+                  <span className="text-[9px] uppercase font-black tracking-wider text-slate-400 block">Perfil Social Analisado</span>
+                  <span className="text-xs font-black text-slate-800 break-all select-all font-mono">{profileUrl}</span>
+                  <p className="text-xs text-slate-500 font-semibold mt-1">Plataforma recomendada: <strong className="text-slate-800">{report.platform || 'Geral'}</strong></p>
+                </div>
+                <div className="border-l border-slate-200 pl-6 flex flex-col items-center justify-center text-center">
+                  <span className="text-[9px] uppercase font-black tracking-wider text-slate-400">Pontuação Geral</span>
+                  <div className="text-3xl font-black text-indigo-600 mt-0.5">{report.score}<span className="text-sm text-slate-400">/100</span></div>
+                </div>
+              </div>
+
+              {/* Bio analysis print section */}
+              <div className="space-y-3">
+                <div className="flex justify-between items-center border-b border-slate-200 pb-1">
+                  <h2 className="text-sm font-black text-slate-950 uppercase">1. Análise da Biografia (Bio)</h2>
+                  <span className="text-xs font-bold text-slate-600">Pontuação: {report.bioAnalysis.score}/100</span>
+                </div>
+                <div className="grid grid-cols-2 gap-4 text-xs">
+                  <div>
+                    <h3 className="font-extrabold text-emerald-600 uppercase mb-1">Pontos Fortes:</h3>
+                    <ul className="list-disc list-inside space-y-1 text-slate-700 font-medium">
+                      {report.bioAnalysis.strongPoints.map((pt, i) => <li key={i}>{pt}</li>)}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="font-extrabold text-amber-600 uppercase mb-1">Pontos para Melhorar:</h3>
+                    <ul className="list-disc list-inside space-y-1 text-slate-705 font-medium">
+                      {report.bioAnalysis.improvements.map((im, i) => <li key={i}>{im}</li>)}
+                    </ul>
+                  </div>
+                </div>
+                <div className="p-4 bg-slate-50 rounded-xl border border-slate-200">
+                  <h3 className="text-[9px] font-black text-indigo-600 uppercase tracking-wider mb-1">Nova Bio Recomendada:</h3>
+                  <p className="font-mono text-xs text-slate-800 whitespace-pre-wrap leading-relaxed bg-white p-3 rounded border border-slate-200">{report.bioAnalysis.suggestedBio}</p>
+                </div>
+              </div>
+
+              {/* Visual analysis print section */}
+              <div className="space-y-3">
+                <div className="flex justify-between items-center border-b border-slate-200 pb-1">
+                  <h2 className="text-sm font-black text-slate-950 uppercase">2. Identidade Visual & Nome @</h2>
+                  <span className="text-xs font-bold text-slate-600">Pontuação: {report.visualAndNaming.score}/100</span>
+                </div>
+                <p className="text-xs text-slate-700 leading-relaxed font-semibold">{report.visualAndNaming.critique}</p>
+                <div className="text-xs">
+                  <h3 className="font-extrabold text-slate-950 uppercase mb-1">Ações Recomendadas:</h3>
+                  <ul className="list-disc list-inside space-y-1 text-slate-705 font-medium">
+                    {report.visualAndNaming.suggestions.map((su, i) => <li key={i}>{su}</li>)}
+                  </ul>
+                </div>
+              </div>
+
+              {/* Content analysis print section */}
+              <div className="space-y-3">
+                <div className="flex justify-between items-center border-b border-slate-200 pb-1">
+                  <h2 className="text-sm font-black text-slate-950 uppercase">3. Estratégia de Conteúdo</h2>
+                  <span className="text-xs font-bold text-slate-600">Pontuação: {report.contentStrategy.score}/100</span>
+                </div>
+                <p className="text-xs text-slate-700 leading-relaxed font-semibold">{report.contentStrategy.critique}</p>
+                <div className="space-y-1.5">
+                  <h3 className="text-xs font-extrabold text-slate-950 uppercase">Novas Ideias de Posts Planejadas:</h3>
+                  <div className="space-y-2">
+                    {report.contentStrategy.postIdeas.map((idea, i) => (
+                      <div key={i} className="p-2.5 bg-slate-50 rounded-lg border border-slate-200 font-bold text-xs text-slate-800">
+                        {idea}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA analysis print section */}
+              <div className="space-y-3 page-break-before">
+                <div className="flex justify-between items-center border-b border-slate-200 pb-1">
+                  <h2 className="text-sm font-black text-slate-950 uppercase">4. CTA & Direcionamento de Tráfego</h2>
+                  <span className="text-xs font-bold text-slate-600">Pontuação: {report.ctaFeedback.score}/100</span>
+                </div>
+                <p className="text-xs text-slate-700 leading-relaxed font-semibold">{report.ctaFeedback.critique}</p>
+                <div className="p-3 bg-slate-50 border border-indigo-150 rounded-xl text-xs space-y-1">
+                  <h3 className="font-black text-indigo-700 text-[9px] uppercase tracking-wider">CTA Sugerido:</h3>
+                  <p className="font-bold text-slate-900 italic">"{report.ctaFeedback.suggestedCTA}"</p>
+                </div>
+              </div>
+
+              {/* Next steps and pros */}
+              <div className="grid grid-cols-2 gap-6">
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2 text-xs">
+                  <h3 className="font-black text-slate-950 uppercase tracking-widest">✓ Destaques Fortes</h3>
+                  <ul className="space-y-1 font-semibold text-slate-700">
+                    {report.generalPros.map((pro, index) => (
+                      <li key={index} className="flex items-start gap-1 font-bold">
+                        <span className="text-emerald-600 font-black">✓</span> {pro}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2 text-xs">
+                  <h3 className="font-black text-slate-950 uppercase tracking-widest">🔥 Próximos Passos</h3>
+                  <div className="space-y-1.5 font-bold text-slate-700">
+                    {report.nextSteps.map((step, index) => (
+                      <div key={index} className="flex items-start gap-2">
+                        <span className="w-4 h-4 shrink-0 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold text-[9px]">
+                          {index + 1}
+                        </span>
+                        <span>{step}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Print Footer block */}
+              <div className="border-t border-slate-200 pt-4 text-center text-[9px] text-slate-400 font-semibold">
+                <p>Este relatório foi gerado automaticamente pela Inteligência Artificial do MoneyNet AI.</p>
+                <p className="mt-0.5">© {new Date().getFullYear()} MoneyNet AI. Todos os direitos reservados.</p>
+              </div>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

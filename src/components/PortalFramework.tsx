@@ -414,29 +414,34 @@ export const PortalFramework: React.FC<PortalFrameworkProps> = ({
 
           {/* TAB 2 CONTENT: REGULATORY COMPLIANCE CENTER */}
           {leftTab === 'legal' && (
-            <div className="bg-white/90 dark:bg-[#0c0c16]/80 p-5 rounded-[28px] border border-slate-200 dark:border-indigo-500/15 shadow-xl space-y-4 text-left">
-              <h3 className="text-xs font-black uppercase text-pink-600 dark:text-pink-400 tracking-wider flex items-center gap-1.5 border-b border-slate-200 dark:border-indigo-500/10 pb-2">
-                <Shield className="w-4 h-4" />
-                Políticas, Cookies & Conformidade
-              </h3>
+            <div className="bg-white/95 dark:bg-[#080816]/90 p-6 rounded-[32px] border border-slate-200 dark:border-indigo-500/20 shadow-2xl space-y-5 text-left transition-all duration-350">
+              <div className="flex items-center justify-between border-b border-slate-150 dark:border-indigo-500/10 pb-3">
+                <h3 className="text-xs font-black uppercase text-indigo-600 dark:text-indigo-400 tracking-wider flex items-center gap-2">
+                  <Shield className="w-4 h-4 text-indigo-500 animate-[pulse_3s_infinite]" />
+                  Central de Conformidade & Políticas
+                </h3>
+                <span className="text-[9px] bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 font-extrabold px-2 py-0.5 rounded-full select-none">
+                  v2.8 Compliance
+                </span>
+              </div>
 
               {/* Selector side-pill hierarchy */}
-              <div className="flex flex-wrap gap-1.5">
+              <div className="flex flex-wrap gap-1.5 pb-1">
                 {[
-                  { id: 'sobre', label: 'Sobre' },
-                  { id: 'contato', label: 'Contato' },
+                  { id: 'sobre', label: 'Sobre Nós' },
+                  { id: 'contato', label: 'Contato & SAC' },
                   { id: 'privacidade', label: 'Privacidade' },
-                  { id: 'termos', label: 'Termos' },
+                  { id: 'termos', label: 'Termos de Uso' },
                   { id: 'transparencia', label: 'Transparência' },
                   { id: 'cookies', label: 'Cookies & LGPD' }
                 ].map((p) => (
                   <button
                     key={p.id}
                     onClick={() => setSelectedLegalPage(p.id as any)}
-                    className={`px-3 py-1.5 rounded-lg text-[9.5px] font-black uppercase tracking-wider transition-all cursor-pointer ${
+                    className={`px-3 py-1.5 rounded-xl text-[9px] font-extrabold uppercase tracking-widest transition-all cursor-pointer ${
                       selectedLegalPage === p.id
-                        ? 'bg-gradient-to-r from-pink-600 to-indigo-600 text-white shadow-sm'
-                        : 'bg-slate-200/50 dark:bg-white/5 text-slate-500 hover:text-slate-800 hover:bg-slate-250 dark:text-slate-400'
+                        ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white shadow-md shadow-indigo-500/20'
+                        : 'bg-slate-100 dark:bg-white/5 text-slate-500 hover:text-slate-900 hover:bg-slate-200 dark:text-slate-450 dark:hover:bg-white/10 dark:hover:text-white'
                     }`}
                   >
                     {p.label}
@@ -444,46 +449,94 @@ export const PortalFramework: React.FC<PortalFrameworkProps> = ({
                 ))}
               </div>
 
-              <div className="bg-slate-50 dark:bg-white/5 border border-slate-150 dark:border-white/5 p-4.5 rounded-2xl max-h-[45vh] overflow-y-auto no-scrollbar scroll-smooth">
+              <div className="bg-slate-50/50 dark:bg-slate-950/40 border border-slate-150 dark:border-white/5 p-5 rounded-2xl max-h-[48vh] overflow-y-auto no-scrollbar scroll-smooth space-y-4">
+                
                 {selectedLegalPage === 'sobre' && (
-                  <div className="space-y-3.5 text-xs text-slate-600 dark:text-slate-300">
-                    <h4 className="font-extrabold text-slate-800 dark:text-white uppercase tracking-tight text-[13px]">Sobre o MoneyNet AI</h4>
-                    <p className="leading-relaxed">
-                      MoneyNet AI é uma plataforma de educação empreendedora inovadora que consolida conteúdos de decolagem orgânica gratuitos em redes sociais convencionais (TikTok, YouTube Shorts, Instagram Reels, Marketing de Afiliados) aliando as ferramentas tecnológicas de Inteligência Artificial para alavancar monetização.
+                  <div className="space-y-4 text-xs text-slate-600 dark:text-slate-350 leading-relaxed">
+                    <div className="flex items-center gap-2 border-b border-slate-100 dark:border-white/5 pb-2">
+                      <Sparkles className="w-4 h-4 text-indigo-500" />
+                      <h4 className="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-[12.5px] font-display">A Plataforma MoneyNet AI</h4>
+                    </div>
+                    <p>
+                      A <strong className="text-slate-900 dark:text-white font-extrabold">MoneyNet AI</strong> representa uma revolução de vanguarda no ensino de empreendedorismo digital. Consolidamos técnicas avançadas de crescimento viral orgânico em ecossistemas de grande alcance (TikTok, YouTube Shorts, Reels), potencializando o processo de brainstorming e roteirização com tecnologias modernas de Inteligência Artificial.
                     </p>
-                    <p className="leading-relaxed font-bold">
-                      A proposta do ecossistema é democratizar o acesso às estratégias que canais grandes usam para capitalizar visualizações sem a imposição de pagar caro por treinamentos ou cursos redundantes.
-                    </p>
+                    <div className="p-4 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 border border-indigo-500/10 rounded-2xl">
+                      <p className="font-black text-slate-800 dark:text-indigo-200 text-xs mb-1">Nosso Propósito Social</p>
+                      <p className="text-slate-500 dark:text-slate-400">
+                        O intuito do nosso ecossistema é democratizar por completo o acesso estratégico às metodologias de tráfego, atração e monetização que geram milhões de visualizações diárias, sem exigir a compra de cursos pagos, receitas mágicas ou pacotes redundantes.
+                      </p>
+                    </div>
                   </div>
                 )}
 
                 {selectedLegalPage === 'contato' && (
-                  <div className="space-y-3 text-xs text-slate-600 dark:text-slate-300">
-                    <h4 className="font-extrabold text-slate-800 dark:text-white uppercase tracking-tight text-[13px]">Entre em Contato</h4>
-                    <p className="leading-relaxed">
-                      Nosso time de atendimento está disponível para dúvidas gerais, propostas e apoio à integração da conta empreendedora.
-                    </p>
-                    <div className="space-y-2 pt-2 text-[11px] font-mono">
-                      <div className="p-2.5 bg-white dark:bg-black/30 rounded-xl border border-slate-200 dark:border-white/5 flex flex-col gap-0.5">
-                        <span className="text-slate-400">E-mail Corporativo:</span>
-                        <span className="font-bold text-blue-600 dark:text-blue-400 select-all font-mono">suporte@moneynet.ai</span>
-                      </div>
-                      <div className="p-2.5 bg-white dark:bg-black/30 rounded-xl border border-slate-200 dark:border-white/5 flex flex-col gap-0.5">
-                        <span className="text-slate-400">Canal WhatsApp Oficial:</span>
-                        <a href="https://wa.me/258878848277" target="_blank" className="font-bold text-emerald-500 hover:underline inline-flex items-center gap-1 font-mono">
-                          +258 87 884 8277 <ExternalLink className="w-3 h-3" />
+                  <div className="space-y-4 text-xs text-slate-600 dark:text-slate-350 leading-relaxed">
+                    <div className="border-b border-slate-100 dark:border-white/5 pb-3">
+                      <p className="text-[9px] font-black uppercase text-indigo-500 dark:text-indigo-400 tracking-wider">SAC CENTRALIZADO</p>
+                      <h4 className="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-sm font-display">Suporte Oficial MoneyNet AI</h4>
+                      <p className="text-slate-400 mt-1">Conecte-se diretamente com nossos canais oficiais verificados de integração e apoio ao usuário.</p>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-3 pt-1">
+                      {/* WhatsApp Card */}
+                      <div className="p-4 bg-emerald-500/5 hover:bg-emerald-500/10 border border-emerald-500/20 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 transition-colors">
+                        <div className="space-y-1">
+                          <span className="text-[8px] font-black uppercase tracking-widest text-emerald-600 dark:text-emerald-400 leading-none block">Whatsapp Atendimento</span>
+                          <span className="font-bold text-slate-800 dark:text-slate-100 font-mono text-[11.5px]">+258 87 884 8277</span>
+                        </div>
+                        <a 
+                          href="https://wa.me/258878848277" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="px-3.5 py-2 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-[10px] rounded-xl hover:scale-[1.03] active:scale-[0.98] transition-all flex items-center gap-1.5 shadow-md shadow-emerald-500/10 cursor-pointer"
+                        >
+                          <Send className="w-3 h-3 fill-white" /> Conversar WhatsApp
                         </a>
                       </div>
-                      <div className="p-2.5 bg-white dark:bg-black/30 rounded-xl border border-slate-200 dark:border-white/5 flex flex-col gap-0.5">
-                        <span className="text-slate-400">Perfil do TikTok Oficial:</span>
-                        <a href="https://www.tiktok.com/@moneynet.ai" target="_blank" rel="noopener noreferrer" className="font-bold text-pink-600 dark:text-pink-400 hover:underline inline-flex items-center gap-1 font-mono break-all">
-                          tiktok.com/@moneynet.ai <ExternalLink className="w-3 h-3" />
+
+                      {/* TikTok Card */}
+                      <div className="p-4 bg-pink-500/5 hover:bg-pink-500/10 border border-pink-500/20 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 transition-colors">
+                        <div className="space-y-1">
+                          <span className="text-[8px] font-black uppercase tracking-widest text-pink-600 dark:text-pink-400 leading-none block">Comunidade Viral</span>
+                          <span className="font-bold text-slate-800 dark:text-slate-100 font-mono text-[11.5px]">tiktok.com/@moneynet.ai</span>
+                        </div>
+                        <a 
+                          href="https://www.tiktok.com/@moneynet.ai" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="px-3.5 py-2 bg-pink-600 hover:bg-pink-700 text-white font-extrabold text-[10px] rounded-xl hover:scale-[1.03] active:scale-[0.98] transition-all flex items-center gap-1.5 shadow-md shadow-pink-500/10 cursor-pointer"
+                        >
+                          <Eye className="w-3.5 h-3.5" /> Seguir TikTok
                         </a>
                       </div>
-                      <div className="p-2.5 bg-white dark:bg-black/30 rounded-xl border border-slate-200 dark:border-white/5 flex flex-col gap-0.5">
-                        <span className="text-slate-400">Perfil do Facebook Oficial:</span>
-                        <a href="https://www.facebook.com/share/1CZh4awA8s/" target="_blank" rel="noopener noreferrer" className="font-bold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-1 font-mono break-all">
-                          facebook.com/share/1CZh4awA8s/ <ExternalLink className="w-3 h-3" />
+
+                      {/* Facebook Card */}
+                      <div className="p-4 bg-blue-500/5 hover:bg-blue-500/10 border border-blue-500/20 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 transition-colors">
+                        <div className="space-y-1">
+                          <span className="text-[8px] font-black uppercase tracking-widest text-blue-600 dark:text-blue-400 leading-none block">Canal Informativo</span>
+                          <span className="font-bold text-slate-800 dark:text-slate-100 font-mono text-[11px] truncate max-w-[180px]">Facebook Oficial</span>
+                        </div>
+                        <a 
+                          href="https://www.facebook.com/share/1CZh4awA8s/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="px-3.5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-[10px] rounded-xl hover:scale-[1.03] active:scale-[0.98] transition-all flex items-center gap-1.5 shadow-md shadow-blue-500/10 cursor-pointer"
+                        >
+                          <Facebook className="w-3.5 h-3.5" /> Curtir Página
+                        </a>
+                      </div>
+
+                      {/* Email Card (Added as requested for premium support) */}
+                      <div className="p-4 bg-indigo-500/5 hover:bg-indigo-500/10 border border-indigo-500/20 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 transition-colors">
+                        <div className="space-y-1">
+                          <span className="text-[8px] font-black uppercase tracking-widest text-indigo-600 dark:text-indigo-400 leading-none block">E-mail Corporativo</span>
+                          <span className="font-bold text-slate-800 dark:text-slate-100 font-mono text-[11.5px] select-all">suporte@moneynet.ai</span>
+                        </div>
+                        <a 
+                          href="mailto:suporte@moneynet.ai"
+                          className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-[10px] rounded-xl hover:scale-[1.03] active:scale-[0.98] transition-all flex items-center gap-1.5 shadow-md shadow-indigo-500/10 cursor-pointer"
+                        >
+                          <Mail className="w-3.5 h-3.5" /> Enviar E-mail
                         </a>
                       </div>
                     </div>
@@ -491,47 +544,96 @@ export const PortalFramework: React.FC<PortalFrameworkProps> = ({
                 )}
 
                 {selectedLegalPage === 'privacidade' && (
-                  <div className="space-y-3 text-xs text-slate-600 dark:text-slate-300">
-                    <h4 className="font-extrabold text-slate-800 dark:text-white uppercase tracking-tight text-[13px]">Política de Privacidade</h4>
-                    <p className="leading-relaxed">
-                      Garantimos a proteção total dos seus segredos de configuração e informações pessoais. Esclarecemos que não compartilhamos dados de links de afiliação ou históricos de leitura com terceiros ou redes governamentais.
+                  <div className="space-y-4 text-xs text-slate-600 dark:text-slate-350 leading-relaxed">
+                    <div className="flex items-center gap-2 border-b border-slate-100 dark:border-white/5 pb-2">
+                      <Shield className="w-4 h-4 text-blue-500" />
+                      <h4 className="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-[12.5px] font-display">Política de Privacidade de Alta Confiança</h4>
+                    </div>
+                    <p className="font-semibold text-slate-800 dark:text-slate-200">
+                      Na MoneyNet AI, a proteção e a confidencialidade dos dados dos usuários representam diretrizes fundamentais do nosso modelo de governança digital.
                     </p>
-                    <p className="leading-relaxed">
-                      Este site veicula anúncios do Google AdSense. Para entender como os cookies publicitários são usados de forma transparente pelo Google, consulte a seção do AdSense ou nossa declaração de cookies em vigor.
-                    </p>
+
+                    <div className="space-y-3 pt-1">
+                      <div className="p-3.5 bg-slate-100 dark:bg-white/5 rounded-xl border border-slate-200 dark:border-white/5">
+                        <h5 className="font-black text-[11px] text-slate-800 dark:text-white mb-1 uppercase tracking-wide">1. Coleta Mínima de Informações</h5>
+                        <p className="text-slate-500 dark:text-slate-400">
+                          Coletamos apenas dados essenciais para gerenciar sua sessão de estudos de forma personalizada, como seu nome escolhido, e-mail de autenticação técnica e parâmetros preferenciais da interface (idioma e tema do portal).
+                        </p>
+                      </div>
+
+                      <div className="p-3.5 bg-slate-100 dark:bg-white/5 rounded-xl border border-slate-200 dark:border-white/5">
+                        <h5 className="font-black text-[11px] text-slate-800 dark:text-white mb-1 uppercase tracking-wide">2. Integração Transparente com Anunciantes (AdSense)</h5>
+                        <p className="text-slate-500 dark:text-slate-400">
+                          Para manter nossa infraestrutura e mentor de inteligência artificial de acesso livre, o portal pode apresentar anúncios nativos gerenciados em parceria com o Google AdSense. Esses parceiros podem registrar cookies anônimos para entregar anúncios contextuais baseados nos seus padrões legítimos de cliques.
+                        </p>
+                      </div>
+
+                      <div className="p-3.5 bg-slate-100 dark:bg-white/5 rounded-xl border border-slate-200 dark:border-white/5">
+                        <h5 className="font-black text-[11px] text-slate-800 dark:text-white mb-1 uppercase tracking-wide">3. Direitos de Exclusão (LGPD)</h5>
+                        <p className="text-slate-500 dark:text-slate-400">
+                          Em conformidade integral de rigores com a Lei Geral de Proteção de Dados (LGPD), você detém pleno domínio e liberdade de depurar ou requerer o apagamento permanente de todos os seus registros de histórico, clicando na opção de depuração de cache de metadados no menu de configurações.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 )}
 
                 {selectedLegalPage === 'termos' && (
-                  <div className="space-y-3 text-xs text-slate-600 dark:text-slate-300">
-                    <h4 className="font-extrabold text-slate-800 dark:text-white uppercase tracking-tight text-[13px]">Termos de Uso</h4>
-                    <p className="leading-relaxed">
-                      Ao acessar os materiais empreendedores disponibilizados na MoneyNet AI, o usuário declara e concorda que a responsabilidade pelos canais criados (Canais Dark, Clips de WhatsApp, etc.) recai exclusivamente sobre as práticas morais conduzidas pelo operador.
+                  <div className="space-y-4 text-xs text-slate-600 dark:text-slate-350 leading-relaxed">
+                    <div className="flex items-center gap-2 border-b border-slate-100 dark:border-white/5 pb-2">
+                      <FileText className="w-4 h-4 text-purple-500" />
+                      <h4 className="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-[12.5px] font-display">Termos e Condições de Uso</h4>
+                    </div>
+                    <p>
+                      Ao acessar este ecossistema educacional de tecnologia, você consente integralmente com as premissas institucionais e regulatórias do MoneyNet AI.
                     </p>
-                    <p className="leading-relaxed">
-                      Não vendemos riqueza instantânea. Disponibilizamos tutoriais e métodos para que a consistência vença os bloqueios de algoritmo.
-                    </p>
+                    <div className="p-3.5 bg-slate-100 dark:bg-white/5 rounded-xl space-y-1">
+                      <h5 className="font-black text-[11px] text-slate-800 dark:text-white uppercase tracking-wider">Responsabilidade do Operador</h5>
+                      <p className="text-slate-500 dark:text-slate-400">
+                        O MoneyNet AI compartilha técnicas validadas de criação de criativos e retenção de público de forma passiva. O usuário do aplicativo é o único e legítimo encarregado pela administração, termos éticos, natureza de marca e condução de seus próprios canais de conteúdo orgânicos gerados.
+                      </p>
+                    </div>
                   </div>
                 )}
 
                 {selectedLegalPage === 'transparencia' && (
-                  <div className="space-y-3 text-xs text-slate-600 dark:text-slate-300">
-                    <h4 className="font-extrabold text-slate-800 dark:text-white uppercase tracking-tight text-[13px]">Declaração de Transparência</h4>
-                    <p className="leading-relaxed">
-                      De acordo com os padrões da Federal Trade Commission (FTC) e da regulação antitruste em 2026, informamos que mantemos independência financeira de quaisquer patrocinadores. No entanto, o aplicativo exibe de forma clara campanhas de anúncios dinâmicas operadas de forma terceirizada para as despesas do servidor Cloud e do motor de inteligência artificial.
+                  <div className="space-y-4 text-xs text-slate-600 dark:text-slate-350 leading-relaxed">
+                    <div className="flex items-center gap-2 border-b border-slate-100 dark:border-white/5 pb-2">
+                      <Globe className="w-4 h-4 text-teal-500" />
+                      <h4 className="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-[12.5px] font-display">Declaração de Transparência de Marca</h4>
+                    </div>
+                    <p>
+                      Honramos a integridade corporativa e a ética comercial em 2026. A equipe editorial do MoneyNet AI de forma alguma impõe compras casadas de ferramentas ocultas para habilitar o progresso do estudante.
+                    </p>
+                    <p>
+                      Para cobrir os elevados custos de computação em nuvem, bancos de dados assíncronos e acesso ao motor inteligente de modelagem de texto, reservamos seções legítimas do portal para a veiculação de redes de anunciantes externos certificados, sob forte auditoria de segurança.
                     </p>
                   </div>
                 )}
 
                 {selectedLegalPage === 'cookies' && (
-                  <div className="space-y-3 text-xs text-slate-600 dark:text-slate-300">
-                    <h4 className="font-extrabold text-slate-800 dark:text-white uppercase tracking-tight text-[13px]">Controle de Cookies & LGPD</h4>
-                    <p className="leading-relaxed">
-                      Utilizamos arquivos de dados temporários de cookies e web storage para manter seu histórico de estudos local, marcar seus ganchos favoritos e rastrear preferência de idioma e tema.
+                  <div className="space-y-4 text-xs text-slate-600 dark:text-slate-350 leading-relaxed">
+                    <div className="flex items-center gap-2 border-b border-slate-100 dark:border-white/5 pb-2">
+                      <Clock className="w-4 h-4 text-amber-500" />
+                      <h4 className="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-[12.5px] font-display">Políticas de Cookies & Resguardo LGPD</h4>
+                    </div>
+                    <p>
+                      Utilizamos arquivos de dados temporários no navegador para fins exclusivos de otimização de velocidade de tráfego, gravação do progresso das suas conquistas (streak de dias), arquivamento de roteiros salvos e recordações de preferência do painel global.
                     </p>
-                    <p className="leading-relaxed font-bold">
-                      Ao utilizar nossa plataforma, você consente a gravação de cookies não agressivos que garantem o salvamento das suas conquistas em tempo real.
-                    </p>
+                    <ul className="space-y-2 font-bold pt-1">
+                      <li className="flex items-center gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                        <span>Cookies Técnicos (Essenciais para persistir estados de estudo)</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                        <span>Cookies Analíticos (Estatísticas internas de acesso sem rastreio de CPF/IP)</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                        <span>Cookies Publicitários (Anúncios inteligentes Google AdSense regulados)</span>
+                      </li>
+                    </ul>
                   </div>
                 )}
               </div>

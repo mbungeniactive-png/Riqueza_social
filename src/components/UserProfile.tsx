@@ -20,7 +20,11 @@ import {
   Bookmark,
   TrendingUp,
   Sliders,
-  CheckCircle2
+  CheckCircle2,
+  Calculator,
+  Users,
+  Video,
+  Percent
 } from 'lucide-react';
 import { useToast } from './Toast';
 import { useLanguage } from '../hooks/useLanguage';
@@ -115,6 +119,51 @@ export const UserProfile: React.FC<UserProfileProps> = ({ onBack, onProfileUpdat
 
   const [showAvatarSelector, setShowAvatarSelector] = useState(false);
   const [activeTab, setActiveTab] = useState<'profile' | 'goals' | 'audit'>('profile');
+
+  // Earnings Goal Calculator state variables
+  const [calcModel, setCalcModel] = useState<'affiliate' | 'product' | 'ads'>('affiliate');
+  const [ticketPrice, setTicketPrice] = useState<number>(50);
+  const [avgViews, setAvgViews] = useState<number>(15000);
+  const [ctrPercent, setCtrPercent] = useState<number>(1.5);
+  const [cvPercent, setCvPercent] = useState<number>(2);
+  const [directConvPercent, setDirectConvPercent] = useState<number>(0.05);
+  const [rpmValue, setRpmValue] = useState<number>(0.50);
+
+  const parseTargetIncome = (val: string): number => {
+    const clean = val.replace(/[^\d]/g, '');
+    const parsed = parseInt(clean, 10);
+    return isNaN(parsed) ? 5000 : parsed;
+  };
+
+  const calculateNeededClients = (): number => {
+    const targetVal = parseTargetIncome(formData.targetIncome);
+    if (!ticketPrice) return 0;
+    return Math.ceil(targetVal / ticketPrice);
+  };
+
+  const calculateNeededViews = (): number => {
+    const targetVal = parseTargetIncome(formData.targetIncome);
+    if (calcModel === 'ads') {
+      if (!rpmValue) return 0;
+      return Math.ceil((targetVal / rpmValue) * 1000);
+    } else if (calcModel === 'affiliate') {
+      const clientsNeeded = calculateNeededClients();
+      const combinedRate = (ctrPercent / 100) * (cvPercent / 100);
+      if (!combinedRate) return 0;
+      return Math.ceil(clientsNeeded / combinedRate);
+    } else { // product
+      const clientsNeeded = calculateNeededClients();
+      const rate = directConvPercent / 100;
+      if (!rate) return 0;
+      return Math.ceil(clientsNeeded / rate);
+    }
+  };
+
+  const calculateNeededVideos = (): number => {
+    const viewsNeeded = calculateNeededViews();
+    if (!avgViews) return 0;
+    return Math.ceil(viewsNeeded / avgViews);
+  };
 
   // Calculate Profile Completeness Score
   const getCompletenessScore = () => {
@@ -641,6 +690,298 @@ export const UserProfile: React.FC<UserProfileProps> = ({ onBack, onProfileUpdat
 
               <div className="p-3.5 bg-blue-600/5 dark:bg-blue-500/5 border border-blue-500/10 dark:border-blue-500/20 rounded-2xl text-[11px] leading-relaxed text-blue-700 dark:text-blue-300">
                 💡 <strong>DICA DO REELS:</strong> O algoritmo de entrega orgânica favorece perfis de nicho que postam de forma recorrente e estruturada nos mesmos horários todos os dias.
+              </div>
+            </div>
+
+            {/* Premium Earnings Goal Calculator Component */}
+            <div className="bg-white dark:bg-slate-900 rounded-[32px] p-5 sm:p-6 border border-slate-100 dark:border-white/5 space-y-5 shadow-sm relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 dark:bg-indigo-500/10 rounded-full filter blur-xl pointer-events-none" />
+              
+              <div className="flex items-center gap-3">
+                <div className="p-2.5 bg-indigo-500/10 text-indigo-500 rounded-2xl">
+                  <Calculator className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-sm font-black text-slate-900 dark:text-white uppercase leading-none">
+                    Calculadora de Metas de Ganho
+                  </h3>
+                  <p className="text-[10px] font-bold text-slate-400 dark:text-slate-500 mt-1 uppercase tracking-wider">
+                    Simule clientes, views ou vídeos necessários para bater seu objetivo
+                  </p>
+                </div>
+              </div>
+
+              <div className="h-px bg-slate-100 dark:bg-white/5 my-2" />
+
+              {/* Display Current Monthly Goal */}
+              <div className="p-4 bg-slate-50 dark:bg-white/5 rounded-2xl flex flex-col sm:flex-row gap-2 items-start sm:items-center justify-between">
+                <div>
+                  <span className="text-[10px] uppercase font-black tracking-wider text-slate-400 dark:text-slate-500 block">Sua Meta Mensal Selecionada</span>
+                  <span className="text-sm sm:text-base font-black text-slate-800 dark:text-white">{formData.targetIncome}</span>
+                </div>
+                <div className="sm:text-right">
+                  <span className="text-[10px] uppercase font-black tracking-wider text-slate-400 dark:text-slate-500 block">Equivalente Numérico</span>
+                  <span className="text-xs sm:text-sm font-bold text-indigo-500 dark:text-indigo-400">R$ {parseTargetIncome(formData.targetIncome).toLocaleString('pt-BR')},00</span>
+                </div>
+              </div>
+
+              {/* Selector for Monetization Type */}
+              <div className="space-y-2">
+                <label className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wide block">
+                  Escolha o Modelo de Monetização
+                </label>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setCalcModel('affiliate')}
+                    className={`p-3 rounded-2xl border flex flex-col items-center gap-1.5 text-center transition-all cursor-pointer ${
+                      calcModel === 'affiliate'
+                        ? 'border-indigo-500 bg-indigo-500/5 text-indigo-600 dark:text-indigo-400 font-extrabold'
+                        : 'border-slate-100 dark:border-white/5 bg-slate-50 dark:bg-white/5 text-slate-500 hover:border-slate-200 dark:hover:border-white/10'
+                    }`}
+                  >
+                    <span className="text-lg">🔗</span>
+                    <span className="text-[10.5px] font-bold">Vendas Afiliado</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setCalcModel('product')}
+                    className={`p-3 rounded-2xl border flex flex-col items-center gap-1.5 text-center transition-all cursor-pointer ${
+                      calcModel === 'product'
+                        ? 'border-indigo-500 bg-indigo-500/5 text-indigo-600 dark:text-indigo-400 font-extrabold'
+                        : 'border-slate-100 dark:border-white/5 bg-slate-50 dark:bg-white/5 text-slate-500 hover:border-slate-200 dark:hover:border-white/10'
+                    }`}
+                  >
+                    <span className="text-lg">💼</span>
+                    <span className="text-[10.5px] font-bold">Clientes / Serviços</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setCalcModel('ads')}
+                    className={`p-3 rounded-2xl border flex flex-col items-center gap-1.5 text-center transition-all cursor-pointer ${
+                      calcModel === 'ads'
+                        ? 'border-indigo-500 bg-indigo-500/5 text-indigo-600 dark:text-indigo-400 font-extrabold'
+                        : 'border-slate-100 dark:border-white/5 bg-slate-50 dark:bg-white/5 text-slate-500 hover:border-slate-200 dark:hover:border-white/10'
+                    }`}
+                  >
+                    <span className="text-lg">🎬</span>
+                    <span className="text-[10.5px] font-bold">Visualizações (RPM)</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Dynamic Inputs depending on model */}
+              {calcModel === 'affiliate' && (
+                <div className="space-y-4 pt-1">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        Comissão Média por Venda
+                      </label>
+                      <div className="relative">
+                        <span className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-xs">R$</span>
+                        <input
+                          type="number"
+                          value={ticketPrice}
+                          onChange={(e) => setTicketPrice(Math.max(1, parseInt(e.target.value) || 0))}
+                          className="w-full pl-9 pr-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                      </div>
+                    </div>
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        Views Médias por Vídeo
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="number"
+                          value={avgViews}
+                          onChange={(e) => setAvgViews(Math.max(100, parseInt(e.target.value) || 0))}
+                          className="w-full px-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        Taxa de Clique no Link (CTR)
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="number"
+                          step="0.1"
+                          value={ctrPercent}
+                          onChange={(e) => setCtrPercent(Math.max(0.1, parseFloat(e.target.value) || 0))}
+                          className="w-full pr-8 pl-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                        <span className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-xs">%</span>
+                      </div>
+                    </div>
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        Taxa de Conversão de Cliques
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="number"
+                          step="0.1"
+                          value={cvPercent}
+                          onChange={(e) => setCvPercent(Math.max(0.1, parseFloat(e.target.value) || 0))}
+                          className="w-full pr-8 pl-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                        <span className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-xs">%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {calcModel === 'product' && (
+                <div className="space-y-4 pt-1">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        Valor Médio do Cliente (Ticket)
+                      </label>
+                      <div className="relative">
+                        <span className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-xs">R$</span>
+                        <input
+                          type="number"
+                          value={ticketPrice}
+                          onChange={(e) => setTicketPrice(Math.max(1, parseInt(e.target.value) || 0))}
+                          className="w-full pl-9 pr-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                      </div>
+                    </div>
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        Views Médias por Vídeo
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="number"
+                          value={avgViews}
+                          onChange={(e) => setAvgViews(Math.max(100, parseInt(e.target.value) || 0))}
+                          className="w-full px-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space-y-1.5">
+                    <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                      Taxa de Conversão Direta (Views para Clientes)
+                    </label>
+                    <div className="relative">
+                      <input
+                        type="number"
+                        step="0.005"
+                        value={directConvPercent}
+                        onChange={(e) => setDirectConvPercent(Math.max(0.001, parseFloat(e.target.value) || 0))}
+                        className="w-full pr-8 pl-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                      />
+                      <span className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-xs">%</span>
+                    </div>
+                    <p className="text-[9px] text-slate-400 dark:text-slate-500 leading-normal">
+                      Exemplo: 0.05% de conversão direta significa que a cada 10.000 visualizações, você adquire 5 novos clientes pagantes.
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {calcModel === 'ads' && (
+                <div className="space-y-4 pt-1">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        RPM Médio (Ganhos por 1000 Views)
+                      </label>
+                      <div className="relative">
+                        <span className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-xs">R$</span>
+                        <input
+                          type="number"
+                          step="0.05"
+                          value={rpmValue}
+                          onChange={(e) => setRpmValue(Math.max(0.01, parseFloat(e.target.value) || 0))}
+                          className="w-full pl-9 pr-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                      </div>
+                      <p className="text-[9px] text-slate-400 dark:text-slate-500 leading-normal">
+                        Média de ganhos para cada 1.000 visualizações monetizáveis pelo fundo.
+                      </p>
+                    </div>
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] font-black uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+                        Views Médias qualificadas por Vídeo
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="number"
+                          value={avgViews}
+                          onChange={(e) => setAvgViews(Math.max(100, parseInt(e.target.value) || 0))}
+                          className="w-full px-3 py-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 rounded-xl text-xs font-bold text-slate-800 dark:text-white"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Dynamic Results Outputs Box */}
+              <div className="p-5 bg-gradient-to-br from-indigo-600/5 via-indigo-600/10 to-purple-600/5 border border-indigo-500/10 dark:border-indigo-500/20 rounded-2xl space-y-3.5 text-left">
+                <p className="text-[10px] font-black uppercase text-indigo-550 dark:text-indigo-400 tracking-widest leading-none">Resultados Estimados do Planejamento</p>
+                
+                <div className="grid grid-cols-2 gap-3 sm:gap-4">
+                  {calcModel !== 'ads' ? (
+                    <div className="p-3 bg-white/40 dark:bg-black/20 rounded-xl border border-slate-100 dark:border-white/5">
+                      <div className="flex items-center gap-1.5 mb-1 text-slate-400 dark:text-slate-500">
+                        <Users className="w-3.5 h-3.5 text-indigo-500" />
+                        <span className="text-[9px] uppercase font-black tracking-wider leading-none">Clientes/Vendas</span>
+                      </div>
+                      <span className="text-base sm:text-lg font-black text-slate-800 dark:text-white leading-tight">
+                        {calculateNeededClients() === Infinity ? 'N/A' : `${calculateNeededClients()} clientes`}
+                      </span>
+                      <p className="text-[8px] text-slate-400 dark:text-slate-500 mt-1 uppercase font-bold leading-none">Necessários por mês</p>
+                    </div>
+                  ) : (
+                    <div className="p-3 bg-white/40 dark:bg-black/20 rounded-xl border border-slate-100 dark:border-white/5">
+                      <div className="flex items-center gap-1.5 mb-1 text-slate-400 dark:text-slate-500">
+                        <TrendingUp className="w-3.5 h-3.5 text-indigo-500" />
+                        <span className="text-[9px] uppercase font-black tracking-wider leading-none">Views Requeridas</span>
+                      </div>
+                      <span className="text-sm sm:text-base font-black text-slate-800 dark:text-white leading-tight select-all">
+                        {calculateNeededViews().toLocaleString('pt-BR')}
+                      </span>
+                      <p className="text-[8px] text-slate-400 dark:text-slate-500 mt-1 uppercase font-bold leading-none">Views qualitativas</p>
+                    </div>
+                  )}
+
+                  <div className="p-3 bg-white/40 dark:bg-black/20 rounded-xl border border-slate-100 dark:border-white/5">
+                    <div className="flex items-center gap-1.5 mb-1 text-slate-400 dark:text-slate-500">
+                      <Video className="w-3.5 h-3.5 text-indigo-500" />
+                      <span className="text-[9px] uppercase font-black tracking-wider leading-none">Vídeos Estimados</span>
+                    </div>
+                    <span className="text-base sm:text-lg font-black text-slate-800 dark:text-white leading-tight">
+                      {calculateNeededVideos()} vídeos
+                    </span>
+                    <p className="text-[8px] text-slate-400 dark:text-slate-500 mt-1 uppercase font-bold leading-none">Na média de visualização</p>
+                  </div>
+                </div>
+
+                <div className="h-px bg-indigo-500/10" />
+
+                <div className="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed font-semibold space-y-1.5">
+                  <p>
+                    📌 <strong>Resumo do Plano:</strong> Para bater sua meta mensal de <strong className="text-slate-800 dark:text-slate-200">R$ {parseTargetIncome(formData.targetIncome).toLocaleString('pt-BR')},00</strong> via {calcModel === 'affiliate' ? 'vendas de afiliado' : calcModel === 'product' ? 'conversão de clientes/serviços' : 'anúncios em vídeos'}, estimamos que você precisa gerar um total acumulado de <strong className="text-indigo-500 dark:text-indigo-400 font-extrabold">{calculateNeededViews().toLocaleString('pt-BR')} visualizações</strong> mensais.
+                  </p>
+                  <p>
+                    Se mantiver um desempenho médio constante de <strong className="text-slate-800 dark:text-slate-200">{avgViews.toLocaleString('pt-BR')} views</strong> por vídeo, precisará de aproximadamente <strong className="text-indigo-500 dark:text-indigo-400 font-extrabold">{calculateNeededVideos()} vídeos publicados</strong> para bater sua meta mensal!
+                  </p>
+                </div>
               </div>
             </div>
           </motion.div>
