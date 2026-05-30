@@ -6198,6 +6198,69 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'plano_primeiros_100_marketing',
+        title: '💵 Plano para os Primeiros US$ 100',
+        content: [
+          'Se você está começando do zero e tem apenas um celular, a meta mais realista é tentar ganhar os primeiros US$ 100 criando conteúdo e vendendo um produto digital simples.',
+          {
+            type: 'steps',
+            title: '📅 Planejamento de 4 Semanas',
+            items: [
+              'Semana 1 – Criar sua base: Escolha um nicho recomendado (Ganhar dinheiro online, Motivação, Inteligência Artificial, Dicas para TikTok, Produtividade) e crie contas no TikTok, Instagram e YouTube Shorts usando o mesmo nome em todas.',
+              'Semana 2 – Produzir conteúdo: Publique 3 vídeos por dia no TikTok, 3 Reels por dia e 3 Shorts por dia enfocando dicas rápidas, frases motivacionais, ferramentas de IA e formas de ganhar dinheiro online.',
+              'Semana 3 – Criar um produto digital: Crie um eBook simples (ex: "50 Formas de Ganhar Dinheiro com Celular") com preço sugerido de US$ 5 a US$ 10 e hospede em plataformas como hotmart.com ou kiwify.com.br.',
+              'Semana 4 – Começar a vender: Crie vídeos persuasivos promovendo o eBook (ex: "Criei um guia com 50 formas de ganhar dinheiro usando apenas um celular. Link na bio.") e direcione o público para a venda.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 Exemplo de Conteúdo que Converte',
+            items: [
+              '• Gancho de impacto: "Se eu tivesse apenas um celular e precisasse ganhar dinheiro, faria isso."',
+              '• Entrega de conteúdo: Explique um conceito ou dica rápida e acionável em apenas 20 segundos.',
+              '• CTA (Chamada de Ação): "Siga para mais dicas diárias."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📊 Meta Dedicada de Vendas para US$ 100',
+            items: [
+              '• Se o seu eBook custar US$ 10: você só precisa de 10 vendas para alcançar US$ 100.',
+              '• Se o seu eBook custar US$ 5: você só precisa de 20 vendas para alcançar US$ 100.',
+              'Tudo isso pode ser construído e gerenciado em seu tempo livre.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🛠️ Ferramentas Gratuitas e Indispensáveis',
+            items: [
+              '🤖 chatgpt.com (Geração de ideias brilhantes e redação de textos)',
+              '🎨 canva.com (Edição visual primorosa de capas e recursos em PDF)',
+              '🎬 capcut.com (Criação e edição de vídeos verticais chamativos)'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🕒 Rotina Diária Simples e Eficaz',
+            items: [
+              'Manhã: Dedique 30 minutos para pesquisar e selecionar ideias de conteúdo.',
+              'Tarde: Reserve 1 hora para gravar e editar 3 vídeos rápidos.',
+              'Noite: Publique seus vídeos, responda ativamente aos comentários e aprenda algo novo.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⚠️ Regra Fundamental para o Sucesso',
+            items: [
+              'Não espere faturar dinheiro em apenas 7 dias.',
+              'Muitas pessoas passam de 30 a 90 dias construindo uma audiência qualificada antes de realizar as primeiras vendas.',
+              'Seus objetivos prioritários iniciais são: publicar com consistência diária, aprender o que atrai mais a atenção do público, construir credibilidade e fazer a primeira conversão antes de escalar.',
+              'Quem publica centenas de conteúdos ao longo dos meses desenvolve uma percepção única do mercado e tem chances infinitamente maiores de prosperar do que quem desiste no início.'
+            ]
+          }
+        ]
+      },
+      {
         id: 'action_plan_from_zero_marketing',
         title: '📋 Plano de Ação (Começar do Zero)',
         content: [
