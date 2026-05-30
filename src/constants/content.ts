@@ -380,6 +380,135 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'pagina_vendas_tiktok',
+        title: '💻 Como Criar uma Página de Vendas de Alta Conversão',
+        content: [
+          'Uma página de vendas tem um único objetivo claro: convencer o visitante a comprar ou deixar o seu contato.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Perfeita de uma Página de Vendas',
+            items: [
+              '1. Título forte (Headline): Defina com clareza o que a pessoa vai conquistar. Exemplos: "Aprenda 50 Formas de Ganhar Dinheiro Usando Apenas um Celular" ou "Descubra Como Começar a Ganhar Dinheiro Online Mesmo Sendo Iniciante".',
+              '2. Mostre o problema (Agitação da dor): Conecte-se mostrando as dificuldades do público (ex: "Muitas pessoas querem ganhar dinheiro na internet, mas não sabem por onde começar ou acreditam que precisam de muito dinheiro para investir").',
+              '3. Apresente a solução: Introduza seu eBook como a solução definitiva (ex: "Neste eBook você aprenderá métodos práticos que podem ser iniciados usando apenas um celular e acesso à internet").',
+              '4. Destaque os benefícios: Use uma lista simples contendo os pontos fortes do produto (✅ Métodos para iniciantes | ✅ Explicações simples | ✅ Ferramentas gratuitas | ✅ Plano de ação passo a passo | ✅ Acesso imediato após a compra).',
+              '5. O que o leitor recebe: Descreva as entregas do produto: eBook principal em PDF + Bônus exclusivos, checklists, ou listas de ferramentas úteis.',
+              '6. Chamada para ação irresistível (CTA): Proponha uma oferta clara. Ex: "Compre Agora e Comece Hoje" com um botão do tipo 👉 "Quero Meu eBook".'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎨 Como Criar a sua Página Pronta',
+            items: [
+              '• canva.com (para quem busca apresentar de forma simples e rápida)',
+              '• hotmart.com (utiliza as páginas de vendas integradas gratuitas do sistema)',
+              '• kiwify.com.br (utiliza a própria página de vendas gerada pela plataforma)',
+              '💡 Dica: A opção mais fácil, moderna e rápida é utilizar a própria estrutura de página construída e hospedada automaticamente no painel da sua plataforma de vendas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🚀 Como Atrair Visitantes (Gere Tráfego Qualificado)',
+            items: [
+              'Método 1 — TikTok: Publique de 3 a 5 vídeos por dia explicando soluções comuns (ex: "3 formas de ganhar dinheiro online", "O erro que impede você de ganhar dinheiro na internet"). Adicione um link na sua bio no final.',
+              'Método 2 — Instagram Reels: Transforme dicas acionáveis de dentro do próprio eBook em vídeos de 15 a 30 segundos.',
+              'Método 3 — YouTube Shorts: Publique e reaproveite os mesmos vídeos bem editados para engajar novas audiências.',
+              'Método 4 — Marketing de Conteúdo: Produza conteúdos que resolvam problemas imediatos da audiência (ex: "5 habilidades que podem gerar renda usando apenas um celular").'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ Fórmula Simples de Vendas Diárias',
+            items: [
+              'Passo 1: Entregar conteúdo gratuito valioso.',
+              'Passo 2: Ganhar a confiança e o carinho dos seguidores.',
+              'Passo 3: Mostrar os benefícios e resultados práticos que o produto gera.',
+              'Passo 4: Convidar pessoalmente os interessados para conhecer e comprar o eBook.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📅 Meta de Foco para os Próximos 30 Dias',
+            items: [
+              '• Finalize a escrita e criação de 1 eBook estratégico e atraente.',
+              '• Publique de 90 a 150 vídeos curtos integrados no TikTok, Reels e Shorts.',
+              '• Coloque o link do checkout/página na bio de todos os seus perfis.',
+              '• Analise os dados semanais e melhore continuamente a abordagem dos seus vídeos mais virais.',
+              'Conselho final: Se você publicar com consistência inabalável e aprender a analisar suas métricas, terá chances incrivelmente infinitas de dominar as vendas muito antes do que aqueles que passam o ano inteiro esperando a hora perfeita para começar!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'tiktok_global_monetization_all',
+        title: '🌍 Como Ganhar Dinheiro com TikTok no Mundo Inteiro',
+        content: [
+          'Você sabia que é possível ganhar dinheiro com TikTok no mundo inteiro? Normalmente isso envolve combinar a criação de conteúdo com outras formas inteligentes de monetização.',
+          {
+            type: 'list',
+            title: '🎯 1. Escolha um Nicho Global',
+            items: [
+              '• Escolha temas universais que funcionam bem em diversos países: Motivação, Desenvolvimento pessoal, Curiosidades, Inteligência Artificial, Negócios e Empreendedorismo, Tecnologia, Histórias inspiradoras e Aprendizado de idiomas.',
+              '• Conselho: Se possível, faça conteúdos diretamente em inglês ou adicione legendas em inglês para alcançar um público muito maior e global.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 2. Publique muitos vídeos curtos',
+            items: [
+              'Sua meta inicial recomendada é publicar de 3 a 5 vídeos diários durando entre 15 a 60 segundos.',
+              'Aposte sempre em um gancho altamente forte nos primeiros 3 segundos para prender a atenção (exemplo: "3 hábitos que mudaram minha vida de verdade").'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💰 3. Formas inteligentes de ganhar dinheiro',
+            items: [
+              '• Marketing de afiliados: Promova produtos digitais e físicos ganhando ótimas comissões por cada venda realizada (Plataformas recomendadas: hotmart.com e clickbank.com).',
+              '• Venda de eBooks próprios: Escreva e crie um guia digital objetivo e venda para seus seguidores interessados.',
+              '• Cursos online didáticos: Ensine e compartilhe em formato de aulas uma habilidade específica que você domina.',
+              '• Prestação de Serviços: Ofereça tarefas demandadas como edição de vídeo, design criativo, gestão qualificada de redes sociais ou geração de conteúdos corporativos utilizando ferramentas de IA.',
+              '• Parcerias pagas com marcas: Quando a sua base de seguidores e engajamento crescer, empresas de diversos setores pagarão para você divulgar os produtos delas.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📝 4. Crie uma Bio Simples e Magnética',
+            items: [
+              'Formato ideal a seguir:',
+              '🚀 Dicas para crescer online',
+              '💰 Ganhar dinheiro na internet',
+              '📩 Link com ferramentas abaixo'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ 5. O Funcionamento do Funil Simples de Vendas',
+            items: [
+              'TikTok (Atração de Tráfego) ➔ Clique no Link da sua Bio ➔ Visita na Página de Vendas ➔ Compra do Produto Digital'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔥 6. Diretrizes que costumam funcionar melhor',
+            items: [
+              '• Consistência inabalável diária focada em meses, e nunca apenas em poucos dias de testes.',
+              '• Produção focada em conteúdo altamente útil, prático ou emocionante para o leitor.',
+              '• Testar continuamente diferentes formatos de ganchos e repetir os roteiros que mais engajaram.',
+              '• Meta Dedicada (Primeiros 90 Dias): Publique consistentemente entre 300 a 500 vídeos curtos, construa uma comunidade, crie um eBook ou serviço de entrada e realize as suas primeiras vendas online.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Reflexão de Ouro para sua Jornada',
+            items: [
+              'Muitos criadores começam o projeto sem faturar absolutamente nada e passam a monetizar em larga escala somente após construir uma audiência fiel e estruturar uma oferta que resolve uma dor real de mercado.',
+              'O seu foco prioritário inicial deve estar concentrado em publicar sistematicamente todos os dias e entender quais formatos o seu público mais adora assistir de você!'
+            ]
+          }
+        ]
+      },
+      {
         id: 'start_from_zero_tiktok',
         title: '🏁 Começar do Zero (Guia de Início)',
         content: [
@@ -2277,6 +2406,135 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'pagina_vendas_meta',
+        title: '💻 Como Criar uma Página de Vendas de Alta Conversão',
+        content: [
+          'Uma página de vendas tem um único objetivo claro: convencer o visitante a comprar ou deixar o seu contato.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Perfeita de uma Página de Vendas',
+            items: [
+              '1. Título forte (Headline): Defina com clareza o que a pessoa vai conquistar. Exemplos: "Aprenda 50 Formas de Ganhar Dinheiro Usando Apenas um Celular" ou "Descubra Como Começar a Ganhar Dinheiro Online Mesmo Sendo Iniciante".',
+              '2. Mostre o problema (Agitação da dor): Conecte-se mostrando as dificuldades do público (ex: "Muitas pessoas querem ganhar dinheiro na internet, mas não sabem por onde começar ou acreditam que precisam de muito dinheiro para investir").',
+              '3. Apresente a solução: Introduza seu eBook como a solução definitiva (ex: "Neste eBook você aprenderá métodos práticos que podem ser iniciados usando apenas um celular e acesso à internet").',
+              '4. Destaque os benefícios: Use uma lista simples contendo os pontos fortes do produto (✅ Métodos para iniciantes | ✅ Explicações simples | ✅ Ferramentas gratuitas | ✅ Plano de ação passo a passo | ✅ Acesso imediato após a compra).',
+              '5. O que o leitor recebe: Descreva as entregas do produto: eBook principal em PDF + Bônus exclusivos, checklists, ou listas de ferramentas úteis.',
+              '6. Chamada para ação irresistível (CTA): Proponha uma oferta clara. Ex: "Compre Agora e Comece Hoje" com um botão do tipo 👉 "Quero Meu eBook".'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎨 Como Criar a sua Página Pronta',
+            items: [
+              '• canva.com (para quem busca apresentar de forma simples e rápida)',
+              '• hotmart.com (utiliza as páginas de vendas integradas gratuitas do sistema)',
+              '• kiwify.com.br (utiliza a própria página de vendas gerada pela plataforma)',
+              '💡 Dica: A opção mais fácil, moderna e rápida é utilizar a própria estrutura de página construída e hospedada automaticamente no painel da sua plataforma de vendas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🚀 Como Atrair Visitantes (Gere Tráfego Qualificado)',
+            items: [
+              'Método 1 — TikTok: Publique de 3 a 5 vídeos por dia explicando soluções comuns (ex: "3 formas de ganhar dinheiro online", "O erro que impede você de ganhar dinheiro na internet"). Adicione um link na sua bio no final.',
+              'Método 2 — Instagram Reels: Transforme dicas acionáveis de dentro do próprio eBook em vídeos de 15 a 30 segundos.',
+              'Método 3 — YouTube Shorts: Publique e reaproveite os mesmos vídeos bem editados para engajar novas audiências.',
+              'Método 4 — Marketing de Conteúdo: Produza conteúdos que resolvam problemas imediatos da audiência (ex: "5 habilidades que podem gerar renda usando apenas um celular").'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ Fórmula Simples de Vendas Diárias',
+            items: [
+              'Passo 1: Entregar conteúdo gratuito valioso.',
+              'Passo 2: Ganhar a confiança e o carinho dos seguidores.',
+              'Passo 3: Mostrar os benefícios e resultados práticos que o produto gera.',
+              'Passo 4: Convidar pessoalmente os interessados para conhecer e comprar o eBook.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📅 Meta de Foco para os Próximos 30 Dias',
+            items: [
+              '• Finalize a escrita e criação de 1 eBook estratégico e atraente.',
+              '• Publique de 90 a 150 vídeos curtos integrados no TikTok, Reels e Shorts.',
+              '• Coloque o link do checkout/página na bio de todos os seus perfis.',
+              '• Analise os dados semanais e melhore continuamente a abordagem dos seus vídeos mais virais.',
+              'Conselho final: Se você publicar com consistência inabalável e aprender a analisar suas métricas, terá chances incrivelmente infinitas de dominar as vendas muito antes do que aqueles que passam o ano inteiro esperando a hora perfeita para começar!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'meta_global_monetization_all',
+        title: '🌍 Como Ganhar Dinheiro com TikTok no Mundo Inteiro',
+        content: [
+          'Você sabia que é possível ganhar dinheiro com TikTok no mundo inteiro? Normalmente isso envolve combinar a criação de conteúdo com outras formas inteligentes de monetização.',
+          {
+            type: 'list',
+            title: '🎯 1. Escolha um Nicho Global',
+            items: [
+              '• Escolha temas universais que funcionam bem em diversos países: Motivação, Desenvolvimento pessoal, Curiosidades, Inteligência Artificial, Negócios e Empreendedorismo, Tecnologia, Histórias inspiradoras e Aprendizado de idiomas.',
+              '• Conselho: Se possível, faça conteúdos diretamente em inglês ou adicione legendas em inglês para alcançar um público muito maior e global.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 2. Publique muitos vídeos curtos',
+            items: [
+              'Sua meta inicial recomendada é publicar de 3 a 5 vídeos diários durando entre 15 a 60 segundos.',
+              'Aposte sempre em um gancho altamente forte nos primeiros 3 segundos para prender a atenção (exemplo: "3 hábitos que mudaram minha vida de verdade").'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💰 3. Formas inteligentes de ganhar dinheiro',
+            items: [
+              '• Marketing de afiliados: Promova produtos digitais e físicos ganhando ótimas comissões por cada venda realizada (Plataformas recomendadas: hotmart.com e clickbank.com).',
+              '• Venda de eBooks próprios: Escreva e crie um guia digital objetivo e venda para seus seguidores interessados.',
+              '• Cursos online didáticos: Ensine e compartilhe em formato de aulas uma habilidade específica que você domina.',
+              '• Prestação de Serviços: Ofereça tarefas demandadas como edição de vídeo, design criativo, gestão qualificada de redes sociais ou geração de conteúdos corporativos utilizando ferramentas de IA.',
+              '• Parcerias pagas com marcas: Quando a sua base de seguidores e engajamento crescer, empresas de diversos setores pagarão para você divulgar os produtos delas.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📝 4. Crie uma Bio Simples e Magnética',
+            items: [
+              'Formato ideal a seguir:',
+              '🚀 Dicas para crescer online',
+              '💰 Ganhar dinheiro na internet',
+              '📩 Link com ferramentas abaixo'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ 5. O Funcionamento do Funil Simples de Vendas',
+            items: [
+              'TikTok (Atração de Tráfego) ➔ Clique no Link da sua Bio ➔ Visita na Página de Vendas ➔ Compra do Produto Digital'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔥 6. Diretrizes que costumam funcionar melhor',
+            items: [
+              '• Consistência inabalável diária focada em meses, e nunca apenas em poucos dias de testes.',
+              '• Produção focada em conteúdo altamente útil, prático ou emocionante para o leitor.',
+              '• Testar continuamente diferentes formatos de ganchos e repetir os roteiros que mais engajaram.',
+              '• Meta Dedicada (Primeiros 90 Dias): Publique consistentemente entre 300 a 500 vídeos curtos, construa uma comunidade, crie um eBook ou serviço de entrada e realize as suas primeiras vendas online.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Reflexão de Ouro para sua Jornada',
+            items: [
+              'Muitos criadores começam o projeto sem faturar absolutamente nada e passam a monetizar em larga escala somente após construir uma audiência fiel e estruturar uma oferta que resolve uma dor real de mercado.',
+              'O seu foco prioritário inicial deve estar concentrado em publicar sistematicamente todos os dias e entender quais formatos o seu público mais adora assistir de você!'
+            ]
+          }
+        ]
+      },
+      {
         id: 'start_from_zero_meta',
         title: '🏁 Começar do Zero (Guia de Início)',
         content: [
@@ -4133,6 +4391,135 @@ export const APP_CONTENT_PT: SectionContent[] = [
               'Preço Recomendado (Após primeiras vendas): R$ 47,00 a R$ 97,00 (US$ 10–20)',
               'Estratégia de Vendas Orgânica: Publique vídeos curtos consistentes. Use chamadas persuasivas ao final de cada vídeo: "Quer aprender a ganhar dinheiro usando apenas o celular? Comente \'GUIA\' e acesse o link na bio."',
               'Conselho de Ouro: Uma meta realista de extremo sucesso é publicar de 3 a 5 vídeos por dia durante pelo menos 90 dias seguidos. No orgânico, a consistência diária disciplinada é imensamente superior a tentar apenas a sorte com um único vídeo isolado.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'pagina_vendas_youtube',
+        title: '💻 Como Criar uma Página de Vendas de Alta Conversão',
+        content: [
+          'Uma página de vendas tem um único objetivo claro: convencer o visitante a comprar ou deixar o seu contato.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Perfeita de uma Página de Vendas',
+            items: [
+              '1. Título forte (Headline): Defina com clareza o que a pessoa vai conquistar. Exemplos: "Aprenda 50 Formas de Ganhar Dinheiro Usando Apenas um Celular" ou "Descubra Como Começar a Ganhar Dinheiro Online Mesmo Sendo Iniciante".',
+              '2. Mostre o problema (Agitação da dor): Conecte-se mostrando as dificuldades do público (ex: "Muitas pessoas querem ganhar dinheiro na internet, mas não sabem por onde começar ou acreditam que precisam de muito dinheiro para investir").',
+              '3. Apresente a solução: Introduza seu eBook como a solução definitiva (ex: "Neste eBook você aprenderá métodos práticos que podem ser iniciados usando apenas um celular e acesso à internet").',
+              '4. Destaque os benefícios: Use uma lista simples contendo os pontos fortes do produto (✅ Métodos para iniciantes | ✅ Explicações simples | ✅ Ferramentas gratuitas | ✅ Plano de ação passo a passo | ✅ Acesso imediato após a compra).',
+              '5. O que o leitor recebe: Descreva as entregas do produto: eBook principal em PDF + Bônus exclusivos, checklists, ou listas de ferramentas úteis.',
+              '6. Chamada para ação irresistível (CTA): Proponha uma oferta clara. Ex: "Compre Agora e Comece Hoje" com um botão do tipo 👉 "Quero Meu eBook".'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎨 Como Criar a sua Página Pronta',
+            items: [
+              '• canva.com (para quem busca apresentar de forma simples e rápida)',
+              '• hotmart.com (utiliza as páginas de vendas integradas gratuitas do sistema)',
+              '• kiwify.com.br (utiliza a própria página de vendas gerada pela plataforma)',
+              '💡 Dica: A opção mais fácil, moderna e rápida é utilizar a própria estrutura de página construída e hospedada automaticamente no painel da sua plataforma de vendas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🚀 Como Atrair Visitantes (Gere Tráfego Qualificado)',
+            items: [
+              'Método 1 — TikTok: Publique de 3 a 5 vídeos por dia explicando soluções comuns (ex: "3 formas de ganhar dinheiro online", "O erro que impede você de ganhar dinheiro na internet"). Adicione um link na sua bio no final.',
+              'Método 2 — Instagram Reels: Transforme dicas acionáveis de dentro do próprio eBook em vídeos de 15 a 30 segundos.',
+              'Método 3 — YouTube Shorts: Publique e reaproveite os mesmos vídeos bem editados para engajar novas audiências.',
+              'Método 4 — Marketing de Conteúdo: Produza conteúdos que resolvam problemas imediatos da audiência (ex: "5 habilidades que podem gerar renda usando apenas um celular").'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ Fórmula Simples de Vendas Diárias',
+            items: [
+              'Passo 1: Entregar conteúdo gratuito valioso.',
+              'Passo 2: Ganhar a confiança e o carinho dos seguidores.',
+              'Passo 3: Mostrar os benefícios e resultados práticos que o produto gera.',
+              'Passo 4: Convidar pessoalmente os interessados para conhecer e comprar o eBook.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📅 Meta de Foco para os Próximos 30 Dias',
+            items: [
+              '• Finalize a escrita e criação de 1 eBook estratégico e atraente.',
+              '• Publique de 90 a 150 vídeos curtos integrados no TikTok, Reels e Shorts.',
+              '• Coloque o link do checkout/página na bio de todos os seus perfis.',
+              '• Analise os dados semanais e melhore continuamente a abordagem dos seus vídeos mais virais.',
+              'Conselho final: Se você publicar com consistência inabalável e aprender a analisar suas métricas, terá chances incrivelmente infinitas de dominar as vendas muito antes do que aqueles que passam o ano inteiro esperando a hora perfeita para começar!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'youtube_global_monetization_all',
+        title: '🌍 Como Ganhar Dinheiro com TikTok no Mundo Inteiro',
+        content: [
+          'Você sabia que é possível ganhar dinheiro com TikTok no mundo inteiro? Normalmente isso envolve combinar a criação de conteúdo com outras formas inteligentes de monetização.',
+          {
+            type: 'list',
+            title: '🎯 1. Escolha um Nicho Global',
+            items: [
+              '• Escolha temas universais que funcionam bem em diversos países: Motivação, Desenvolvimento pessoal, Curiosidades, Inteligência Artificial, Negócios e Empreendedorismo, Tecnologia, Histórias inspiradoras e Aprendizado de idiomas.',
+              '• Conselho: Se possível, faça conteúdos diretamente em inglês ou adicione legendas em inglês para alcançar um público muito maior e global.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 2. Publique muitos vídeos curtos',
+            items: [
+              'Sua meta inicial recomendada é publicar de 3 a 5 vídeos diários durando entre 15 a 60 segundos.',
+              'Aposte sempre em um gancho altamente forte nos primeiros 3 segundos para prender a atenção (exemplo: "3 hábitos que mudaram minha vida de verdade").'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💰 3. Formas inteligentes de ganhar dinheiro',
+            items: [
+              '• Marketing de afiliados: Promova produtos digitais e físicos ganhando ótimas comissões por cada venda realizada (Plataformas recomendadas: hotmart.com e clickbank.com).',
+              '• Venda de eBooks próprios: Escreva e crie um guia digital objetivo e venda para seus seguidores interessados.',
+              '• Cursos online didáticos: Ensine e compartilhe em formato de aulas uma habilidade específica que você domina.',
+              '• Prestação de Serviços: Ofereça tarefas demandadas como edição de vídeo, design criativo, gestão qualificada de redes sociais ou geração de conteúdos corporativos utilizando ferramentas de IA.',
+              '• Parcerias pagas com marcas: Quando a sua base de seguidores e engajamento crescer, empresas de diversos setores pagarão para você divulgar os produtos delas.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📝 4. Crie uma Bio Simples e Magnética',
+            items: [
+              'Formato ideal a seguir:',
+              '🚀 Dicas para crescer online',
+              '💰 Ganhar dinheiro na internet',
+              '📩 Link com ferramentas abaixo'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ 5. O Funcionamento do Funil Simples de Vendas',
+            items: [
+              'TikTok (Atração de Tráfego) ➔ Clique no Link da sua Bio ➔ Visita na Página de Vendas ➔ Compra do Produto Digital'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔥 6. Diretrizes que costumam funcionar melhor',
+            items: [
+              '• Consistência inabalável diária focada em meses, e nunca apenas em poucos dias de testes.',
+              '• Production focada em conteúdo altamente útil, prático ou emocionante para o leitor.',
+              '• Testar continuamente diferentes formatos de ganchos e repetir os roteiros que mais engajaram.',
+              '• Meta Dedicada (Primeiros 90 Dias): Publique consistentemente entre 300 a 500 vídeos curtos, construa uma comunidade, crie um eBook ou serviço de entrada e realize as suas primeiras vendas online.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Reflexão de Ouro para sua Jornada',
+            items: [
+              'Muitos criadores começam o projeto sem faturar absolutamente nada e passam a monetizar em larga escala somente após construir uma audiência fiel e estruturar uma oferta que resolve uma dor real de mercado.',
+              'O seu foco prioritário inicial deve estar concentrado em publicar sistematicamente todos os dias e entender quais formatos o seu público mais adora assistir de você!'
             ]
           }
         ]
@@ -6139,6 +6526,135 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'pagina_vendas_marketing',
+        title: '💻 Como Criar uma Página de Vendas de Alta Conversão',
+        content: [
+          'Uma página de vendas tem um único objetivo claro: convencer o visitante a comprar ou deixar o seu contato.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Perfeita de uma Página de Vendas',
+            items: [
+              '1. Título forte (Headline): Defina com clareza o que a pessoa vai conquistar. Exemplos: "Aprenda 50 Formas de Ganhar Dinheiro Usando Apenas um Celular" ou "Descubra Como Começar a Ganhar Dinheiro Online Mesmo Sendo Iniciante".',
+              '2. Mostre o problema (Agitação da dor): Conecte-se mostrando as dificuldades do público (ex: "Muitas pessoas querem ganhar dinheiro na internet, mas não sabem por onde começar ou acreditam que precisam de muito dinheiro para investir").',
+              '3. Apresente a solução: Introduza seu eBook como a solução definitiva (ex: "Neste eBook você aprenderá métodos práticos que podem ser iniciados usando apenas um celular e acesso à internet").',
+              '4. Destaque os benefícios: Use uma lista simples contendo os pontos fortes do produto (✅ Métodos para iniciantes | ✅ Explicações simples | ✅ Ferramentas gratuitas | ✅ Plano de ação passo a passo | ✅ Acesso imediato após a compra).',
+              '5. O que o leitor recebe: Descreva as entregas do produto: eBook principal em PDF + Bônus exclusivos, checklists, ou listas de ferramentas úteis.',
+              '6. Chamada para ação irresistível (CTA): Proponha uma oferta clara. Ex: "Compre Agora e Comece Hoje" com um botão do tipo 👉 "Quero Meu eBook".'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎨 Como Criar a sua Página Pronta',
+            items: [
+              '• canva.com (para quem busca apresentar de forma simples e rápida)',
+              '• hotmart.com (utiliza as páginas de vendas integradas gratuitas do sistema)',
+              '• kiwify.com.br (utiliza a própria página de vendas gerada pela plataforma)',
+              '💡 Dica: A opção mais fácil, moderna e rápida é utilizar a própria estrutura de página construída e hospedada automaticamente no painel da sua plataforma de vendas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🚀 Como Atrair Visitantes (Gere Tráfego Qualificado)',
+            items: [
+              'Método 1 — TikTok: Publique de 3 a 5 vídeos por dia explicando soluções comuns (ex: "3 formas de ganhar dinheiro online", "O erro que impede você de ganhar dinheiro na internet"). Adicione um link na sua bio no final.',
+              'Método 2 — Instagram Reels: Transforme dicas acionáveis de dentro do próprio eBook em vídeos de 15 a 30 segundos.',
+              'Método 3 — YouTube Shorts: Publique e reaproveite os mesmos vídeos bem editados para engajar novas audiências.',
+              'Método 4 — Marketing de Conteúdo: Produza conteúdos que resolvam problemas imediatos da audiência (ex: "5 habilidades que podem gerar renda usando apenas um celular").'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ Fórmula Simples de Vendas Diárias',
+            items: [
+              'Passo 1: Entregar conteúdo gratuito valioso.',
+              'Passo 2: Ganhar a confiança e o carinho dos seguidores.',
+              'Passo 3: Mostrar os benefícios e resultados práticos que o produto gera.',
+              'Passo 4: Convidar pessoalmente os interessados para conhecer e comprar o eBook.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📅 Meta de Foco para os Próximos 30 Dias',
+            items: [
+              '• Finalize a escrita e criação de 1 eBook estratégico e atraente.',
+              '• Publique de 90 a 150 vídeos curtos integrados no TikTok, Reels e Shorts.',
+              '• Coloque o link do checkout/página na bio de todos os seus perfis.',
+              '• Analise os dados semanais e melhore continuamente a abordagem dos seus vídeos mais virais.',
+              'Conselho final: Se você publicar com consistência inabalável e aprender a analisar suas métricas, terá chances incrivelmente infinitas de dominar as vendas muito antes do que aqueles que passam o ano inteiro esperando a hora perfeita para começar!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'marketing_global_monetization_all',
+        title: '🌍 Como Ganhar Dinheiro com TikTok no Mundo Inteiro',
+        content: [
+          'Você sabia que é possível ganhar dinheiro com TikTok no mundo inteiro? Normalmente isso envolve combinar a criação de conteúdo com outras formas inteligentes de monetização.',
+          {
+            type: 'list',
+            title: '🎯 1. Escolha um Nicho Global',
+            items: [
+              '• Escolha temas universais que funcionam bem em diversos países: Motivação, Desenvolvimento pessoal, Curiosidades, Inteligência Artificial, Negócios e Empreendedorismo, Tecnologia, Histórias inspiradoras e Aprendizado de idiomas.',
+              '• Conselho: Se possível, faça conteúdos diretamente em inglês ou adicione legendas em inglês para alcançar um público muito maior e global.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 2. Publique muitos vídeos curtos',
+            items: [
+              'Sua meta inicial recomendada é publicar de 3 a 5 vídeos diários durando entre 15 a 60 segundos.',
+              'Aposte sempre em um gancho altamente forte nos primeiros 3 segundos para prender a atenção (exemplo: "3 hábitos que mudaram minha vida de verdade").'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💰 3. Formas inteligentes de ganhar dinheiro',
+            items: [
+              '• Marketing de afiliados: Promova produtos digitais e físicos ganhando ótimas comissões por cada venda realizada (Plataformas recomendadas: hotmart.com e clickbank.com).',
+              '• Venda de eBooks próprios: Escreva e crie um guia digital objetivo e venda para seus seguidores interessados.',
+              '• Cursos online didáticos: Ensine e compartilhe em formato de aulas uma habilidade específica que você domina.',
+              '• Prestação de Serviços: Ofereça tarefas demandadas como edição de vídeo, design criativo, gestão qualificada de redes sociais ou geração de conteúdos corporativos utilizando ferramentas de IA.',
+              '• Parcerias pagas com marcas: Quando a sua base de seguidores e engajamento crescer, empresas de diversos setores pagarão para você divulgar os produtos delas.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📝 4. Crie uma Bio Simples e Magnética',
+            items: [
+              'Formato ideal a seguir:',
+              '🚀 Dicas para crescer online',
+              '💰 Ganhar dinheiro na internet',
+              '📩 Link com ferramentas abaixo'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ 5. O Funcionamento do Funil Simples de Vendas',
+            items: [
+              'TikTok (Atração de Tráfego) ➔ Clique no Link da sua Bio ➔ Visita na Página de Vendas ➔ Compra do Produto Digital'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔥 6. Diretrizes que costumam funcionar melhor',
+            items: [
+              '• Consistência inabalável diária focada em meses, e nunca apenas em poucos dias de testes.',
+              '• Production focada em conteúdo altamente útil, prático ou emocionante para o leitor.',
+              '• Testar continuamente diferentes formatos de ganchos e repetir os roteiros que mais engajaram.',
+              '• Meta Dedicada (Primeiros 90 Dias): Publique consistentemente entre 300 a 500 vídeos curtos, construa uma comunidade, crie um eBook ou serviço de entrada e realize as suas primeiras vendas online.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Reflexão de Ouro para sua Jornada',
+            items: [
+              'Muitos criadores começam o projeto sem faturar absolutamente nada e passam a monetizar em larga escala somente após construir uma audiência fiel e estruturar uma oferta que resolve uma dor real de mercado.',
+              'O seu foco prioritário inicial deve estar concentrado em publicar sistematicamente todos os dias e entender quais formatos o seu público mais adora assistir de você!'
+            ]
+          }
+        ]
+      },
+      {
         id: 'vender_cursos_produtos_digitais_marketing',
         title: '🎓 Vender Cursos e Produtos Digitais',
         content: [
@@ -6256,6 +6772,84 @@ export const APP_CONTENT_PT: SectionContent[] = [
               'Muitas pessoas passam de 30 a 90 dias construindo uma audiência qualificada antes de realizar as primeiras vendas.',
               'Seus objetivos prioritários iniciais são: publicar com consistência diária, aprender o que atrai mais a atenção do público, construir credibilidade e fazer a primeira conversão antes de escalar.',
               'Quem publica centenas de conteúdos ao longo dos meses desenvolve uma percepção única do mercado e tem chances infinitamente maiores de prosperar do que quem desiste no início.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'cadastro_plataformas_vendas_marketing',
+        title: '🚀 Como Cadastrar e Vender seu eBook',
+        content: [
+          'Sim. Vou mostrar o caminho mais simples para você cadastrar e vender eBooks em plataformas populares.',
+          {
+            type: 'steps',
+            title: '1. Criar conta na Hotmart',
+            items: [
+              'Acesse o site oficial: hotmart.com',
+              'Clique em "Criar conta", informe seu nome, e-mail e senha, e confirme o e-mail cadastrado.',
+              'Complete seus dados pessoais no perfil das configurações.',
+              'Escolha atuar como Produtor (para vender seus próprios produtos digitais).',
+              'Depois da conta criada: Entre no painel ➔ Clique em "Produtos" ➔ Clique em "Criar produto" ➔ Escolha o formato (eBook, curso, assinatura, etc.) ➔ Adicione nome, descrição, imagem e preço ➔ Configure a forma de entrega de conteúdo.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '2. Criar conta na Kiwify',
+            items: [
+              'Acesse o site oficial: kiwify.com.br',
+              'Clique em cadastrar e informe todos os seus dados pessoais.',
+              'Cadastre a sua conta bancária vinculada para receber os repasses de forma segura.',
+              'Finalize a verificação de segurança da sua conta.',
+              'Observação importante: A Kiwify atualmente exige CPF ou CNPJ brasileiro com conta bancária vinculada ao mesmo documento.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '3. Como cadastrar o seu eBook',
+            items: [
+              'Após criar e acessar a sua conta, vá ao menu lateral "Produtos".',
+              'Clique em "Criar Produto" e selecione "Entrega digital" como modalidade de envio de arquivos.',
+              'Preencha com o Título de venda do eBook, Descrição persuasiva, Capa do livro, o arquivo em PDF e defina o Preço de venda comercial.',
+              'Clique em salvar e publique para ter acesso imediato ao seu link de checkout.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '4. Como Funciona o Fluxo de Venda Comercial',
+            items: [
+              'Você receberá um link profissional de checkout seguro.',
+              '➡️ O cliente assiste ao seu vídeo altamente magnético no TikTok ou Reels.',
+              '➡️ Sente o desejo, clica no link estratégico adicionado em sua bio.',
+              '➡️ É direcionado para sua página de vendas ou diretamente para o checkout.',
+              '➡️ Informa os dados, faz o pagamento seguro por cartão, PIX ou boleto.',
+              '➡️ O sistema da plataforma processa a transação e entrega o arquivo PDF do eBook de forma instantânea por e-mail.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌐 Melhor plataforma para começar',
+            items: [
+              'Verifique sempre as diretrizes de cada plataforma, os países aceitos e os métodos de recebimento/saque disponíveis para sua localização exata antes de se cadastrar.',
+              'As plataformas especializadas mais conhecidas de infoprodutos são: hotmart.com | eduzz.com | monetizze.com.br | kiwify.com.br'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 O que eu faria no seu lugar hoje',
+            items: [
+              '1. Criaria um eBook objetivo de 20 a 30 páginas sobre o nicho escolhido.',
+              '2. Definiria um preço acessível de impulso de compra de US$ 5 a US$ 10 (R$ 19 a R$ 47).',
+              '3. Publicaria fielmente 3 a 5 vídeos diários de valor no TikTok.',
+              '4. Inseriria o link de vendas do seu eBook em destaque na bio.',
+              '5. Reinvestiria os primeiros lucros para acelerar seus conhecimentos e escalar o tráfego.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⚠️ Atenção: A Plataforma Não Vende Sozinha!',
+            items: [
+              'Uma observação crucial para o sucesso: a Hotmart ou Kiwify lidam perfeitamente com os pagamentos e a entrega automática, mas as vendas dependem inteiramente do tráfego (audiência engajada, constância de posts diários ou tráfego pago).',
+              'Lembre-se sempre: a plataforma de vendas não faz o seu plano de marketing. O seu papel é guiar as pessoas certas até a sua oferta!'
             ]
           }
         ]
@@ -6701,6 +7295,106 @@ export const APP_CONTENT_PT: SectionContent[] = [
           { type: 'tips', items: [
             'As pessoas não compram um "Curso", elas compram a "Transformação" que ele gera no final.'
           ]}
+        ]
+      },
+      {
+        id: 'affiliate_marketing_beginners_guide',
+        title: '🤝 Guia Completo de Marketing de Afiliados para Iniciantes',
+        content: [
+          'O Marketing de Afiliados é um dos modelos mais democráticos para começar a ganhar dinheiro na internet, permitindo que você venda soluções de terceiros sem precisar criar qualquer infraestrutura.',
+          {
+            type: 'info',
+            title: '❓ O que é Marketing de Afiliados?',
+            items: [
+              'É um modelo de negócio onde você promove produtos ou serviços de outras pessoas ou empresas e recebe uma comissão quando alguém compra através do seu link de divulgação exclusivo.',
+              '💡 Exemplo Prático de Ganhos:',
+              '• Uma pessoa compra um eBook divulgado por você por R$ 100 (ou US$ 20).',
+              '• A comissão média oferecida pelo criador é de 50%.',
+              '• Você recebe R$ 50 (ou US$ 10) limpos por essa única venda!'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '⚙️ Como Funciona o Processo na Prática',
+            items: [
+              '1. Escolher um bom produto: Você se cadastra gratuitamente em uma plataforma de afiliados e escolhe um produto vencedor para divulgar.',
+              'Plataformas excelentes recomendadas: hotmart.com | eduzz.com | monetizze.com.br | clickbank.com',
+              '2. Receber seu link exclusivo: Após se afiliar ao produto escolhido, você recebe um link de divulgação único e rastreável. Exemplo: www.site.com/produto?afiliado=123. Qualquer compra realizada através dele gera comissão imediata e automática para você.',
+              '3. Divulgar o produto estrategicamente: Use canais de tráfego orgânico ou pago, como TikTok, Instagram, YouTube Shorts, Facebook, Blogs, ou listas no WhatsApp para atrair os interessados.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎯 Como Escolher um Excelente Produto para Divulgar',
+            items: [
+              '• ✅ Boa avaliação dos alunos: Garante que o produto resolve de verdade o problema apresentado e reduz reembolsos.',
+              '• ✅ Página de vendas bonita e profissional: Aumenta drasticamente a conversão de visitas em cliques.',
+              '• ✅ Comissão atrativa: Busque produtos com comissão equilibrada (entre 40% a 70% de margem).',
+              '• ✅ Mercado de alta procura (Dor de mercado): Escolha nichos urgentes, como: Ganhar dinheiro online, Saúde e fitness, Desenvolvimento pessoal, Aprendizado de idiomas, Tecnologia ou Inteligência Artificial.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🚀 Método Orgânico (Gratuito) e Poderoso para Iniciantes',
+            items: [
+              'Estrutura para TikTok: Crie vídeos curtos resolvendo uma dor específica do seu nicho sem precisar aparecer.',
+              '➔ Exemplo de roteiro para promover um curso de Instagram: Comece mostrando "3 erros clássicos que impedem seu perfil de crescer em 2026", apresente as soluções práticas e feche o vídeo com "Quer aprender mais? Link completo na minha bio!".',
+              'Estrutura para Instagram Reels: Poste Reels dinâmicos contendo dicas rápidas, tutoriais passo a passo sobre um problema ou histórias de extremo sucesso.',
+              'Estrutura para YouTube Shorts: Reaproveite e publique o exato mesmo vídeo editado para dobrar suas visualizações na internet.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '✍️ Estrutura Infalível de Conteúdo Altamente Convertível',
+            items: [
+              '• O Gancho (0-3 segundos): "Se eu tivesse que começar do zero absoluto hoje na internet, faria exatamente isso..."',
+              '• O Conteúdo (4-15 segundos): Entregue uma dica extremamente direta, útil e prática.',
+              '• A Chamada para Ação (CTA): "Ficou com dúvidas? Acesse o guia completo no link da minha bio!"'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '❌ Evite Estes Erros Comuns de Iniciantes',
+            items: [
+              '• Tentar postar apenas o link sem entregar conteúdo de valor antes (Spam).',
+              '• Desistir muito rápido, antes de construir uma consistência de publicações diárias.',
+              '• Promover produtos de qualidade extremamente baixa que geram insatisfação.',
+              '• Tentar vender forçadamente sem antes resolver um problema real ou gerar o mínimo de confiança.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Plano de Ação Pragmático para os Próximos 30 Dias',
+            items: [
+              '• Semana 1 — Preparação Total: Crie suas contas profissionais nas plataformas. Defina com clareza o seu nicho estruturado e escolha o primeiro produto vencedor para divulgar.',
+              '• Semana 2 — Consistência de Conteúdo: Publique rigorosamente de 3 a 5 vídeos de altíssimo valor diariamente no TikTok, Reels e Shorts.',
+              '• Semana 3 — Otimização de Retenção: Analise as métricas dos vídeos que alcançaram mais visualizações e repita o exato formato ou gancho.',
+              '• Semana 4 — Escala e Vendas: Direcione ativamente o tráfego engajado para a sua oferta estruturada.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📊 Exemplo Realista de Metas e Alinhamento',
+            items: [
+              'Se você promover um produto com comissão média de US$ 10 (ou R$ 50):',
+              '• Sua meta mensal: US$ 100 (ou R$ 500)',
+              '• Você precisa apenas de: 10 vendas fechadas no mês inteiro (menos de 1 venda a cada 3 dias!).',
+              '• Se mantiver a consistência diária publicando conteúdos úteis, você aprenderá o que a audiência mais ama e poderá aumentar gradualmente esses resultados.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Estratégia Simples de Construção de Renda para 2026',
+            items: [
+              'Passo 1: Defina seu nicho unificado.',
+              'Passo 2: Produza conteúdo de altíssimo valor diariamente.',
+              'Passo 3: Construa e nutra sua própria comunidade.',
+              'Passo 4: Promova produtos de alta relevância.',
+              'Passo 5: Crie seus próprios infoprodutos digitais de entrada mais adiante.',
+              'Passo 6: Reinvista uma parte estratégica dos seus lucros para acelerar o crescimento.'
+            ]
+          },
+          'O segredo supremo do marketing de afiliados não é simplesmente jogar links na internet; é atrair as pessoas certas, ajudá-las de verdade e oferecer soluções reais para as dores delas. Quanto mais útil for o seu conteúdo gratuito, mais as pessoas confiarão e comprarão pelo seu link!'
         ]
       },
       {
