@@ -715,14 +715,14 @@ Gerado por MoneyNet Ai - Otimizando suas Redes para o Sucesso
                   <div className="p-4 border-t border-slate-100 dark:border-white/5 space-y-3.5 bg-white dark:bg-slate-900/40 text-xs">
                     <div>
                       <span className="text-[10px] font-black text-emerald-600 dark:text-emerald-400 block uppercase mb-1">✓ Pontos Fortes:</span>
-                      <ul className="list-disc list-inside text-slate-650 dark:text-slate-400 space-y-1 pl-1">
+                      <ul className="list-disc list-inside text-slate-700 dark:text-slate-200 space-y-1 pl-1 font-semibold">
                         {report.bioAnalysis.strongPoints.map((pt, i) => <li key={i}>{pt}</li>)}
                       </ul>
                     </div>
 
                     <div>
                       <span className="text-[10px] font-black text-amber-600 dark:text-amber-400 block uppercase mb-1">⚠ Pontos para Melhorar:</span>
-                      <ul className="list-disc list-inside text-slate-650 dark:text-slate-400 space-y-1 pl-1">
+                      <ul className="list-disc list-inside text-slate-700 dark:text-slate-200 space-y-1 pl-1 font-semibold">
                         {report.bioAnalysis.improvements.map((im, i) => <li key={i}>{im}</li>)}
                       </ul>
                     </div>
@@ -764,12 +764,12 @@ Gerado por MoneyNet Ai - Otimizando suas Redes para o Sucesso
                 
                 {openSections.visual && (
                   <div className="p-4 border-t border-slate-100 dark:border-white/5 space-y-3 bg-white dark:bg-slate-900/40 text-xs">
-                    <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-semibold">
+                    <p className="text-slate-700 dark:text-slate-200 leading-relaxed font-semibold">
                       {report.visualAndNaming.critique}
                     </p>
                     <div>
                       <span className="text-[10px] font-black text-indigo-500 block uppercase mb-1">Ações recomendadas de posicionamento:</span>
-                      <ul className="list-disc list-inside text-slate-650 dark:text-slate-400 space-y-1 pl-1">
+                      <ul className="list-disc list-inside text-slate-700 dark:text-slate-200 space-y-1 pl-1 font-semibold">
                         {report.visualAndNaming.suggestions.map((su, i) => <li key={i}>{su}</li>)}
                       </ul>
                     </div>
@@ -795,7 +795,7 @@ Gerado por MoneyNet Ai - Otimizando suas Redes para o Sucesso
                 
                 {openSections.content && (
                   <div className="p-4 border-t border-slate-100 dark:border-white/5 space-y-4 bg-white dark:bg-slate-900/40 text-xs">
-                    <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-medium">
+                    <p className="text-slate-700 dark:text-slate-200 leading-relaxed font-semibold">
                       {report.contentStrategy.critique}
                     </p>
                     <div className="space-y-2">
@@ -830,7 +830,7 @@ Gerado por MoneyNet Ai - Otimizando suas Redes para o Sucesso
                 
                 {openSections.cta && (
                   <div className="p-4 border-t border-slate-100 dark:border-white/5 space-y-3.5 bg-white dark:bg-slate-900/40 text-xs">
-                    <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-semibold">
+                    <p className="text-slate-700 dark:text-slate-200 leading-relaxed font-semibold">
                       {report.ctaFeedback.critique}
                     </p>
                     <div className="p-3 bg-indigo-500/10 dark:bg-indigo-500/5 border border-indigo-500/20 rounded-xl space-y-1.5">

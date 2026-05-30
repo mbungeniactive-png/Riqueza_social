@@ -24,6 +24,362 @@ export const APP_CONTENT_PT: SectionContent[] = [
     description: 'Aprenda a crescer e monetizar sua conta no TikTok.',
     subsections: [
       {
+        id: 'plano_30_dias_viral_tiktok',
+        title: '🔥 Plano Viral de 30 Dias',
+        content: [
+          'Se você quer começar do zero e construir uma presença forte na internet, focar em vídeos curtos (TikTok, Reels e YouTube Shorts) é uma das formas mais rápidas de alcançar pessoas sem precisar investir dinheiro.',
+          {
+            type: 'steps',
+            title: '📅 Cronograma Prático - Plano de 30 Dias',
+            items: [
+              'Dias 1–7: Criar conta no TikTok, Instagram e canal de YouTube Shorts. Publicar 3 vídeos por dia.',
+              'Dias 8–15: Continuar com 3 vídeos por dia, testando diferentes tipos de conteúdo e analisando quais recebem mais visualizações.',
+              'Dias 16–23: Repetir os formatos que deram resultado, melhorar os ganchos dos vídeos e responder os comentários.',
+              'Dias 24–30: Criar conteúdos em série, fazer chamadas para seguir a página e preparar formas de monetização.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Ideias de Nomes para sua Página',
+            items: [
+              'Mente Inabalável',
+              'Império Mental',
+              'Mentalidade Alfa',
+              'Código do Sucesso',
+              'Visão de Milionário',
+              'Sigma Evolution',
+              'Mentalidade de Elite',
+              'Guerreiro Moderno',
+              'Foco Absoluto',
+              'Próximo Nível'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📝 Sugestão de Bio Otimizada',
+            items: [
+              'Motivação diária 🚀',
+              'Mentalidade forte 💪',
+              'Evolução constante 📈',
+              'Siga para crescer todos os dias.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎬 20 Ideias de Vídeos Curtos de Alto Engajamento',
+            items: [
+              '1. Hábitos dos ricos.',
+              '2. Frases de sucesso.',
+              '3. Lições de disciplina.',
+              '4. Erros que mantêm pessoas pobres.',
+              '5. Rotina matinal produtiva.',
+              '6. Como vencer a procrastinação.',
+              '7. Mentalidade vencedora.',
+              '8. Regras da disciplina.',
+              '9. O poder da consistência.',
+              '10. Como criar renda online.',
+              '11. Livros que mudam vidas.',
+              '12. Histórias de empreendedores.',
+              '13. Desafios de 30 dias.',
+              '14. Frases motivacionais fortes.',
+              '15. Como desenvolver confiança.',
+              '16. Como parar de perder tempo.',
+              '17. Hábitos que destroem o sucesso.',
+              '18. Como pensar grande.',
+              '19. Metas e planejamento.',
+              '20. Como continuar quando ninguém acredita em você.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Exemplo Prático de Roteiro Viral',
+            items: [
+              'Gancho (0–3s): "Se você continuar fazendo isso, vai continuar pobre."',
+              'Desenvolvimento (3–20s): "A maioria das pessoas passa horas consumindo entretenimento, mas poucos minutos aprendendo algo que pode aumentar sua renda."',
+              'Final (20–30s): "Troque uma hora de distração por uma hora de aprendizado todos os dias. Em um ano, sua vida pode estar irreconhecível."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💬 20 Frases Curtas de Alto Impacto para Legendas e Vídeos',
+            items: [
+              'Disciplina vence talento.',
+              'Quem age primeiro chega primeiro.',
+              'Sonhos sem ação são apenas desejos.',
+              'Seu futuro depende do que você faz hoje.',
+              'Pequenos passos criam grandes resultados.',
+              'A consistência constrói impérios.',
+              'O sucesso gosta de persistência.',
+              'Ação gera oportunidade.',
+              'Foco cria resultados.',
+              'A evolução é diária.',
+              'Trabalhe em silêncio.',
+              'Resultados falam.',
+              'Seja melhor que ontem.',
+              'Não espere motivação.',
+              'Crie hábitos.',
+              'Aprenda mais.',
+              'Execute mais.',
+              'Reclame menos.',
+              'Persista sempre.',
+              'Continue avançando.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💰 Como Ganhar Dinheiro Depois',
+            items: [
+              'Marketing de afiliados.',
+              'Venda de produtos digitais.',
+              'Gestão de redes sociais.',
+              'Edição de vídeos.',
+              'Criação de conteúdo patrocinado.',
+              'Canal monetizado no YouTube.',
+              'Consultoria.',
+              'E-books.',
+              'Cursos online.',
+              'Comunidade paga.'
+            ]
+          },
+          'O mais importante nos próximos 30 dias é publicar conteúdo todos os dias. Mesmo vídeos simples podem trazer resultados quando você produz com consistência e aprende com o que funciona.'
+        ]
+      },
+      {
+        id: 'metodo_criacao_tiktok',
+        title: '💡 Método Simples de Criação',
+        content: [
+          'Criar conteúdo envolve 3 passos principais: Definir objetivo, Entender o público e Produzir algo útil, interessante ou envolvente.',
+          { type: 'steps', title: '🚀 Método de 6 Passos para Começar', items: [
+            '1. Escolha um tema: Pergunte: Sobre o que você sabe? O que as pessoas procuram? O que você gosta de falar? Exemplos: Marketing, Fitness, Finanças, Tecnologia, Humor, Relacionamentos, Estudos.',
+            '2. Defina o formato: Você pode criar: Vídeos curtos (TikTok, Reels), Posts no Instagram, Carrosséis, Artigos, YouTube, Podcasts, Tweets, ou Newsletter.',
+            '3. Use uma estrutura simples: Fórmula do Sucesso (Gancho → Valor → Chamada). Exemplo: Gancho: "3 erros que fazem seu Instagram/canal não crescer" | Valor: Explique os erros rapidamente | Chamada: "Salva esse post para não esquecer".',
+            '4. Ideias de conteúdo que sempre funcionam: Dicas rápidas, erros comuns, antes e depois, bastidores, listas, tutorial passo a passo, história pessoal, opinião, tendências.',
+            '5. Frequência importa mais que perfeição: Melhor postar: 3 conteúdos simples por semana do que: 1 perfeito por mês.',
+            '6. Ferramentas úteis: Canva (design), CapCut (edição de vídeo), Notion (organização) e ChatGPT (ideias, roteiros e legendas).'
+          ] },
+          { type: 'info', title: '📝 Exemplo Prático (Tema: Academia (Fitness))', items: [
+            'Post: "5 hábitos que aceleraram meus resultados" (1. Dormir melhor, 2. Comer proteína, 3. Treinar pesado, 4. Beber água, 5. Constância).',
+            'Chamada (CTA): "Qual desses você já faz?"'
+          ] }
+        ]
+      },
+      {
+        id: 'vender_ebooks_guias_tiktok',
+        title: '📖 Como Vender eBooks (Sem Aparecer)',
+        content: [
+          'Vender eBooks pode ser uma ótima forma de começar a ganhar dinheiro online, mesmo sem aparecer em vídeos.',
+          {
+            type: 'steps',
+            title: '🛠 Passo 1: Criar o eBook',
+            items: [
+              'Escolha um tema que resolva um problema real: Como ganhar dinheiro online, Como estudar melhor, Receitas, Fitness, Desenvolvimento pessoal, Marketing digital ou Uso de IA.',
+              'Crie o conteúdo do eBook usando editores como Word, Google Docs ou canva.com e exporte em PDF.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💳 Passo 2: Escolher uma Plataforma',
+            items: [
+              'Cadastre-se em plataformas populares para vender produtos digitais como: hotmart.com, kiwify.com.br, monetizze.com.br ou eduzz.com.',
+              'Você cria uma conta, cadastra o eBook, define o preço e a plataforma gera um link de pagamento.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Passo 3: Definir o Preço',
+            items: [
+              'Para começar (EBook simples): R$ 19,90 a R$ 47,00 (US$ 5–15)',
+              'EBook mais completo (Guias detalhados): R$ 47,00 a R$ 97,00 (US$ 15–30)',
+              'EBook + bônus: R$ 97,00 a R$ 197,00 (US$ 20–50)',
+              'Dica: O preço ideal depende do valor que ele entrega, não apenas do número de páginas.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 Passo 4: Criar uma Página de Vendas',
+            items: [
+              'Explique qual problema o eBook resolve.',
+              'Apresente o que a pessoa vai aprender e seus benefícios práticos.',
+              'Adicione depoimentos (quando tiver) e um botão linkando para o checkout de compra.',
+              'Exemplo: "Aprenda 10 formas reais de começar a ganhar dinheiro pela internet usando apenas o seu celular."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📈 Passo 5: Atrair Visitantes (Tráfego)',
+            items: [
+              'TikTok: Publique vídeos curtos contendo trechos do seu eBook todos os dias.',
+              'Instagram Reels: Transforme dicas acionáveis do eBook em vídeos de 15–30 segundos.',
+              'YouTube Shorts: Publique os mesmos vídeos adaptados para alcançar uma nova audiência.',
+              'Grupos/Comunidades: Compartilhe conteúdos que ajudem genuinamente as pessoas e mostre como seu eBook resolve a dor delas de forma útil.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌪 Estrutura Simples de Funil',
+            items: [
+              'Vídeo Curto ➔ Link na Bio ➔ Página de Vendas ➔ Compra Confirmada!'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Exemplo de Nicho Promissor',
+            items: [
+              'EBook Sugerido: "30 Formas de Ganhar Dinheiro com Inteligência Artificial e Celular".',
+              'Principais tópicos: Ferramentas de IA essenciais, técnicas de criação de conteúdo, segredos do marketing de afiliados, caminhos para freelancing e venda de serviços digitais.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'modelo_ebook_pratico_tiktok',
+        title: '📘 Modelo de eBook Pronto para Adaptar',
+        content: [
+          'Vou te dar um modelo de eBook que você pode adaptar e vender de forma simples.',
+          {
+            type: 'info',
+            title: '🏷️ Identidade do eBook (Título, Subtítulo e Capa)',
+            items: [
+              'Título principal: "30 Formas de Ganhar Dinheiro com IA e Apenas um Celular"',
+              'Subtítulo: "Aprenda métodos práticos para criar renda online usando inteligência artificial, redes sociais e ferramentas gratuitas."',
+              'Capa sugerida: Texto do título principal, subtítulo ("Guia prático para iniciantes começarem do zero") e o nome do Autor (Seu nome ou nome da sua marca).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📖 Índice Oficial do eBook',
+            items: [
+              '1. Introdução',
+              '2. O que é Inteligência Artificial',
+              '3. Como começar sem dinheiro',
+              '4. 30 formas de ganhar dinheiro',
+              '5. Plano de ação de 30 dias',
+              '6. Ferramentas recomendadas',
+              '7. Conclusão'
+            ]
+          },
+          {
+            type: 'info',
+            title: '✍️ Conteúdo do eBook - Introdução',
+            items: [
+              'A internet criou oportunidades que não existiam há alguns anos. Hoje, qualquer pessoa com um celular e acesso à internet pode aprender habilidades, criar conteúdo e oferecer serviços para clientes do mundo inteiro.',
+              'Este guia apresenta 30 ideias que podem ser usadas para começar.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎬 Exemplos Práticos de Capítulos e Ideias',
+            items: [
+              '1. Criar vídeos para TikTok: Use ferramentas de IA para gerar roteiros e publique vídeos curtos diariamente.',
+              '2. Marketing de afiliados: Promova produtos digitais e receba comissão por cada venda.',
+              '3. Gestão de redes sociais: Ajude pequenos negócios a publicar conteúdo.',
+              '4. Edição de vídeos: Aprenda a usar aplicativos como CapCut e ofereça o serviço.',
+              '5. Venda de eBooks: Transforme conhecimento em produtos digitais e compartilhe.',
+              '6. Criação de legendas com IA: Escreva posts para empresas e influenciadores.',
+              '7. Canal Dark no YouTube: Crie vídeos sem aparecer usando narração e imagens.',
+              '8. Criação de artes: Produza imagens para redes sociais com inteligência artificial.',
+              '9. Freelancer online: Ofereça serviços em plataformas de trabalho remoto.',
+              '10. Criação de prompts para IA: Venda coleções de prompts para criadores e empresas.',
+              '(Siga esta lógica até completar 30 conceitos para encantar o leitor.)'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Plano de Ação Estruturado de 30 Dias',
+            items: [
+              'Semana 1: Escolher uma área específica, criar perfis profissionais elegantes e aprender o básico.',
+              'Semana 2: Produzir conteúdo relevante para aquecer as redes e começar a construir seu portfólio.',
+              'Semana 3: Fazer as primeiras ofertas ativas e buscar clientes em tempo livre.',
+              'Semana 4: Analisar o que funcionou, otimizar ou alterar e reinvestir uma parte dos seus ganhos.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🛠️ Ferramentas Extremamente Úteis',
+            items: [
+              '💎 MoneyNet Ai (Potencialização de renda com inteligência artificial)',
+              '🤖 chatgpt.com (Geração de ideias, roteiros rápidos e textos)',
+              '🎨 canva.com (Edição visual primorosa e exportação em PDF)',
+              '🎬 capcut.com (Criação de vídeos curtos chamativos para redes)',
+              '📂 drive.google.com (Armazenamento seguro e compartilhamento limpo de arquivos)'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💻 Estrutura de Página de Vendas Pronta',
+            items: [
+              'Título principal: Descubra 30 formas de ganhar dinheiro usando IA e apenas um celular',
+              'Benefícios destacados: ✅ Ideal para iniciantes | ✅ Não exige computador | ✅ Métodos de baixo custo | ✅ Plano de ação passo a passo | ✅ Ferramentas recomendadas',
+              'Chamada para Ação: "Comece hoje e descubra oportunidades que podem ser desenvolvidas no seu tempo livre."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🚀 Conselhos Importantes de Posicionamento',
+            items: [
+              'Para aumentar ao máximo suas chances de conversão e vendas, recomendo criar algo específico de nicho, como estes exemplos práticos abaixo:',
+              '• "Como Ganhar Dinheiro com TikTok em 2026"',
+              '• "Guia Completo de Marketing de Afiliados para Iniciantes"',
+              '• "100 Prompts de IA para Ganhar Dinheiro Online"',
+              'Esses subtemas específicos costumam converter muito melhor do que formatos excessivamente genéricos.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'ebook_especifico_tiktok',
+        title: '📖 Guia Prático: Como Ganhar Dinheiro com TikTok',
+        content: [
+          'Um eBook mais específico costuma vender melhor. Aqui está um modelo completo que você pode usar:',
+          {
+            type: 'info',
+            title: '🏷️ Detalhes do eBook',
+            items: [
+              'Título: "Como Ganhar Dinheiro com TikTok"',
+              'Subtítulo: "Guia prático para transformar vídeos curtos em uma fonte de renda online."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📚 Estrutura de Capítulos',
+            items: [
+              'Capítulo 1 – A Oportunidade: O TikTok é uma das maiores plataformas do mundo. Milhões de pessoas assistem a vídeos diariamente, criando oportunidades para quem produz conteúdo. Você não precisa de equipamentos caros. Um celular com internet já é suficiente para começar.',
+              'Capítulo 2 – Escolhendo um Nicho: Escolha um tema principal como Motivação, Negócios, Curiosidades, Tecnologia, IA, Histórias inspiradoras, Saúde e hábitos, ou Humor. O segredo é focar em um único tema nos primeiros meses.',
+              'Capítulo 3 – Criando Vídeos Virais: Siga esta estrutura simples: Gancho (primeiros 3 segundos - ex: "Se você quer ganhar dinheiro online, veja isso.") ➔ Conteúdo (Entregue uma dica rápida e útil) ➔ Chamada ("Siga a página para mais dicas.")',
+              'Capítulo 4 – 10 Formas de Monetizar: Marketing de afiliados, venda de eBooks, gestão de redes sociais, edição de vídeos, serviços de IA, consultoria, canal no YouTube, venda de cursos, parcerias com marcas ou comunidade paga.',
+              'Capítulo 5 – Plano de 30 Dias: Semana 1 (Criar contas e publicar 3 vídeos por dia) ➔ Semana 2 (Testar diferentes tipos de conteúdos) ➔ Semana 3 (Analisar vídeos com melhor desempenho) ➔ Semana 4 (Criar uma oferta simples: eBook ou serviço de entrada).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🚀 Bônus Especial: 50 Ganchos Virais para Reels/Shorts',
+            items: [
+              '1. Ninguém fala sobre isso...',
+              '2. Pare de fazer isso agora...',
+              '3. Este erro está destruindo seus resultados...',
+              '4. Se eu tivesse que começar do zero...',
+              '5. A verdade que ninguém conta...',
+              '6. O segredo é mais simples do que parece...',
+              '7. Você está perdendo dinheiro sem perceber...',
+              '8. Faça isso durante 30 dias...',
+              '9. A maioria das pessoas desiste aqui...',
+              '10. Veja o que aconteceu quando eu tentei...',
+              '(Ajuste e crie variações chamativas adicionais para manter a atenção do seu público!)'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Sugestão de Preço & Venda',
+            items: [
+              'Preço Recomendado (Início): R$ 19,90 a R$ 47,00 (US$ 5–10) para incentivar compras fáceis.',
+              'Preço Recomendado (Após primeiras vendas): R$ 47,00 a R$ 97,00 (US$ 10–20)',
+              'Estratégia de Vendas Orgânica: Publique vídeos curtos consistentes. Use chamadas persuasivas ao final de cada vídeo: "Quer aprender a ganhar dinheiro usando apenas o celular? Comente \'GUIA\' e acesse o link na bio."',
+              'Conselho de Ouro: Uma meta realista de extremo sucesso é publicar de 3 a 5 vídeos por dia durante pelo menos 90 dias seguidos. No orgânico, a consistência diária disciplinada é imensamente superior a tentar apenas a sorte com um único vídeo isolado.'
+            ]
+          }
+        ]
+      },
+      {
         id: 'start_from_zero_tiktok',
         title: '🏁 Começar do Zero (Guia de Início)',
         content: [
@@ -1565,6 +1921,362 @@ export const APP_CONTENT_PT: SectionContent[] = [
     description: 'Estratégias para Reels, Facebook Ads e Monetização Profissional.',
     subsections: [
       {
+        id: 'plano_30_dias_viral_meta',
+        title: '🔥 Plano Viral de 30 Dias',
+        content: [
+          'Se você quer começar do zero e construir uma presença forte na internet, focar em vídeos curtos (TikTok, Reels e YouTube Shorts) é uma das formas mais rápida de alcançar pessoas sem precisar investir dinheiro.',
+          {
+            type: 'steps',
+            title: '📅 Cronograma Prático - Plano de 30 Dias',
+            items: [
+              'Dias 1–7: Criar conta no TikTok, Instagram e canal de YouTube Shorts. Publicar 3 vídeos por dia.',
+              'Dias 8–15: Continuar com 3 vídeos por dia, testando diferentes tipos de conteúdo e analisando quais recebem mais visualizações.',
+              'Dias 16–23: Repetir os formatos que deram resultado, melhorar os ganchos dos vídeos e responder os comentários.',
+              'Dias 24–30: Criar conteúdos em série, fazer chamadas para seguir a página e preparar formas de monetização.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Ideias de Nomes para sua Página',
+            items: [
+              'Mente Inabalável',
+              'Império Mental',
+              'Mentalidade Alfa',
+              'Código do Sucesso',
+              'Visão de Milionário',
+              'Sigma Evolution',
+              'Mentalidade de Elite',
+              'Guerreiro Moderno',
+              'Foco Absoluto',
+              'Próximo Nível'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📝 Sugestão de Bio Otimizada',
+            items: [
+              'Motivação diária 🚀',
+              'Mentalidade forte 💪',
+              'Evolução constante 📈',
+              'Siga para crescer todos os dias.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎬 20 Ideias de Vídeos Curtos de Alto Engajamento',
+            items: [
+              '1. Hábitos dos ricos.',
+              '2. Frases de sucesso.',
+              '3. Lições de disciplina.',
+              '4. Erros que mantêm pessoas pobres.',
+              '5. Rotina matinal produtiva.',
+              '6. Como vencer a procrastinação.',
+              '7. Mentalidade vencedora.',
+              '8. Regras da disciplina.',
+              '9. O poder da consistência.',
+              '10. Como criar renda online.',
+              '11. Livros que mudam vidas.',
+              '12. Histórias de empreendedores.',
+              '13. Desafios de 30 dias.',
+              '14. Frases motivacionais fortes.',
+              '15. Como desenvolver confiança.',
+              '16. Como parar de perder tempo.',
+              '17. Hábitos que destroem o sucesso.',
+              '18. Como pensar grande.',
+              '19. Metas e planejamento.',
+              '20. Como continuar quando ninguém acredita em você.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Exemplo Prático de Roteiro Viral',
+            items: [
+              'Gancho (0–3s): "Se você continuar fazendo isso, vai continuar pobre."',
+              'Desenvolvimento (3–20s): "A maioria das pessoas passa horas consumindo entretenimento, mas poucos minutos aprendendo algo que pode aumentar sua renda."',
+              'Final (20–30s): "Troque uma hora de distração por uma hora de aprendizado todos os dias. Em um ano, sua vida pode estar irreconhecível."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💬 20 Frases Curtas de Alto Impacto para Legendas e Vídeos',
+            items: [
+              'Disciplina vence talento.',
+              'Quem age primeiro chega primeiro.',
+              'Sonhos sem ação são apenas desejos.',
+              'Seu futuro depende do que você faz hoje.',
+              'Pequenos passos criam grandes resultados.',
+              'A consistência constrói impérios.',
+              'O sucesso gosta de persistência.',
+              'Ação gera oportunidade.',
+              'Foco cria resultados.',
+              'A evolução é diária.',
+              'Trabalhe em silêncio.',
+              'Resultados falam.',
+              'Seja melhor que ontem.',
+              'Não espere motivação.',
+              'Crie hábitos.',
+              'Aprenda mais.',
+              'Execute mais.',
+              'Reclame menos.',
+              'Persista sempre.',
+              'Continue avançando.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💰 Como Ganhar Dinheiro Depois',
+            items: [
+              'Marketing de afiliados.',
+              'Venda de produtos digitais.',
+              'Gestão de redes sociais.',
+              'Edição de vídeos.',
+              'Criação de conteúdo patrocinado.',
+              'Canal monetizado no YouTube.',
+              'Consultoria.',
+              'E-books.',
+              'Cursos online.',
+              'Comunidade paga.'
+            ]
+          },
+          'O mais importante nos próximos 30 dias é publicar conteúdo todos os dias. Mesmo vídeos simples podem trazer resultados quando você produz com consistência e aprende com o que funciona.'
+        ]
+      },
+      {
+        id: 'metodo_criacao_meta',
+        title: '💡 Método Simples de Criação',
+        content: [
+          'Criar conteúdo envolve 3 passos principais: Definir objetivo, Entender o público e Produzir algo útil, interessante ou envolvente.',
+          { type: 'steps', title: '🚀 Método de 6 Passos para Começar', items: [
+            '1. Escolha um tema: Pergunte: Sobre o que você sabe? O que as pessoas procuram? O que você gosta de falar? Exemplos: Marketing, Fitness, Finanças, Tecnologia, Humor, Relacionamentos, Estudos.',
+            '2. Defina o formato: Você pode criar: Vídeos curtos (TikTok, Reels), Posts no Instagram, Carrosséis, Artigos, YouTube, Podcasts, Tweets, ou Newsletter.',
+            '3. Use uma estrutura simples: Fórmula do Sucesso (Gancho → Valor → Chamada). Exemplo: Gancho: "3 erros que fazem seu Instagram/canal não crescer" | Valor: Explique os erros rapidamente | Chamada: "Salva esse post para não esquecer".',
+            '4. Ideias de conteúdo que sempre funcionam: Dicas rápidas, erros comuns, antes e depois, bastidores, listas, tutorial passo a passo, história pessoal, opinião, tendências.',
+            '5. Frequência importa mais que perfeição: Melhor postar: 3 conteúdos simples por semana do que: 1 perfeito por mês.',
+            '6. Ferramentas úteis: Canva (design), CapCut (edição de vídeo), Notion (organização) e ChatGPT (ideias, roteiros e legendas).'
+          ] },
+          { type: 'info', title: '📝 Exemplo Prático (Tema: Academia (Fitness))', items: [
+            'Post: "5 hábitos que aceleraram meus resultados" (1. Dormir melhor, 2. Comer proteína, 3. Treinar pesado, 4. Beber água, 5. Constância).',
+            'Chamada (CTA): "Qual desses você já faz?"'
+          ] }
+        ]
+      },
+      {
+        id: 'vender_ebooks_guias_meta',
+        title: '📖 Como Vender eBooks (Sem Aparecer)',
+        content: [
+          'Vender eBooks pode ser uma ótima forma de começar a ganhar dinheiro online, mesmo sem aparecer em vídeos.',
+          {
+            type: 'steps',
+            title: '🛠 Passo 1: Criar o eBook',
+            items: [
+              'Escolha um tema que resolva um problema real: Como ganhar dinheiro online, Como estudar melhor, Receitas, Fitness, Desenvolvimento pessoal, Marketing digital ou Uso de IA.',
+              'Crie o conteúdo do eBook usando editores como Word, Google Docs ou canva.com e exporte em PDF.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💳 Passo 2: Escolher uma Plataforma',
+            items: [
+              'Cadastre-se em plataformas populares para vender produtos digitais como: hotmart.com, kiwify.com.br, monetizze.com.br ou eduzz.com.',
+              'Você cria uma conta, cadastra o eBook, define o preço e a plataforma gera um link de pagamento.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Passo 3: Definir o Preço',
+            items: [
+              'Para começar (EBook simples): R$ 19,90 a R$ 47,00 (US$ 5–15)',
+              'EBook mais completo (Guias detalhados): R$ 47,00 a R$ 97,00 (US$ 15–30)',
+              'EBook + bônus: R$ 97,00 a R$ 197,00 (US$ 20–50)',
+              'Dica: O preço ideal depende do valor que ele entrega, não apenas do número de páginas.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 Passo 4: Criar uma Página de Vendas',
+            items: [
+              'Explique qual problema o eBook resolve.',
+              'Apresente o que a pessoa vai aprender e seus benefícios práticos.',
+              'Adicione depoimentos (quando tiver) e um botão linkando para o checkout de compra.',
+              'Exemplo: "Aprenda 10 formas reais de começar a ganhar dinheiro pela internet usando apenas o seu celular."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📈 Passo 5: Atrair Visitantes (Tráfego)',
+            items: [
+              'TikTok: Publique vídeos curtos contendo trechos do seu eBook todos os dias.',
+              'Instagram Reels: Transforme dicas acionáveis do eBook em vídeos de 15–30 segundos.',
+              'YouTube Shorts: Publique os mesmos vídeos adaptados para alcançar uma nova audiência.',
+              'Grupos/Comunidades: Compartilhe conteúdos que ajudem genuinamente as pessoas e mostre como seu eBook resolve a dor delas de forma útil.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌪 Estrutura Simples de Funil',
+            items: [
+              'Vídeo Curto ➔ Link na Bio ➔ Página de Vendas ➔ Compra Confirmada!'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Exemplo de Nicho Promissor',
+            items: [
+              'EBook Sugerido: "30 Formas de Ganhar Dinheiro com Inteligência Artificial e Celular".',
+              'Principais tópicos: Ferramentas de IA essenciais, técnicas de criação de conteúdo, segredos do marketing de afiliados, caminhos para freelancing e venda de serviços digitais.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'modelo_ebook_pratico_meta',
+        title: '📘 Modelo de eBook Pronto para Adaptar',
+        content: [
+          'Vou te dar um modelo de eBook que você pode adaptar e vender de forma simples.',
+          {
+            type: 'info',
+            title: '🏷️ Identidade do eBook (Título, Subtítulo e Capa)',
+            items: [
+              'Título principal: "30 Formas de Ganhar Dinheiro com IA e Apenas um Celular"',
+              'Subtítulo: "Aprenda métodos práticos para criar renda online usando inteligência artificial, redes sociais e ferramentas gratuitas."',
+              'Capa sugerida: Texto do título principal, subtítulo ("Guia prático para iniciantes começarem do zero") e o nome do Autor (Seu nome ou nome da sua marca).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📖 Índice Oficial do eBook',
+            items: [
+              '1. Introdução',
+              '2. O que é Inteligência Artificial',
+              '3. Como começar sem dinheiro',
+              '4. 30 formas de ganhar dinheiro',
+              '5. Plano de ação de 30 dias',
+              '6. Ferramentas recomendadas',
+              '7. Conclusão'
+            ]
+          },
+          {
+            type: 'info',
+            title: '✍️ Conteúdo do eBook - Introdução',
+            items: [
+              'A internet criou oportunidades que não existiam há alguns anos. Hoje, qualquer pessoa com um celular e acesso à internet pode aprender habilidades, criar conteúdo e oferecer serviços para clientes do mundo inteiro.',
+              'Este guia apresenta 30 ideias que podem ser usadas para começar.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎬 Exemplos Práticos de Capítulos e Ideias',
+            items: [
+              '1. Criar vídeos para TikTok: Use ferramentas de IA para gerar roteiros e publique vídeos curtos diariamente.',
+              '2. Marketing de afiliados: Promova produtos digitais e receba comissão por cada venda.',
+              '3. Gestão de redes sociais: Ajude pequenos negócios a publicar conteúdo.',
+              '4. Edição de vídeos: Aprenda a usar aplicativos como CapCut e ofereça o serviço.',
+              '5. Venda de eBooks: Transforme conhecimento em produtos digitais e compartilhe.',
+              '6. Criação de legendas com IA: Escreva posts para empresas e influenciadores.',
+              '7. Canal Dark no YouTube: Crie vídeos sem aparecer usando narração e imagens.',
+              '8. Criação de artes: Produza imagens para redes sociais com inteligência artificial.',
+              '9. Freelancer online: Ofereça serviços em plataformas de trabalho remoto.',
+              '10. Criação de prompts para IA: Venda coleções de prompts para criadores e empresas.',
+              '(Siga esta lógica até completar 30 conceitos para encantar o leitor.)'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Plano de Ação Estruturado de 30 Dias',
+            items: [
+              'Semana 1: Escolher uma área específica, criar perfis profissionais elegantes e aprender o básico.',
+              'Semana 2: Produzir conteúdo relevante para aquecer as redes e começar a construir seu portfólio.',
+              'Semana 3: Fazer as primeiras ofertas ativas e buscar clientes em tempo livre.',
+              'Semana 4: Analisar o que funcionou, otimizar ou alterar e reinvestir uma parte dos seus ganhos.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🛠️ Ferramentas Extremamente Úteis',
+            items: [
+              '💎 MoneyNet Ai (Potencialização de renda com inteligência artificial)',
+              '🤖 chatgpt.com (Geração de ideias, roteiros rápidos e textos)',
+              '🎨 canva.com (Edição visual primorosa e exportação em PDF)',
+              '🎬 capcut.com (Criação de vídeos curtos chamativos para redes)',
+              '📂 drive.google.com (Armazenamento seguro e compartilhamento limpo de arquivos)'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💻 Estrutura de Página de Vendas Pronta',
+            items: [
+              'Título principal: Descubra 30 formas de ganhar dinheiro usando IA e apenas um celular',
+              'Benefícios destacados: ✅ Ideal para iniciantes | ✅ Não exige computador | ✅ Métodos de baixo custo | ✅ Plano de ação passo a passo | ✅ Ferramentas recomendadas',
+              'Chamada para Ação: "Comece hoje e descubra oportunidades que podem ser desenvolvidas no seu tempo livre."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🚀 Conselhos Importantes de Posicionamento',
+            items: [
+              'Para aumentar ao máximo suas chances de conversão e vendas, recomendo criar algo específico de nicho, como estes exemplos práticos abaixo:',
+              '• "Como Ganhar Dinheiro com TikTok em 2026"',
+              '• "Guia Completo de Marketing de Afiliados para Iniciantes"',
+              '• "100 Prompts de IA para Ganhar Dinheiro Online"',
+              'Esses subtemas específicos costumam converter muito melhor do que formatos excessivamente genéricos.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'ebook_especifico_meta',
+        title: '📖 Guia Prático: Como Ganhar Dinheiro com TikTok',
+        content: [
+          'Um eBook mais específico costuma vender melhor. Aqui está um modelo completo que você pode usar:',
+          {
+            type: 'info',
+            title: '🏷️ Detalhes do eBook',
+            items: [
+              'Título: "Como Ganhar Dinheiro com TikTok"',
+              'Subtítulo: "Guia prático para transformar vídeos curtos em uma fonte de renda online."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📚 Estrutura de Capítulos',
+            items: [
+              'Capítulo 1 – A Oportunidade: O TikTok é uma das maiores plataformas do mundo. Milhões de pessoas assistem a vídeos diariamente, criando oportunidades para quem produz conteúdo. Você não precisa de equipamentos caros. Um celular com internet já é suficiente para começar.',
+              'Capítulo 2 – Escolhendo um Nicho: Escolha um tema principal como Motivação, Negócios, Curiosidades, Tecnologia, IA, Histórias inspiradoras, Saúde e hábitos, ou Humor. O segredo é focar em um único tema nos primeiros meses.',
+              'Capítulo 3 – Criando Vídeos Virais: Siga esta estrutura simples: Gancho (primeiros 3 segundos - ex: "Se você quer ganhar dinheiro online, veja isso.") ➔ Conteúdo (Entregue uma dica rápida e útil) ➔ Chamada ("Siga a página para mais dicas.")',
+              'Capítulo 4 – 10 Formas de Monetizar: Marketing de afiliados, venda de eBooks, gestão de redes sociais, edição de vídeos, serviços de IA, consultoria, canal no YouTube, venda de cursos, parcerias com marcas ou comunidade paga.',
+              'Capítulo 5 – Plano de 30 Dias: Semana 1 (Criar contas e publicar 3 vídeos por dia) ➔ Semana 2 (Testar diferentes tipos de conteúdos) ➔ Semana 3 (Analisar vídeos com melhor desempenho) ➔ Semana 4 (Criar uma oferta simples: eBook ou serviço de entrada).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🚀 Bônus Especial: 50 Ganchos Virais para Reels/Shorts',
+            items: [
+              '1. Ninguém fala sobre isso...',
+              '2. Pare de fazer isso agora...',
+              '3. Este erro está destruindo seus resultados...',
+              '4. Se eu tivesse que começar do zero...',
+              '5. A verdade que ninguém conta...',
+              '6. O segredo é mais simples do que parece...',
+              '7. Você está perdendo dinheiro sem perceber...',
+              '8. Faça isso durante 30 dias...',
+              '9. A maioria das pessoas desiste aqui...',
+              '10. Veja o que aconteceu quando eu tentei...',
+              '(Ajuste e crie variações chamativas adicionais para manter a atenção do seu público!)'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Sugestão de Preço & Venda',
+            items: [
+              'Preço Recomendado (Início): R$ 19,90 a R$ 47,00 (US$ 5–10) para incentivar compras fáceis.',
+              'Preço Recomendado (Após primeiras vendas): R$ 47,00 a R$ 97,00 (US$ 10–20)',
+              'Estratégia de Vendas Orgânica: Publique vídeos curtos consistentes. Use chamadas persuasivas ao final de cada vídeo: "Quer aprender a ganhar dinheiro usando apenas o celular? Comente \'GUIA\' e acesse o link na bio."',
+              'Conselho de Ouro: Uma meta realista de extremo sucesso é publicar de 3 a 5 vídeos por dia durante pelo menos 90 dias seguidos. No orgânico, a consistência diária disciplinada é imensamente superior a tentar apenas a sorte com um único vídeo isolado.'
+            ]
+          }
+        ]
+      },
+      {
         id: 'start_from_zero_meta',
         title: '🏁 Começar do Zero (Guia de Início)',
         content: [
@@ -3069,6 +3781,362 @@ export const APP_CONTENT_PT: SectionContent[] = [
     title: 'YouTube',
     description: 'Domine o AdSense, Shorts e nichos lucrativos.',
     subsections: [
+      {
+        id: 'plano_30_dias_viral_youtube',
+        title: '🔥 Plano Viral de 30 Dias',
+        content: [
+          'Se você quer começar do zero e construir uma presença forte na internet, focar em vídeos curtos (TikTok, Reels e YouTube Shorts) é uma das formas mais rápida de alcançar pessoas sem precisar investir dinheiro.',
+          {
+            type: 'steps',
+            title: '📅 Cronograma Prático - Plano de 30 Dias',
+            items: [
+              'Dias 1–7: Criar conta no TikTok, Instagram e canal de YouTube Shorts. Publicar 3 vídeos por dia.',
+              'Dias 8–15: Continuar com 3 vídeos por dia, testando diferentes tipos de conteúdo e analisando quais recebem mais visualizações.',
+              'Dias 16–23: Repetir os formatos que deram resultado, melhorar os ganchos dos vídeos e responder os comentários.',
+              'Dias 24–30: Criar conteúdos em série, fazer chamadas para seguir a página e preparar formas de monetização.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💡 Ideias de Nomes para sua Página',
+            items: [
+              'Mente Inabalável',
+              'Império Mental',
+              'Mentalidade Alfa',
+              'Código do Sucesso',
+              'Visão de Milionário',
+              'Sigma Evolution',
+              'Mentalidade de Elite',
+              'Guerreiro Moderno',
+              'Foco Absoluto',
+              'Próximo Nível'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📝 Sugestão de Bio Otimizada',
+            items: [
+              'Motivação diária 🚀',
+              'Mentalidade forte 💪',
+              'Evolução constante 📈',
+              'Siga para crescer todos os dias.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎬 20 Ideias de Vídeos Curtos de Alto Engajamento',
+            items: [
+              '1. Hábitos dos ricos.',
+              '2. Frases de sucesso.',
+              '3. Lições de disciplina.',
+              '4. Erros que mantêm pessoas pobres.',
+              '5. Rotina matinal produtiva.',
+              '6. Como vencer a procrastinação.',
+              '7. Mentalidade vencedora.',
+              '8. Regras da disciplina.',
+              '9. O poder da consistência.',
+              '10. Como criar renda online.',
+              '11. Livros que mudam vidas.',
+              '12. Histórias de empreendedores.',
+              '13. Desafios de 30 dias.',
+              '14. Frases motivacionais fortes.',
+              '15. Como desenvolver confiança.',
+              '16. Como parar de perder tempo.',
+              '17. Hábitos que destroem o sucesso.',
+              '18. Como pensar grande.',
+              '19. Metas e planejamento.',
+              '20. Como continuar quando ninguém acredita em você.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Exemplo Prático de Roteiro Viral',
+            items: [
+              'Gancho (0–3s): "Se você continuar fazendo isso, vai continuar pobre."',
+              'Desenvolvimento (3–20s): "A maioria das pessoas passa horas consumindo entretenimento, mas poucos minutos aprendendo algo que pode aumentar sua renda."',
+              'Final (20–30s): "Troque uma hora de distração por uma hora de aprendizado todos os dias. Em um ano, sua vida pode estar irreconhecível."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💬 20 Frases Curtas de Alto Impacto para Legendas e Vídeos',
+            items: [
+              'Disciplina vence talento.',
+              'Quem age primeiro chega primeiro.',
+              'Sonhos sem ação são apenas desejos.',
+              'Seu futuro depende do que você faz hoje.',
+              'Pequenos passos criam grandes resultados.',
+              'A consistência constrói impérios.',
+              'O sucesso gosta de persistência.',
+              'Ação gera oportunidade.',
+              'Foco cria resultados.',
+              'A evolução é diária.',
+              'Trabalhe em silêncio.',
+              'Resultados falam.',
+              'Seja melhor que ontem.',
+              'Não espere motivação.',
+              'Crie hábitos.',
+              'Aprenda mais.',
+              'Execute mais.',
+              'Reclame menos.',
+              'Persista sempre.',
+              'Continue avançando.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💰 Como Ganhar Dinheiro Depois',
+            items: [
+              'Marketing de afiliados.',
+              'Venda de produtos digitais.',
+              'Gestão de redes sociais.',
+              'Edição de vídeos.',
+              'Criação de conteúdo patrocinado.',
+              'Canal monetizado no YouTube.',
+              'Consultoria.',
+              'E-books.',
+              'Cursos online.',
+              'Comunidade paga.'
+            ]
+          },
+          'O mais importante nos próximos 30 dias é publicar conteúdo todos os dias. Mesmo vídeos simples podem trazer resultados quando você produz com consistência e aprende com o que funciona.'
+        ]
+      },
+      {
+        id: 'metodo_criacao_youtube',
+        title: '💡 Método Simples de Criação',
+        content: [
+          'Criar conteúdo envolve 3 passos principais: Definir objetivo, Entender o público e Produzir algo útil, interessante ou envolvente.',
+          { type: 'steps', title: '🚀 Método de 6 Passos para Começar', items: [
+            '1. Escolha um tema: Pergunte: Sobre o que você sabe? O que as pessoas procuram? O que você gosta de falar? Exemplos: Marketing, Fitness, Finanças, Tecnologia, Humor, Relacionamentos, Estudos.',
+            '2. Defina o formato: Você pode criar: Vídeos curtos (TikTok, Reels), Posts no Instagram, Carrosséis, Artigos, YouTube, Podcasts, Tweets, ou Newsletter.',
+            '3. Use uma estrutura simples: Fórmula do Sucesso (Gancho → Valor → Chamada). Exemplo: Gancho: "3 erros que fazem seu Instagram/canal não crescer" | Valor: Explique os erros rapidamente | Chamada: "Salva esse post para não esquecer".',
+            '4. Ideias de conteúdo que sempre funcionam: Dicas rápidas, erros comuns, antes e depois, bastidores, listas, tutorial passo a passo, história pessoal, opinião, tendências.',
+            '5. Frequência importa mais que perfeição: Melhor postar: 3 conteúdos simples por semana do que: 1 perfeito por mês.',
+            '6. Ferramentas úteis: Canva (design), CapCut (edição de vídeo), Notion (organização) e ChatGPT (ideias, roteiros e legendas).'
+          ] },
+          { type: 'info', title: '📝 Exemplo Prático (Tema: Academia (Fitness))', items: [
+            'Post: "5 hábitos que aceleraram meus resultados" (1. Dormir melhor, 2. Comer proteína, 3. Treinar pesado, 4. Beber água, 5. Constância).',
+            'Chamada (CTA): "Qual desses você já faz?"'
+          ] }
+        ]
+      },
+      {
+        id: 'vender_ebooks_guias_youtube',
+        title: '📖 Como Vender eBooks (Sem Aparecer)',
+        content: [
+          'Vender eBooks pode ser uma ótima forma de começar a ganhar dinheiro online, mesmo sem aparecer em vídeos.',
+          {
+            type: 'steps',
+            title: '🛠 Passo 1: Criar o eBook',
+            items: [
+              'Escolha um tema que resolva um problema real: Como ganhar dinheiro online, Como estudar melhor, Receitas, Fitness, Desenvolvimento pessoal, Marketing digital ou Uso de IA.',
+              'Crie o conteúdo do eBook usando editores como Word, Google Docs ou canva.com e exporte em PDF.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💳 Passo 2: Escolher uma Plataforma',
+            items: [
+              'Cadastre-se em plataformas populares para vender produtos digitais como: hotmart.com, kiwify.com.br, monetizze.com.br ou eduzz.com.',
+              'Você cria uma conta, cadastra o eBook, define o preço e a plataforma gera um link de pagamento.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Passo 3: Definir o Preço',
+            items: [
+              'Para começar (EBook simples): R$ 19,90 a R$ 47,00 (US$ 5–15)',
+              'EBook mais completo (Guias detalhados): R$ 47,00 a R$ 97,00 (US$ 15–30)',
+              'EBook + bônus: R$ 97,00 a R$ 197,00 (US$ 20–50)',
+              'Dica: O preço ideal depende do valor que ele entrega, não apenas do número de páginas.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 Passo 4: Criar uma Página de Vendas',
+            items: [
+              'Explique qual problema o eBook resolve.',
+              'Apresente o que a pessoa vai aprender e seus benefícios práticos.',
+              'Adicione depoimentos (quando tiver) e um botão linkando para o checkout de compra.',
+              'Exemplo: "Aprenda 10 formas reais de começar a ganhar dinheiro pela internet usando apenas o seu celular."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📈 Passo 5: Atrair Visitantes (Tráfego)',
+            items: [
+              'TikTok: Publique vídeos curtos contendo trechos do seu eBook todos os dias.',
+              'Instagram Reels: Transforme dicas acionáveis do eBook em vídeos de 15–30 segundos.',
+              'YouTube Shorts: Publique os mesmos vídeos adaptados para alcançar uma nova audiência.',
+              'Grupos/Comunidades: Compartilhe conteúdos que ajudem genuinamente as pessoas e mostre como seu eBook resolve a dor delas de forma útil.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌪 Estrutura Simples de Funil',
+            items: [
+              'Vídeo Curto ➔ Link na Bio ➔ Página de Vendas ➔ Compra Confirmada!'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Exemplo de Nicho Promissor',
+            items: [
+              'EBook Sugerido: "30 Formas de Ganhar Dinheiro com Inteligência Artificial e Celular".',
+              'Principais tópicos: Ferramentas de IA essenciais, técnicas de criação de conteúdo, segredos do marketing de afiliados, caminhos para freelancing e venda de serviços digitais.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'modelo_ebook_pratico_youtube',
+        title: '📘 Modelo de eBook Pronto para Adaptar',
+        content: [
+          'Vou te dar um modelo de eBook que você pode adaptar e vender de forma simples.',
+          {
+            type: 'info',
+            title: '🏷️ Identidade do eBook (Título, Subtítulo e Capa)',
+            items: [
+              'Título principal: "30 Formas de Ganhar Dinheiro com IA e Apenas um Celular"',
+              'Subtítulo: "Aprenda métodos práticos para criar renda online usando inteligência artificial, redes sociais e ferramentas gratuitas."',
+              'Capa sugerida: Texto do título principal, subtítulo ("Guia prático para iniciantes começarem do zero") e o nome do Autor (Seu nome ou nome da sua marca).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📖 Índice Oficial do eBook',
+            items: [
+              '1. Introdução',
+              '2. O que é Inteligência Artificial',
+              '3. Como começar sem dinheiro',
+              '4. 30 formas de ganhar dinheiro',
+              '5. Plano de ação de 30 dias',
+              '6. Ferramentas recomendadas',
+              '7. Conclusão'
+            ]
+          },
+          {
+            type: 'info',
+            title: '✍️ Conteúdo do eBook - Introdução',
+            items: [
+              'A internet criou oportunidades que não existiam há alguns anos. Hoje, qualquer pessoa com um celular e acesso à internet pode aprender habilidades, criar conteúdo e oferecer serviços para clientes do mundo inteiro.',
+              'Este guia apresenta 30 ideias que podem ser usadas para começar.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎬 Exemplos Práticos de Capítulos e Ideias',
+            items: [
+              '1. Criar vídeos para TikTok: Use ferramentas de IA para gerar roteiros e publique vídeos curtos diariamente.',
+              '2. Marketing de afiliados: Promova produtos digitais e receba comissão por cada venda.',
+              '3. Gestão de redes sociais: Ajude pequenos negócios a publicar conteúdo.',
+              '4. Edição de vídeos: Aprenda a usar aplicativos como CapCut e ofereça o serviço.',
+              '5. Venda de eBooks: Transforme conhecimento em produtos digitais e compartilhe.',
+              '6. Criação de legendas com IA: Escreva posts para empresas e influenciadores.',
+              '7. Canal Dark no YouTube: Crie vídeos sem aparecer usando narração e imagens.',
+              '8. Criação de artes: Produza imagens para redes sociais com inteligência artificial.',
+              '9. Freelancer online: Ofereça serviços em plataformas de trabalho remoto.',
+              '10. Criação de prompts para IA: Venda coleções de prompts para criadores e empresas.',
+              '(Siga esta lógica até completar 30 conceitos para encantar o leitor.)'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Plano de Ação Estruturado de 30 Dias',
+            items: [
+              'Semana 1: Escolher uma área específica, criar perfis profissionais elegantes e aprender o básico.',
+              'Semana 2: Produzir conteúdo relevante para aquecer as redes e começar a construir seu portfólio.',
+              'Semana 3: Fazer as primeiras ofertas ativas e buscar clientes em tempo livre.',
+              'Semana 4: Analisar o que funcionou, otimizar ou alterar e reinvestir uma parte dos seus ganhos.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🛠️ Ferramentas Extremamente Úteis',
+            items: [
+              '💎 MoneyNet Ai (Potencialização de renda com inteligência artificial)',
+              '🤖 chatgpt.com (Geração de ideias, roteiros rápidos e textos)',
+              '🎨 canva.com (Edição visual primorosa e exportação em PDF)',
+              '🎬 capcut.com (Criação de vídeos curtos chamativos para redes)',
+              '📂 drive.google.com (Armazenamento seguro e compartilhamento limpo de arquivos)'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💻 Estrutura de Página de Vendas Pronta',
+            items: [
+              'Título principal: Descubra 30 formas de ganhar dinheiro usando IA e apenas um celular',
+              'Benefícios destacados: ✅ Ideal para iniciantes | ✅ Não exige computador | ✅ Métodos de baixo custo | ✅ Plano de ação passo a passo | ✅ Ferramentas recomendadas',
+              'Chamada para Ação: "Comece hoje e descubra oportunidades que podem ser desenvolvidas no seu tempo livre."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🚀 Conselhos Importantes de Posicionamento',
+            items: [
+              'Para aumentar ao máximo suas chances de conversão e vendas, recomendo criar algo específico de nicho, como estes exemplos práticos abaixo:',
+              '• "Como Ganhar Dinheiro com TikTok em 2026"',
+              '• "Guia Completo de Marketing de Afiliados para Iniciantes"',
+              '• "100 Prompts de IA para Ganhar Dinheiro Online"',
+              'Esses subtemas específicos costumam converter muito melhor do que formatos excessivamente genéricos.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'ebook_especifico_youtube',
+        title: '📖 Guia Prático: Como Ganhar Dinheiro com TikTok',
+        content: [
+          'Um eBook mais específico costuma vender melhor. Aqui está um modelo completo que você pode usar:',
+          {
+            type: 'info',
+            title: '🏷️ Detalhes do eBook',
+            items: [
+              'Título: "Como Ganhar Dinheiro com TikTok"',
+              'Subtítulo: "Guia prático para transformar vídeos curtos em uma fonte de renda online."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📚 Estrutura de Capítulos',
+            items: [
+              'Capítulo 1 – A Oportunidade: O TikTok é uma das maiores plataformas do mundo. Milhões de pessoas assistem a vídeos diariamente, criando oportunidades para quem produz conteúdo. Você não precisa de equipamentos caros. Um celular com internet já é suficiente para começar.',
+              'Capítulo 2 – Escolhendo um Nicho: Escolha um tema principal como Motivação, Negócios, Curiosidades, Tecnologia, IA, Histórias inspiradoras, Saúde e hábitos, ou Humor. O segredo é focar em um único tema nos primeiros meses.',
+              'Capítulo 3 – Criando Vídeos Virais: Siga esta estrutura simples: Gancho (primeiros 3 segundos - ex: "Se você quer ganhar dinheiro online, veja isso.") ➔ Conteúdo (Entregue uma dica rápida e útil) ➔ Chamada ("Siga a página para mais dicas.")',
+              'Capítulo 4 – 10 Formas de Monetizar: Marketing de afiliados, venda de eBooks, gestão de redes sociais, edição de vídeos, serviços de IA, consultoria, canal no YouTube, venda de cursos, parcerias com marcas ou comunidade paga.',
+              'Capítulo 5 – Plano de 30 Dias: Semana 1 (Criar contas e publicar 3 vídeos por dia) ➔ Semana 2 (Testar diferentes tipos de conteúdos) ➔ Semana 3 (Analisar vídeos com melhor desempenho) ➔ Semana 4 (Criar uma oferta simples: eBook ou serviço de entrada).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🚀 Bônus Especial: 50 Ganchos Virais para Reels/Shorts',
+            items: [
+              '1. Ninguém fala sobre isso...',
+              '2. Pare de fazer isso agora...',
+              '3. Este erro está destruindo seus resultados...',
+              '4. Se eu tivesse que começar do zero...',
+              '5. A verdade que ninguém conta...',
+              '6. O segredo é mais simples do que parece...',
+              '7. Você está perdendo dinheiro sem perceber...',
+              '8. Faça isso durante 30 dias...',
+              '9. A maioria das pessoas desiste aqui...',
+              '10. Veja o que aconteceu quando eu tentei...',
+              '(Ajuste e crie variações chamativas adicionais para manter a atenção do seu público!)'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Sugestão de Preço & Venda',
+            items: [
+              'Preço Recomendado (Início): R$ 19,90 a R$ 47,00 (US$ 5–10) para incentivar compras fáceis.',
+              'Preço Recomendado (Após primeiras vendas): R$ 47,00 a R$ 97,00 (US$ 10–20)',
+              'Estratégia de Vendas Orgânica: Publique vídeos curtos consistentes. Use chamadas persuasivas ao final de cada vídeo: "Quer aprender a ganhar dinheiro usando apenas o celular? Comente \'GUIA\' e acesse o link na bio."',
+              'Conselho de Ouro: Uma meta realista de extremo sucesso é publicar de 3 a 5 vídeos por dia durante pelo menos 90 dias seguidos. No orgânico, a consistência diária disciplinada é imensamente superior a tentar apenas a sorte com um único vídeo isolado.'
+            ]
+          }
+        ]
+      },
       {
         id: 'start_from_zero_youtube',
         title: '🏁 Começar do Zero (Guia de Início)',
@@ -4852,6 +5920,281 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Ajudar você a aprender usando apenas o celular',
             'Mostrar formas reais de ganhar os primeiros clientes'
           ] }
+        ]
+      },
+      {
+        id: 'vender_ebooks_guias_marketing',
+        title: '📖 Como Vender eBooks (Sem Aparecer)',
+        content: [
+          'Vender eBooks pode ser uma ótima forma de começar a ganhar dinheiro online, mesmo sem aparecer em vídeos.',
+          {
+            type: 'steps',
+            title: '🛠 Passo 1: Criar o eBook',
+            items: [
+              'Escolha um tema que resolva um problem real: Como ganhar dinheiro online, Como estudar melhor, Receitas, Fitness, Desenvolvimento pessoal, Marketing digital ou Uso de IA.',
+              'Crie o conteúdo do eBook usando editores como Word, Google Docs ou canva.com e exporte em PDF.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💳 Passo 2: Escolher uma Plataforma',
+            items: [
+              'Cadastre-se em plataformas populares para vender produtos digitais como: hotmart.com, kiwify.com.br, monetizze.com.br ou eduzz.com.',
+              'Você cria uma conta, cadastra o eBook, define o preço e a plataforma gera um link de pagamento.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Passo 3: Definir o Preço',
+            items: [
+              'Para começar (EBook simples): R$ 19,90 a R$ 47,00 (US$ 5–15)',
+              'EBook mais completo (Guias detalhados): R$ 47,00 a R$ 97,00 (US$ 15–30)',
+              'EBook + bônus: R$ 97,00 a R$ 197,00 (US$ 20–50)',
+              'Dica: O preço ideal depende do valor que ele entrega, não apenas do número de páginas.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 Passo 4: Criar uma Página de Vendas',
+            items: [
+              'Explique qual problema o eBook resolve.',
+              'Apresente o que a pessoa vai aprender e seus benefícios práticos.',
+              'Adicione depoimentos (quando tiver) e um botão linkando para o checkout de compra.',
+              'Exemplo: "Aprenda 10 formas reais de começar a ganhar dinheiro pela internet usando apenas o seu celular."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📈 Passo 5: Atrair Visitantes (Tráfego)',
+            items: [
+              'TikTok: Publique vídeos curtos contendo trechos do seu eBook todos os dias.',
+              'Instagram Reels: Transforme dicas acionáveis do eBook em vídeos de 15–30 segundos.',
+              'YouTube Shorts: Publique os mesmos vídeos adaptados para alcançar uma nova audiência.',
+              'Grupos/Comunidades: Compartilhe conteúdos que ajudem genuinamente as pessoas e mostre como seu eBook resolve a dor delas de forma útil.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌪 Estrutura Simples de Funil',
+            items: [
+              'Vídeo Curto ➔ Link na Bio ➔ Página de Vendas ➔ Compra Confirmada!'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Exemplo de Nicho Promissor',
+            items: [
+              'EBook Sugerido: "30 Formas de Ganhar Dinheiro com Inteligência Artificial e Celular".',
+              'Principais tópicos: Ferramentas de IA essenciais, técnicas de criação de conteúdo, segredos do marketing de afiliados, caminhos para freelancing e venda de serviços digitais.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'modelo_ebook_pratico_marketing',
+        title: '📘 Modelo de eBook Pronto para Adaptar',
+        content: [
+          'Vou te dar um modelo de eBook que você pode adaptar e vender de forma simples.',
+          {
+            type: 'info',
+            title: '🏷️ Identidade do eBook (Título, Subtítulo e Capa)',
+            items: [
+              'Título principal: "30 Formas de Ganhar Dinheiro com IA e Apenas um Celular"',
+              'Subtítulo: "Aprenda métodos práticos para criar renda online usando inteligência artificial, redes sociais e ferramentas gratuitas."',
+              'Capa sugerida: Texto do título principal, subtítulo ("Guia prático para iniciantes começarem do zero") e o nome do Autor (Seu nome ou nome da sua marca).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📖 Índice Oficial do eBook',
+            items: [
+              '1. Introdução',
+              '2. O que é Inteligência Artificial',
+              '3. Como começar sem dinheiro',
+              '4. 30 formas de ganhar dinheiro',
+              '5. Plano de ação de 30 dias',
+              '6. Ferramentas recomendadas',
+              '7. Conclusão'
+            ]
+          },
+          {
+            type: 'info',
+            title: '✍️ Conteúdo do eBook - Introdução',
+            items: [
+              'A internet criou oportunidades que não existiam há alguns anos. Hoje, qualquer pessoa com um celular e acesso à internet pode aprender habilidades, criar conteúdo e oferecer serviços para clientes do mundo inteiro.',
+              'Este guia apresenta 30 ideias que podem ser usadas para começar.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🎬 Exemplos Práticos de Capítulos e Ideias',
+            items: [
+              '1. Criar vídeos para TikTok: Use ferramentas de IA para gerar roteiros e publique vídeos curtos diariamente.',
+              '2. Marketing de afiliados: Promova produtos digitais e receba comissão por cada venda.',
+              '3. Gestão de redes sociais: Ajude pequenos negócios a publicar conteúdo.',
+              '4. Edição de vídeos: Aprenda a usar aplicativos como CapCut e ofereça o serviço.',
+              '5. Venda de eBooks: Transforme conhecimento em produtos digitais e compartilhe.',
+              '6. Criação de legendas com IA: Escreva posts para empresas e influenciadores.',
+              '7. Canal Dark no YouTube: Crie vídeos sem aparecer usando narração e imagens.',
+              '8. Criação de artes: Produza imagens para redes sociais com inteligência artificial.',
+              '9. Freelancer online: Ofereça serviços em plataformas de trabalho remoto.',
+              '10. Criação de prompts para IA: Venda coleções de prompts para criadores e empresas.',
+              '(Siga esta lógica até completar 30 conceitos para encantar o leitor.)'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Plano de Ação Estruturado de 30 Dias',
+            items: [
+              'Semana 1: Escolher uma área específica, criar perfis profissionais elegantes e aprender o básico.',
+              'Semana 2: Produzir conteúdo relevante para aquecer as redes e começar a construir seu portfólio.',
+              'Semana 3: Fazer as primeiras ofertas ativas e buscar clientes em tempo livre.',
+              'Semana 4: Analisar o que funcionou, otimizar ou alterar e reinvestir uma parte dos seus ganhos.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🛠️ Ferramentas Extremamente Úteis',
+            items: [
+              '💎 MoneyNet Ai (Potencialização de renda com inteligência artificial)',
+              '🤖 chatgpt.com (Geração de ideias, roteiros rápidos e textos)',
+              '🎨 canva.com (Edição visual primorosa e exportação em PDF)',
+              '🎬 capcut.com (Criação de vídeos curtos chamativos para redes)',
+              '📂 drive.google.com (Armazenamento seguro e compartilhamento limpo de arquivos)'
+            ]
+          },
+          {
+            type: 'info',
+            title: '💻 Estrutura de Página de Vendas Pronta',
+            items: [
+              'Título principal: Descubra 30 formas de ganhar dinheiro usando IA e apenas um celular',
+              'Benefícios destacados: ✅ Ideal para iniciantes | ✅ Não exige computador | ✅ Métodos de baixo custo | ✅ Plano de ação passo a passo | ✅ Ferramentas recomendadas',
+              'Chamada para Ação: "Comece hoje e descubra oportunidades que podem ser desenvolvidas no seu tempo livre."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🚀 Conselhos Importantes de Posicionamento',
+            items: [
+              'Para aumentar ao máximo suas chances de conversão e vendas, recomendo criar algo específico de nicho, como estes exemplos práticos abaixo:',
+              '• "Como Ganhar Dinheiro com TikTok em 2026"',
+              '• "Guia Completo de Marketing de Afiliados para Iniciantes"',
+              '• "100 Prompts de IA para Ganhar Dinheiro Online"',
+              'Esses subtemas específicos costumam converter muito melhor do que formatos excessivamente genéricos.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'ebook_especifico_marketing',
+        title: '📖 Guia Prático: Como Ganhar Dinheiro com TikTok',
+        content: [
+          'Um eBook mais específico costuma vender melhor. Aqui está um modelo completo que você pode usar:',
+          {
+            type: 'info',
+            title: '🏷️ Detalhes do eBook',
+            items: [
+              'Título: "Como Ganhar Dinheiro com TikTok"',
+              'Subtítulo: "Guia prático para transformar vídeos curtos em uma fonte de renda online."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📚 Estrutura de Capítulos',
+            items: [
+              'Capítulo 1 – A Oportunidade: O TikTok é uma das maiores plataformas do mundo. Milhões de pessoas assistem a vídeos diariamente, criando oportunidades para quem produz conteúdo. Você não precisa de equipamentos caros. Um celular com internet já é suficiente para começar.',
+              'Capítulo 2 – Escolhendo um Nicho: Escolha um tema principal como Motivação, Negócios, Curiosidades, Tecnologia, IA, Histórias inspiradoras, Saúde e hábitos, ou Humor. O segredo é focar em um único tema nos primeiros meses.',
+              'Capítulo 3 – Criando Vídeos Virais: Siga esta estrutura simples: Gancho (primeiros 3 segundos - ex: "Se você quer ganhar dinheiro online, veja isso.") ➔ Conteúdo (Entregue uma dica rápida e útil) ➔ Chamada ("Siga a página para mais dicas.")',
+              'Capítulo 4 – 10 Formas de Monetizar: Marketing de afiliados, venda de eBooks, gestão de redes sociais, edição de vídeos, serviços de IA, consultoria, canal no YouTube, venda de cursos, parcerias com marcas ou comunidade paga.',
+              'Capítulo 5 – Plano de 30 Dias: Semana 1 (Criar contas e publicar 3 vídeos por dia) ➔ Semana 2 (Testar diferentes tipos de conteúdos) ➔ Semana 3 (Analisar vídeos com melhor desempenho) ➔ Semana 4 (Criar uma oferta simples: eBook ou serviço de entrada).'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🚀 Bônus Especial: 50 Ganchos Virais para Reels/Shorts',
+            items: [
+              '1. Ninguém fala sobre isso...',
+              '2. Pare de fazer isso agora...',
+              '3. Este erro está destruindo seus resultados...',
+              '4. Se eu tivesse que começar do zero...',
+              '5. A verdade que ninguém conta...',
+              '6. O segredo é mais simples do que parece...',
+              '7. Você está perdendo dinheiro sem perceber...',
+              '8. Faça isso durante 30 dias...',
+              '9. A maioria das pessoas desiste aqui...',
+              '10. Veja o que aconteceu quando eu tentei...',
+              '(Ajuste e crie variações chamativas adicionais para manter a atenção do seu público!)'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💰 Sugestão de Preço & Venda',
+            items: [
+              'Preço Recomendado (Início): R$ 19,90 a R$ 47,00 (US$ 5–10) para incentivar compras fáceis.',
+              'Preço Recomendado (Após primeiras vendas): R$ 47,00 a R$ 97,00 (US$ 10–20)',
+              'Estratégia de Vendas Orgânica: Publique vídeos curtos consistentes. Use chamadas persuasivas ao final de cada vídeo: "Quer aprender a ganhar dinheiro usando apenas o celular? Comente \'GUIA\' e acesse o link na bio."',
+              'Conselho de Ouro: Uma meta realista de extremo sucesso é publicar de 3 a 5 vídeos por dia durante pelo menos 90 dias seguidos. No orgânico, a consistência diária disciplinada é imensamente superior a tentar apenas a sorte com um único vídeo isolado.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'vender_cursos_produtos_digitais_marketing',
+        title: '🎓 Vender Cursos e Produtos Digitais',
+        content: [
+          'Vender cursos online e produtos digitais é um dos modelos mais acessíveis para começar na internet porque, depois de criar o produto, você pode vendê-lo várias vezes.',
+          {
+            type: 'steps',
+            title: '🎯 Como Vender Cursos Online',
+            items: [
+              '1. Escolha um tema: O curso deve ensinar algo que as pessoas querem aprender de verdade. Principais exemplos: Ganhar dinheiro online, TikTok e Instagram, Edição de vídeo, Canva, Inteligência Artificial, Marketing de afiliados e Vendas online.',
+              '2. Grave o curso: Você pode usar simplesmente seu Celular, Gravação de tela ou Apresentações bem diagramadas feitas no canva.com. Não precisa de qualquer equipamento profissional caro para começar.',
+              '3. Hospede o curso: Cadastre nas plataformas populares como hotmart.com, kiwify.com.br, ou eduzz.com. Elas cuidam de toda a segurança do pagamento e da entrega do conteúdo do curso automaticamente.',
+              '4. Crie uma página de vendas: Explique detalhadamente o problema que o curso resolve, o que exatamente o aluno aprenderá, quanto tempo levará para obter resultados e quais os bônus incluídos.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📦 Como Vender Produtos Digitais Práticos',
+            items: [
+              'Produtos digitais lucrativos incluem: eBooks, planilhas organizadas, templates reutilizáveis, packs de prompts refinados para IA, artes prontas para redes sociais, presets estéticos, checklists e guias de referência.',
+              'Exemplo prático simples: Criar um produto como "100 Prompts de IA para Criadores de Conteúdo", definir o preço entre US$ 5–15 (R$ 19 a R$ 47) e realizar a entrega com um PDF limpo ou arquivo para download.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🛠️ Método Simples para Atrair e Converter Clientes',
+            items: [
+              'TikTok: Publique vídeos atraentes explicando o assunto (ex: "3 formas de fazer dinheiro usando IA") e feche sempre com uma chamada: "Tenho um guia completo no link da bio."',
+              'Instagram Reels: Transforme pequenas partes acionáveis do seu curso ou eBook em dicas extremamente diretas e visuais de 15 a 30 segundos.',
+              'YouTube Shorts: Reaproveite e publique exatamente os mesmos vídeos curtos, adaptados para ampliar sua descoberta na web.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🪜 Estrutura Inteligente da Escada de Produtos',
+            items: [
+              '1. Conteúdo Gratuito (Gera valor e ganha seguidores de confiança)',
+              '2. Produto de Entrada Super Barato (ex: eBook por US$ 7 / R$ 19,90)',
+              '3. Pack ou Template Complementar (ex: Pack de prompts por US$ 15 / R$ 47,00)',
+              '4. Curso Básico Prático (ex: Guia passo a passo por US$ 49 / R$ 197,00)',
+              '5. Curso Avançado Completo (ex: Mentoria ou Formação por US$ 99 / R$ 297,00)',
+              '🚀 Vantagem: Assim, o cliente inicia comprando um item acessível e depois adquire soluções mais completas e lucrativas de você.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔥 Nichos em Altíssima Demanda Atualmente',
+            items: [
+              '• Inteligência Artificial e Automação',
+              '• Criação de Conteúdo e Vídeos Curtos',
+              '• Marketing Digital e Vendas Online',
+              '• Finanças Pessoais e Planejamento',
+              '• Produtividade Pessoal e Métodos',
+              '• Saúde, Emagrecimento e Fitness',
+              '• Aprendizado de Idiomas'
+            ]
+          }
         ]
       },
       {
