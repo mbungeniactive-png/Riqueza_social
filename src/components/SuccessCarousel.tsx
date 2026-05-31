@@ -18,10 +18,10 @@ const SUCCESS_STORIES: SuccessStory[] = [
   {
     id: 'mateus',
     name: 'Mateus Silvestre',
-    location: 'Maputo, Moçambique',
+    location: 'Maputo',
     avatarBg: 'from-blue-600 to-indigo-600',
     initials: 'MS',
-    outcomeStats: '25.000 MT / mês',
+    outcomeStats: 'U$ 400 / mês',
     niche: 'Canva & Design Rápido',
     description: 'Trabalhava de repositor e hoje cria posts profissionais pelo celular para comércios locais.',
     storyText: '“Eu achava que precisava de um computador super caro para ser designer. Depois de ler o Passo 1 e o Passo 3 aqui, criei meu portfólio no Canva pelo celular. Fiz modelos grátis para restaurantes locais no Facebook e conquistei meus primeiros clientes recorrentes!”'
@@ -40,13 +40,13 @@ const SUCCESS_STORIES: SuccessStory[] = [
   {
     id: 'antonio',
     name: 'António Gouveia',
-    location: 'Nampula, Moçambique',
+    location: 'Nampula',
     avatarBg: 'from-emerald-600 to-teal-600',
     initials: 'AG',
-    outcomeStats: '18.000 MT / mês',
+    outcomeStats: 'U$ 300 / mês',
     niche: 'Social Media Local',
     description: 'Gerencia as redes sociais de salões de beleza, farmácias e igrejas na sua província.',
-    storyText: '“Usei a mensagem pronta do Passo 5 e fui pessoalmente bater de porta em porta nos negócios do meu bairro. Hoje moro no interior de Nampula e cuido do Instagram de 4 lojas locais. Eles me pagam todo mês via M-Pesa de forma rápida.”'
+    storyText: '“Usei a mensagem pronta do Passo 5 e fui pessoalmente bater de porta em porta nos negócios do meu bairro. Hoje moro no interior de Nampula e cuido do Instagram de 4 lojas locais. Eles me pagam todo mês de forma rápida.”'
   },
   {
     id: 'clara',

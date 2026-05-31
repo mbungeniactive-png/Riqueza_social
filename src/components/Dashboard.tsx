@@ -1134,7 +1134,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     key={item.id}
                     whileHover={{ y: -5 }}
                     onClick={() => onSelectSection(item.id)}
-                    className={`flex-shrink-0 w-52 bg-gradient-to-br ${item.color} p-5 rounded-[28px] text-white shadow-lg relative overflow-hidden group text-left border border-white/5 active:scale-[0.98] transition-all`}
+                    className={`flex-shrink-0 w-52 bg-gradient-to-br ${item.color} p-5 rounded-[28px] text-white shadow-lg hover:shadow-[0_0_20px_rgba(99,102,241,0.25)] relative overflow-hidden group text-left border border-white/5 active:scale-[0.98] transition-all duration-300 ease-in-out`}
                     id={`btn_trend_card_${item.id}`}
                   >
                     <div className="relative z-10 flex flex-col h-full justify-between">

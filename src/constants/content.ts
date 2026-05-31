@@ -494,18 +494,194 @@ export const APP_CONTENT_PT: SectionContent[] = [
             items: [
               '• Consistência inabalável diária focada em meses, e nunca apenas em poucos dias de testes.',
               '• Produção focada em conteúdo altamente útil, prático ou emocionante para o leitor.',
-              '• Testar continuamente diferentes formatos de ganchos e repetir os roteiros que mais engajaram.',
-              '• Meta Dedicada (Primeiros 90 Dias): Publique consistentemente entre 300 a 500 vídeos curtos, construa uma comunidade, crie um eBook ou serviço de entrada e realize as suas primeiras vendas online.'
+              '• Testar continuamente diferentes formatos de ganchos e repetir os roteiros que mais engajaram.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'mito_viral_tiktok',
+        title: '🛑 O Mito de "Dizer ao TikTok que Quero Viralizar"',
+        content: [
+          'Não caia na conversa de quem diz que existe uma frase mágica para falar para o TikTok que você deseja viralizar. Isso é um grande mito! O algoritmo não funciona por pedidos diretos, mas sim analisando de forma fria e matemática o comportamento real das pessoas: retenção, tempo de visualização, comentários, compartilhamentos, curtidas e salvamentos.',
+          'O que você realmente pode e deve fazer é criar conteúdos intencionais estruturados para aumentar ao máximo essas métricas de engajamento.',
+          {
+            type: 'steps',
+            title: '⚡ Fórmula Prática e Simples para Viralizar',
+            items: [
+              '1. Gancho irresistível nos primeiros 3 segundos: Prenda a atenção imediata. Exemplos: "Ninguém acredita nisso...", "Se eu soubesse disso antes...", "Você está cometendo este erro clássico...", "Veja isso até o final se quiser mudar...".',
+              '2. Vídeo extremamente curto: Mantenha a duração entre 10 e 30 segundos. Isso facilita que o usuário assista o vídeo completo, elevando drasticamente a sua taxa de retenção por repetição.',
+              '3. Gere curiosidade genuína: Evite entregar a resposta de ouro logo no início do vídeo. Faça a pessoa desejar assistir até o último segundo para descobrir o desfecho.',
+              '4. Peça interação de forma natural (Chamada de Ação): Estimule o engajamento com perguntas. Exemplos: "Concorda? Comenta SIM.", "Qual é a sua opinião sincera?", "Marca aqui um amigo que precisa ver isso agora mesmo."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🤖 Prompt para IA Criar os Melhores Roteiros Virais',
+            items: [
+              'Use the prompt abaixo em seu chat de IA favorito:',
+              '"Crie um roteiro altamente viral para vídeo curto de até 20 segundos sobre [Insira o Tema Aqui], focado em retenção. O roteiro precisa conter um gancho impactante nos primeiros 3 segundos, linguagem emocional, frases curtas, curiosidade crescente e uma chamada forte ao final para o usuário seguir a página e comentar sua opinião."'
             ]
           },
           {
             type: 'info',
-            title: '💡 Reflexão de Ouro para sua Jornada',
+            title: '🎬 Exemplo Prático de Vídeo Motivacional Viral',
             items: [
-              'Muitos criadores começam o projeto sem faturar absolutamente nada e passam a monetizar em larga escala somente após construir uma audiência fiel e estruturar uma oferta que resolve uma dor real de mercado.',
-              'O seu foco prioritário inicial deve estar concentrado em publicar sistematicamente todos os dias e entender quais formatos o seu público mais adora assistir de você!'
+              '• Gancho Inicial (0-3s): "Daqui a exatamente 1 ano, você vai desejar ter começado hoje."',
+              '• Desenvolvimento (3-15s): "Enquanto a maioria das pessoas reclama da vida, outros estão trabalhando duro e construindo seu próprio amanhã. Pequenos passos focados e feitos todos os dias mudam completamente o rumo de uma vida inteira."',
+              '• Chamada Final (15-20s): "Você vai começar a agir hoje ou prefere esperar mais um ano? Comente \'EU VOU\' de peito aberto e siga o perfil para receber dose diária de motivação!"'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🏷️ Seleção de Hashtags Úteis e Estratégicas',
+            items: [
+              '#viral | #fyp | #parati | #motivacao | #mindset | #sucesso | #empreendedorismo | #dinheiroonline'
+            ]
+          },
+          'Lembre-se sempre de que o segredo absoluto não é tentar enganar ou pedir ao algoritmo do TikTok para viralizar. O verdadeiro método consiste em publicar com consistência inabalável, testar múltiplos vídeos diariamente e analisar objetivamente quais formatos retêm mais pessoas até o final. Quanto mais vídeos de alto valor você publicar, maiores serão as chances matemáticas de um deles explodir!'
+        ]
+      },
+      {
+        id: 'plano_crescer_rapido_tiktok',
+        title: '📈 Plano para Crescer Rápido',
+        content: [
+          'Para crescer rapidamente nas redes de vídeos curtos, a velocidade de aprendizado e o volume de conteúdo de alta qualidade são os fatores mais cruciais.',
+          {
+            type: 'list',
+            title: '📅 Grade de Conteúdo Diária Recomendada',
+            items: [
+              '• 3 vídeos motivacionais de alto impacto (Ganchos fortes + legendas dinâmicas)',
+              '• 2 vídeos com dicas práticas de como ganhar dinheiro online (Passo a passo, facilidade com ferramentas)',
+              '• 1 vídeo contando uma história inspiradora, de superação ou curiosidade global'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🛠️ Rotina e Boas Práticas Diárias',
+            items: [
+              '1. Conexão com Público: Responda ativamente a todos os novos comentários para gerar reciprocidade e engajamento.',
+              '2. Sons e Trends: Use sempre músicas e áudios que estejam em tendência para surfar no algoritmo.',
+              '3. Postagem Estratégica: Publique nos horários de maior audiência acumulada (geralmente de manhã, tarde e noite).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 A Grande Meta do Mês',
+            items: [
+              '• Publicar e testar 180 vídeos em apenas 30 dias!',
+              '• Quanto mais conteúdo de real valor você publicar e testar de forma sistemática, mais velozmente descobrirá o que o seu público realmente adora assistir, elevando de forma incrível as chances de viralizar e explodir seus resultados.'
             ]
           }
+        ]
+      },
+      {
+        id: 'como_viralizar_primeiro_video_tiktok',
+        title: '🔥 Como Fazer o seu Primeiro Vídeo Viralizar',
+        content: [
+          'O seu primeiro vídeo pode sim viralizar, mas o seu foco absoluto deve ser desenhar um conteúdo estratégico capaz de reter a atenção das pessoas até o final.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Prática de um Vídeo Viral (15 a 20 segundos)',
+            items: [
+              '• 0 a 3 segundos (O Gancho): "Se você está vendo este vídeo, pode ser exatamente o sinal que você precisava para mudar a sua vida de vez."',
+              '• 3 a 12 segundos (O Desenvolvimento): "Há um ano eu não sabia absolutamente nada sobre como ganhar dinheiro online. A maioria das pessoas infelizmente desiste cedo demais. Quem continua aprendendo todos os dias acaba encontrando oportunidades que os outros nunca enxergam."',
+              '• 12 a 20 segundos (A Chamada): "Salve este vídeo agora e siga a página. Daqui a exatos 30 dias você pode estar me agradecendo profundamente por ter começado hoje mesmo."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '✅ Segredos e Diretrizes Recomendadas',
+            items: [
+              '• Grave tudo em formato vertical (proporção 9:16).',
+              '• Utilize legendas dinâmicas e atraentes centralizadas na tela.',
+              '• Coloque músicas populares do momento em volume ambiente muito baixo.',
+              '• Faça cortes rápidos mudando a imagem/estímulo visual a cada 2 ou 3 segundos.',
+              '• Publique com uma descrição curta direto ao ponto. Exemplo: "Um dia ou dia um. A escolha é totalmente sua. 🧠"'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💡 Ideia de Vídeo Simples Sem Precisar Aparecer',
+            items: [
+              '• Use trechos elegantes de banco de imagens ou vídeos com: Pessoas trabalhando focadas no computador, paisagens urbanas à noite, carros esportivos luxuosos, paisagens naturais bonitas ou pessoas treinando pesado na academia.',
+              '• Deixe uma voz robótica sincronizada de IA ler o roteiro com alta qualidade.',
+              '• Prompt ideal para voz em IA: "Leia este roteiro com uma voz masculina encorpada, emocional, inspiradora e confiante, como se fosse um mentor motivacional sênior."'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🏷️ Hashtags Estratégicas Recomendadas',
+            items: [
+              '#motivacao | #viral | #fyp | #parati | #mindset | #sucesso | #dinheiroonline'
+            ]
+          },
+          'O fator crucial e mais importante: publique o seu primeiro vídeo ainda hoje! Muitos criadores passam semanas planejando nos mínimos detalhes e nunca chegam a postar nada. Lembre-se: o algoritmo só começará a decodificar o seu perfil depois que você publicar sistematicamente e observar de perto o que gera mais retenção, comentários e compartilhamentos.'
+        ]
+      },
+      {
+        id: 'roteiros_prontos_viral_tiktok',
+        title: '🎬 10 Roteiros Prontos para Gravar Hoje',
+        content: [
+          'Preparamos 10 roteiros de 15 a 20 segundos divididos estrategicamente em Gancho, Mensagem e Chamada de Ação, prontos para você narrar ou usar voz de IA!',
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 1 (1 a 5)',
+            items: [
+              '📹 Vídeo 1 — Comece Agora:\n• 🪝 Gancho: "Daqui a 6 meses você vai desejar ter começado hoje."\n• 💬 Mensagem: "O tempo vai passar de qualquer forma. A diferença é que algumas pessoas vão usar esse tempo para construir algo e outras vão continuar esperando."\n• 🏁 Final: "Comente EU VOU e siga para mais motivação."',
+              '📹 Vídeo 2 — Mentalidade:\n• 🪝 Gancho: "O sucesso deixa pistas."\n• 💬 Mensagem: "As pessoas que vencem não são as mais inteligentes. São as que continuam quando os outros desistem."\n• 🏁 Final: "Salve este vídeo para lembrar disso todos os dias."',
+              '📹 Vídeo 3 — Dinheiro:\n• 🪝 Gancho: "A escola ensinou você a ganhar dinheiro?"\n• 💬 Mensagem: "Muitas pessoas passam anos estudando, mas nunca aprendem como criar renda pela internet."\n• 🏁 Final: "Siga a página para aprender mais."',
+              '📹 Vídeo 4 — Disciplina:\n• 🪝 Gancho: "Motivação acaba. Disciplina fica."\n• 💬 Mensagem: "Nos dias difíceis, a disciplina é o que separa quem cresce de quem para."\n• 🏁 Final: "Comente DISCIPLINA se você concorda."',
+              '📹 Vídeo 5 — Sonhos:\n• 🪝 Gancho: "O seu sonho merece uma chance."\n• 💬 Mensagem: "Não abandone seus objetivos só porque eles demoram para acontecer."\n• 🏁 Final: "Marque alguém que precisa ouvir isso."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 2 (6 a 10)',
+            items: [
+              '📹 Vídeo 6 — Trabalho Online:\n• 🪝 Gancho: "Tudo o que você precisa para começar é um celular."\n• 💬 Mensagem: "Hoje existem pessoas ganhando dinheiro criando conteúdo, vendendo produtos digitais e trabalhando remotamente."\n• 🏁 Final: "Siga para aprender passo a passo."',
+              '📹 Vídeo 7 — Persistência:\n• 🪝 Gancho: "O seu segredo não é começar."\n• 💬 Mensagem: "O segredo é continuar quando ninguém acredita em você."\n• 🏁 Final: "Salve este vídeo."',
+              '📹 Vídeo 8 — Mudança de Vida:\n• 🪝 Gancho: "Uma decisão pode mudar tudo."\n• 💬 Mensagem: "A vida que você quer começa quando você decide agir."\n• 🏁 Final: "Comente MUDANÇA."',
+              '📹 Vídeo 9 — Foco:\n• 🪝 Gancho: "Pare de procurar atalhos."\n• 💬 Mensagem: "O sucesso é feito de pequenas ações repetidas todos os dias."\n• 🏁 Final: "Compartilhe com um amigo."',
+              '📹 Vídeo 10 — Futuro:\n• 🪝 Gancho: "Seu eu do futuro está observando você."\n• 💬 Mensagem: "As escolhas diárias determinam onde você estará daqui a um ano."\n• 🏁 Final: "Siga a página para crescer todos os dias."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📅 Calendário Editorial de Conteúdo (Próximos 7 Dias)',
+            items: [
+              '• Dia 1: Motivação de alto impacto',
+              '• Dia 2: Disciplina inabalável',
+              '• Dia 3: Dinheiro online',
+              '• Dia 4: Mentalidade de sucesso',
+              '• Dia 5: Histórias inspiradoras',
+              '• Dia 6: Hábitos vencedores',
+              '• Dia 7: Desafio de 30 dias'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🏷️ Nomes de Impacto Sugeridos para sua Página',
+            items: [
+              '• Império da Disciplina',
+              '• Mentalidade Milionária',
+              '• Evolução Diária',
+              '• Sigma Vision',
+              '• Futuro Bilionário'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📝 Bio Pronta e Altamente Magnética',
+            items: [
+              'Copie e cole em seu perfil:',
+              '🚀 Motivação diária',
+              '💰 Dinheiro online',
+              '🧠 Mentalidade de sucesso',
+              '📈 Evolua 1% todos os dias'
+            ]
+          },
+          'Recomendação de Ouro: Publique pelo menos 3 vídeos por dia durante o período de 30 dias. Um único vídeo viral pode trazer milhares de seguidores, mas a consistência é o que aumenta suas chances de chegar lá.'
         ]
       },
       {
@@ -543,7 +719,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
             'Montar um plano simples para você começar do zero (use nosso chat!)',
-            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Indicar trabalhos online de alta demanda em qualquer lugar do mundo',
             'Ajudar você a aprender usando apenas o celular',
             'Mostrar formas reais de ganhar os primeiros clientes'
           ] }
@@ -574,7 +750,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
           ] },
           { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
-            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'De início, use formatos fáceis e acessíveis do seu país: carteiras digitais, transferência bancária direta ou Pix.',
             'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
           ] },
           { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
@@ -583,7 +759,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
             'Pesquise por: "Canva para iniciantes"',
-            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Como ganhar dinheiro online sendo iniciante"',
             'Pesquise por: "Freelancer para iniciantes"'
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
@@ -659,6 +835,436 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'guia_freelancer_renda_extra_tiktok',
+        title: '💼 Guia Freelancer: Melhores Sites e Plano de Renda Extra',
+        content: [
+          'Se você quer fazer uma renda extra pela internet como freelancer, preste atenção: estes sistemas são um pouco mais concorridos para um iniciante absoluto na internet, mas são, sem dúvida, alguns dos melhores e mais seguros sites do mundo para começar:',
+          {
+            type: 'info',
+            title: '🌐 Os Melhores Sites para Começar',
+            items: [
+              '1. fiverr.com - Você cria um serviço (Gig) e clientes do mundo todo contratam você diretamente para: Design, Edição de Vídeo, Tradução, Redação, Marketing Digital, Edição de fotos.',
+              '2. upwork.com - Uma das maiores plataformas de freelancers do mundo. Projetos nas áreas de: Assistente virtual, Programação, Marketing, Atendimento ao cliente, Entrada de dados.',
+              '3. freelancer.com - Ideal para iniciantes. Projetos variados de: Digitação, Design, Tradução, Redações, Gestão de redes sociais, Criação de conteúdo.',
+              '4. peopleperhour.com - Muito usado por empresas da Europa para contratar freelancers para tarefas diversas.',
+              '5. workana.com - Popular em países de língua portuguesa e espanhola. Tem projetos de: Marketing digital, Redação, Design, Assistência virtual.',
+              '6. 99freelas.com.br - Excelente para quem fala português. Há muitos trabalhos fáceis para iniciantes.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💡 Se você não tem experiência inicial, comece oferecendo:',
+            items: [
+              '• Criação e curadoria de conteúdo dinâmico para o TikTok.',
+              '• Edição ágil de vídeos curtos utilizando o aplicativo CapCut.',
+              '• Criação de artes, banners e imagens profissionais com Inteligência Artificial.',
+              '• Gestão, agendamento e postagens em páginas do Instagram.',
+              '• Transcrição precisa de áudio/vídeo para texto organizado.',
+              '• Atuação como assistente virtual administrativo simples.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🏆 Plano para ganhar os primeiros US$ 100 Online',
+            items: [
+              '• Semana 1: Criar suas contas profissionais no Fiverr (fiverr.com) e Workana (workana.com). Configure um perfil atraente e publique seus primeiros 3 serviços especializados.',
+              '• Semana 2: Dedique-se a enviar pelo menos 10 propostas personalizadas por dia. Monte um portfólio simples mostrando seus melhores testes práticos.',
+              '• Semana 3: Foque em conquistar os seus primeiros clientes, entregue com excelência máxima e solicite avaliações de 5 estrelas.',
+              '• Semana 4: Comece a aumentar seus preços de forma escalonada e direcione sua prospecção para atrair clientes internacionais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📈 Áreas que mais crescem para iniciantes',
+            items: [
+              '• Inteligência Artificial (IA) e criação de conteúdo estratégico.',
+              '• Edição profissional de vídeos curtos em formato vertical.',
+              '• Gestão de mídias e redes sociais de marcas e criadores.',
+              '• Marketing de afiliados e coprodução especializada.',
+              '• Criação, formatação e comercialização direta de infoprodutos úteis.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'tarefas_microtarefas_iniciantes_tiktok',
+        title: '🛠️ Tarefas Simples e Pequenos Ganhos Sem Experiência',
+        content: [
+          'Se você quer começar sem experiência, existem sites legítimos na internet onde você pode realizar tarefas simples e ganhar algum dinheiro real enquanto estuda e desenvolve habilidades melhores para o futuro:',
+          {
+            type: 'info',
+            title: '📋 Pesquisas e Microtarefas',
+            items: [
+              '• toloka.ai - Realize tarefas simples no dia a dia como verificar imagens, textos, classificação de dados e pesquisas rápidas. Aceita usuários de muitos países de forma global.',
+              '• clickworker.com - Pequenas tarefas de digitação, categorização inteligente de dados e pesquisas simples.',
+              '• remotasks.com - Trabalhos práticos e flexíveis de anotação de dados para Inteligência Artificial (a disponibilidade varia por país).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📱 Teste de Sites e Aplicativos (User Testing)',
+            items: [
+              '• usertesting.com - Você testa novos portais e aplicativos dando sua opinião falada sobre a facilidade de navegação. Geralmente exige apenas um microfone simples e internet.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🗣️ Ensino e Ajuda Online',
+            items: [
+              '• cambly.com - Conversação guiada em inglês de forma flexível. Normalmente é mais indicado para quem já tem uma boa habilidade de fala e comunicação em inglês.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🛠️ Trabalhos Básicos e Microtarefas',
+            items: [
+              '• sproutgigs.com - Microtarefas diárias, divulgação básica, compartilhamento social e pequenos trabalhos online.',
+              '• microworkers.com - Plataforma de pequenas tarefas automatizadas que não requerem experiência profissional prévia.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⚠️ Atenção Importante antes de Começar',
+            items: [
+              '• Muitos sites prometem ganhos fáceis, mas pagam muito pouco pelo seu valioso tempo de dedicação.',
+              '• Utilize essas plataformas no seu início de jornada para ganhar seus primeiros dólares e cobrir custos básicos de conexão.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 O Caminho Inteligente: Habilidades de Alto Retorno',
+            items: [
+              '• Para aumentar significativamente os seus retornos financeiros, use o seu tempo livre restante para dominar habilidades simples de alta rentabilidade que trazem muito mais resultados:',
+              '• Edição de vídeos verticais de alta retenção no app CapCut',
+              '• Criação estratégica de conteúdo para plataformas digitais (TikTok, Reels, etc.)',
+              '• Design de ponta e artes promocionais com Canva',
+              '• Atuação flexível como assistente virtual administrativo ou comercial',
+              '• Dominar essas ferramentas trará clientes que pagam de 10 a 50 vezes mais do que portais de cliques!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'plano_30_dias_primeira_renda_online_tiktok',
+        title: '🗓️ Plano de 30 Dias: Primeira Renda Online',
+        content: [
+          'O objetivo é conseguir os primeiros clientes como freelancer e, ao mesmo tempo, usar microtarefas para gerar algum dinheiro enquanto aprende habilidades melhores.',
+          {
+            type: 'steps',
+            title: '📅 Semana 1 – Preparação (Dias 1 a 7)',
+            items: [
+              '• Dia 1: Crie contas em fiverr.com, workana.com, freelancer.com e toloka.ai.',
+              '• Dia 2: Aprenda o básico de Canva, CapCut e ChatGPT.',
+              '• Dia 3: Escolha uma habilidade simples (Edição de vídeos curtos, Criação de posts para redes sociais, Escrita com IA ou Assistente virtual).',
+              '• Dia 4: Crie 5 exemplos de trabalhos reais ou fictícios para seu portfólio.',
+              '• Dia 5: Publique seus serviços profissionais nas plataformas.',
+              '• Dia 6: Faça suas primeiras microtarefas simples no Toloka para ativar sua conta.',
+              '• Dia 7: Estude 1 hora sobre os fundamentos de marketing digital.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 2 – Procurar Clientes (Dias 8 a 14)',
+            items: [
+              '• Todos os dias: Envie pelo menos 10 propostas personalizadas nos sites de freelancer.',
+              '• Todos os dias: Faça pelo menos 30 minutos de microtarefas para gerar micro-faturamento.',
+              '• Todos os dias: Publique 1 vídeo estratégico no TikTok ou Reels.',
+              '• Modelo Pronto de Proposta: "Olá! Posso ajudar com este projeto. Sou dedicado, entrego rápido e estou totalmente disponível para começar hoje mesmo."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 3 – Conseguir o Primeiro Cliente (Dias 15 a 21)',
+            items: [
+              '• Objetivo Principal: Fechar pelo menos 1 trabalho remunerado.',
+              '• Todos os dias: Subir o ritmo e enviar 15 propostas, postar 1 vídeo no TikTok ou mídias e melhorar os detalhes do seu perfil.',
+              '• Serviços muito fáceis de vender: Criação de legendas dinâmicas para vídeos, Geração de posts no Instagram, Edição rápida de Shorts, Digitação de dados ou Pesquisa online.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 4 – Primeira Renda Cadastrada (Dias 22 a 30)',
+            items: [
+              '• Meta de Faturamento: Ganhar e acumular entre US$ 50 e US$ 200 líquidos.',
+              '• Todos os dias: Enviar 20 propostas rápidas, entregar os trabalhos aceitos com agilidade máxima e solicitar avaliações positivas de 5 estrelas.',
+              '• Reinvestimento Prático: Quando ganhar seus primeiros dólares, invista em uma internet melhor, em cursos focados ou em ferramentas que facilitem o seu trabalho.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏱️ Sugestão de Rotina Diária (2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender e praticar uma habilidade nova no computador.',
+              '• 1 Hora: Enviar propostas profissionais de freelancer.',
+              '• 30 Minutos: Realizar microtarefas nos aplicativos ativos.',
+              '• 30 Minutos: Criar conteúdo ou editar publicações simples para suas redes sociais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Áreas que Mais Pagam em 2026',
+            items: [
+              '• Edição profissional de vídeos dinâmicos para TikTok e Reels.',
+              '• Criação de conteúdo estratégico auxiliado por Inteligência Artificial (IA).',
+              '• Gestão e moderação de perfis de redes sociais.',
+              '• Design de criativos e artes promocionais com Canva.',
+              '• Atuação remota como Assistente Virtual.',
+              '• Promoção e vendas com Marketing de Afiliados.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎯 Meta Realista Passo a Passo',
+            items: [
+              '• Primeira semana: focar em aprender as ferramentas.',
+              '• Segunda semana: buscar ativamente novos clientes.',
+              '• Terceira semana: fechar com sucesso seu primeiro trabalho.',
+              '• Quarta semana: receber seu merecido primeiro pagamento.'
+            ]
+          },
+          'O caminho mais rápido para você hoje é aprender MoneyNet + Canva e oferecer edição de vídeos curtos para criadores e pequenas empresas. É uma habilidade extremamente simples de aprender e que tem uma gigantesca demanda global!'
+        ]
+      },
+      {
+        id: 'plano_agressivo_30_dias_tiktok',
+        title: '⚡ Plano Agressivo de 30 Dias: Acelerar Ganhos (US$ 100 - US$ 300)',
+        content: [
+          'Se você quer acelerar drasticamente os seus resultados iniciais, aqui está um plano operacional mais robusto e focado para os próximos 30 dias.',
+          {
+            type: 'info',
+            title: '🎯 O que você vai combinar na estratégia:',
+            items: [
+              '• Atuar como Freelancer ativo com propostas diárias',
+              '• Realizar Microtarefas nas horas improdutivas',
+              '• Começar a criar Conteúdo próprio focado em audiência',
+              '• Promover links úteis por meio do Marketing de Afiliados'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💻 Habilidade nº 1: Edição Prática de Vídeos Curtos',
+            items: [
+              '• O que aprender: Domine cortes dinâmicos, legendas automáticas, efeitos simples e transições rápidas no CapCut.',
+              '• Por que funciona: Criadores de conteúdo e negócios precisam de editores todos os dias para TikTok, Reels e Shorts.',
+              '• Tabela de Serviço Inicial: 5 vídeos editados = US$ 10 a US$ 20 | 10 vídeos editados = US$ 20 a US$ 50'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎨 Habilidade nº 2: Design Visual Express com Canva',
+            items: [
+              '• O que criar: Posts atraentes para redes sociais (Instagram/Facebook), capas marcantes para o YouTube (Thumbnails), panfletos e logos descomplicadas.',
+              '• Tabela de Serviço Inicial: Pacote com 10 posts profissionais = US$ 10 a US$ 30'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '✍️ Habilidade nº 3: Escrita Estratégica com MoneyNet / IA',
+            items: [
+              '• Como utilizar: Escrever roteiros envolventes, postagens para redes, artigos de blog ou formatar ebooks rápidos.',
+              '• Tabela de Serviço Inicial: Pacote com 30 ideias ou legendas profissionais = US$ 10 a US$ 20'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ Divisão Estratégica Diária (3 horas focadas)',
+            items: [
+              '• Manhã (1 Hora): Estudar ativamente e praticar uma habilidade específica (CapCut, Canva ou Ferramentas de IA).',
+              '• Tarde (1 Hora): Enviar ativamente 20 propostas bem-elaboradas em grupos e sites freelancers.',
+              '• Noite (1 Hora): Planejar, legendar e postar conteúdo estratégico nas suas redes sociais (TikTok, Reels).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔗 Onde Encontrar Clientes (Além das Plataformas)',
+            items: [
+              '• linkedin.com - Pesquise por criadores de conteúdo e pequenas empresas que precisam otimizar sua presença online.',
+              '• facebook.com - Faça parte e monitore constantemente os melhores grupos de vagas para freelancers.',
+              '• instagram.com - Use as mensagens diretas (DM) para abordar educadamente os perfis de pequenos negócios e propor as suas primeiras edições de forma experimental.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Nichos de Mercado Altamente Lucrativos',
+            items: [
+              '• Fitness, Saúde e Emagrecimento',
+              '• Motivação Diária e Desenvolvimento Pessoal',
+              '• Finanças Pessoais, Investimentos e Renda Extra',
+              '• Tecnologia da Informação, Inteligência Artificial e Produtividade',
+              '• Negócios Digitais e Empreendedorismo de Sucesso'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎬 Meta Diária de Publicação de Conteúdo',
+            items: [
+              '• TikTok: Publicar de 2 a 3 vídeos rápidos por dia.',
+              '• Reels (Instagram/FB): 2 vídeos curtos por dia.',
+              '• Shorts (YouTube): Pelo menos 1 vídeo vertical curto por dia.',
+              '• Temas Propostos: Frases com forte impacto emocional, mentalidade de sucesso, ferramentas fáceis de IA e dicas de monetização.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 Objetivo dos Primeiros 90 Dias',
+            items: [
+              '• Mês 1: Alcançar seus primeiros faturamentos de US$ 50 a US$ 300.',
+              '• Mês 2: Estabelecer recorrência física e atingir US$ 200 a US$ 600.',
+              '• Mês 3: Escalar seu networking, aumentar preços e bater US$ 500 a US$ 1.000+ mensais.'
+            ]
+          },
+          'Lembre-se: O passo mais importante é focar em uma habilidade principal. Uma excelente recomendação inicial é a edição de vídeos no CapCut, que permite aprendizado rápido e possui uma incessante demanda global por novos profissionais!'
+        ]
+      },
+      {
+        id: 'plano_90_dias_primeiros_1000_tiktok',
+        title: '🏁 Plano de 90 Dias: Rumo aos Primeiros US$ 1.000 Online',
+        content: [
+          'Se você tem uma visão de médio prazo e deseja construir uma renda digital sólida e escalável, siga este cronograma estratégico passo a passo estruturado em 3 fases de 30 dias:',
+          {
+            type: 'steps',
+            title: '📅 Fase 1 – Aprender e Preparar (Dias 1–30)',
+            items: [
+              '• Objetivo Principal: Ganhar seus primeiros US$ 10 a US$ 100 on-line.',
+              '• O que aprender: Edição profissional no CapCut, design criativo no Canva, e criação estratégica de roteiros/conteúdo usando MoneyNet ou ChatGPT.',
+              '• Onde cadastrar: Crie perfis completos e profissionais em fiverr.com, workana.com e freelancer.com.',
+              '• Produção de Portfólio Inicial: Edite 10 vídeos modelo, monte 10 posts premium para Instagram e elabore 5 capas de destaque para YouTube.',
+              '• Rotina Diária: Reserve 1 hora inteira para aprender, envie de forma consistente 20 propostas personalizadas para potenciais clientes e dedique 30 minutos a microtarefas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 2 – Melhorar Abordagem e Conseguir Clientes (Dias 31–60)',
+            items: [
+              '• Objetivo Principal: Atingir um faturamento progressivo de US$ 100 a US$ 500.',
+              '• Serviços de Inicialização: Oferte edição focada para canais do TikTok, Shorts para YouTube, posts gráficos comerciais e scripts rápidos criados com auxílio de Inteligência Artificial.',
+              '• Foco Operacional Diário: Enviar pelo menos 30 propostas ativas, realizar 2 horas de trabalho prático dedicado a clientes reais e manter presença constante publicando conteúdo original nas suas próprias redes.',
+              '• Modelo Otimizado de Oferta: "Olá! Posso editar seus vídeos curtos com legendas totalmente dinâmicas, cortes ritmados profissionais e o formato ideal de alta retenção para plataformas como TikTok, Reels e Shorts."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 3 – Upsell, Retenção e Escala (Dias 61–90)',
+            items: [
+              '• Objetivo Principal: Alcançar e ultrapassar a meta de faturamento acumulado de US$ 500 a US$ 1.000.',
+              '• Como Aumentar os Preços: Se você começou cobrando US$ 10 por serviço básico, eleve de forma segura os preços para US$ 20 e depois para US$ 30 à medida que obtém avaliações de prestígio.',
+              '• Criação de Pacotes Mensais: Oferte kits recorrentes compostos de 10 a 20 edições de vídeo por mês ou a gestão mensal e estratégica de todo o ecossistema de conteúdo.',
+              '• Prospecção Externa Inteligente: Busque ativamente marcas e criadores no linkedin.com, facebook.com e instagram.com.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ O Roteiro Diário de Trabalho (Em média de 2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender de forma refinada uma nova competência tecnológica.',
+              '• 1 Hora: Desenvolver novos itens para seu portfólio físico ou produzir para clientes ativos.',
+              '• 1 Hora: Prospectar criadores de conteúdo e enviar propostas robustas.',
+              '• 30 Minutos: Realizar microtarefas diárias para manter o motor financeiro básico ativo.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Habilidades mais Lucrativas para Iniciantes em 2026',
+            items: [
+              '• Edição dinâmica de vídeos verticais.',
+              '• Design de criativos e pacotes visuais rápidos com Canva.',
+              '• Gestão, agendamento de posts e moderação de comunidades sociais.',
+              '• Geração inteligente de copywriting e conteúdo estratégico com IA.',
+              '• Assistência Administrativa e Comercial Remota.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💵 Projeção de Meta Financeira Saudável',
+            items: [
+              '• Primeiro mês: US$ 50 a US$ 100 líquidos.',
+              '• Segundo mês: US$ 100 a US$ 300 consolidados.',
+              '• Terceiro mês: US$ 300 a US$ 1.000+ com base de clientes fiéis.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🔥 Seu Desafio de Ação Imediata para Hoje!',
+            items: [
+              '• 1. Criar sua conta profissional no Fiverr e no Workana.',
+              '• 2. Instalar gratuitamente o app oficial do CapCut e do Canva.',
+              '• 3. Editar e legendar hoje mesmo o seu primeiríssimo vídeo de modelo técnico.',
+              '• 4. Elaborar e direcionar as suas primeiras 10 propostas ativas nos grupos de freelancers.'
+            ]
+          },
+          'Mantenha o foco absoluto e a persistência profissional diária por 90 dias consecutivos. Essa dedicação é a chave inabalável para conseguir clientes recorrentes de nível internacional e construir uma sólida fonte de renda digital sustentável!'
+        ]
+      },
+      {
+        id: 'modelagem_conteudo_estrategico_tiktok',
+        title: '🗂️ Modelagem de Conteúdo Estratégico',
+        content: [
+          'Modelagem de Conteúdo é o processo inteligente de planejar e organizar todo o material que você vai criar antes de apertar o botão de publicar. Em vez de postar aleatoriamente, você desenha uma estratégia clara:',
+          {
+            type: 'info',
+            title: '🎯 Pilares de Definição',
+            items: [
+              '• O tema do conteúdo: Qual assunto principal será abordado.',
+              '• O público que deseja atingir: Quem é a pessoa ideal que vai consumir.',
+              '• O formato ideal: Seleção refinada entre vídeo vertical, imagem, carrossel, texto, ebook ou minicurso.',
+              '• O objetivo principal da postagem: Viralizar para atrair, educar para gerar confiança, ganhar seguidores qualificados ou gerar vendas diretas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 Exemplo de Modelagem para Canal de Alta Performance',
+            items: [
+              '• Nicho Selecionado: Motivação de sucesso, autodisciplina e desenvolvimento pessoal.',
+              '• Pilares Principais de Conteúdo:',
+              '  - Frases e áudios motivacionais de impacto.',
+              '  - Histórias reais de superação e biografias de sucesso.',
+              '  - Hábitos produtivos, mentalidade empreendedora e rotina de disciplina diária.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Calendário Semanal Prático de Postagens',
+            items: [
+              '• Segunda-feira: Frase inspiradora ou gancho forte de início de semana.',
+              '• Terça-feira: Biografia rápida de um empreendedor de grande notoriedade.',
+              '• Quarta-feira: Dica prática de autodisciplina ou combate à procrastinação.',
+              '• Quinta-feira: Análise de mentalidade e geração de riqueza.',
+              '• Sexta-feira: Rápido roteiro focado em negócios inovadores.',
+              '• Sábado: Desafio interativo ou pergunta estimulante para os seguidores.',
+              '• Domingo: Resumo dos aprendizados da semana e objetivos futuros.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📖 Exemplo Estruturado para Promoção de Ebook',
+            items: [
+              '• Tema Principal: Como estruturar e viver de renda online do zero.',
+              '• Estrutura Recomendada: Introdução motivadora ➜ Capítulos dedicados a Freelancing, Microtarefas e Afiliação ➜ Roteiro de ação prático em 30 dias ➜ Conclusão inspiradora.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔑 Por que a Modelagem de Conteúdo é Vital?',
+            items: [
+              '• Proporciona velocidade incomparável de gravação e design semanal.',
+              '• Mantém a consistência inabalável exigida pelos algoritmos das redes sociais.',
+              '• Conecta e atrai o público altamente qualificado para as suas recomendações.',
+              '• Multiplica as taxas de conversão de infoprodutos digitais de forma orgânica.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌟 Os 3 Pilares Recomendados para Máxima Renda:',
+            items: [
+              '• 1. Motivação Dinâmica (Captação): Atrai, retém e viraliza para novos perfis.',
+              '• 2. Dicas e Práticas Reais (Confiança): Constrói autoridade indiscutível no nicho.',
+              '• 3. Oportunidades Claras de Monetização (Vendas): Converte seus seguidores engajados em faturamento real.'
+            ]
+          },
+          'Ao aplicar este modelo estratégico em sua rotina técnica, cada vídeo ou publicação terá uma função milimetricamente desenhada e focada em resultados dentro do seu projeto digital!'
+        ]
+      },
+      {
         id: 'starter_kit_tiktok',
         title: '🧰 Kit de Início Completo (Seu Começo Prático)',
         content: [
@@ -689,11 +1295,11 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
           ] },
           { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
-            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'No começo: de 5 USD a 20 USD por trabalho simples ou pequenas tarefas.',
             'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
           ] },
           { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
-            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Local: Carteiras digitais locais, Pix ou transferência direta para sua conta bancária.',
             'Internacional: payoneer.com ou paypal.com.'
           ] },
           { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
@@ -2041,6 +2647,201 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '• Poste fielmente todos os dias seguindo a frequência recomendada.'
           ] }
         ]
+      },
+      {
+        id: 'infoproduto_vs_microsaas_tiktok',
+        title: '💡 Infoproduto vs Micro SaaS: Qual dá mais dinheiro todo mês?',
+        content: [
+          'Esta é uma das maiores dúvidas de quem deseja empreender online hoje. Entenda a diferença crucial entre esses dois caminhos:',
+          {
+            type: 'info',
+            title: '1. Infoproduto',
+            items: [
+              'O que é: Um produto digital de conhecimento ou auxílio que você cria uma vez e vende infinitas vezes.',
+              'Exemplos: Ebooks, cursos online, mentorias, planilhas organizadas, templates e guias em PDF.',
+              '✅ Vantagens: Baixo custo para começar, pode criar sozinho, lucro alto (até 90%+) e escala global imediata.',
+              '❌ Desvantagens: Precisa gerar tráfego e vendas constantemente. Se parar de divulgar, as vendas tendem a cair.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '2. Micro SaaS',
+            items: [
+              'O que é: Um software simples que resolve um problema específico e cobra assinatura mensal.',
+              'Exemplos: Ferramenta para criar legendas para TikTok, gerador de conteúdo com IA, sistema para agendamento de clientes, ferramenta de design.',
+              '✅ Vantagens: Receita recorrente todo mês, cliente pode pagar durante anos e negócio mais escalável.',
+              '❌ Desvantagens: Mais difícil de criar, pode precisar de programador ou IA para desenvolver, exige suporte e manutenção.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💸 Qual faz dinheiro todo mês?',
+            items: [
+              '• Micro SaaS normalmente gera renda mais previsível porque os clientes pagam assinatura mensal. Exemplo: 100 clientes × 10 USD por mês = 1.000 USD todos os meses.',
+              '• Já o infoproduto depende de novas vendas. Exemplo: Ebook de 20 USD. Este mês vende 100 cópias = 2.000 USD. Próximo mês pode vender 10 ou 200.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🚀 O que eu faria começando do zero?',
+            items: [
+              '1. Criar um infoproduto simples (ebook ou curso).',
+              '2. Crescer no TikTok de forma consistente para construir audiência.',
+              '3. Ganhar as primeiras vendas com a audiência orgânica.',
+              '4. Reinvestir o dinheiro ganho para turbinar o negócio.',
+              '5. Depois criar um Micro SaaS usando Inteligência Artificial.',
+              '💡 Conclusão: Hoje, para quem está começando sem capital, o infoproduto costuma ser o caminho mais rápido para fazer as primeiras vendas online.',
+              '🔥 Estratégia forte para 2026: TikTok → Audiência → Ebook → Curso → Micro SaaS → Assinaturas mensais (combinando vendas rápidas com renda recorrente no futuro).'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'estrategia_construir_renda_recorrente_tiktok',
+        title: '🎯 Plano de Ação: Construindo Renda Recorrente do Zero',
+        content: [
+          'Se o seu objetivo é construir uma renda online que possa crescer de forma previsível e consistente todos os meses, este é o melhor caminho estruturado para você seguir:',
+          {
+            type: 'steps',
+            title: 'Fase 1: Fazer o primeiro dinheiro (0 a 3 meses)',
+            items: [
+              '• Crie um ebook simples sobre um tema de alta demanda (como Ganhar dinheiro online, Marketing de afiliados, TikTok para iniciantes, Motivação & Disciplina, ou aplicações de Inteligência Artificial).',
+              '• Preço sugerido: De 5 a 15 USD (acessível para facilitar a conversão rápida).',
+              '• Venda através de plataformas consolidadas de pagamento como Hotmart (hotmart.com) ou Kiwify (kiwify.com.br).'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 2: Crescer no TikTok (Todos os dias)',
+            items: [
+              '• Publique de 3 a 5 vídeos por dia de forma consistente (Frases motivacionais, Dicas de dinheiro, Curiosidades ou tutoriais de IA).',
+              '• Exemplo de Gancho 1: "Ninguém te contou isso sobre ganhar dinheiro online..."',
+              '• Exemplo de Gancho 2: "Se eu começasse do zero hoje, faria isso..."',
+              '• Exemplo de Gancho 3: "O erro que faz 90% das pessoas continuarem pobres..."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 3: Criar uma lista de contatos direta',
+            items: [
+              '• Peça para o público entrar em um grupo ou canal focado no WhatsApp (whatsapp.com) ou Telegram (telegram.org).',
+              '• Benefício fundamental: Assim você garante privacidade, audiência própria e não fica 100% dependente do algoritmo do TikTok para ofertar no futuro.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 4: Criar mais produtos (Diversificação de Esteira)',
+            items: [
+              '• Depois do ebook, expanda suas soluções de conhecimento.',
+              '• Desenvolva uma esteira progressiva: Curso Básico → Curso Avançado → Mentoria Exclusiva ou Comunidade Paga.',
+              '• Lembre-se: Quanto mais opções úteis você disponibilizar, maior será o faturamento por cliente.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 5: Criar um Micro SaaS (Receita Previsível)',
+            items: [
+              '• Desenvolva um software utilitário simples resolvendo uma dor de nicho e cobrando uma mensalidade barata (5, 10 ou 20 USD por mês).',
+              '• Ideias simples: Gerador de legendas para vídeos com IA, gerador de roteiros, criador automático de ebooks, gerador de posts para redes sociais ou ferramenta de citações inspiradoras.',
+              '• O Poder dos Números: Com apenas 200 clientes ativos pagando 10 USD por mês, você garante 2.000 USD recorrentes mensais.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📅 Plano Diário Recomendado',
+            items: [
+              '✅ 1 hora estudando marketing digital para se manter atualizado.',
+              '✅ 2 horas criando conteúdo engajador e consistente para as redes.',
+              '✅ 1 hora divulgando seus produtos e otimizando canais.',
+              '✅ 30 minutos adicionais aprendendo novas tecnologias e IAs.',
+              '✅ Publicar religiosamente pelo menos 3 vídeos de alta qualidade por dia.'
+            ]
+          },
+          'O segredo é simples e poderoso: Criar conteúdo educativo e inspirador, capturar e reter a audiência, oferecer produtos complementares de extremo valor e repetir o processo. Mantenha isso com foco por 6 a 12 meses e veja os resultados reais se multiplicarem!'
+        ]
+      },
+      {
+        id: 'niveis_construcao_negocio_digital_tiktok',
+        title: '📈 Do Zero ao Topo: Níveis de Faturamento e Plano Semanal',
+        content: [
+          'Se você quer construir algo grande na internet, pense em etapas progressivas de faturamento. Dividir seu crescimento em níveis claros afasta a ansiedade e direciona as suas ações diárias:',
+          {
+            type: 'steps',
+            title: 'Nível 1 – Primeiros 100 USD (Aprender a Vender)',
+            items: [
+              '• Objetivo Principal: Entender a mecânica básica de atração orgânica e vendas online.',
+              '• Ação Prática: Criar um ebook extremamente direto, resolvendo uma dor pontual do seu público.',
+              '• Tráfego: Publicar vídeos de alto engajamento no TikTok diariamente para construir visibilidade.',
+              '• Mecanismo de Venda: Cadastrar o produto e colocar o link estratégico diretamente na biografia do perfil.',
+              '• Fundamento: Estudar e aplicar copywriting (a arte de escrever textos que geram ação de compra).',
+              '• Grande Meta: Romper a inércia e fazer a sua primeira venda online.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Nível 2 – Primeiros 1.000 USD (Criar Audiência)',
+            items: [
+              '• Objetivo Principal: Estabelecer uma tribo engajada ao redor do seu tema.',
+              '• Frequência de Postagem: Incrementar de 3 a 5 vídeos dinâmicos por dia para acelerar o alcance.',
+              '• Retenção de Contatos: Criar uma lista própria ou canal fechado no WhatsApp (whatsapp.com) ou Telegram (telegram.org).',
+              '• Diversificação: Promover seu ebook e indicar ferramentas úteis do mercado atuando como afiliado.',
+              '• Grande Meta: Atrair de 100 a 500 novos seguidores segmentados por semana e fixar um fluxo de vendas recorrente.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Nível 3 – Primeiros 5.000 USD (Criar uma Marca Forte)',
+            items: [
+              '• Objetivo Principal: Elevar o perfil para o nível de autoridade reconhecida no mercado.',
+              '• Branding Profissional: Definir nome comercial, logo próprio e padrão visual coeso de postagens.',
+              '• Elevação da Esteira: Desenvolver o seu próprio curso online com videoaulas passo a passo.',
+              '• Distribuição Multi-Plataforma: Replicar conteúdos inteligentes em múltiplos ecossistemas relevantes.',
+              '• Automatização Ágil: Criar e otimizar criativos e roteiros utilizando ferramentas de IA como chatgpt.com, canva.com e capcut.com.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Nichos que continuam Fortes em 2026',
+            items: [
+              '• Dinheiro Online, Renda Extra e Finanças Pessoais',
+              '• Inteligência Artificial e Produtividade com Ferramentas Tecnológicas',
+              '• Saúde Física, Mental, Fitness e Emagrecimento Saudável',
+              '• Desenvolvimento Pessoal, Autodisciplina e Mentalidade Vencedora',
+              '• Carreiras de Negócios Digitais, Copywriting e Marketing de Atração'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎬 Fórmula Pronta do Vídeo Viral',
+            items: [
+              '• GANCHO PODEROSO (Primeiros 3 segundos): Deter a atenção imediatamente ("Se eu tivesse que começar do zero hoje, faria isto...").',
+              '• CONTEÚDO VALIOSO (15 a 30 segundos): Explicar de forma extremamente clara e dinâmica uma dica útil aplicável na prática.',
+              '• CHAMADA PARA AÇÃO (CTA): Direcionar o espectador ("Comente \'GUIA\' aqui embaixo que eu te envio todas as dicas e ferramentas").'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ Exemplo de Negócio Digital Integrado',
+            items: [
+              '• A jornada estruturada para a máxima produtividade: TikTok ➜ Audiência Orgânica ➜ Ebook (10 USD) ➜ Curso de Entrada (50 USD) ➜ Comunidade Mensal Exclusiva (10 USD/mês) ➜ Micro SaaS Útil (15 USD/mês).',
+              '• Ter uma esteira escalável faz você faturar muito mais sem depender unicamente de uma única oferta.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Roteiro Semanal: O que fazer nos próximos 7 dias',
+            items: [
+              '• Dia 1: Criar uma conta comercial otimizada no TikTok focada puramente em negócios, mentoria ou dinheiro online.',
+              '• Dia 2: Roteirizar e gravar de uma vez só um lote inicial de 10 vídeos simples de alta conversão.',
+              '• Dia 3: Produzir um ebook rico de 10 a 20 páginas reunindo as melhores soluções práticas para o seu nicho.',
+              '• Dia 4: Registrar e cadastrar o seu infoproduto (ebook) em uma plataforma segura de pagamentos.',
+              '• Dia 5: Publicar os primeiros vídeos gravados e inserir o link da sua página de vendas na biografia.',
+              '• Dia 6: Monitorar com atenção as métricas oficiais para decodificar quais temas e formatos viralizaram mais rápido.',
+              '• Dia 7: Aperfeiçoar a comunicação, focar nos ganchos de sucesso e multiplicar a postagem daquilo que funcionou!'
+            ]
+          },
+          'Lembre-se sempre: A maioria das pessoas falha porque busca atalhos, hacks milagrosos ou desiste nos primeiros dias. Quem posta valor real de forma contínua por meses colhe frutos inacreditáveis e edifica uma sólida estrutura de faturamento digital.'
+        ]
       }
     ]
   },
@@ -2535,6 +3336,148 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'plano_crescer_rapido_meta',
+        title: '📈 Plano para Crescer Rápido no Instagram/Facebook (Meta)',
+        content: [
+          'Para crescer rapidamente nas redes de vídeos curtos, a velocidade de aprendizado e o volume de conteúdo de alta qualidade são os fatores mais cruciais.',
+          {
+            type: 'list',
+            title: '📅 Grade de Conteúdo Diária Recomendada',
+            items: [
+              '• 3 vídeos motivacionais de alto impacto (Ganchos fortes + legendas dinâmicas)',
+              '• 2 vídeos com dicas práticas de como ganhar dinheiro online (Passo a passo, facilidade com ferramentas)',
+              '• 1 vídeo contando uma história inspiradora, de superação ou curiosidade global'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🛠️ Rotina e Boas Práticas Diárias',
+            items: [
+              '1. Conexão com Público: Responda ativamente a todos os novos comentários para gerar reciprocidade e engajamento.',
+              '2. Sons e Trends: Use sempre músicas e áudios que estejam em tendência para surfar no algoritmo.',
+              '3. Postagem Estratégica: Publique nos horários de maior audiência acumulada (geralmente de manhã, tarde e noite).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 A Grande Meta do Mês',
+            items: [
+              '• Publicar e testar 180 vídeos em apenas 30 dias!',
+              '• Quanto mais conteúdo de real valor você publicar e testar de forma sistemática, mais velozmente descobrirá o que o seu público realmente adora assistir, elevando de forma incrível as chances de viralizar e explodir seus resultados.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'como_viralizar_primeiro_video_meta',
+        title: '🔥 Como Fazer o seu Primeiro Vídeo Viralizar',
+        content: [
+          'O seu primeiro vídeo pode sim viralizar, mas o seu foco absoluto deve ser desenhar um conteúdo estratégico capaz de reter a atenção das pessoas até o final.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Prática de um Vídeo Viral (15 a 20 segundos)',
+            items: [
+              '• 0 a 3 segundos (O Gancho): "Se você está vendo este vídeo, pode ser exatamente o sinal que você precisava para mudar a sua vida de vez."',
+              '• 3 a 12 segundos (O Desenvolvimento): "Há um ano eu não sabia absolutamente nada sobre como ganhar dinheiro online. A maioria das pessoas infelizmente desiste cedo demais. Quem continua aprendendo todos os dias acaba encontrando oportunidades que os outros nunca enxergam."',
+              '• 12 a 20 segundos (A Chamada): "Salve este vídeo agora e siga a página. Daqui a exatos 30 dias você pode estar me agradecendo profundamente por ter começado hoje mesmo."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '✅ Segredos e Diretrizes Recomendadas',
+            items: [
+              '• Grave tudo em formato vertical (proporção 9:16).',
+              '• Utilize legendas diárias e atraentes centralizadas na tela.',
+              '• Coloque músicas populares do momento em volume ambiente muito baixo.',
+              '• Faça cortes rápidos mudando a imagem/estímulo visual a cada 2 ou 3 segundos.',
+              '• Publique com uma descrição curta direto ao ponto. Exemplo: "Um dia ou dia um. A escolha é totalmente sua. 🧠"'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💡 Ideia de Vídeo Simples Sem Precisar Aparecer',
+            items: [
+              '• Use trechos elegantes de banco de imagens ou vídeos com: Pessoas trabalhando focadas no computador, paisagens urbanas à noite, carros esportivos luxuosos, paisagens naturais bonitas ou pessoas treinando pesado na academia.',
+              '• Deixe uma voz robótica sincronizada de IA ler o roteiro com alta qualidade.',
+              '• Prompt ideal para voz em IA: "Leia este roteiro com uma voz masculina encorpada, emocional, inspiradora e confiante, como se fosse um mentor motivacional sênior."'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🏷️ Hashtags Estratégicas Recomendadas',
+            items: [
+              '#motivacao | #viral | #fyp | #parati | #mindset | #sucesso | #dinheiroonline'
+            ]
+          },
+          'O fator crucial e mais importante: publique o seu primeiro vídeo ainda hoje! Muitos criadores passam semanas planejando nos mínimos detalhes e nunca chegam a postar nada. Lembre-se: o algoritmo só começará a decodificar o seu perfil depois que você publicar sistematicamente e observar de perto o que gera mais retenção, comentários e compartilhamentos.'
+        ]
+      },
+      {
+        id: 'roteiros_prontos_viral_meta',
+        title: '🎬 10 Roteiros Prontos para Gravar Hoje',
+        content: [
+          'Preparamos 10 roteiros de 15 a 20 segundos divididos estrategicamente em Gancho, Mensagem e Chamada de Ação, prontos para você narrar ou usar voz de IA!',
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 1 (1 a 5)',
+            items: [
+              '📹 Vídeo 1 — Comece Agora:\n• 🪝 Gancho: "Daqui a 6 meses você vai desejar ter começado hoje."\n• 💬 Mensagem: "O tempo vai passar de qualquer forma. A diferença é que algumas pessoas vão usar esse tempo para construir algo e outras vão continuar esperando."\n• 🏁 Final: "Comente EU VOU e siga para mais motivação."',
+              '📹 Vídeo 2 — Mentalidade:\n• 🪝 Gancho: "O sucesso deixa pistas."\n• 💬 Mensagem: "As pessoas que vencem não são as mais inteligentes. São as que continuam quando os outros desistem."\n• 🏁 Final: "Salve este vídeo para lembrar disso todos os dias."',
+              '📹 Vídeo 3 — Dinheiro:\n• 🪝 Gancho: "A escola ensinou você a ganhar dinheiro?"\n• 💬 Mensagem: "Muitas pessoas passam anos estudando, mas nunca aprendem como criar renda pela internet."\n• 🏁 Final: "Siga a página para aprender mais."',
+              '📹 Vídeo 4 — Disciplina:\n• 🪝 Gancho: "Motivação acaba. Disciplina fica."\n• 💬 Mensagem: "Nos dias difíceis, a disciplina é o que separa quem cresce de quem para."\n• 🏁 Final: "Comente DISCIPLINA se você concorda."',
+              '📹 Vídeo 5 — Sonhos:\n• 🪝 Gancho: "O seu sonho merece uma chance."\n• 💬 Mensagem: "Não abandone seus objetivos só porque eles demoram para acontecer."\n• 🏁 Final: "Marque alguém que precisa ouvir isso."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 2 (6 a 10)',
+            items: [
+              '📹 Vídeo 6 — Trabalho Online:\n• 🪝 Gancho: "Tudo o que você precisa para começar é um celular."\n• 💬 Mensagem: "Hoje existem pessoas ganhando dinheiro criando conteúdo, vendendo produtos digitais e trabalhando remotamente."\n• 🏁 Final: "Siga para aprender passo a passo."',
+              '📹 Vídeo 7 — Persistência:\n• 🪝 Gancho: "O seu segredo não é começar."\n• 💬 Mensagem: "O segredo é continuar quando ninguém acredita em você."\n• 🏁 Final: "Salve este vídeo."',
+              '📹 Vídeo 8 — Mudança de Vida:\n• 🪝 Gancho: "Uma decisão pode mudar tudo."\n• 💬 Mensagem: "A vida que você quer começa quando você decide agir."\n• 🏁 Final: "Comente MUDANÇA."',
+              '📹 Vídeo 9 — Foco:\n• 🪝 Gancho: "Pare de procurar atalhos."\n• 💬 Mensagem: "O sucesso é feito de pequenas ações repetidas todos os dias."\n• 🏁 Final: "Compartilhe com um amigo."',
+              '📹 Vídeo 10 — Futuro:\n• 🪝 Gancho: "Seu eu do futuro está observando você."\n• 💬 Mensagem: "As escolhas de hoje determinam onde você estará daqui a um ano."\n• 🏁 Final: "Siga a página para crescer todos os dias."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📅 Calendário Editorial de Conteúdo (Próximos 7 Dias)',
+            items: [
+              '• Dia 1: Motivação de alto impacto',
+              '• Dia 2: Disciplina inabalável',
+              '• Dia 3: Dinheiro online',
+              '• Dia 4: Mentalidade de sucesso',
+              '• Dia 5: Histórias inspiradoras',
+              '• Dia 6: Hábitos vencedores',
+              '• Dia 7: Desafio de 30 dias'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🏷️ Nomes de Impacto Sugeridos para sua Página',
+            items: [
+              '• Império da Disciplina',
+              '• Mentalidade Milionária',
+              '• Evolução Diária',
+              '• Sigma Vision',
+              '• Futuro Bilionário'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📝 Bio Pronta e Altamente Magnética',
+            items: [
+              'Copie e cole em seu perfil:',
+              '🚀 Motivação diária',
+              '💰 Dinheiro online',
+              '🧠 Mentalidade de sucesso',
+              '📈 Evolua 1% todos os dias'
+            ]
+          },
+          'Recomendação de Ouro: Publique pelo menos 3 vídeos por dia durante o período de 30 dias. Um único vídeo viral pode trazer milhares de seguidores, mas a consistência é o que aumenta suas chances de chegar lá.'
+        ]
+      },
+      {
         id: 'start_from_zero_meta',
         title: '🏁 Começar do Zero (Guia de Início)',
         content: [
@@ -2569,7 +3512,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
             'Montar um plano simples para você começar do zero (use nosso chat!)',
-            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Indicar trabalhos online de alta demanda em qualquer lugar do mundo',
             'Ajudar você a aprender usando apenas o celular',
             'Mostrar formas reais de ganhar os primeiros clientes'
           ] }
@@ -2600,7 +3543,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
           ] },
           { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
-            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'De início, use formatos fáceis e acessíveis do seu país: carteiras digitais, transferência bancária direta ou Pix.',
             'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
           ] },
           { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
@@ -2609,7 +3552,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
             'Pesquise por: "Canva para iniciantes"',
-            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Como ganhar dinheiro online sendo iniciante"',
             'Pesquise por: "Freelancer para iniciantes"'
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
@@ -2685,6 +3628,436 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'guia_freelancer_renda_extra_meta',
+        title: '💼 Guia Freelancer: Melhores Sites e Plano de Renda Extra',
+        content: [
+          'Se você quer fazer uma renda extra pela internet como freelancer, preste atenção: estes sistemas são um pouco mais concorridos para um iniciante absoluto na internet, mas são, sem dúvida, alguns dos melhores e mais seguros sites do mundo para começar:',
+          {
+            type: 'info',
+            title: '🌐 Os Melhores Sites para Começar',
+            items: [
+              '1. fiverr.com - Você cria um serviço (Gig) e clientes do mundo todo contratam você diretamente para: Design, Edição de Vídeo, Tradução, Redação, Marketing Digital, Edição de fotos.',
+              '2. upwork.com - Uma das maiores plataformas de freelancers do mundo. Projetos nas áreas de: Assistente virtual, Programação, Marketing, Atendimento ao cliente, Entrada de dados.',
+              '3. freelancer.com - Ideal para iniciantes. Projetos variados de: Digitação, Design, Tradução, Redações, Gestão de redes sociais, Criação de conteúdo.',
+              '4. peopleperhour.com - Muito usado por empresas da Europa para contratar freelancers para tarefas diversas.',
+              '5. workana.com - Popular em países de língua portuguesa e espanhola. Tem projetos de: Marketing digital, Redação, Design, Assistência virtual.',
+              '6. 99freelas.com.br - Excelente para quem fala português. Há muitos trabalhos fáceis para iniciantes.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💡 Se você não tem experiência inicial, comece oferecendo:',
+            items: [
+              '• Criação e curadoria de conteúdo dinâmico para o TikTok e Reels.',
+              '• Edição ágil de vídeos curtos utilizando o aplicativo CapCut.',
+              '• Criação de artes, banners e imagens profissionais com Inteligência Artificial.',
+              '• Gestão, agendamento e postagens em páginas do Instagram e Facebook.',
+              '• Transcrição precisa de áudio/vídeo para texto escrito.',
+              '• Atuação como assistente virtual administrativo simples.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🏆 Plano para ganhar os primeiros US$ 100 Online',
+            items: [
+              '• Semana 1: Criar suas contas profissionais no Fiverr (fiverr.com) e Workana (workana.com). Configure um perfil atraente e publique seus primeiros 3 serviços especializados.',
+              '• Semana 2: Dedique-se a enviar pelo menos 10 propostas personalizadas por dia. Monte um portfólio simples mostrando seus melhores testes práticos.',
+              '• Semana 3: Foque em conquistar os seus primeiros clientes, entregue com excelência máxima e solicite avaliações de 5 estrelas.',
+              '• Semana 4: Comece a aumentar seus preços de forma escalonada e direcione sua prospecção para atrair clientes internacionais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📈 Áreas que mais crescem para iniciantes',
+            items: [
+              '• Inteligência Artificial (IA) e criação de conteúdo estratégico.',
+              '• Edição profissional de vídeos curtos em formato vertical.',
+              '• Gestão de mídias e redes sociais de marcas e criadores.',
+              '• Marketing de afiliados e coprodução especializada.',
+              '• Criação, formatação e comercialização direta de infoprodutos úteis.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'tarefas_microtarefas_iniciantes_meta',
+        title: '🛠️ Tarefas Simples e Pequenos Ganhos Sem Experiência',
+        content: [
+          'Se você quer começar sem experiência, existem sites legítimos na internet onde você pode realizar tarefas simples e ganhar algum dinheiro real enquanto estuda e desenvolve habilidades melhores para o futuro:',
+          {
+            type: 'info',
+            title: '📋 Pesquisas e Microtarefas',
+            items: [
+              '• toloka.ai - Realize tarefas simples no dia a dia como verificar imagens, textos, classificação de dados e pesquisas rápidas. Aceita usuários de muitos países de forma global.',
+              '• clickworker.com - Pequenas tarefas de digitação, categorização inteligente de dados e pesquisas simples.',
+              '• remotasks.com - Trabalhos práticos e flexíveis de anotação de dados para Inteligência Artificial (a disponibilidade varia por país).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📱 Teste de Sites e Aplicativos (User Testing)',
+            items: [
+              '• usertesting.com - Você testa novos portais e aplicativos dando sua opinião falada sobre a facilidade de navegação. Geralmente exige apenas um microfone simples e internet.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🗣️ Ensino e Ajuda Online',
+            items: [
+              '• cambly.com - Conversação guiada em inglês de forma flexível. Normalmente é mais indicado para quem já tem uma boa habilidade de fala e comunicação em inglês.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🛠️ Trabalhos Básicos e Microtarefas',
+            items: [
+              '• sproutgigs.com - Microtarefas diárias, divulgação básica, compartilhamento social e pequenos trabalhos online.',
+              '• microworkers.com - Plataforma de pequenas tarefas automatizadas que não requerem experiência profissional prévia.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⚠️ Atenção Importante antes de Começar',
+            items: [
+              '• Muitos sites prometem ganhos fáceis, mas pagam muito pouco pelo seu valioso tempo de dedicação.',
+              '• Utilize essas plataformas no seu início de jornada para ganhar seus primeiros dólares e cobrir custos básicos de conexão.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 O Caminho Inteligente: Habilidades de Alto Retorno',
+            items: [
+              '• Para aumentar significativamente os seus retornos financeiros, use o seu tempo livre restante para dominar habilidades simples de alta rentabilidade que trazem muito mais resultados:',
+              '• Edição de vídeos verticais de alta retenção no app CapCut',
+              '• Criação estratégica de conteúdo para plataformas digitais (TikTok, Reels, etc.)',
+              '• Design de ponta e artes promocionais com Canva',
+              '• Atuação flexível como assistente virtual administrativo ou comercial',
+              '• Dominar essas ferramentas trará clientes que pagam de 10 a 50 vezes mais do que portais de cliques!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'plano_30_dias_primeira_renda_online_meta',
+        title: '🗓️ Plano de 30 Dias: Primeira Renda Online',
+        content: [
+          'O objetivo é conseguir os primeiros clientes como freelancer e, ao mesmo tempo, usar microtarefas para gerar algum dinheiro enquanto aprende habilidades melhores.',
+          {
+            type: 'steps',
+            title: '📅 Semana 1 – Preparação (Dias 1 a 7)',
+            items: [
+              '• Dia 1: Crie contas em fiverr.com, workana.com, freelancer.com e toloka.ai.',
+              '• Dia 2: Aprenda o básico de Canva, CapCut e ChatGPT.',
+              '• Dia 3: Escolha uma habilidade simples (Edição de vídeos curtos, Criação de posts para redes sociais, Escrita com IA ou Assistente virtual).',
+              '• Dia 4: Crie 5 exemplos de trabalhos reais ou fictícios para seu portfólio.',
+              '• Dia 5: Publique seus serviços profissionais nas plataformas.',
+              '• Dia 6: Faça suas primeiras microtarefas simples no Toloka para ativar sua conta.',
+              '• Dia 7: Estude 1 hora sobre os fundamentos de marketing digital.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 2 – Procurar Clientes (Dias 8 a 14)',
+            items: [
+              '• Todos os dias: Envie pelo menos 10 propostas personalizadas nos sites de freelancer.',
+              '• Todos os dias: Faça pelo menos 30 minutos de microtarefas para gerar micro-faturamento.',
+              '• Todos os dias: Publique 1 vídeo estratégico no TikTok ou Reels.',
+              '• Modelo Pronto de Proposta: "Olá! Posso ajudar com este projeto. Sou dedicado, entrego rápido e estou totalmente disponível para começar hoje mesmo."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 3 – Conseguir o Primeiro Cliente (Dias 15 a 21)',
+            items: [
+              '• Objetivo Principal: Fechar pelo menos 1 trabalho remunerado.',
+              '• Todos os dias: Subir o ritmo e enviar 15 propostas, postar 1 vídeo no TikTok ou mídias e melhorar os detalhes do seu perfil.',
+              '• Serviços muito fáceis de vender: Criação de legendas dinâmicas para vídeos, Geração de posts no Instagram, Edição rápida de Shorts, Digitação de dados ou Pesquisa online.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 4 – Primeira Renda Cadastrada (Dias 22 a 30)',
+            items: [
+              '• Meta de Faturamento: Ganhar e acumular entre US$ 50 e US$ 200 líquidos.',
+              '• Todos os dias: Enviar 20 propostas rápidas, entregar os trabalhos aceitos com agilidade máxima e solicitar avaliações positivas de 5 estrelas.',
+              '• Reinvestimento Prático: Quando ganhar seus primeiros dólares, invista em uma internet melhor, em cursos focados ou em ferramentas que facilitem o seu trabalho.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏱️ Sugestão de Rotina Diária (2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender e praticar uma habilidade nova no computador.',
+              '• 1 Hora: Enviar propostas profissionais de freelancer.',
+              '• 30 Minutos: Realizar microtarefas nos aplicativos ativos.',
+              '• 30 Minutos: Criar conteúdo ou editar publicações simples para suas redes sociais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Áreas que Mais Pagam em 2026',
+            items: [
+              '• Edição profissional de vídeos dinâmicos para TikTok e Reels.',
+              '• Criação de conteúdo estratégico auxiliado por Inteligência Artificial (IA).',
+              '• Gestão e moderação de perfis de redes sociais.',
+              '• Design de criativos e artes promocionais com Canva.',
+              '• Atuação remota como Assistente Virtual.',
+              '• Promoção e vendas com Marketing de Afiliados.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎯 Meta Realista Passo a Passo',
+            items: [
+              '• Primeira semana: focar em aprender as ferramentas.',
+              '• Segunda semana: buscar ativamente novos clientes.',
+              '• Terceira semana: fechar com sucesso seu primeiro trabalho.',
+              '• Quarta semana: receber seu merecido primeiro pagamento.'
+            ]
+          },
+          'O caminho mais rápido para você hoje é aprender MoneyNet + Canva e oferecer edição de vídeos curtos para criadores e pequenas empresas. É uma habilidade extremamente simples de aprender e que tem uma gigantesca demanda global!'
+        ]
+      },
+      {
+        id: 'plano_agressivo_30_dias_meta',
+        title: '⚡ Plano Agressivo de 30 Dias: Acelerar Ganhos (US$ 100 - US$ 300)',
+        content: [
+          'Se você quer acelerar drasticamente os seus resultados iniciais, aqui está um plano operacional mais robusto e focado para os próximos 30 dias.',
+          {
+            type: 'info',
+            title: '🎯 O que você vai combinar na estratégia:',
+            items: [
+              '• Atuar como Freelancer ativo com propostas diárias',
+              '• Realizar Microtarefas nas horas improdutivas',
+              '• Começar a criar Conteúdo próprio focado em audiência',
+              '• Promover links úteis por meio do Marketing de Afiliados'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💻 Habilidade nº 1: Edição Prática de Vídeos Curtos',
+            items: [
+              '• O que aprender: Domine cortes dinâmicos, legendas automáticas, efeitos simples e transições rápidas no CapCut.',
+              '• Por que funciona: Criadores de conteúdo e negócios precisam de editores todos os dias para TikTok, Reels e Shorts.',
+              '• Tabela de Serviço Inicial: 5 vídeos editados = US$ 10 a US$ 20 | 10 vídeos editados = US$ 20 a US$ 50'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎨 Habilidade nº 2: Design Visual Express com Canva',
+            items: [
+              '• O que criar: Posts atraentes para redes sociais (Instagram/Facebook), capas marcantes para o YouTube (Thumbnails), panfletos e logos descomplicadas.',
+              '• Tabela de Serviço Inicial: Pacote com 10 posts profissionais = US$ 10 a US$ 30'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '✍️ Habilidade nº 3: Escrita Estratégica com MoneyNet / IA',
+            items: [
+              '• Como utilizar: Escrever roteiros envolventes, postagens para redes, artigos de blog ou formatar ebooks rápidos.',
+              '• Tabela de Serviço Inicial: Pacote com 30 ideias ou legendas profissionais = US$ 10 a US$ 20'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ Divisão Estratégica Diária (3 horas focadas)',
+            items: [
+              '• Manhã (1 Hora): Estudar ativamente e praticar uma habilidade específica (CapCut, Canva ou Ferramentas de IA).',
+              '• Tarde (1 Hora): Enviar ativamente 20 propostas bem-elaboradas em grupos e sites freelancers.',
+              '• Noite (1 Hora): Planejar, legendar e postar conteúdo estratégico nas suas redes sociais (TikTok, Reels).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔗 Onde Encontrar Clientes (Além das Plataformas)',
+            items: [
+              '• linkedin.com - Pesquise por criadores de conteúdo e pequenas empresas que precisam otimizar sua presença online.',
+              '• facebook.com - Faça parte e monitore constantemente os melhores grupos de vagas para freelancers.',
+              '• instagram.com - Use as mensagens diretas (DM) para abordar educadamente os perfis de pequenos negócios e propor as suas primeiras edições de forma experimental.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Nichos de Mercado Altamente Lucrativos',
+            items: [
+              '• Fitness, Saúde e Emagrecimento',
+              '• Motivação Diária e Desenvolvimento Pessoal',
+              '• Finanças Pessoais, Investimentos e Renda Extra',
+              '• Tecnologia da Informação, Inteligência Artificial e Produtividade',
+              '• Negócios Digitais e Empreendedorismo de Sucesso'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎬 Meta Diária de Publicação de Conteúdo',
+            items: [
+              '• TikTok: Publicar de 2 a 3 vídeos rápidos por dia.',
+              '• Reels (Instagram/FB): 2 vídeos curtos por dia.',
+              '• Shorts (YouTube): Pelo menos 1 vídeo vertical curto por dia.',
+              '• Temas Propostos: Frases com forte impacto emocional, mentalidade de sucesso, ferramentas fáceis de IA e dicas de monetização.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 Objetivo dos Primeiros 90 Dias',
+            items: [
+              '• Mês 1: Alcançar seus primeiros faturamentos de US$ 50 a US$ 300.',
+              '• Mês 2: Estabelecer recorrência física e atingir US$ 200 a US$ 600.',
+              '• Mês 3: Escalar seu networking, aumentar preços e bater US$ 500 a US$ 1.000+ mensais.'
+            ]
+          },
+          'Lembre-se: O passo mais importante é focar em uma habilidade principal. Uma excelente recomendação inicial é a edição de vídeos no CapCut, que permite aprendizado rápido e possui uma incessante demanda global por novos profissionais!'
+        ]
+      },
+      {
+        id: 'plano_90_dias_primeiros_1000_meta',
+        title: '🏁 Plano de 90 Dias: Rumo aos Primeiros US$ 1.000 Online',
+        content: [
+          'Se você tem uma visão de médio prazo e deseja construir uma renda digital sólida e escalável, siga este cronograma estratégico passo a passo estruturado em 3 fases de 30 dias:',
+          {
+            type: 'steps',
+            title: '📅 Fase 1 – Aprender e Preparar (Dias 1–30)',
+            items: [
+              '• Objetivo Principal: Ganhar seus primeiros US$ 10 a US$ 100 on-line.',
+              '• O que aprender: Edição profissional no CapCut, design criativo no Canva, e criação estratégica de roteiros/conteúdo usando MoneyNet ou ChatGPT.',
+              '• Onde cadastrar: Crie perfis completos e profissionais em fiverr.com, workana.com e freelancer.com.',
+              '• Produção de Portfólio Inicial: Edite 10 vídeos modelo, monte 10 posts premium para Instagram e elabore 5 capas de destaque para YouTube.',
+              '• Rotina Diária: Reserve 1 hora inteira para aprender, envie de forma consistente 20 propostas personalizadas para potenciais clientes e dedique 30 minutos a microtarefas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 2 – Melhorar Abordagem e Conseguir Clientes (Dias 31–60)',
+            items: [
+              '• Objetivo Principal: Atingir um faturamento progressivo de US$ 100 a US$ 500.',
+              '• Serviços de Inicialização: Oferte edição focada para canais do TikTok, Shorts para YouTube, posts gráficos comerciais e scripts rápidos criados com auxílio de Inteligência Artificial.',
+              '• Foco Operacional Diário: Enviar pelo menos 30 propostas ativas, realizar 2 horas de trabalho prático dedicado a clientes reais e manter presença constante publicando conteúdo original nas suas próprias redes.',
+              '• Modelo Otimizado de Oferta: "Olá! Posso editar seus vídeos curtos com legendas totalmente dinâmicas, cortes ritmados profissionais e o formato ideal de alta retenção para plataformas como TikTok, Reels e Shorts."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 3 – Upsell, Retenção e Escala (Dias 61–90)',
+            items: [
+              '• Objetivo Principal: Alcançar e ultrapassar a meta de faturamento acumulado de US$ 500 a US$ 1.000.',
+              '• Como Aumentar os Preços: Se você começou cobrando US$ 10 por serviço básico, eleve de forma segura os preços para US$ 20 e depois para US$ 30 à medida que obtém avaliações de prestígio.',
+              '• Criação de Pacotes Mensais: Oferte kits recorrentes compostos de 10 a 20 edições de vídeo por mês ou a gestão mensal e estratégica de todo o ecossistema de conteúdo.',
+              '• Prospecção Externa Inteligente: Busque ativamente marcas e criadores no linkedin.com, facebook.com e instagram.com.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ O Roteiro Diário de Trabalho (Em média de 2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender de forma refinada uma nova competência tecnológica.',
+              '• 1 Hora: Desenvolver novos itens para seu portfólio físico ou produzir para clientes ativos.',
+              '• 1 Hora: Prospectar criadores de conteúdo e enviar propostas robustas.',
+              '• 30 Minutos: Realizar microtarefas diárias para manter o motor financeiro básico ativo.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Habilidades mais Lucrativas para Iniciantes em 2026',
+            items: [
+              '• Edição dinâmica de vídeos verticais.',
+              '• Design de criativos e pacotes visuais rápidos com Canva.',
+              '• Gestão, agendamento de posts e moderação de comunidades sociais.',
+              '• Geração inteligente de copywriting e conteúdo estratégico com IA.',
+              '• Assistência Administrativa e Comercial Remota.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💵 Projeção de Meta Financeira Saudável',
+            items: [
+              '• Primeiro mês: US$ 50 a US$ 100 líquidos.',
+              '• Segundo mês: US$ 100 a US$ 300 consolidados.',
+              '• Terceiro mês: US$ 300 a US$ 1.000+ com base de clientes fiéis.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🔥 Seu Desafio de Ação Imediata para Hoje!',
+            items: [
+              '• 1. Criar sua conta profissional no Fiverr e no Workana.',
+              '• 2. Instalar gratuitamente o app oficial do CapCut e do Canva.',
+              '• 3. Editar e legendar hoje mesmo o seu primeiríssimo vídeo de modelo técnico.',
+              '• 4. Elaborar e direcionar as suas primeiras 10 propostas ativas nos grupos de freelancers.'
+            ]
+          },
+          'Mantenha o foco absoluto e a persistência profissional diária por 90 dias consecutivos. Essa dedicação é a chave inabalável para conseguir clientes recorrentes de nível internacional e construir uma sólida fonte de renda digital sustentável!'
+        ]
+      },
+      {
+        id: 'modelagem_conteudo_estrategico_meta',
+        title: '🗂️ Modelagem de Conteúdo Estratégico',
+        content: [
+          'Modelagem de Conteúdo é o processo inteligente de planejar e organizar todo o material que você vai criar antes de apertar o botão de publicar. Em vez de postar aleatoriamente, você desenha uma estratégia clara:',
+          {
+            type: 'info',
+            title: '🎯 Pilares de Definição',
+            items: [
+              '• O tema do conteúdo: Qual assunto principal será abordado.',
+              '• O público que deseja atingir: Quem é a pessoa ideal que vai consumir.',
+              '• O formato ideal: Seleção refinada entre vídeo vertical, imagem, carrossel, texto, ebook ou minicurso.',
+              '• O objetivo principal da postagem: Viralizar para atrair, educar para gerar confiança, ganhar seguidores qualificados ou gerar vendas diretas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 Exemplo de Modelagem para Canal de Alta Performance',
+            items: [
+              '• Nicho Selecionado: Motivação de sucesso, autodisciplina e desenvolvimento pessoal.',
+              '• Pilares Principais de Conteúdo:',
+              '  - Frases e áudios motivacionais de impacto.',
+              '  - Histórias reais de superação e biografias de sucesso.',
+              '  - Hábitos produtivos, mentalidade empreendedora e rotina de disciplina diária.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Calendário Semanal Prático de Postagens',
+            items: [
+              '• Segunda-feira: Frase inspiradora ou gancho forte de início de semana.',
+              '• Terça-feira: Biografia rápida de um empreendedor de grande notoriedade.',
+              '• Quarta-feira: Dica prática de autodisciplina ou combate à procrastinação.',
+              '• Quinta-feira: Análise de mentalidade e geração de riqueza.',
+              '• Sexta-feira: Rápido roteiro focado em negócios inovadores.',
+              '• Sábado: Desafio interativo ou pergunta estimulante para os seguidores.',
+              '• Domingo: Resumo dos aprendizados da semana e objetivos futuros.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📖 Exemplo Estruturado para Promoção de Ebook',
+            items: [
+              '• Tema Principal: Como estruturar e viver de renda online do zero.',
+              '• Estrutura Recomendada: Introdução motivadora ➜ Capítulos dedicados a Freelancing, Microtarefas e Afiliação ➜ Roteiro de ação prático em 30 dias ➜ Conclusão inspiradora.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔑 Por que a Modelagem de Conteúdo é Vital?',
+            items: [
+              '• Proporciona velocidade incomparável de gravação e design semanal.',
+              '• Mantém a consistência inabalável exigida pelos algoritmos das redes sociais.',
+              '• Conecta e atrai o público altamente qualificado para as suas recomendações.',
+              '• Multiplica as taxas de conversão de infoprodutos digitais de forma orgânica.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌟 Os 3 Pilares Recomendados para Máxima Renda:',
+            items: [
+              '• 1. Motivação Dinâmica (Captação): Atrai, retém e viraliza para novos perfis.',
+              '• 2. Dicas e Práticas Reais (Confiança): Constrói autoridade indiscutível no nicho.',
+              '• 3. Oportunidades Claras de Monetização (Vendas): Converte seus seguidores engajados em faturamento real.'
+            ]
+          },
+          'Ao aplicar este modelo estratégico em sua rotina técnica, cada vídeo ou publicação terá uma função milimetricamente desenhada e focada em resultados dentro do seu projeto digital!'
+        ]
+      },
+      {
         id: 'starter_kit_meta',
         title: '🧰 Kit de Início Completo (Seu Começo Prático)',
         content: [
@@ -2715,11 +4088,11 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
           ] },
           { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
-            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'No começo: de 5 USD a 20 USD por trabalho simples ou pequenas tarefas.',
             'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
           ] },
           { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
-            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Local: Carteiras digitais locais, Pix ou transferência direta para sua conta bancária.',
             'Internacional: payoneer.com ou paypal.com.'
           ] },
           { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
@@ -4525,6 +5898,191 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'mito_viral_youtube',
+        title: '🛑 O Mito de "Dizer ao Algoritmo que Quero Viralizar"',
+        content: [
+          'Não caia na conversa de quem diz que existe uma frase mágica ou tag secreta para falar para o YouTube ou Shorts que você deseja viralizar. Isso é um grande mito! O algoritmo não funciona por pedidos diretos, mas sim analisando de forma fria e matemática o comportamento real do público: retenção, tempo de exibição, taxa de clique (CTR), comentários, compartilhamentos, curtidas e inscrições.',
+          'O que você realmente pode e deve fazer é criar conteúdos intencionais estruturados para elevar o engajamento e a retenção do início ao fim.',
+          {
+            type: 'steps',
+            title: '⚡ Fórmula Prática e Simples para Viralizar no YouTube Shorts',
+            items: [
+              '1. Gancho irresistível nos primeiros 3 segundos: Prenda a atenção imediata. Exemplos: "Ninguém acredita nisso...", "Se eu soubesse disso antes...", "Você está cometendo este erro clássico...", "Veja isso até o final se quiser mudar...".',
+              '2. Vídeo curto e dinâmico: Mantenha a duração entre 10 e 30 segundos nos Shorts para turbinar a retenção. Isso facilita que o usuário assista o vídeo completo mais de uma vez.',
+              '3. Gere curiosidade genuína: Evite entregar o ponto alto do vídeo logo no início. Estimule a pessoa a desejar assistir até o final para desvendar a mensagem.',
+              '4. Peça interação de forma natural (Chamada de Ação): Estimule o engajamento nos comentários de forma interativa. Exemplos: "Concorda? Comenta SIM.", "Qual é a sua opinião sincera?", "Se inscreva no canal e marca aqui quem precisa ver isso agora mesmo."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🤖 Prompt de IA para Criar Roteiros Magnéticos para Vídeos Curtos',
+            items: [
+              'Use o prompt abaixo em seu chat de IA favorito:',
+              '"Crie um roteiro altamente viral para vídeo curto de até 20 segundos para YouTube Shorts focado em retenção. O roteiro precisa conter um gancho impactante nos primeiros 3 segundos, linguagem emocional, frases curtas, curiosidade crescente e uma chamada forte ao final para o usuário se inscrever no canal e comentar sua opinião."'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎬 Exemplo Prático de Vídeo Motivacional Viral',
+            items: [
+              '• Gancho Inicial (0-3s): "Daqui a exatamente 1 ano, você vai desejar ter começado hoje."',
+              '• Desenvolvimento (3-15s): "Enquanto a maioria das pessoas reclama da vida, outros estão trabalhando duro e construindo seu próprio amanhã. Pequenos passos focados e feitos todos os dias mudam completamente o rumo de uma vida inteira."',
+              '• Chamada Final (15-20s): "Você vai começar a agir hoje ou prefere esperar mais um ano? Comente \'EU VOU\' de peito aberto e se inscreva no canal para receber dose diária de inspiração!"'
+            ]
+          },
+          {
+            type: 'list',
+            title: '🏷️ Seleção de Hashtags Úteis e Estratégicas para Shorts',
+            items: [
+              '#shorts | #viral | #fyp | #motivacao | #mindset | #sucesso | #empreendedorismo | #dinheiroonline'
+            ]
+          },
+          'Lembre-se sempre de que o segredo absoluto não é tentar burlar o algoritmo do YouTube Shorts. O verdadeiro caminho consiste em postar com consistência inabalável, testar múltiplos vídeos e analisar os dados de retenção e impressões no YouTube Studio. Quanto mais vídeos de alto valor você publicar, maiores serão as chances matemáticas de um deles explodir!'
+        ]
+      },
+      {
+        id: 'plano_crescer_rapido_youtube',
+        title: '📈 Plano para Crescer Rápido no YouTube',
+        content: [
+          'Para crescer rapidamente nas redes de vídeos curtos, a velocidade de aprendizado e o volume de conteúdo de alta qualidade são os fatores mais cruciais.',
+          {
+            type: 'list',
+            title: '📅 Grade de Conteúdo Diária Recomendada',
+            items: [
+              '• 3 vídeos motivacionais de alto impacto (Ganchos fortes + legendas dinâmicas)',
+              '• 2 vídeos com dicas práticas de como ganhar dinheiro online (Passo a passo, facilidade com ferramentas)',
+              '• 1 vídeo contando uma história inspiradora, de superação ou curiosidade global'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🛠️ Rotina e Boas Práticas Diárias',
+            items: [
+              '1. Conexão com Público: Responda ativamente a todos os novos comentários para gerar reciprocidade e engajamento.',
+              '2. Sons e Trends: Use sempre músicas e áudios que estejam em tendência para surfar no algoritmo.',
+              '3. Postagem Estratégica: Publique nos horários de maior audiência acumulada (geralmente de manhã, tarde e noite).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎯 A Grande Meta do Mês',
+            items: [
+              '• Publicar e testar 180 vídeos em apenas 30 dias!',
+              '• Quanto mais conteúdo de real valor você publicar e testar de forma sistemática, mais velozmente descobrirá o que o seu público realmente adora assistir, elevando de forma incrível as chances de viralizar e explodir seus resultados.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'como_viralizar_primeiro_video_youtube',
+        title: '🔥 Como Fazer o seu Primeiro Vídeo Viralizar',
+        content: [
+          'O seu primeiro vídeo pode sim viralizar, mas o seu foco absoluto deve ser desenhar um conteúdo estratégico capaz de reter a atenção das pessoas até o final.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Prática de um Vídeo Viral (15 a 20 segundos)',
+            items: [
+              '• 0 a 3 segundos (O Gancho): "Se você está vendo este vídeo, pode ser exatamente o sinal que você precisava para mudar a sua vida de vez."',
+              '• 3 a 12 segundos (O Desenvolvimento): "Há um ano eu não sabia absolutamente nada sobre como ganhar dinheiro online. A maioria das pessoas infelizmente desiste cedo demais. Quem continua aprendendo todos os dias acaba encontrando oportunidades que os outros nunca enxergam."',
+              '• 12 a 20 segundos (A Chamada): "Salve este vídeo agora e siga a página. Daqui a exatos 30 dias você pode estar me agradecendo profundamente por ter começado hoje mesmo."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '✅ Segredos e Diretrizes Recomendadas',
+            items: [
+              '• Grave tudo em formato vertical (proporção 9:16).',
+              '• Utilize legendas diárias e atraentes centralizadas na tela.',
+              '• Coloque músicas populares do momento em volume ambiente muito baixo.',
+              '• Faça cortes rápidos mudando a imagem/estímulo visual a cada 2 ou 3 segundos.',
+              '• Publique com uma descrição curta direto ao ponto. Exemplo: "Um dia ou dia um. A escolha é totalmente sua. 🧠"'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💡 Ideia de Vídeo Simples Sem Precisar Aparecer',
+            items: [
+              '• Use trechos elegantes de banco de imagens ou vídeos com: Pessoas trabalhando focadas no computador, paisagens urbanas à noite, carros esportivos luxuosos, paisagens naturais bonitas ou pessoas treinando pesado na academia.',
+              '• Deixe uma voz robótica sincronizada de IA ler o roteiro com alta qualidade.',
+              '• Prompt ideal para voz em IA: "Leia este roteiro com uma voz masculina encorpada, emocional, inspiradora e confiante, como se fosse um mentor motivacional sênior."'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🏷️ Hashtags Estratégicas Recomendadas',
+            items: [
+              '#motivacao | #viral | #fyp | #parati | #mindset | #sucesso | #dinheiroonline'
+            ]
+          },
+          'O fator crucial e mais importante: publique o seu primeiro vídeo ainda hoje! Muitos criadores passam semanas planejando nos mínimos detalhes e nunca chegam a postar nada. Lembre-se: o algoritmo só começará a decodificar o seu perfil depois que você publicar sistematicamente e observar de perto o que gera mais retenção, comentários e compartilhamentos.'
+        ]
+      },
+      {
+        id: 'roteiros_prontos_viral_youtube',
+        title: '🎬 10 Roteiros Prontos para Gravar Hoje',
+        content: [
+          'Preparamos 10 roteiros de 15 a 20 segundos divididos estrategicamente em Gancho, Mensagem e Chamada de Ação, prontos para você narrar ou usar voz de IA!',
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 1 (1 a 5)',
+            items: [
+              '📹 Vídeo 1 — Comece Agora:\n• 🪝 Gancho: "Daqui a 6 meses você vai desejar ter começado hoje."\n• 💬 Mensagem: "O tempo vai passar de qualquer forma. A diferença é que algumas pessoas vão usar esse tempo para construir algo e outras vão continuar esperando."\n• 🏁 Final: "Comente EU VOU e siga para mais motivação."',
+              '📹 Vídeo 2 — Mentalidade:\n• 🪝 Gancho: "O sucesso deixa pistas."\n• 💬 Mensagem: "As pessoas que vencem não são as mais inteligentes. São as que continuam quando os outros desistem."\n• 🏁 Final: "Salve este vídeo para lembrar disso todos os dias."',
+              '📹 Vídeo 3 — Dinheiro:\n• 🪝 Gancho: "A escola ensinou você a ganhar dinheiro?"\n• 💬 Mensagem: "Muitas pessoas passam anos estudando, mas nunca aprendem como criar renda pela internet."\n• 🏁 Final: "Siga a página para aprender mais."',
+              '📹 Vídeo 4 — Disciplina:\n• 🪝 Gancho: "Motivação acaba. Disciplina fica."\n• 💬 Mensagem: "Nos dias difíceis, a disciplina é o que separa quem cresce de quem para."\n• 🏁 Final: "Comente DISCIPLINA se você concorda."',
+              '📹 Vídeo 5 — Sonhos:\n• 🪝 Gancho: "O seu sonho merece uma chance."\n• 💬 Mensagem: "Não abandone seus objetivos só porque eles demoram para acontecer."\n• 🏁 Final: "Marque alguém que precisa ouvir isso."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 2 (6 a 10)',
+            items: [
+              '📹 Vídeo 6 — Trabalho Online:\n• 🪝 Gancho: "Tudo o que você precisa para começar é um celular."\n• 💬 Mensagem: "Hoje existem pessoas ganhando dinheiro criando conteúdo, vendendo produtos digitais e trabalhando remotamente."\n• 🏁 Final: "Siga para aprender passo a passo."',
+              '📹 Vídeo 7 — Persistência:\n• 🪝 Gancho: "O seu segredo não é começar."\n• 💬 Mensagem: "O segredo é continuar quando ninguém acredita em você."\n• 🏁 Final: "Salve este vídeo."',
+              '📹 Vídeo 8 — Mudança de Vida:\n• 🪝 Gancho: "Uma decisão pode mudar tudo."\n• 💬 Mensagem: "A vida que você quer começa quando você decide agir."\n• 🏁 Final: "Comente MUDANÇA."',
+              '📹 Vídeo 9 — Foco:\n• 🪝 Gancho: "Pare de procurar atalhos."\n• 💬 Mensagem: "O sucesso é feito de pequenas ações repetidas todos os dias."\n• 🏁 Final: "Compartilhe com um amigo."',
+              '📹 Vídeo 10 — Futuro:\n• 🪝 Gancho: "Seu eu do futuro está observando você."\n• 💬 Mensagem: "As escolhas de hoje determinam onde você estará daqui a um ano."\n• 🏁 Final: "Siga a página para crescer todos os dias."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📅 Calendário Editorial de Conteúdo (Próximos 7 Dias)',
+            items: [
+              '• Dia 1: Motivação de alto impacto',
+              '• Dia 2: Disciplina inabalável',
+              '• Dia 3: Dinheiro online',
+              '• Dia 4: Mentalidade de sucesso',
+              '• Dia 5: Histórias inspiradoras',
+              '• Dia 6: Hábitos vencedores',
+              '• Dia 7: Desafio de 30 dias'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🏷️ Nomes de Impacto Sugeridos para sua Página',
+            items: [
+              '• Império da Disciplina',
+              '• Mentalidade Milionária',
+              '• Evolução Diária',
+              '• Sigma Vision',
+              '• Futuro Bilionário'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📝 Bio Pronta e Altamente Magnética',
+            items: [
+              'Copie e cole em seu perfil:',
+              '🚀 Motivação diária',
+              '💰 Dinheiro online',
+              '🧠 Mentalidade de sucesso',
+              '📈 Evolua 1% todos os dias'
+            ]
+          },
+          'Recomendação de Ouro: Publique pelo menos 3 vídeos por dia durante o período de 30 dias. Um único vídeo viral pode trazer milhares de seguidores, mas a consistência é o que aumenta suas chances de chegar lá.'
+        ]
+      },
+      {
         id: 'start_from_zero_youtube',
         title: '🏁 Começar do Zero (Guia de Início)',
         content: [
@@ -4559,7 +6117,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
             'Montar um plano simples para você começar do zero (use nosso chat!)',
-            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Indicar trabalhos online de alta demanda em qualquer lugar do mundo',
             'Ajudar você a aprender usando apenas o celular',
             'Mostrar formas reais de ganhar os primeiros clientes'
           ] }
@@ -4590,7 +6148,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
           ] },
           { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
-            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'De início, use formatos fáceis e acessíveis do seu país: carteiras digitais, transferência bancária direta ou Pix.',
             'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
           ] },
           { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
@@ -4599,7 +6157,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
             'Pesquise por: "Canva para iniciantes"',
-            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Como ganhar dinheiro online sendo iniciante"',
             'Pesquise por: "Freelancer para iniciantes"'
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
@@ -4675,6 +6233,436 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'guia_freelancer_renda_extra_youtube',
+        title: '💼 Guia Freelancer: Melhores Sites e Plano de Renda Extra',
+        content: [
+          'Se você quer fazer uma renda extra pela internet como freelancer, preste atenção: estes sistemas são um pouco mais concorridos para um iniciante absoluto na internet, mas são, sem dúvida, alguns dos melhores e mais seguros sites do mundo para começar:',
+          {
+            type: 'info',
+            title: '🌐 Os Melhores Sites para Começar',
+            items: [
+              '1. fiverr.com - Você cria um serviço (Gig) e clientes do mundo todo contratam você diretamente para: Design, Edição de Vídeo, Tradução, Redação, Marketing Digital, Edição de fotos.',
+              '2. upwork.com - Uma das maiores plataformas de freelancers do mundo. Projetos nas áreas de: Assistente virtual, Programação, Marketing, Atendimento ao cliente, Entrada de dados.',
+              '3. freelancer.com - Ideal para iniciantes. Projetos variados de: Digitação, Design, Tradução, Redações, Gestão de redes sociais, Criação de conteúdo.',
+              '4. peopleperhour.com - Muito usado por empresas da Europa para contratar freelancers para tarefas diversas.',
+              '5. workana.com - Popular em países de língua portuguesa e espanhola. Tem projetos de: Marketing digital, Redação, Design, Assistência virtual.',
+              '6. 99freelas.com.br - Excelente para quem fala português. Há muitos trabalhos fáceis para iniciantes.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💡 Se você não tem experiência inicial, comece oferecendo:',
+            items: [
+              '• Criação e curadoria de conteúdo dinâmico para plataformas de vídeo.',
+              '• Edição ágil de vídeos curtos utilizando o aplicativo CapCut.',
+              '• Criação de artes, miniaturas (thumbnails) e imagens profissionais com Inteligência Artificial.',
+              '• Gestão, agendamento e postagens em canais e mídias sociais.',
+              '• Transcrição precisa de áudio/vídeo para texto de roteiros.',
+              '• Atuação como assistente virtual administrativo simples.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🏆 Plano para ganhar os primeiros US$ 100 Online',
+            items: [
+              '• Semana 1: Criar suas contas profissionais no Fiverr (fiverr.com) e Workana (workana.com). Configure um perfil atraente e publique seus primeiros 3 serviços especializados.',
+              '• Semana 2: Dedique-se a enviar pelo menos 10 propostas personalizadas por dia. Monte um portfólio simples mostrando seus melhores testes práticos.',
+              '• Semana 3: Foque em conquistar os seus primeiros clientes, entregue com excelência máxima e solicite avaliações de 5 estrelas.',
+              '• Semana 4: Comece a aumentar seus preços de forma escalonada e direcione sua prospecção para atrair clientes internacionais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📈 Áreas que mais crescem para iniciantes',
+            items: [
+              '• Inteligência Artificial (IA) e criação de conteúdo estratégico.',
+              '• Edição profissional de vídeos curtos em formato vertical.',
+              '• Gestão de mídias e redes sociais de marcas e criadores.',
+              '• Marketing de afiliados e coprodução especializada.',
+              '• Criação, formatação e comercialização direta de infoprodutos úteis.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'tarefas_microtarefas_iniciantes_youtube',
+        title: '🛠️ Tarefas Simples e Pequenos Ganhos Sem Experiência',
+        content: [
+          'Se você quer começar sem experiência, existem sites legítimos na internet onde você pode realizar tarefas simples e ganhar algum dinheiro real enquanto estuda e desenvolve habilidades melhores para o futuro:',
+          {
+            type: 'info',
+            title: '📋 Pesquisas e Microtarefas',
+            items: [
+              '• toloka.ai - Realize tarefas simples no dia a dia como verificar imagens, textos, classificação de dados e pesquisas rápidas. Aceita usuários de muitos países de forma global.',
+              '• clickworker.com - Pequenas tarefas de digitação, categorização inteligente de dados e pesquisas simples.',
+              '• remotasks.com - Trabalhos práticos e flexíveis de anotação de dados para Inteligência Artificial (a disponibilidade varia por país).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📱 Teste de Sites e Aplicativos (User Testing)',
+            items: [
+              '• usertesting.com - Você testa novos portais e aplicativos dando sua opinião falada sobre a facilidade de navegação. Geralmente exige apenas um microfone simples e internet.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🗣️ Ensino e Ajuda Online',
+            items: [
+              '• cambly.com - Conversação guiada em inglês de forma flexível. Normalmente é mais indicado para quem já tem uma boa habilidade de fala e comunicação em inglês.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🛠️ Trabalhos Básicos e Microtarefas',
+            items: [
+              '• sproutgigs.com - Microtarefas diárias, divulgação básica, compartilhamento social e pequenos trabalhos online.',
+              '• microworkers.com - Plataforma de pequenas tarefas automatizadas que não requerem experiência profissional prévia.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⚠️ Atenção Importante antes de Começar',
+            items: [
+              '• Muitos sites prometem ganhos fáceis, mas pagam muito pouco pelo seu valioso tempo de dedicação.',
+              '• Utilize essas plataformas no seu início de jornada para ganhar seus primeiros dólares e cobrir custos básicos de conexão.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 O Caminho Inteligente: Habilidades de Alto Retorno',
+            items: [
+              '• Para aumentar significativamente os seus retornos financeiros, use o seu tempo livre restante para dominar habilidades simples de alta rentabilidade que trazem muito mais resultados:',
+              '• Edição de vídeos verticais de alta retenção no app CapCut',
+              '• Criação estratégica de conteúdo para plataformas digitais (TikTok, Reels, etc.)',
+              '• Design de ponta e artes promocionais com Canva',
+              '• Atuação flexível como assistente virtual administrativo ou comercial',
+              '• Dominar essas ferramentas trará clientes que pagam de 10 a 50 vezes mais do que portais de cliques!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'plano_30_dias_primeira_renda_online_youtube',
+        title: '🗓️ Plano de 30 Dias: Primeira Renda Online',
+        content: [
+          'O objetivo é conseguir os primeiros clientes como freelancer e, ao mesmo tempo, usar microtarefas para gerar algum dinheiro enquanto aprende habilidades melhores.',
+          {
+            type: 'steps',
+            title: '📅 Semana 1 – Preparação (Dias 1 a 7)',
+            items: [
+              '• Dia 1: Crie contas em fiverr.com, workana.com, freelancer.com e toloka.ai.',
+              '• Dia 2: Aprenda o básico de Canva, CapCut e ChatGPT.',
+              '• Dia 3: Escolha uma habilidade simples (Edição de vídeos curtos, Criação de posts para redes sociais, Escrita com IA ou Assistente virtual).',
+              '• Dia 4: Crie 5 exemplos de trabalhos reais ou fictícios para seu portfólio.',
+              '• Dia 5: Publique seus serviços profissionais nas plataformas.',
+              '• Dia 6: Faça suas primeiras microtarefas simples no Toloka para ativar sua conta.',
+              '• Dia 7: Estude 1 hora sobre os fundamentos de marketing digital.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 2 – Procurar Clientes (Dias 8 a 14)',
+            items: [
+              '• Todos os dias: Envie pelo menos 10 propostas personalizadas nos sites de freelancer.',
+              '• Todos os dias: Faça pelo menos 30 minutos de microtarefas para gerar micro-faturamento.',
+              '• Todos os dias: Publique 1 vídeo estratégico no TikTok ou Reels.',
+              '• Modelo Pronto de Proposta: "Olá! Posso ajudar com este projeto. Sou dedicado, entrego rápido e estou totalmente disponível para começar hoje mesmo."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 3 – Conseguir o Primeiro Cliente (Dias 15 a 21)',
+            items: [
+              '• Objetivo Principal: Fechar pelo menos 1 trabalho remunerado.',
+              '• Todos os dias: Subir o ritmo e enviar 15 propostas, postar 1 vídeo no TikTok ou mídias e melhorar os detalhes do seu perfil.',
+              '• Serviços muito fáceis de vender: Criação de legendas dinâmicas para vídeos, Geração de posts no Instagram, Edição rápida de Shorts, Digitação de dados ou Pesquisa online.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 4 – Primeira Renda Cadastrada (Dias 22 a 30)',
+            items: [
+              '• Meta de Faturamento: Ganhar e acumular entre US$ 50 e US$ 200 líquidos.',
+              '• Todos os dias: Enviar 20 propostas rápidas, entregar os trabalhos aceitos com agilidade máxima e solicitar avaliações positivas de 5 estrelas.',
+              '• Reinvestimento Prático: Quando ganhar seus primeiros dólares, invista em uma internet melhor, em cursos focados ou em ferramentas que facilitem o seu trabalho.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏱️ Sugestão de Rotina Diária (2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender e praticar uma habilidade nova no computador.',
+              '• 1 Hora: Enviar propostas profissionais de freelancer.',
+              '• 30 Minutos: Realizar microtarefas nos aplicativos ativos.',
+              '• 30 Minutos: Criar conteúdo ou editar publicações simples para suas redes sociais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Áreas que Mais Pagam em 2026',
+            items: [
+              '• Edição profissional de vídeos dinâmicos para TikTok e Reels.',
+              '• Criação de conteúdo estratégico auxiliado por Inteligência Artificial (IA).',
+              '• Gestão e moderação de perfis de redes sociais.',
+              '• Design de criativos e artes promocionais com Canva.',
+              '• Atuação remota como Assistente Virtual.',
+              '• Promoção e vendas com Marketing de Afiliados.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎯 Meta Realista Passo a Passo',
+            items: [
+              '• Primeira semana: focar em aprender as ferramentas.',
+              '• Segunda semana: buscar ativamente novos clientes.',
+              '• Terceira semana: fechar com sucesso seu primeiro trabalho.',
+              '• Quarta semana: receber seu merecido primeiro pagamento.'
+            ]
+          },
+          'O caminho mais rápido para você hoje é aprender MoneyNet + Canva e oferecer edição de vídeos curtos para criadores e pequenas empresas. É uma habilidade extremamente simples de aprender e que tem uma gigantesca demanda global!'
+        ]
+      },
+      {
+        id: 'plano_agressivo_30_dias_youtube',
+        title: '⚡ Plano Agressivo de 30 Dias: Acelerar Ganhos (US$ 100 - US$ 300)',
+        content: [
+          'Se você quer acelerar drasticamente os seus resultados iniciais, aqui está um plano operacional mais robusto e focado para os próximos 30 dias.',
+          {
+            type: 'info',
+            title: '🎯 O que você vai combinar na estratégia:',
+            items: [
+              '• Atuar como Freelancer ativo com propostas diárias',
+              '• Realizar Microtarefas nas horas improdutivas',
+              '• Começar a criar Conteúdo próprio focado em audiência',
+              '• Promover links úteis por meio do Marketing de Afiliados'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💻 Habilidade nº 1: Edição Prática de Vídeos Curtos',
+            items: [
+              '• O que aprender: Domine cortes dinâmicos, legendas automáticas, efeitos simples e transições rápidas no CapCut.',
+              '• Por que funciona: Criadores de conteúdo e negócios precisam de editores todos os dias para TikTok, Reels e Shorts.',
+              '• Tabela de Serviço Inicial: 5 vídeos editados = US$ 10 a US$ 20 | 10 vídeos editados = US$ 20 a US$ 50'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎨 Habilidade nº 2: Design Visual Express com Canva',
+            items: [
+              '• O que criar: Posts atraentes para redes sociais (Instagram/Facebook), capas marcantes para o YouTube (Thumbnails), panfletos e logos descomplicadas.',
+              '• Tabela de Serviço Inicial: Pacote com 10 posts profissionais = US$ 10 a US$ 30'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '✍️ Habilidade nº 3: Escrita Estratégica com MoneyNet / IA',
+            items: [
+              '• Como utilizar: Escrever roteiros envolventes, postagens para redes, artigos de blog ou formatar ebooks rápidos.',
+              '• Tabela de Serviço Inicial: Pacote com 30 ideias ou legendas profissionais = US$ 10 a US$ 20'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ Divisão Estratégica Diária (3 horas focadas)',
+            items: [
+              '• Manhã (1 Hora): Estudar ativamente e praticar uma habilidade específica (CapCut, Canva ou Ferramentas de IA).',
+              '• Tarde (1 Hora): Enviar ativamente 20 propostas bem-elaboradas em grupos e sites freelancers.',
+              '• Noite (1 Hora): Planejar, legendar e postar conteúdo estratégico nas suas redes sociais (TikTok, Reels).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔗 Onde Encontrar Clientes (Além das Plataformas)',
+            items: [
+              '• linkedin.com - Pesquise por criadores de conteúdo e pequenas empresas que precisam otimizar sua presença online.',
+              '• facebook.com - Faça parte e monitore constantemente os melhores grupos de vagas para freelancers.',
+              '• instagram.com - Use as mensagens diretas (DM) para abordar educadamente os perfis de pequenos negócios e propor as suas primeiras edições de forma experimental.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Nichos de Mercado Altamente Lucrativos',
+            items: [
+              '• Fitness, Saúde e Emagrecimento',
+              '• Motivação Diária e Desenvolvimento Pessoal',
+              '• Finanças Pessoais, Investimentos e Renda Extra',
+              '• Tecnologia da Informação, Inteligência Artificial e Produtividade',
+              '• Negócios Digitais e Empreendedorismo de Sucesso'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎬 Meta Diária de Publicação de Conteúdo',
+            items: [
+              '• TikTok: Publicar de 2 a 3 vídeos rápidos por dia.',
+              '• Reels (Instagram/FB): 2 vídeos curtos por dia.',
+              '• Shorts (YouTube): Pelo menos 1 vídeo vertical curto por dia.',
+              '• Temas Propostos: Frases com forte impacto emocional, mentalidade de sucesso, ferramentas fáceis de IA e dicas de monetização.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 Objetivo dos Primeiros 90 Dias',
+            items: [
+              '• Mês 1: Alcançar seus primeiros faturamentos de US$ 50 a US$ 300.',
+              '• Mês 2: Estabelecer recorrência física e atingir US$ 200 a US$ 600.',
+              '• Mês 3: Escalar seu networking, aumentar preços e bater US$ 500 a US$ 1.000+ mensais.'
+            ]
+          },
+          'Lembre-se: O passo mais importante é focar em uma habilidade principal. Uma excelente recomendação inicial é a edição de vídeos no CapCut, que permite aprendizado rápido e possui uma incessante demanda global por novos profissionais!'
+        ]
+      },
+      {
+        id: 'plano_90_dias_primeiros_1000_youtube',
+        title: '🏁 Plano de 90 Dias: Rumo aos Primeiros US$ 1.000 Online',
+        content: [
+          'Se você tem uma visão de médio prazo e deseja construir uma renda digital sólida e escalável, siga este cronograma estratégico passo a passo estruturado em 3 fases de 30 dias:',
+          {
+            type: 'steps',
+            title: '📅 Fase 1 – Aprender e Preparar (Dias 1–30)',
+            items: [
+              '• Objetivo Principal: Ganhar seus primeiros US$ 10 a US$ 100 on-line.',
+              '• O que aprender: Edição profissional no CapCut, design criativo no Canva, e criação estratégica de roteiros/conteúdo usando MoneyNet ou ChatGPT.',
+              '• Onde cadastrar: Crie perfis completos e profissionais em fiverr.com, workana.com e freelancer.com.',
+              '• Produção de Portfólio Inicial: Edite 10 vídeos modelo, monte 10 posts premium para Instagram e elabore 5 capas de destaque para YouTube.',
+              '• Rotina Diária: Reserve 1 hora inteira para aprender, envie de forma consistente 20 propostas personalizadas para potenciais clientes e dedique 30 minutos a microtarefas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 2 – Melhorar Abordagem e Conseguir Clientes (Dias 31–60)',
+            items: [
+              '• Objetivo Principal: Atingir um faturamento progressivo de US$ 100 a US$ 500.',
+              '• Serviços de Inicialização: Oferte edição focada para canais do TikTok, Shorts para YouTube, posts gráficos comerciais e scripts rápidos criados com auxílio de Inteligência Artificial.',
+              '• Foco Operacional Diário: Enviar pelo menos 30 propostas ativas, realizar 2 horas de trabalho prático dedicado a clientes reais e manter presença constante publicando conteúdo original nas suas próprias redes.',
+              '• Modelo Otimizado de Oferta: "Olá! Posso editar seus vídeos curtos com legendas totalmente dinâmicas, cortes ritmados profissionais e o formato ideal de alta retenção para plataformas como TikTok, Reels e Shorts."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 3 – Upsell, Retenção e Escala (Dias 61–90)',
+            items: [
+              '• Objetivo Principal: Alcançar e ultrapassar a meta de faturamento acumulado de US$ 500 a US$ 1.000.',
+              '• Como Aumentar os Preços: Se você começou cobrando US$ 10 por serviço básico, eleve de forma segura os preços para US$ 20 e depois para US$ 30 à medida que obtém avaliações de prestígio.',
+              '• Criação de Pacotes Mensais: Oferte kits recorrentes compostos de 10 a 20 edições de vídeo por mês ou a gestão mensal e estratégica de todo o ecossistema de conteúdo.',
+              '• Prospecção Externa Inteligente: Busque ativamente marcas e criadores no linkedin.com, facebook.com e instagram.com.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ O Roteiro Diário de Trabalho (Em média de 2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender de forma refinada uma nova competência tecnológica.',
+              '• 1 Hora: Desenvolver novos itens para seu portfólio físico ou produzir para clientes ativos.',
+              '• 1 Hora: Prospectar criadores de conteúdo e enviar propostas robustas.',
+              '• 30 Minutos: Realizar microtarefas diárias para manter o motor financeiro básico ativo.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Habilidades mais Lucrativas para Iniciantes em 2026',
+            items: [
+              '• Edição dinâmica de vídeos verticais.',
+              '• Design de criativos e pacotes visuais rápidos com Canva.',
+              '• Gestão, agendamento de posts e moderação de comunidades sociais.',
+              '• Geração inteligente de copywriting e conteúdo estratégico com IA.',
+              '• Assistência Administrativa e Comercial Remota.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💵 Projeção de Meta Financeira Saudável',
+            items: [
+              '• Primeiro mês: US$ 50 a US$ 100 líquidos.',
+              '• Segundo mês: US$ 100 a US$ 300 consolidados.',
+              '• Terceiro mês: US$ 300 a US$ 1.000+ com base de clientes fiéis.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🔥 Seu Desafio de Ação Imediata para Hoje!',
+            items: [
+              '• 1. Criar sua conta profissional no Fiverr e no Workana.',
+              '• 2. Instalar gratuitamente o app oficial do CapCut e do Canva.',
+              '• 3. Editar e legendar hoje mesmo o seu primeiríssimo vídeo de modelo técnico.',
+              '• 4. Elaborar e direcionar as suas primeiras 10 propostas ativas nos grupos de freelancers.'
+            ]
+          },
+          'Mantenha o foco absoluto e a persistência profissional diária por 90 dias consecutivos. Essa dedicação é a chave inabalável para conseguir clientes recorrentes de nível internacional e construir uma sólida fonte de renda digital sustentável!'
+        ]
+      },
+      {
+        id: 'modelagem_conteudo_estrategico_youtube',
+        title: '🗂️ Modelagem de Conteúdo Estratégico',
+        content: [
+          'Modelagem de Conteúdo é o processo inteligente de planejar e organizar todo o material que você vai criar antes de apertar o botão de publicar. Em vez de postar aleatoriamente, você desenha uma estratégia clara:',
+          {
+            type: 'info',
+            title: '🎯 Pilares de Definição',
+            items: [
+              '• O tema do conteúdo: Qual assunto principal será abordado.',
+              '• O público que deseja atingir: Quem é a pessoa ideal que vai consumir.',
+              '• O formato ideal: Seleção refinada entre vídeo vertical, imagem, carrossel, texto, ebook ou minicurso.',
+              '• O objetivo principal da postagem: Viralizar para atrair, educar para gerar confiança, ganhar seguidores qualificados ou gerar vendas diretas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 Exemplo de Modelagem para Canal de Alta Performance',
+            items: [
+              '• Nicho Selecionado: Motivação de sucesso, autodisciplina e desenvolvimento pessoal.',
+              '• Pilares Principais de Conteúdo:',
+              '  - Frases e áudios motivacionais de impacto.',
+              '  - Histórias reais de superação e biografias de sucesso.',
+              '  - Hábitos produtivos, mentalidade empreendedora e rotina de disciplina diária.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Calendário Semanal Prático de Postagens',
+            items: [
+              '• Segunda-feira: Frase inspiradora ou gancho forte de início de semana.',
+              '• Terça-feira: Biografia rápida de um empreendedor de grande notoriedade.',
+              '• Quarta-feira: Dica prática de autodisciplina ou combate à procrastinação.',
+              '• Quinta-feira: Análise de mentalidade e geração de riqueza.',
+              '• Sexta-feira: Rápido roteiro focado em negócios inovadores.',
+              '• Sábado: Desafio interativo ou pergunta estimulante para os seguidores.',
+              '• Domingo: Resumo dos aprendizados da semana e objetivos futuros.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📖 Exemplo Estruturado para Promoção de Ebook',
+            items: [
+              '• Tema Principal: Como estruturar e viver de renda online do zero.',
+              '• Estrutura Recomendada: Introdução motivadora ➜ Capítulos dedicados a Freelancing, Microtarefas e Afiliação ➜ Roteiro de ação prático em 30 dias ➜ Conclusão inspiradora.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔑 Por que a Modelagem de Conteúdo é Vital?',
+            items: [
+              '• Proporciona velocidade incomparável de gravação e design semanal.',
+              '• Mantém a consistência inabalável exigida pelos algoritmos das redes sociais.',
+              '• Conecta e atrai o público altamente qualificado para as suas recomendações.',
+              '• Multiplica as taxas de conversão de infoprodutos digitais de forma orgânica.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌟 Os 3 Pilares Recomendados para Máxima Renda:',
+            items: [
+              '• 1. Motivação Dinâmica (Captação): Atrai, retém e viraliza para novos perfis.',
+              '• 2. Dicas e Práticas Reais (Confiança): Constrói autoridade indiscutível no nicho.',
+              '• 3. Oportunidades Claras de Monetização (Vendas): Converte seus seguidores engajados em faturamento real.'
+            ]
+          },
+          'Ao aplicar este modelo estratégico em sua rotina técnica, cada vídeo ou publicação terá uma função milimetricamente desenhada e focada em resultados dentro do seu projeto digital!'
+        ]
+      },
+      {
         id: 'starter_kit_youtube',
         title: '🧰 Kit de Início Completo (Seu Começo Prático)',
         content: [
@@ -4705,11 +6693,11 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
           ] },
           { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
-            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'No começo: de 5 USD a 20 USD por trabalho simples ou pequenas tarefas.',
             'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
           ] },
           { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
-            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Local: Carteiras digitais locais, Pix ou transferência direta para sua conta bancária.',
             'Internacional: payoneer.com ou paypal.com.'
           ] },
           { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
@@ -6260,6 +8248,201 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '• Mantenha a frequência ideal de postagens diárias constantes.'
           ] }
         ]
+      },
+      {
+        id: 'infoproduto_vs_microsaas_youtube',
+        title: '💡 Infoproduto vs Micro SaaS: Qual dá mais dinheiro todo mês?',
+        content: [
+          'Esta é uma das maiores dúvidas de quem deseja empreender online hoje e crescer usando o YouTube. Entenda a diferença crucial entre esses dois caminhos:',
+          {
+            type: 'info',
+            title: '1. Infoproduto',
+            items: [
+              'O que é: Um produto digital de conhecimento ou auxílio que você cria uma vez e vende infinitas vezes.',
+              'Exemplos: Ebooks, cursos online, mentorias, planilhas organizadas, templates e guias em PDF.',
+              '✅ Vantagens: Baixo custo para começar, pode criar sozinho, lucro alto (até 90%+) e escala global imediata.',
+              '❌ Desvantagens: Precisa gerar tráfego e vendas constantemente. Se parar de divulgar, as vendas tendem a cair.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '2. Micro SaaS',
+            items: [
+              'O que é: Um software simples que resolve um problema específico e cobra assinatura mensal.',
+              'Exemplos: Ferramenta para criar legendas automáticas para YouTube Shorts, gerador de roteiros com IA, sistemas simples para agendamento de clientes ou ferramentas utilitárias.',
+              '✅ Vantagens: Receita recorrente todo mês, cliente pode pagar durante anos e negócio mais escalável.',
+              '❌ Desvantagens: Mais difícil de criar, pode precisar de programador ou IA para desenvolver, exige suporte e manutenção.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💸 Qual faz dinheiro todo mês?',
+            items: [
+              '• Micro SaaS gera renda previsível: Os clientes assinam e pagam mensalmente. Exemplo: 100 clientes × 10 USD por mês = 1.000 USD todos os meses recorrentes.',
+              '• Já o infoproduto depende de novas vendas constantemente: Exemplo: Ebook de 20 USD. Este mês vende 100 cópias = 2.000 USD. Próximo mês pode vender 10 ou 200.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🚀 O que eu faria começando do zero?',
+            items: [
+              '1. Criar um infoproduto simples (ebook ou curso).',
+              '2. Crescer no YouTube: Publique Shorts e conteúdos valiosos para prender o público.',
+              '3. Conquistar as primeiras vendas de forma orgânica e estruturada.',
+              '4. Reinvestir o faturamento obtido para acelerar o negócio.',
+              '5. Criar um Micro SaaS usando Inteligência Artificial.',
+              '💡 Conclusão: Hoje, para quem está começando sem capital, o infoproduto costuma ser o caminho mais rápido para fazer as primeiras vendas online.',
+              '🔥 Estratégia forte para 2026: YouTube → Audiência → Ebook → Curso → Micro SaaS → Assinaturas mensais (combinando vendas rápidas com renda recorrente).'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'estrategia_construir_renda_recorrente_youtube',
+        title: '🎯 Plano de Ação: Construindo Renda Recorrente do Zero',
+        content: [
+          'Se o seu objetivo é construir uma renda online que possa crescer de forma previsível e consistente todos os meses, este é o melhor caminho estruturado para você seguir:',
+          {
+            type: 'steps',
+            title: 'Fase 1: Fazer o primeiro dinheiro (0 a 3 meses)',
+            items: [
+              '• Crie um ebook simples sobre um tema de alta demanda (como Ganhar dinheiro online, Marketing de afiliados, YouTube para iniciantes, Motivação & Disciplina, ou aplicações de Inteligência Artificial).',
+              '• Preço sugerido: De 5 a 15 USD (acessível para facilitar a conversão rápida).',
+              '• Venda através de plataformas consolidadas de pagamento como Hotmart (hotmart.com) ou Kiwify (kiwify.com.br).'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 2: Crescer no YouTube (Todos os dias)',
+            items: [
+              '• Publique de 3 a 5 Shorts por dia de forma consistente (Frases motivacionais, Dicas de dinheiro, Curiosidades ou tutoriais de IA).',
+              '• Exemplo de Gancho 1: "Ninguém te contou isso sobre ganhar dinheiro online..."',
+              '• Exemplo de Gancho 2: "Se eu começasse do zero hoje, faria isso..."',
+              '• Exemplo de Gancho 3: "O erro que faz 90% das pessoas continuarem pobres..."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 3: Criar uma lista de contatos direta',
+            items: [
+              '• Peça para o público entrar em um grupo ou canal focado no WhatsApp (whatsapp.com) ou Telegram (telegram.org).',
+              '• Benefício fundamental: Assim você garante privacidade, audiência própria e não fica 100% dependente do algoritmo do YouTube para ofertar no futuro.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 4: Criar mais produtos (Diversificação de Esteira)',
+            items: [
+              '• Depois do ebook, expanda suas soluções de conhecimento.',
+              '• Desenvolva uma esteira progressiva: Curso Básico → Curso Avançado → Mentoria Exclusiva ou Comunidade Paga.',
+              '• Lembre-se: Quanto mais opções úteis você disponibilizar, maior será o faturamento por cliente.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 5: Criar um Micro SaaS (Receita Previsível)',
+            items: [
+              '• Desenvolva um software utilitário simples resolvendo uma dor de nicho e cobrando uma mensalidade barata (5, 10 ou 20 USD por mês).',
+              '• Ideias simples: Gerador de legendas automáticas para YouTube Shorts, gerador de roteiros com IA, criador automático de ebooks, gerador de posts para redes sociais ou ferramenta de citações inspiradoras.',
+              '• O Poder dos Números: Com apenas 200 clientes ativos pagando 10 USD por mês, você garante 2.000 USD recorrentes mensais.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📅 Plano Diário Recomendado',
+            items: [
+              '✅ 1 hora estudando marketing digital para se manter atualizado.',
+              '✅ 2 horas criando conteúdo engajador e consistente para as redes.',
+              '✅ 1 hora divulgando seus produtos e otimizando canais.',
+              '✅ 30 minutos adicionais aprendendo novas tecnologias e IAs.',
+              '✅ Publicar religiosamente pelo menos 3 vídeos/Shorts de alta qualidade por dia.'
+            ]
+          },
+          'O segredo é simples e poderoso: Criar conteúdo educativo e inspirador, capturar e reter a audiência, oferecer produtos complementares de extremo valor e repetir o processo. Mantenha isso com foco por 6 a 12 meses e veja os resultados reais se multiplicarem!'
+        ]
+      },
+      {
+        id: 'niveis_construcao_negocio_digital_youtube',
+        title: '📈 Do Zero ao Topo: Níveis de Faturamento e Plano Semanal',
+        content: [
+          'Se você quer construir algo grande na internet, pense em etapas progressivas de faturamento. Dividir seu crescimento em níveis claros afasta a ansiedade e direciona as suas ações diárias:',
+          {
+            type: 'steps',
+            title: 'Nível 1 – Primeiros 100 USD (Aprender a Vender)',
+            items: [
+              '• Objetivo Principal: Entender a mecânica básica de atração orgânica e vendas online.',
+              '• Ação Prática: Criar um ebook extremamente direto, resolvendo uma dor pontual do seu público.',
+              '• Tráfego: Publicar vídeos e Shorts de alto engajamento no YouTube diariamente para construir visibilidade.',
+              '• Mecanismo de Venda: Cadastrar o produto e colocar o link estratégico diretamente na descrição ou link da bio.',
+              '• Fundamento: Estudar e aplicar copywriting (a arte de escrever textos que geram ação de compra).',
+              '• Grande Meta: Romper a inércia e fazer a sua primeira venda online.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Nível 2 – Primeiros 1.000 USD (Criar Audiência)',
+            items: [
+              '• Objetivo Principal: Estabelecer uma tribo engajada ao redor do seu tema.',
+              '• Frequência de Postagem: Incrementar de 3 a 5 Shorts dinâmicos por dia para acelerar o alcance.',
+              '• Retenção de Contatos: Criar uma lista própria ou canal fechado no WhatsApp (whatsapp.com) ou Telegram (telegram.org).',
+              '• Diversificação: Promover seu ebook e indicar ferramentas úteis do mercado atuando como afiliado.',
+              '• Grande Meta: Atrair de 100 a 500 novos inscritos/seguidores segmentados por semana e fixar um fluxo de vendas recorrente.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Nível 3 – Primeiros 5.000 USD (Criar uma Marca Forte)',
+            items: [
+              '• Objetivo Principal: Elevar o canal para o nível de autoridade reconhecida no mercado.',
+              '• Branding Profissional: Definir nome comercial, logo próprio e padrão visual coeso de miniaturas e roteiros.',
+              '• Elevação da Esteira: Desenvolver o seu próprio curso online com videoaulas passo a passo.',
+              '• Distribuição Multi-Plataforma: Replicar conteúdos inteligentes em múltiplos ecossistemas relevantes.',
+              '• Automatização Ágil: Criar e otimizar criativos, roteiros e capas utilizando ferramentas de IA como chatgpt.com, canva.com e capcut.com.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Nichos que continuam Fortes em 2026',
+            items: [
+              '• Dinheiro Online, Renda Extra e Finanças Pessoais',
+              '• Inteligência Artificial e Produtividade com Ferramentas Tecnológicas',
+              '• Saúde Física, Mental, Fitness e Emagrecimento Saudável',
+              '• Desenvolvimento Pessoal, Autodisciplina e Mentalidade Vencedora',
+              '• Carreiras de Negócios Digitais, Copywriting e Marketing de Atração'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎬 Fórmula Pronta do Vídeo Viral',
+            items: [
+              '• GANCHO PODEROSO (Primeiros 3 segundos): Deter a atenção imediatamente ("Se eu tivesse que começar do zero hoje, faria isto...").',
+              '• CONTEÚDO VALIOSO (15 a 30 segundos): Explicar de forma extremamente clara e dinâmica uma dica útil aplicável na prática no YouTube Shorts.',
+              '• CHAMADA PARA AÇÃO (CTA): Direcionar o espectador ("Comente \'GUIA\' aqui embaixo que eu te envio todas as dicas e ferramentas").'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ Exemplo de Negócio Digital Integrado',
+            items: [
+              '• A jornada estruturada para a máxima produtividade: YouTube ➜ Audiência Orgânica ➜ Ebook (10 USD) ➜ Curso de Entrada (50 USD) ➜ Comunidade Mensal Exclusiva (10 USD/mês) ➜ Micro SaaS Útil (15 USD/mês).',
+              '• Ter uma esteira de produtos complementares faz você faturar muito mais mantendo o mesmo volume de tráfego.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Roteiro Semanal: O que fazer nos próximos 7 dias',
+            items: [
+              '• Dia 1: Criar uma conta otimizada no YouTube focada puramente em conteúdos de finanças, tutoriais ou dinheiro online.',
+              '• Dia 2: Roteirizar e gravar de uma vez só um lote inicial de 10 Shorts curtos de alta conversão.',
+              '• Dia 3: Produzir um ebook rico de 10 a 20 páginas reunindo as melhores soluções práticas para o seu nicho.',
+              '• Dia 4: Registrar e cadastrar o seu infoproduto (ebook) em uma plataforma segura de pagamentos como Hotmart ou Kiwify.',
+              '• Dia 5: Publicar os primeiros Shorts gravados e inserir o link da sua página de vendas nos comentários fixados.',
+              '• Dia 6: Monitorar com atenção as métricas oficiais para decodificar quais temas e formatos viralizaram mais rápido.',
+              '• Dia 7: Aperfeiçoar a comunicação, focar nos ganchos de sucesso e multiplicar a postagem daquilo que funcionou!'
+            ]
+          },
+          'Lembre-se sempre: A maioria das pessoas falha porque busca atalhos, hacks milagrosos ou desiste nos primeiros dias. Quem posta valor real de forma contínua por meses colhe frutos inacreditáveis e edifica uma sólida estrutura de faturamento digital.'
+        ]
       }
     ]
   },
@@ -6303,7 +8486,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar', items: [
             'Montar um plano simples para você começar do zero (use nosso chat!)',
-            'Indicar trabalhos online que funcionam bem em Moçambique',
+            'Indicar trabalhos online de alta demanda em qualquer lugar do mundo',
             'Ajudar você a aprender usando apenas o celular',
             'Mostrar formas reais de ganhar os primeiros clientes'
           ] }
@@ -6879,7 +9062,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
             'Mensagem modelo: "Olá, eu faço posts e flyers para redes sociais. Posso criar um modelo grátis de demonstração para sua empresa?"'
           ] },
           { type: 'steps', title: 'Fase 5 — Como Receber Dinheiro', items: [
-            'Em Moçambique, use formatos fáceis de início: M-Pesa, E-Mola e transferência bancária.',
+            'De início, use formatos fáceis e acessíveis do seu país: carteiras digitais, transferência bancária direta ou Pix.',
             'Mais tarde, quando expandir internacionalmente, abra contas no PayPal ou Payoneer.'
           ] },
           { type: 'info', title: '💡 Dica de Ouro para Crescimento Rápido', items: [
@@ -6888,7 +9071,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           ] },
           { type: 'list', title: '🎥 Canais de YouTube recomendados', items: [
             'Pesquise por: "Canva para iniciantes"',
-            'Pesquise por: "Como ganhar dinheiro online em Moçambique"',
+            'Pesquise por: "Como ganhar dinheiro online sendo iniciante"',
             'Pesquise por: "Freelancer para iniciantes"'
           ] },
           { type: 'tips', title: '⚡ Como o Mentor IA pode te ajudar (Fale no Chat!)', items: [
@@ -6964,6 +9147,436 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'guia_freelancer_renda_extra_marketing',
+        title: '💼 Guia Freelancer: Melhores Sites e Plano de Renda Extra',
+        content: [
+          'Se você quer fazer uma renda extra pela internet como freelancer, preste atenção: estes sistemas são um pouco mais concorridos para um iniciante absoluto na internet, mas são, sem dúvida, alguns dos melhores e mais seguros sites do mundo para começar:',
+          {
+            type: 'info',
+            title: '🌐 Os Melhores Sites para Começar',
+            items: [
+              '1. fiverr.com - Você cria um serviço (Gig) e clientes do mundo todo contratam você diretamente para: Design, Edição de Vídeo, Tradução, Redação, Marketing Digital, Edição de fotos.',
+              '2. upwork.com - Uma das maiores plataformas de freelancers do mundo. Projetos nas áreas de: Assistente virtual, Programação, Marketing, Atendimento ao cliente, Entrada de dados.',
+              '3. freelancer.com - Ideal para iniciantes. Projetos variados de: Digitação, Design, Tradução, Redações, Gestão de redes sociais, Criação de conteúdo.',
+              '4. peopleperhour.com - Muito usado por empresas da Europa para contratar freelancers para tarefas diversas.',
+              '5. workana.com - Popular em países de língua portuguesa e espanhola. Tem projetos de: Marketing digital, Redação, Design, Assistência virtual.',
+              '6. 99freelas.com.br - Excelente para quem fala português. Há muitos trabalhos fáceis para iniciantes.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💡 Se você não tem experiência inicial, comece oferecendo:',
+            items: [
+              '• Criação e curadoria de conteúdo dinâmico para o TikTok e Reels.',
+              '• Edição ágil de vídeos curtos utilizando o aplicativo CapCut.',
+              '• Criação de artes, banners e imagens profissionais com Inteligência Artificial.',
+              '• Gestão, agendamento e postagens em páginas do Instagram.',
+              '• Transcrição precisa de áudio/vídeo para texto escrito.',
+              '• Atuação como assistente virtual administrativo simples.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🏆 Plano para ganhar os primeiros US$ 100 Online',
+            items: [
+              '• Semana 1: Criar suas contas profissionais no Fiverr (fiverr.com) e Workana (workana.com). Configure um perfil atraente e publique seus primeiros 3 serviços especializados.',
+              '• Semana 2: Dedique-se a enviar pelo menos 10 propostas personalizadas por dia. Monte um portfólio simples mostrando seus melhores testes práticos.',
+              '• Semana 3: Foque em conquistar os seus primeiros clientes, entregue com excelência máxima e solicite avaliações de 5 estrelas.',
+              '• Semana 4: Comece a aumentar seus preços de forma escalonada e direcione sua prospecção para atrair clientes internacionais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📈 Áreas que mais crescem para iniciantes',
+            items: [
+              '• Inteligência Artificial (IA) e criação de conteúdo estratégico.',
+              '• Edição profissional de vídeos curtos em formato vertical.',
+              '• Gestão de mídias e redes sociais de marcas e criadores.',
+              '• Marketing de afiliados e coprodução especializada.',
+              '• Criação, formatação e comercialização direta de infoprodutos úteis.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'tarefas_microtarefas_iniciantes_marketing',
+        title: '🛠️ Tarefas Simples e Pequenos Ganhos Sem Experiência',
+        content: [
+          'Se você quer começar sem experiência, existem sites legítimos na internet onde você pode realizar tarefas simples e ganhar algum dinheiro real enquanto estuda e desenvolve habilidades melhores para o futuro:',
+          {
+            type: 'info',
+            title: '📋 Pesquisas e Microtarefas',
+            items: [
+              '• toloka.ai - Realize tarefas simples no dia a dia como verificar imagens, textos, classificação de dados e pesquisas rápidas. Aceita usuários de muitos países de forma global.',
+              '• clickworker.com - Pequenas tarefas de digitação, categorização inteligente de dados e pesquisas simples.',
+              '• remotasks.com - Trabalhos práticos e flexíveis de anotação de dados para Inteligência Artificial (a disponibilidade varia por país).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📱 Teste de Sites e Aplicativos (User Testing)',
+            items: [
+              '• usertesting.com - Você testa novos portais e aplicativos dando sua opinião falada sobre a facilidade de navegação. Geralmente exige apenas um microfone simples e internet.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🗣️ Ensino e Ajuda Online',
+            items: [
+              '• cambly.com - Conversação guiada em inglês de forma flexível. Normalmente é mais indicado para quem já tem uma boa habilidade de fala e comunicação em inglês.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🛠️ Trabalhos Básicos e Microtarefas',
+            items: [
+              '• sproutgigs.com - Microtarefas diárias, divulgação básica, compartilhamento social e pequenos trabalhos online.',
+              '• microworkers.com - Plataforma de pequenas tarefas automatizadas que não requerem experiência profissional prévia.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⚠️ Atenção Importante antes de Começar',
+            items: [
+              '• Muitos sites prometem ganhos fáceis, mas pagam muito pouco pelo seu valioso tempo de dedicação.',
+              '• Utilize essas plataformas no seu início de jornada para ganhar seus primeiros dólares e cobrir custos básicos de conexão.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 O Caminho Inteligente: Habilidades de Alto Retorno',
+            items: [
+              '• Para aumentar significativamente os seus retornos financeiros, use o seu tempo livre restante para dominar habilidades simples de alta rentabilidade que trazem muito mais resultados:',
+              '• Edição de vídeos verticais de alta retenção no app CapCut',
+              '• Criação estratégica de conteúdo para plataformas digitais (TikTok, Reels, etc.)',
+              '• Design de ponta e artes promocionais com Canva',
+              '• Atuação flexível como assistente virtual administrativo ou comercial',
+              '• Dominar essas ferramentas trará clientes que pagam de 10 a 50 vezes mais do que portais de cliques!'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'plano_30_dias_primeira_renda_online_marketing',
+        title: '🗓️ Plano de 30 Dias: Primeira Renda Online',
+        content: [
+          'O objetivo é conseguir os primeiros clientes como freelancer e, ao mesmo tempo, usar microtarefas para gerar algum dinheiro enquanto aprende habilidades melhores.',
+          {
+            type: 'steps',
+            title: '📅 Semana 1 – Preparação (Dias 1 a 7)',
+            items: [
+              '• Dia 1: Crie contas em fiverr.com, workana.com, freelancer.com e toloka.ai.',
+              '• Dia 2: Aprenda o básico de Canva, CapCut e ChatGPT.',
+              '• Dia 3: Escolha uma habilidade simples (Edição de vídeos curtos, Criação de posts para redes sociais, Escrita com IA ou Assistente virtual).',
+              '• Dia 4: Crie 5 exemplos de trabalhos reais ou fictícios para seu portfólio.',
+              '• Dia 5: Publique seus serviços profissionais nas plataformas.',
+              '• Dia 6: Faça suas primeiras microtarefas simples no Toloka para ativar sua conta.',
+              '• Dia 7: Estude 1 hora sobre os fundamentos de marketing digital.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 2 – Procurar Clientes (Dias 8 a 14)',
+            items: [
+              '• Todos os dias: Envie pelo menos 10 propostas personalizadas nos sites de freelancer.',
+              '• Todos os dias: Faça pelo menos 30 minutos de microtarefas para gerar micro-faturamento.',
+              '• Todos os dias: Publique 1 vídeo estratégico no TikTok ou Reels.',
+              '• Modelo Pronto de Proposta: "Olá! Posso ajudar com este projeto. Sou dedicado, entrego rápido e estou totalmente disponível para começar hoje mesmo."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 3 – Conseguir o Primeiro Cliente (Dias 15 a 21)',
+            items: [
+              '• Objetivo Principal: Fechar pelo menos 1 trabalho remunerado.',
+              '• Todos os dias: Subir o ritmo e enviar 15 propostas, postar 1 vídeo no TikTok ou mídias e melhorar os detalhes do seu perfil.',
+              '• Serviços muito fáceis de vender: Criação de legendas dinâmicas para vídeos, Geração de posts no Instagram, Edição rápida de Shorts, Digitação de dados ou Pesquisa online.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Semana 4 – Primeira Renda Cadastrada (Dias 22 a 30)',
+            items: [
+              '• Meta de Faturamento: Ganhar e acumular entre US$ 50 e US$ 200 líquidos.',
+              '• Todos os dias: Enviar 20 propostas rápidas, entregar os trabalhos aceitos com agilidade máxima e solicitar avaliações positivas de 5 estrelas.',
+              '• Reinvestimento Prático: Quando ganhar seus primeiros dólares, invista em uma internet melhor, em cursos focados ou em ferramentas que facilitem o seu trabalho.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏱️ Sugestão de Rotina Diária (2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender e praticar uma habilidade nova no computador.',
+              '• 1 Hora: Enviar propostas profissionais de freelancer.',
+              '• 30 Minutos: Realizar microtarefas nos aplicativos ativos.',
+              '• 30 Minutos: Criar conteúdo ou editar publicações simples para suas redes sociais.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Áreas que Mais Pagam em 2026',
+            items: [
+              '• Edição profissional de vídeos dinâmicos para TikTok e Reels.',
+              '• Criação de conteúdo estratégico auxiliado por Inteligência Artificial (IA).',
+              '• Gestão e moderação de perfis de redes sociais.',
+              '• Design de criativos e artes promocionais com Canva.',
+              '• Atuação remota como Assistente Virtual.',
+              '• Promoção e vendas com Marketing de Afiliados.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎯 Meta Realista Passo a Passo',
+            items: [
+              '• Primeira semana: focar em aprender as ferramentas.',
+              '• Segunda semana: buscar ativamente novos clientes.',
+              '• Terceira semana: fechar com sucesso seu primeiro trabalho.',
+              '• Quarta semana: receber seu merecido primeiro pagamento.'
+            ]
+          },
+          'O caminho mais rápido para você hoje é aprender MoneyNet + Canva e oferecer edição de vídeos curtos para criadores e pequenas empresas. É uma habilidade extremamente simples de aprender e que tem uma gigantesca demanda global!'
+        ]
+      },
+      {
+        id: 'plano_agressivo_30_dias_marketing',
+        title: '⚡ Plano Agressivo de 30 Dias: Acelerar Ganhos (US$ 100 - US$ 300)',
+        content: [
+          'Se você quer acelerar drasticamente os seus resultados iniciais, aqui está um plano operacional mais robusto e focado para os próximos 30 dias.',
+          {
+            type: 'info',
+            title: '🎯 O que você vai combinar na estratégia:',
+            items: [
+              '• Atuar como Freelancer ativo com propostas diárias',
+              '• Realizar Microtarefas nas horas improdutivas',
+              '• Começar a criar Conteúdo próprio focado em audiência',
+              '• Promover links úteis por meio do Marketing de Afiliados'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💻 Habilidade nº 1: Edição Prática de Vídeos Curtos',
+            items: [
+              '• O que aprender: Domine cortes dinâmicos, legendas automáticas, efeitos simples e transições rápidas no CapCut.',
+              '• Por que funciona: Criadores de conteúdo e negócios precisam de editores todos os dias para TikTok, Reels e Shorts.',
+              '• Tabela de Serviço Inicial: 5 vídeos editados = US$ 10 a US$ 20 | 10 vídeos editados = US$ 20 a US$ 50'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎨 Habilidade nº 2: Design Visual Express com Canva',
+            items: [
+              '• O que criar: Posts atraentes para redes sociais (Instagram/Facebook), capas marcantes para o YouTube (Thumbnails), panfletos e logos descomplicadas.',
+              '• Tabela de Serviço Inicial: Pacote com 10 posts profissionais = US$ 10 a US$ 30'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '✍️ Habilidade nº 3: Escrita Estratégica com MoneyNet / IA',
+            items: [
+              '• Como utilizar: Escrever roteiros envolventes, postagens para redes, artigos de blog ou formatar ebooks rápidos.',
+              '• Tabela de Serviço Inicial: Pacote com 30 ideias ou legendas profissionais = US$ 10 a US$ 20'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ Divisão Estratégica Diária (3 horas focadas)',
+            items: [
+              '• Manhã (1 Hora): Estudar ativamente e praticar uma habilidade específica (CapCut, Canva ou Ferramentas de IA).',
+              '• Tarde (1 Hora): Enviar ativamente 20 propostas bem-elaboradas em grupos e sites freelancers.',
+              '• Noite (1 Hora): Planejar, legendar e postar conteúdo estratégico nas suas redes sociais (TikTok, Reels).'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔗 Onde Encontrar Clientes (Além das Plataformas)',
+            items: [
+              '• linkedin.com - Pesquise por criadores de conteúdo e pequenas empresas que precisam otimizar sua presença online.',
+              '• facebook.com - Faça parte e monitore constantemente os melhores grupos de vagas para freelancers.',
+              '• instagram.com - Use as mensagens diretas (DM) para abordar educadamente os perfis de pequenos negócios e propor as suas primeiras edições de forma experimental.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Nichos de Mercado Altamente Lucrativos',
+            items: [
+              '• Fitness, Saúde e Emagrecimento',
+              '• Motivação Diária e Desenvolvimento Pessoal',
+              '• Finanças Pessoais, Investimentos e Renda Extra',
+              '• Tecnologia da Informação, Inteligência Artificial e Produtividade',
+              '• Negócios Digitais e Empreendedorismo de Sucesso'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎬 Meta Diária de Publicação de Conteúdo',
+            items: [
+              '• TikTok: Publicar de 2 a 3 vídeos rápidos por dia.',
+              '• Reels (Instagram/FB): 2 vídeos curtos por dia.',
+              '• Shorts (YouTube): Pelo menos 1 vídeo vertical curto por dia.',
+              '• Temas Propostos: Frases com forte impacto emocional, mentalidade de sucesso, ferramentas fáceis de IA e dicas de monetização.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎯 Objetivo dos Primeiros 90 Dias',
+            items: [
+              '• Mês 1: Alcançar seus primeiros faturamentos de US$ 50 a US$ 300.',
+              '• Mês 2: Estabelecer recorrência física e atingir US$ 200 a US$ 600.',
+              '• Mês 3: Escalar seu networking, aumentar preços e bater US$ 500 a US$ 1.000+ mensais.'
+            ]
+          },
+          'Lembre-se: O passo mais importante é focar em uma habilidade principal. Uma excelente recomendação inicial é a edição de vídeos no CapCut, que permite aprendizado rápido e possui uma incessante demanda global por novos profissionais!'
+        ]
+      },
+      {
+        id: 'plano_90_dias_primeiros_1000_marketing',
+        title: '🏁 Plano de 90 Dias: Rumo aos Primeiros US$ 1.000 Online',
+        content: [
+          'Se você tem uma visão de médio prazo e deseja construir uma renda digital sólida e escalável, siga este cronograma estratégico passo a passo estruturado em 3 fases de 30 dias:',
+          {
+            type: 'steps',
+            title: '📅 Fase 1 – Aprender e Preparar (Dias 1–30)',
+            items: [
+              '• Objetivo Principal: Ganhar seus primeiros US$ 10 a US$ 100 on-line.',
+              '• O que aprender: Edição profissional no CapCut, design criativo no Canva, e criação estratégica de roteiros/conteúdo usando MoneyNet ou ChatGPT.',
+              '• Onde cadastrar: Crie perfis completos e profissionais em fiverr.com, workana.com e freelancer.com.',
+              '• Produção de Portfólio Inicial: Edite 10 vídeos modelo, monte 10 posts premium para Instagram e elabore 5 capas de destaque para YouTube.',
+              '• Rotina Diária: Reserve 1 hora inteira para aprender, envie de forma consistente 20 propostas personalizadas para potenciais clientes e dedique 30 minutos a microtarefas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 2 – Melhorar Abordagem e Conseguir Clientes (Dias 31–60)',
+            items: [
+              '• Objetivo Principal: Atingir um faturamento progressivo de US$ 100 a US$ 500.',
+              '• Serviços de Inicialização: Oferte edição focada para canais do TikTok, Shorts para YouTube, posts gráficos comerciais e scripts rápidos criados com auxílio de Inteligência Artificial.',
+              '• Foco Operacional Diário: Enviar pelo menos 30 propostas ativas, realizar 2 horas de trabalho prático dedicado a clientes reais e manter presença constante publicando conteúdo original nas suas próprias redes.',
+              '• Modelo Otimizado de Oferta: "Olá! Posso editar seus vídeos curtos com legendas totalmente dinâmicas, cortes ritmados profissionais e o formato ideal de alta retenção para plataformas como TikTok, Reels e Shorts."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Fase 3 – Upsell, Retenção e Escala (Dias 61–90)',
+            items: [
+              '• Objetivo Principal: Alcançar e ultrapassar a meta de faturamento acumulado de US$ 500 a US$ 1.000.',
+              '• Como Aumentar os Preços: Se você começou cobrando US$ 10 por serviço básico, eleve de forma segura os preços para US$ 20 e depois para US$ 30 à medida que obtém avaliações de prestígio.',
+              '• Criação de Pacotes Mensais: Oferte kits recorrentes compostos de 10 a 20 edições de vídeo por mês ou a gestão mensal e estratégica de todo o ecossistema de conteúdo.',
+              '• Prospecção Externa Inteligente: Busque ativamente marcas e criadores no linkedin.com, facebook.com e instagram.com.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '⏰ O Roteiro Diário de Trabalho (Em média de 2 a 4 horas)',
+            items: [
+              '• 1 Hora: Aprender de forma refinada uma nova competência tecnológica.',
+              '• 1 Hora: Desenvolver novos itens para seu portfólio físico ou produzir para clientes ativos.',
+              '• 1 Hora: Prospectar criadores de conteúdo e enviar propostas robustas.',
+              '• 30 Minutos: Realizar microtarefas diárias para manter o motor financeiro básico ativo.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🚀 Habilidades mais Lucrativas para Iniciantes em 2026',
+            items: [
+              '• Edição dinâmica de vídeos verticais.',
+              '• Design de criativos e pacotes visuais rápidos com Canva.',
+              '• Gestão, agendamento de posts e moderação de comunidades sociais.',
+              '• Geração inteligente de copywriting e conteúdo estratégico com IA.',
+              '• Assistência Administrativa e Comercial Remota.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '💵 Projeção de Meta Financeira Saudável',
+            items: [
+              '• Primeiro mês: US$ 50 a US$ 100 líquidos.',
+              '• Segundo mês: US$ 100 a US$ 300 consolidados.',
+              '• Terceiro mês: US$ 300 a US$ 1.000+ com base de clientes fiéis.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🔥 Seu Desafio de Ação Imediata para Hoje!',
+            items: [
+              '• 1. Criar sua conta profissional no Fiverr e no Workana.',
+              '• 2. Instalar gratuitamente o app oficial do CapCut e do Canva.',
+              '• 3. Editar e legendar hoje mesmo o seu primeiríssimo vídeo de modelo técnico.',
+              '• 4. Elaborar e direcionar as suas primeiras 10 propostas ativas nos grupos de freelancers.'
+            ]
+          },
+          'Mantenha o foco absoluto e a persistência profissional diária por 90 dias consecutivos. Essa dedicação é a chave inabalável para conseguir clientes recorrentes de nível internacional e construir uma sólida fonte de renda digital sustentável!'
+        ]
+      },
+      {
+        id: 'modelagem_conteudo_estrategico_marketing',
+        title: '🗂️ Modelagem de Conteúdo Estratégico',
+        content: [
+          'Modelagem de Conteúdo é o processo inteligente de planejar e organizar todo o material que você vai criar antes de apertar o botão de publicar. Em vez de postar aleatoriamente, você desenha uma estratégia clara:',
+          {
+            type: 'info',
+            title: '🎯 Pilares de Definição',
+            items: [
+              '• O tema do conteúdo: Qual assunto principal será abordado.',
+              '• O público que deseja atingir: Quem é a pessoa ideal que vai consumir.',
+              '• O formato ideal: Seleção refinada entre vídeo vertical, imagem, carrossel, texto, ebook ou minicurso.',
+              '• O objetivo principal da postagem: Viralizar para atrair, educar para gerar confiança, ganhar seguidores qualificados ou gerar vendas diretas.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🎬 Exemplo de Modelagem para Canal de Alta Performance',
+            items: [
+              '• Nicho Selecionado: Motivação de sucesso, autodisciplina e desenvolvimento pessoal.',
+              '• Pilares Principais de Conteúdo:',
+              '  - Frases e áudios motivacionais de impacto.',
+              '  - Histórias reais de superação e biografias de sucesso.',
+              '  - Hábitos produtivos, mentalidade empreendedora e rotina de disciplina diária.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Calendário Semanal Prático de Postagens',
+            items: [
+              '• Segunda-feira: Frase inspiradora ou gancho forte de início de semana.',
+              '• Terça-feira: Biografia rápida de um empreendedor de grande notoriedade.',
+              '• Quarta-feira: Dica prática de autodisciplina ou combate à procrastinação.',
+              '• Quinta-feira: Análise de mentalidade e geração de riqueza.',
+              '• Sexta-feira: Rápido roteiro focado em negócios inovadores.',
+              '• Sábado: Desafio interativo ou pergunta estimulante para os seguidores.',
+              '• Domingo: Resumo dos aprendizados da semana e objetivos futuros.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📖 Exemplo Estruturado para Promoção de Ebook',
+            items: [
+              '• Tema Principal: Como estruturar e viver de renda online do zero.',
+              '• Estrutura Recomendada: Introdução motivadora ➜ Capítulos dedicados a Freelancing, Microtarefas e Afiliação ➜ Roteiro de ação prático em 30 dias ➜ Conclusão inspiradora.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🔑 Por que a Modelagem de Conteúdo é Vital?',
+            items: [
+              '• Proporciona velocidade incomparável de gravação e design semanal.',
+              '• Mantém a consistência inabalável exigida pelos algoritmos das redes sociais.',
+              '• Conecta e atrai o público altamente qualificado para as suas recomendações.',
+              '• Multiplica as taxas de conversão de infoprodutos digitais de forma orgânica.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🌟 Os 3 Pilares Recomendados para Máxima Renda:',
+            items: [
+              '• 1. Motivação Dinâmica (Captação): Atrai, retém e viraliza para novos perfis.',
+              '• 2. Dicas e Práticas Reais (Confiança): Constrói autoridade indiscutível no nicho.',
+              '• 3. Oportunidades Claras de Monetização (Vendas): Converte seus seguidores engajados em faturamento real.'
+            ]
+          },
+          'Ao aplicar este modelo estratégico em sua rotina técnica, cada vídeo ou publicação terá uma função milimetricamente desenhada e focada em resultados dentro do seu projeto digital!'
+        ]
+      },
+      {
         id: 'starter_kit_marketing',
         title: '🧰 Kit de Início Completo (Seu Começo Prático)',
         content: [
@@ -6994,11 +9607,11 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
           ] },
           { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
-            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'No começo: de 5 USD a 20 USD por trabalho simples ou pequenas tarefas.',
             'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
           ] },
           { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
-            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Local: Carteiras digitais locais, Pix ou transferência direta para sua conta bancária.',
             'Internacional: payoneer.com ou paypal.com.'
           ] },
           { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
@@ -7398,6 +10011,115 @@ export const APP_CONTENT_PT: SectionContent[] = [
         ]
       },
       {
+        id: 'como_viralizar_primeiro_video_marketing',
+        title: '🔥 Como Fazer o seu Primeiro Vídeo Viralizar',
+        content: [
+          'O seu primeiro vídeo pode sim viralizar, mas o seu foco absoluto deve ser desenhar um conteúdo estratégico capaz de reter a atenção das pessoas até o final.',
+          {
+            type: 'steps',
+            title: '🏗️ Estrutura Prática de um Vídeo Viral (15 a 20 segundos)',
+            items: [
+              '• 0 a 3 segundos (O Gancho): "Se você está vendo este vídeo, pode ser exatamente o sinal que você precisava para mudar a sua vida de vez."',
+              '• 3 a 12 segundos (O Desenvolvimento): "Há um ano eu não sabia absolutamente nada sobre como ganhar dinheiro online. A maioria das pessoas infelizmente desiste cedo demais. Quem continua aprendendo todos os dias acaba encontrando oportunidades que os outros nunca enxergam."',
+              '• 12 a 20 segundos (A Chamada): "Salve este vídeo agora e siga a página. Daqui a exatos 30 dias você pode estar me agradecendo profundamente por ter começado hoje mesmo."'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '✅ Segredos e Diretrizes Recomendadas',
+            items: [
+              '• Grave tudo em formato vertical (proporção 9:16).',
+              '• Utilize legendas diárias e atraentes centralizadas na tela.',
+              '• Coloque músicas populares do momento em volume ambiente muito baixo.',
+              '• Faça cortes rápidos mudando a imagem/estímulo visual a cada 2 ou 3 segundos.',
+              '• Publique com uma descrição curta direto ao ponto. Exemplo: "Um dia ou dia um. A escolha é totalmente sua. 🧠"'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💡 Ideia de Vídeo Simples Sem Precisar Aparecer',
+            items: [
+              '• Use trechos elegantes de banco de imagens ou vídeos com: Pessoas trabalhando focadas no computador, paisagens urbanas à noite, carros esportivos luxuosos, paisagens naturais bonitas ou pessoas treinando pesado na academia.',
+              '• Deixe uma voz robótica sincronizada de IA ler o roteiro com alta qualidade.',
+              '• Prompt ideal para voz em IA: "Leia este roteiro com uma voz masculina encorpada, emocional, inspiradora e confiante, como se fosse um mentor motivacional sênior."'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🏷️ Hashtags Estratégicas Recomendadas',
+            items: [
+              '#motivacao | #viral | #fyp | #parati | #mindset | #sucesso | #dinheiroonline'
+            ]
+          },
+          'O fator crucial e mais importante: publique o seu primeiro vídeo ainda hoje! Muitos criadores passam semanas planejando nos mínimos detalhes e nunca chegam a postar nada. Lembre-se: o algoritmo só começará a decodificar o seu perfil depois que você publicar sistematicamente e observar de perto o que gera mais retenção, comentários e compartilhamentos.'
+        ]
+      },
+      {
+        id: 'roteiros_prontos_viral_marketing',
+        title: '🎬 10 Roteiros Prontos para Gravar Hoje',
+        content: [
+          'Preparamos 10 roteiros de 15 a 20 segundos divididos estrategicamente em Gancho, Mensagem e Chamada de Ação, prontos para você narrar ou usar voz de IA!',
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 1 (1 a 5)',
+            items: [
+              '📹 Vídeo 1 — Comece Agora:\n• 🪝 Gancho: "Daqui a 6 meses você vai desejar ter começado hoje."\n• 💬 Mensagem: "O tempo vai passar de qualquer forma. A diferença é que algumas pessoas vão usar esse tempo para construir algo e outras vão continuar esperando."\n• 🏁 Final: "Comente EU VOU e siga para mais motivação."',
+              '📹 Vídeo 2 — Mentalidade:\n• 🪝 Gancho: "O sucesso deixa pistas."\n• 💬 Mensagem: "As pessoas que vencem não são as mais inteligentes. São as que continuam quando os outros desistem."\n• 🏁 Final: "Salve este vídeo para lembrar disso todos os dias."',
+              '📹 Vídeo 3 — Dinheiro:\n• 🪝 Gancho: "A escola ensinou você a ganhar dinheiro?"\n• 💬 Mensagem: "Muitas pessoas passam anos estudando, mas nunca aprendem como criar renda pela internet."\n• 🏁 Final: "Siga a página para aprender mais."',
+              '📹 Vídeo 4 — Disciplina:\n• 🪝 Gancho: "Motivação acaba. Disciplina fica."\n• 💬 Mensagem: "Nos dias difíceis, a disciplina é o que separa quem cresce de quem para."\n• 🏁 Final: "Comente DISCIPLINA se você concorda."',
+              '📹 Vídeo 5 — Sonhos:\n• 🪝 Gancho: "O seu sonho merece uma chance."\n• 💬 Mensagem: "Não abandone seus objetivos só porque eles demoram para acontecer."\n• 🏁 Final: "Marque alguém que precisa ouvir isso."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📝 Roteiros Prontos — Volume 2 (6 a 10)',
+            items: [
+              '📹 Vídeo 6 — Trabalho Online:\n• 🪝 Gancho: "Tudo o que você precisa para começar é um celular."\n• 💬 Mensagem: "Hoje existem pessoas ganhando dinheiro criando conteúdo, vendendo produtos digitais e trabalhando remotamente."\n• 🏁 Final: "Siga para aprender passo a passo."',
+              '📹 Vídeo 7 — Persistência:\n• 🪝 Gancho: "O seu segredo não é começar."\n• 💬 Mensagem: "O segredo é continuar quando ninguém acredita em você."\n• 🏁 Final: "Salve este vídeo."',
+              '📹 Vídeo 8 — Mudança de Vida:\n• 🪝 Gancho: "Uma decisão pode mudar tudo."\n• 💬 Mensagem: "A vida que você quer começa quando você decide agir."\n• 🏁 Final: "Comente MUDANÇA."',
+              '📹 Vídeo 9 — Foco:\n• 🪝 Gancho: "Pare de procurar atalhos."\n• 💬 Mensagem: "O sucesso é feito de pequenas ações repetidas todos os dias."\n• 🏁 Final: "Compartilhe com um amigo."',
+              '📹 Vídeo 10 — Futuro:\n• 🪝 Gancho: "Seu eu do futuro está observando você."\n• 💬 Mensagem: "As escolhas de hoje determinam onde você estará daqui a um ano."\n• 🏁 Final: "Siga a página para crescer todos os dias."'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📅 Calendário Editorial de Conteúdo (Próximos 7 Dias)',
+            items: [
+              '• Dia 1: Motivação de alto impacto',
+              '• Dia 2: Disciplina inabalável',
+              '• Dia 3: Dinheiro online',
+              '• Dia 4: Mentalidade de sucesso',
+              '• Dia 5: Histórias inspiradoras',
+              '• Dia 6: Hábitos vencedores',
+              '• Dia 7: Desafio de 30 dias'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🏷️ Nomes de Impacto Sugeridos para sua Página',
+            items: [
+              '• Império da Disciplina',
+              '• Mentalidade Milionária',
+              '• Evolução Diária',
+              '• Sigma Vision',
+              '• Futuro Bilionário'
+            ]
+          },
+          {
+            type: 'info',
+            title: '📝 Bio Pronta e Altamente Magnética',
+            items: [
+              'Copie e cole em seu perfil:',
+              '🚀 Motivação diária',
+              '💰 Dinheiro online',
+              '🧠 Mentalidade de sucesso',
+              '📈 Evolua 1% todos os dias'
+            ]
+          },
+          'Recomendação de Ouro: Publique pelo menos 3 vídeos por dia durante o período de 30 dias. Um único vídeo viral pode trazer milhares de seguidores, mas a consistência é o que aumenta suas chances de chegar lá.'
+        ]
+      },
+      {
         id: 'video_editing_skill_full',
         title: 'Domine a Edição de Vídeo',
         content: [
@@ -7552,7 +10274,7 @@ export const APP_CONTENT_PT: SectionContent[] = [
           'Abrir um provedor de internet é um negócio sério que exige infraestrutura e conhecimento técnico.',
           { type: 'steps', title: '📋 O que você precisa para começar', items: [
             '1. Planejamento: Estude a demanda da área e a concorrência local.',
-            '2. Licença: Em muitos países você precisa de autorização (Ex: Moçambique - INCM).',
+            '2. Licença: Em muitos países você precisa de registro simples se o seu faturamento ultrapassar os limites de isenção local.',
             '3. Link de Internet: Compre link dedicado de empresas maiores para redistribuir.',
             '4. Equipamentos: Torres, roteadores MikroTik (muito comum em pequenos/médios), fibra e antenas.'
           ] },
@@ -7587,8 +10309,8 @@ export const APP_CONTENT_PT: SectionContent[] = [
         title: 'Como Ganhar 30k em 1 Mês',
         content: [
           { type: 'info', title: 'É possível?', items: [
-            'Sim, mas depende de: Seu conhecimento prévio, Tempo/dinheiro disponível e Moeda (MT, R$, $).',
-            'Em Moçambique, 30.000 MT é totalmente alcançável. Para 30k reais/dólares começando do zero, a estratégia precisa ser agressiva.'
+            'Sim, mas depende de: Seu conhecimento prévio, Tempo/dinheiro disponível e as Moedas de pagamento (BRL, USD, EUR, etc.).',
+            'Com consistência, uma excelente renda mensal é totalmente alcançável. Para as primeiras metas começando do zero absoluto, a estratégia precisa ser bem estruturada.'
           ]},
           { type: 'steps', title: 'Caminho 1: Gestão de Redes Sociais', items: [
             'Ideal para gerar caixa rápido com negócios locais (restaurantes, clínicas, lojas).',
@@ -8104,9 +10826,9 @@ export const APP_CONTENT_PT: SectionContent[] = [
             type: 'info',
             title: '🚀 Técnicas Avançadas para Viralização',
             items: [
-              '• [[TRANSIÇÕES]: Use transições de máscara (masking) ou movimento de câmera para conectar cenas sem que o espectador perceba o corte.',
-              '• [[EFEITOS SONOROS (SFX)]: Use efeitos (Swish, Pop, Whoosh) para marcar cada mudança de texto ou zoom. Isso cria um estímulo auditivo que aumenta a retenção.',
-              '• [[LOOP PERFEITO]: Termine sua frase final de forma que ela se conecte gramaticalmente com a frase inicial. Isso faz o vídeo recomeçar sem a pessoa notar.'
+              '• [TRANSIÇÕES]: Use transições de máscara (masking) ou movimento de câmera para conectar cenas sem que o espectador perceba o corte.',
+              '• [EFEITOS SONOROS (SFX)]: Use efeitos (Swish, Pop, Whoosh) para marcar cada mudança de texto ou zoom. Isso cria um estímulo auditivo que aumenta a retenção.',
+              '• [LOOP PERFEITO]: Termine sua frase final de forma que ela se conecte gramaticalmente com a frase inicial. Isso faz o vídeo recomeçar sem a pessoa notar.'
             ]
           },
           {
@@ -8311,6 +11033,201 @@ export const APP_CONTENT_PT: SectionContent[] = [
             ]
           }
         ]
+      },
+      {
+        id: 'infoproduto_vs_microsaas_marketing',
+        title: '💡 Infoproduto vs Micro SaaS: Qual dá mais dinheiro todo mês?',
+        content: [
+          'Esta é uma das maiores dúvidas de quem deseja empreender no marketing digital hoje. Entenda a diferença crucial entre esses dois caminhos:',
+          {
+            type: 'info',
+            title: '1. Infoproduto',
+            items: [
+              'O que é: Um produto digital de conhecimento ou auxílio que você cria uma vez e vende infinitas vezes.',
+              'Exemplos: Ebooks, cursos online, mentorias, planilhas organizadas, templates e guias em PDF.',
+              '✅ Vantagens: Baixo custo para começar, pode criar sozinho, lucro alto (até 90%+) e escala global imediata.',
+              '❌ Desvantagens: Precisa gerar tráfego e vendas constantemente. Se parar de divulgar, as vendas tendem a cair.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '2. Micro SaaS',
+            items: [
+              'O que é: Um software simples que resolve um problema específico e cobra assinatura mensal.',
+              'Exemplos: Ferramentas de legenda automática para vídeos, geradores com IA, sistemas de agendamento de clientes ou ferramentas utilitárias.',
+              '✅ Vantagens: Receita recorrente todo mês, cliente pode pagar durante anos e negócio mais escalável.',
+              '❌ Desvantagens: Mais difícil de criar, pode precisar de programador ou IA para desenvolver, exige suporte e manutenção.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💸 Qual faz dinheiro todo mês?',
+            items: [
+              '• Micro SaaS gera renda previsível: Os clientes pagam assinatura mensal. Exemplo: 100 clientes × 10 USD por mês = 1.000 USD todos os meses recorrentes.',
+              '• Já o infoproduto depende de novas vendas constantemente: Exemplo: Ebook de 20 USD. Este mês vende 100 cópias = 2.000 USD. Próximo mês pode vender 10 ou 200.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🚀 O que eu faria começando do zero?',
+            items: [
+              '1. Criar um infoproduto simples (ebook ou curso).',
+              '2. Empregar canais de alto alcance (como TikTok ou YouTube Shorts) para crescer audiência rápida de forma orgânica.',
+              '3. Ganhar as primeiras vendas online.',
+              '4. Reinvestir o dinheiro ganho para turbinar o negócio.',
+              '5. Depois criar um Micro SaaS usando Inteligência Artificial.',
+              '💡 Conclusão: Hoje, para quem está começando sem capital, o infoproduto costuma ser o caminho mais rápido para fazer as primeiras vendas online.',
+              '🔥 Estratégia forte para 2026: Tráfego → Audiência → Ebook → Curso → Micro SaaS → Assinaturas mensais (combinando vendas rápidas com renda recorrente no futuro).'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'estrategia_construir_renda_recorrente_marketing',
+        title: '🎯 Plano de Ação: Construindo Renda Recorrente do Zero',
+        content: [
+          'Se o seu objetivo é construir uma renda online que possa crescer de forma previsível e consistente todos os meses, este é o melhor caminho estruturado para você seguir:',
+          {
+            type: 'steps',
+            title: 'Fase 1: Fazer o primeiro dinheiro (0 a 3 meses)',
+            items: [
+              '• Crie um ebook simples sobre um tema de alta demanda (como Ganhar dinheiro online, Marketing de afiliados, Tráfego Orgânico para iniciantes, Motivação & Disciplina, ou aplicações de Inteligência Artificial).',
+              '• Preço sugerido: De 5 a 15 USD (acessível para facilitar a conversão rápida).',
+              '• Venda através de plataformas consolidadas de pagamento como Hotmart (hotmart.com) ou Kiwify (kiwify.com.br).'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 2: Crescer no TikTok/YouTube (Todos os dias)',
+            items: [
+              '• Publique de 3 a 5 vídeos por dia de forma consistente (Frases motivacionais, Dicas de dinheiro, Curiosidades ou tutoriais de IA).',
+              '• Exemplo de Gancho 1: "Ninguém te contou isso sobre ganhar dinheiro online..."',
+              '• Exemplo de Gancho 2: "Se eu começasse do zero hoje, faria isso..."',
+              '• Exemplo de Gancho 3: "O erro que faz 90% das pessoas continuarem pobres..."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 3: Criar uma lista de contatos direta',
+            items: [
+              '• Peça para o público entrar em um grupo ou canal focado no WhatsApp (whatsapp.com) ou Telegram (telegram.org).',
+              '• Benefício fundamental: Assim você garante privacidade, audiência própria e não fica 100% dependente do algoritmo das redes sociais para ofertar no futuro.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 4: Criar mais produtos (Diversificação de Esteira)',
+            items: [
+              '• Depois do ebook, expanda suas soluções de conhecimento.',
+              '• Desenvolva uma esteira progressiva: Curso Básico → Curso Avançado → Mentoria Exclusiva ou Comunidade Paga.',
+              '• Lembre-se: Quanto mais opções úteis você disponibilizar, maior será o faturamento por cliente.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Fase 5: Criar um Micro SaaS (Receita Previsível)',
+            items: [
+              '• Desenvolva um software utilitário simples resolvendo uma dor de nicho e cobrando uma mensalidade barata (5, 10 ou 20 USD por mês).',
+              '• Ideias simples: Gerador de legendas automáticas para vídeos com IA, gerador de roteiros, criador automático de ebooks, gerador de posts para redes sociais ou ferramenta de citações inspiradoras.',
+              '• O Poder dos Números: Com apenas 200 clientes ativos pagando 10 USD por mês, você garante 2.000 USD recorrentes mensais.'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📅 Plano Diário Recomendado',
+            items: [
+              '✅ 1 hora estudando marketing digital para se manter atualizado.',
+              '✅ 2 horas criando conteúdo engajador e consistente para as redes.',
+              '✅ 1 hora divulgando seus produtos e otimizando canais.',
+              '✅ 30 minutos adicionais aprendendo novas tecnologias e IAs.',
+              '✅ Publicar religiosamente pelo menos 3 vídeos de alta qualidade por dia.'
+            ]
+          },
+          'O segredo é simples e poderoso: Criar conteúdo educativo e inspirador, capturar e reter a audiência, oferecer produtos complementares de extremo valor e repetir o processo. Mantenha isso com foco por 6 a 12 meses e veja os resultados reais se multiplicarem!'
+        ]
+      },
+      {
+        id: 'niveis_construcao_negocio_digital_marketing',
+        title: '📈 Do Zero ao Topo: Níveis de Faturamento e Plano Semanal',
+        content: [
+          'Se você quer construir algo grande na internet, pense em etapas progressivas de faturamento. Dividir seu crescimento em níveis claros afasta a ansiedade e direciona as suas ações diárias:',
+          {
+            type: 'steps',
+            title: 'Nível 1 – Primeiros 100 USD (Aprender a Vender)',
+            items: [
+              '• Objetivo Principal: Entender a mecânica básica de atração orgânica e vendas online.',
+              '• Ação Prática: Criar um ebook extremamente direto, resolvendo uma dor pontual do seu público.',
+              '• Tráfego: Publicar vídeos de alto engajamento no TikTok/YouTube Shorts diariamente para construir visibilidade.',
+              '• Mecanismo de Venda: Cadastrar o produto e colocar o link estratégico diretamente na biografia do perfil ou na descrição.',
+              '• Fundamento: Estudar e aplicar copywriting (a arte de escrever textos que geram ação de compra).',
+              '• Grande Meta: Romper a inércia e fazer a sua primeira venda online.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Nível 2 – Primeiros 1.000 USD (Criar Audiência)',
+            items: [
+              '• Objetivo Principal: Estabelecer uma tribo engajada ao redor do seu tema.',
+              '• Frequência de Postagem: Incrementar de 3 a 5 vídeos dinâmicos por dia para acelerar o seu alcance global.',
+              '• Retenção de Contatos: Criar uma lista própria ou canal fechado no WhatsApp (whatsapp.com) ou Telegram (telegram.org).',
+              '• Diversificação: Promover seu ebook e indicar ferramentas úteis do mercado atuando como afiliado.',
+              '• Grande Meta: Atrair de 100 a 500 novos seguidores segmentados por semana e fixar um fluxo de vendas recorrente.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: 'Nível 3 – Primeiros 5.000 USD (Criar uma Marca Forte)',
+            items: [
+              '• Objetivo Principal: Elevar o perfil ou canal para o nível de autoridade reconhecida no mercado.',
+              '• Branding Profissional: Definir nome comercial, logo próprio e padrão visual coeso de postagens.',
+              '• Elevação da Esteira: Desenvolver o seu próprio curso online com videoaulas passo a passo.',
+              '• Distribuição Multi-Plataforma: Replicar conteúdos inteligentes em múltiplos ecossistemas relevantes.',
+              '• Automatização Ágil: Criar e otimizar criativos e roteiros utilizando ferramentas de IA de ponta como chatgpt.com, canva.com e capcut.com.'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🔥 Nichos que continuam Fortes em 2026',
+            items: [
+              '• Dinheiro Online, Renda Extra e Finanças Pessoais',
+              '• Inteligência Artificial e Produtividade com Ferramentas Tecnológicas',
+              '• Saúde Física, Mental, Fitness e Emagrecimento Saudável',
+              '• Desenvolvimento Pessoal, Autodisciplina e Mentalidade Vencedora',
+              '• Carreiras de Negócios Digitais, Copywriting e Marketing de Atração'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '🎬 Fórmula Pronta do Vídeo Viral',
+            items: [
+              '• GANCHO PODEROSO (Primeiros 3 segundos): Deter a atenção imediatamente ("Se eu tivesse que começar do zero hoje, faria isto...").',
+              '• CONTEÚDO VALIOSO (15 a 30 segundos): Explicar de forma extremamente clara e dinâmica uma dica útil aplicável na prática.',
+              '• CHAMADA PARA AÇÃO (CTA): Direcionar o espectador ("Comente \'GUIA\' aqui embaixo que eu te envio todas as dicas e ferramentas de graça").'
+            ]
+          },
+          {
+            type: 'info',
+            title: '⚙️ Exemplo de Negócio Digital Integrado',
+            items: [
+              '• A jornada estruturada para a máxima produtividade: Redes Sociais ➜ Audiência Orgânica ➜ Ebook (10 USD) ➜ Curso de Entrada (50 USD) ➜ Comunidade Mensal Exclusiva (10 USD/mês) ➜ Micro SaaS Útil (15 USD/mês).',
+              '• Ter uma esteira escalável faz você faturar muito mais mantendo o mesmo fluxo de tráfego.'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📅 Roteiro Semanal: O que fazer nos próximos 7 dias',
+            items: [
+              '• Dia 1: Criar uma conta comercial otimizada focada puramente em negócios, mentoria ou dinheiro online nas redes de vídeos curtos.',
+              '• Dia 2: Roteirizar e gravar de uma vez só um lote inicial de 10 vídeos simples de alta conversão.',
+              '• Dia 3: Produzir um ebook rico de 10 a 20 páginas reunindo as melhores soluções práticas para o seu nicho.',
+              '• Dia 4: Registrar e cadastrar o seu infoproduto (ebook) em uma plataforma segura de pagamentos como Hotmart ou Kiwify.',
+              '• Dia 5: Publicar os primeiros vídeos gravados e colocar o seu link estratégico na biografia do perfil.',
+              '• Dia 6: Monitorar com atenção as métricas oficiais para decodificar quais temas e formatos viralizaram mais rápido.',
+              '• Dia 7: Aperfeiçoar a comunicação, focar nos ganchos de sucesso e multiplicar a postagem daquilo que funcionou!'
+            ]
+          },
+          'Lembre-se sempre: A maioria das pessoas falha porque busca atalhos, hacks milagrosos ou desiste nos primeiros dias. Quem posta valor real de forma contínua por meses colhe frutos inacreditáveis e edifica uma sólida estrutura de faturamento digital.'
+        ]
       }
     ]
   },
@@ -8413,11 +11330,11 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '🇺🇸 Inglês: "Hello. I create social media posts and short videos for businesses. I can make a free sample for you."'
           ] },
           { type: 'info', title: '💰 PASSO 6 — Como cobrar', items: [
-            'No começo: de 300 MT a 1.000 MT localmente ou 5 USD a 20 USD online.',
+            'No começo: de 5 USD a 20 USD por trabalho simples ou pequenas tarefas.',
             'Evolução: Aumente o valor dos orçamentos conforme seu trabalho melhora.'
           ] },
           { type: 'steps', title: '💸 PASSO 7 — Receber dinheiro com facilidade', items: [
-            'Moçambique: M-Pesa, E-Mola ou transferência para conta bancária.',
+            'Local: Carteiras digitais locais, Pix ou transferência direta para sua conta bancária.',
             'Internacional: payoneer.com ou paypal.com.'
           ] },
           { type: 'info', title: '🔥 O que mais funciona atualmente em 2026', items: [
