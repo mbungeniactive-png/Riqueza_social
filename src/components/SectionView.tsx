@@ -170,6 +170,14 @@ const AffiliateLinkManager = () => {
   );
 };
 
+const cleanEmojiAndSymbols = (text: string): string => {
+  if (!text) return '';
+  return text
+    .replace(/^[\s\p{Emoji}\u2700-\u27BF\uE000-\uF8FF\uD83C\uDC00-\uD83D\uDFFF\u2011-\u26FF\u2EA0-\u2EBF●•★⚠️🔥💸💡💎💻💻🎯💻#*_\[\]]+[\s-]*/gu, '')
+    .replace(/[#*_\[\]]+/g, '')
+    .trim();
+};
+
 interface SectionViewProps {
   section: SectionContent;
   onBack: () => void;
@@ -306,19 +314,29 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
 
   const formatText = (text: string) => {
     if (typeof text !== 'string') return text;
-    const parts = text.split(/(\*\*.*?\*\*|\[\[.*?\]\])/g);
+    // Clean any leading bulletin point patterns, raw list hyphens, or hashtag indicators for a clean portal look
+    const cleanStr = text.replace(/^[-*•●#\s]+/g, '');
+    const parts = cleanStr.split(/(\*\*.*?\*\*|\[\[.*?\]\])/g);
     return parts.map((part, i) => {
       if (part.startsWith('**') && part.endsWith('**')) {
-        return <strong key={i} className="font-extrabold text-slate-900 dark:text-white underline decoration-blue-500/30 decoration-2 underline-offset-2">{part.slice(2, -2)}</strong>;
+        // Clean formatting and apply clear weight hierarchy
+        const cleanedPart = part.slice(2, -2).replace(/[#*_\[\]]+/g, '');
+        return (
+          <strong key={i} className="font-extrabold text-slate-900 dark:text-white">
+            {cleanedPart}
+          </strong>
+        );
       }
       if (part.startsWith('[[') && part.endsWith(']]')) {
+        const cleanedPart = part.slice(2, -2).replace(/[#*_\[\]]+/g, '');
         return (
-          <span key={i} className="mx-0.5 px-2 py-0.5 rounded-lg bg-blue-600 dark:bg-blue-500 text-white font-bold text-xs shadow-sm shadow-blue-500/20 inline-block align-middle mb-0.5">
-            {part.slice(2, -2)}
+          <span key={i} className="mx-1 px-2.5 py-0.5 rounded-md bg-blue-50 dark:bg-blue-955/40 text-blue-600 dark:text-blue-400 font-bold text-xs border border-blue-100 dark:border-blue-900/30 inline-block">
+            {cleanedPart}
           </span>
         );
       }
-      return part;
+      const cleanedText = part.replace(/[#*_\[\]]+/g, '');
+      return <span key={i} className="font-normal text-slate-600 dark:text-slate-300">{cleanedText}</span>;
     });
   };
 
@@ -386,7 +404,7 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
               onClick={() => scrollToId(sub.id)}
               className="whitespace-nowrap px-4 py-2 bg-slate-100 dark:bg-white/5 rounded-full text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400 hover:bg-blue-50 dark:hover:bg-blue-500/20 hover:text-blue-600 dark:hover:text-blue-400 transition-all shadow-sm cursor-pointer"
             >
-              {sub.title}
+              {cleanEmojiAndSymbols(sub.title)}
             </button>
           ))}
         </div>
@@ -402,7 +420,7 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
         </div>
 
         {/* Content */}
-        <div className="p-4 sm:p-6 space-y-10 pb-20">
+        <div className="section-view-content p-4 sm:p-6 space-y-12 pb-20">
           {section.id === 'motivacao' && (
             <SuccessCarousel />
           )}
@@ -413,59 +431,71 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.25, delay: idx * 0.05 }}
-                className="space-y-6"
+                className="space-y-6 bg-white dark:bg-slate-950 p-6 rounded-3xl border border-slate-100 dark:border-white/5 shadow-xs"
               >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <button 
-                      onClick={() => toggleCompletion(sub.id, sub.title)}
-                      className={`p-1.5 rounded-lg border-2 transition-all ${
-                        completedSubsections[sub.id] 
-                          ? 'bg-blue-600 border-blue-600 text-white' 
-                          : 'border-slate-200 dark:border-white/10 text-transparent'
-                      }`}
-                    >
-                      <CheckCircle2 className="w-4 h-4" />
-                    </button>
-                    <h2 className={`text-xl sm:text-2xl font-black leading-tight transition-all ${
-                      completedSubsections[sub.id] ? 'text-slate-400 dark:text-slate-600 line-through' : 'text-slate-900 dark:text-white'
-                    }`}>
-                      {sub.title}
-                    </h2>
-                  </div>
-                  <div className="flex gap-1">
-                    <button 
-                      onClick={() => toggleFavorite(sub.id, sub.title)}
-                      className="p-2 transition-colors duration-200"
-                      title="Salvar nos Favoritos"
-                    >
-                      <Bookmark 
-                        className={`w-4 h-4 ${
-                          favorites.includes(sub.id) 
-                            ? 'text-amber-500 fill-amber-500' 
-                            : 'text-slate-400 hover:text-amber-500'
-                        }`} 
-                      />
-                    </button>
-                    <button 
-                      onClick={() => handleShare(sub.title, sub.title, sub.id)}
-                      className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
-                    >
-                      <Share2 className="w-4 h-4" />
-                    </button>
-                    <button 
-                      onClick={() => copyToClipboard(window.location.href + `#${sub.id}`, sub.id)}
-                      className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
-                    >
-                      <LinkIcon className="w-4 h-4" />
-                    </button>
+                <div className="border-b border-slate-100 dark:border-white/5 pb-4 space-y-2">
+                  <div className="flex items-center justify-between gap-4">
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <button 
+                        onClick={() => toggleCompletion(sub.id, sub.title)}
+                        className={`p-1 w-5 h-5 rounded-md border flex items-center justify-center transition-all shrink-0 ${
+                          completedSubsections[sub.id] 
+                            ? 'bg-blue-600 border-blue-600 text-white' 
+                            : 'border-slate-300 dark:border-white/10 text-transparent hover:border-blue-450'
+                        }`}
+                      >
+                        <CheckCircle2 className="w-3.5 h-3.5" />
+                      </button>
+                      
+                      <div className="flex flex-col gap-0.5">
+                        <span className="text-[9px] font-black tracking-widest text-slate-400 dark:text-slate-500 uppercase font-mono">
+                          {section.title} &bull; {completedSubsections[sub.id] ? 'Concluído' : 'Disponível'}
+                        </span>
+                        <h2 className={`text-xl sm:text-2xl font-extrabold tracking-tight transition-all leading-tight ${
+                          completedSubsections[sub.id] ? 'text-slate-400 dark:text-slate-600 line-through' : 'text-slate-900 dark:text-white'
+                        }`}>
+                          {cleanEmojiAndSymbols(sub.title)}
+                        </h2>
+                      </div>
+                    </div>
+                    <div className="flex gap-1 shrink-0 bg-slate-50 dark:bg-white/5 p-1 rounded-2xl border border-slate-100 dark:border-white/5">
+                      <button 
+                        onClick={() => toggleFavorite(sub.id, sub.title)}
+                        className="p-2 transition-colors duration-200"
+                        title="Salvar nos Favoritos"
+                      >
+                        <Bookmark 
+                          className={`w-4 h-4 ${
+                            favorites.includes(sub.id) 
+                              ? 'text-amber-500 fill-amber-500' 
+                              : 'text-slate-400 hover:text-amber-500'
+                          }`} 
+                        />
+                      </button>
+                      <button 
+                        onClick={() => handleShare(sub.title, sub.title, sub.id)}
+                        className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
+                      >
+                        <Share2 className="w-4 h-4" />
+                      </button>
+                      <button 
+                        onClick={() => copyToClipboard(window.location.href + `#${sub.id}`, sub.id)}
+                        className="p-2 text-slate-400 hover:text-blue-500 transition-colors"
+                      >
+                        <LinkIcon className="w-4 h-4" />
+                      </button>
+                    </div>
                   </div>
                 </div>
                 
                 <div className="space-y-6">
                   {sub.content.map((item, i) => {
                     if (typeof item === 'string') {
-                      return <p key={i} className="text-slate-600 dark:text-slate-400 leading-relaxed font-medium">{formatText(item)}</p>;
+                      return (
+                        <p key={i} className="text-slate-600 dark:text-slate-300 leading-relaxed font-normal text-sm sm:text-base border-l-2 border-slate-200 dark:border-slate-800 pl-4 py-0.5">
+                          {formatText(item)}
+                        </p>
+                      );
                     }
 
                     switch (item.type) {
@@ -475,7 +505,7 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
                             {item.title && (
                               <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2 px-1 text-xs uppercase tracking-wider">
                                 <Play className="w-3.5 h-3.5 text-blue-600 fill-blue-600" />
-                                {item.title}
+                                {cleanEmojiAndSymbols(item.title)}
                               </h4>
                             )}
                             <div className="aspect-video w-full bg-slate-100 dark:bg-slate-800 rounded-[32px] overflow-hidden shadow-xl relative border border-slate-200 dark:border-white/10">
@@ -497,13 +527,13 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
                             {item.title && (
                               <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2 px-1 text-xs uppercase tracking-wider">
                                 <Info className="w-3.5 h-3.5 text-blue-600" />
-                                {item.title}
+                                {cleanEmojiAndSymbols(item.title)}
                               </h4>
                             )}
                             <div className="w-full bg-white dark:bg-white/5 rounded-[32px] overflow-hidden shadow-xl border border-slate-100 dark:border-white/10 p-2">
                               <img 
                                 src={item.url} 
-                                alt={item.title || 'Imagem de Renda Extra'}
+                                alt={cleanEmojiAndSymbols(item.title) || 'Imagem de Renda Extra'}
                                 className="w-full h-auto rounded-2xl"
                                 referrerPolicy="no-referrer"
                               />
@@ -512,16 +542,24 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
                         );
                       case 'steps':
                         return (
-                          <div key={i} className="bg-slate-50 dark:bg-white/5 p-6 rounded-3xl space-y-4 transition-colors">
-                            {item.title && <h4 className="font-bold text-slate-900 dark:text-white flex items-center gap-2">
-                              <CheckCircle2 className="w-5 h-5 text-blue-500" />
-                              {item.title}
-                            </h4>}
-                            <ul className="space-y-3">
+                          <div key={i} className="bg-slate-50 dark:bg-slate-900/40 p-6 rounded-3xl space-y-5 transition-all border border-slate-100 dark:border-slate-800/60 shadow-xs">
+                            {item.title && (
+                              <div className="flex items-center gap-2 pb-2 border-b border-slate-150 dark:border-slate-800">
+                                <TrendingUp className="w-4 h-4 text-indigo-500 shrink-0" />
+                                <h4 className="text-xs font-extrabold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+                                  {cleanEmojiAndSymbols(item.title)}
+                                </h4>
+                              </div>
+                            )}
+                            <ul className="space-y-4">
                               {item.items.map((li, j) => (
-                                <li key={j} className="text-slate-600 dark:text-slate-400 text-sm flex gap-3 leading-relaxed">
-                                  <span className="text-blue-500 font-bold">•</span>
-                                  {formatText(li)}
+                                <li key={j} className="text-slate-600 dark:text-slate-300 text-sm flex gap-4 leading-relaxed items-start">
+                                  <span className="flex-shrink-0 flex items-center justify-center w-6 h-6 rounded-full bg-slate-200/60 dark:bg-slate-800 text-[10px] font-mono font-bold text-slate-600 dark:text-slate-400">
+                                    {String(j + 1).padStart(2, '0')}
+                                  </span>
+                                  <div className="flex-1">
+                                    {formatText(li)}
+                                  </div>
                                 </li>
                               ))}
                             </ul>
@@ -529,42 +567,50 @@ export const SectionView: React.FC<SectionViewProps> = ({ section, onBack, onAsk
                         );
                       case 'tips':
                         return (
-                          <div key={i} className="bg-amber-50 dark:bg-amber-900/10 p-6 rounded-3xl border border-amber-100 dark:border-amber-900/20 flex gap-4 transition-colors">
-                            <Lightbulb className="w-6 h-6 text-amber-500 shrink-0" />
-                            <div className="space-y-2">
-                               {item.items.map((li, j) => (
-                                  <p key={j} className="text-amber-800 dark:text-amber-500 text-sm font-bold leading-relaxed">{formatText(li)}</p>
-                               ))}
+                          <div key={i} className="bg-amber-50/40 dark:bg-amber-950/10 p-6 rounded-3xl border border-amber-200/50 dark:border-amber-900/20 flex flex-col sm:flex-row gap-4 transition-all shadow-xs">
+                            <div className="w-10 h-10 rounded-2xl bg-amber-100/60 dark:bg-amber-950/30 flex items-center justify-center border border-amber-200/40 dark:border-amber-900/40 shadow-xs shrink-0 self-start">
+                              <Lightbulb className="w-5 h-5 text-amber-500" />
+                            </div>
+                            <div className="space-y-2 flex-1">
+                              <p className="text-[10px] font-black uppercase tracking-wider text-amber-600 dark:text-amber-400">Dica Prática</p>
+                              {item.items.map((li, j) => (
+                                <p key={j} className="text-amber-900/90 dark:text-slate-300 text-sm font-medium leading-relaxed">{formatText(li)}</p>
+                              ))}
                             </div>
                           </div>
                         );
                       case 'info':
                         return (
-                          <div key={i} className="bg-blue-50 dark:bg-blue-900/10 p-6 rounded-3xl border border-blue-100 dark:border-blue-900/20 space-y-3 transition-colors">
-                             {item.title && <h4 className="font-bold text-blue-900 dark:text-blue-400 flex items-center gap-2">
-                              <Info className="w-5 h-5 text-blue-600" />
-                              {item.title}
-                            </h4>}
-                            <div className="space-y-2">
+                          <div key={i} className="bg-slate-50/40 dark:bg-slate-900/30 p-6 rounded-3xl border-l-[4px] border-l-blue-500 border-t border-r border-b border-slate-100 dark:border-slate-800/80 space-y-4 transition-all shadow-xs">
+                             {item.title && (
+                              <h4 className="text-xs font-black uppercase tracking-widest text-blue-600 dark:text-blue-400 flex items-center gap-2 pb-2 border-b border-slate-100 dark:border-slate-800/50">
+                                <Info className="w-4 h-4 text-blue-500 shrink-0" />
+                                {cleanEmojiAndSymbols(item.title)}
+                              </h4>
+                            )}
+                            <div className="space-y-3">
                               {item.items.map((li, j) => (
-                                <p key={j} className="text-blue-800 dark:text-blue-300 text-sm font-medium">{formatText(li)}</p>
+                                <div key={j} className="text-slate-700 dark:text-slate-300 text-sm font-normal leading-relaxed flex gap-3 items-start">
+                                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0 mt-2" />
+                                  <div className="flex-1">{formatText(li)}</div>
+                                </div>
                               ))}
                             </div>
                           </div>
                         );
                       case 'list':
                         return (
-                          <ul key={i} className="space-y-3 px-2">
+                          <ul key={i} className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             {item.items.map((li, j) => (
-                              <li key={j} className="flex flex-col gap-2">
-                                <div className="text-slate-600 dark:text-slate-400 text-sm flex gap-3 leading-relaxed font-medium">
-                                  <ArrowLeft className="w-4 h-4 text-emerald-500 rotate-180 shrink-0 mt-1" />
-                                  {formatText(li)}
+                              <li key={j} className="bg-slate-50/50 dark:bg-slate-900/20 border border-slate-100 dark:border-slate-850 p-4 rounded-2xl hover:bg-slate-150/40 dark:hover:bg-slate-900/40 transition-all flex flex-col justify-between gap-3 shadow-xs">
+                                <div className="text-slate-700 dark:text-slate-300 text-sm flex gap-3 leading-relaxed font-normal">
+                                  <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                                  <div className="flex-1">{formatText(li)}</div>
                                 </div>
                                 {sub.id === 'income_ideas' && onAskMentor && (
                                   <button
                                     onClick={() => onAskMentor(`Crie um plano de ação detalhado para começar com a ideia: "${li}". Foque em passos práticos para iniciantes, como monetizar e o que é necessário para começar hoje.`)}
-                                    className="ml-7 self-start text-[10px] font-black uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-500/10 px-3 py-1.5 rounded-full hover:scale-105 active:scale-95 transition-all flex items-center gap-2"
+                                    className="self-start text-[9px] font-black uppercase tracking-widest text-blue-600 dark:text-blue-400 bg-blue-50/80 dark:bg-blue-500/10 hover:bg-blue-100/80 dark:hover:bg-blue-500/20 px-4 py-2 rounded-xl active:scale-95 transition-all flex items-center gap-1.5 border border-blue-100/40 dark:border-blue-500/10 cursor-pointer"
                                   >
                                     <Lightbulb className="w-3 h-3" />
                                     {t('sections.action_plan')}

@@ -1697,529 +1697,370 @@ export const APP_CONTENT_PT: SectionContent[] = [
           }
         ]
       },
-      {
+            {
         id: 'ia_potencial_crescimento_tiktok',
         title: '🤖 Dominando o Nicho de Inteligência Artificial',
         content: [
-          'O nicho de Inteligência Artificial (IA) continua em crescimento explosivo e oferece um potencial colossal de alcance e engajamento orgânico no TikTok, Reels e YouTube Shorts.',
-          'O melhor é que você não precisa ser um programador ou especialista técnico. Você pode iniciar compartilhando ferramentas incríveis de IA e novos aplicativos que facilitam a vida cotidianamente.',
+          'O nicho de Inteligência Artificial (IA) continua em crescimento explosivo, oferecendo um excelente potencial de alcance e engajamento orgânico nas principais redes sociais.',
+          'Para iniciar, você não precisa ser um programador ou engenheiro de software. É perfeitamente possível e lucrativo criar conteúdo focado no compartilhamento de utilitários práticos, ferramentas inovadoras e soluções simples que facilitam o dia a dia.',
+          'Com isso, você atrai um público altamente qualificado interessado em automação, produtividade e novas tecnologias.',
           {
             type: 'info',
-            title: '💡 O que Postar em uma Página de Inteligência Artificial?',
+            title: '💡 Linha Editorial: O que publicar em sua página',
             items: [
-              '• Apresentação de ferramentas de IA inovadoras e totalmente gratuitas.',
-              '• Divulgação de sites inteligentes que automatizam tarefas e trabalhos automaticamente.',
-              '• Aplicativos móveis potentes para elevar a produtividade pessoal.',
-              '• Ferramentas de IA para a criação rápida de vídeos e roteiros.',
-              '• Geradores de imagens artísticas realistas ou ilustrações por IA.',
-              '• Métodos pragmáticos de como usar IA para gerar novas fontes de renda online.',
-              '• Notícias quentes, grandes novidades e lançamentos do ecossistema de inteligência artificial.',
-              '• Tutoriais rápidos e dinâmicos de 30 a 60 segundos mostrando o passo a passo de uso.'
+              'Apresentação de ferramentas úteis que resolvem problemas reais de produtividade.',
+              'Demonstração de sites que automatizam tarefas e processos automaticamente de forma intuitiva.',
+              'Análises de aplicativos móveis eficientes para aumentar a produtividade pessoal.',
+              'Tutoriais práticos sobre sistemas de IA para criação de roteiros e vídeos rápidos.',
+              'Exemplos de geradores de imagens realistas e ilustrações digitais sofisticadas.',
+              'Métodos pragmáticos de monetização e prestação de serviços com auxílio tecnológico.',
+              'Novidades, tendências de mercado e lançamentos relevantes do ecossistema de software.',
+              'Guias rápidos e descomplicados de 30 a 60 segundos com fluxos passo a passo.'
             ]
           },
           {
             type: 'steps',
-            title: '🔥 Sugestões de Nomes para a Página',
+            title: '🔥 Nomes Sugeridos para o seu Perfil',
             items: [
-              '• Sugestões Ideais: IA Sem Limites, Mundo IA, IA Fácil, Universo IA, IA Para Todos, Futuro com IA, IA em Minutos, Mestre da IA, IA Lucrativa, Segredos da IA.'
+              'IA Sem Limites — Nome simples, direto e de excelente memorização.',
+              'Universo IA — Ideal para abordar múltiplas categorias de ferramentas.',
+              'IA Fácil — Atrai o público iniciante interessado em simplificar processos.',
+              'Futuro com IA — Excelente posicionamento profissional e focado em inovação.',
+              'Mestre da IA — Passa autoridade imediata no compartilhamento de utilitários.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ Opções de Bios Magnéticas para o Perfil',
+            title: 'Modelos de Bios Magnéticas para Redes Sociais',
             items: [
-              '• Opção 1: "🤖 Inteligência Artificial todos os dias | 🚀 Ferramentas e dicas extremamente úteis | 📈 Aprenda e evolua com IA!"',
-              '• Opção 2: "💡 Descubra o real poder da IA | 🔥 Sites e apps incríveis que facilitam a vida | 🎯 Conteúdo simples, útil e rápido!"',
-              '• Opção 3: "🤖 IA + Produtividade + Dinheiro Online | 📱 Ferramentas totalmente gratuitas | 🚀 Vídeos instrutivos diários!"'
+              'Inteligência Artificial Direta. Ferramentas e dicas práticas para evoluir seu cotidiano.',
+              'Descubra a praticidade da Inteligência Artificial. Soluções e utilitários que facilitam a sua vida.',
+              'Tecnologia, Produtividade e Negócios. Ferramentas gratuitas e dicas em tutoriais rápidos.'
             ]
           },
           {
             type: 'steps',
-            title: '🎬 10 Ideias de Vídeos para Iniciar Imediatamente',
+            title: '10 Temas Práticos de Vídeos Curtos para Iniciar de Forma Imediata',
             items: [
-              '• 01. "3 ferramentas de IA incríveis e gratuitas que parecem pura magia!"',
-              '• 02. "Este site inovador cria imagens ultra-realistas em segundos."',
-              '• 03. "Como utilizar IA de forma inteligente para estudar melhor e reter conteúdo."',
-              '• 04. "A IA que monta apresentações de slides profissionais de forma 100% automática."',
-              '• 05. "5 ferramentas fantásticas de IA que absolutamente todo estudante precisa conhecer."',
-              '• 06. "Como criar vídeos altamente virais na internet sem precisar aparecer."',
-              '• 07. "A melhor Inteligência Artificial totalmente gratuita de 2026: Moneynet Ai!"',
-              '• 08. "Como projetar e criar um logo profissional usando apenas ferramentas de IA."',
-              '• 09. "Economize horas de trabalho e ganhe tempo livre usando estas ferramentas de IA diárias."',
-              '• 10. "Esta ferramenta única substitui com folga 5 aplicativos que você usa hoje."'
+              'Três utilitários excelentes de Inteligência Artificial que economizam dezenas de horas de trabalho.',
+              'Como usar este site inovador para criar designs e ilustrações sob medida.',
+              'Dicas práticas para usar assistentes digitais nos estudos e fixação de novos conhecimentos.',
+              'Como criar apresentações de slides dinâmicas de modo prático e automático.',
+              'Cinco ferramentas gratuitas essenciais de produtividade para todo estudante profissional.',
+              'A melhor Inteligência Artificial para otimizar suas finanças pessoais: MoneyNet AI.',
+              'Como planejar e criar uma logo de alto padrão em poucos minutos com ajuda de software.',
+              'Automações simples na planilha do computador para ganhar tempo livre todos os dias.',
+              'Este utilitário integrado substitui com folga múltiplos aplicativos pesados no seu aparelho celular.',
+              'Como resumir relatórios e textos extensos de forma extremamente rápida.'
             ]
           },
           {
             type: 'info',
-            title: '🎬 Estrutura Passo a Passo do Vídeo Curto Viral',
+            title: 'Estrutura Dinâmica de Roteiro Viral para Vídeos',
             items: [
-              '• 1. Gancho Magnético (Primeiros 3 segundos): "Você ainda não conhece esta IA incrível e gratuita da MoneyNet Ai?" (Desperte a urgência e curiosidade instantaneamente).',
-              '• 2. Conteúdo de Valor (Aprox. 20 segundos): Mostre de forma ágil e objetiva a tela do computador ou celular, demonstrando o que a ferramenta faz e o benefício direto.',
-              '• 3. Chamada para Ação (Aprox. 5 segundos): "Siga a página agora mesmo para mais dicas diárias de ferramentas de IA!"'
+              'Gancho de Atenção: Conecte urgentemente com uma necessidade humana real nos primeiros três segundos, como "Você ainda não utiliza esta ferramenta?"',
+              'Demonstração Prática: Apresente o benefício central na tela do seu aparelho, mostrando o passo a passo com cortes rápidos e objetivos de edição.',
+              'Chamada para Ação: Peça para os espectadores acompanharem o perfil para receber atualizações e novidades valiosas todos os dias.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Estratégia Prática para os Primeiros 30 Dias',
+            title: 'Recomendações de Otimização Orgânica nos Primeiros 30 Dias',
             items: [
-              '• Frequência Ativa: Poste com consistência 3 vídeos curtos diariamente para acelerar a distribuição.',
-              '• Recursos Visuais: Utilize legendas grandes, de ótima legibilidade e centralizadas.',
-              '• Duração Ideal: Mantenha os vídeos objetivos, com cortes rápidos, entre 20 e 45 segundos de duração total.',
-              '• Foco Inicial: Fale e priorize ferramentas funcionais gratuitas, pois elas atraem muito mais interesse e acessos.',
-              '• Interação Inteligente: Responda ativamente a perguntas e comentários criando novos vídeos com a resposta.',
-              '• Direcionamento por Métricas: Monitore detalhadamente quais vídeos ganharam mais tração e produza mais conteúdos similares.'
+              'Mantenha consistência diária nas postagens para treinar a entrega orgânica das plataformas.',
+              'Adicione legendas grandes, de excelente legibilidade e centralizadas perto do foco visual.',
+              'Priorize o compartilhamento de utilitários gratuitos, pois geram muito mais compartilhamentos.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ia_calendario_nomes_bios_tiktok',
         title: '💡 Planejamento de IA: 30 Nomes, Bios e Calendário Prático',
         content: [
-          'Se você deseja criar e crescer uma página focada em Inteligência Artificial com imenso potencial de crescimento orgânico, escolher um nome simples, marcante e associado ao futuro e à tecnologia é crucial.',
+          'Uma identidade visual limpa e uma assinatura simples são os principais pilares para estabelecer autoridade profissional rápida no nicho tecnológico.',
+          'O segredo para se destacar consiste em evitar nomes de difícil escrita ou termos técnicos complexos, facilitando o compartilhamento boca a boca de forma orgânica.',
           {
             type: 'info',
-            title: '📋 30 Sugestões de Nomes Criativos para Página de IA',
+            title: '30 Ideias de Nomes Criativos por Categorias',
             items: [
-              '• Fáceis e Memoráveis: IA Sem Limites, Universo IA, Mundo da IA, IA Master, IA Digital, IA em Minutos, Futuro Inteligente, IA Total, IA Explosiva, Segredos da IA.',
-              '• Alto Impacto e Lucro: IA Lucrativa, IA Global, IA Prática, Central da IA, Academia IA, IA Pro, IA Viral, IA Fácil, IA Infinita, IA Hoje.',
-              '• Tecnológicos e Futuro: IA 360, IA do Futuro, Revolução IA, IA Premium, Geração IA, IA Inteligente, IA Agora, Top IA, IA Sem Fronteiras, Império da IA.'
+              'Estilo Direto: IA Sem Limites, Universo IA, Mundo da IA, IA Master, IA Digital.',
+              'Estilo Prático: IA em Minutos, Futuro Inteligente, IA Total, IA Explosiva, Segredos da IA.',
+              'Estilo Empreendedor: IA Lucrativa, IA Global, IA Prática, Central da IA, Academia IA.',
+              'Estilo Premium: IA Pro, IA Viral, IA Fácil, IA Infinita, IA Hoje.',
+              'Estilo Futurista: IA 360, IA do Futuro, Revolução IA, IA Premium, Geração IA.',
+              'Estilo Autêntico: IA Inteligente, IA Agora, Top IA, IA Sem Fronteiras, Império da IA.'
             ]
           },
           {
             type: 'info',
-            title: '👔 Opções de Nomes Mais Profissionais / Corporativos',
+            title: 'Alternativas Corporativas para Posicionamento Profissional',
             items: [
-              '• Sugestões Premium: IA Global Hub, NextGen AI, AI Discovery, AI Vision, AI Evolution, AI Trends, AI Academy, Future AI, Smart AI, AI Empire.'
+              'IA Global Hub, NextGen AI, AI Discovery, AI Vision, AI Evolution, AI Trends, AI Academy, Future AI, Smart AI, AI Empire.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 5 Modelos de Bios Otimizadas para o TikTok, Reels e Shorts',
+            title: 'Cinco Modelos de Bios Otimizadas',
             items: [
-              '• Bio 1: "🤖 Dicas de Inteligência Artificial | 🚀 Ferramentas incríveis todos os dias | 📈 Aprenda algo novo diariamente!"',
-              '• Bio 2: "💡 IA para iniciantes | 🔥 Apps e sites poderosos | 🎯 Conteúdo diário e prático!"',
-              '• Bio 3: "🤖 O futuro começou | 📱 Ferramentas de IA gratuitas | 🚀 Vídeos novos todos os dias!"',
-              '• Bio 4: "⚡ IA + Produtividade | 💰 IA para negócios e renda online | 🎓 Aprenda de forma simples!"',
-              '• Bio 5: "🌍 Descobrindo as melhores IAs | 🤖 Tutoriais rápidos | 🚀 Evolua com tecnologia!"'
+              'Dicas de Inteligência Artificial. Ferramentas incríveis lançadas diariamente para otimizar sua rotina.',
+              'IA descomplicada para iniciantes. Conheça as melhores soluções e aplicativos práticos.',
+              'O futuro começou. Aprenda a aplicar ferramentas inovadoras no seu trabalho e estudos.',
+              'Tecnologia e alto rendimento. Transformando conhecimento prático em produtividade.',
+              'Descubra as mais recentes ferramentas inteligentes em tutoriais úteis de um minuto.'
             ]
           },
           {
             type: 'steps',
-            title: '📅 Calendário Completo de Postagens para 30 Dias (Passo a Passo)',
+            title: 'Calendário de Amostragem de Conteúdo para 30 Dias (Distribuição Estruturada)',
             items: [
-              '• 📂 Semana 1 - Introdução e Utilidades de Impacto:',
-              '  - Dia 1: 5 IAs gratuitas que todos deveriam conhecer (por exemplo, MoneyNet Ai, Canva, ChatGPT...).',
-              '  - Dia 2: A melhor IA que cria imagens fantásticas e realistas em segundos.',
-              '  - Dia 3: IA impressionante que faz o resumo completo de livros automaticamente.',
-              '  - Dia 4: Inteligência Artificial incrível que cria apresentações inteiras em minutos.',
-              '  - Dia 5: Ferramentas de IA fantásticas que salvam qualquer estudante nas tarefas.',
-              '  - Dia 6: Como utilizar IA descomplicada para criar vídeos virais sem aparecer.',
-              '  - Dia 7: Lista atualizada das melhores IAs gratuitas e indispensáveis de 2026.',
-              '• 📂 Semana 2 - Produtividade e Utilidades para Negócios:',
-              '  - Dia 8: IA incrível que cria logos de marcas profissionais instantaneamente.',
-              '  - Dia 9: Como usar IA estruturada para escrever posts e textos altamente persuasivos.',
-              '  - Dia 10: Inteligência Artificial excelente para aprender inglês conversando pelo celular.',
-              '  - Dia 11: Editor de fotos impulsionado por IA que remove objetos e melhora o foco.',
-              '  - Dia 12: As melhores IAs que organizam e aumentam a sua produtividade no trabalho.',
-              '  - Dia 13: Ferramentas de IA que todo empreendedor precisa começar a aplicar hoje.',
-              '  - Dia 14: Top 5 sites secretos de IA que vão explodir sua mente.',
-              '• 📂 Semana 3 - Criação de Conteúdo e Redes Sociais:',
-              '  - Dia 15: Ferramentas altamente secretas de IA que quase ninguém conhece.',
-              '  - Dia 16: IA focada em ajudar estudantes do ensino médio à universidade.',
-              '  - Dia 17: Sites de IA mais procurados e amados por criadores de conteúdo do mundo.',
-              '  - Dia 18: Como extrair o poder das IAs para acelerar e otimizar vídeos de YouTube.',
-              '  - Dia 19: Ferramentas de IA que facilitam demais a viralização de vídeos no TikTok.',
-              '  - Dia 20: Como criar imagens, carrosséis e posts automáticos de IA para o Instagram.',
-              '  - Dia 21: A IA secreta que faz tarefas tão bem que até parece mágica.',
-              '• 📂 Semana 4 - Especialização, Áudios e Tendências:',
-              '  - Dia 22: Ferramentas raras de IA pouco conhecidas e extremamente úteis.',
-              '  - Dia 23: IA excelente para gerar voz sintética profissional ou clonagem de voz.',
-              '  - Dia 24: Inteligência Artificial que cria músicas e batidas completas do zero.',
-              '  - Dia 25: Truques fundamentais de IA para criar designs e imagens super realistas.',
-              '  - Dia 26: Dicas avançadas de IA para explodir suas horas de lazer e produtividade.',
-              '  - Dia 27: As melhores e mais leves extensões de IA para usar no seu navegador.',
-              '  - Dia 28: A ferramenta inteligente que você deveria obrigatoriamente estar usando hoje.',
-              '  - Dia 29: Um vislumbre prático do futuro e as grandes tendências globais de IA para 2026.',
-              '  - Dia 30: O ranking definitivo e completo com as 10 melhores IAs de todo o ano.'
+              'Semana 1: Apresentação de utilitários gerais de alta relevância, como ferramentas clássicas e a plataforma MoneyNet AI.',
+              'Semana 1: Plataformas de design, criação de posts e resumos eficientes de livros em poucos instantes.',
+              'Semana 2: Otimização acadêmica, revisão ativa rápida e aprendizagem prática de novos idiomas.',
+              'Semana 2: Ferramentas para edição de imagem, remoção de fundos e aprimoramento de fotos antigas.',
+              'Semana 3: Produção de roteiros envolventes, criação automatizada de vídeos e legendas em carrosséis.',
+              'Semana 3: Tutoriais técnicos simplificados de corte de gravação e efeitos sonoros sincronizados.',
+              'Semana 4: Micro-extensões de navegador que economizam minutos de navegação diária.',
+              'Semana 4: Tendências emergentes, novidades do setor e consolidação geral do seu catálogo editorial.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Minha Recomendação Estratégica Completa para Crescer Rápido',
+            title: 'Recomendação Recomendada para Começar',
             items: [
-              '• Sugestão Ideal de Canal:',
-              '  - Nome Recomendado: "IA Sem Limites"',
-              '  - Bio Otimizada: "🤖 Inteligência Artificial Simplificada | 🚀 Ferramentas, dicas e novidades úteis | 📈 Aprenda IA em 1 minuto por dia!"',
-              '• Por que funciona tão bem? É um posicionamento extremamente simples, focado em utilidade prática, com alto poder de retenção, altamente profissional, marcante e muito fácil para as pessoas memorizarem diária e organicamente.'
+              'Canal sugerido: IA Sem Limites. Bio sugerida: Inteligência Artificial Simplificada. Novidades e utilitários úteis para economizar horas de trabalho em um minuto por dia.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ganhar_dinheiro_online_tiktok',
         title: '💸 Estratégias de Sucesso para o Nicho Ganhar Dinheiro Online',
         content: [
-          'O nicho Ganhar Dinheiro Online continua sendo um dos mais procurados e lucrativos em 2026. Bilhões de pessoas buscam diariamente formas reais e honestas de criar uma renda extra usando apenas o celular e a força da internet.',
+          'O mercado de geração de renda na internet é um dos setores mais procurados e dinâmicos de toda a web.',
+          'A grande maioria das pessoas busca diariamente por métodos honestos, práticos e funcionais para construir novas fontes de renda utilizando e conciliando apenas um celular com conexão de dados.',
           {
             type: 'info',
-            title: '🎯 Subnichos de Alto Retorno que Você Pode Abordar',
+            title: '🎯 Subnichos Mais Relevantes e com Alto Volume de Busca',
             items: [
-              '• Freelancer para Iniciantes: Ensine como conseguir clientes, sites confiáveis para trabalhar online de casa e serviços digitais simples que qualquer pessoa pode aprender rapidamente.',
-              '• Marketing de Afiliados: Compartilhe o caminho de como vender produtos digitais de terceiros, estratégias para estruturar perfis de TikTok e como ganhar as melhores comissões.',
-              '• Inteligência Artificial Lucrativa: Divulgue ferramentas de IA úteis, guias práticos sobre como usar IA e prompts/automações estruturadas para acelerar o trabalho.',
-              '• Microtarefas e Aplicativos: Apresente aplicativos legítimos que pagam, sites de pesquisas altamente remuneradas de confiança e rotinas de testes de novos aplicativos.',
-              '• Criação de Negócios Digitais: Dicas práticas de criação de e-books, cursos online de nicho, templates úteis e infoprodutos autorais de baixo custo.'
+              'Freelancer para Iniciantes: Aborde a prestação de serviços simples, elaboração básica de materiais criativos e websites para trabalhar remotamente.',
+              'Marketing de Afiliados: Apresente o modelo de divulgação de infoprodutos, o posicionamento correto nas redes para alcançar compradores e como funciona o comissionamento.',
+              'Inovações com Software de IA: Mostre como economizar tempo na redação de textos, tradução de materiais e montagem de apresentações usando programas inovadores.',
+              'Microtarefas e Pesquisa Interativa: Liste portais de questionários avaliativos legítimos e guias simples para testar aplicativos com segurança.',
+              'Negócios Digitais Próprios: Metodologias práticas para formatar e-books informativos, templates funcionais e minicursos focados em dores reais.'
             ]
           },
           {
             type: 'steps',
-            title: '✨ Sugestões de Nomes Altamente Atrativos para Seu Canal',
+            title: 'Opções de Nomes Marcantes para o Canal',
             items: [
-              '• Escolha um nome marcante: Renda Digital 360, Dinheiro Online Hoje, Missão Renda Extra, Mundo da Renda Digital, Rumo aos 1000 Dólares, Dinheiro com Celular, Renda Inteligente, Internet que Paga, Ganhos Digitais ou Academia da Renda Online.'
+              'Renda Digital 360, Dinheiro Online Hoje, Missão Renda Extra, Mundo da Renda Digital, Rumo aos 1000 Dólares, Dinheiro com Celular, Renda Inteligente, Internet que Paga, Ganhos Digitais ou Academia da Renda Online.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 3 Opções de Bios Otimizadas com Alta Conversão',
+            title: 'Três Modelos de Bios Otimizadas de Alta Conversão',
             items: [
-              '• Opção 1: "💸 Aprenda a ganhar dinheiro online | 📱 Apenas com celular e internet | 🚀 Dicas diárias valiosas para iniciantes!"',
-              '• Opção 2: "🎯 Renda extra e negócios digitais | 📚 Conteúdo prático e simples para iniciantes | 💰 Transforme seu conhecimento em dinheiro!"',
-              '• Opção 3: "🔥 Ganhar dinheiro online em 2026 | 📱 Ferramentas de IA, automações e afiliados | 👇 Aprenda do absoluto zero!"'
+              'Aprenda a construir novas fontes de renda online utilizando apenas o celular. Dicas excelentes e práticas.',
+              'Renda extra e negócios digitais para iniciantes. Conteúdo estruturado para decolar sua jornada.',
+              'Empreendedorismo digital, ferramentas modernas de IA e afiliados. Comece do zero absoluto.'
             ]
           },
           {
-            type: 'info',
-            title: '🎬 10 Ideias de Vídeos Virais Prontos para Gravar',
+            type: 'steps',
+            title: 'Dez Sugestões de Roteiros e Ideias de Vídeos Virais',
             items: [
-              '• 01. "3 formas testadas de ganhar dinheiro de verdade usando apenas o celular."',
-              '• 02. "Sites legítimos que pouca gente conhece e pagam iniciantes em dólar."',
-              '• 03. "Como eu consegui meus primeiros clientes trabalhando online sem experiência."',
-              '• 04. "5 ferramentas fantásticas de IA que economizam horas de trabalho manual."',
-              '• 05. "Os maiores erros bobos que fazem iniciantes perderem bastante dinheiro na internet."',
-              '• 06. "Afinal de contas, quanto exatamente um freelancer iniciante consegue ganhar por mês?"',
-              '• 07. "Como estruturar e criar um e-book completo e vendável em apenas 1 dia."',
-              '• 08. "3 pequenos negócios digitais simples para começar do zero e sem nenhum investimento."',
-              '• 09. "Qual é, de verdade, o melhor nicho para começar a faturar em 2026?"',
-              '• 10. "Como estruturar sua estratégia para fazer sua primeiríssima venda online de forma rápida."'
+              'Métodos práticos e fáceis para gerar renda extra pelo seu celular em poucos instantes.',
+              'Websites confiáveis que remuneram trabalhos remotos simples em moeda forte.',
+              'Como criar seu currículo digital mesmo sem possuir portfólio anterior completo.',
+              'Ferramentas inteligentes e gratuitas que automatizam processos tediosos de trabalho.',
+              'Os erros mais frequentes de quem planeja vender online e como contorná-los com sucesso.',
+              'Quanto costuma receber um profissional independente de nível iniciante.',
+              'Como formatar, registrar e vender de forma otimizada o seu primeiro livro digital em uma tarde.',
+              'Ideias excelentes de negócios digitais para implementar de forma prática e descomplicada.',
+              'Os mercados digitais que vão dominar o volume de vendas no próximo semestre.',
+              'Como planejar de modo confiável o processo de atração no seu canal comercial.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Estratégia de Alto Crescimento Orgânico para Aplicar',
+            title: 'Boas Práticas de Entrega e Alcance',
             items: [
-              '• Volume Contínuo: Publique sem falta 3 vídeos por dia nos horários de maior pico das redes.',
-              '• Duração e Formato: Seus vídeos devem ter de 20 a 40 segundos, dinâmicos e com legendas grandes e centralizadas.',
-              '• Elemento de Engajamento: Finalize sempre os seus vídeos com um gancho ou pergunta indutiva, incentivando os comentários:',
-              '  - "Você testaria isso por uma semana?"',
-              '  - "Quer ver a Parte 2 completa com o passo a passo?"',
-              '  - "Comente \'GUIA\' aqui embaixo se você quer aprender como começar ainda hoje!"'
+              'Estabeleça uma regularidade confiável no agendamento de postagens para otimizar os índices orgânicos.',
+              'Use ganchos envolventes que mantenham a atenção nos primeiros segundos do vídeo para alavancar a distribuição algorítmica.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ganhar_dinheiro_nomes_bios_50_tiktok',
         title: '💎 50 Nomes, Bios e Calendário de 7 dias para Ganhar Dinheiro Online',
         content: [
-          'Se o seu foco for Ganhar Dinheiro Online, o ideal é que o nome do seu canal passe credibilidade, crescimento e oportunidade, gerando confiança imediata no público que busca novas fontes de renda.',
+          'No nicho de renda, o nome do canal deve refletir transparência, compromisso profissional e solidez.',
+          'Ao construir confiança logo no primeiro clique do visitante, você diminui incisivamente as taxas de rejeição e maximiza a retenção orgânica de inscritos.',
           {
             type: 'info',
-            title: '📋 50 Sugestões de Nomes Incríveis por Estilos',
+            title: '50 Nomes Categorizados por Vibes Clínicas e Criativas',
             items: [
-              '• 💼 Estilo Profissional: Renda Digital Pro, Academia da Renda, Mestre da Renda Online, Universo Digital, Renda Sem Fronteiras, Rota da Liberdade Financeira, Futuro Digital, Negócio Online Simples, Renda Online Global, Mente Milionária Digital.',
-              '• 🔥 Estilo Viral: Dinheiro no Celular, Missão Renda Extra, Internet que Paga, Fábrica de Dinheiro, Renda Todos os Dias, Segredo da Renda, Lucro Inteligente, Dinheiro Sem Patrão, Bora Ganhar Online, Método da Renda.',
-              '• 🌱 Estilo Motivacional: Comece do Zero, Projeto Liberdade, Jornada da Renda, Próximo Nível Digital, Sonho Digital, Caminho da Independência, Mentalidade de Sucesso, Evolução Financeira, Rumo ao Primeiro Milhão, A Virada Financeira.',
-              '• 🤖 Estilo IA + Dinheiro: IA Lucrativa, Dinheiro com IA, Futuro com IA, IA para Renda, Inteligência que Vende, Renda Automatizada, IA Sem Limites, IA e Negócios, Máquina de Lucros, IA Empreendedora.',
-              '• 🌍 Estilo Internacional: Digital Income Hub, Money Online Academy, Smart Income, Freedom Income, Digital Cash Flow, Online Wealth, Future Income, Digital Success, Online Profit Lab, Global Income.'
+              'Categoria Profissional: Renda Digital Pro, Academia da Renda, Mestre da Renda Online, Universo Digital, Renda Sem Fronteiras, Rota da Liberdade Financeira, Futuro Digital, Negócio Online Simples, Renda Online Global, Mente Milionária Digital.',
+              'Categoria Viral: Dinheiro no Celular, Missão Renda Extra, Internet que Paga, Fábrica de Dinheiro, Renda Todos os Dias, Segredo da Renda, Lucro Inteligente, Dinheiro Sem Patrão, Bora Ganhar Online, Método da Renda.',
+              'Categoria Motivacional: Comece do Zero, Projeto Liberdade, Jornada da Renda, Próximo Nível Digital, Sonho Digital, Caminho da Independência, Mentalidade de Sucesso, Evolução Financeira, Rumo ao Primeiro Milhão, A Virada Financeira.',
+              'Categoria Tecnológica: IA Lucrativa, Dinheiro com IA, Futuro com IA, IA para Renda, Inteligência que Vende, Renda Automatizada, IA Sem Limites, IA e Negócios, Máquina de Lucros, IA Empreendedora.',
+              'Categoria Global: Digital Income Hub, Money Online Academy, Smart Income, Freedom Income, Digital Cash Flow, Online Wealth, Future Income, Digital Success, Online Profit Lab, Global Income.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 5 Opções de Bios Otimizadas de Alta Conversão',
+            title: 'Cinco Modelos Práticos de Bios Estruturadas',
             items: [
-              '• Bio Opção 1: "💸 Ganhar dinheiro online do zero | 📱 Apenas celular + internet | 🚀 Dicas novas todos os dias!"',
-              '• Bio Opção 2: "🎯 Renda extra para iniciantes | 💰 Negócios digitais e IA | 👇 Aprenda e aplique!"',
-              '• Bio Opção 3: "🔥 Transforme seu celular em renda | 📚 Conteúdo simples e prático | 🚀 Comece hoje!"',
-              '• Bio Opção 4: "💵 Ideias de renda online | 🤖 Ferramentas de IA | 📈 Crescimento todos os dias!"',
-              '• Bio Opção 5: "🌍 Trabalhe para o mundo inteiro | 📱 Apenas com internet | 💰 Aprenda a ganhar online!"'
+              'Aprenda a empreender online a partir do zero absoluto. Utilizando apenas internet e persistência.',
+              'Renda extra e independência profissional. Dicas de afiliados, modelos prontos de IA e vendas.',
+              'Transforme o tempo livre em resultados digitais palpáveis. Passo a passo simplificado para iniciantes.',
+              'Métodos modernos de faturamento e produtividade digital. Conteúdo prático diariamente.',
+              'Abra sua atuação para receber oportunidades do mercado remoto global. Dicas profissionais de alto nível.'
             ]
           },
           {
             type: 'steps',
-            title: '📅 Calendário Completo de Conteúdo (Primeiros 7 Dias - 3 posts/dia)',
+            title: 'Plano Semanal de Postagens Rápidas (Estratégia diária)',
             items: [
-              '• 📅 Dia 1 — Fundamentos do Dinheiro:',
-              '  - Vídeo 1: "3 formas de ganhar dinheiro online em 2026"',
-              '  - Vídeo 2: "O maior erro crítico que faz iniciantes falharem na internet"',
-              '  - Vídeo 3: "Como começar a construir renda usando apenas seu celular"',
-              '• 📅 Dia 2 — O Universo Freelander:',
-              '  - Vídeo 1: "O que é um freelancer e como funciona na vida real?"',
-              '  - Vídeo 2: "Melhores sites para começar sem nenhuma experiência prévia"',
-              '  - Vídeo 3: "Afinal de contas, quanto ganha um freelancer iniciante?"',
-              '• 📅 Dia 3 — IA e o Futuro:',
-              '  - Vídeo 1: "Como a Inteligência Artificial pode gerar renda passiva para você"',
-              '  - Vídeo 2: "A ferramenta de IA gratuita que vai mudar o seu dia"',
-              '  - Vídeo 3: "Profissões do mercado digital que estão com alta demanda"',
-              '• 📅 Dia 4 — Produtos Digitais:',
-              '  - Vídeo 1: "Como criar e vender um e-book passo a passo em um dia"',
-              '  - Vídeo 2: "O que realmente é o marketing de afiliados de forma simples"',
-              '  - Vídeo 3: "Como estruturar e fazer a sua primeira venda online"',
-              '• 📅 Dia 5 — Captação de Clientes:',
-              '  - Vídeo 1: "5 habilidades fundamentais para aprender de forma rápida"',
-              '  - Vídeo 2: "Melhores pequenos trabalhos online para quem é totalmente iniciante"',
-              '  - Vídeo 3: "O passo a passo correto para abordar e conseguir seus primeiros clientes"',
-              '• 📅 Dia 6 — Ganhos em Dólar:',
-              '  - Vídeo 1: "Sites confiáveis que pagam tarefas simples em dólar"',
-              '  - Vídeo 2: "Como planejar e criar sua primeira renda extra de verdade"',
-              '  - Vídeo 3: "O futuro real do trabalho online e remoto para os próximos anos"',
-              '• 📅 Dia 7 — Plano Prático:',
-              '  - Vídeo 1: "Afinal, quanto tempo leva para começar a ganhar dinheiro online?"',
-              '  - Vídeo 2: "A minha principal dica secreta para quem está começando do zero absoluto"',
-              '  - Vídeo 3: "Um plano simples de 3 etapas fáceis para você começar ainda hoje!"'
+              'Segunda-feira: Métodos iniciais testados para estruturar suas primeiras ideias de negócios na web com baixo risco.',
+              'Terça-feira: Plataformas e portais consolidados que acolhem demandas simples de redação, digitação ou revisão.',
+              'Quarta-feira: Como usar tecnologias integradas de processamento de texto para estruturar soluções mais rápidas.',
+              'Quinta-feira: O modelo ideal de monetização de conteúdos informativos autorais em canais de nicho.',
+              'Sexta-feira: Habilidades digitais básicas e lucrativas que requerem poucos dias de dedicação inicial.',
+              'Sábado: Websites de confiança que enviam remunerações por testes regulados de usabilidade em software.',
+              'Domingo: Estruturação simplificada da rotina semanal de atração e engajamento.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Recomendação Recomendada de Posicionamento para 2026',
+            title: 'Sugestão Consolidada para Lançamento Rápido',
             items: [
-              '• Nome Escolhido: "Dinheiro no Celular"',
-              '• Bio Otimizada: "💸 Ganhar dinheiro online do zero | 📱 Apenas celular e internet | 🚀 Novas oportunidades todos os dias!"',
-              '• Por que essa escolha é perfeita? É um direcionamento prático, direto aos anseios do público iniciante, extremamente simples de memorizar, passa imensa curiosidade e facilita o crescimento rápido das suas postagens diárias nos algoritmos.'
+              'Canal Recomendado: Dinheiro no Celular. Bio Recomendada: Ganhar dinheiro online de forma honesta. Apenas celular e internet para acessar novas oportunidades diárias.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'nicho_marketing_digital_tiktok',
-        title: '🚀 Guia Completo: Como Dominar o Nicho de Marketing Digital',
+        title: '🔥 Estratégias Consolidadas para Marketing Digital',
         content: [
-          'O nicho de Marketing Digital continua extremamente forte e promissor em 2026. Milhões de pessoas buscam diariamente aprender a vender online, gerar faturamentos pela internet, criar conteúdos atrativos do zero ou prestar serviços profissionais como freelancer.',
+          'O Marketing Digital se apresenta como uma excelente disciplina profissional no panorama contemporâneo de negócios.',
+          'Empresas, comércios locais, influenciadores e prestadores de serviços de todos os setores precisam continuamente de soluções focadas em captação de clientes, copywriting, tráfego e mídia visual.',
           {
             type: 'info',
-            title: '🎯 Principais Subnichos do Marketing Digital para Dominar',
+            title: 'Subnichos Estratégicos com Elevada Demanda Comercial',
             items: [
-              '• Marketing de Afiliados: Como se afiliar e vender produtos físicos e infoprodutos online usando plataformas consolidadas como Hotmart, Kiwify, entre outras, sem precisar ter produto próprio.',
-              '• Ganhar Dinheiro Online & Renda Extra: Métodos práticos para prestar serviços freelancer iniciantes, gerar renda residual, realizar microtarefas estratégicas e fundar pequenos negócios digitais.',
-              '• Redes Sociais e Viralização: Estratégias táticas de captação e crescimento veloz no TikTok, Instagram Reels e YouTube Shorts explorando a entrega orgânica inteligente dos dias de hoje.',
-              '• Inteligência Artificial Aplicada a Negócios: Como dominar ferramentas modernas de IA, automatizar tarefas operacionais e acelerar em escala astronômica a criação de postagens, fotos e vídeos.',
-              '• Criação de Infoprodutos Autorais: Como projetar, cadastrar e vender e-books de nicho, cursos rápidos, newsletters por assinatura ou pequenos utilitários e templates digitais.'
+              'Marketing de Afiliação: Intermediação qualificada de infoprodutos com foco em campanhas de tráfego orgânico ou patrocinado.',
+              'Consolidação de Redes Sociais: Técnicas de postagem que aumentam a taxa de compartilhamento das marcas comerciais.',
+              'Automação com IA: Elaboração ágil de copys, cronogramas editoriais completos e imagens de alta qualidade.',
+              'Formatos de Infoprodutos: Criação e venda de e-books práticos e cursos objetivos focados em resolver dores de mercado.'
             ]
           },
           {
             type: 'steps',
-            title: '✨ Idéias de Nomes Criativos para a Nova Conta',
+            title: 'Marcas Criativas para seu Canal de Marketing',
             items: [
-              '• Nomes em Estilo Amigável e Direto: Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet, Jornada Digital.',
-              '• Nomes em Estilo mais Técnico e Corporativo: Digital Growth Academy, Next Level Marketing, Digital Expert Hub, Growth Masters, Online Business Lab, Marketing Vision, Digital Success Hub, Future Marketer.'
-            ]
-          },
-          {
-            type: 'steps',
-            title: '✍️ 3 Modelos de Bios Otimizadas de Elevada Conversão',
-            items: [
-              '• Bio Opção 1: "🚀 Marketing Digital para iniciantes | 💰 Renda online e afiliados | 📈 Dicas diárias de crescimento!"',
-              '• Bio Opção 2: "🔥 Aprenda a vender na internet | 💡 Conteúdo simples e prático | 🎯 Transforme conhecimento em renda!"',
-              '• Bio Opção 3: " 📲 Marketing Digital do zero | 🚀 Estratégias que funcionam | 💰 Aprenda e aplique!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '🎬 10 Ideias Prontas de Vídeo de Alto Engajamento Orgânico',
-            items: [
-              '• 01. 3 excelentes formas testadas para ganhar dinheiro online em 2026.',
-              '• 02. Como estruturar passo a passo a sua primeira venda autêntica como afiliado.',
-              '• 03. Os erros frequentes e cruciais que fazem iniciante desistir logo no primeiro mês.',
-              '• 04. Softwares e ferramentas 100% gratuitas indispensáveis para Marketing Digital.',
-              '• 05. O guia passo a passo definitivo para você crescer o seu perfil no TikTok saindo do absoluto zero.',
-              '• 06. Como projetar e criar o seu primeiríssimo produto digital sem investir nada.',
-              '• 07. Afinal de contas, quanto ganha em média de comissão um afiliado atuante hoje.',
-              '• 08. O que realmente é o tráfego orgânico e por que ele é perfeito para quem começa sem orçamento.',
-              '• 09. Como aproveitar de Inteligência Artificial para gerar roteiros e postagens diárias de forma automática.',
-              '• 10. Manual prático de quatro etapas rápidas para começar a trabalhar de casa usando apenas a internet.'
+              'Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet ou Jornada Digital.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Minha Recomendação Otimizada de Sucesso',
+            title: 'Dicas de Sucesso para Posicionamento Inicial',
             items: [
-              '• Como você quer decolar em resultados reais começando do zero absoluto e no celular, foque estrategicamente nesta combinação de ouro: "Marketing Digital + Ganhar Dinheiro Online + Inteligência Artificial".',
-              '• Por que este conjunto é simplesmente excepcional? Esses três tópicos unidos possuem uma busca diária astronômica, são fáceis de se criar roteiros cativantes sem precisar aparecer nas telas e permitem dar asas à sua imaginação sem ficar sem novas ideias de postagem diária.',
-              '  - Exemplo Recomendado de Atributos do Canal:',
-              '    - Nome Sugerido: "Renda Digital IA"',
-              '    - Bio Estruturada: "🚀 Ganhe dinheiro online | 🤖 IA + Marketing Digital | 💰 Dicas práticas todos os dias!"'
+              'Canal Escolhido: Digital Sem Limites. Bio: Marketing digital simplificado de forma prática. Conteúdo novo e focado em decolar marcas e negócios.',
+              'Priorize a demonstração rápida de execução nos primeiros segundos do vídeo para prender a atenção.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'marketing_digital_opcoes_nomes_bios_tiktok',
-        title: '🔥 Marketing Digital: +50 Nomes, 20 Bios e Ideias de Conteúdo',
+        title: '🔥 50 Nomes, Bios e Ideias de Conteúdo para Marketing Digital',
         content: [
-          'Se o seu nicho será o Marketing Digital, ter variedade de referências ajuda muito na criação da sua marca pessoal ou página faceless. Preparamos uma lista estendida com mais 50 nomes, 20 bios, usernames e ideias práticas!',
+          'Para atuar no marketing digital profissional, as redes do seu canal devem transmitir autoridade imediata e clareza de propósito.',
+          'A escolha de títulos sucintos e fáceis de lembrar maximiza a taxa de retorno de visitantes de forma substancial.',
           {
             type: 'info',
-            title: '🔥 50 Sugestões de Nomes para Canal de Marketing Digital',
+            title: '50 Nomes Categorizados para Canais de Marketing',
             items: [
-              '• 💼 Profissionais de Negócios: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
-              '• ⚡ Modernos e De Conexão: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
-              '• 💰 Focados em Ganhar Dinheiro: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
-              '• 🎯 Curtos, Memoráveis e de Alta Força: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
+              'Estilo de Autoridade: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
+              'Estilo Moderno: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
+              'Estilo Renda: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
+              'Estilo Curto: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
             ]
           },
           {
             type: 'steps',
-            title: '🚀 20 Bios Prontas e Impactantes para TikTok, Reels e Shorts (Escolha a sua)',
+            title: 'Cinco Modelos de Bios Prontas de Alta Performance',
             items: [
-              '• Bio 1: "💰 Marketing Digital do Zero | 🚀 Aprenda a vender online | 📈 Conteúdo novo todos os dias!"',
-              '• Bio 2: "🔥 Transforme conhecimento em renda | 📱 Marketing Digital simples | 💡 Dicas práticas diariamente!"',
-              '• Bio 3: "🚀 Crescimento nas redes sociais | 💰 Renda online | 🎯 Estratégias táticas para iniciantes!"',
-              '• Bio 4: "📈 Marketing Digital | 🤖 Ferramentas de IA | 💸 Ganhar dinheiro online no celular!"',
-              '• Bio 5: "🔥 Aprende habilidades digitais | 📲 Trabalhe de qualquer lugar pela internet | 🚀 Evolua todos os dias!"',
-              '• Bio 6: "💡 Marketing sem complicação | 📈 Cresça online de verdade | 💰 Construa sua renda digital!"',
-              '• Bio 7: "🚀 Conteúdo focado para empreendedores | 💰 Marketing Digital | 📚 Aprenda e aplique!"',
-              '• Bio 8: "📲 Dicas de vendas online rápidas | 🔥 Estratégias inteligentes de crescimento | 💸 Monetização digital!"',
-              '• Bio 9: "💰 Em busca de liberdade financeira | 📈 Marketing Digital | 🚀 Resultados e consistência real!"',
-              '• Bio 10: "🤖 IA + Marketing Digital | 📲 Conteúdo útil e dinâmico diário | 💡 Aprenda algo novo hoje!"',
-              '• Bio 11: "✨ Seu guia de marketing online | 🎯 Prático, direto e focado em vendas | 📈 Suba de nível!"',
-              '• Bio 12: "💸 Renda extra real na internet | 📱 Segredos de tráfego e conversão | 🧭 Comece do zero!"',
-              '• Bio 13: "🚀 Turbonegre os seus resultados | 💡 Dicas e truques de copy persuasiva | 🔥 Siga e evolua!"',
-              '• Bio 14: "🔥 Do zero ao primeiro infoproduto | 📦 Ebooks, afiliados e IA | 📈 Estratégias diárias!"',
-              '• Bio 15: "🤖 O futuro das vendas online com IA | 🚀 Ferramentas gratuitas diárias | 💡 Conteúdo simples!"',
-              '• Bio 16: "📈 Tráfego orgânico sem segredos | 💡 Vídeos curtos de alta retenção | 💰 Comece hoje!"',
-              '• Bio 17: "🔥 Mentalidade, marketing e faturamento | 🚀 Dicas diárias sem enrolação | 👇 Clique e saiba mais!"',
-              '• Bio 18: "📱 Freelance e renda online pelo celular | 💡 Ferramentas gratuitas essenciais | 📈 Siga já!"',
-              '• Bio 19: "🎯 Do zero aos resultados digitais | 💸 Estrutura simples de vendas | 🚀 Desafio de 30 dias!"',
-              '• Bio 20: "💡 Ideias inteligentes de negócios | 🤖 Ferramentas inovadoras de IA | 📈 Evolua sua mente!"'
+              'Aprenda marketing digital a partir do absoluto zero. Dicas práticas de tráfego, copywriting e vendas.',
+              'Estratégias simplificadas de conversão para decolar de forma rápida, honesta e estruturada.',
+              'Descubra as táticas comerciais que geram vendas consistentes em canais de infoprodutos.',
+              'O caminho do tráfego orgânico à comissão de afiliado. Métodos explicados de forma direta.',
+              'Seu portal de empreendedorismo. Dicas e ferramentas modernas do mercado digital para aplicar hoje.'
             ]
           },
           {
             type: 'steps',
-            title: '📌 Ideias de Usernames Disponíveis para se Inspirar',
+            title: 'Sugestões de Temas com Elevada Atração Orgânica',
             items: [
-              '• @MarketingDoZero, @DigitalSemLimites, @AcademiaDigital, @RendaOnlinePro, @ImpérioDigital, @MundoDoMarketing, @ClickMilionario, @MarketingTurbo, @DigitalVision, @RendaDigitalIA.'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Conteúdos Fundamentais que Você Pode Postar',
-            items: [
-              '• Como estruturar e fazer a sua primeiríssima venda online de forma rápida.',
-              '• Indicação de ferramentas inovadoras e gratuitas de IA para usar no celular.',
-              '• Sites confiáveis com cadastros abertos para freelancers iniciantes.',
-              '• O passo a passo completo de como planejar, criar e hospedar um e-book de nicho.',
-              '• Como trabalhar e ganhar dinheiro de forma constante com marketing de afiliados.',
-              '• Principais erros cometidos por quem começa no marketing digital e como evitá-los.',
-              '• Táticas e ganchos inteligentes de alta retenção para crescer no TikTok do zero.',
-              '• Como estruturar uma página de vendas persuasiva focada em conversão.',
-              '• Como vender no Instagram, TikTok e YouTube sem precisar aparecer (Modelo Faceless).',
-              '• Ideias práticas e detalhadas de pequenos negócios digitais para iniciantes.'
+              'Como decolar e estruturar a sua primeira venda como afiliado principiante de modo rápido.',
+              'As mais eficientes integrações gratuitas para qualificar contatos e leads comerciais.',
+              'Guia para prestar consultoria de mídias de forma simples a pequenos estabelecimentos locais.',
+              'Os principais erros estruturais que prejudicam o alcance orgânico dos seus vídeos curtos.',
+              'Como monitorar e encontrar tópicos em alta navegando de forma estratégica no mercado.',
+              'O modelo ideal de escrita persuasiva para engajar visualizadores de maneira sincera.'
             ]
           },
           {
             type: 'tips',
-            title: '⚡ Combinação Altamente Lucrativa e Forte para 2026',
+            title: 'Recomendação Recomendada para Começar',
             items: [
-              '• Nome do Canal Sugerido: "Digital Sem Limites"',
-              '• Bio Otimizada: "🚀 Marketing Digital do Zero | 💰 Renda Online e Afiliados | 🤖 IA para produtividade | 📈 Conteúdo diário e prático"',
-              '• Vantagem desse Posicionamento: Permite falar livremente sobre marketing digital geral, vendas de afiliados, utilidades de Inteligência Artificial, trabalhos de freelancing e renda extra no mesmo canal sem ficar engessado ou preso a um tema único e limitado!'
+              'Nome recomendado: Digital Sem Limites. Bio recomendada: Marketing digital do zero. Renda online, ferramentas modernas de IA e tráfego orgânico reunidos em dicas práticas diárias.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'nicho_freelancer_guia_completo_tiktok',
-        title: '💼 Guia do Freelancer: +30 Ideias, Nomes e Bios Prontas',
+        title: '💻 Guia Técnico Definitivo do Freelancer Independente',
         content: [
-          'O nicho de Freelancer está em crescimento constante porque milhões de pessoas buscam diariamente formas legítimas de obter renda online usando apenas um celular ou computador pessoal, sem depender de empregos tradicionais.',
+          'A prestação de serviços online independentes representa uma forma ágil e de alta conversão para monetizar competências digitais no mercado global.',
+          'Qualquer pessoa com acesso à internet pode atuar atendendo demandas comerciais básicas de tratamento de layouts, copywriting ou suporte estruturado para múltiplos clientes.',
           {
             type: 'info',
-            title: '📋 Sugestões de Nomes de Sucesso para Seu Canal Freelancer',
+            title: 'Linha Direcionadora para Atração do Público-Alvo',
             items: [
-              '• Estilo Profissional: Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global, Academia Freelancer.',
-              '• Estilo Moderno / Internacional: Freelance Hub, Digital Freelancer, Freelance Pro, Work Online BR, Freelancer Master, Next Freelancer, Freelance Vision, Smart Freelancer, Freedom Freelancer, Freelancer Elite.',
-              '• Estilo Curto e Prático para Redes: FreelanX, FreelanPro, WorkFlex, DigiFreela, FreelaTop, FreelaMax, FreelaUp, FreelaGO, FreelaNow, FreelaBox.'
+              'Dicas de plataformas idôneas e portais de contratação profissional em regimes fechados ou abertos.',
+              'Como projetar uma proposta de serviço clara, bem delimitada e profissional para fechar contratos rápidos.',
+              'Erros cruciais que diminuem suas avaliações de propostas e como contorná-los com segurança.',
+              'Utilização de assistentes inteligentes para agilizar a criação, revisão e entrega rápida de posts industriais.',
+              'Como formatar precificações acessíveis em pacotes mensais que atraem pequenos comerciantes locais.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 4 Modelos de Bios Magnéticas para Redes Sociais',
+            title: 'Marcas Simples para Posicionamento como Freelancer',
             items: [
-              '• Bio Modelo 1: "💻 Freelancer do Zero | 📈 Dicas para ganhar online | 🚀 Trabalhe de qualquer lugar!"',
-              '• Bio Modelo 2: "🌍 Trabalho Online | 💰 Renda Extra e Freelancer | 📚 Aprenda todos os dias!"',
-              '• Bio Modelo 3: "🚀 Transformando iniciantes em freelancers | 💻 Sites, clientes e renda online | 📍 Conteúdo diário e útil!"',
-              '• Bio Modelo 4: "💰 Ganhe dinheiro pela internet | 📱 Apenas celular e internet | 🔥 Freelancer para iniciantes!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Linhas Editoriais: O que Você Deve Postar no Canal',
-            items: [
-              '• Divulgação didática de plataformas legítimas para freelancers iniciantes.',
-              '• Roteiros e táticas inteligentes de como abordar e fechar o primeiro cliente.',
-              '• Alertas sobre erros bobos que fazem freelancers iniciantes perderem dinheiro.',
-              '• Pequenos trabalhos e microtarefas digitais que não exigem nenhuma experiência prévia.',
-              '• Tutoriais rápidos de como otimizar e criar um perfil profissional irresistível.',
-              '• Transparência de resultados: quanto realmente ganha e cobra um freelancer.',
-              '• Principais ferramentas gratuitas de Inteligência Artificial para acelerar entregas.',
-              '• Como prestar serviços e receber pagamentos de clientes internacionais em dólar.',
-              '• Alertas e dicas essenciais de como evitar fraudes ou golpes na internet.'
+              'Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global ou Academia Freelancer.'
             ]
           },
           {
             type: 'steps',
-            title: '🎬 30 Ideias de Vídeos Virais Prontos para Gravar',
+            title: 'Modelos de Bios de Alta Conversão para o Perfil',
             items: [
-              '• 01. 3 sites seguros que pagam freelancers iniciantes pontualmente.',
-              '• 02. Como faturar os seus primeiros 500 MT online com tarefas simples do dia.',
-              '• 03. Trabalhos online que pagam bem e exigem zero experiência prévia de mercado.',
-              '• 04. O erro bobo e crucial que quase me fez perder clientes importantes.',
-              '• 05. Como estruturar uma descrição e perfil de portfólio irresistível.',
-              '• 06. 5 habilidades digitais fáceis que mais vão vender serviços em 2026.',
-              '• 07. Como trabalhar de casa prestando serviços para o mundo inteiro.',
-              '• 08. O passo a passo simples de como receber pagamentos internacionais de forma segura.',
-              '• 09. Descubra qual é o melhor e mais bem pago subnicho freelancer hoje.',
-              '• 10. Ferramentas totalmente gratuitas que facilitam o dia a dia do trabalho freelance.',
-              '• 11. Como usar ferramentas de IA de forma ética para entregar trabalhos três vezes mais rápido.',
-              '• 12. 3 caminhos comprovados para começar a ganhar faturamentos reais em dólar.',
-              '• 13. Afinal de contas, quanto deve cobrar um freelancer totalmente iniciante por peça?',
-              '• 14. Melhores portais e sites confiáveis recomendados para microtarefas rápidas.',
-              '• 15. Como captar excelentes clientes usando o poder de vídeos do TikTok.',
-              '• 16. Estratégia de atração de marcas utilizando grupos relevantes no Facebook.',
-              '• 17. Como criar e vender designs incríveis sem saber desenhar do zero absoluto.',
-              '• 18. Como escrever textos persuasivos e artigos interessantes para marcas corporativas.',
-              '• 19. O que você deve obrigatoriamente realizar e aprender nos primeiros 30 dias.',
-              '• 20. Comparação sincera: Freelancer independente vs Emprego CLT tradicional.',
-              '• 21. Como escrever mensagens e propostas comerciais altamente vencedoras para clientes.',
-              '• 22. O grande segredo por trás dos freelancers profissionais que faturam alto todos os meses.',
-              '• 23. Top 5 nichos mais lucrativos e promissores para prestar serviços no computador.',
-              '• 24. Trabalhos online leves para executar usando somente a tela do seu celular.',
-              '• 25. Como estruturar um portfólio visual excelente mesmo sem ter tido nenhum cliente anterior.',
-              '• 26. O ranking do melhor site internacional de freelancing para cadastrar iniciantes hoje.',
-              '• 27. Métodos práticos para identificar e fugir de fraudes ou propostas suspeitas na web.',
-              '• 28. Como valorizar sua imagem profissional e subir de forma justa os seus preços de serviço.',
-              '• 29. Táticas de abordagem fria para atrair e fechar com clientes no exterior.',
-              '• 30. Afinal, qual é o teto máximo de quanto um freelancer focado consegue ganhar por mês?'
+              'Aprenda como decolar seu portfólio de freelancer a partir do zero absoluto. Métodos profissionais e dicas práticas diárias.',
+              'Trabalho online prático. Como usar a sua internet para prestar serviços simples de forma remota.',
+              'Sua jornada de freelancer independente começou de graça. Métodos e ferramentas essenciais explicados para iniciantes.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Minha Recomendação Ouro de Consistência e Alta Retenção',
+            title: 'Recomendação Estratégica Completa para Resultados Rápidos',
             items: [
-              '• Durante os primeiros 30 dias seguidos, sem falhar nenhuma data, publique rigorosamente 3 vídeos por dia no seguinte padrão equilibrado:',
-              '  - 1 vídeo contendo uma dica útil ultrarrápida de freelancer.',
-              '  - 1 vídeo contando uma história motivacional inspiradora sobre o mundo digital.',
-              '  - 1 vídeo tutorial dinâmico na tela mostrando por dentro um site ou utilitário prático.',
-              '• Essa variedade saudável mantém as suas chances de impulsionamento e crescimento orgânico no ápice máximo!'
-            ]
-          },
-          {
-            type: 'tips',
-            title: '💎 Recomendação Pronta de Posicionamento para você decolar',
-            items: [
-              '• Nome do Canal: "Freelancer do Zero"',
-              '• Bio Otimizada: "💻 Aprenda Freelancer do Zero | 🌍 Trabalhe para clientes do mundo inteiro | 💰 Dicas diárias de renda online | 🚀 Conteúdo novo todos os dias!"',
-              '• Por que este é o posicionamento definitivo? Ele atrai uma audiência altamente qualificada, gera uma conexão sincera com os desejos do público iniciante e dá uma tremenda flexibilidade para seus temas cotidianos.'
+              'Canal Sugerido: Freelancer do Zero. Bio Sugerida: Aprenda a atuar como freelancer do absoluto zero. Dicas de faturamento remoto recebendo em moeda forte com passos descomplicados.'
             ]
           }
         ]
@@ -3801,6 +3642,170 @@ export const APP_CONTENT_PT: SectionContent[] = [
             ]
           },
           'Lembre-se sempre: A maioria das pessoas falha porque busca atalhos, hacks milagrosos ou desiste nos primeiros dias. Quem posta valor real de forma contínua por meses colhe frutos inacreditáveis e edifica uma sólida estrutura de faturamento digital.'
+        ]
+      },
+      {
+        id: 'nicho_financas_pessoais_tiktok',
+        title: '💰 Finanças Pessoais: Segredo do Sucesso em 2026',
+        content: [
+          'Excelente nicho! Finanças Pessoais é um dos melhores nichos para crescer em 2026 porque ajuda as pessoas a economizar, investir e organizar o dinheiro.',
+          {
+            type: 'info',
+            title: '💡 Ideias de Nomes para o Canal',
+            items: [
+              'Dinheiro Inteligente',
+              'Rota da Liberdade Financeira',
+              'Finanças Sem Segredos',
+              'Vida Financeira',
+              'Mente Milionária',
+              'Poupança Inteligente',
+              'Futuro Rico',
+              'Dinheiro em Ação',
+              'Meta Financeira',
+              'Academia do Dinheiro',
+              'Crescimento Financeiro',
+              'Jovem Investidor',
+              'Segredo das Finanças',
+              'Educação Financeira Fácil',
+              'Riqueza Passo a Passo'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📋 Bios Otimizadas para TikTok, Instagram ou YouTube',
+            items: [
+              'Bio 1: Dicas de finanças pessoais. Aprenda a cuidar do seu dinheiro. Rumo à liberdade financeira.',
+              'Bio 2: Economizar, Investir, Crescer. Educação financeira para iniciantes. Um passo por dia rumo à riqueza.',
+              'Bio 3: Finanças simples para todos. Dicas práticas e rápidas. Aprenda a fazer o dinheiro trabalhar para você.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📈 Conteúdos Relevantes para Postar',
+            items: [
+              'Erros financeiros que te deixam pobre',
+              'Como fazer um orçamento mensal',
+              'Como economizar dinheiro todos os dias',
+              'Hábitos das pessoas financeiramente inteligentes',
+              'Como sair das dívidas',
+              'O que é investir?',
+              'Diferença entre ativo e passivo',
+              'Como criar uma reserva de emergência',
+              'Livros sobre finanças que mudam vidas',
+              'Como aumentar sua renda'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎬 Roteiro Curto de Alta Conversão',
+            items: [
+              'Gancho: "Se você faz isso com seu dinheiro, está perdendo riqueza sem perceber."',
+              'Desenvolvimento: "Muitas pessoas gastam primeiro e guardam o que sobra. Pessoas financeiramente inteligentes fazem o contrário: guardam primeiro e gastam o restante."',
+              'Final: "Comece hoje guardando 10% do que ganha e veja a diferença ao longo do tempo."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🔥 Plano de Crescimento e Consistência',
+            items: [
+              'Poste 3 vídeos por dia.',
+              'Vídeos entre 15 e 45 segundos.',
+              'Use legendas grandes.',
+              'Termine sempre com uma pergunta.',
+              'Publique todos os dias durante 90 dias.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💬 10 Frases Virais para atrair Atenção',
+            items: [
+              'Quem controla o dinheiro controla o próprio futuro.',
+              'Não é quanto você ganha, mas quanto consegue guardar.',
+              'Cada moeda economizada compra liberdade.',
+              'O hábito vale mais que a sorte.',
+              'Ricos investem, pobres apenas gastam.',
+              'Seu futuro financeiro começa hoje.',
+              'Pequenas economias geram grandes resultados.',
+              'Dinheiro é uma ferramenta, não um objetivo.',
+              'Aprenda sobre dinheiro ou trabalhe para quem aprendeu.',
+              'A melhor hora para organizar suas finanças é agora.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'nicho_financas_plano_30_dias_tiktok',
+        title: '📅 Plano de 30 Dias - Finanças Pessoais',
+        content: [
+          'Plano de 30 Dias – Canal de Finanças Pessoais\n\nObjetivo: Crescer o canal, ganhar seguidores e criar autoridade no nicho de finanças pessoais.',
+          {
+            type: 'steps',
+            title: '🌱 Semana 1 – Organização Financeira',
+            items: [
+              'Dia 1\n• Vídeo 1: 5 erros que fazem você perder dinheiro\n• Vídeo 2: Como criar um orçamento simples\n• Vídeo 3: O segredo de quem sempre tem dinheiro guardado',
+              'Dia 2\n• Vídeo 1: O que é educação financeira?\n• Vídeo 2: Gastos que parecem pequenos mas destroem seu orçamento\n• Vídeo 3: Regra 50-30-20 explicada',
+              'Dia 3\n• Vídeo 1: Como economizar mesmo ganhando pouco\n• Vídeo 2: O desafio de guardar dinheiro por 30 dias\n• Vídeo 3: Hábitos financeiros das pessoas bem-sucedidas',
+              'Dia 4\n• Vídeo 1: O que é reserva de emergência?\n• Vídeo 2: Quanto dinheiro guardar por mês?\n• Vídeo 3: O maior erro dos iniciantes',
+              'Dia 5\n• Vídeo 1: Como controlar despesas pelo celular\n• Vídeo 2: Por que nunca sobra dinheiro para você?\n• Vídeo 3: O poder dos pequenos hábitos',
+              'Dia 6\n• Vídeo 1: Como evitar compras por impulso\n• Vídeo 2: A diferença entre necessidade e desejo\n• Vídeo 3: Como planejar metas financeiras',
+              'Dia 7\n• Vídeo 1: Revisão da semana\n• Vídeo 2: Minha dica número 1 para economizar\n• Vídeo 3: Perguntas e respostas'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🧠 Semana 2 – Mentalidade Financeira',
+            items: [
+              'Dia 8\n• Como as pessoas ricas pensam sobre dinheiro\n• O mito do enriquecimento rápido\n• O poder da disciplina',
+              'Dia 9\n• Frases que mantêm pessoas pobres\n• Mentalidade de crescimento\n• Como desenvolver inteligência financeira',
+              'Dia 10\n• O que aprendi sobre dinheiro\n• Hábitos para melhorar sua vida financeira\n• Como definir objetivos financeiros',
+              'Dia 11\n• Por que algumas pessoas nunca prosperam\n• O segredo da consistência\n• Como evitar dívidas',
+              'Dia 12\n• O valor do tempo e do dinheiro\n• Como criar novas fontes de renda\n• O erro de viver apenas do salário',
+              'Dia 13\n• Como parar de desperdiçar dinheiro\n• O que fazer antes de comprar algo\n• O poder da paciência financeira',
+              'Dia 14\n• Revisão da semana\n• Top 5 lições financeiras\n• Respostas aos seguidores'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💰 Semana 3 – Ganhar Mais Dinheiro',
+            items: [
+              'Dia 15\n• Como começar como freelancer\n• Serviços que você pode vender online\n• Primeiros passos para renda extra',
+              'Dia 16\n• Trabalhos online para iniciantes\n• Como conseguir o primeiro cliente\n• Erros de quem começa',
+              'Dia 17\n• Ideias de renda extra\n• Como vender serviços na internet\n• Como criar um perfil profissional',
+              'Dia 18\n• O que é marketing digital\n• Como usar IA para ganhar dinheiro\n• Oportunidades online em 2026',
+              'Dia 19\n• Como transformar habilidades em renda\n• O segredo dos freelancers de sucesso\n• Como aumentar seus ganhos',
+              'Dia 20\n• Fontes de renda passiva\n• Como vender produtos digitais\n• Como criar um ebook simples',
+              'Dia 21\n• Revisão da semana\n• Histórias inspiradoras\n• Perguntas e respostas'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📈 Semana 4 – Crescimento Financeiro',
+            items: [
+              'Dia 22\n• Como começar a investir\n• Conceitos básicos para iniciantes\n• Erros comuns dos iniciantes',
+              'Dia 23\n• O poder dos juros compostos\n• Como o dinheiro cresce com o tempo\n• A importância da paciência',
+              'Dia 24\n• Como definir metas de riqueza\n• Planejamento financeiro de longo prazo\n• O caminho da liberdade financeira',
+              'Dia 25\n• Como criar um plano financeiro\n• O que fazer com renda extra\n• Estratégias de crescimento',
+              'Dia 26\n• Livros que mudam a relação com dinheiro\n• Aprendizados financeiros importantes\n• Como continuar aprendendo',
+              'Dia 27\n• O que eu faria se estivesse começando do zero\n• Plano para os próximos 12 meses\n• Como acelerar resultados',
+              'Dia 28\n• Top erros financeiros\n• Top hábitos financeiros\n• Top lições do canal',
+              'Dia 29\n• Resumo do mês\n• Resultados alcançados\n• Próximos objetivos',
+              'Dia 30\n• Motivação financeira\n• Como continuar evoluindo\n• Convite para acompanhar o canal'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📋 Sugestão de Bio Profissional',
+            items: [
+              '💰 Finanças Pessoais para Iniciantes\n📈 Aprenda a economizar e crescer\n🎯 Rumo à liberdade financeira\n🚀 Vídeos novos todos os dias'
+            ]
+          },
+          {
+            type: 'info',
+            title: '👑 Nome que Recomendo',
+            items: [
+              'Dinheiro Inteligente\n\nÉ simples, profissional, fácil de lembrar e combina com TikTok, Instagram, YouTube e Facebook.'
+            ]
+          }
         ]
       }
     ]
@@ -5450,529 +5455,370 @@ export const APP_CONTENT_PT: SectionContent[] = [
           }
         ]
       },
-      {
+            {
         id: 'ia_potencial_crescimento_meta',
         title: '🤖 Dominando o Nicho de Inteligência Artificial',
         content: [
-          'O nicho de Inteligência Artificial (IA) continua em crescimento explosivo e oferece um potencial colossal de alcance e engajamento orgânico no TikTok, Reels e YouTube Shorts.',
-          'O melhor é que você não precisa ser um programador ou especialista técnico. Você pode iniciar compartilhando ferramentas incríveis de IA e novos aplicativos que facilitam a vida cotidianamente.',
+          'O nicho de Inteligência Artificial (IA) continua em crescimento explosivo, oferecendo um excelente potencial de alcance e engajamento orgânico nas principais redes sociais.',
+          'Para iniciar, você não precisa ser um programador ou engenheiro de software. É perfeitamente possível e lucrativo criar conteúdo focado no compartilhamento de utilitários práticos, ferramentas inovadoras e soluções simples que facilitam o dia a dia.',
+          'Com isso, você atrai um público altamente qualificado interessado em automação, produtividade e novas tecnologias.',
           {
             type: 'info',
-            title: '💡 O que Postar em uma Página de Inteligência Artificial?',
+            title: '💡 Linha Editorial: O que publicar em sua página',
             items: [
-              '• Apresentação de ferramentas de IA inovadoras e totalmente gratuitas.',
-              '• Divulgação de sites inteligentes que automatizam tarefas e trabalhos automaticamente.',
-              '• Aplicativos móveis potentes para elevar a produtividade pessoal.',
-              '• Ferramentas de IA para a criação rápida de vídeos e roteiros.',
-              '• Geradores de imagens artísticas realistas ou ilustrações por IA.',
-              '• Métodos pragmáticos de como usar IA para gerar novas fontes de renda online.',
-              '• Notícias quentes, grandes novidades e lançamentos do ecossistema de inteligência artificial.',
-              '• Tutoriais rápidos e dinâmicos de 30 a 60 segundos mostrando o passo a passo de uso.'
+              'Apresentação de ferramentas úteis que resolvem problemas reais de produtividade.',
+              'Demonstração de sites que automatizam tarefas e processos automaticamente de forma intuitiva.',
+              'Análises de aplicativos móveis eficientes para aumentar a produtividade pessoal.',
+              'Tutoriais práticos sobre sistemas de IA para criação de roteiros e vídeos rápidos.',
+              'Exemplos de geradores de imagens realistas e ilustrações digitais sofisticadas.',
+              'Métodos pragmáticos de monetização e prestação de serviços com auxílio tecnológico.',
+              'Novidades, tendências de mercado e lançamentos relevantes do ecossistema de software.',
+              'Guias rápidos e descomplicados de 30 a 60 segundos com fluxos passo a passo.'
             ]
           },
           {
             type: 'steps',
-            title: '🔥 Sugestões de Nomes para a Página',
+            title: '🔥 Nomes Sugeridos para o seu Perfil',
             items: [
-              '• Sugestões Ideais: IA Sem Limites, Mundo IA, IA Fácil, Universo IA, IA Para Todos, Futuro com IA, IA em Minutos, Mestre da IA, IA Lucrativa, Segredos da IA.'
+              'IA Sem Limites — Nome simples, direto e de excelente memorização.',
+              'Universo IA — Ideal para abordar múltiplas categorias de ferramentas.',
+              'IA Fácil — Atrai o público iniciante interessado em simplificar processos.',
+              'Futuro com IA — Excelente posicionamento profissional e focado em inovação.',
+              'Mestre da IA — Passa autoridade imediata no compartilhamento de utilitários.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ Opções de Bios Magnéticas para o Perfil',
+            title: 'Modelos de Bios Magnéticas para Redes Sociais',
             items: [
-              '• Opção 1: "🤖 Inteligência Artificial todos os dias | 🚀 Ferramentas e dicas extremamente úteis | 📈 Aprenda e evolua com IA!"',
-              '• Opção 2: "💡 Descubra o real poder da IA | 🔥 Sites e apps incríveis que facilitam a vida | 🎯 Conteúdo simples, útil e rápido!"',
-              '• Opção 3: "🤖 IA + Produtividade + Dinheiro Online | 📱 Ferramentas totalmente gratuitas | 🚀 Vídeos instrutivos diários!"'
+              'Inteligência Artificial Direta. Ferramentas e dicas práticas para evoluir seu cotidiano.',
+              'Descubra a praticidade da Inteligência Artificial. Soluções e utilitários que facilitam a sua vida.',
+              'Tecnologia, Produtividade e Negócios. Ferramentas gratuitas e dicas em tutoriais rápidos.'
             ]
           },
           {
             type: 'steps',
-            title: '🎬 10 Ideias de Vídeos para Iniciar Imediatamente',
+            title: '10 Temas Práticos de Vídeos Curtos para Iniciar de Forma Imediata',
             items: [
-              '• 01. "3 ferramentas de IA incríveis e gratuitas que parecem pura magia!"',
-              '• 02. "Este site inovador cria imagens ultra-realistas em segundos."',
-              '• 03. "Como utilizar IA de forma inteligente para estudar melhor e reter conteúdo."',
-              '• 04. "A IA que monta apresentações de slides profissionais de forma 100% automática."',
-              '• 05. "5 ferramentas fantásticas de IA que absolutamente todo estudante precisa conhecer."',
-              '• 06. "Como criar vídeos altamente virais na internet sem precisar aparecer."',
-              '• 07. "A melhor Inteligência Artificial totalmente gratuita de 2026: Moneynet Ai!"',
-              '• 08. "Como projetar e criar um logo profissional usando apenas ferramentas de IA."',
-              '• 09. "Economize horas de trabalho e ganhe tempo livre usando estas ferramentas de IA diárias."',
-              '• 10. "Esta ferramenta única substitui com folga 5 aplicativos que você usa hoje."'
+              'Três utilitários excelentes de Inteligência Artificial que economizam dezenas de horas de trabalho.',
+              'Como usar este site inovador para criar designs e ilustrações sob medida.',
+              'Dicas práticas para usar assistentes digitais nos estudos e fixação de novos conhecimentos.',
+              'Como criar apresentações de slides dinâmicas de modo prático e automático.',
+              'Cinco ferramentas gratuitas essenciais de produtividade para todo estudante profissional.',
+              'A melhor Inteligência Artificial para otimizar suas finanças pessoais: MoneyNet AI.',
+              'Como planejar e criar uma logo de alto padrão em poucos minutos com ajuda de software.',
+              'Automações simples na planilha do computador para ganhar tempo livre todos os dias.',
+              'Este utilitário integrado substitui com folga múltiplos aplicativos pesados no seu aparelho celular.',
+              'Como resumir relatórios e textos extensos de forma extremamente rápida.'
             ]
           },
           {
             type: 'info',
-            title: '🎬 Estrutura Passo a Passo do Vídeo Curto Viral',
+            title: 'Estrutura Dinâmica de Roteiro Viral para Vídeos',
             items: [
-              '• 1. Gancho Magnético (Primeiros 3 segundos): "Você ainda não conhece esta IA incrível e gratuita da MoneyNet Ai?" (Desperte a urgência e curiosidade instantaneamente).',
-              '• 2. Conteúdo de Valor (Aprox. 20 segundos): Mostre de forma ágil e objetiva a tela do computador ou celular, demonstrando o que a ferramenta faz e o benefício direto.',
-              '• 3. Chamada para Ação (Aprox. 5 segundos): "Siga a página agora mesmo para mais dicas diárias de ferramentas de IA!"'
+              'Gancho de Atenção: Conecte urgentemente com uma necessidade humana real nos primeiros três segundos, como "Você ainda não utiliza esta ferramenta?"',
+              'Demonstração Prática: Apresente o benefício central na tela do seu aparelho, mostrando o passo a passo com cortes rápidos e objetivos de edição.',
+              'Chamada para Ação: Peça para os espectadores acompanharem o perfil para receber atualizações e novidades valiosas todos os dias.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Estratégia Prática para os Primeiros 30 Dias',
+            title: 'Recomendações de Otimização Orgânica nos Primeiros 30 Dias',
             items: [
-              '• Frequência Ativa: Poste com consistência 3 vídeos curtos diariamente para acelerar a distribuição.',
-              '• Recursos Visuais: Utilize legendas grandes, de ótima legibilidade e centralizadas.',
-              '• Duração Ideal: Mantenha os vídeos objetivos, com cortes rápidos, entre 20 e 45 segundos de duração total.',
-              '• Foco Inicial: Fale e priorize ferramentas funcionais gratuitas, pois elas atraem muito mais interesse e acessos.',
-              '• Interação Inteligente: Responda ativamente a perguntas e comentários criando novos vídeos com a resposta.',
-              '• Direcionamento por Métricas: Monitore detalhadamente quais vídeos ganharam mais tração e produza mais conteúdos similares.'
+              'Mantenha consistência diária nas postagens para treinar a entrega orgânica das plataformas.',
+              'Adicione legendas grandes, de excelente legibilidade e centralizadas perto do foco visual.',
+              'Priorize o compartilhamento de utilitários gratuitos, pois geram muito mais compartilhamentos.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ia_calendario_nomes_bios_meta',
         title: '💡 Planejamento de IA: 30 Nomes, Bios e Calendário Prático',
         content: [
-          'Se você deseja criar e crescer uma página focada em Inteligência Artificial com imenso potencial de crescimento orgânico, escolher um nome simples, marcante e associado ao futuro e à tecnologia é crucial.',
+          'Uma identidade visual limpa e uma assinatura simples são os principais pilares para estabelecer autoridade profissional rápida no nicho tecnológico.',
+          'O segredo para se destacar consiste em evitar nomes de difícil escrita ou termos técnicos complexos, facilitando o compartilhamento boca a boca de forma orgânica.',
           {
             type: 'info',
-            title: '📋 30 Sugestões de Nomes Criativos para Página de IA',
+            title: '30 Ideias de Nomes Criativos por Categorias',
             items: [
-              '• Fáceis e Memoráveis: IA Sem Limites, Universo IA, Mundo da IA, IA Master, IA Digital, IA em Minutos, Futuro Inteligente, IA Total, IA Explosiva, Segredos da IA.',
-              '• Alto Impacto e Lucro: IA Lucrativa, IA Global, IA Prática, Central da IA, Academia IA, IA Pro, IA Viral, IA Fácil, IA Infinita, IA Hoje.',
-              '• Tecnológicos e Futuro: IA 360, IA do Futuro, Revolução IA, IA Premium, Geração IA, IA Inteligente, IA Agora, Top IA, IA Sem Fronteiras, Império da IA.'
+              'Estilo Direto: IA Sem Limites, Universo IA, Mundo da IA, IA Master, IA Digital.',
+              'Estilo Prático: IA em Minutos, Futuro Inteligente, IA Total, IA Explosiva, Segredos da IA.',
+              'Estilo Empreendedor: IA Lucrativa, IA Global, IA Prática, Central da IA, Academia IA.',
+              'Estilo Premium: IA Pro, IA Viral, IA Fácil, IA Infinita, IA Hoje.',
+              'Estilo Futurista: IA 360, IA do Futuro, Revolução IA, IA Premium, Geração IA.',
+              'Estilo Autêntico: IA Inteligente, IA Agora, Top IA, IA Sem Fronteiras, Império da IA.'
             ]
           },
           {
             type: 'info',
-            title: '👔 Opções de Nomes Mais Profissionais / Corporativos',
+            title: 'Alternativas Corporativas para Posicionamento Profissional',
             items: [
-              '• Sugestões Premium: IA Global Hub, NextGen AI, AI Discovery, AI Vision, AI Evolution, AI Trends, AI Academy, Future AI, Smart AI, AI Empire.'
+              'IA Global Hub, NextGen AI, AI Discovery, AI Vision, AI Evolution, AI Trends, AI Academy, Future AI, Smart AI, AI Empire.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 5 Modelos de Bios Otimizadas para o TikTok, Reels e Shorts',
+            title: 'Cinco Modelos de Bios Otimizadas',
             items: [
-              '• Bio 1: "🤖 Dicas de Inteligência Artificial | 🚀 Ferramentas incríveis todos os dias | 📈 Aprenda algo novo diariamente!"',
-              '• Bio 2: "💡 IA para iniciantes | 🔥 Apps e sites poderosos | 🎯 Conteúdo diário e prático!"',
-              '• Bio 3: "🤖 O futuro começou | 📱 Ferramentas de IA gratuitas | 🚀 Vídeos novos todos os dias!"',
-              '• Bio 4: "⚡ IA + Produtividade | 💰 IA para negócios e renda online | 🎓 Aprenda de forma simples!"',
-              '• Bio 5: "🌍 Descobrindo as melhores IAs | 🤖 Tutoriais rápidos | 🚀 Evolua com tecnologia!"'
+              'Dicas de Inteligência Artificial. Ferramentas incríveis lançadas diariamente para otimizar sua rotina.',
+              'IA descomplicada para iniciantes. Conheça as melhores soluções e aplicativos práticos.',
+              'O futuro começou. Aprenda a aplicar ferramentas inovadoras no seu trabalho e estudos.',
+              'Tecnologia e alto rendimento. Transformando conhecimento prático em produtividade.',
+              'Descubra as mais recentes ferramentas inteligentes em tutoriais úteis de um minuto.'
             ]
           },
           {
             type: 'steps',
-            title: '📅 Calendário Completo de Postagens para 30 Dias (Passo a Passo)',
+            title: 'Calendário de Amostragem de Conteúdo para 30 Dias (Distribuição Estruturada)',
             items: [
-              '• 📂 Semana 1 - Introdução e Utilidades de Impacto:',
-              '  - Dia 1: 5 IAs gratuitas que todos deveriam conhecer (por exemplo, MoneyNet Ai, Canva, ChatGPT...).',
-              '  - Dia 2: A melhor IA que cria imagens fantásticas e realistas em segundos.',
-              '  - Dia 3: IA impressionante que faz o resumo completo de livros automaticamente.',
-              '  - Dia 4: Inteligência Artificial incrível que cria apresentações inteiras em minutos.',
-              '  - Dia 5: Ferramentas de IA fantásticas que salvam qualquer estudante nas tarefas.',
-              '  - Dia 6: Como utilizar IA descomplicada para criar vídeos virais sem aparecer.',
-              '  - Dia 7: Lista atualizada das melhores IAs gratuitas e indispensáveis de 2026.',
-              '• 📂 Semana 2 - Produtividade e Utilidades para Negócios:',
-              '  - Dia 8: IA incrível que cria logos de marcas profissionais instantaneamente.',
-              '  - Dia 9: Como usar IA estruturada para escrever posts e textos altamente persuasivos.',
-              '  - Dia 10: Inteligência Artificial excelente para aprender inglês conversando pelo celular.',
-              '  - Dia 11: Editor de fotos impulsionado por IA que remove objetos e melhora o foco.',
-              '  - Dia 12: As melhores IAs que organizam e aumentam a sua produtividade no trabalho.',
-              '  - Dia 13: Ferramentas de IA que todo empreendedor precisa começar a aplicar hoje.',
-              '  - Dia 14: Top 5 sites secretos de IA que vão explodir sua mente.',
-              '• 📂 Semana 3 - Criação de Conteúdo e Redes Sociais:',
-              '  - Dia 15: Ferramentas altamente secretas de IA que quase ninguém conhece.',
-              '  - Dia 16: IA focada em ajudar estudantes do ensino médio à universidade.',
-              '  - Dia 17: Sites de IA mais procurados e amados por criadores de conteúdo do mundo.',
-              '  - Dia 18: Como extrair o poder das IAs para acelerar e otimizar vídeos de YouTube.',
-              '  - Dia 19: Ferramentas de IA que facilitam demais a viralização de vídeos no TikTok.',
-              '  - Dia 20: Como criar imagens, carrosséis e posts automáticos de IA para o Instagram.',
-              '  - Dia 21: A IA secreta que faz tarefas tão bem que até parece mágica.',
-              '• 📂 Semana 4 - Especialização, Áudios e Tendências:',
-              '  - Dia 22: Ferramentas raras de IA pouco conhecidas e extremamente úteis.',
-              '  - Dia 23: IA excelente para gerar voz sintética profissional ou clonagem de voz.',
-              '  - Dia 24: Inteligência Artificial que cria músicas e batidas completas do zero.',
-              '  - Dia 25: Truques fundamentais de IA para criar designs e imagens super realistas.',
-              '  - Dia 26: Dicas avançadas de IA para explodir suas horas de lazer e produtividade.',
-              '  - Dia 27: As melhores e mais leves extensões de IA para usar no seu navegador.',
-              '  - Dia 28: A ferramenta inteligente que você deveria obrigatoriamente estar usando hoje.',
-              '  - Dia 29: Um vislumbre prático do futuro e as grandes tendências globais de IA para 2026.',
-              '  - Dia 30: O ranking definitivo e completo com as 10 melhores IAs de todo o ano.'
+              'Semana 1: Apresentação de utilitários gerais de alta relevância, como ferramentas clássicas e a plataforma MoneyNet AI.',
+              'Semana 1: Plataformas de design, criação de posts e resumos eficientes de livros em poucos instantes.',
+              'Semana 2: Otimização acadêmica, revisão ativa rápida e aprendizagem prática de novos idiomas.',
+              'Semana 2: Ferramentas para edição de imagem, remoção de fundos e aprimoramento de fotos antigas.',
+              'Semana 3: Produção de roteiros envolventes, criação automatizada de vídeos e legendas em carrosséis.',
+              'Semana 3: Tutoriais técnicos simplificados de corte de gravação e efeitos sonoros sincronizados.',
+              'Semana 4: Micro-extensões de navegador que economizam minutos de navegação diária.',
+              'Semana 4: Tendências emergentes, novidades do setor e consolidação geral do seu catálogo editorial.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Minha Recomendação Estratégica Completa para Crescer Rápido',
+            title: 'Recomendação Recomendada para Começar',
             items: [
-              '• Sugestão Ideal de Canal:',
-              '  - Nome Recomendado: "IA Sem Limites"',
-              '  - Bio Otimizada: "🤖 Inteligência Artificial Simplificada | 🚀 Ferramentas, dicas e novidades úteis | 📈 Aprenda IA em 1 minuto por dia!"',
-              '• Por que funciona tão bem? É um posicionamento extremamente simples, focado em utilidade prática, com alto poder de retenção, altamente profissional, marcante e muito fácil para as pessoas memorizarem diária e organicamente.'
+              'Canal sugerido: IA Sem Limites. Bio sugerida: Inteligência Artificial Simplificada. Novidades e utilitários úteis para economizar horas de trabalho em um minuto por dia.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ganhar_dinheiro_online_meta',
         title: '💸 Estratégias de Sucesso para o Nicho Ganhar Dinheiro Online',
         content: [
-          'O nicho Ganhar Dinheiro Online continua sendo um dos mais procurados e lucrativos em 2026. Bilhões de pessoas buscam diariamente formas reais e honestas de criar uma renda extra usando apenas o celular e a força da internet.',
+          'O mercado de geração de renda na internet é um dos setores mais procurados e dinâmicos de toda a web.',
+          'A grande maioria das pessoas busca diariamente por métodos honestos, práticos e funcionais para construir novas fontes de renda utilizando e conciliando apenas um celular com conexão de dados.',
           {
             type: 'info',
-            title: '🎯 Subnichos de Alto Retorno que Você Pode Abordar',
+            title: '🎯 Subnichos Mais Relevantes e com Alto Volume de Busca',
             items: [
-              '• Freelancer para Iniciantes: Ensine como conseguir clientes, sites confiáveis para trabalhar online de casa e serviços digitais simples que qualquer pessoa pode aprender rapidamente.',
-              '• Marketing de Afiliados: Compartilhe o caminho de como vender produtos digitais de terceiros, estratégias para estruturar perfis de TikTok e como ganhar as melhores comissões.',
-              '• Inteligência Artificial Lucrativa: Divulgue ferramentas de IA úteis, guias práticos sobre como usar IA e prompts/automações estruturadas para acelerar o trabalho.',
-              '• Microtarefas e Aplicativos: Apresente aplicativos legítimos que pagam, sites de pesquisas altamente remuneradas de confiança e rotinas de testes de novos aplicativos.',
-              '• Criação de Negócios Digitais: Dicas práticas de criação de e-books, cursos online de nicho, templates úteis e infoprodutos autorais de baixo custo.'
+              'Freelancer para Iniciantes: Aborde a prestação de serviços simples, elaboração básica de materiais criativos e websites para trabalhar remotamente.',
+              'Marketing de Afiliados: Apresente o modelo de divulgação de infoprodutos, o posicionamento correto nas redes para alcançar compradores e como funciona o comissionamento.',
+              'Inovações com Software de IA: Mostre como economizar tempo na redação de textos, tradução de materiais e montagem de apresentações usando programas inovadores.',
+              'Microtarefas e Pesquisa Interativa: Liste portais de questionários avaliativos legítimos e guias simples para testar aplicativos com segurança.',
+              'Negócios Digitais Próprios: Metodologias práticas para formatar e-books informativos, templates funcionais e minicursos focados em dores reais.'
             ]
           },
           {
             type: 'steps',
-            title: '✨ Sugestões de Nomes Altamente Atrativos para Seu Canal',
+            title: 'Opções de Nomes Marcantes para o Canal',
             items: [
-              '• Escolha um nome marcante: Renda Digital 360, Dinheiro Online Hoje, Missão Renda Extra, Mundo da Renda Digital, Rumo aos 1000 Dólares, Dinheiro com Celular, Renda Inteligente, Internet que Paga, Ganhos Digitais ou Academia da Renda Online.'
+              'Renda Digital 360, Dinheiro Online Hoje, Missão Renda Extra, Mundo da Renda Digital, Rumo aos 1000 Dólares, Dinheiro com Celular, Renda Inteligente, Internet que Paga, Ganhos Digitais ou Academia da Renda Online.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 3 Opções de Bios Otimizadas com Alta Conversão',
+            title: 'Três Modelos de Bios Otimizadas de Alta Conversão',
             items: [
-              '• Opção 1: "💸 Aprenda a ganhar dinheiro online | 📱 Apenas com celular e internet | 🚀 Dicas diárias valiosas para iniciantes!"',
-              '• Opção 2: "🎯 Renda extra e negócios digitais | 📚 Conteúdo prático e simples para iniciantes | 💰 Transforme seu conhecimento em dinheiro!"',
-              '• Opção 3: "🔥 Ganhar dinheiro online em 2026 | 📱 Ferramentas de IA, automações e afiliados | 👇 Aprenda do absoluto zero!"'
+              'Aprenda a construir novas fontes de renda online utilizando apenas o celular. Dicas excelentes e práticas.',
+              'Renda extra e negócios digitais para iniciantes. Conteúdo estruturado para decolar sua jornada.',
+              'Empreendedorismo digital, ferramentas modernas de IA e afiliados. Comece do zero absoluto.'
             ]
           },
           {
-            type: 'info',
-            title: '🎬 10 Ideias de Vídeos Virais Prontos para Gravar',
+            type: 'steps',
+            title: 'Dez Sugestões de Roteiros e Ideias de Vídeos Virais',
             items: [
-              '• 01. "3 formas testadas de ganhar dinheiro de verdade usando apenas o celular."',
-              '• 02. "Sites legítimos que pouca gente conhece e pagam iniciantes em dólar."',
-              '• 03. "Como eu consegui meus primeiros clientes trabalhando online sem experiência."',
-              '• 04. "5 ferramentas fantásticas de IA que economizam horas de trabalho manual."',
-              '• 05. "Os maiores erros bobos que fazem iniciantes perderem bastante dinheiro na internet."',
-              '• 06. "Afinal de contas, quanto exatamente um freelancer iniciante consegue ganhar por mês?"',
-              '• 07. "Como estruturar e criar um e-book completo e vendável em apenas 1 dia."',
-              '• 08. "3 pequenos negócios digitais simples para começar do zero e sem nenhum investimento."',
-              '• 09. "Qual é, de verdade, o melhor nicho para começar a faturar em 2026?"',
-              '• 10. "Como estruturar sua estratégia para fazer sua primeiríssima venda online de forma rápida."'
+              'Métodos práticos e fáceis para gerar renda extra pelo seu celular em poucos instantes.',
+              'Websites confiáveis que remuneram trabalhos remotos simples em moeda forte.',
+              'Como criar seu currículo digital mesmo sem possuir portfólio anterior completo.',
+              'Ferramentas inteligentes e gratuitas que automatizam processos tediosos de trabalho.',
+              'Os erros mais frequentes de quem planeja vender online e como contorná-los com sucesso.',
+              'Quanto costuma receber um profissional independente de nível iniciante.',
+              'Como formatar, registrar e vender de forma otimizada o seu primeiro livro digital em uma tarde.',
+              'Ideias excelentes de negócios digitais para implementar de forma prática e descomplicada.',
+              'Os mercados digitais que vão dominar o volume de vendas no próximo semestre.',
+              'Como planejar de modo confiável o processo de atração no seu canal comercial.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Estratégia de Alto Crescimento Orgânico para Aplicar',
+            title: 'Boas Práticas de Entrega e Alcance',
             items: [
-              '• Volume Contínuo: Publique sem falta 3 vídeos por dia nos horários de maior pico das redes.',
-              '• Duração e Formato: Seus vídeos devem ter de 20 a 40 segundos, dinâmicos e com legendas grandes e centralizadas.',
-              '• Elemento de Engajamento: Finalize sempre os seus vídeos com um gancho ou pergunta indutiva, incentivando os comentários:',
-              '  - "Você testaria isso por uma semana?"',
-              '  - "Quer ver a Parte 2 completa com o passo a passo?"',
-              '  - "Comente \'GUIA\' aqui embaixo se você quer aprender como começar ainda hoje!"'
+              'Estabeleça uma regularidade confiável no agendamento de postagens para otimizar os índices orgânicos.',
+              'Use ganchos envolventes que mantenham a atenção nos primeiros segundos do vídeo para alavancar a distribuição algorítmica.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ganhar_dinheiro_nomes_bios_50_meta',
         title: '💎 50 Nomes, Bios e Calendário de 7 dias para Ganhar Dinheiro Online',
         content: [
-          'Se o seu foco for Ganhar Dinheiro Online, o ideal é que o nome do seu canal passe credibilidade, crescimento e oportunidade, gerando confiança imediata no público que busca novas fontes de renda.',
+          'No nicho de renda, o nome do canal deve refletir transparência, compromisso profissional e solidez.',
+          'Ao construir confiança logo no primeiro clique do visitante, você diminui incisivamente as taxas de rejeição e maximiza a retenção orgânica de inscritos.',
           {
             type: 'info',
-            title: '📋 50 Sugestões de Nomes Incríveis por Estilos',
+            title: '50 Nomes Categorizados por Vibes Clínicas e Criativas',
             items: [
-              '• 💼 Estilo Profissional: Renda Digital Pro, Academia da Renda, Mestre da Renda Online, Universo Digital, Renda Sem Fronteiras, Rota da Liberdade Financeira, Futuro Digital, Negócio Online Simples, Renda Online Global, Mente Milionária Digital.',
-              '• 🔥 Estilo Viral: Dinheiro no Celular, Missão Renda Extra, Internet que Paga, Fábrica de Dinheiro, Renda Todos os Dias, Segredo da Renda, Lucro Inteligente, Dinheiro Sem Patrão, Bora Ganhar Online, Método da Renda.',
-              '• 🌱 Estilo Motivacional: Comece do Zero, Projeto Liberdade, Jornada da Renda, Próximo Nível Digital, Sonho Digital, Caminho da Independência, Mentalidade de Sucesso, Evolução Financeira, Rumo ao Primeiro Milhão, A Virada Financeira.',
-              '• 🤖 Estilo IA + Dinheiro: IA Lucrativa, Dinheiro com IA, Futuro com IA, IA para Renda, Inteligência que Vende, Renda Automatizada, IA Sem Limites, IA e Negócios, Máquina de Lucros, IA Empreendedora.',
-              '• 🌍 Estilo Internacional: Digital Income Hub, Money Online Academy, Smart Income, Freedom Income, Digital Cash Flow, Online Wealth, Future Income, Digital Success, Online Profit Lab, Global Income.'
+              'Categoria Profissional: Renda Digital Pro, Academia da Renda, Mestre da Renda Online, Universo Digital, Renda Sem Fronteiras, Rota da Liberdade Financeira, Futuro Digital, Negócio Online Simples, Renda Online Global, Mente Milionária Digital.',
+              'Categoria Viral: Dinheiro no Celular, Missão Renda Extra, Internet que Paga, Fábrica de Dinheiro, Renda Todos os Dias, Segredo da Renda, Lucro Inteligente, Dinheiro Sem Patrão, Bora Ganhar Online, Método da Renda.',
+              'Categoria Motivacional: Comece do Zero, Projeto Liberdade, Jornada da Renda, Próximo Nível Digital, Sonho Digital, Caminho da Independência, Mentalidade de Sucesso, Evolução Financeira, Rumo ao Primeiro Milhão, A Virada Financeira.',
+              'Categoria Tecnológica: IA Lucrativa, Dinheiro com IA, Futuro com IA, IA para Renda, Inteligência que Vende, Renda Automatizada, IA Sem Limites, IA e Negócios, Máquina de Lucros, IA Empreendedora.',
+              'Categoria Global: Digital Income Hub, Money Online Academy, Smart Income, Freedom Income, Digital Cash Flow, Online Wealth, Future Income, Digital Success, Online Profit Lab, Global Income.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 5 Opções de Bios Otimizadas de Alta Conversão',
+            title: 'Cinco Modelos Práticos de Bios Estruturadas',
             items: [
-              '• Bio Opção 1: "💸 Ganhar dinheiro online do zero | 📱 Apenas celular + internet | 🚀 Dicas novas todos os dias!"',
-              '• Bio Opção 2: "🎯 Renda extra para iniciantes | 💰 Negócios digitais e IA | 👇 Aprenda e aplique!"',
-              '• Bio Opção 3: "🔥 Transforme seu celular em renda | 📚 Conteúdo simples e prático | 🚀 Comece hoje!"',
-              '• Bio Opção 4: "💵 Ideias de renda online | 🤖 Ferramentas de IA | 📈 Crescimento todos os dias!"',
-              '• Bio Opção 5: "🌍 Trabalhe para o mundo inteiro | 📱 Apenas com internet | 💰 Aprenda a ganhar online!"'
+              'Aprenda a empreender online a partir do zero absoluto. Utilizando apenas internet e persistência.',
+              'Renda extra e independência profissional. Dicas de afiliados, modelos prontos de IA e vendas.',
+              'Transforme o tempo livre em resultados digitais palpáveis. Passo a passo simplificado para iniciantes.',
+              'Métodos modernos de faturamento e produtividade digital. Conteúdo prático diariamente.',
+              'Abra sua atuação para receber oportunidades do mercado remoto global. Dicas profissionais de alto nível.'
             ]
           },
           {
             type: 'steps',
-            title: '📅 Calendário Completo de Conteúdo (Primeiros 7 Dias - 3 posts/dia)',
+            title: 'Plano Semanal de Postagens Rápidas (Estratégia diária)',
             items: [
-              '• 📅 Dia 1 — Fundamentos do Dinheiro:',
-              '  - Vídeo 1: "3 formas de ganhar dinheiro online em 2026"',
-              '  - Vídeo 2: "O maior erro crítico que faz iniciantes falharem na internet"',
-              '  - Vídeo 3: "Como começar a construir renda usando apenas seu celular"',
-              '• 📅 Dia 2 — O Universo Freelander:',
-              '  - Vídeo 1: "O que é um freelancer e como funciona na vida real?"',
-              '  - Vídeo 2: "Melhores sites para começar sem nenhuma experiência prévia"',
-              '  - Vídeo 3: "Afinal de contas, quanto ganha um freelancer iniciante?"',
-              '• 📅 Dia 3 — IA e o Futuro:',
-              '  - Vídeo 1: "Como a Inteligência Artificial pode gerar renda passiva para você"',
-              '  - Vídeo 2: "A ferramenta de IA gratuita que vai mudar o seu dia"',
-              '  - Vídeo 3: "Profissões do mercado digital que estão com alta demanda"',
-              '• 📅 Dia 4 — Produtos Digitais:',
-              '  - Vídeo 1: "Como criar e vender um e-book passo a passo em um dia"',
-              '  - Vídeo 2: "O que realmente é o marketing de afiliados de forma simples"',
-              '  - Vídeo 3: "Como estruturar e fazer a sua primeira venda online"',
-              '• 📅 Dia 5 — Captação de Clientes:',
-              '  - Vídeo 1: "5 habilidades fundamentais para aprender de forma rápida"',
-              '  - Vídeo 2: "Melhores pequenos trabalhos online para quem é totalmente iniciante"',
-              '  - Vídeo 3: "O passo a passo correto para abordar e conseguir seus primeiros clientes"',
-              '• 📅 Dia 6 — Ganhos em Dólar:',
-              '  - Vídeo 1: "Sites confiáveis que pagam tarefas simples em dólar"',
-              '  - Vídeo 2: "Como planejar e criar sua primeira renda extra de verdade"',
-              '  - Vídeo 3: "O futuro real do trabalho online e remoto para os próximos anos"',
-              '• 📅 Dia 7 — Plano Prático:',
-              '  - Vídeo 1: "Afinal, quanto tempo leva para começar a ganhar dinheiro online?"',
-              '  - Vídeo 2: "A minha principal dica secreta para quem está começando do zero absoluto"',
-              '  - Vídeo 3: "Um plano simples de 3 etapas fáceis para você começar ainda hoje!"'
+              'Segunda-feira: Métodos iniciais testados para estruturar suas primeiras ideias de negócios na web com baixo risco.',
+              'Terça-feira: Plataformas e portais consolidados que acolhem demandas simples de redação, digitação ou revisão.',
+              'Quarta-feira: Como usar tecnologias integradas de processamento de texto para estruturar soluções mais rápidas.',
+              'Quinta-feira: O modelo ideal de monetização de conteúdos informativos autorais em canais de nicho.',
+              'Sexta-feira: Habilidades digitais básicas e lucrativas que requerem poucos dias de dedicação inicial.',
+              'Sábado: Websites de confiança que enviam remunerações por testes regulados de usabilidade em software.',
+              'Domingo: Estruturação simplificada da rotina semanal de atração e engajamento.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Recomendação Recomendada de Posicionamento para 2026',
+            title: 'Sugestão Consolidada para Lançamento Rápido',
             items: [
-              '• Nome Escolhido: "Dinheiro no Celular"',
-              '• Bio Otimizada: "💸 Ganhar dinheiro online do zero | 📱 Apenas celular e internet | 🚀 Novas oportunidades todos os dias!"',
-              '• Por que essa escolha é perfeita? É um direcionamento prático, direto aos anseios do público iniciante, extremamente simples de memorizar, passa imensa curiosidade e facilita o crescimento rápido das suas postagens diárias nos algoritmos.'
+              'Canal Recomendado: Dinheiro no Celular. Bio Recomendada: Ganhar dinheiro online de forma honesta. Apenas celular e internet para acessar novas oportunidades diárias.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'nicho_marketing_digital_meta',
-        title: '🚀 Guia Completo: Como Dominar o Nicho de Marketing Digital',
+        title: '🔥 Estratégias Consolidadas para Marketing Digital',
         content: [
-          'O nicho de Marketing Digital continua extremamente forte e promissor em 2026. Milhões de pessoas buscam diariamente aprender a vender online, gerar faturamentos pela internet, criar conteúdos atrativos do zero ou prestar serviços profissionais como freelancer.',
+          'O Marketing Digital se apresenta como uma excelente disciplina profissional no panorama contemporâneo de negócios.',
+          'Empresas, comércios locais, influenciadores e prestadores de serviços de todos os setores precisam continuamente de soluções focadas em captação de clientes, copywriting, tráfego e mídia visual.',
           {
             type: 'info',
-            title: '🎯 Principais Subnichos do Marketing Digital para Dominar',
+            title: 'Subnichos Estratégicos com Elevada Demanda Comercial',
             items: [
-              '• Marketing de Afiliados: Como se afiliar e vender produtos físicos e infoprodutos online usando plataformas consolidadas como Hotmart, Kiwify, entre outras, sem precisar ter produto próprio.',
-              '• Ganhar Dinheiro Online & Renda Extra: Métodos práticos para prestar serviços freelancer iniciantes, gerar renda residual, realizar microtarefas estratégicas e fundar pequenos negócios digitais.',
-              '• Redes Sociais e Viralização: Estratégias táticas de captação e crescimento veloz no TikTok, Instagram Reels e YouTube Shorts explorando a entrega orgânica inteligente dos dias de hoje.',
-              '• Inteligência Artificial Aplicada a Negócios: Como dominar ferramentas modernas de IA, automatizar tarefas operacionais e acelerar em escala astronômica a criação de postagens, fotos e vídeos.',
-              '• Criação de Infoprodutos Autorais: Como projetar, cadastrar e vender e-books de nicho, cursos rápidos, newsletters por assinatura ou pequenos utilitários e templates digitais.'
+              'Marketing de Afiliação: Intermediação qualificada de infoprodutos com foco em campanhas de tráfego orgânico ou patrocinado.',
+              'Consolidação de Redes Sociais: Técnicas de postagem que aumentam a taxa de compartilhamento das marcas comerciais.',
+              'Automação com IA: Elaboração ágil de copys, cronogramas editoriais completos e imagens de alta qualidade.',
+              'Formatos de Infoprodutos: Criação e venda de e-books práticos e cursos objetivos focados em resolver dores de mercado.'
             ]
           },
           {
             type: 'steps',
-            title: '✨ Idéias de Nomes Criativos para a Nova Conta',
+            title: 'Marcas Criativas para seu Canal de Marketing',
             items: [
-              '• Nomes em Estilo Amigável e Direto: Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet, Jornada Digital.',
-              '• Nomes em Estilo mais Técnico e Corporativo: Digital Growth Academy, Next Level Marketing, Digital Expert Hub, Growth Masters, Online Business Lab, Marketing Vision, Digital Success Hub, Future Marketer.'
-            ]
-          },
-          {
-            type: 'steps',
-            title: '✍️ 3 Modelos de Bios Otimizadas de Elevada Conversão',
-            items: [
-              '• Bio Opção 1: "🚀 Marketing Digital para iniciantes | 💰 Renda online e afiliados | 📈 Dicas diárias de crescimento!"',
-              '• Bio Opção 2: "🔥 Aprenda a vender na internet | 💡 Conteúdo simples e prático | 🎯 Transforme conhecimento em renda!"',
-              '• Bio Opção 3: " 📲 Marketing Digital do zero | 🚀 Estratégias que funcionam | 💰 Aprenda e aplique!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '🎬 10 Ideias Prontas de Vídeo de Alto Engajamento Orgânico',
-            items: [
-              '• 01. 3 excelentes formas testadas para ganhar dinheiro online em 2026.',
-              '• 02. Como estruturar passo a passo a sua primeira venda autêntica como afiliado.',
-              '• 03. Os erros frequentes e cruciais que fazem iniciante desistir logo no primeiro mês.',
-              '• 04. Softwares e ferramentas 100% gratuitas indispensáveis para Marketing Digital.',
-              '• 05. O guia passo a passo definitivo para você crescer o seu perfil no TikTok saindo do absoluto zero.',
-              '• 06. Como projetar e criar o seu primeiríssimo produto digital sem investir nada.',
-              '• 07. Afinal de contas, quanto ganha em média de comissão um afiliado atuante hoje.',
-              '• 08. O que realmente é o tráfego orgânico e por que ele é perfeito para quem começa sem orçamento.',
-              '• 09. Como aproveitar de Inteligência Artificial para gerar roteiros e postagens diárias de forma automática.',
-              '• 10. Manual prático de quatro etapas rápidas para começar a trabalhar de casa usando apenas a internet.'
+              'Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet ou Jornada Digital.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Minha Recomendação Otimizada de Sucesso',
+            title: 'Dicas de Sucesso para Posicionamento Inicial',
             items: [
-              '• Como você quer decolar em resultados reais começando do zero absoluto e no celular, foque estrategicamente nesta combinação de ouro: "Marketing Digital + Ganhar Dinheiro Online + Inteligência Artificial".',
-              '• Por que este conjunto é simplesmente excepcional? Esses três tópicos unidos possuem uma busca diária astronômica, são fáceis de se criar roteiros cativantes sem precisar aparecer nas telas e permitem dar asas à sua imaginação sem ficar sem novas ideias de postagem diária.',
-              '  - Exemplo Recomendado de Atributos do Canal:',
-              '    - Nome Sugerido: "Renda Digital IA"',
-              '    - Bio Estruturada: "🚀 Ganhe dinheiro online | 🤖 IA + Marketing Digital | 💰 Dicas práticas todos os dias!"'
+              'Canal Escolhido: Digital Sem Limites. Bio: Marketing digital simplificado de forma prática. Conteúdo novo e focado em decolar marcas e negócios.',
+              'Priorize a demonstração rápida de execução nos primeiros segundos do vídeo para prender a atenção.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'marketing_digital_opcoes_nomes_bios_meta',
-        title: '🔥 Marketing Digital: +50 Nomes, 20 Bios e Ideias de Conteúdo',
+        title: '🔥 50 Nomes, Bios e Ideias de Conteúdo para Marketing Digital',
         content: [
-          'Se o seu nicho será o Marketing Digital, ter variedade de referências ajuda muito na criação da sua marca pessoal ou página faceless. Preparamos uma lista estendida com mais 50 nomes, 20 bios, usernames e ideias práticas!',
+          'Para atuar no marketing digital profissional, as redes do seu canal devem transmitir autoridade imediata e clareza de propósito.',
+          'A escolha de títulos sucintos e fáceis de lembrar maximiza a taxa de retorno de visitantes de forma substancial.',
           {
             type: 'info',
-            title: '🔥 50 Sugestões de Nomes para Canal de Marketing Digital',
+            title: '50 Nomes Categorizados para Canais de Marketing',
             items: [
-              '• 💼 Profissionais de Negócios: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
-              '• ⚡ Modernos e De Conexão: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
-              '• 💰 Focados em Ganhar Dinheiro: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
-              '• 🎯 Curtos, Memoráveis e de Alta Força: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
+              'Estilo de Autoridade: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
+              'Estilo Moderno: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
+              'Estilo Renda: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
+              'Estilo Curto: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
             ]
           },
           {
             type: 'steps',
-            title: '🚀 20 Bios Prontas e Impactantes para TikTok, Reels e Shorts (Escolha a sua)',
+            title: 'Cinco Modelos de Bios Prontas de Alta Performance',
             items: [
-              '• Bio 1: "💰 Marketing Digital do Zero | 🚀 Aprenda a vender online | 📈 Conteúdo novo todos os dias!"',
-              '• Bio 2: "🔥 Transforme conhecimento em renda | 📱 Marketing Digital simples | 💡 Dicas práticas diariamente!"',
-              '• Bio 3: "🚀 Crescimento nas redes sociais | 💰 Renda online | 🎯 Estratégias táticas para iniciantes!"',
-              '• Bio 4: "📈 Marketing Digital | 🤖 Ferramentas de IA | 💸 Ganhar dinheiro online no celular!"',
-              '• Bio 5: "🔥 Aprende habilidades digitais | 📲 Trabalhe de qualquer lugar pela internet | 🚀 Evolua todos os dias!"',
-              '• Bio 6: "💡 Marketing sem complicação | 📈 Cresça online de verdade | 💰 Construa sua renda digital!"',
-              '• Bio 7: "🚀 Conteúdo focado para empreendedores | 💰 Marketing Digital | 📚 Aprenda e aplique!"',
-              '• Bio 8: "📲 Dicas de vendas online rápidas | 🔥 Estratégias inteligentes de crescimento | 💸 Monetização digital!"',
-              '• Bio 9: "💰 Em busca de liberdade financeira | 📈 Marketing Digital | 🚀 Resultados e consistência real!"',
-              '• Bio 10: "🤖 IA + Marketing Digital | 📲 Conteúdo útil e dinâmico diário | 💡 Aprenda algo novo hoje!"',
-              '• Bio 11: "✨ Seu guia de marketing online | 🎯 Prático, direto e focado em vendas | 📈 Suba de nível!"',
-              '• Bio 12: "💸 Renda extra real na internet | 📱 Segredos de tráfego e conversão | 🧭 Comece do zero!"',
-              '• Bio 13: "🚀 Turbonegre os seus resultados | 💡 Dicas e truques de copy persuasiva | 🔥 Siga e evolua!"',
-              '• Bio 14: "🔥 Do zero ao primeiro infoproduto | 📦 Ebooks, afiliados e IA | 📈 Estratégias diárias!"',
-              '• Bio 15: "🤖 O futuro das vendas online com IA | 🚀 Ferramentas gratuitas diárias | 💡 Conteúdo simples!"',
-              '• Bio 16: "📈 Tráfego orgânico sem segredos | 💡 Vídeos curtos de alta retenção | 💰 Comece hoje!"',
-              '• Bio 17: "🔥 Mentalidade, marketing e faturamento | 🚀 Dicas diárias sem enrolação | 👇 Clique e saiba mais!"',
-              '• Bio 18: "📱 Freelance e renda online pelo celular | 💡 Ferramentas gratuitas essenciais | 📈 Siga já!"',
-              '• Bio 19: "🎯 Do zero aos resultados digitais | 💸 Estrutura simples de vendas | 🚀 Desafio de 30 dias!"',
-              '• Bio 20: "💡 Ideias inteligentes de negócios | 🤖 Ferramentas inovadoras de IA | 📈 Evolua sua mente!"'
+              'Aprenda marketing digital a partir do absoluto zero. Dicas práticas de tráfego, copywriting e vendas.',
+              'Estratégias simplificadas de conversão para decolar de forma rápida, honesta e estruturada.',
+              'Descubra as táticas comerciais que geram vendas consistentes em canais de infoprodutos.',
+              'O caminho do tráfego orgânico à comissão de afiliado. Métodos explicados de forma direta.',
+              'Seu portal de empreendedorismo. Dicas e ferramentas modernas do mercado digital para aplicar hoje.'
             ]
           },
           {
             type: 'steps',
-            title: '📌 Ideias de Usernames Disponíveis para se Inspirar',
+            title: 'Sugestões de Temas com Elevada Atração Orgânica',
             items: [
-              '• @MarketingDoZero, @DigitalSemLimites, @AcademiaDigital, @RendaOnlinePro, @ImpérioDigital, @MundoDoMarketing, @ClickMilionario, @MarketingTurbo, @DigitalVision, @RendaDigitalIA.'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Conteúdos Fundamentais que Você Pode Postar',
-            items: [
-              '• Como estruturar e fazer a sua primeiríssima venda online de forma rápida.',
-              '• Indicação de ferramentas inovadoras e gratuitas de IA para usar no celular.',
-              '• Sites confiáveis com cadastros abertos para freelancers iniciantes.',
-              '• O passo a passo completo de como planejar, criar e hospedar um e-book de nicho.',
-              '• Como trabalhar e ganhar dinheiro de forma constante com marketing de afiliados.',
-              '• Principais erros cometidos por quem começa no marketing digital e como evitá-los.',
-              '• Táticas e ganchos inteligentes de alta retenção para crescer no TikTok do zero.',
-              '• Como estruturar uma página de vendas persuasiva focada em conversão.',
-              '• Como vender no Instagram, TikTok e YouTube sem precisar aparecer (Modelo Faceless).',
-              '• Ideias práticas e detalhadas de pequenos negócios digitais para iniciantes.'
+              'Como decolar e estruturar a sua primeira venda como afiliado principiante de modo rápido.',
+              'As mais eficientes integrações gratuitas para qualificar contatos e leads comerciais.',
+              'Guia para prestar consultoria de mídias de forma simples a pequenos estabelecimentos locais.',
+              'Os principais erros estruturais que prejudicam o alcance orgânico dos seus vídeos curtos.',
+              'Como monitorar e encontrar tópicos em alta navegando de forma estratégica no mercado.',
+              'O modelo ideal de escrita persuasiva para engajar visualizadores de maneira sincera.'
             ]
           },
           {
             type: 'tips',
-            title: '⚡ Combinação Altamente Lucrativa e Forte para 2026',
+            title: 'Recomendação Recomendada para Começar',
             items: [
-              '• Nome do Canal Sugerido: "Digital Sem Limites"',
-              '• Bio Otimizada: "🚀 Marketing Digital do Zero | 💰 Renda Online e Afiliados | 🤖 IA para produtividade | 📈 Conteúdo diário e prático"',
-              '• Vantagem desse Posicionamento: Permite falar livremente sobre marketing digital geral, vendas de afiliados, utilidades de Inteligência Artificial, trabalhos de freelancing e renda extra no mesmo canal sem ficar engessado ou preso a um tema único e limitado!'
+              'Nome recomendado: Digital Sem Limites. Bio recomendada: Marketing digital do zero. Renda online, ferramentas modernas de IA e tráfego orgânico reunidos em dicas práticas diárias.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'nicho_freelancer_guia_completo_meta',
-        title: '💼 Guia do Freelancer: +30 Ideias, Nomes e Bios Prontas',
+        title: '💻 Guia Técnico Definitivo do Freelancer Independente',
         content: [
-          'O nicho de Freelancer está em crescimento constante porque milhões de pessoas buscam diariamente formas legítimas de obter renda online usando apenas um celular ou computador pessoal, sem depender de empregos tradicionais.',
+          'A prestação de serviços online independentes representa uma forma ágil e de alta conversão para monetizar competências digitais no mercado global.',
+          'Qualquer pessoa com acesso à internet pode atuar atendendo demandas comerciais básicas de tratamento de layouts, copywriting ou suporte estruturado para múltiplos clientes.',
           {
             type: 'info',
-            title: '📋 Sugestões de Nomes de Sucesso para Seu Canal Freelancer',
+            title: 'Linha Direcionadora para Atração do Público-Alvo',
             items: [
-              '• Estilo Profissional: Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global, Academia Freelancer.',
-              '• Estilo Moderno / Internacional: Freelance Hub, Digital Freelancer, Freelance Pro, Work Online BR, Freelancer Master, Next Freelancer, Freelance Vision, Smart Freelancer, Freedom Freelancer, Freelancer Elite.',
-              '• Estilo Curto e Prático para Redes: FreelanX, FreelanPro, WorkFlex, DigiFreela, FreelaTop, FreelaMax, FreelaUp, FreelaGO, FreelaNow, FreelaBox.'
+              'Dicas de plataformas idôneas e portais de contratação profissional em regimes fechados ou abertos.',
+              'Como projetar uma proposta de serviço clara, bem delimitada e profissional para fechar contratos rápidos.',
+              'Erros cruciais que diminuem suas avaliações de propostas e como contorná-los com segurança.',
+              'Utilização de assistentes inteligentes para agilizar a criação, revisão e entrega rápida de posts industriais.',
+              'Como formatar precificações acessíveis em pacotes mensais que atraem pequenos comerciantes locais.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 4 Modelos de Bios Magnéticas para Redes Sociais',
+            title: 'Marcas Simples para Posicionamento como Freelancer',
             items: [
-              '• Bio Modelo 1: "💻 Freelancer do Zero | 📈 Dicas para ganhar online | 🚀 Trabalhe de qualquer lugar!"',
-              '• Bio Modelo 2: "🌍 Trabalho Online | 💰 Renda Extra e Freelancer | 📚 Aprenda todos os dias!"',
-              '• Bio Modelo 3: "🚀 Transformando iniciantes em freelancers | 💻 Sites, clientes e renda online | 📍 Conteúdo diário e útil!"',
-              '• Bio Modelo 4: "💰 Ganhe dinheiro pela internet | 📱 Apenas celular e internet | 🔥 Freelancer para iniciantes!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Linhas Editoriais: O que Você Deve Postar no Canal',
-            items: [
-              '• Divulgação didática de plataformas legítimas para freelancers iniciantes.',
-              '• Roteiros e táticas inteligentes de como abordar e fechar o primeiro cliente.',
-              '• Alertas sobre erros bobos que fazem freelancers iniciantes perderem dinheiro.',
-              '• Pequenos trabalhos e microtarefas digitais que não exigem nenhuma experiência prévia.',
-              '• Tutoriais rápidos de como otimizar e criar um perfil profissional irresistível.',
-              '• Transparência de resultados: quanto realmente ganha e cobra um freelancer.',
-              '• Principais ferramentas gratuitas de Inteligência Artificial para acelerar entregas.',
-              '• Como prestar serviços e receber pagamentos de clientes internacionais em dólar.',
-              '• Alertas e dicas essenciais de como evitar fraudes ou golpes na internet.'
+              'Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global ou Academia Freelancer.'
             ]
           },
           {
             type: 'steps',
-            title: '🎬 30 Ideias de Vídeos Virais Prontos para Gravar',
+            title: 'Modelos de Bios de Alta Conversão para o Perfil',
             items: [
-              '• 01. 3 sites seguros que pagam freelancers iniciantes pontualmente.',
-              '• 02. Como faturar os seus primeiros 500 MT online com tarefas simples do dia.',
-              '• 03. Trabalhos online que pagam bem e exigem zero experiência prévia de mercado.',
-              '• 04. O erro bobo e crucial que quase me fez perder clientes importantes.',
-              '• 05. Como estruturar uma descrição e perfil de portfólio irresistível.',
-              '• 06. 5 habilidades digitais fáceis que mais vão vender serviços em 2026.',
-              '• 07. Como trabalhar de casa prestando serviços para o mundo inteiro.',
-              '• 08. O passo a passo simples de como receber pagamentos internacionais de forma segura.',
-              '• 09. Descubra qual é o melhor e mais bem pago subnicho freelancer hoje.',
-              '• 10. Ferramentas totalmente gratuitas que facilitam o dia a dia do trabalho freelance.',
-              '• 11. Como usar ferramentas de IA de forma ética para entregar trabalhos três vezes mais rápido.',
-              '• 12. 3 caminhos comprovados para começar a ganhar faturamentos reais em dólar.',
-              '• 13. Afinal de contas, quanto deve cobrar um freelancer totalmente iniciante por peça?',
-              '• 14. Melhores portais e sites confiáveis recomendados para microtarefas rápidas.',
-              '• 15. Como captar excelentes clientes usando o poder de vídeos do TikTok.',
-              '• 16. Estratégia de atração de marcas utilizando grupos relevantes no Facebook.',
-              '• 17. Como criar e vender designs incríveis sem saber desenhar do zero absoluto.',
-              '• 18. Como escrever textos persuasivos e artigos interessantes para marcas corporativas.',
-              '• 19. O que você deve obrigatoriamente realizar e aprender nos primeiros 30 dias.',
-              '• 20. Comparação sincera: Freelancer independente vs Emprego CLT tradicional.',
-              '• 21. Como escrever mensagens e propostas comerciais altamente vencedoras para clientes.',
-              '• 22. O grande segredo por trás dos freelancers profissionais que faturam alto todos os meses.',
-              '• 23. Top 5 nichos mais lucrativos e promissores para prestar serviços no computador.',
-              '• 24. Trabalhos online leves para executar usando somente a tela do seu celular.',
-              '• 25. Como estruturar um portfólio visual excelente mesmo sem ter tido nenhum cliente anterior.',
-              '• 26. O ranking do melhor site internacional de freelancing para cadastrar iniciantes hoje.',
-              '• 27. Métodos práticos para identificar e fugir de fraudes ou propostas suspeitas na web.',
-              '• 28. Como valorizar sua imagem profissional e subir de forma justa os seus preços de serviço.',
-              '• 29. Táticas de abordagem fria para atrair e fechar com clientes no exterior.',
-              '• 30. Afinal, qual é o teto máximo de quanto um freelancer focado consegue ganhar por mês?'
+              'Aprenda como decolar seu portfólio de freelancer a partir do zero absoluto. Métodos profissionais e dicas práticas diárias.',
+              'Trabalho online prático. Como usar a sua internet para prestar serviços simples de forma remota.',
+              'Sua jornada de freelancer independente começou de graça. Métodos e ferramentas essenciais explicados para iniciantes.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Minha Recomendação Ouro de Consistência e Alta Retenção',
+            title: 'Recomendação Estratégica Completa para Resultados Rápidos',
             items: [
-              '• Durante os primeiros 30 dias seguidos, sem falhar nenhuma data, publique rigorosamente 3 vídeos por dia no seguinte padrão equilibrado:',
-              '  - 1 vídeo contendo uma dica útil ultrarrápida de freelancer.',
-              '  - 1 vídeo contando uma história motivacional inspiradora sobre o mundo digital.',
-              '  - 1 vídeo tutorial dinâmico na tela mostrando por dentro um site ou utilitário prático.',
-              '• Essa variedade saudável mantém as suas chances de impulsionamento e crescimento orgânico no ápice máximo!'
-            ]
-          },
-          {
-            type: 'tips',
-            title: '💎 Recomendação Pronta de Posicionamento para você decolar',
-            items: [
-              '• Nome do Canal: "Freelancer do Zero"',
-              '• Bio Otimizada: "💻 Aprenda Freelancer do Zero | 🌍 Trabalhe para clientes do mundo inteiro | 💰 Dicas diárias de renda online | 🚀 Conteúdo novo todos os dias!"',
-              '• Por que este é o posicionamento definitivo? Ele atrai uma audiência altamente qualificada, gera uma conexão sincera com os desejos do público iniciante e dá uma tremenda flexibilidade para seus temas cotidianos.'
+              'Canal Sugerido: Freelancer do Zero. Bio Sugerida: Aprenda a atuar como freelancer do absoluto zero. Dicas de faturamento remoto recebendo em moeda forte com passos descomplicados.'
             ]
           }
         ]
@@ -7323,6 +7169,170 @@ export const APP_CONTENT_PT: SectionContent[] = [
             '• Mantenha o estilo visual Dark Cinematic ou Emocional em todas as postagens.',
             '• Poste fielmente todos os dias seguindo a frequência recomendada para criar relevância orgânica.'
           ] }
+        ]
+      },
+      {
+        id: 'nicho_financas_pessoais_meta',
+        title: '💰 Finanças Pessoais: Segredo do Sucesso em 2026',
+        content: [
+          'Excelente nicho! Finanças Pessoais é um dos melhores nichos para crescer em 2026 porque ajuda as pessoas a economizar, investir e organizar o dinheiro.',
+          {
+            type: 'info',
+            title: '💡 Ideias de Nomes para o Canal',
+            items: [
+              'Dinheiro Inteligente',
+              'Rota da Liberdade Financeira',
+              'Finanças Sem Segredos',
+              'Vida Financeira',
+              'Mente Milionária',
+              'Poupança Inteligente',
+              'Futuro Rico',
+              'Dinheiro em Ação',
+              'Meta Financeira',
+              'Academia do Dinheiro',
+              'Crescimento Financeiro',
+              'Jovem Investidor',
+              'Segredo das Finanças',
+              'Educação Financeira Fácil',
+              'Riqueza Passo a Passo'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📋 Bios Otimizadas para TikTok, Instagram ou YouTube',
+            items: [
+              'Bio 1: Dicas de finanças pessoais. Aprenda a cuidar do seu dinheiro. Rumo à liberdade financeira.',
+              'Bio 2: Economizar, Investir, Crescer. Educação financeira para iniciantes. Um passo por dia rumo à riqueza.',
+              'Bio 3: Finanças simples para todos. Dicas práticas e rápidas. Aprenda a fazer o dinheiro trabalhar para você.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📈 Conteúdos Relevantes para Postar',
+            items: [
+              'Erros financeiros que te deixam pobre',
+              'Como fazer um orçamento mensal',
+              'Como economizar dinheiro todos os dias',
+              'Hábitos das pessoas financeiramente inteligentes',
+              'Como sair das dívidas',
+              'O que é investir?',
+              'Diferença entre ativo e passivo',
+              'Como criar uma reserva de emergência',
+              'Livros sobre finanças que mudam vidas',
+              'Como aumentar sua renda'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎬 Roteiro Curto de Alta Conversão',
+            items: [
+              'Gancho: "Se você faz isso com seu dinheiro, está perdendo riqueza sem perceber."',
+              'Desenvolvimento: "Muitas pessoas gastam primeiro e guardam o que sobra. Pessoas financeiramente inteligentes fazem o contrário: guardam primeiro e gastam o restante."',
+              'Final: "Comece hoje guardando 10% do que ganha e veja a diferença ao longo do tempo."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🔥 Plano de Crescimento e Consistência',
+            items: [
+              'Poste 3 vídeos por dia.',
+              'Vídeos entre 15 e 45 segundos.',
+              'Use legendas grandes.',
+              'Termine sempre com uma pergunta.',
+              'Publique todos os dias durante 90 dias.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💬 10 Frases Virais para atrair Atenção',
+            items: [
+              'Quem controla o dinheiro controla o próprio futuro.',
+              'Não é quanto você ganha, mas quanto consegue guardar.',
+              'Cada moeda economizada compra liberdade.',
+              'O hábito vale mais que a sorte.',
+              'Ricos investem, pobres apenas gastam.',
+              'Seu futuro financeiro começa hoje.',
+              'Pequenas economias geram grandes resultados.',
+              'Dinheiro é uma ferramenta, não um objetivo.',
+              'Aprenda sobre dinheiro ou trabalhe para quem aprendeu.',
+              'A melhor hora para organizar suas finanças é agora.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'nicho_financas_plano_30_dias_meta',
+        title: '📅 Plano de 30 Dias - Finanças Pessoais',
+        content: [
+          'Plano de 30 Dias – Canal de Finanças Pessoais\n\nObjetivo: Crescer o canal, ganhar seguidores e criar autoridade no nicho de finanças pessoais.',
+          {
+            type: 'steps',
+            title: '🌱 Semana 1 – Organização Financeira',
+            items: [
+              'Dia 1\n• Vídeo 1: 5 erros que fazem você perder dinheiro\n• Vídeo 2: Como criar um orçamento simples\n• Vídeo 3: O segredo de quem sempre tem dinheiro guardado',
+              'Dia 2\n• Vídeo 1: O que é educação financeira?\n• Vídeo 2: Gastos que parecem pequenos mas destroem seu orçamento\n• Vídeo 3: Regra 50-30-20 explicada',
+              'Dia 3\n• Vídeo 1: Como economizar mesmo ganhando pouco\n• Vídeo 2: O desafio de guardar dinheiro por 30 dias\n• Vídeo 3: Hábitos financeiros das pessoas bem-sucedidas',
+              'Dia 4\n• Vídeo 1: O que é reserva de emergência?\n• Vídeo 2: Quanto dinheiro guardar por mês?\n• Vídeo 3: O maior erro dos iniciantes',
+              'Dia 5\n• Vídeo 1: Como controlar despesas pelo celular\n• Vídeo 2: Por que nunca sobra dinheiro para você?\n• Vídeo 3: O poder dos pequenos hábitos',
+              'Dia 6\n• Vídeo 1: Como evitar compras por impulso\n• Vídeo 2: A diferença entre necessidade e desejo\n• Vídeo 3: Como planejar metas financeiras',
+              'Dia 7\n• Vídeo 1: Revisão da semana\n• Vídeo 2: Minha dica número 1 para economizar\n• Vídeo 3: Perguntas e respostas'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🧠 Semana 2 – Mentalidade Financeira',
+            items: [
+              'Dia 8\n• Como as pessoas ricas pensam sobre dinheiro\n• O mito do enriquecimento rápido\n• O poder da disciplina',
+              'Dia 9\n• Frases que mantêm pessoas pobres\n• Mentalidade de crescimento\n• Como desenvolver inteligência financeira',
+              'Dia 10\n• O que aprendi sobre dinheiro\n• Hábitos para melhorar sua vida financeira\n• Como definir objetivos financeiros',
+              'Dia 11\n• Por que algumas pessoas nunca prosperam\n• O segredo da consistência\n• Como evitar dívidas',
+              'Dia 12\n• O valor do tempo e do dinheiro\n• Como criar novas fontes de renda\n• O erro de viver apenas do salário',
+              'Dia 13\n• Como parar de desperdiçar dinheiro\n• O que fazer antes de comprar algo\n• O poder da paciência financeira',
+              'Dia 14\n• Revisão da semana\n• Top 5 lições financeiras\n• Respostas aos seguidores'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💰 Semana 3 – Ganhar Mais Dinheiro',
+            items: [
+              'Dia 15\n• Como começar como freelancer\n• Serviços que você pode vender online\n• Primeiros passos para renda extra',
+              'Dia 16\n• Trabalhos online para iniciantes\n• Como conseguir o primeiro cliente\n• Erros de quem começa',
+              'Dia 17\n• Ideias de renda extra\n• Como vender serviços na internet\n• Como criar um perfil profissional',
+              'Dia 18\n• O que é marketing digital\n• Como usar IA para ganhar dinheiro\n• Oportunidades online em 2026',
+              'Dia 19\n• Como transformar habilidades em renda\n• O segredo dos freelancers de sucesso\n• Como aumentar seus ganhos',
+              'Dia 20\n• Fontes de renda passiva\n• Como vender produtos digitais\n• Como criar um ebook simples',
+              'Dia 21\n• Revisão da semana\n• Histórias inspiradoras\n• Perguntas e respostas'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📈 Semana 4 – Crescimento Financeiro',
+            items: [
+              'Dia 22\n• Como começar a investir\n• Conceitos básicos para iniciantes\n• Erros comuns dos iniciantes',
+              'Dia 23\n• O poder dos juros compostos\n• Como o dinheiro cresce com o tempo\n• A importância da paciência',
+              'Dia 24\n• Como definir metas de riqueza\n• Planejamento financeiro de longo prazo\n• O caminho da liberdade financeira',
+              'Dia 25\n• Como criar um plano financeiro\n• O que fazer com renda extra\n• Estratégias de crescimento',
+              'Dia 26\n• Livros que mudam a relação com dinheiro\n• Aprendizados financeiros importantes\n• Como continuar aprendendo',
+              'Dia 27\n• O que eu faria se estivesse começando do zero\n• Plano para os próximos 12 meses\n• Como acelerar resultados',
+              'Dia 28\n• Top erros financeiros\n• Top hábitos financeiros\n• Top lições do canal',
+              'Dia 29\n• Resumo do mês\n• Resultados alcançados\n• Próximos objetivos',
+              'Dia 30\n• Motivação financeira\n• Como continuar evoluindo\n• Convite para acompanhar o canal'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📋 Sugestão de Bio Profissional',
+            items: [
+              '💰 Finanças Pessoais para Iniciantes\n📈 Aprenda a economizar e crescer\n🎯 Rumo à liberdade financeira\n🚀 Vídeos novos todos os dias'
+            ]
+          },
+          {
+            type: 'info',
+            title: '👑 Nome que Recomendo',
+            items: [
+              'Dinheiro Inteligente\n\nÉ simples, profissional, fácil de lembrar e combina com TikTok, Instagram, YouTube e Facebook.'
+            ]
+          }
         ]
       }
     ]
@@ -9015,529 +9025,370 @@ export const APP_CONTENT_PT: SectionContent[] = [
           }
         ]
       },
-      {
+            {
         id: 'ia_potencial_crescimento_youtube',
         title: '🤖 Dominando o Nicho de Inteligência Artificial',
         content: [
-          'O nicho de Inteligência Artificial (IA) continua em crescimento explosivo e oferece um potencial colossal de alcance e engajamento orgânico no TikTok, Reels e YouTube Shorts.',
-          'O melhor é que você não precisa ser um programador ou especialista técnico. Você pode iniciar compartilhando ferramentas incríveis de IA e novos aplicativos que facilitam a vida cotidianamente.',
+          'O nicho de Inteligência Artificial (IA) continua em crescimento explosivo, oferecendo um excelente potencial de alcance e engajamento orgânico nas principais redes sociais.',
+          'Para iniciar, você não precisa ser um programador ou engenheiro de software. É perfeitamente possível e lucrativo criar conteúdo focado no compartilhamento de utilitários práticos, ferramentas inovadoras e soluções simples que facilitam o dia a dia.',
+          'Com isso, você atrai um público altamente qualificado interessado em automação, produtividade e novas tecnologias.',
           {
             type: 'info',
-            title: '💡 O que Postar em uma Página de Inteligência Artificial?',
+            title: '💡 Linha Editorial: O que publicar em sua página',
             items: [
-              '• Apresentação de ferramentas de IA inovadoras e totalmente gratuitas.',
-              '• Divulgação de sites inteligentes que automatizam tarefas e trabalhos automaticamente.',
-              '• Aplicativos móveis potentes para elevar a produtividade pessoal.',
-              '• Ferramentas de IA para a criação rápida de vídeos e roteiros.',
-              '• Geradores de imagens artísticas realistas ou ilustrações por IA.',
-              '• Métodos pragmáticos de como usar IA para gerar novas fontes de renda online.',
-              '• Notícias quentes, grandes novidades e lançamentos do ecossistema de inteligência artificial.',
-              '• Tutoriais rápidos e dinâmicos de 30 a 60 segundos mostrando o passo a passo de uso.'
+              'Apresentação de ferramentas úteis que resolvem problemas reais de produtividade.',
+              'Demonstração de sites que automatizam tarefas e processos automaticamente de forma intuitiva.',
+              'Análises de aplicativos móveis eficientes para aumentar a produtividade pessoal.',
+              'Tutoriais práticos sobre sistemas de IA para criação de roteiros e vídeos rápidos.',
+              'Exemplos de geradores de imagens realistas e ilustrações digitais sofisticadas.',
+              'Métodos pragmáticos de monetização e prestação de serviços com auxílio tecnológico.',
+              'Novidades, tendências de mercado e lançamentos relevantes do ecossistema de software.',
+              'Guias rápidos e descomplicados de 30 a 60 segundos com fluxos passo a passo.'
             ]
           },
           {
             type: 'steps',
-            title: '🔥 Sugestões de Nomes para a Página',
+            title: '🔥 Nomes Sugeridos para o seu Perfil',
             items: [
-              '• Sugestões Ideais: IA Sem Limites, Mundo IA, IA Fácil, Universo IA, IA Para Todos, Futuro com IA, IA em Minutos, Mestre da IA, IA Lucrativa, Segredos da IA.'
+              'IA Sem Limites — Nome simples, direto e de excelente memorização.',
+              'Universo IA — Ideal para abordar múltiplas categorias de ferramentas.',
+              'IA Fácil — Atrai o público iniciante interessado em simplificar processos.',
+              'Futuro com IA — Excelente posicionamento profissional e focado em inovação.',
+              'Mestre da IA — Passa autoridade imediata no compartilhamento de utilitários.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ Opções de Bios Magnéticas para o Perfil',
+            title: 'Modelos de Bios Magnéticas para Redes Sociais',
             items: [
-              '• Opção 1: "🤖 Inteligência Artificial todos os dias | 🚀 Ferramentas e dicas extremamente úteis | 📈 Aprenda e evolua com IA!"',
-              '• Opção 2: "💡 Descubra o real poder da IA | 🔥 Sites e apps incríveis que facilitam a vida | 🎯 Conteúdo simples, útil e rápido!"',
-              '• Opção 3: "🤖 IA + Produtividade + Dinheiro Online | 📱 Ferramentas totalmente gratuitas | 🚀 Vídeos instrutivos diários!"'
+              'Inteligência Artificial Direta. Ferramentas e dicas práticas para evoluir seu cotidiano.',
+              'Descubra a praticidade da Inteligência Artificial. Soluções e utilitários que facilitam a sua vida.',
+              'Tecnologia, Produtividade e Negócios. Ferramentas gratuitas e dicas em tutoriais rápidos.'
             ]
           },
           {
             type: 'steps',
-            title: '🎬 10 Ideias de Vídeos para Iniciar Imediatamente',
+            title: '10 Temas Práticos de Vídeos Curtos para Iniciar de Forma Imediata',
             items: [
-              '• 01. "3 ferramentas de IA incríveis e gratuitas que parecem pura magia!"',
-              '• 02. "Este site inovador cria imagens ultra-realistas em segundos."',
-              '• 03. "Como utilizar IA de forma inteligente para estudar melhor e reter conteúdo."',
-              '• 04. "A IA que monta apresentações de slides profissionais de forma 100% automática."',
-              '• 05. "5 ferramentas fantásticas de IA que absolutamente todo estudante precisa conhecer."',
-              '• 06. "Como criar vídeos altamente virais na internet sem precisar aparecer."',
-              '• 07. "A melhor Inteligência Artificial totalmente gratuita de 2026: Moneynet Ai!"',
-              '• 08. "Como projetar e criar um logo profissional usando apenas ferramentas de IA."',
-              '• 09. "Economize horas de trabalho e ganhe tempo livre usando estas ferramentas de IA diárias."',
-              '• 10. "Esta ferramenta única substitui com folga 5 aplicativos que você usa hoje."'
+              'Três utilitários excelentes de Inteligência Artificial que economizam dezenas de horas de trabalho.',
+              'Como usar este site inovador para criar designs e ilustrações sob medida.',
+              'Dicas práticas para usar assistentes digitais nos estudos e fixação de novos conhecimentos.',
+              'Como criar apresentações de slides dinâmicas de modo prático e automático.',
+              'Cinco ferramentas gratuitas essenciais de produtividade para todo estudante profissional.',
+              'A melhor Inteligência Artificial para otimizar suas finanças pessoais: MoneyNet AI.',
+              'Como planejar e criar uma logo de alto padrão em poucos minutos com ajuda de software.',
+              'Automações simples na planilha do computador para ganhar tempo livre todos os dias.',
+              'Este utilitário integrado substitui com folga múltiplos aplicativos pesados no seu aparelho celular.',
+              'Como resumir relatórios e textos extensos de forma extremamente rápida.'
             ]
           },
           {
             type: 'info',
-            title: '🎬 Estrutura Passo a Passo do Vídeo Curto Viral',
+            title: 'Estrutura Dinâmica de Roteiro Viral para Vídeos',
             items: [
-              '• 1. Gancho Magnético (Primeiros 3 segundos): "Você ainda não conhece esta IA incrível e gratuita da MoneyNet Ai?" (Desperte a urgência e curiosidade instantaneamente).',
-              '• 2. Conteúdo de Valor (Aprox. 20 segundos): Mostre de forma ágil e objetiva a tela do computador ou celular, demonstrando o que a ferramenta faz e o benefício direto.',
-              '• 3. Chamada para Ação (Aprox. 5 segundos): "Siga a página agora mesmo para mais dicas diárias de ferramentas de IA!"'
+              'Gancho de Atenção: Conecte urgentemente com uma necessidade humana real nos primeiros três segundos, como "Você ainda não utiliza esta ferramenta?"',
+              'Demonstração Prática: Apresente o benefício central na tela do seu aparelho, mostrando o passo a passo com cortes rápidos e objetivos de edição.',
+              'Chamada para Ação: Peça para os espectadores acompanharem o perfil para receber atualizações e novidades valiosas todos os dias.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Estratégia Prática para os Primeiros 30 Dias',
+            title: 'Recomendações de Otimização Orgânica nos Primeiros 30 Dias',
             items: [
-              '• Frequência Ativa: Poste com consistência 3 vídeos curtos diariamente para acelerar a distribuição.',
-              '• Recursos Visuais: Utilize legendas grandes, de ótima legibilidade e centralizadas.',
-              '• Duração Ideal: Mantenha os vídeos objetivos, com cortes rápidos, entre 20 e 45 segundos de duração total.',
-              '• Foco Inicial: Fale e priorize ferramentas funcionais gratuitas, pois elas atraem muito mais interesse e acessos.',
-              '• Interação Inteligente: Responda ativamente a perguntas e comentários criando novos vídeos com a resposta.',
-              '• Direcionamento por Métricas: Monitore detalhadamente quais vídeos ganharam mais tração e produza mais conteúdos similares.'
+              'Mantenha consistência diária nas postagens para treinar a entrega orgânica das plataformas.',
+              'Adicione legendas grandes, de excelente legibilidade e centralizadas perto do foco visual.',
+              'Priorize o compartilhamento de utilitários gratuitos, pois geram muito mais compartilhamentos.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ia_calendario_nomes_bios_youtube',
         title: '💡 Planejamento de IA: 30 Nomes, Bios e Calendário Prático',
         content: [
-          'Se você deseja criar e crescer uma página focada em Inteligência Artificial com imenso potencial de crescimento orgânico, escolher um nome simples, marcante e associado ao futuro e à tecnologia é crucial.',
+          'Uma identidade visual limpa e uma assinatura simples são os principais pilares para estabelecer autoridade profissional rápida no nicho tecnológico.',
+          'O segredo para se destacar consiste em evitar nomes de difícil escrita ou termos técnicos complexos, facilitando o compartilhamento boca a boca de forma orgânica.',
           {
             type: 'info',
-            title: '📋 30 Sugestões de Nomes Criativos para Página de IA',
+            title: '30 Ideias de Nomes Criativos por Categorias',
             items: [
-              '• Fáceis e Memoráveis: IA Sem Limites, Universo IA, Mundo da IA, IA Master, IA Digital, IA em Minutos, Futuro Inteligente, IA Total, IA Explosiva, Segredos da IA.',
-              '• Alto Impacto e Lucro: IA Lucrativa, IA Global, IA Prática, Central da IA, Academia IA, IA Pro, IA Viral, IA Fácil, IA Infinita, IA Hoje.',
-              '• Tecnológicos e Futuro: IA 360, IA do Futuro, Revolução IA, IA Premium, Geração IA, IA Inteligente, IA Agora, Top IA, IA Sem Fronteiras, Império da IA.'
+              'Estilo Direto: IA Sem Limites, Universo IA, Mundo da IA, IA Master, IA Digital.',
+              'Estilo Prático: IA em Minutos, Futuro Inteligente, IA Total, IA Explosiva, Segredos da IA.',
+              'Estilo Empreendedor: IA Lucrativa, IA Global, IA Prática, Central da IA, Academia IA.',
+              'Estilo Premium: IA Pro, IA Viral, IA Fácil, IA Infinita, IA Hoje.',
+              'Estilo Futurista: IA 360, IA do Futuro, Revolução IA, IA Premium, Geração IA.',
+              'Estilo Autêntico: IA Inteligente, IA Agora, Top IA, IA Sem Fronteiras, Império da IA.'
             ]
           },
           {
             type: 'info',
-            title: '👔 Opções de Nomes Mais Profissionais / Corporativos',
+            title: 'Alternativas Corporativas para Posicionamento Profissional',
             items: [
-              '• Sugestões Premium: IA Global Hub, NextGen AI, AI Discovery, AI Vision, AI Evolution, AI Trends, AI Academy, Future AI, Smart AI, AI Empire.'
+              'IA Global Hub, NextGen AI, AI Discovery, AI Vision, AI Evolution, AI Trends, AI Academy, Future AI, Smart AI, AI Empire.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 5 Modelos de Bios Otimizadas para o TikTok, Reels e Shorts',
+            title: 'Cinco Modelos de Bios Otimizadas',
             items: [
-              '• Bio 1: "🤖 Dicas de Inteligência Artificial | 🚀 Ferramentas incríveis todos os dias | 📈 Aprenda algo novo diariamente!"',
-              '• Bio 2: "💡 IA para iniciantes | 🔥 Apps e sites poderosos | 🎯 Conteúdo diário e prático!"',
-              '• Bio 3: "🤖 O futuro começou | 📱 Ferramentas de IA gratuitas | 🚀 Vídeos novos todos os dias!"',
-              '• Bio 4: "⚡ IA + Produtividade | 💰 IA para negócios e renda online | 🎓 Aprenda de forma simples!"',
-              '• Bio 5: "🌍 Descobrindo as melhores IAs | 🤖 Tutoriais rápidos | 🚀 Evolua com tecnologia!"'
+              'Dicas de Inteligência Artificial. Ferramentas incríveis lançadas diariamente para otimizar sua rotina.',
+              'IA descomplicada para iniciantes. Conheça as melhores soluções e aplicativos práticos.',
+              'O futuro começou. Aprenda a aplicar ferramentas inovadoras no seu trabalho e estudos.',
+              'Tecnologia e alto rendimento. Transformando conhecimento prático em produtividade.',
+              'Descubra as mais recentes ferramentas inteligentes em tutoriais úteis de um minuto.'
             ]
           },
           {
             type: 'steps',
-            title: '📅 Calendário Completo de Postagens para 30 Dias (Passo a Passo)',
+            title: 'Calendário de Amostragem de Conteúdo para 30 Dias (Distribuição Estruturada)',
             items: [
-              '• 📂 Semana 1 - Introdução e Utilidades de Impacto:',
-              '  - Dia 1: 5 IAs gratuitas que todos deveriam conhecer (por exemplo, MoneyNet Ai, Canva, ChatGPT...).',
-              '  - Dia 2: A melhor IA que cria imagens fantásticas e realistas em segundos.',
-              '  - Dia 3: IA impressionante que faz o resumo completo de livros automaticamente.',
-              '  - Dia 4: Inteligência Artificial incrível que cria apresentações inteiras em minutos.',
-              '  - Dia 5: Ferramentas de IA fantásticas que salvam qualquer estudante nas tarefas.',
-              '  - Dia 6: Como utilizar IA descomplicada para criar vídeos virais sem aparecer.',
-              '  - Dia 7: Lista atualizada das melhores IAs gratuitas e indispensáveis de 2026.',
-              '• 📂 Semana 2 - Produtividade e Utilidades para Negócios:',
-              '  - Dia 8: IA incrível que cria logos de marcas profissionais instantaneamente.',
-              '  - Dia 9: Como usar IA estruturada para escrever posts e textos altamente persuasivos.',
-              '  - Dia 10: Inteligência Artificial excelente para aprender inglês conversando pelo celular.',
-              '  - Dia 11: Editor de fotos impulsionado por IA que remove objetos e melhora o foco.',
-              '  - Dia 12: As melhores IAs que organizam e aumentam a sua produtividade no trabalho.',
-              '  - Dia 13: Ferramentas de IA que todo empreendedor precisa começar a aplicar hoje.',
-              '  - Dia 14: Top 5 sites secretos de IA que vão explodir sua mente.',
-              '• 📂 Semana 3 - Criação de Conteúdo e Redes Sociais:',
-              '  - Dia 15: Ferramentas altamente secretas de IA que quase ninguém conhece.',
-              '  - Dia 16: IA focada em ajudar estudantes do ensino médio à universidade.',
-              '  - Dia 17: Sites de IA mais procurados e amados por criadores de conteúdo do mundo.',
-              '  - Dia 18: Como extrair o poder das IAs para acelerar e otimizar vídeos de YouTube.',
-              '  - Dia 19: Ferramentas de IA que facilitam demais a viralização de vídeos no TikTok.',
-              '  - Dia 20: Como criar imagens, carrosséis e posts automáticos de IA para o Instagram.',
-              '  - Dia 21: A IA secreta que faz tarefas tão bem que até parece mágica.',
-              '• 📂 Semana 4 - Especialização, Áudios e Tendências:',
-              '  - Dia 22: Ferramentas raras de IA pouco conhecidas e extremamente úteis.',
-              '  - Dia 23: IA excelente para gerar voz sintética profissional ou clonagem de voz.',
-              '  - Dia 24: Inteligência Artificial que cria músicas e batidas completas do zero.',
-              '  - Dia 25: Truques fundamentais de IA para criar designs e imagens super realistas.',
-              '  - Dia 26: Dicas avançadas de IA para explodir suas horas de lazer e produtividade.',
-              '  - Dia 27: As melhores e mais leves extensões de IA para usar no seu navegador.',
-              '  - Dia 28: A ferramenta inteligente que você deveria obrigatoriamente estar usando hoje.',
-              '  - Dia 29: Um vislumbre prático do futuro e as grandes tendências globais de IA para 2026.',
-              '  - Dia 30: O ranking definitivo e completo com as 10 melhores IAs de todo o ano.'
+              'Semana 1: Apresentação de utilitários gerais de alta relevância, como ferramentas clássicas e a plataforma MoneyNet AI.',
+              'Semana 1: Plataformas de design, criação de posts e resumos eficientes de livros em poucos instantes.',
+              'Semana 2: Otimização acadêmica, revisão ativa rápida e aprendizagem prática de novos idiomas.',
+              'Semana 2: Ferramentas para edição de imagem, remoção de fundos e aprimoramento de fotos antigas.',
+              'Semana 3: Produção de roteiros envolventes, criação automatizada de vídeos e legendas em carrosséis.',
+              'Semana 3: Tutoriais técnicos simplificados de corte de gravação e efeitos sonoros sincronizados.',
+              'Semana 4: Micro-extensões de navegador que economizam minutos de navegação diária.',
+              'Semana 4: Tendências emergentes, novidades do setor e consolidação geral do seu catálogo editorial.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Minha Recomendação Estratégica Completa para Crescer Rápido',
+            title: 'Recomendação Recomendada para Começar',
             items: [
-              '• Sugestão Ideal de Canal:',
-              '  - Nome Recomendado: "IA Sem Limites"',
-              '  - Bio Otimizada: "🤖 Inteligência Artificial Simplificada | 🚀 Ferramentas, dicas e novidades úteis | 📈 Aprenda IA em 1 minuto por dia!"',
-              '• Por que funciona tão bem? É um posicionamento extremamente simples, focado em utilidade prática, com alto poder de retenção, altamente profissional, marcante e muito fácil para as pessoas memorizarem diária e organicamente.'
+              'Canal sugerido: IA Sem Limites. Bio sugerida: Inteligência Artificial Simplificada. Novidades e utilitários úteis para economizar horas de trabalho em um minuto por dia.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ganhar_dinheiro_online_youtube',
         title: '💸 Estratégias de Sucesso para o Nicho Ganhar Dinheiro Online',
         content: [
-          'O nicho Ganhar Dinheiro Online continua sendo um dos mais procurados e lucrativos em 2026. Bilhões de pessoas buscam diariamente formas reais e honestas de criar uma renda extra usando apenas o celular e a força da internet.',
+          'O mercado de geração de renda na internet é um dos setores mais procurados e dinâmicos de toda a web.',
+          'A grande maioria das pessoas busca diariamente por métodos honestos, práticos e funcionais para construir novas fontes de renda utilizando e conciliando apenas um celular com conexão de dados.',
           {
             type: 'info',
-            title: '🎯 Subnichos de Alto Retorno que Você Pode Abordar',
+            title: '🎯 Subnichos Mais Relevantes e com Alto Volume de Busca',
             items: [
-              '• Freelancer para Iniciantes: Ensine como conseguir clientes, sites confiáveis para trabalhar online de casa e serviços digitais simples que qualquer pessoa pode aprender rapidamente.',
-              '• Marketing de Afiliados: Compartilhe o caminho de como vender produtos digitais de terceiros, estratégias para estruturar perfis de TikTok e como ganhar as melhores comissões.',
-              '• Inteligência Artificial Lucrativa: Divulgue ferramentas de IA úteis, guias práticos sobre como usar IA e prompts/automações estruturadas para acelerar o trabalho.',
-              '• Microtarefas e Aplicativos: Apresente aplicativos legítimos que pagam, sites de pesquisas altamente remuneradas de confiança e rotinas de testes de novos aplicativos.',
-              '• Criação de Negócios Digitais: Dicas práticas de criação de e-books, cursos online de nicho, templates úteis e infoprodutos autorais de baixo custo.'
+              'Freelancer para Iniciantes: Aborde a prestação de serviços simples, elaboração básica de materiais criativos e websites para trabalhar remotamente.',
+              'Marketing de Afiliados: Apresente o modelo de divulgação de infoprodutos, o posicionamento correto nas redes para alcançar compradores e como funciona o comissionamento.',
+              'Inovações com Software de IA: Mostre como economizar tempo na redação de textos, tradução de materiais e montagem de apresentações usando programas inovadores.',
+              'Microtarefas e Pesquisa Interativa: Liste portais de questionários avaliativos legítimos e guias simples para testar aplicativos com segurança.',
+              'Negócios Digitais Próprios: Metodologias práticas para formatar e-books informativos, templates funcionais e minicursos focados em dores reais.'
             ]
           },
           {
             type: 'steps',
-            title: '✨ Sugestões de Nomes Altamente Atrativos para Seu Canal',
+            title: 'Opções de Nomes Marcantes para o Canal',
             items: [
-              '• Escolha um nome marcante: Renda Digital 360, Dinheiro Online Hoje, Missão Renda Extra, Mundo da Renda Digital, Rumo aos 1000 Dólares, Dinheiro com Celular, Renda Inteligente, Internet que Paga, Ganhos Digitais ou Academia da Renda Online.'
+              'Renda Digital 360, Dinheiro Online Hoje, Missão Renda Extra, Mundo da Renda Digital, Rumo aos 1000 Dólares, Dinheiro com Celular, Renda Inteligente, Internet que Paga, Ganhos Digitais ou Academia da Renda Online.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 3 Opções de Bios Otimizadas com Alta Conversão',
+            title: 'Três Modelos de Bios Otimizadas de Alta Conversão',
             items: [
-              '• Opção 1: "💸 Aprenda a ganhar dinheiro online | 📱 Apenas com celular e internet | 🚀 Dicas diárias valiosas para iniciantes!"',
-              '• Opção 2: "🎯 Renda extra e negócios digitais | 📚 Conteúdo prático e simples para iniciantes | 💰 Transforme seu conhecimento em dinheiro!"',
-              '• Opção 3: "🔥 Ganhar dinheiro online em 2026 | 📱 Ferramentas de IA, automações e afiliados | 👇 Aprenda do absoluto zero!"'
+              'Aprenda a construir novas fontes de renda online utilizando apenas o celular. Dicas excelentes e práticas.',
+              'Renda extra e negócios digitais para iniciantes. Conteúdo estruturado para decolar sua jornada.',
+              'Empreendedorismo digital, ferramentas modernas de IA e afiliados. Comece do zero absoluto.'
             ]
           },
           {
-            type: 'info',
-            title: '🎬 10 Ideias de Vídeos Virais Prontos para Gravar',
+            type: 'steps',
+            title: 'Dez Sugestões de Roteiros e Ideias de Vídeos Virais',
             items: [
-              '• 01. "3 formas testadas de ganhar dinheiro de verdade usando apenas o celular."',
-              '• 02. "Sites legítimos que pouca gente conhece e pagam iniciantes em dólar."',
-              '• 03. "Como eu consegui meus primeiros clientes trabalhando online sem experiência."',
-              '• 04. "5 ferramentas fantásticas de IA que economizam horas de trabalho manual."',
-              '• 05. "Os maiores erros bobos que fazem iniciantes perderem bastante dinheiro na internet."',
-              '• 06. "Afinal de contas, quanto exatamente um freelancer iniciante consegue ganhar por mês?"',
-              '• 07. "Como estruturar e criar um e-book completo e vendável em apenas 1 dia."',
-              '• 08. "3 pequenos negócios digitais simples para começar do zero e sem nenhum investimento."',
-              '• 09. "Qual é, de verdade, o melhor nicho para começar a faturar em 2026?"',
-              '• 10. "Como estruturar sua estratégia para fazer sua primeiríssima venda online de forma rápida."'
+              'Métodos práticos e fáceis para gerar renda extra pelo seu celular em poucos instantes.',
+              'Websites confiáveis que remuneram trabalhos remotos simples em moeda forte.',
+              'Como criar seu currículo digital mesmo sem possuir portfólio anterior completo.',
+              'Ferramentas inteligentes e gratuitas que automatizam processos tediosos de trabalho.',
+              'Os erros mais frequentes de quem planeja vender online e como contorná-los com sucesso.',
+              'Quanto costuma receber um profissional independente de nível iniciante.',
+              'Como formatar, registrar e vender de forma otimizada o seu primeiro livro digital em uma tarde.',
+              'Ideias excelentes de negócios digitais para implementar de forma prática e descomplicada.',
+              'Os mercados digitais que vão dominar o volume de vendas no próximo semestre.',
+              'Como planejar de modo confiável o processo de atração no seu canal comercial.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Estratégia de Alto Crescimento Orgânico para Aplicar',
+            title: 'Boas Práticas de Entrega e Alcance',
             items: [
-              '• Volume Contínuo: Publique sem falta 3 vídeos por dia nos horários de maior pico das redes.',
-              '• Duração e Formato: Seus vídeos devem ter de 20 a 40 segundos, dinâmicos e com legendas grandes e centralizadas.',
-              '• Elemento de Engajamento: Finalize sempre os seus vídeos com um gancho ou pergunta indutiva, incentivando os comentários:',
-              '  - "Você testaria isso por uma semana?"',
-              '  - "Quer ver a Parte 2 completa com o passo a passo?"',
-              '  - "Comente \'GUIA\' aqui embaixo se você quer aprender como começar ainda hoje!"'
+              'Estabeleça uma regularidade confiável no agendamento de postagens para otimizar os índices orgânicos.',
+              'Use ganchos envolventes que mantenham a atenção nos primeiros segundos do vídeo para alavancar a distribuição algorítmica.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'ganhar_dinheiro_nomes_bios_50_youtube',
         title: '💎 50 Nomes, Bios e Calendário de 7 dias para Ganhar Dinheiro Online',
         content: [
-          'Se o seu foco for Ganhar Dinheiro Online, o ideal é que o nome do seu canal passe credibilidade, crescimento e oportunidade, gerando confiança imediata no público que busca novas fontes de renda.',
+          'No nicho de renda, o nome do canal deve refletir transparência, compromisso profissional e solidez.',
+          'Ao construir confiança logo no primeiro clique do visitante, você diminui incisivamente as taxas de rejeição e maximiza a retenção orgânica de inscritos.',
           {
             type: 'info',
-            title: '📋 50 Sugestões de Nomes Incríveis por Estilos',
+            title: '50 Nomes Categorizados por Vibes Clínicas e Criativas',
             items: [
-              '• 💼 Estilo Profissional: Renda Digital Pro, Academia da Renda, Mestre da Renda Online, Universo Digital, Renda Sem Fronteiras, Rota da Liberdade Financeira, Futuro Digital, Negócio Online Simples, Renda Online Global, Mente Milionária Digital.',
-              '• 🔥 Estilo Viral: Dinheiro no Celular, Missão Renda Extra, Internet que Paga, Fábrica de Dinheiro, Renda Todos os Dias, Segredo da Renda, Lucro Inteligente, Dinheiro Sem Patrão, Bora Ganhar Online, Método da Renda.',
-              '• 🌱 Estilo Motivacional: Comece do Zero, Projeto Liberdade, Jornada da Renda, Próximo Nível Digital, Sonho Digital, Caminho da Independência, Mentalidade de Sucesso, Evolução Financeira, Rumo ao Primeiro Milhão, A Virada Financeira.',
-              '• 🤖 Estilo IA + Dinheiro: IA Lucrativa, Dinheiro com IA, Futuro com IA, IA para Renda, Inteligência que Vende, Renda Automatizada, IA Sem Limites, IA e Negócios, Máquina de Lucros, IA Empreendedora.',
-              '• 🌍 Estilo Internacional: Digital Income Hub, Money Online Academy, Smart Income, Freedom Income, Digital Cash Flow, Online Wealth, Future Income, Digital Success, Online Profit Lab, Global Income.'
+              'Categoria Profissional: Renda Digital Pro, Academia da Renda, Mestre da Renda Online, Universo Digital, Renda Sem Fronteiras, Rota da Liberdade Financeira, Futuro Digital, Negócio Online Simples, Renda Online Global, Mente Milionária Digital.',
+              'Categoria Viral: Dinheiro no Celular, Missão Renda Extra, Internet que Paga, Fábrica de Dinheiro, Renda Todos os Dias, Segredo da Renda, Lucro Inteligente, Dinheiro Sem Patrão, Bora Ganhar Online, Método da Renda.',
+              'Categoria Motivacional: Comece do Zero, Projeto Liberdade, Jornada da Renda, Próximo Nível Digital, Sonho Digital, Caminho da Independência, Mentalidade de Sucesso, Evolução Financeira, Rumo ao Primeiro Milhão, A Virada Financeira.',
+              'Categoria Tecnológica: IA Lucrativa, Dinheiro com IA, Futuro com IA, IA para Renda, Inteligência que Vende, Renda Automatizada, IA Sem Limites, IA e Negócios, Máquina de Lucros, IA Empreendedora.',
+              'Categoria Global: Digital Income Hub, Money Online Academy, Smart Income, Freedom Income, Digital Cash Flow, Online Wealth, Future Income, Digital Success, Online Profit Lab, Global Income.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 5 Opções de Bios Otimizadas de Alta Conversão',
+            title: 'Cinco Modelos Práticos de Bios Estruturadas',
             items: [
-              '• Bio Opção 1: "💸 Ganhar dinheiro online do zero | 📱 Apenas celular + internet | 🚀 Dicas novas todos os dias!"',
-              '• Bio Opção 2: "🎯 Renda extra para iniciantes | 💰 Negócios digitais e IA | 👇 Aprenda e aplique!"',
-              '• Bio Opção 3: "🔥 Transforme seu celular em renda | 📚 Conteúdo simples e prático | 🚀 Comece hoje!"',
-              '• Bio Opção 4: "💵 Ideias de renda online | 🤖 Ferramentas de IA | 📈 Crescimento todos os dias!"',
-              '• Bio Opção 5: "🌍 Trabalhe para o mundo inteiro | 📱 Apenas com internet | 💰 Aprenda a ganhar online!"'
+              'Aprenda a empreender online a partir do zero absoluto. Utilizando apenas internet e persistência.',
+              'Renda extra e independência profissional. Dicas de afiliados, modelos prontos de IA e vendas.',
+              'Transforme o tempo livre em resultados digitais palpáveis. Passo a passo simplificado para iniciantes.',
+              'Métodos modernos de faturamento e produtividade digital. Conteúdo prático diariamente.',
+              'Abra sua atuação para receber oportunidades do mercado remoto global. Dicas profissionais de alto nível.'
             ]
           },
           {
             type: 'steps',
-            title: '📅 Calendário Completo de Conteúdo (Primeiros 7 Dias - 3 posts/dia)',
+            title: 'Plano Semanal de Postagens Rápidas (Estratégia diária)',
             items: [
-              '• 📅 Dia 1 — Fundamentos do Dinheiro:',
-              '  - Vídeo 1: "3 formas de ganhar dinheiro online em 2026"',
-              '  - Vídeo 2: "O maior erro crítico que faz iniciantes falharem na internet"',
-              '  - Vídeo 3: "Como começar a construir renda usando apenas seu celular"',
-              '• 📅 Dia 2 — O Universo Freelander:',
-              '  - Vídeo 1: "O que é um freelancer e como funciona na vida real?"',
-              '  - Vídeo 2: "Melhores sites para começar sem nenhuma experiência prévia"',
-              '  - Vídeo 3: "Afinal de contas, quanto ganha um freelancer iniciante?"',
-              '• 📅 Dia 3 — IA e o Futuro:',
-              '  - Vídeo 1: "Como a Inteligência Artificial pode gerar renda passiva para você"',
-              '  - Vídeo 2: "A ferramenta de IA gratuita que vai mudar o seu dia"',
-              '  - Vídeo 3: "Profissões do mercado digital que estão com alta demanda"',
-              '• 📅 Dia 4 — Produtos Digitais:',
-              '  - Vídeo 1: "Como criar e vender um e-book passo a passo em um dia"',
-              '  - Vídeo 2: "O que realmente é o marketing de afiliados de forma simples"',
-              '  - Vídeo 3: "Como estruturar e fazer a sua primeira venda online"',
-              '• 📅 Dia 5 — Captação de Clientes:',
-              '  - Vídeo 1: "5 habilidades fundamentais para aprender de forma rápida"',
-              '  - Vídeo 2: "Melhores pequenos trabalhos online para quem é totalmente iniciante"',
-              '  - Vídeo 3: "O passo a passo correto para abordar e conseguir seus primeiros clientes"',
-              '• 📅 Dia 6 — Ganhos em Dólar:',
-              '  - Vídeo 1: "Sites confiáveis que pagam tarefas simples em dólar"',
-              '  - Vídeo 2: "Como planejar e criar sua primeira renda extra de verdade"',
-              '  - Vídeo 3: "O futuro real do trabalho online e remoto para os próximos anos"',
-              '• 📅 Dia 7 — Plano Prático:',
-              '  - Vídeo 1: "Afinal, quanto tempo leva para começar a ganhar dinheiro online?"',
-              '  - Vídeo 2: "A minha principal dica secreta para quem está começando do zero absoluto"',
-              '  - Vídeo 3: "Um plano simples de 3 etapas fáceis para você começar ainda hoje!"'
+              'Segunda-feira: Métodos iniciais testados para estruturar suas primeiras ideias de negócios na web com baixo risco.',
+              'Terça-feira: Plataformas e portais consolidados que acolhem demandas simples de redação, digitação ou revisão.',
+              'Quarta-feira: Como usar tecnologias integradas de processamento de texto para estruturar soluções mais rápidas.',
+              'Quinta-feira: O modelo ideal de monetização de conteúdos informativos autorais em canais de nicho.',
+              'Sexta-feira: Habilidades digitais básicas e lucrativas que requerem poucos dias de dedicação inicial.',
+              'Sábado: Websites de confiança que enviam remunerações por testes regulados de usabilidade em software.',
+              'Domingo: Estruturação simplificada da rotina semanal de atração e engajamento.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Recomendação Recomendada de Posicionamento para 2026',
+            title: 'Sugestão Consolidada para Lançamento Rápido',
             items: [
-              '• Nome Escolhido: "Dinheiro no Celular"',
-              '• Bio Otimizada: "💸 Ganhar dinheiro online do zero | 📱 Apenas celular e internet | 🚀 Novas oportunidades todos os dias!"',
-              '• Por que essa escolha é perfeita? É um direcionamento prático, direto aos anseios do público iniciante, extremamente simples de memorizar, passa imensa curiosidade e facilita o crescimento rápido das suas postagens diárias nos algoritmos.'
+              'Canal Recomendado: Dinheiro no Celular. Bio Recomendada: Ganhar dinheiro online de forma honesta. Apenas celular e internet para acessar novas oportunidades diárias.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'nicho_marketing_digital_youtube',
-        title: '🚀 Guia Completo: Como Dominar o Nicho de Marketing Digital',
+        title: '🔥 Estratégias Consolidadas para Marketing Digital',
         content: [
-          'O nicho de Marketing Digital continua extremamente forte e promissor em 2026. Milhões de pessoas buscam diariamente aprender a vender online, gerar faturamentos pela internet, criar conteúdos atrativos do zero ou prestar serviços profissionais como freelancer.',
+          'O Marketing Digital se apresenta como uma excelente disciplina profissional no panorama contemporâneo de negócios.',
+          'Empresas, comércios locais, influenciadores e prestadores de serviços de todos os setores precisam continuamente de soluções focadas em captação de clientes, copywriting, tráfego e mídia visual.',
           {
             type: 'info',
-            title: '🎯 Principais Subnichos do Marketing Digital para Dominar',
+            title: 'Subnichos Estratégicos com Elevada Demanda Comercial',
             items: [
-              '• Marketing de Afiliados: Como se afiliar e vender produtos físicos e infoprodutos online usando plataformas consolidadas como Hotmart, Kiwify, entre outras, sem precisar ter produto próprio.',
-              '• Ganhar Dinheiro Online & Renda Extra: Métodos práticos para prestar serviços freelancer iniciantes, gerar renda residual, realizar microtarefas estratégicas e fundar pequenos negócios digitais.',
-              '• Redes Sociais e Viralização: Estratégias táticas de captação e crescimento veloz no TikTok, Instagram Reels e YouTube Shorts explorando a entrega orgânica inteligente dos dias de hoje.',
-              '• Inteligência Artificial Aplicada a Negócios: Como dominar ferramentas modernas de IA, automatizar tarefas operacionais e acelerar em escala astronômica a criação de postagens, fotos e vídeos.',
-              '• Criação de Infoprodutos Autorais: Como projetar, cadastrar e vender e-books de nicho, cursos rápidos, newsletters por assinatura ou pequenos utilitários e templates digitais.'
+              'Marketing de Afiliação: Intermediação qualificada de infoprodutos com foco em campanhas de tráfego orgânico ou patrocinado.',
+              'Consolidação de Redes Sociais: Técnicas de postagem que aumentam a taxa de compartilhamento das marcas comerciais.',
+              'Automação com IA: Elaboração ágil de copys, cronogramas editoriais completos e imagens de alta qualidade.',
+              'Formatos de Infoprodutos: Criação e venda de e-books práticos e cursos objetivos focados em resolver dores de mercado.'
             ]
           },
           {
             type: 'steps',
-            title: '✨ Idéias de Nomes Criativos para a Nova Conta',
+            title: 'Marcas Criativas para seu Canal de Marketing',
             items: [
-              '• Nomes em Estilo Amigável e Direto: Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet, Jornada Digital.',
-              '• Nomes em Estilo mais Técnico e Corporativo: Digital Growth Academy, Next Level Marketing, Digital Expert Hub, Growth Masters, Online Business Lab, Marketing Vision, Digital Success Hub, Future Marketer.'
-            ]
-          },
-          {
-            type: 'steps',
-            title: '✍️ 3 Modelos de Bios Otimizadas de Elevada Conversão',
-            items: [
-              '• Bio Opção 1: "🚀 Marketing Digital para iniciantes | 💰 Renda online e afiliados | 📈 Dicas diárias de crescimento!"',
-              '• Bio Opção 2: "🔥 Aprenda a vender na internet | 💡 Conteúdo simples e prático | 🎯 Transforme conhecimento em renda!"',
-              '• Bio Opção 3: " 📲 Marketing Digital do zero | 🚀 Estratégias que funcionam | 💰 Aprenda e aplique!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '🎬 10 Ideias Prontas de Vídeo de Alto Engajamento Orgânico',
-            items: [
-              '• 01. 3 excelentes formas testadas para ganhar dinheiro online em 2026.',
-              '• 02. Como estruturar passo a passo a sua primeira venda autêntica como afiliado.',
-              '• 03. Os erros frequentes e cruciais que fazem iniciante desistir logo no primeiro mês.',
-              '• 04. Softwares e ferramentas 100% gratuitas indispensáveis para Marketing Digital.',
-              '• 05. O guia passo a passo definitivo para você crescer o seu perfil no TikTok saindo do absoluto zero.',
-              '• 06. Como projetar e criar o seu primeiríssimo produto digital sem investir nada.',
-              '• 07. Afinal de contas, quanto ganha em média de comissão um afiliado atuante hoje.',
-              '• 08. O que realmente é o tráfego orgânico e por que ele é perfeito para quem começa sem orçamento.',
-              '• 09. Como aproveitar de Inteligência Artificial para gerar roteiros e postagens diárias de forma automática.',
-              '• 10. Manual prático de quatro etapas rápidas para começar a trabalhar de casa usando apenas a internet.'
+              'Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet ou Jornada Digital.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Minha Recomendação Otimizada de Sucesso',
+            title: 'Dicas de Sucesso para Posicionamento Inicial',
             items: [
-              '• Como você quer decolar em resultados reais começando do zero absoluto e no celular, foque estrategicamente nesta combinação de ouro: "Marketing Digital + Ganhar Dinheiro Online + Inteligência Artificial".',
-              '• Por que este conjunto é simplesmente excepcional? Esses três tópicos unidos possuem uma busca diária astronômica, são fáceis de se criar roteiros cativantes sem precisar aparecer nas telas e permitem dar asas à sua imaginação sem ficar sem novas ideias de postagem diária.',
-              '  - Exemplo Recomendado de Atributos do Canal:',
-              '    - Nome Sugerido: "Renda Digital IA"',
-              '    - Bio Estruturada: "🚀 Ganhe dinheiro online | 🤖 IA + Marketing Digital | 💰 Dicas práticas todos os dias!"'
+              'Canal Escolhido: Digital Sem Limites. Bio: Marketing digital simplificado de forma prática. Conteúdo novo e focado em decolar marcas e negócios.',
+              'Priorize a demonstração rápida de execução nos primeiros segundos do vídeo para prender a atenção.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'marketing_digital_opcoes_nomes_bios_youtube',
-        title: '🔥 Marketing Digital: +50 Nomes, 20 Bios e Ideias de Conteúdo',
+        title: '🔥 50 Nomes, Bios e Ideias de Conteúdo para Marketing Digital',
         content: [
-          'Se o seu nicho será o Marketing Digital, ter variedade de referências ajuda muito na criação da sua marca pessoal ou página faceless. Preparamos uma lista estendida com mais 50 nomes, 20 bios, usernames e ideias práticas!',
+          'Para atuar no marketing digital profissional, as redes do seu canal devem transmitir autoridade imediata e clareza de propósito.',
+          'A escolha de títulos sucintos e fáceis de lembrar maximiza a taxa de retorno de visitantes de forma substancial.',
           {
             type: 'info',
-            title: '🔥 50 Sugestões de Nomes para Canal de Marketing Digital',
+            title: '50 Nomes Categorizados para Canais de Marketing',
             items: [
-              '• 💼 Profissionais de Negócios: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
-              '• ⚡ Modernos e De Conexão: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
-              '• 💰 Focados em Ganhar Dinheiro: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
-              '• 🎯 Curtos, Memoráveis e de Alta Força: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
+              'Estilo de Autoridade: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
+              'Estilo Moderno: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
+              'Estilo Renda: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
+              'Estilo Curto: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
             ]
           },
           {
             type: 'steps',
-            title: '🚀 20 Bios Prontas e Impactantes para TikTok, Reels e Shorts (Escolha a sua)',
+            title: 'Cinco Modelos de Bios Prontas de Alta Performance',
             items: [
-              '• Bio 1: "💰 Marketing Digital do Zero | 🚀 Aprenda a vender online | 📈 Conteúdo novo todos os dias!"',
-              '• Bio 2: "🔥 Transforme conhecimento em renda | 📱 Marketing Digital simples | 💡 Dicas práticas diariamente!"',
-              '• Bio 3: "🚀 Crescimento nas redes sociais | 💰 Renda online | 🎯 Estratégias táticas para iniciantes!"',
-              '• Bio 4: "📈 Marketing Digital | 🤖 Ferramentas de IA | 💸 Ganhar dinheiro online no celular!"',
-              '• Bio 5: "🔥 Aprende habilidades digitais | 📲 Trabalhe de qualquer lugar pela internet | 🚀 Evolua todos os dias!"',
-              '• Bio 6: "💡 Marketing sem complicação | 📈 Cresça online de verdade | 💰 Construa sua renda digital!"',
-              '• Bio 7: "🚀 Conteúdo focado para empreendedores | 💰 Marketing Digital | 📚 Aprenda e aplique!"',
-              '• Bio 8: "📲 Dicas de vendas online rápidas | 🔥 Estratégias inteligentes de crescimento | 💸 Monetização digital!"',
-              '• Bio 9: "💰 Em busca de liberdade financeira | 📈 Marketing Digital | 🚀 Resultados e consistência real!"',
-              '• Bio 10: "🤖 IA + Marketing Digital | 📲 Conteúdo útil e dinâmico diário | 💡 Aprenda algo novo hoje!"',
-              '• Bio 11: "✨ Seu guia de marketing online | 🎯 Prático, direto e focado em vendas | 📈 Suba de nível!"',
-              '• Bio 12: "💸 Renda extra real na internet | 📱 Segredos de tráfego e conversão | 🧭 Comece do zero!"',
-              '• Bio 13: "🚀 Turbonegre os seus resultados | 💡 Dicas e truques de copy persuasiva | 🔥 Siga e evolua!"',
-              '• Bio 14: "🔥 Do zero ao primeiro infoproduto | 📦 Ebooks, afiliados e IA | 📈 Estratégias diárias!"',
-              '• Bio 15: "🤖 O futuro das vendas online com IA | 🚀 Ferramentas gratuitas diárias | 💡 Conteúdo simples!"',
-              '• Bio 16: "📈 Tráfego orgânico sem segredos | 💡 Vídeos curtos de alta retenção | 💰 Comece hoje!"',
-              '• Bio 17: "🔥 Mentalidade, marketing e faturamento | 🚀 Dicas diárias sem enrolação | 👇 Clique e saiba mais!"',
-              '• Bio 18: "📱 Freelance e renda online pelo celular | 💡 Ferramentas gratuitas essenciais | 📈 Siga já!"',
-              '• Bio 19: "🎯 Do zero aos resultados digitais | 💸 Estrutura simples de vendas | 🚀 Desafio de 30 dias!"',
-              '• Bio 20: "💡 Ideias inteligentes de negócios | 🤖 Ferramentas inovadoras de IA | 📈 Evolua sua mente!"'
+              'Aprenda marketing digital a partir do absoluto zero. Dicas práticas de tráfego, copywriting e vendas.',
+              'Estratégias simplificadas de conversão para decolar de forma rápida, honesta e estruturada.',
+              'Descubra as táticas comerciais que geram vendas consistentes em canais de infoprodutos.',
+              'O caminho do tráfego orgânico à comissão de afiliado. Métodos explicados de forma direta.',
+              'Seu portal de empreendedorismo. Dicas e ferramentas modernas do mercado digital para aplicar hoje.'
             ]
           },
           {
             type: 'steps',
-            title: '📌 Ideias de Usernames Disponíveis para se Inspirar',
+            title: 'Sugestões de Temas com Elevada Atração Orgânica',
             items: [
-              '• @MarketingDoZero, @DigitalSemLimites, @AcademiaDigital, @RendaOnlinePro, @ImpérioDigital, @MundoDoMarketing, @ClickMilionario, @MarketingTurbo, @DigitalVision, @RendaDigitalIA.'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Conteúdos Fundamentais que Você Pode Postar',
-            items: [
-              '• Como estruturar e fazer a sua primeiríssima venda online de forma rápida.',
-              '• Indicação de ferramentas inovadoras e gratuitas de IA para usar no celular.',
-              '• Sites confiáveis com cadastros abertos para freelancers iniciantes.',
-              '• O passo a passo completo de como planejar, criar e hospedar um e-book de nicho.',
-              '• Como trabalhar e ganhar dinheiro de forma constante com marketing de afiliados.',
-              '• Principais erros cometidos por quem começa no marketing digital e como evitá-los.',
-              '• Táticas e ganchos inteligentes de alta retenção para crescer no TikTok do zero.',
-              '• Como estruturar uma página de vendas persuasiva focada em conversão.',
-              '• Como vender no Instagram, TikTok e YouTube sem precisar aparecer (Modelo Faceless).',
-              '• Ideias práticas e detalhadas de pequenos negócios digitais para iniciantes.'
+              'Como decolar e estruturar a sua primeira venda como afiliado principiante de modo rápido.',
+              'As mais eficientes integrações gratuitas para qualificar contatos e leads comerciais.',
+              'Guia para prestar consultoria de mídias de forma simples a pequenos estabelecimentos locais.',
+              'Os principais erros estruturais que prejudicam o alcance orgânico dos seus vídeos curtos.',
+              'Como monitorar e encontrar tópicos em alta navegando de forma estratégica no mercado.',
+              'O modelo ideal de escrita persuasiva para engajar visualizadores de maneira sincera.'
             ]
           },
           {
             type: 'tips',
-            title: '⚡ Combinação Altamente Lucrativa e Forte para 2026',
+            title: 'Recomendação Recomendada para Começar',
             items: [
-              '• Nome do Canal Sugerido: "Digital Sem Limites"',
-              '• Bio Otimizada: "🚀 Marketing Digital do Zero | 💰 Renda Online e Afiliados | 🤖 IA para produtividade | 📈 Conteúdo diário e prático"',
-              '• Vantagem desse Posicionamento: Permite falar livremente sobre marketing digital geral, vendas de afiliados, utilidades de Inteligência Artificial, trabalhos de freelancing e renda extra no mesmo canal sem ficar engessado ou preso a um tema único e limitado!'
+              'Nome recomendado: Digital Sem Limites. Bio recomendada: Marketing digital do zero. Renda online, ferramentas modernas de IA e tráfego orgânico reunidos em dicas práticas diárias.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'nicho_freelancer_guia_completo_youtube',
-        title: '💼 Guia do Freelancer: +30 Ideias, Nomes e Bios Prontas',
+        title: '💻 Guia Técnico Definitivo do Freelancer Independente',
         content: [
-          'O nicho de Freelancer está em crescimento constante porque milhões de pessoas buscam diariamente formas legítimas de obter renda online usando apenas um celular ou computador pessoal, sem depender de empregos tradicionais.',
+          'A prestação de serviços online independentes representa uma forma ágil e de alta conversão para monetizar competências digitais no mercado global.',
+          'Qualquer pessoa com acesso à internet pode atuar atendendo demandas comerciais básicas de tratamento de layouts, copywriting ou suporte estruturado para múltiplos clientes.',
           {
             type: 'info',
-            title: '📋 Sugestões de Nomes de Sucesso para Seu Canal Freelancer',
+            title: 'Linha Direcionadora para Atração do Público-Alvo',
             items: [
-              '• Estilo Profissional: Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global, Academia Freelancer.',
-              '• Estilo Moderno / Internacional: Freelance Hub, Digital Freelancer, Freelance Pro, Work Online BR, Freelancer Master, Next Freelancer, Freelance Vision, Smart Freelancer, Freedom Freelancer, Freelancer Elite.',
-              '• Estilo Curto e Prático para Redes: FreelanX, FreelanPro, WorkFlex, DigiFreela, FreelaTop, FreelaMax, FreelaUp, FreelaGO, FreelaNow, FreelaBox.'
+              'Dicas de plataformas idôneas e portais de contratação profissional em regimes fechados ou abertos.',
+              'Como projetar uma proposta de serviço clara, bem delimitada e profissional para fechar contratos rápidos.',
+              'Erros cruciais que diminuem suas avaliações de propostas e como contorná-los com segurança.',
+              'Utilização de assistentes inteligentes para agilizar a criação, revisão e entrega rápida de posts industriais.',
+              'Como formatar precificações acessíveis em pacotes mensais que atraem pequenos comerciantes locais.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 4 Modelos de Bios Magnéticas para Redes Sociais',
+            title: 'Marcas Simples para Posicionamento como Freelancer',
             items: [
-              '• Bio Modelo 1: "💻 Freelancer do Zero | 📈 Dicas para ganhar online | 🚀 Trabalhe de qualquer lugar!"',
-              '• Bio Modelo 2: "🌍 Trabalho Online | 💰 Renda Extra e Freelancer | 📚 Aprenda todos os dias!"',
-              '• Bio Modelo 3: "🚀 Transformando iniciantes em freelancers | 💻 Sites, clientes e renda online | 📍 Conteúdo diário e útil!"',
-              '• Bio Modelo 4: "💰 Ganhe dinheiro pela internet | 📱 Apenas celular e internet | 🔥 Freelancer para iniciantes!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Linhas Editoriais: O que Você Deve Postar no Canal',
-            items: [
-              '• Divulgação didática de plataformas legítimas para freelancers iniciantes.',
-              '• Roteiros e táticas inteligentes de como abordar e fechar o primeiro cliente.',
-              '• Alertas sobre erros bobos que fazem freelancers iniciantes perderem dinheiro.',
-              '• Pequenos trabalhos e microtarefas digitais que não exigem nenhuma experiência prévia.',
-              '• Tutoriais rápidos de como otimizar e criar um perfil profissional irresistível.',
-              '• Transparência de resultados: quanto realmente ganha e cobra um freelancer.',
-              '• Principais ferramentas gratuitas de Inteligência Artificial para acelerar entregas.',
-              '• Como prestar serviços e receber pagamentos de clientes internacionais em dólar.',
-              '• Alertas e dicas essenciais de como evitar fraudes ou golpes na internet.'
+              'Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global ou Academia Freelancer.'
             ]
           },
           {
             type: 'steps',
-            title: '🎬 30 Ideias de Vídeos Virais Prontos para Gravar',
+            title: 'Modelos de Bios de Alta Conversão para o Perfil',
             items: [
-              '• 01. 3 sites seguros que pagam freelancers iniciantes pontualmente.',
-              '• 02. Como faturar os seus primeiros 500 MT online com tarefas simples do dia.',
-              '• 03. Trabalhos online que pagam bem e exigem zero experiência prévia de mercado.',
-              '• 04. O erro bobo e crucial que quase me fez perder clientes importantes.',
-              '• 05. Como estruturar uma descrição e perfil de portfólio irresistível.',
-              '• 06. 5 habilidades digitais fáceis que mais vão vender serviços em 2026.',
-              '• 07. Como trabalhar de casa prestando serviços para o mundo inteiro.',
-              '• 08. O passo a passo simples de como receber pagamentos internacionais de forma segura.',
-              '• 09. Descubra qual é o melhor e mais bem pago subnicho freelancer hoje.',
-              '• 10. Ferramentas totalmente gratuitas que facilitam o dia a dia do trabalho freelance.',
-              '• 11. Como usar ferramentas de IA de forma ética para entregar trabalhos três vezes mais rápido.',
-              '• 12. 3 caminhos comprovados para começar a ganhar faturamentos reais em dólar.',
-              '• 13. Afinal de contas, quanto deve cobrar um freelancer totalmente iniciante por peça?',
-              '• 14. Melhores portais e sites confiáveis recomendados para microtarefas rápidas.',
-              '• 15. Como captar excelentes clientes usando o poder de vídeos do TikTok.',
-              '• 16. Estratégia de atração de marcas utilizando grupos relevantes no Facebook.',
-              '• 17. Como criar e vender designs incríveis sem saber desenhar do zero absoluto.',
-              '• 18. Como escrever textos persuasivos e artigos interessantes para marcas corporativas.',
-              '• 19. O que você deve obrigatoriamente realizar e aprender nos primeiros 30 dias.',
-              '• 20. Comparação sincera: Freelancer independente vs Emprego CLT tradicional.',
-              '• 21. Como escrever mensagens e propostas comerciais altamente vencedoras para clientes.',
-              '• 22. O grande segredo por trás dos freelancers profissionais que faturam alto todos os meses.',
-              '• 23. Top 5 nichos mais lucrativos e promissores para prestar serviços no computador.',
-              '• 24. Trabalhos online leves para executar usando somente a tela do seu celular.',
-              '• 25. Como estruturar um portfólio visual excelente mesmo sem ter tido nenhum cliente anterior.',
-              '• 26. O ranking do melhor site internacional de freelancing para cadastrar iniciantes hoje.',
-              '• 27. Métodos práticos para identificar e fugir de fraudes ou propostas suspeitas na web.',
-              '• 28. Como valorizar sua imagem profissional e subir de forma justa os seus preços de serviço.',
-              '• 29. Táticas de abordagem fria para atrair e fechar com clientes no exterior.',
-              '• 30. Afinal, qual é o teto máximo de quanto um freelancer focado consegue ganhar por mês?'
+              'Aprenda como decolar seu portfólio de freelancer a partir do zero absoluto. Métodos profissionais e dicas práticas diárias.',
+              'Trabalho online prático. Como usar a sua internet para prestar serviços simples de forma remota.',
+              'Sua jornada de freelancer independente começou de graça. Métodos e ferramentas essenciais explicados para iniciantes.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Minha Recomendação Ouro de Consistência e Alta Retenção',
+            title: 'Recomendação Estratégica Completa para Resultados Rápidos',
             items: [
-              '• Durante os primeiros 30 dias seguidos, sem falhar nenhuma data, publique rigorosamente 3 vídeos por dia no seguinte padrão equilibrado:',
-              '  - 1 vídeo contendo uma dica útil ultrarrápida de freelancer.',
-              '  - 1 vídeo contando uma história motivacional inspiradora sobre o mundo digital.',
-              '  - 1 vídeo tutorial dinâmico na tela mostrando por dentro um site ou utilitário prático.',
-              '• Essa variedade saudável mantém as suas chances de impulsionamento e crescimento orgânico no ápice máximo!'
-            ]
-          },
-          {
-            type: 'tips',
-            title: '💎 Recomendação Pronta de Posicionamento para você decolar',
-            items: [
-              '• Nome do Canal: "Freelancer do Zero"',
-              '• Bio Otimizada: "💻 Aprenda Freelancer do Zero | 🌍 Trabalhe para clientes do mundo inteiro | 💰 Dicas diárias de renda online | 🚀 Conteúdo novo todos os dias!"',
-              '• Por que este é o posicionamento definitivo? Ele atrai uma audiência altamente qualificada, gera uma conexão sincera com os desejos do público iniciante e dá uma tremenda flexibilidade para seus temas cotidianos.'
+              'Canal Sugerido: Freelancer do Zero. Bio Sugerida: Aprenda a atuar como freelancer do absoluto zero. Dicas de faturamento remoto recebendo em moeda forte com passos descomplicados.'
             ]
           }
         ]
@@ -11323,6 +11174,170 @@ export const APP_CONTENT_PT: SectionContent[] = [
           },
           'Lembre-se sempre: A maioria das pessoas falha porque busca atalhos, hacks milagrosos ou desiste nos primeiros dias. Quem posta valor real de forma contínua por meses colhe frutos inacreditáveis e edifica uma sólida estrutura de faturamento digital.'
         ]
+      },
+      {
+        id: 'nicho_financas_pessoais_youtube',
+        title: '💰 Finanças Pessoais: Segredo do Sucesso em 2026',
+        content: [
+          'Excelente nicho! Finanças Pessoais é um dos melhores nichos para crescer em 2026 porque ajuda as pessoas a economizar, investir e organizar o dinheiro.',
+          {
+            type: 'info',
+            title: '💡 Ideias de Nomes para o Canal',
+            items: [
+              'Dinheiro Inteligente',
+              'Rota da Liberdade Financeira',
+              'Finanças Sem Segredos',
+              'Vida Financeira',
+              'Mente Milionária',
+              'Poupança Inteligente',
+              'Futuro Rico',
+              'Dinheiro em Ação',
+              'Meta Financeira',
+              'Academia do Dinheiro',
+              'Crescimento Financeiro',
+              'Jovem Investidor',
+              'Segredo das Finanças',
+              'Educação Financeira Fácil',
+              'Riqueza Passo a Passo'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📋 Bios Otimizadas para TikTok, Instagram ou YouTube',
+            items: [
+              'Bio 1: Dicas de finanças pessoais. Aprenda a cuidar do seu dinheiro. Rumo à liberdade financeira.',
+              'Bio 2: Economizar, Investir, Crescer. Educação financeira para iniciantes. Um passo por dia rumo à riqueza.',
+              'Bio 3: Finanças simples para todos. Dicas práticas e rápidas. Aprenda a fazer o dinheiro trabalhar para você.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '📈 Conteúdos Relevantes para Postar',
+            items: [
+              'Erros financeiros que te deixam pobre',
+              'Como fazer um orçamento mensal',
+              'Como economizar dinheiro todos os dias',
+              'Hábitos das pessoas financeiramente inteligentes',
+              'Como sair das dívidas',
+              'O que é investir?',
+              'Diferença entre ativo e passivo',
+              'Como criar uma reserva de emergência',
+              'Livros sobre finanças que mudam vidas',
+              'Como aumentar sua renda'
+            ]
+          },
+          {
+            type: 'info',
+            title: '🎬 Roteiro Curto de Alta Conversão',
+            items: [
+              'Gancho: "Se você faz isso com seu dinheiro, está perdendo riqueza sem perceber."',
+              'Desenvolvimento: "Muitas pessoas gastam primeiro e guardam o que sobra. Pessoas financeiramente inteligentes fazem o contrário: guardam primeiro e gastam o restante."',
+              'Final: "Comece hoje guardando 10% do que ganha e veja a diferença ao longo do tempo."'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🔥 Plano de Crescimento e Consistência',
+            items: [
+              'Poste 3 vídeos por dia.',
+              'Vídeos entre 15 e 45 segundos.',
+              'Use legendas grandes.',
+              'Termine sempre com uma pergunta.',
+              'Publique todos os dias durante 90 dias.'
+            ]
+          },
+          {
+            type: 'list',
+            title: '💬 10 Frases Virais para atrair Atenção',
+            items: [
+              'Quem controla o dinheiro controla o próprio futuro.',
+              'Não é quanto você ganha, mas quanto consegue guardar.',
+              'Cada moeda economizada compra liberdade.',
+              'O hábito vale mais que a sorte.',
+              'Ricos investem, pobres apenas gastam.',
+              'Seu futuro financeiro começa hoje.',
+              'Pequenas economias geram grandes resultados.',
+              'Dinheiro é uma ferramenta, não um objetivo.',
+              'Aprenda sobre dinheiro ou trabalhe para quem aprendeu.',
+              'A melhor hora para organizar suas finanças é agora.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'nicho_financas_plano_30_dias_youtube',
+        title: '📅 Plano de 30 Dias - Finanças Pessoais',
+        content: [
+          'Plano de 30 Dias – Canal de Finanças Pessoais\n\nObjetivo: Crescer o canal, ganhar seguidores e criar autoridade no nicho de finanças pessoais.',
+          {
+            type: 'steps',
+            title: '🌱 Semana 1 – Organização Financeira',
+            items: [
+              'Dia 1\n• Vídeo 1: 5 erros que fazem você perder dinheiro\n• Vídeo 2: Como criar um orçamento simples\n• Vídeo 3: O segredo de quem sempre tem dinheiro guardado',
+              'Dia 2\n• Vídeo 1: O que é educação financeira?\n• Vídeo 2: Gastos que parecem pequenos mas destroem seu orçamento\n• Vídeo 3: Regra 50-30-20 explicada',
+              'Dia 3\n• Vídeo 1: Como economizar mesmo ganhando pouco\n• Vídeo 2: O desafio de guardar dinheiro por 30 dias\n• Vídeo 3: Hábitos financeiros das pessoas bem-sucedidas',
+              'Dia 4\n• Vídeo 1: O que é reserva de emergência?\n• Vídeo 2: Quanto dinheiro guardar por mês?\n• Vídeo 3: O maior erro dos iniciantes',
+              'Dia 5\n• Vídeo 1: Como controlar despesas pelo celular\n• Vídeo 2: Por que nunca sobra dinheiro para você?\n• Vídeo 3: O poder dos pequenos hábitos',
+              'Dia 6\n• Vídeo 1: Como evitar compras por impulso\n• Vídeo 2: A diferença entre necessidade e desejo\n• Vídeo 3: Como planejar metas financeiras',
+              'Dia 7\n• Vídeo 1: Revisão da semana\n• Vídeo 2: Minha dica número 1 para economizar\n• Vídeo 3: Perguntas e respostas'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '🧠 Semana 2 – Mentalidade Financeira',
+            items: [
+              'Dia 8\n• Como as pessoas ricas pensam sobre dinheiro\n• O mito do enriquecimento rápido\n• O poder da disciplina',
+              'Dia 9\n• Frases que mantêm pessoas pobres\n• Mentalidade de crescimento\n• Como desenvolver inteligência financeira',
+              'Dia 10\n• O que aprendi sobre dinheiro\n• Hábitos para melhorar sua vida financeira\n• Como definir objetivos financeiros',
+              'Dia 11\n• Por que algumas pessoas nunca prosperam\n• O segredo da consistência\n• Como evitar dívidas',
+              'Dia 12\n• O valor do tempo e do dinheiro\n• Como criar novas fontes de renda\n• O erro de viver apenas do salário',
+              'Dia 13\n• Como parar de desperdiçar dinheiro\n• O que fazer antes de comprar algo\n• O poder da paciência financeira',
+              'Dia 14\n• Revisão da semana\n• Top 5 lições financeiras\n• Respostas aos seguidores'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '💰 Semana 3 – Ganhar Mais Dinheiro',
+            items: [
+              'Dia 15\n• Como começar como freelancer\n• Serviços que você pode vender online\n• Primeiros passos para renda extra',
+              'Dia 16\n• Trabalhos online para iniciantes\n• Como conseguir o primeiro cliente\n• Erros de quem começa',
+              'Dia 17\n• Ideias de renda extra\n• Como vender serviços na internet\n• Como criar um perfil profissional',
+              'Dia 18\n• O que é marketing digital\n• Como usar IA para ganhar dinheiro\n• Oportunidades online em 2026',
+              'Dia 19\n• Como transformar habilidades em renda\n• O segredo dos freelancers de sucesso\n• Como aumentar seus ganhos',
+              'Dia 20\n• Fontes de renda passiva\n• Como vender produtos digitais\n• Como criar um ebook simples',
+              'Dia 21\n• Revisão da semana\n• Histórias inspiradoras\n• Perguntas e respostas'
+            ]
+          },
+          {
+            type: 'steps',
+            title: '📈 Semana 4 – Crescimento Financeiro',
+            items: [
+              'Dia 22\n• Como começar a investir\n• Conceitos básicos para iniciantes\n• Erros comuns dos iniciantes',
+              'Dia 23\n• O poder dos juros compostos\n• Como o dinheiro cresce com o tempo\n• A importância da paciência',
+              'Dia 24\n• Como definir metas de riqueza\n• Planejamento financeiro de longo prazo\n• O caminho da liberdade financeira',
+              'Dia 25\n• Como criar um plano financeiro\n• O que fazer com renda extra\n• Estratégias de crescimento',
+              'Dia 26\n• Livros que mudam a relação com dinheiro\n• Aprendizados financeiros importantes\n• Como continuar aprendendo',
+              'Dia 27\n• O que eu faria se estivesse começando do zero\n• Plano para os próximos 12 meses\n• Como acelerar resultados',
+              'Dia 28\n• Top erros financeiros\n• Top hábitos financeiros\n• Top lições do canal',
+              'Dia 29\n• Resumo do mês\n• Resultados alcançados\n• Próximos objetivos',
+              'Dia 30\n• Motivação financeira\n• Como continuar evoluindo\n• Convite para acompanhar o canal'
+            ]
+          },
+          {
+            type: 'tips',
+            title: '📋 Sugestão de Bio Profissional',
+            items: [
+              '💰 Finanças Pessoais para Iniciantes\n📈 Aprenda a economizar e crescer\n🎯 Rumo à liberdade financeira\n🚀 Vídeos novos todos os dias'
+            ]
+          },
+          {
+            type: 'info',
+            title: '👑 Nome que Recomendo',
+            items: [
+              'Dinheiro Inteligente\n\nÉ simples, profissional, fácil de lembrar e combina com TikTok, Instagram, YouTube e Facebook.'
+            ]
+          }
+        ]
       }
     ]
   },
@@ -12808,236 +12823,125 @@ export const APP_CONTENT_PT: SectionContent[] = [
           }
         ]
       },
-      {
+            {
         id: 'nicho_marketing_digital_marketing',
-        title: '🚀 Guia Completo: Como Dominar o Nicho de Marketing Digital',
+        title: '🔥 Estratégias Consolidadas para Marketing Digital',
         content: [
-          'O nicho de Marketing Digital continua extremamente forte e promissor em 2026. Milhões de pessoas buscam diariamente aprender a vender online, gerar faturamentos pela internet, criar conteúdos atrativos do zero ou prestar serviços profissionais como freelancer.',
+          'O Marketing Digital se apresenta como uma excelente disciplina profissional no panorama contemporâneo de negócios.',
+          'Empresas, comércios locais, influenciadores e prestadores de serviços de todos os setores precisam continuamente de soluções focadas em captação de clientes, copywriting, tráfego e mídia visual.',
           {
             type: 'info',
-            title: '🎯 Principais Subnichos do Marketing Digital para Dominar',
+            title: 'Subnichos Estratégicos com Elevada Demanda Comercial',
             items: [
-              '• Marketing de Afiliados: Como se afiliar e vender produtos físicos e infoprodutos online usando plataformas consolidadas como Hotmart, Kiwify, entre outras, sem precisar ter produto próprio.',
-              '• Ganhar Dinheiro Online & Renda Extra: Métodos práticos para prestar serviços freelancer iniciantes, gerar renda residual, realizar microtarefas estratégicas e fundar pequenos negócios digitais.',
-              '• Redes Sociais e Viralização: Estratégias táticas de captação e crescimento veloz no TikTok, Instagram Reels e YouTube Shorts explorando a entrega orgânica inteligente dos dias de hoje.',
-              '• Inteligência Artificial Aplicada a Negócios: Como dominar ferramentas modernas de IA, automatizar tarefas operacionais e acelerar em escala astronômica a criação de postagens, fotos e vídeos.',
-              '• Criação de Infoprodutos Autorais: Como projetar, cadastrar e vender e-books de nicho, cursos rápidos, newsletters por assinatura ou pequenos utilitários e templates digitais.'
+              'Marketing de Afiliação: Intermediação qualificada de infoprodutos com foco em campanhas de tráfego orgânico ou patrocinado.',
+              'Consolidação de Redes Sociais: Técnicas de postagem que aumentam a taxa de compartilhamento das marcas comerciais.',
+              'Automação com IA: Elaboração ágil de copys, cronogramas editoriais completos e imagens de alta qualidade.',
+              'Formatos de Infoprodutos: Criação e venda de e-books práticos e cursos objetivos focados em resolver dores de mercado.'
             ]
           },
           {
             type: 'steps',
-            title: '✨ Idéias de Nomes Criativos para a Nova Conta',
+            title: 'Marcas Criativas para seu Canal de Marketing',
             items: [
-              '• Nomes em Estilo Amigável e Direto: Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet, Jornada Digital.',
-              '• Nomes em Estilo mais Técnico e Corporativo: Digital Growth Academy, Next Level Marketing, Digital Expert Hub, Growth Masters, Online Business Lab, Marketing Vision, Digital Success Hub, Future Marketer.'
-            ]
-          },
-          {
-            type: 'steps',
-            title: '✍️ 3 Modelos de Bios Otimizadas de Elevada Conversão',
-            items: [
-              '• Bio Opção 1: "🚀 Marketing Digital para iniciantes | 💰 Renda online e afiliados | 📈 Dicas diárias de crescimento!"',
-              '• Bio Opção 2: "🔥 Aprenda a vender na internet | 💡 Conteúdo simples e prático | 🎯 Transforme conhecimento em renda!"',
-              '• Bio Opção 3: " 📲 Marketing Digital do zero | 🚀 Estratégias que funcionam | 💰 Aprenda e aplique!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '🎬 10 Ideias Prontas de Vídeo de Alto Engajamento Orgânico',
-            items: [
-              '• 01. 3 excelentes formas testadas para ganhar dinheiro online em 2026.',
-              '• 02. Como estruturar passo a passo a sua primeira venda autêntica como afiliado.',
-              '• 03. Os erros frequentes e cruciais que fazem iniciante desistir logo no primeiro mês.',
-              '• 04. Softwares e ferramentas 100% gratuitas indispensáveis para Marketing Digital.',
-              '• 05. O guia passo a passo definitivo para você crescer o seu perfil no TikTok saindo do absoluto zero.',
-              '• 06. Como projetar e criar o seu primeiríssimo produto digital sem investir nada.',
-              '• 07. Afinal de contas, quanto ganha em média de comissão um afiliado atuante hoje.',
-              '• 08. O que realmente é o tráfego orgânico e por que ele é perfeito para quem começa sem orçamento.',
-              '• 09. Como aproveitar de Inteligência Artificial para gerar roteiros e postagens diárias de forma automática.',
-              '• 10. Manual prático de quatro etapas rápidas para começar a trabalhar de casa usando apenas a internet.'
+              'Digital Sem Limites, Império Digital, Renda Online Pro, Mestre do Marketing, Negócio Digital 360, Marketing Milionário, Universo Digital, Academia Digital, Dinheiro na Internet ou Jornada Digital.'
             ]
           },
           {
             type: 'tips',
-            title: '💡 Minha Recomendação Otimizada de Sucesso',
+            title: 'Dicas de Sucesso para Posicionamento Inicial',
             items: [
-              '• Como você quer decolar em resultados reais começando do zero absoluto e no celular, foque estrategicamente nesta combinação de ouro: "Marketing Digital + Ganhar Dinheiro Online + Inteligência Artificial".',
-              '• Por que este conjunto é simplesmente excepcional? Esses três tópicos unidos possuem uma busca diária astronômica, são fáceis de se criar roteiros cativantes sem precisar aparecer nas telas e permitem dar asas à sua imaginação sem ficar sem novas ideias de postagem diária.',
-              '  - Exemplo Recomendado de Atributos do Canal:',
-              '    - Nome Sugerido: "Renda Digital IA"',
-              '    - Bio Estruturada: "🚀 Ganhe dinheiro online | 🤖 IA + Marketing Digital | 💰 Dicas práticas todos os dias!"'
+              'Canal Escolhido: Digital Sem Limites. Bio: Marketing digital simplificado de forma prática. Conteúdo novo e focado em decolar marcas e negócios.',
+              'Priorize a demonstração rápida de execução nos primeiros segundos do vídeo para prender a atenção.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'marketing_digital_opcoes_nomes_bios_marketing',
-        title: '🔥 Marketing Digital: +50 Nomes, 20 Bios e Ideias de Conteúdo',
+        title: '🔥 50 Nomes, Bios e Ideias de Conteúdo para Marketing Digital',
         content: [
-          'Se o seu nicho será o Marketing Digital, ter variedade de referências ajuda muito na criação da sua marca pessoal ou página faceless. Preparamos uma lista estendida com mais 50 nomes, 20 bios, usernames e ideias práticas!',
+          'Para atuar no marketing digital profissional, as redes do seu canal devem transmitir autoridade imediata e clareza de propósito.',
+          'A escolha de títulos sucintos e fáceis de lembrar maximiza a taxa de retorno de visitantes de forma substancial.',
           {
             type: 'info',
-            title: '🔥 50 Sugestões de Nomes para Canal de Marketing Digital',
+            title: '50 Nomes Categorizados para Canais de Marketing',
             items: [
-              '• 💼 Profissionais de Negócios: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
-              '• ⚡ Modernos e De Conexão: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
-              '• 💰 Focados em Ganhar Dinheiro: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
-              '• 🎯 Curtos, Memoráveis e de Alta Força: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
+              'Estilo de Autoridade: Digital Elite, Marketing Expert, Mundo do Marketing, Academia Digital, Mestre do Digital, Negócio Online Pro, Digital Vision, Império Digital, Digital Estratégico, Marketing sem Limites.',
+              'Estilo Moderno: Digital Next, Viral Digital, Click Milionário, Renda Digital, Marketing Turbo, Escala Digital, Rota Digital, Digital Power, Market Flow, Digital Factory.',
+              'Estilo Renda: Dinheiro Online Hoje, Renda Sem Fronteiras, Fábrica de Renda, Lucro Digital, Máquina de Vendas, Segredo Digital, Internet Lucrativa, Dinheiro Inteligente, Renda Extra Digital, Negócio Rentável.',
+              'Estilo Curto: DigiMax, MarketPro, ClickUp, ViralPro, DigiFlow, GrowthBR, DigiHub, MarketLab, ClickMaster, ScaleUp.'
             ]
           },
           {
             type: 'steps',
-            title: '🚀 20 Bios Prontas e Impactantes para TikTok, Reels e Shorts (Escolha a sua)',
+            title: 'Cinco Modelos de Bios Prontas de Alta Performance',
             items: [
-              '• Bio 1: "💰 Marketing Digital do Zero | 🚀 Aprenda a vender online | 📈 Conteúdo novo todos os dias!"',
-              '• Bio 2: "🔥 Transforme conhecimento em renda | 📱 Marketing Digital simples | 💡 Dicas práticas diariamente!"',
-              '• Bio 3: "🚀 Crescimento nas redes sociais | 💰 Renda online | 🎯 Estratégias táticas para iniciantes!"',
-              '• Bio 4: "📈 Marketing Digital | 🤖 Ferramentas de IA | 💸 Ganhar dinheiro online no celular!"',
-              '• Bio 5: "🔥 Aprende habilidades digitais | 📲 Trabalhe de qualquer lugar pela internet | 🚀 Evolua todos os dias!"',
-              '• Bio 6: "💡 Marketing sem complicação | 📈 Cresça online de verdade | 💰 Construa sua renda digital!"',
-              '• Bio 7: "🚀 Conteúdo focado para empreendedores | 💰 Marketing Digital | 📚 Aprenda e aplique!"',
-              '• Bio 8: "📲 Dicas de vendas online rápidas | 🔥 Estratégias inteligentes de crescimento | 💸 Monetização digital!"',
-              '• Bio 9: "💰 Em busca de liberdade financeira | 📈 Marketing Digital | 🚀 Resultados e consistência real!"',
-              '• Bio 10: "🤖 IA + Marketing Digital | 📲 Conteúdo útil e dinâmico diário | 💡 Aprenda algo novo hoje!"',
-              '• Bio 11: "✨ Seu guia de marketing online | 🎯 Prático, direto e focado em vendas | 📈 Suba de nível!"',
-              '• Bio 12: "💸 Renda extra real na internet | 📱 Segredos de tráfego e conversão | 🧭 Comece do zero!"',
-              '• Bio 13: "🚀 Turbonegre os seus resultados | 💡 Dicas e truques de copy persuasiva | 🔥 Siga e evolua!"',
-              '• Bio 14: "🔥 Do zero ao primeiro infoproduto | 📦 Ebooks, afiliados e IA | 📈 Estratégias diárias!"',
-              '• Bio 15: "🤖 O futuro das vendas online com IA | 🚀 Ferramentas gratuitas diárias | 💡 Conteúdo simples!"',
-              '• Bio 16: "📈 Tráfego orgânico sem segredos | 💡 Vídeos curtos de alta retenção | 💰 Comece hoje!"',
-              '• Bio 17: "🔥 Mentalidade, marketing e faturamento | 🚀 Dicas diárias sem enrolação | 👇 Clique e saiba mais!"',
-              '• Bio 18: "📱 Freelance e renda online pelo celular | 💡 Ferramentas gratuitas essenciais | 📈 Siga já!"',
-              '• Bio 19: "🎯 Do zero aos resultados digitais | 💸 Estrutura simples de vendas | 🚀 Desafio de 30 dias!"',
-              '• Bio 20: "💡 Ideias inteligentes de negócios | 🤖 Ferramentas inovadoras de IA | 📈 Evolua sua mente!"'
+              'Aprenda marketing digital a partir do absoluto zero. Dicas práticas de tráfego, copywriting e vendas.',
+              'Estratégias simplificadas de conversão para decolar de forma rápida, honesta e estruturada.',
+              'Descubra as táticas comerciais que geram vendas consistentes em canais de infoprodutos.',
+              'O caminho do tráfego orgânico à comissão de afiliado. Métodos explicados de forma direta.',
+              'Seu portal de empreendedorismo. Dicas e ferramentas modernas do mercado digital para aplicar hoje.'
             ]
           },
           {
             type: 'steps',
-            title: '📌 Ideias de Usernames Disponíveis para se Inspirar',
+            title: 'Sugestões de Temas com Elevada Atração Orgânica',
             items: [
-              '• @MarketingDoZero, @DigitalSemLimites, @AcademiaDigital, @RendaOnlinePro, @ImpérioDigital, @MundoDoMarketing, @ClickMilionario, @MarketingTurbo, @DigitalVision, @RendaDigitalIA.'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Conteúdos Fundamentais que Você Pode Postar',
-            items: [
-              '• Como estruturar e fazer a sua primeiríssima venda online de forma rápida.',
-              '• Indicação de ferramentas inovadoras e gratuitas de IA para usar no celular.',
-              '• Sites confiáveis com cadastros abertos para freelancers iniciantes.',
-              '• O passo a passo completo de como planejar, criar e hospedar um e-book de nicho.',
-              '• Como trabalhar e ganhar dinheiro de forma constante com marketing de afiliados.',
-              '• Principais erros cometidos por quem começa no marketing digital e como evitá-los.',
-              '• Táticas e ganchos inteligentes de alta retenção para crescer no TikTok do zero.',
-              '• Como estruturar uma página de vendas persuasiva focada em conversão.',
-              '• Como vender no Instagram, TikTok e YouTube sem precisar aparecer (Modelo Faceless).',
-              '• Ideias práticas e detalhadas de pequenos negócios digitais para iniciantes.'
+              'Como decolar e estruturar a sua primeira venda como afiliado principiante de modo rápido.',
+              'As mais eficientes integrações gratuitas para qualificar contatos e leads comerciais.',
+              'Guia para prestar consultoria de mídias de forma simples a pequenos estabelecimentos locais.',
+              'Os principais erros estruturais que prejudicam o alcance orgânico dos seus vídeos curtos.',
+              'Como monitorar e encontrar tópicos em alta navegando de forma estratégica no mercado.',
+              'O modelo ideal de escrita persuasiva para engajar visualizadores de maneira sincera.'
             ]
           },
           {
             type: 'tips',
-            title: '⚡ Combinação Altamente Lucrativa e Forte para 2026',
+            title: 'Recomendação Recomendada para Começar',
             items: [
-              '• Nome do Canal Sugerido: "Digital Sem Limites"',
-              '• Bio Otimizada: "🚀 Marketing Digital do Zero | 💰 Renda Online e Afiliados | 🤖 IA para produtividade | 📈 Conteúdo diário e prático"',
-              '• Vantagem desse Posicionamento: Permite falar livremente sobre marketing digital geral, vendas de afiliados, utilidades de Inteligência Artificial, trabalhos de freelancing e renda extra no mesmo canal sem ficar engessado ou preso a um tema único e limitado!'
+              'Nome recomendado: Digital Sem Limites. Bio recomendada: Marketing digital do zero. Renda online, ferramentas modernas de IA e tráfego orgânico reunidos em dicas práticas diárias.'
             ]
           }
         ]
       },
-      {
+            {
         id: 'nicho_freelancer_guia_completo_marketing',
-        title: '💼 Guia do Freelancer: +30 Ideias, Nomes e Bios Prontas',
+        title: '💻 Guia Técnico Definitivo do Freelancer Independente',
         content: [
-          'O nicho de Freelancer está em crescimento constante porque milhões de pessoas buscam diariamente formas legítimas de obter renda online usando apenas um celular ou computador pessoal, sem depender de empregos tradicionais.',
+          'A prestação de serviços online independentes representa uma forma ágil e de alta conversão para monetizar competências digitais no mercado global.',
+          'Qualquer pessoa com acesso à internet pode atuar atendendo demandas comerciais básicas de tratamento de layouts, copywriting ou suporte estruturado para múltiplos clientes.',
           {
             type: 'info',
-            title: '📋 Sugestões de Nomes de Sucesso para Seu Canal Freelancer',
+            title: 'Linha Direcionadora para Atração do Público-Alvo',
             items: [
-              '• Estilo Profissional: Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global, Academia Freelancer.',
-              '• Estilo Moderno / Internacional: Freelance Hub, Digital Freelancer, Freelance Pro, Work Online BR, Freelancer Master, Next Freelancer, Freelance Vision, Smart Freelancer, Freedom Freelancer, Freelancer Elite.',
-              '• Estilo Curto e Prático para Redes: FreelanX, FreelanPro, WorkFlex, DigiFreela, FreelaTop, FreelaMax, FreelaUp, FreelaGO, FreelaNow, FreelaBox.'
+              'Dicas de plataformas idôneas e portais de contratação profissional em regimes fechados ou abertos.',
+              'Como projetar uma proposta de serviço clara, bem delimitada e profissional para fechar contratos rápidos.',
+              'Erros cruciais que diminuem suas avaliações de propostas e como contorná-los com segurança.',
+              'Utilização de assistentes inteligentes para agilizar a criação, revisão e entrega rápida de posts industriais.',
+              'Como formatar precificações acessíveis em pacotes mensais que atraem pequenos comerciantes locais.'
             ]
           },
           {
             type: 'steps',
-            title: '✍️ 4 Modelos de Bios Magnéticas para Redes Sociais',
+            title: 'Marcas Simples para Posicionamento como Freelancer',
             items: [
-              '• Bio Modelo 1: "💻 Freelancer do Zero | 📈 Dicas para ganhar online | 🚀 Trabalhe de qualquer lugar!"',
-              '• Bio Modelo 2: "🌍 Trabalho Online | 💰 Renda Extra e Freelancer | 📚 Aprenda todos os dias!"',
-              '• Bio Modelo 3: "🚀 Transformando iniciantes em freelancers | 💻 Sites, clientes e renda online | 📍 Conteúdo diário e útil!"',
-              '• Bio Modelo 4: "💰 Ganhe dinheiro pela internet | 📱 Apenas celular e internet | 🔥 Freelancer para iniciantes!"'
-            ]
-          },
-          {
-            type: 'info',
-            title: '📌 Linhas Editoriais: O que Você Deve Postar no Canal',
-            items: [
-              '• Divulgação didática de plataformas legítimas para freelancers iniciantes.',
-              '• Roteiros e táticas inteligentes de como abordar e fechar o primeiro cliente.',
-              '• Alertas sobre erros bobos que fazem freelancers iniciantes perderem dinheiro.',
-              '• Pequenos trabalhos e microtarefas digitais que não exigem nenhuma experiência prévia.',
-              '• Tutoriais rápidos de como otimizar e criar um perfil profissional irresistível.',
-              '• Transparência de resultados: quanto realmente ganha e cobra um freelancer.',
-              '• Principais ferramentas gratuitas de Inteligência Artificial para acelerar entregas.',
-              '• Como prestar serviços e receber pagamentos de clientes internacionais em dólar.',
-              '• Alertas e dicas essenciais de como evitar fraudes ou golpes na internet.'
+              'Freelancer do Zero, Renda Freelancer, Universo Freelancer, Freelancer Lucrativo, Jornada Freelancer, Mestre Freelancer, Freelancer Inteligente, Vida de Freelancer, Freelancer Global ou Academia Freelancer.'
             ]
           },
           {
             type: 'steps',
-            title: '🎬 30 Ideias de Vídeos Virais Prontos para Gravar',
+            title: 'Modelos de Bios de Alta Conversão para o Perfil',
             items: [
-              '• 01. 3 sites seguros que pagam freelancers iniciantes pontualmente.',
-              '• 02. Como faturar os seus primeiros 500 MT online com tarefas simples do dia.',
-              '• 03. Trabalhos online que pagam bem e exigem zero experiência prévia de mercado.',
-              '• 04. O erro bobo e crucial que quase me fez perder clientes importantes.',
-              '• 05. Como estruturar uma descrição e perfil de portfólio irresistível.',
-              '• 06. 5 habilidades digitais fáceis que mais vão vender serviços em 2026.',
-              '• 07. Como trabalhar de casa prestando serviços para o mundo inteiro.',
-              '• 08. O passo a passo simples de como receber pagamentos internacionais de forma segura.',
-              '• 09. Descubra qual é o melhor e mais bem pago subnicho freelancer hoje.',
-              '• 10. Ferramentas totalmente gratuitas que facilitam o dia a dia do trabalho freelance.',
-              '• 11. Como usar ferramentas de IA de forma ética para entregar trabalhos três vezes mais rápido.',
-              '• 12. 3 caminhos comprovados para começar a ganhar faturamentos reais em dólar.',
-              '• 13. Afinal de contas, quanto deve cobrar um freelancer totalmente iniciante por peça?',
-              '• 14. Melhores portais e sites confiáveis recomendados para microtarefas rápidas.',
-              '• 15. Como captar excelentes clientes usando o poder de vídeos do TikTok.',
-              '• 16. Estratégia de atração de marcas utilizando grupos relevantes no Facebook.',
-              '• 17. Como criar e vender designs incríveis sem saber desenhar do zero absoluto.',
-              '• 18. Como escrever textos persuasivos e artigos interessantes para marcas corporativas.',
-              '• 19. O que você deve obrigatoriamente realizar e aprender nos primeiros 30 dias.',
-              '• 20. Comparação sincera: Freelancer independente vs Emprego CLT tradicional.',
-              '• 21. Como escrever mensagens e propostas comerciais altamente vencedoras para clientes.',
-              '• 22. O grande segredo por trás dos freelancers profissionais que faturam alto todos os meses.',
-              '• 23. Top 5 nichos mais lucrativos e promissores para prestar serviços no computador.',
-              '• 24. Trabalhos online leves para executar usando somente a tela do seu celular.',
-              '• 25. Como estruturar um portfólio visual excelente mesmo sem ter tido nenhum cliente anterior.',
-              '• 26. O ranking do melhor site internacional de freelancing para cadastrar iniciantes hoje.',
-              '• 27. Métodos práticos para identificar e fugir de fraudes ou propostas suspeitas na web.',
-              '• 28. Como valorizar sua imagem profissional e subir de forma justa os seus preços de serviço.',
-              '• 29. Táticas de abordagem fria para atrair e fechar com clientes no exterior.',
-              '• 30. Afinal, qual é o teto máximo de quanto um freelancer focado consegue ganhar por mês?'
+              'Aprenda como decolar seu portfólio de freelancer a partir do zero absoluto. Métodos profissionais e dicas práticas diárias.',
+              'Trabalho online prático. Como usar a sua internet para prestar serviços simples de forma remota.',
+              'Sua jornada de freelancer independente começou de graça. Métodos e ferramentas essenciais explicados para iniciantes.'
             ]
           },
           {
             type: 'tips',
-            title: '📅 Minha Recomendação Ouro de Consistência e Alta Retenção',
+            title: 'Recomendação Estratégica Completa para Resultados Rápidos',
             items: [
-              '• Durante os primeiros 30 dias seguidos, sem falhar nenhuma data, publique rigorosamente 3 vídeos por dia no seguinte padrão equilibrado:',
-              '  - 1 vídeo contendo uma dica útil ultrarrápida de freelancer.',
-              '  - 1 vídeo contando uma história motivacional inspiradora sobre o mundo digital.',
-              '  - 1 vídeo tutorial dinâmico na tela mostrando por dentro um site ou utilitário prático.',
-              '• Essa variedade saudável mantém as suas chances de impulsionamento e crescimento orgânico no ápice máximo!'
-            ]
-          },
-          {
-            type: 'tips',
-            title: '💎 Recomendação Pronta de Posicionamento para você decolar',
-            items: [
-              '• Nome do Canal: "Freelancer do Zero"',
-              '• Bio Otimizada: "💻 Aprenda Freelancer do Zero | 🌍 Trabalhe para clientes do mundo inteiro | 💰 Dicas diárias de renda online | 🚀 Conteúdo novo todos os dias!"',
-              '• Por que este é o posicionamento definitivo? Ele atrai uma audiência altamente qualificada, gera uma conexão sincera com os desejos do público iniciante e dá uma tremenda flexibilidade para seus temas cotidianos.'
+              'Canal Sugerido: Freelancer do Zero. Bio Sugerida: Aprenda a atuar como freelancer do absoluto zero. Dicas de faturamento remoto recebendo em moeda forte com passos descomplicados.'
             ]
           }
         ]
